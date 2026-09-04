@@ -23,7 +23,29 @@
    "Agricultural Innovations and Practices"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Gender, Technology and Development",
+   "sjr": 0.513,
+   "quartil": "Q2",
+   "h_index": 37.0,
+   "areas": "Social Sciences",
+   "categorias": "Development (Q2); Gender Studies (Q2)",
+   "quartis_por_area": {
+    "Development": "Q2",
+    " Gender Studies": "Q2"
+   },
+   "editora": "Routledge",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 11590.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.71,
+   "overton": 0.0,
+   "cobertura": "1997-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S143744812": {
   "id": "https://openalex.org/S143744812",
@@ -48,7 +70,29 @@
    "Energetic Materials and Combustion"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Aerospace Technology and Management",
+   "sjr": 0.323,
+   "quartil": "Q2",
+   "h_index": 31.0,
+   "areas": "Engineering",
+   "categorias": "Computational Mechanics (Q2); Aerospace Engineering (Q3)",
+   "quartis_por_area": {
+    "Computational Mechanics": "Q2",
+    " Aerospace Engineering": "Q3"
+   },
+   "editora": "Departamento de Ciencia e Tecnologia Aeroespacial",
+   "pais": "Brazil",
+   "regiao": "Latin America",
+   "rank": 16407.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 1.44,
+   "overton": 0.0,
+   "cobertura": "2009-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S117574551": {
   "id": "https://openalex.org/S117574551",
@@ -73,7 +117,29 @@
    "Nanocomposite Films for Food Packaging"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Postharvest Technology and Innovation",
+   "sjr": 0.143,
+   "quartil": "Q4",
+   "h_index": 15.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Agronomy and Crop Science (Q4); Food Science (Q4)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q4",
+    " Food Science": "Q4"
+   },
+   "editora": "Inderscience Enterprises Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 25934.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 0.29,
+   "overton": 0.0,
+   "cobertura": "2006, 2008-2017, 2019-2025"
+  },
+  "tier": "Q4"
  },
  "https://openalex.org/S116775814": {
   "id": "https://openalex.org/S116775814",
@@ -98,7 +164,32 @@
    "Spectroscopy and Chemometric Analyses"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Computers and Electronics in Agriculture",
+   "sjr": 2.165,
+   "quartil": "Q1",
+   "h_index": 209.0,
+   "areas": "Agricultural and Biological Sciences; Computer Science",
+   "categorias": "Agronomy and Crop Science (Q1); Animal Science and Zoology (Q1); Computer Science Applications (Q1); Forestry (Q1); Horticulture (Q1)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q1",
+    " Animal Science and Zoology": "Q1",
+    " Computer Science Applications": "Q1",
+    " Forestry": "Q1",
+    " Horticulture": "Q1"
+   },
+   "editora": "Elsevier B.V.",
+   "pais": "Netherlands",
+   "regiao": "Western Europe",
+   "rank": 1235.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 12.02,
+   "overton": 2.0,
+   "cobertura": "1985-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S10134376": {
   "id": "https://openalex.org/S10134376",
@@ -122,7 +213,34 @@
    "Sustainable Supply Chain Management"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Sustainability (Switzerland)",
+   "sjr": 0.75,
+   "quartil": "Q1",
+   "h_index": 242.0,
+   "areas": "Computer Science; Energy; Environmental Science; Social Sciences",
+   "categorias": "Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)",
+   "quartis_por_area": {
+    "Geography, Planning and Development": "Q1",
+    " Computer Networks and Communications": "Q2",
+    " Energy Engineering and Power Technology": "Q2",
+    " ": "Q2",
+    " Hardware and Architecture": "Q2",
+    " Management, Monitoring, Policy and Law": "Q2",
+    " Renewable Energy, Sustainability and the Environment": "Q2"
+   },
+   "editora": "Multidisciplinary Digital Publishing Institute (MDPI)",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 7554.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 5.28,
+   "overton": 53.0,
+   "cobertura": "2009-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S11973042": {
   "id": "https://openalex.org/S11973042",
@@ -147,7 +265,9 @@
    "Genetics and Plant Breeding"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S149838422": {
   "id": "https://openalex.org/S149838422",
@@ -172,7 +292,30 @@
    "Supply Chain Resilience and Risk Management"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Value Chain Management",
+   "sjr": 0.18,
+   "quartil": "Q4",
+   "h_index": 20.0,
+   "areas": "Business, Management and Accounting; Computer Science",
+   "categorias": "Computer Science Applications (Q4); Information Systems (Q4); Strategy and Management (Q4)",
+   "quartis_por_area": {
+    "Computer Science Applications": "Q4",
+    " Information Systems": "Q4",
+    " Strategy and Management": "Q4"
+   },
+   "editora": "Inderscience Enterprises Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 23271.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 0.7,
+   "overton": 0.0,
+   "cobertura": "2006-2014, 2016-2025"
+  },
+  "tier": "Q4"
  },
  "https://openalex.org/S151747869": {
   "id": "https://openalex.org/S151747869",
@@ -197,7 +340,29 @@
    "Microbial Inactivation Methods"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Food Process Engineering",
+   "sjr": 0.581,
+   "quartil": "Q2",
+   "h_index": 73.0,
+   "areas": "Agricultural and Biological Sciences; Chemical Engineering",
+   "categorias": "Chemical Engineering (miscellaneous) (Q2); Food Science (Q2)",
+   "quartis_por_area": {
+    " ": "Q2",
+    " Food Science": "Q2"
+   },
+   "editora": "Wiley-Blackwell",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 10190.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 3.84,
+   "overton": 1.0,
+   "cobertura": "1977-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S15239247": {
   "id": "https://openalex.org/S15239247",
@@ -222,7 +387,30 @@
    "Air Quality and Health Impacts"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Environmental Research and Public Health",
+   "sjr": 0.927,
+   "quartil": "Q1",
+   "h_index": 256.0,
+   "areas": "Environmental Science; Medicine",
+   "categorias": "Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)",
+   "quartis_por_area": {
+    "Public Health, Environmental and Occupational Health": "Q1",
+    " Health, Toxicology and Mutagenesis": "Q2",
+    " Pollution": "Q2"
+   },
+   "editora": "Multidisciplinary Digital Publishing Institute (MDPI)",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 5527.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 4.17,
+   "overton": 19.0,
+   "cobertura": "2004-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S152623109": {
   "id": "https://openalex.org/S152623109",
@@ -249,7 +437,29 @@
    "Web and Library Services"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Data Technologies and Applications",
+   "sjr": 0.438,
+   "quartil": "Q2",
+   "h_index": 40.0,
+   "areas": "Computer Science; Social Sciences",
+   "categorias": "Information Systems (Q2); Library and Information Sciences (Q2)",
+   "quartis_por_area": {
+    "Information Systems": "Q2",
+    " Library and Information Sciences": "Q2"
+   },
+   "editora": "Emerald Publishing",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 13271.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 2.56,
+   "overton": 0.0,
+   "cobertura": "2018-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S155209994": {
   "id": "https://openalex.org/S155209994",
@@ -274,7 +484,30 @@
    "Environmental Sustainability in Business"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Environment, Development and Sustainability",
+   "sjr": 0.972,
+   "quartil": "Q1",
+   "h_index": 112.0,
+   "areas": "Economics, Econometrics and Finance; Environmental Science; Social Sciences",
+   "categorias": "Geography, Planning and Development (Q1); Economics and Econometrics (Q2); Management, Monitoring, Policy and Law (Q2)",
+   "quartis_por_area": {
+    "Geography, Planning and Development": "Q1",
+    " Economics and Econometrics": "Q2",
+    " Management, Monitoring, Policy and Law": "Q2"
+   },
+   "editora": "Springer Science and Business Media B.V.",
+   "pais": "Netherlands",
+   "regiao": "Western Europe",
+   "rank": 5122.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 6.28,
+   "overton": 31.0,
+   "cobertura": "1999-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S158730009": {
   "id": "https://openalex.org/S158730009",
@@ -301,7 +534,30 @@
    "Insect Pest Control Strategies"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Plant Diseases and Protection",
+   "sjr": 0.559,
+   "quartil": "Q1",
+   "h_index": 47.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Horticulture (Q1); Agronomy and Crop Science (Q2); Plant Science (Q2)",
+   "quartis_por_area": {
+    "Horticulture": "Q1",
+    " Agronomy and Crop Science": "Q2",
+    " Plant Science": "Q2"
+   },
+   "editora": "Springer Science and Business Media Deutschland GmbH",
+   "pais": "Germany",
+   "regiao": "Western Europe",
+   "rank": 10600.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 3.07,
+   "overton": 1.0,
+   "cobertura": "2006-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S159637997": {
   "id": "https://openalex.org/S159637997",
@@ -326,7 +582,32 @@
    "Transportation and Mobility Innovations"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Transportation Research Part A: Policy and Practice",
+   "sjr": 1.843,
+   "quartil": "Q1",
+   "h_index": 199.0,
+   "areas": "Business, Management and Accounting; Decision Sciences; Engineering; Social Sciences",
+   "categorias": "Aerospace Engineering (Q1); Business, Management and Accounting (miscellaneous) (Q1); Civil and Structural Engineering (Q1); Management Science and Operations Research (Q1); Transportation (Q1)",
+   "quartis_por_area": {
+    "Aerospace Engineering": "Q1",
+    " ": "Q1",
+    " Civil and Structural Engineering": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Transportation": "Q1"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1667.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 7.75,
+   "overton": 9.0,
+   "cobertura": "1992-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S161676133": {
   "id": "https://openalex.org/S161676133",
@@ -351,7 +632,29 @@
    "Biological Control of Invasive Species"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Biological Control",
+   "sjr": 0.829,
+   "quartil": "Q1",
+   "h_index": 136.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Agronomy and Crop Science (Q1); Insect Science (Q1)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q1",
+    " Insect Science": "Q1"
+   },
+   "editora": "Academic Press Inc.",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 6548.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 4.11,
+   "overton": 2.0,
+   "cobertura": "1991-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S169454776": {
   "id": "https://openalex.org/S169454776",
@@ -377,7 +680,32 @@
    "Meat and Animal Product Quality"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "European Food Research and Technology",
+   "sjr": 0.692,
+   "quartil": "Q1",
+   "h_index": 136.0,
+   "areas": "Agricultural and Biological Sciences; Biochemistry, Genetics and Molecular Biology; Chemistry; Engineering",
+   "categorias": "Industrial and Manufacturing Engineering (Q1); Biochemistry (Q2); Biotechnology (Q2); Chemistry (miscellaneous) (Q2); Food Science (Q2)",
+   "quartis_por_area": {
+    "Industrial and Manufacturing Engineering": "Q1",
+    " Biochemistry": "Q2",
+    " Biotechnology": "Q2",
+    " ": "Q2",
+    " Food Science": "Q2"
+   },
+   "editora": "Springer Science and Business Media Deutschland GmbH",
+   "pais": "Germany",
+   "regiao": "Western Europe",
+   "rank": 8358.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 4.85,
+   "overton": 1.0,
+   "cobertura": "1996-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S173966628": {
   "id": "https://openalex.org/S173966628",
@@ -402,7 +730,31 @@
    "Transportation and Mobility Innovations"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Transportation Research Part E: Logistics and Transportation Review",
+   "sjr": 2.332,
+   "quartil": "Q1",
+   "h_index": 170.0,
+   "areas": "Business, Management and Accounting; Decision Sciences; Engineering; Social Sciences",
+   "categorias": "Business and International Management (Q1); Civil and Structural Engineering (Q1); Management Science and Operations Research (Q1); Transportation (Q1)",
+   "quartis_por_area": {
+    "Business and International Management": "Q1",
+    " Civil and Structural Engineering": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Transportation": "Q1"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1084.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 10.77,
+   "overton": 1.0,
+   "cobertura": "1997-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S180041405": {
   "id": "https://openalex.org/S180041405",
@@ -429,7 +781,29 @@
    "Agronomic Practices and Intercropping Systems"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Vegetable Science",
+   "sjr": 0.318,
+   "quartil": "Q3",
+   "h_index": 31.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Agronomy and Crop Science (Q3); Plant Science (Q3)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q3",
+    " Plant Science": "Q3"
+   },
+   "editora": "Taylor and Francis Ltd.",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 16583.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.49,
+   "overton": 0.0,
+   "cobertura": "2007-2026"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S183232449": {
   "id": "https://openalex.org/S183232449",
@@ -454,7 +828,33 @@
    "Digital Platforms and Economics"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Industrial Organization",
+   "sjr": 1.449,
+   "quartil": "Q1",
+   "h_index": 100.0,
+   "areas": "Business, Management and Accounting; Economics, Econometrics and Finance; Engineering",
+   "categorias": "Aerospace Engineering (Q1); Economics and Econometrics (Q1); Economics, Econometrics and Finance (miscellaneous) (Q1); Industrial and Manufacturing Engineering (Q1); Industrial Relations (Q1); Strategy and Management (Q1)",
+   "quartis_por_area": {
+    "Aerospace Engineering": "Q1",
+    " Economics and Econometrics": "Q1",
+    " ": "Q1",
+    " Industrial and Manufacturing Engineering": "Q1",
+    " Industrial Relations": "Q1",
+    " Strategy and Management": "Q1"
+   },
+   "editora": "Elsevier Inc.",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 2584.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 2.04,
+   "overton": 9.0,
+   "cobertura": "1983-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S186558940": {
   "id": "https://openalex.org/S186558940",
@@ -479,7 +879,30 @@
    "Transportation and Mobility Innovations"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Transport Policy",
+   "sjr": 1.435,
+   "quartil": "Q1",
+   "h_index": 144.0,
+   "areas": "Social Sciences",
+   "categorias": "Geography, Planning and Development (Q1); Law (Q1); Transportation (Q1)",
+   "quartis_por_area": {
+    "Geography, Planning and Development": "Q1",
+    " Law": "Q1",
+    " Transportation": "Q1"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 2632.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 6.85,
+   "overton": 9.0,
+   "cobertura": "1993-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S19383905": {
   "id": "https://openalex.org/S19383905",
@@ -504,7 +927,31 @@
    "Microfinance and Financial Inclusion"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Agricultural Finance Review",
+   "sjr": 0.463,
+   "quartil": "Q2",
+   "h_index": 41.0,
+   "areas": "Agricultural and Biological Sciences; Business, Management and Accounting; Economics, Econometrics and Finance",
+   "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q2); Economics and Econometrics (Q2); Economics, Econometrics and Finance (miscellaneous) (Q2); Finance (Q2); Strategy and Management (Q2)",
+   "quartis_por_area": {
+    " ": "Q2",
+    " Economics and Econometrics": "Q2",
+    " Finance": "Q2",
+    " Strategy and Management": "Q2"
+   },
+   "editora": "Emerald Publishing",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 12704.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 2.66,
+   "overton": 0.0,
+   "cobertura": "1980, 2000-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S196734849": {
   "id": "https://openalex.org/S196734849",
@@ -528,7 +975,28 @@
    "Gut microbiota and health"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Scientific Reports",
+   "sjr": 0.893,
+   "quartil": "Q1",
+   "h_index": 382.0,
+   "areas": "Multidisciplinary",
+   "categorias": "Multidisciplinary (Q1)",
+   "quartis_por_area": {
+    "Multidisciplinary": "Q1"
+   },
+   "editora": "Nature Research",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 5846.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 5.01,
+   "overton": 122.0,
+   "cobertura": "2011-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S205793605": {
   "id": "https://openalex.org/S205793605",
@@ -553,7 +1021,31 @@
    "Corporate Social Responsibility Reporting"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Business Strategy and the Environment",
+   "sjr": 3.678,
+   "quartil": "Q1",
+   "h_index": 199.0,
+   "areas": "Business, Management and Accounting; Environmental Science; Social Sciences",
+   "categorias": "Business and International Management (Q1); Geography, Planning and Development (Q1); Management, Monitoring, Policy and Law (Q1); Strategy and Management (Q1)",
+   "quartis_por_area": {
+    "Business and International Management": "Q1",
+    " Geography, Planning and Development": "Q1",
+    " Management, Monitoring, Policy and Law": "Q1",
+    " Strategy and Management": "Q1"
+   },
+   "editora": "John Wiley and Sons Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 504.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 19.04,
+   "overton": 11.0,
+   "cobertura": "1992-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S199825796": {
   "id": "https://openalex.org/S199825796",
@@ -578,7 +1070,28 @@
    "Agricultural Engineering and Mechanization"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Applied Engineering in Agriculture",
+   "sjr": 0.287,
+   "quartil": "Q3",
+   "h_index": 69.0,
+   "areas": "Engineering",
+   "categorias": "Engineering (miscellaneous) (Q3)",
+   "quartis_por_area": {
+    " ": "Q3"
+   },
+   "editora": "American Society of Agricultural and Biological Engineers",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 17661.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.44,
+   "overton": 0.0,
+   "cobertura": "1985-2026"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S2736865700": {
   "id": "https://openalex.org/S2736865700",
@@ -602,7 +1115,31 @@
    "Agricultural Innovations and Practices"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Food and Energy Security",
+   "sjr": 1.072,
+   "quartil": "Q1",
+   "h_index": 55.0,
+   "areas": "Agricultural and Biological Sciences; Energy",
+   "categorias": "Agronomy and Crop Science (Q1); Food Science (Q1); Forestry (Q1); Renewable Energy, Sustainability and the Environment (Q2)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q1",
+    " Food Science": "Q1",
+    " Forestry": "Q1",
+    " Renewable Energy, Sustainability and the Environment": "Q2"
+   },
+   "editora": "Wiley-Blackwell Publishing Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 4368.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 6.63,
+   "overton": 4.0,
+   "cobertura": "2012-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S2737542012": {
   "id": "https://openalex.org/S2737542012",
@@ -626,7 +1163,9 @@
    "Soil Management and Crop Yield"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S2737822813": {
   "id": "https://openalex.org/S2737822813",
@@ -651,7 +1190,9 @@
    "Urban Transport and Accessibility"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S2764562560": {
   "id": "https://openalex.org/S2764562560",
@@ -676,7 +1217,28 @@
    "Rice Cultivation and Yield Improvement"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Agricultural Science Digest",
+   "sjr": 0.244,
+   "quartil": "Q3",
+   "h_index": 10.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q3)",
+   "quartis_por_area": {
+    " ": "Q3"
+   },
+   "editora": "Agricultural Research Communication Centre",
+   "pais": "India",
+   "regiao": "Asiatic Region",
+   "rank": 19522.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.0,
+   "overton": 0.0,
+   "cobertura": "2019-2025"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S2764681313": {
   "id": "https://openalex.org/S2764681313",
@@ -700,7 +1262,9 @@
    "African Botany and Ecology Studies"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S2764696622": {
   "id": "https://openalex.org/S2764696622",
@@ -726,7 +1290,26 @@
    "Particle accelerators and beam dynamics"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "AIP Conference Proceedings",
+   "sjr": 0.146,
+   "quartil": "-",
+   "h_index": 96.0,
+   "areas": "Physics and Astronomy",
+   "categorias": "Physics and Astronomy (miscellaneous)",
+   "quartis_por_area": {},
+   "editora": "American Institute of Physics",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 25706.0,
+   "tipo": "conference and proceedings",
+   "open_access": "No",
+   "citacoes_doc_2a": 0.37,
+   "overton": 1.0,
+   "cobertura": "1972-2026"
+  },
+  "tier": "-"
  },
  "https://openalex.org/S2764749963": {
   "id": "https://openalex.org/S2764749963",
@@ -750,7 +1333,31 @@
    "Environmental Sustainability in Business"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Sustainable Production and Consumption",
+   "sjr": 2.359,
+   "quartil": "Q1",
+   "h_index": 116.0,
+   "areas": "Energy; Engineering; Environmental Science",
+   "categorias": "Environmental Chemistry (Q1); Environmental Engineering (Q1); Industrial and Manufacturing Engineering (Q1); Renewable Energy, Sustainability and the Environment (Q1)",
+   "quartis_por_area": {
+    "Environmental Chemistry": "Q1",
+    " Environmental Engineering": "Q1",
+    " Industrial and Manufacturing Engineering": "Q1",
+    " Renewable Energy, Sustainability and the Environment": "Q1"
+   },
+   "editora": "Elsevier B.V.",
+   "pais": "Netherlands",
+   "regiao": "Western Europe",
+   "rank": 1067.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 11.26,
+   "overton": 4.0,
+   "cobertura": "2015-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S2764731291": {
   "id": "https://openalex.org/S2764731291",
@@ -775,7 +1382,9 @@
    "Rice Cultivation and Yield Improvement"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S2764637833": {
   "id": "https://openalex.org/S2764637833",
@@ -799,7 +1408,29 @@
    "Agricultural risk and resilience"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Cogent Food and Agriculture",
+   "sjr": 0.555,
+   "quartil": "Q2",
+   "h_index": 61.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q2); Food Science (Q2)",
+   "quartis_por_area": {
+    " ": "Q2",
+    " Food Science": "Q2"
+   },
+   "editora": "Informa Healthcare",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 10685.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 3.67,
+   "overton": 3.0,
+   "cobertura": "2015-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S2764779785": {
   "id": "https://openalex.org/S2764779785",
@@ -824,7 +1455,33 @@
    "Transportation Planning and Optimization"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Research in Transportation Business and Management",
+   "sjr": 1.014,
+   "quartil": "Q1",
+   "h_index": 65.0,
+   "areas": "Business, Management and Accounting; Decision Sciences; Economics, Econometrics and Finance; Social Sciences",
+   "categorias": "Business and International Management (Q1); Decision Sciences (miscellaneous) (Q1); Economics, Econometrics and Finance (miscellaneous) (Q1); Management Science and Operations Research (Q1); Strategy and Management (Q1); Tourism, Leisure and Hospitality Management (Q1); Transportation (Q2)",
+   "quartis_por_area": {
+    "Business and International Management": "Q1",
+    " ": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Strategy and Management": "Q1",
+    " Tourism, Leisure and Hospitality Management": "Q1",
+    " Transportation": "Q2"
+   },
+   "editora": "Elsevier B.V.",
+   "pais": "Netherlands",
+   "regiao": "Western Europe",
+   "rank": 4805.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 5.62,
+   "overton": 1.0,
+   "cobertura": "2011-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S2764816705": {
   "id": "https://openalex.org/S2764816705",
@@ -849,7 +1506,28 @@
    "Animal Disease Management and Epidemiology"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Agriculture and Biosciences",
+   "sjr": 0.397,
+   "quartil": "Q2",
+   "h_index": 19.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q2)",
+   "quartis_por_area": {
+    " ": "Q2"
+   },
+   "editora": "Unique Scientific Publishers",
+   "pais": "Pakistan",
+   "regiao": "Asiatic Region",
+   "rank": 14274.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 4.5,
+   "overton": 0.0,
+   "cobertura": "2022-2025"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S2764873327": {
   "id": "https://openalex.org/S2764873327",
@@ -874,7 +1552,30 @@
    "Smart Agriculture and AI"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "INMATEH - Agricultural Engineering",
+   "sjr": 0.192,
+   "quartil": "Q3",
+   "h_index": 19.0,
+   "areas": "Agricultural and Biological Sciences; Engineering",
+   "categorias": "Industrial and Manufacturing Engineering (Q3); Food Science (Q4); Mechanical Engineering (Q4)",
+   "quartis_por_area": {
+    "Industrial and Manufacturing Engineering": "Q3",
+    " Food Science": "Q4",
+    " Mechanical Engineering": "Q4"
+   },
+   "editora": "INMA Bucharest",
+   "pais": "Romania",
+   "regiao": "Eastern Europe",
+   "rank": 22422.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 0.85,
+   "overton": 0.0,
+   "cobertura": "2012-2025"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S2764888454": {
   "id": "https://openalex.org/S2764888454",
@@ -899,7 +1600,30 @@
    "Optimization and Variational Analysis"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of the Operations Research Society of China",
+   "sjr": 0.421,
+   "quartil": "Q2",
+   "h_index": 25.0,
+   "areas": "Decision Sciences; Mathematics",
+   "categorias": "Applied Mathematics (Q2); Mathematics (miscellaneous) (Q2); Management Science and Operations Research (Q3)",
+   "quartis_por_area": {
+    "Applied Mathematics": "Q2",
+    " ": "Q2",
+    " Management Science and Operations Research": "Q3"
+   },
+   "editora": "Springer International Publishing",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 13668.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.25,
+   "overton": 0.0,
+   "cobertura": "2013-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S2765030195": {
   "id": "https://openalex.org/S2765030195",
@@ -923,7 +1647,28 @@
    "Meat and Animal Product Quality"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Food Research Journal",
+   "sjr": 0.299,
+   "quartil": "Q3",
+   "h_index": 79.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Food Science (Q3)",
+   "quartis_por_area": {
+    "Food Science": "Q3"
+   },
+   "editora": "Universiti Putra Malaysia",
+   "pais": "Malaysia",
+   "regiao": "Asiatic Region",
+   "rank": 17234.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 1.31,
+   "overton": 0.0,
+   "cobertura": "2007-2025, 2027"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S2898237991": {
   "id": "https://openalex.org/S2898237991",
@@ -948,7 +1693,29 @@
    "Transport and Economic Policies"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Economics of Transportation",
+   "sjr": 0.692,
+   "quartil": "Q1",
+   "h_index": 33.0,
+   "areas": "Economics, Econometrics and Finance; Social Sciences",
+   "categorias": "Economics, Econometrics and Finance (miscellaneous) (Q1); Transportation (Q2)",
+   "quartis_por_area": {
+    " ": "Q1",
+    " Transportation": "Q2"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 8357.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 3.23,
+   "overton": 1.0,
+   "cobertura": "2012-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S31748134": {
   "id": "https://openalex.org/S31748134",
@@ -973,7 +1740,28 @@
    "Business Strategy and Innovation"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Industrial Marketing Management",
+   "sjr": 2.851,
+   "quartil": "Q1",
+   "h_index": 199.0,
+   "areas": "Business, Management and Accounting",
+   "categorias": "Marketing (Q1)",
+   "quartis_por_area": {
+    "Marketing": "Q1"
+   },
+   "editora": "Elsevier Inc.",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 779.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 8.77,
+   "overton": 0.0,
+   "cobertura": "1971-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4210170043": {
   "id": "https://openalex.org/S4210170043",
@@ -998,7 +1786,32 @@
    "Environmental Sustainability in Business"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Environmental Footprints and Eco-Design of Products and Processes",
+   "sjr": 0.133,
+   "quartil": "Q4",
+   "h_index": 23.0,
+   "areas": "Energy; Engineering; Environmental Science",
+   "categorias": "Industrial and Manufacturing Engineering (Q4); Management, Monitoring, Policy and Law (Q4); Renewable Energy, Sustainability and the Environment (Q4); Waste Management and Disposal (Q4); Water Science and Technology (Q4)",
+   "quartis_por_area": {
+    "Industrial and Manufacturing Engineering": "Q4",
+    " Management, Monitoring, Policy and Law": "Q4",
+    " Renewable Energy, Sustainability and the Environment": "Q4",
+    " Waste Management and Disposal": "Q4",
+    " Water Science and Technology": "Q4"
+   },
+   "editora": "Springer International Publishing",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 26949.0,
+   "tipo": "book series",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.07,
+   "overton": 0.0,
+   "cobertura": "2015-2026"
+  },
+  "tier": "Q4"
  },
  "https://openalex.org/S4210171608": {
   "id": "https://openalex.org/S4210171608",
@@ -1023,7 +1836,30 @@
    "Air Traffic Management and Optimization"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Sustainable Aviation",
+   "sjr": 0.235,
+   "quartil": "Q3",
+   "h_index": 4.0,
+   "areas": "Engineering; Environmental Science",
+   "categorias": "Automotive Engineering (Q3); Environmental Engineering (Q3); Mechanical Engineering (Q3)",
+   "quartis_por_area": {
+    "Automotive Engineering": "Q3",
+    " Environmental Engineering": "Q3",
+    " Mechanical Engineering": "Q3"
+   },
+   "editora": "Inderscience Publishers",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 19983.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.18,
+   "overton": 0.0,
+   "cobertura": "2023-2025"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S4210172589": {
   "id": "https://openalex.org/S4210172589",
@@ -1047,7 +1883,9 @@
    "Banking stability, regulation, efficiency"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S37096616": {
   "id": "https://openalex.org/S37096616",
@@ -1072,7 +1910,30 @@
    "Power System Optimization and Stability"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Electric Power Components and Systems",
+   "sjr": 0.396,
+   "quartil": "Q2",
+   "h_index": 70.0,
+   "areas": "Energy; Engineering",
+   "categorias": "Mechanical Engineering (Q2); Electrical and Electronic Engineering (Q3); Energy Engineering and Power Technology (Q3)",
+   "quartis_por_area": {
+    "Mechanical Engineering": "Q2",
+    " Electrical and Electronic Engineering": "Q3",
+    " Energy Engineering and Power Technology": "Q3"
+   },
+   "editora": "Taylor and Francis Ltd.",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 14298.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 2.76,
+   "overton": 0.0,
+   "cobertura": "2000-2024"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S4210179043": {
   "id": "https://openalex.org/S4210179043",
@@ -1096,7 +1957,30 @@
    "Sustainable Supply Chain Management"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Discover Sustainability",
+   "sjr": 0.815,
+   "quartil": "Q1",
+   "h_index": 33.0,
+   "areas": "Energy; Environmental Science; Social Sciences",
+   "categorias": "Geography, Planning and Development (Q1); Energy (miscellaneous) (Q2); Environmental Science (miscellaneous) (Q2); Renewable Energy, Sustainability and the Environment (Q2)",
+   "quartis_por_area": {
+    "Geography, Planning and Development": "Q1",
+    " ": "Q2",
+    " Renewable Energy, Sustainability and the Environment": "Q2"
+   },
+   "editora": "Springer Nature",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 6713.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 6.71,
+   "overton": 17.0,
+   "cobertura": "2020-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4210179641": {
   "id": "https://openalex.org/S4210179641",
@@ -1121,7 +2005,9 @@
    "Advanced Malware Detection Techniques"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4210180919": {
   "id": "https://openalex.org/S4210180919",
@@ -1145,7 +2031,32 @@
    "Energy, Environment, Economic Growth"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Sustainable Operations and Computers",
+   "sjr": 2.47,
+   "quartil": "Q1",
+   "h_index": 32.0,
+   "areas": "Computer Science; Decision Sciences; Energy; Engineering; Environmental Science",
+   "categorias": "Computer Science Applications (Q1); Global and Planetary Change (Q1); Industrial and Manufacturing Engineering (Q1); Management Science and Operations Research (Q1); Renewable Energy, Sustainability and the Environment (Q1)",
+   "quartis_por_area": {
+    "Computer Science Applications": "Q1",
+    " Global and Planetary Change": "Q1",
+    " Industrial and Manufacturing Engineering": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Renewable Energy, Sustainability and the Environment": "Q1"
+   },
+   "editora": "KeAi Communications Co.",
+   "pais": "China",
+   "regiao": "Asiatic Region",
+   "rank": 994.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 9.05,
+   "overton": 0.0,
+   "cobertura": "2020-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4210183068": {
   "id": "https://openalex.org/S4210183068",
@@ -1170,7 +2081,9 @@
    "Linguistic, Cultural, and Literary Studies"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4210186093": {
   "id": "https://openalex.org/S4210186093",
@@ -1195,7 +2108,26 @@
    "Engineering and Environmental Studies"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "E3S Web of Conferences",
+   "sjr": 0.195,
+   "quartil": "-",
+   "h_index": 52.0,
+   "areas": "Earth and Planetary Sciences; Energy; Environmental Science",
+   "categorias": "Earth and Planetary Sciences (miscellaneous); Energy (miscellaneous); Environmental Science (miscellaneous)",
+   "quartis_por_area": {},
+   "editora": "EDP Sciences",
+   "pais": "France",
+   "regiao": "Western Europe",
+   "rank": 22284.0,
+   "tipo": "conference and proceedings",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 0.73,
+   "overton": 1.0,
+   "cobertura": "2013-2026"
+  },
+  "tier": "-"
  },
  "https://openalex.org/S4210195883": {
   "id": "https://openalex.org/S4210195883",
@@ -1220,7 +2152,26 @@
    "Food Industry and Aquatic Biology"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "IOP Conference Series: Earth and Environmental Science",
+   "sjr": 0.22,
+   "quartil": "-",
+   "h_index": 66.0,
+   "areas": "Earth and Planetary Sciences; Environmental Science; Physics and Astronomy",
+   "categorias": "Earth and Planetary Sciences (miscellaneous); Environmental Science (miscellaneous); Physics and Astronomy (miscellaneous)",
+   "quartis_por_area": {},
+   "editora": "Institute of Physics",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 20770.0,
+   "tipo": "conference and proceedings",
+   "open_access": "No",
+   "citacoes_doc_2a": 0.79,
+   "overton": 4.0,
+   "cobertura": "2008-2026"
+  },
+  "tier": "-"
  },
  "https://openalex.org/S4210202585": {
   "id": "https://openalex.org/S4210202585",
@@ -1244,7 +2195,30 @@
    "Soil Mechanics and Vehicle Dynamics"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Agriculture (Switzerland)",
+   "sjr": 0.767,
+   "quartil": "Q1",
+   "h_index": 108.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Agronomy and Crop Science (Q1); Food Science (Q1); Plant Science (Q1)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q1",
+    " Food Science": "Q1",
+    " Plant Science": "Q1"
+   },
+   "editora": "Multidisciplinary Digital Publishing Institute (MDPI)",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 7320.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 5.09,
+   "overton": 12.0,
+   "cobertura": "2011-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4210202797": {
   "id": "https://openalex.org/S4210202797",
@@ -1269,7 +2243,9 @@
    "Educational Methods and Teacher Development"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4210205812": {
   "id": "https://openalex.org/S4210205812",
@@ -1293,7 +2269,32 @@
    "Geotechnical Engineering and Underground Structures"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Applied Sciences (Switzerland)",
+   "sjr": 0.555,
+   "quartil": "Q2",
+   "h_index": 197.0,
+   "areas": "Chemical Engineering; Computer Science; Engineering; Materials Science; Physics and Astronomy",
+   "categorias": "Computer Science Applications (Q2); Engineering (miscellaneous) (Q2); Fluid Flow and Transfer Processes (Q2); Instrumentation (Q2); Materials Science (miscellaneous) (Q2); Process Chemistry and Technology (Q3)",
+   "quartis_por_area": {
+    "Computer Science Applications": "Q2",
+    " ": "Q2",
+    " Fluid Flow and Transfer Processes": "Q2",
+    " Instrumentation": "Q2",
+    " Process Chemistry and Technology": "Q3"
+   },
+   "editora": "Multidisciplinary Digital Publishing Institute (MDPI)",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 10684.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 3.62,
+   "overton": 9.0,
+   "cobertura": "2011-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S4210212157": {
   "id": "https://openalex.org/S4210212157",
@@ -1317,7 +2318,33 @@
    "Organic Food and Agriculture"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Frontiers in Sustainable Food Systems",
+   "sjr": 0.768,
+   "quartil": "Q1",
+   "h_index": 87.0,
+   "areas": "Agricultural and Biological Sciences; Environmental Science",
+   "categorias": "Agronomy and Crop Science (Q1); Ecology (Q1); Food Science (Q1); Horticulture (Q1); Global and Planetary Change (Q2); Management, Monitoring, Policy and Law (Q2)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q1",
+    " Ecology": "Q1",
+    " Food Science": "Q1",
+    " Horticulture": "Q1",
+    " Global and Planetary Change": "Q2",
+    " Management, Monitoring, Policy and Law": "Q2"
+   },
+   "editora": "Frontiers Media SA",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 7307.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 4.33,
+   "overton": 16.0,
+   "cobertura": "2017-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4210199075": {
   "id": "https://openalex.org/S4210199075",
@@ -1341,7 +2368,29 @@
    "Phase Change Materials Research"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Energy Storage",
+   "sjr": 0.595,
+   "quartil": "Q2",
+   "h_index": 28.0,
+   "areas": "Energy",
+   "categorias": "Energy Engineering and Power Technology (Q2); Renewable Energy, Sustainability and the Environment (Q2)",
+   "quartis_por_area": {
+    "Energy Engineering and Power Technology": "Q2",
+    " Renewable Energy, Sustainability and the Environment": "Q2"
+   },
+   "editora": "John Wiley and Sons Inc",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 9949.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 4.59,
+   "overton": 1.0,
+   "cobertura": "2019-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S4210220883": {
   "id": "https://openalex.org/S4210220883",
@@ -1366,7 +2415,9 @@
    "Animal Nutrition and Health"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4210221880": {
   "id": "https://openalex.org/S4210221880",
@@ -1390,7 +2441,28 @@
    "Geological and Geochemical Analysis"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Communications Earth and Environment",
+   "sjr": 3.168,
+   "quartil": "Q1",
+   "h_index": 75.0,
+   "areas": "Earth and Planetary Sciences; Environmental Science",
+   "categorias": "Earth and Planetary Sciences (miscellaneous) (Q1); Environmental Science (miscellaneous) (Q1)",
+   "quartis_por_area": {
+    " ": "Q1"
+   },
+   "editora": "Springer Nature",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 653.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 8.8,
+   "overton": 38.0,
+   "cobertura": "2020-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4210225043": {
   "id": "https://openalex.org/S4210225043",
@@ -1415,7 +2487,9 @@
    "Global Trade and Competitiveness"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4210230100": {
   "id": "https://openalex.org/S4210230100",
@@ -1439,7 +2513,34 @@
    "Transportation and Mobility Innovations"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Transportation Research Interdisciplinary Perspectives",
+   "sjr": 1.039,
+   "quartil": "Q1",
+   "h_index": 68.0,
+   "areas": "Decision Sciences; Engineering; Environmental Science; Social Sciences",
+   "categorias": "Automotive Engineering (Q1); Civil and Structural Engineering (Q1); Environmental Science (miscellaneous) (Q1); Geography, Planning and Development (Q1); Management Science and Operations Research (Q1); Urban Studies (Q1); Transportation (Q2)",
+   "quartis_por_area": {
+    "Automotive Engineering": "Q1",
+    " Civil and Structural Engineering": "Q1",
+    " ": "Q1",
+    " Geography, Planning and Development": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Urban Studies": "Q1",
+    " Transportation": "Q2"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 4598.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 5.69,
+   "overton": 3.0,
+   "cobertura": "2019-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4210231410": {
   "id": "https://openalex.org/S4210231410",
@@ -1464,7 +2565,30 @@
    "Agriculture, Soil, Plant Science"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Biosystems Engineering",
+   "sjr": 0.466,
+   "quartil": "Q2",
+   "h_index": 19.0,
+   "areas": "Agricultural and Biological Sciences; Computer Science; Engineering",
+   "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q2); Engineering (miscellaneous) (Q2); Mechanical Engineering (Q2); Computer Science Applications (Q3)",
+   "quartis_por_area": {
+    " ": "Q2",
+    " Mechanical Engineering": "Q2",
+    " Computer Science Applications": "Q3"
+   },
+   "editora": "Springer Science and Business Media Deutschland GmbH",
+   "pais": "Germany",
+   "regiao": "Western Europe",
+   "rank": 12648.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 2.91,
+   "overton": 0.0,
+   "cobertura": "2016, 2019-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S4210233438": {
   "id": "https://openalex.org/S4210233438",
@@ -1488,7 +2612,9 @@
    "Linguistic, Cultural, and Literary Studies"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4210234216": {
   "id": "https://openalex.org/S4210234216",
@@ -1513,7 +2639,9 @@
    "Heavy metals in environment"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4210240776": {
   "id": "https://openalex.org/S4210240776",
@@ -1538,7 +2666,32 @@
    "Agronomic Practices and Intercropping Systems"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Advances in Agriculture",
+   "sjr": 0.558,
+   "quartil": "Q1",
+   "h_index": 28.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Animal Science and Zoology (Q1); Agricultural and Biological Sciences (miscellaneous) (Q2); Agronomy and Crop Science (Q2); Food Science (Q2); Soil Science (Q2)",
+   "quartis_por_area": {
+    "Animal Science and Zoology": "Q1",
+    " ": "Q2",
+    " Agronomy and Crop Science": "Q2",
+    " Food Science": "Q2",
+    " Soil Science": "Q2"
+   },
+   "editora": "John Wiley and Sons Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 10616.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 4.53,
+   "overton": 2.0,
+   "cobertura": "2014-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S42468459": {
   "id": "https://openalex.org/S42468459",
@@ -1563,7 +2716,28 @@
    "Digital Marketing and Social Media"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Marketing Theory and Practice",
+   "sjr": 1.743,
+   "quartil": "Q1",
+   "h_index": 68.0,
+   "areas": "Business, Management and Accounting",
+   "categorias": "Marketing (Q1)",
+   "quartis_por_area": {
+    "Marketing": "Q1"
+   },
+   "editora": "Routledge",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1859.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 10.04,
+   "overton": 0.0,
+   "cobertura": "1995, 1999-2000, 2002, 2005-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4306400194": {
   "id": "https://openalex.org/S4306400194",
@@ -1587,7 +2761,9 @@
    "Black Holes and Theoretical Physics"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4306401518": {
   "id": "https://openalex.org/S4306401518",
@@ -1609,7 +2785,9 @@
    "Mycorrhizal Fungi and Plant Interactions"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4306401271": {
   "id": "https://openalex.org/S4306401271",
@@ -1631,7 +2809,9 @@
    "Global Financial Crisis and Policies"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4306501120": {
   "id": "https://openalex.org/S4306501120",
@@ -1653,7 +2833,9 @@
    "Aerodynamics and Acoustics in Jet Flows"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4306531060": {
   "id": "https://openalex.org/S4306531060",
@@ -1678,7 +2860,9 @@
    "Polish socio-economic development"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4387283849": {
   "id": "https://openalex.org/S4387283849",
@@ -1702,7 +2886,30 @@
    "Energy, Environment, and Transportation Policies"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Innovation and Green Development",
+   "sjr": 2.355,
+   "quartil": "Q1",
+   "h_index": 40.0,
+   "areas": "Business, Management and Accounting; Decision Sciences; Energy",
+   "categorias": "Management of Technology and Innovation (Q1); Management Science and Operations Research (Q1); Renewable Energy, Sustainability and the Environment (Q1)",
+   "quartis_por_area": {
+    "Management of Technology and Innovation": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Renewable Energy, Sustainability and the Environment": "Q1"
+   },
+   "editora": "Elsevier B.V.",
+   "pais": "Netherlands",
+   "regiao": "Western Europe",
+   "rank": 1069.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 18.56,
+   "overton": 0.0,
+   "cobertura": "2022-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4387286453": {
   "id": "https://openalex.org/S4387286453",
@@ -1726,7 +2933,9 @@
    "Corporate Finance and Governance"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4387289958": {
   "id": "https://openalex.org/S4387289958",
@@ -1750,7 +2959,28 @@
    "Transportation Planning and Optimization"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of the Air Transport Research Society",
+   "sjr": 1.393,
+   "quartil": "Q1",
+   "h_index": 13.0,
+   "areas": "Social Sciences",
+   "categorias": "Transportation (Q1)",
+   "quartis_por_area": {
+    "Transportation": "Q1"
+   },
+   "editora": "Elsevier B.V.",
+   "pais": "Netherlands",
+   "regiao": "Western Europe",
+   "rank": 2786.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 7.82,
+   "overton": 0.0,
+   "cobertura": "2024-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S4387287060": {
   "id": "https://openalex.org/S4387287060",
@@ -1774,7 +3004,28 @@
    "Technology-Enhanced Education Studies"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Hong Kong Journal of Social Sciences",
+   "sjr": 0.122,
+   "quartil": "Q4",
+   "h_index": 2.0,
+   "areas": "Social Sciences",
+   "categorias": "Social Sciences (miscellaneous) (Q4)",
+   "quartis_por_area": {
+    " ": "Q4"
+   },
+   "editora": "City University of Hong Kong Press",
+   "pais": "Hong Kong",
+   "regiao": "Asiatic Region",
+   "rank": 28070.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 0.0,
+   "overton": 0.0,
+   "cobertura": "2010-2014, 2016-2022"
+  },
+  "tier": "Q4"
  },
  "https://openalex.org/S4389157608": {
   "id": "https://openalex.org/S4389157608",
@@ -1798,7 +3049,9 @@
    "Job Satisfaction and Organizational Behavior"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S4685533": {
   "id": "https://openalex.org/S4685533",
@@ -1823,7 +3076,9 @@
    "Agricultural Innovations and Practices"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S48254654": {
   "id": "https://openalex.org/S48254654",
@@ -1848,7 +3103,30 @@
    "Financial Markets and Investment Strategies"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Business Finance and Accounting",
+   "sjr": 1.202,
+   "quartil": "Q1",
+   "h_index": 102.0,
+   "areas": "Business, Management and Accounting; Economics, Econometrics and Finance",
+   "categorias": "Accounting (Q1); Business, Management and Accounting (miscellaneous) (Q1); Finance (Q1)",
+   "quartis_por_area": {
+    "Accounting": "Q1",
+    " ": "Q1",
+    " Finance": "Q1"
+   },
+   "editora": "Wiley-Blackwell Publishing Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 3624.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 3.81,
+   "overton": 1.0,
+   "cobertura": "1974-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S5407050711": {
   "id": "https://openalex.org/S5407050711",
@@ -1872,7 +3150,9 @@
    "Organic Food and Agriculture"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S55420515": {
   "id": "https://openalex.org/S55420515",
@@ -1897,7 +3177,29 @@
    "Horticultural and Viticultural Research"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Horticultural Science and Biotechnology",
+   "sjr": 0.45,
+   "quartil": "Q2",
+   "h_index": 75.0,
+   "areas": "Agricultural and Biological Sciences; Biochemistry, Genetics and Molecular Biology",
+   "categorias": "Horticulture (Q2); Genetics (Q3)",
+   "quartis_por_area": {
+    "Horticulture": "Q2",
+    " Genetics": "Q3"
+   },
+   "editora": "Taylor and Francis Ltd.",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 13011.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 2.68,
+   "overton": 1.0,
+   "cobertura": "1996-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S64511102": {
   "id": "https://openalex.org/S64511102",
@@ -1922,7 +3224,32 @@
    "Traffic Prediction and Management Techniques"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Transportation Research Part C: Emerging Technologies",
+   "sjr": 2.396,
+   "quartil": "Q1",
+   "h_index": 214.0,
+   "areas": "Computer Science; Decision Sciences; Engineering; Social Sciences",
+   "categorias": "Automotive Engineering (Q1); Civil and Structural Engineering (Q1); Computer Science Applications (Q1); Management Science and Operations Research (Q1); Transportation (Q1)",
+   "quartis_por_area": {
+    "Automotive Engineering": "Q1",
+    " Civil and Structural Engineering": "Q1",
+    " Computer Science Applications": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Transportation": "Q1"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1043.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 9.48,
+   "overton": 1.0,
+   "cobertura": "1993-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S6691161": {
   "id": "https://openalex.org/S6691161",
@@ -1947,7 +3274,29 @@
    "Insect Resistance and Genetics"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Tropical Insect Science",
+   "sjr": 0.362,
+   "quartil": "Q3",
+   "h_index": 41.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Ecology, Evolution, Behavior and Systematics (Q3); Insect Science (Q3)",
+   "quartis_por_area": {
+    "Ecology, Evolution, Behavior and Systematics": "Q3",
+    " Insect Science": "Q3"
+   },
+   "editora": "Springer Nature",
+   "pais": "Switzerland",
+   "regiao": "Western Europe",
+   "rank": 15251.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 1.5,
+   "overton": 0.0,
+   "cobertura": "1981, 1986, 1989, 1991-1993, 1995, 1998, 2004-2026"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S6772833": {
   "id": "https://openalex.org/S6772833",
@@ -1972,7 +3321,28 @@
    "Merger and Competition Analysis"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Review of Network Economics",
+   "sjr": 0.184,
+   "quartil": "Q4",
+   "h_index": 20.0,
+   "areas": "Economics, Econometrics and Finance",
+   "categorias": "Economics and Econometrics (Q4)",
+   "quartis_por_area": {
+    "Economics and Econometrics": "Q4"
+   },
+   "editora": "Walter de Gruyter GmbH",
+   "pais": "Germany",
+   "regiao": "Western Europe",
+   "rank": 23027.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 0.31,
+   "overton": 0.0,
+   "cobertura": "2010-2026"
+  },
+  "tier": "Q4"
  },
  "https://openalex.org/S68242086": {
   "id": "https://openalex.org/S68242086",
@@ -1998,7 +3368,29 @@
    "Transportation and Mobility Innovations"
   ],
   "tier_proxy": "T3",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Transportation Planning and Technology",
+   "sjr": 0.508,
+   "quartil": "Q2",
+   "h_index": 54.0,
+   "areas": "Social Sciences",
+   "categorias": "Geography, Planning and Development (Q2); Transportation (Q3)",
+   "quartis_por_area": {
+    "Geography, Planning and Development": "Q2",
+    " Transportation": "Q3"
+   },
+   "editora": "Taylor and Francis Ltd.",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 11717.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 2.72,
+   "overton": 2.0,
+   "cobertura": "1972-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S73449225": {
   "id": "https://openalex.org/S73449225",
@@ -2023,7 +3415,30 @@
    "Agricultural Innovations and Practices"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Food Security",
+   "sjr": 1.503,
+   "quartil": "Q1",
+   "h_index": 98.0,
+   "areas": "Agricultural and Biological Sciences; Social Sciences",
+   "categorias": "Agronomy and Crop Science (Q1); Development (Q1); Food Science (Q1)",
+   "quartis_por_area": {
+    "Agronomy and Crop Science": "Q1",
+    " Development": "Q1",
+    " Food Science": "Q1"
+   },
+   "editora": "Springer Science and Business Media B.V.",
+   "pais": "Netherlands",
+   "regiao": "Western Europe",
+   "rank": 2436.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 4.92,
+   "overton": 13.0,
+   "cobertura": "2009-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S7407057635": {
   "id": "https://openalex.org/S7407057635",
@@ -2047,7 +3462,9 @@
    "Agricultural Innovations and Practices"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+  "scimago": null,
+  "tier": "T4"
  },
  "https://openalex.org/S75515220": {
   "id": "https://openalex.org/S75515220",
@@ -2072,7 +3489,30 @@
    "Soil Management and Crop Yield"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Horticultura Brasileira",
+   "sjr": 0.281,
+   "quartil": "Q3",
+   "h_index": 32.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Horticulture (Q3); Plant Science (Q3); Soil Science (Q3)",
+   "quartis_por_area": {
+    "Horticulture": "Q3",
+    " Plant Science": "Q3",
+    " Soil Science": "Q3"
+   },
+   "editora": "Sociedade de Olericultura do Brasil",
+   "pais": "Brazil",
+   "regiao": "Latin America",
+   "rank": 17909.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 0.94,
+   "overton": 0.0,
+   "cobertura": "2007-2025"
+  },
+  "tier": "Q3"
  },
  "https://openalex.org/S80150607": {
   "id": "https://openalex.org/S80150607",
@@ -2097,7 +3537,30 @@
    "Urban and Freight Transport Logistics"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Transport Geography",
+   "sjr": 1.688,
+   "quartil": "Q1",
+   "h_index": 165.0,
+   "areas": "Environmental Science; Social Sciences",
+   "categorias": "Environmental Science (miscellaneous) (Q1); Geography, Planning and Development (Q1); Transportation (Q1)",
+   "quartis_por_area": {
+    " ": "Q1",
+    " Geography, Planning and Development": "Q1",
+    " Transportation": "Q1"
+   },
+   "editora": "Elsevier B.V.",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1975.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 7.38,
+   "overton": 5.0,
+   "cobertura": "1993-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S85680945": {
   "id": "https://openalex.org/S85680945",
@@ -2122,7 +3585,30 @@
    "Advanced oxidation water treatment"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "International Journal of Environmental Science and Technology",
+   "sjr": 0.767,
+   "quartil": "Q1",
+   "h_index": 118.0,
+   "areas": "Agricultural and Biological Sciences; Environmental Science",
+   "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q1); Environmental Chemistry (Q2); Environmental Engineering (Q2)",
+   "quartis_por_area": {
+    " ": "Q1",
+    " Environmental Chemistry": "Q2",
+    " Environmental Engineering": "Q2"
+   },
+   "editora": "",
+   "pais": "Germany",
+   "regiao": "Western Europe",
+   "rank": 7322.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 4.91,
+   "overton": 2.0,
+   "cobertura": "2004-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S89389284": {
   "id": "https://openalex.org/S89389284",
@@ -2147,7 +3633,28 @@
    "Digital Marketing and Social Media"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "European Journal of Marketing",
+   "sjr": 2.266,
+   "quartil": "Q1",
+   "h_index": 173.0,
+   "areas": "Business, Management and Accounting",
+   "categorias": "Marketing (Q1)",
+   "quartis_por_area": {
+    "Marketing": "Q1"
+   },
+   "editora": "Emerald Group Publishing Ltd.",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1137.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 8.37,
+   "overton": 0.0,
+   "cobertura": "1967-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S93284759": {
   "id": "https://openalex.org/S93284759",
@@ -2172,7 +3679,32 @@
    "Digital Marketing and Social Media"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Business Research",
+   "sjr": 3.498,
+   "quartil": "Q1",
+   "h_index": 322.0,
+   "areas": "Business, Management and Accounting",
+   "categorias": "Business and International Management (Q1); Management of Technology and Innovation (Q1); Marketing (Q1); Organizational Behavior and Human Resource Management (Q1); Strategy and Management (Q1)",
+   "quartis_por_area": {
+    "Business and International Management": "Q1",
+    " Management of Technology and Innovation": "Q1",
+    " Marketing": "Q1",
+    " Organizational Behavior and Human Resource Management": "Q1",
+    " Strategy and Management": "Q1"
+   },
+   "editora": "Elsevier Inc.",
+   "pais": "United States",
+   "regiao": "Northern America",
+   "rank": 550.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 15.01,
+   "overton": 9.0,
+   "cobertura": "1973-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S85016161": {
   "id": "https://openalex.org/S85016161",
@@ -2197,7 +3729,31 @@
    "Insect Resistance and Genetics"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Stored Products Research",
+   "sjr": 0.532,
+   "quartil": "Q1",
+   "h_index": 100.0,
+   "areas": "Agricultural and Biological Sciences",
+   "categorias": "Horticulture (Q1); Agronomy and Crop Science (Q2); Food Science (Q2); Insect Science (Q2)",
+   "quartis_por_area": {
+    "Horticulture": "Q1",
+    " Agronomy and Crop Science": "Q2",
+    " Food Science": "Q2",
+    " Insect Science": "Q2"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 11183.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 3.6,
+   "overton": 3.0,
+   "cobertura": "1965-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S96305778": {
   "id": "https://openalex.org/S96305778",
@@ -2222,7 +3778,30 @@
    "Transportation and Mobility Innovations"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Transportation Research Part B: Methodological",
+   "sjr": 2.07,
+   "quartil": "Q1",
+   "h_index": 194.0,
+   "areas": "Decision Sciences; Engineering; Social Sciences",
+   "categorias": "Civil and Structural Engineering (Q1); Management Science and Operations Research (Q1); Transportation (Q1)",
+   "quartis_por_area": {
+    "Civil and Structural Engineering": "Q1",
+    " Management Science and Operations Research": "Q1",
+    " Transportation": "Q1"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1340.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 6.74,
+   "overton": 0.0,
+   "cobertura": "1979-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S98026630": {
   "id": "https://openalex.org/S98026630",
@@ -2247,7 +3826,30 @@
    "Proteins in Food Systems"
   ],
   "tier_proxy": "T1",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Food Chemistry",
+   "sjr": 1.865,
+   "quartil": "Q1",
+   "h_index": 369.0,
+   "areas": "Agricultural and Biological Sciences; Chemistry; Medicine",
+   "categorias": "Analytical Chemistry (Q1); Food Science (Q1); Medicine (miscellaneous) (Q1)",
+   "quartis_por_area": {
+    "Analytical Chemistry": "Q1",
+    " Food Science": "Q1",
+    " ": "Q1"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 1646.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 12.12,
+   "overton": 3.0,
+   "cobertura": "1976-2026"
+  },
+  "tier": "Q1"
  },
  "https://openalex.org/S980556082": {
   "id": "https://openalex.org/S980556082",
@@ -2272,7 +3874,28 @@
    "Agricultural economics and policies"
   ],
   "tier_proxy": "T4",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Agricultural Economics (Czech Republic)",
+   "sjr": 0.389,
+   "quartil": "Q2",
+   "h_index": 38.0,
+   "areas": "Agricultural and Biological Sciences; Economics, Econometrics and Finance",
+   "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q2); Economics, Econometrics and Finance (miscellaneous) (Q2)",
+   "quartis_por_area": {
+    " ": "Q2"
+   },
+   "editora": "Czech Academy of Agricultural Sciences",
+   "pais": "Czech Republic",
+   "regiao": "Eastern Europe",
+   "rank": 14469.0,
+   "tipo": "journal",
+   "open_access": "Yes",
+   "citacoes_doc_2a": 1.97,
+   "overton": 0.0,
+   "cobertura": "2003-2004, 2007-2026"
+  },
+  "tier": "Q2"
  },
  "https://openalex.org/S99242495": {
   "id": "https://openalex.org/S99242495",
@@ -2297,6 +3920,30 @@
    "Transport and Economic Policies"
   ],
   "tier_proxy": "T2",
-  "tier_base": "openalex 2yr_mean_citedness"
+  "tier_base": "Scimago SJR Best Quartile",
+  "scimago": {
+   "titulo": "Journal of Air Transport Management",
+   "sjr": 1.088,
+   "quartil": "Q1",
+   "h_index": 107.0,
+   "areas": "Business, Management and Accounting; Environmental Science; Social Sciences",
+   "categorias": "Law (Q1); Management, Monitoring, Policy and Law (Q1); Strategy and Management (Q1); Transportation (Q1)",
+   "quartis_por_area": {
+    "Law": "Q1",
+    " Management, Monitoring, Policy and Law": "Q1",
+    " Strategy and Management": "Q1",
+    " Transportation": "Q1"
+   },
+   "editora": "Elsevier Ltd",
+   "pais": "United Kingdom",
+   "regiao": "Western Europe",
+   "rank": 4254.0,
+   "tipo": "journal",
+   "open_access": "No",
+   "citacoes_doc_2a": 5.68,
+   "overton": 1.0,
+   "cobertura": "1994-1995, 1997-2026"
+  },
+  "tier": "Q1"
  }
 }

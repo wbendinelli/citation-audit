@@ -53,9 +53,16 @@ for sid, m in JR.items():
         "h_index": num(row.get("H index")),
         "areas": (row.get("Areas") or "").strip(),
         "categorias": cats.strip(),
+        "quartis_por_area": dict(re.findall(r"([^;()]+?)\s*\((Q[1-4])\)", cats)),
         "editora": (row.get("Publisher") or "").strip(),
         "pais": (row.get("Country") or "").strip(),
+        "regiao": (row.get("Region") or "").strip(),
         "rank": num(row.get("Rank")),
+        "tipo": (row.get("Type") or "").strip(),
+        "open_access": (row.get("Open Access") or "").strip(),
+        "citacoes_doc_2a": num(row.get("Citations / Doc. (2years)")),
+        "overton": num(row.get("Overton")),   # citações em documento de política
+        "cobertura": (row.get("Coverage") or "").strip(),
     }
     m["tier"] = m["scimago"]["quartil"]        # tier oficial passa a valer
     m["tier_base"] = "Scimago SJR Best Quartile"

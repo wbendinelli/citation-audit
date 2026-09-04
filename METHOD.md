@@ -163,18 +163,25 @@ favoráveis do que sob o inventário completo**; e "editora estabelecida" é pro
 para relevância — um critério mais defensável seria indexação em Scopus ou Web of
 Science com quartil, se a análise final exigir.
 
-## Tier de periódico: proxy declarado, não quartil oficial
+## Tier de periódico: quartil Scimago oficial
 
 `data/journals.json` guarda, para cada um dos 93 periódicos citantes, os metadados do
 OpenAlex: ISSN-L, editora, país, tipo, acesso aberto, DOAJ, h-index, contagem de obras
 e `2yr_mean_citedness` (proxy de fator de impacto).
 
-O campo `tier_proxy` aplica cortes **declarados** sobre a citedness de 2 anos:
-T1 ≥ 6,0 · T2 ≥ 3,5 · T3 ≥ 2,0 · T4 < 2,0.
+O tier vigente é o **SJR Best Quartile do Scimago, edição 2025**, casado por ISSN
+(`pipeline/15_scimago.py`). Casaram **70 dos 93** periódicos: 39 Q1, 15 Q2, 8 Q3, 5 Q4
+e 3 sem quartil atribuído.
 
-**Isto não é quartil Scimago nem JCR.** O Scimago responde 403 a qualquer coleta
-automatizada; o quartil oficial teria de ser importado à mão. A métrica bruta está
-gravada ao lado do tier justamente para que a troca seja substituir uma coluna.
+Os 23 sem correspondência não são falha de casamento — são repositório de preprint
+(SSRN, arXiv, RePEc), série de conferência (SHS Web of Conferences, AIAA) e periódico
+regional fora do Scopus. Esses mantêm o proxy anterior, marcado em `tier_base` como
+`proxy OpenAlex (sem correspondência no Scimago)` para não se confundir com quartil
+oficial.
+
+O import também traz **quartil por área** (um periódico pode ser Q1 em Transportation e
+Q2 em Management), SJR, h-index, rank, país e a coluna **Overton**, que conta citações
+do periódico em documento de política pública.
 
 Três limitações que precisam ser ditas ao usar:
 
@@ -194,5 +201,13 @@ Nenhuma foi detectada. Os tipos de documento citante, pelo OpenAlex, são: 112 a
 **Zero do tipo `report`**, que é como relatório institucional aparece.
 
 Isso não prova ausência: grafos de citação acadêmicos cobrem mal documento de política.
-A base que cobre é a Overton, que é paga. Uma verificação manual dirigida aos
-repositórios de FAO, Banco Mundial, OCDE, Embrapa e CONAB seria o caminho barato.
+
+O CSV do Scimago traz a coluna **Overton**, e ela dá um sinal indireto: **41 dos 70
+periódicos casados têm citações em documento de política** — *Scientific Reports* com
+122, *Sustainability* com 53, *Communications Earth & Environment* com 38.
+
+**Este sinal é do periódico, não do artigo.** Diz que o trabalho circula em veículos
+que alimentam política pública; **não** diz que alguma citação a ele chegou a um
+documento de política. Afirmar o segundo a partir do primeiro seria erro. Para o dado
+por artigo é preciso a base Overton, que é paga, ou busca dirigida nos repositórios de
+FAO, Banco Mundial, OCDE, Embrapa e CONAB.

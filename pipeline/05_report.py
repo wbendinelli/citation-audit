@@ -152,6 +152,54 @@ REVISTAS="".join(
   f"<div class='rcol'><h3>{'Aviação' if k=='airline' else 'Grãos'}</h3>{render_revistas(k)}</div>"
   for k in ("airline","grains"))
 
+# ---------------- quartil Scimago ----------------
+JR=json.load(open(f"{ROOT}/data/journals.json"))
+QORD=["Q1","Q2","Q3","Q4","fora do Scimago","sem m\u00e9trica"]
+def quart(r):
+    m=JR.get(r.get("source_id") or "")
+    if not m: return "sem m\u00e9trica"
+    sc=m.get("scimago")
+    if sc and sc.get("quartil") in ("Q1","Q2","Q3","Q4"): return sc["quartil"]
+    return "fora do Scimago"
+QCLS={"Q1":"q1","Q2":"q2","Q3":"q3","Q4":"q4","fora do Scimago":"qx","sem m\u00e9trica":"qn"}
+
+def barras_q(key):
+    c=collections.Counter(quart(r) for r in M[key]["citing"]); tot=sum(c.values())
+    segs="".join(f"<span class='qseg {QCLS[x]}' style='flex:{c[x]}' title='{x}: {c[x]}'>{c[x]}</span>"
+                 for x in QORD if c.get(x))
+    leg="".join(f"<span class='lg'><i class='sw {QCLS[x]}'></i>{x} <b>{c[x]}</b></span>"
+                for x in QORD if c.get(x))
+    return f"<div class='qbar'>{segs}</div><div class='legend'>{leg}</div>"
+
+ROLES_ORD=["foundational","supporting","real_mention","brief_mention","drive_by","bibliography_only","wrongly_interpreted"]
+def matriz_q():
+    tab=collections.defaultdict(collections.Counter)
+    for k,b in M.items():
+        for r in b["citing"]:
+            c=CL.get((r.get("doi") or "").lower())
+            if c: tab[quart(r)][c["role"]]+=1
+    th="".join(f"<th>{PT[x]}</th>" for x in ROLES_ORD)
+    tr=""
+    for x in QORD:
+        if not tab[x]: continue
+        tds="".join(f"<td class='n {'hi' if tab[x][r] else 'off'}'>{tab[x][r] or '\u00b7'}</td>" for r in ROLES_ORD)
+        tr+=f"<tr><td class='v'><i class='sw {QCLS[x]}'></i>{x}</td>{tds}</tr>"
+    return f"<div class='scroll'><table class='tbl mat'><tr><th>Quartil</th>{th}</tr>{tr}</table></div>"
+
+QBARS="".join(f"<div class='fcol'><h3>{'Avia\u00e7\u00e3o' if k=='airline' else 'Gr\u00e3os'}</h3>{barras_q(k)}</div>"
+              for k in ("airline","grains"))
+QMATRIZ=matriz_q()
+_reuse_q=collections.Counter()
+_ghost_q=collections.Counter()
+for k,b in M.items():
+    for r in b["citing"]:
+        c=CL.get((r.get("doi") or "").lower())
+        if not c: continue
+        if c.get("reuse"): _reuse_q[quart(r)]+=1
+        if c["role"]=="bibliography_only": _ghost_q[quart(r)]+=1
+REUSE_Q1=_reuse_q["Q1"]; REUSE_TOT=sum(_reuse_q.values())
+GHOST_Q1=_ghost_q["Q1"]; GHOST_TOT=sum(_ghost_q.values())
+
 TOT=sum(len(b["citing"]) for b in M.values())
 NCL=sum(1 for k,b in M.items() for r in b["citing"] if CL.get((r.get("doi") or "").lower()))
 NDOI=sum(1 for k,b in M.items() for r in b["citing"] if r.get("doi"))
@@ -276,6 +324,17 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  font-family:"IBM Plex Mono",monospace}
 .tbl .off{color:var(--ink3)}
 
+.qbar{display:flex;height:26px;border:1px solid var(--rule);overflow:hidden;margin-bottom:10px}
+.qseg{display:flex;align-items:center;justify-content:center;min-width:22px;color:#fff;
+ font-size:.7rem;font-weight:600;font-family:"IBM Plex Mono",monospace}
+.q1,.sw.q1{background:var(--good-d)} .q2,.sw.q2{background:var(--good)}
+.q3,.sw.q3{background:var(--warn)}  .q4,.sw.q4{background:var(--bad)}
+.qx,.sw.qx{background:var(--ink3)}  .qn,.sw.qn{background:var(--ghost)}
+.tbl.mat th{font-size:.62rem} .tbl.mat td.v{font-weight:600;white-space:nowrap}
+.tbl.mat td.v .sw{margin-right:6px;vertical-align:middle}
+.tbl.mat td.hi{font-weight:600;color:var(--ink)}
+.tbl.mat td.off{color:var(--ink3)}
+
 .method{margin-top:72px;border-top:2px solid var(--ink);padding-top:28px}
 .method h2{margin-bottom:18px}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
@@ -327,6 +386,26 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
  cinza-claro s\u00f3 na bibliografia, vermelho interpretado errado. A \u00faltima coluna conta
  quantas adotaram m\u00e9todo, dado ou resultado.</p>
  <div class="rgrid">{REVISTAS}</div>
+</section>
+<section class="funnel">
+ <h2>A qualidade dos ve\u00edculos que citam</h2>
+ <p style="font-size:.9rem;color:var(--ink2);max-width:70ch;margin:14px 0 22px">
+ Quartil oficial do Scimago (SJR Best Quartile, edi\u00e7\u00e3o 2025), casado por ISSN.
+ Setenta dos 93 peri\u00f3dicos citantes t\u00eam quartil; os demais s\u00e3o
+ reposit\u00f3rio de preprint, s\u00e9rie de confer\u00eancia ou peri\u00f3dico regional
+ fora do Scopus.</p>
+ <div class="fgrid">{QBARS}</div>
+ <h3 style="margin-top:40px;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--ink3)">Papel da cita\u00e7\u00e3o por quartil do peri\u00f3dico</h3>
+ <div style="margin-top:12px">{QMATRIZ}</div>
+ <div class="grid2" style="margin-top:30px">
+  <p style="font-size:.9rem;color:var(--ink2)"><b>O engajamento de fundo se concentra no topo.</b>
+  Toda cita\u00e7\u00e3o fundacional est\u00e1 em Q1, e {REUSE_Q1} das {REUSE_TOT} que adotam
+  m\u00e9todo, dado ou resultado tamb\u00e9m. Quem l\u00ea a fundo publica em revista boa.</p>
+  <p style="font-size:.9rem;color:var(--ink2)"><b>Mas cita\u00e7\u00e3o-fantasma n\u00e3o \u00e9 doen\u00e7a de revista fraca.</b>
+  {GHOST_Q1} das {GHOST_TOT} est\u00e3o em Q1 \u2014 entre elas <i>Transportation Research Part E</i>,
+  <i>Communications Earth &amp; Environment</i> e <i>Journal of Transport Geography</i>. Listar na
+  bibliografia sem citar no texto acontece em peri\u00f3dico de primeira linha.</p>
+ </div>
 </section>
 {"".join(sections)}
 <section class="method">
