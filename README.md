@@ -14,9 +14,9 @@ Ver [METHOD.md](METHOD.md) para a taxonomia e a regra de evidência.
 
 ## Estado atual
 
-- **113** citações mapeadas
-- **31** com passagem recuperada e classificadas
-- **82** pendentes — 33 são open access (falha de coleta, recuperável) e 49 exigem acesso institucional
+- **176** citações mapeadas (união de quatro APIs + listas completas do Google Scholar)
+- **33** com passagem recuperada e classificadas
+- **124** pendentes, das quais 70 fechadas e 24 sem DOI depositado
 
 Pendências listadas em [`data/pending_downloads.csv`](data/pending_downloads.csv),
 com DOI, link e nome de arquivo de destino.
@@ -29,6 +29,8 @@ pipeline/02_fetch.py            download e extração (pdftotext / XML / HTML)
 pipeline/03_fetch_fallback.py   rotas alternativas
 pipeline/04_passages.py         localiza a passagem citante
 pipeline/05_report.py           gera report/index.html
+pipeline/06_merge_scholar.py    cruza as listas do Scholar com o inventário
+pipeline/07_resolve_scholar.py  resolve DOI dos exclusivos do Scholar via Crossref
 ```
 
 Classificação em `data/classify.json`, feita com a passagem literal em mãos.
@@ -58,10 +60,13 @@ A união de quatro índices, deduplicada por DOI e por título normalizado:
 | Europe PMC | 0 | 0 |
 | **União** | **69** | **62** |
 
-O Google Scholar reporta 95 e 76. A diferença de ~40 é tese, capítulo de livro,
-working paper e periódico não indexado — material sem DOI depositado, fora do alcance
-de qualquer API. Para fechar esse último trecho, salve as páginas "Cited by" do Scholar
-(`Cmd+S`, HTML completo) em `scholar/` e rode a etapa de parsing.
+O Google Scholar reporta 95 e 76. As listas completas foram paginadas e estão em
+`scholar/*.txt` (título truncado em ~76 chars + ano, como o Scholar entrega).
+
+O cruzamento: o Scholar confirmou 118 registros que as APIs já tinham, acrescentou 45,
+e as APIs por sua vez acharam registros que o Scholar não lista. **A união dá 176** —
+mais do que qualquer fonte isolada. Dos 45 exclusivos do Scholar, 21 foram resolvidos
+a DOI via Crossref; os 24 restantes são tese, capítulo de livro e periódico sem DOI.
 
 ## Etapas
 
@@ -72,4 +77,6 @@ pipeline/02_download.py         download OA e extração de texto
 pipeline/03_download_deep.py    varredura de todas as localizações OA
 pipeline/04_passages.py         localização da passagem citante
 pipeline/05_report.py           gera report/index.html
+pipeline/06_merge_scholar.py    cruza as listas do Scholar com o inventário
+pipeline/07_resolve_scholar.py  resolve DOI dos exclusivos do Scholar via Crossref
 ```

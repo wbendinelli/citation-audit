@@ -224,15 +224,18 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
     <tr><th>Situa\u00e7\u00e3o</th><th class="n">Cita\u00e7\u00f5es</th></tr>
     <tr><td>Texto completo obtido</td><td class="n">{st("tem_texto")}</td></tr>
     <tr><td>OA com verifica\u00e7\u00e3o anti-bot</td><td class="n">{st("oa_antibot")}</td></tr>
-    <tr><td>OA n\u00e3o recuperado</td><td class="n">{st("oa_bloqueado")}</td></tr>
+    <tr><td>OA n\u00e3o recuperado</td><td class="n">{st("oa_bloqueado")+st("oa_baixavel")}</td></tr>
     <tr><td>Fechado</td><td class="n">{st("fechado")}</td></tr>
-    <tr><td>Sem DOI</td><td class="n">{st("sem_doi")}</td></tr>
+    <tr><td>S\u00f3 no Scholar, sem DOI</td><td class="n">{st("so_scholar_sem_doi")+st("sem_doi")}</td></tr>
    </table></div>
   </div>
  </div>
- <p style="margin-top:24px"><b>O Google Scholar ainda acha mais.</b> Scholar reporta 95 e 76 cita\u00e7\u00f5es;
- a uni\u00e3o de quatro \u00edndices com DOI chega a {TOT}. A diferen\u00e7a \u00e9 tese, cap\u00edtulo de livro,
- working paper e peri\u00f3dico n\u00e3o indexado \u2014 material que s\u00f3 o Scholar cobre e que nenhuma API alcan\u00e7a.</p>
+ <p style="margin-top:24px"><b>O invent\u00e1rio est\u00e1 fechado.</b> \u00c0s quatro APIs somaram-se as listas
+ completas de \u201ccited by\u201d do Google Scholar (95 e 76), paginadas manualmente. O Scholar confirmou
+ 118 registros que as APIs j\u00e1 tinham e acrescentou 45; em contrapartida, as APIs acharam registros que
+ o Scholar n\u00e3o lista. A uni\u00e3o d\u00e1 <b>{TOT}</b> \u2014 mais do que qualquer fonte sozinha.
+ Dos 45 exclusivos do Scholar, 21 foram resolvidos a DOI via Crossref; os {st("so_scholar_sem_doi")} restantes
+ s\u00e3o tese, cap\u00edtulo de livro e peri\u00f3dico sem DOI depositado.</p>
 </section>
 </div>"""
 open(f"{ROOT}/report/index.html","w").write(HTML)

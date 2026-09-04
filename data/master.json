@@ -20,7 +20,8 @@
     "pmcid": null,
     "corpusid": 291068872,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "airline_001",
@@ -41,7 +42,8 @@
     "pmcid": null,
     "corpusid": 284762196,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "airline_002",
@@ -62,7 +64,8 @@
     "pmcid": null,
     "corpusid": 282739952,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "airline_003",
@@ -85,7 +88,8 @@
     "pmcid": null,
     "corpusid": 280907992,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "airline_004",
@@ -108,7 +112,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4404467566",
     "has_fulltext": false,
@@ -132,7 +137,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4403380774",
     "has_fulltext": false,
@@ -154,7 +160,8 @@
     "pmcid": null,
     "corpusid": 269971068,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "airline_007",
@@ -175,7 +182,8 @@
     "pmcid": null,
     "corpusid": 267750513,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": true,
     "id": "airline_008",
@@ -198,7 +206,8 @@
     "pmcid": null,
     "corpusid": 267750351,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": true,
     "id": "airline_009",
@@ -221,7 +230,8 @@
     "pmcid": null,
     "corpusid": 267750376,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": true,
     "id": "airline_010",
@@ -244,7 +254,8 @@
     "pmcid": null,
     "corpusid": 267759728,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": true,
     "id": "airline_011",
@@ -269,7 +280,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4387993306",
     "has_fulltext": false,
@@ -292,7 +304,8 @@
     "corpusid": 262210839,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4386951302",
     "has_fulltext": false,
@@ -316,7 +329,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4327938288",
     "has_fulltext": true,
@@ -340,7 +354,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4311946422",
     "has_fulltext": false,
@@ -362,7 +377,8 @@
     "pmcid": null,
     "corpusid": 285648228,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "airline_016",
@@ -385,7 +401,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4286587251",
     "has_fulltext": true,
@@ -408,7 +425,8 @@
     "corpusid": 247883000,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4225661096",
     "has_fulltext": false,
@@ -430,7 +448,8 @@
     "pmcid": null,
     "corpusid": 247347105,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "airline_019",
@@ -453,7 +472,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4226256648",
     "has_fulltext": false,
@@ -477,7 +497,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4280628475",
     "has_fulltext": false,
@@ -501,7 +522,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4210795184",
     "has_fulltext": false,
@@ -525,7 +547,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3209988489",
     "has_fulltext": false,
@@ -549,7 +572,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3155112697",
     "has_fulltext": false,
@@ -573,7 +597,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3049359342",
     "has_fulltext": true,
@@ -597,7 +622,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3032818349",
     "has_fulltext": true,
@@ -620,7 +646,8 @@
     "corpusid": 225451398,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3038797631",
     "has_fulltext": false,
@@ -644,7 +671,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3036489880",
     "has_fulltext": false,
@@ -667,7 +695,8 @@
     "corpusid": 214584690,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3011410023",
     "has_fulltext": false,
@@ -691,7 +720,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2995540770",
     "has_fulltext": false,
@@ -715,7 +745,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2965457554",
     "has_fulltext": false,
@@ -739,7 +770,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2947196922",
     "has_fulltext": false,
@@ -763,7 +795,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2905664363",
     "has_fulltext": true,
@@ -787,7 +820,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2930705323",
     "has_fulltext": false,
@@ -811,7 +845,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2907819886",
     "has_fulltext": false,
@@ -834,7 +869,8 @@
     "corpusid": 159258509,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2912298805",
     "has_fulltext": false,
@@ -857,7 +893,8 @@
     "corpusid": 158386635,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2903366204",
     "has_fulltext": false,
@@ -879,7 +916,8 @@
     "pmcid": null,
     "corpusid": 115522804,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": true,
     "id": "airline_038",
@@ -903,7 +941,8 @@
     "corpusid": 159003174,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2897005557",
     "has_fulltext": true,
@@ -929,7 +968,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2890348993",
     "has_fulltext": true,
@@ -951,7 +991,8 @@
     "pmcid": null,
     "corpusid": 158198974,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "id": "airline_041",
     "status": "sem_doi",
@@ -973,7 +1014,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2759746228",
     "has_fulltext": false,
@@ -996,7 +1038,8 @@
     "corpusid": 65120727,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2571848911",
     "has_fulltext": false,
@@ -1044,7 +1087,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4321444003",
     "has_fulltext": false,
@@ -1067,7 +1111,8 @@
     "corpusid": 234210860,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3114178570",
     "has_fulltext": false,
@@ -1089,7 +1134,8 @@
     "pmcid": null,
     "corpusid": 229607997,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "id": "airline_047",
     "status": "sem_doi",
@@ -1111,7 +1157,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W2901121803",
     "has_fulltext": true,
@@ -1153,7 +1200,8 @@
     "landing": "https://doi.org/10.1016/j.jtrangeo.2020.102749",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_050",
     "status": "tem_texto",
@@ -1172,7 +1220,8 @@
     "pdf": null,
     "landing": "https://doi.org/10.1016/j.tre.2016.12.010",
     "src": [
-     "openalex"
+     "openalex",
+     "scholar"
     ],
     "id": "airline_051",
     "status": "fechado",
@@ -1191,7 +1240,8 @@
     "pdf": null,
     "landing": "https://doi.org/10.1016/j.ijindorg.2021.102742",
     "src": [
-     "openalex"
+     "openalex",
+     "scholar"
     ],
     "id": "airline_052",
     "status": "fechado",
@@ -1211,7 +1261,8 @@
     "landing": "https://doi.org/10.3390/app122010433",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_053",
     "status": "oa_bloqueado",
@@ -1231,7 +1282,8 @@
     "landing": "https://doi.org/10.1016/j.jtrangeo.2021.103260",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_054",
     "status": "oa_antibot",
@@ -1250,7 +1302,8 @@
     "pdf": null,
     "landing": "https://doi.org/10.1016/j.tra.2018.06.008",
     "src": [
-     "openalex"
+     "openalex",
+     "scholar"
     ],
     "id": "airline_055",
     "status": "fechado",
@@ -1270,7 +1323,8 @@
     "landing": "https://doi.org/10.1016/j.tranpol.2017.12.021",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_056",
     "status": "fechado",
@@ -1290,7 +1344,8 @@
     "landing": "https://doi.org/10.1111/jbfa.12351",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_057",
     "status": "tem_texto",
@@ -1312,7 +1367,8 @@
     "landing": "https://doi.org/10.1016/j.tranpol.2018.07.006",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_058",
     "status": "fechado",
@@ -1332,7 +1388,8 @@
     "landing": "https://doi.org/10.1108/s2212-160920170000006014",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "oa_landing": "http://books.emeraldinsight.com/page/detail/Economics-of-Airport-Operations/?k=9781787144989",
     "id": "airline_059",
@@ -1353,7 +1410,8 @@
     "landing": "https://doi.org/10.1515/rne-2021-0016",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_060",
     "status": "fechado",
@@ -1373,7 +1431,8 @@
     "landing": "https://doi.org/10.1016/j.jairtraman.2021.102044",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_061",
     "status": "oa_antibot",
@@ -1412,7 +1471,8 @@
     "landing": "https://doi.org/10.2514/6.2020-2853",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_063",
     "status": "fechado",
@@ -1453,7 +1513,8 @@
     "landing": "https://doi.org/10.14295/transportes.v29i1.2236",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_065",
     "status": "tem_texto",
@@ -1473,7 +1534,8 @@
     "landing": "https://doi.org/10.1007/978-3-030-71704-9_45",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "airline_066",
     "status": "fechado",
@@ -1492,7 +1554,8 @@
     "pdf": "http://www.teses.usp.br/teses/disponiveis/12/12138/tde-19012022-204119/publico/RafaeldaRochaOliveiraOriginal.pdf",
     "landing": "https://doi.org/10.11606/d.12.2021.tde-19012022-204119",
     "src": [
-     "openalex"
+     "openalex",
+     "scholar"
     ],
     "id": "airline_067",
     "status": "tem_texto",
@@ -1535,6 +1598,399 @@
     "id": "airline_069",
     "status": "oa_bloqueado",
     "classificado": false
+   },
+   {
+    "id": "airline_s001",
+    "doi": "10.1201/9781003133087",
+    "title": "Foreign Object Debris and Damage in Aviation",
+    "year": "2022",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "monograph",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s002",
+    "doi": null,
+    "title": "Analitiko-diagnostichnii pidhid do ocinyuvannya konkurentospromozhnosti aviaperev",
+    "year": "2025",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s003",
+    "doi": null,
+    "title": "Faktory vhoda na rynki passazhirskih aviaperevozok",
+    "year": "2024",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s004",
+    "doi": "10.1504/ijsa.2016.080244",
+    "title": "Feasibility of green composite aircraft wing projects for unmanned aircraft vehicles",
+    "year": "2016",
+    "venue": "International Journal of Sustainable Aviation",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s005",
+    "doi": null,
+    "title": "Strategy Tripod Perspective on the Determinants of Airline Efficiency in A G",
+    "year": "2024",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s006",
+    "doi": null,
+    "title": "On-time performance of British Airways at Heathrow Airport and customer sati",
+    "year": "2019",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s007",
+    "doi": null,
+    "title": "Voar e para muitos",
+    "year": "2023",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s008",
+    "doi": "10.1108/s2212-160920170000006006",
+    "title": "Airport and Airline Relationship of Multiple Functional Structures",
+    "year": "2017",
+    "venue": "The Economics of Airport Operations",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "book-chapter",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s009",
+    "doi": null,
+    "title": "Effect of visibility limiting weather elements on flight operations in Akure",
+    "year": "2022",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s010",
+    "doi": null,
+    "title": "Two Essays on Market Entry and Exit: Empirical Evidence from Airline Industr",
+    "year": "2019",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s011",
+    "doi": null,
+    "title": "AIR-21's Impact on Air Traffic Delays: A multi-dimensional regression discon",
+    "year": "2026",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s012",
+    "doi": "10.33119/sip.2025.201.2",
+    "title": "Ryzyko biznesowe w pasażerskim lotnictwie cywilnym – w poszukiwaniu źródeł niestabilności sektora",
+    "year": "2025",
+    "venue": "Studia i Prace Kolegium Zarządzania i Finansów",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s013",
+    "doi": "10.2139/ssrn.3184644",
+    "title": "Financial Distress, Survival Network Design and Airline Pricing: An Events Study of a Merger Between a Low-Cost and a Full-Service Carrier",
+    "year": "2018",
+    "venue": "SSRN Electronic Journal",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s014",
+    "doi": "10.13016/vgi6-awc2",
+    "title": "Optimal Reassignment of Flights to Gates Focusing on Transfer Passengers",
+    "year": "2019",
+    "venue": "University Libraries (University of Maryland)",
+    "oa_status": "green",
+    "is_oa": true,
+    "src": [
+     "scholar"
+    ],
+    "status": "oa_baixavel",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "pdf": "http://hdl.handle.net/1903/21879",
+    "resolved_by": "openalex"
+   },
+   {
+    "id": "airline_s015",
+    "doi": null,
+    "title": "The Effects of Strategic Alliances on Airline On-Time Performance: Evidence",
+    "year": "2023",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s016",
+    "doi": "10.1007/978-3-662-54171-5_4",
+    "title": "",
+    "year": "2023",
+    "venue": "Angewandte Optimierung mit IBM ILOG CPLEX Optimization Studio",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "book-chapter",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s017",
+    "doi": "10.2139/ssrn.4077552",
+    "title": "The Role of Market Structure in Airline Mergers: Evaluating Alternative Causes of Delays",
+    "year": "2024",
+    "venue": "SSRN Electronic Journal",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s018",
+    "doi": null,
+    "title": "Optimierung des Flugzeugeinsatzes nach Brennstoffeffizienz",
+    "year": "2023",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s019",
+    "doi": null,
+    "title": "VESTNIK MOSKOVSKOGO UNIVERSITETA. SERIYA 6: EKONOMIKA",
+    "year": "2024",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s020",
+    "doi": null,
+    "title": "Survival network design strategies, reorganization and airline pricing: an e",
+    "year": "2018",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s021",
+    "doi": "10.3030/687772",
+    "title": "",
+    "year": "2021",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "grant",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "airline_s022",
+    "doi": null,
+    "title": "ESTUDO ECONOMETRICO E INVESTIGACAO DE PRATICAS DE SCHEDULE PADDING DE COMPAN",
+    "year": null,
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s023",
+    "doi": null,
+    "title": "Dong Ya hangban yanwu yingxiang yinsu: jichang, hangxian ji wangluo",
+    "year": "2019",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "airline_s024",
+    "doi": null,
+    "title": "Airline financial distress and its impacts on airfares: an econometric model",
+    "year": "2019",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
    }
   ]
  },
@@ -1559,7 +2015,8 @@
     "pmcid": null,
     "corpusid": 290477223,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": false,
     "id": "grains_001",
@@ -1581,7 +2038,8 @@
     "corpusid": 290440799,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W7169860788",
     "has_fulltext": false,
@@ -1604,7 +2062,8 @@
     "corpusid": 289405957,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W7165037719",
     "has_fulltext": false,
@@ -1627,7 +2086,8 @@
     "corpusid": 286651015,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W7137801886",
     "has_fulltext": false,
@@ -1674,7 +2134,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W7126097662",
     "has_fulltext": true,
@@ -1697,7 +2158,8 @@
     "corpusid": 290997946,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W7201957886",
     "has_fulltext": true,
@@ -1719,7 +2181,8 @@
     "pmcid": null,
     "corpusid": 282998014,
     "src": [
-     "s2"
+     "s2",
+     "scholar"
     ],
     "has_fulltext": true,
     "id": "grains_008",
@@ -1744,7 +2207,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4412118507",
     "has_fulltext": true,
@@ -1789,7 +2253,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4410439592",
     "has_fulltext": false,
@@ -1813,7 +2278,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4406368163",
     "has_fulltext": false,
@@ -1837,7 +2303,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4408107152",
     "has_fulltext": true,
@@ -1861,7 +2328,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4410504707",
     "has_fulltext": true,
@@ -1909,7 +2377,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4406478534",
     "has_fulltext": true,
@@ -1933,7 +2402,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4405847120",
     "has_fulltext": false,
@@ -1957,7 +2427,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4402241148",
     "has_fulltext": false,
@@ -2004,7 +2475,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4399124615",
     "has_fulltext": false,
@@ -2028,7 +2500,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4393031559",
     "has_fulltext": false,
@@ -2052,7 +2525,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4392123393",
     "has_fulltext": false,
@@ -2076,7 +2550,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4389224748",
     "has_fulltext": true,
@@ -2100,7 +2575,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4389145390",
     "has_fulltext": true,
@@ -2124,7 +2600,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4387566820",
     "has_fulltext": false,
@@ -2148,7 +2625,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4388071112",
     "has_fulltext": false,
@@ -2172,7 +2650,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4387007389",
     "has_fulltext": false,
@@ -2196,7 +2675,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4366777152",
     "has_fulltext": false,
@@ -2219,7 +2699,8 @@
     "corpusid": 257316027,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4322771493",
     "has_fulltext": true,
@@ -2243,7 +2724,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4311464758",
     "has_fulltext": false,
@@ -2267,7 +2749,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4306761089",
     "has_fulltext": true,
@@ -2291,7 +2774,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4307044595",
     "has_fulltext": true,
@@ -2315,7 +2799,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4300818166",
     "has_fulltext": true,
@@ -2339,7 +2824,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4229050858",
     "has_fulltext": false,
@@ -2363,7 +2849,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4229027413",
     "has_fulltext": false,
@@ -2387,7 +2874,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4220689259",
     "has_fulltext": true,
@@ -2411,7 +2899,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4211170777",
     "has_fulltext": false,
@@ -2435,7 +2924,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3213678807",
     "has_fulltext": false,
@@ -2459,7 +2949,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3199046345",
     "has_fulltext": false,
@@ -2483,7 +2974,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3195442941",
     "has_fulltext": false,
@@ -2507,7 +2999,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3129505901",
     "has_fulltext": false,
@@ -2530,7 +3023,8 @@
     "corpusid": 236600316,
     "src": [
      "openalex",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3162600833",
     "has_fulltext": true,
@@ -2554,7 +3048,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3137290043",
     "has_fulltext": false,
@@ -2626,7 +3121,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4410619433",
     "has_fulltext": true,
@@ -2718,7 +3214,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3200135532",
     "has_fulltext": false,
@@ -2742,7 +3239,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W3114299725",
     "has_fulltext": false,
@@ -2768,7 +3266,8 @@
     "src": [
      "openalex",
      "opencitations",
-     "s2"
+     "s2",
+     "scholar"
     ],
     "openalex": "https://openalex.org/W4386914023",
     "has_fulltext": false,
@@ -2790,7 +3289,8 @@
     "landing": "https://doi.org/10.1016/j.compag.2021.106405",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "grains_053",
     "status": "fechado",
@@ -2810,7 +3310,8 @@
     "landing": "https://doi.org/10.1002/bse.3191",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "grains_054",
     "status": "oa_antibot",
@@ -2830,7 +3331,8 @@
     "landing": "https://doi.org/10.1016/bs.hesagr.2022.03.001",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "grains_055",
     "status": "fechado",
@@ -2850,7 +3352,8 @@
     "landing": "https://doi.org/10.1007/978-981-97-2795-7_12",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "grains_056",
     "status": "fechado",
@@ -2870,7 +3373,8 @@
     "landing": "https://doi.org/10.1016/j.jspr.2022.101941",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "grains_057",
     "status": "fechado",
@@ -2909,7 +3413,8 @@
     "landing": "https://doi.org/10.1007/978-3-030-98067-2_172-1",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "grains_059",
     "status": "fechado",
@@ -2929,7 +3434,8 @@
     "landing": "https://doi.org/10.1007/978-3-031-06562-0_11",
     "src": [
      "openalex",
-     "opencitations"
+     "opencitations",
+     "scholar"
     ],
     "id": "grains_060",
     "status": "fechado",
@@ -2967,13 +3473,362 @@
     "pdf": "https://itconfdoc.nuwm.edu.ua/index.php/ITConf/article/download/459/326",
     "landing": "https://doi.org/10.31713/mcit.2024.073",
     "src": [
-     "openalex"
+     "openalex",
+     "scholar"
     ],
     "id": "grains_062",
     "status": "tem_texto",
     "text_path": "text/grains_062.txt",
     "text_source": "html:https://mcitjournal.org.ua/index.php/MCIT/en/article/view/459",
     "classificado": false
+   },
+   {
+    "id": "grains_s001",
+    "doi": "10.1080/14620316.2022.2091488",
+    "title": "Application of nanotechnology for preventing postharvest losses of agriproducts",
+    "year": "2023",
+    "venue": "The Journal of Horticultural Science and Biotechnology",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s002",
+    "doi": "10.47278/journal.ijab/2025.070",
+    "title": "Evaluating Physical and Chemical Quality of Corn Kernel as Poultry Feed Ingredient in the Procurement of Feed Mill Raw Material",
+    "year": "2025",
+    "venue": "International Journal of Agriculture and Biosciences",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s003",
+    "doi": "10.1007/s43621-026-04167-9",
+    "title": "Marketing efficiency of agricultural cash crops and rural household welfare in South Gondar, Ethiopia",
+    "year": "2026",
+    "venue": "Discover Sustainability",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s004",
+    "doi": null,
+    "title": "Government Subsidy Strategies about The Food Post-harvest Loss Reduction Tec",
+    "year": "2025",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s005",
+    "doi": null,
+    "title": "Subsidizing Grain Post-harvest Loss Reduction Level or Loss Reduction Inputs",
+    "year": "2025",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s006",
+    "doi": "10.1504/ijvcm.2023.10053852",
+    "title": "A study of Sustainable Agriculture Value Chain: a multi-method Research Perspective",
+    "year": "2023",
+    "venue": "International Journal of Value Chain Management",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s007",
+    "doi": "10.1201/9781003245384-34",
+    "title": "Post-harvest Management Through Convergence of Innovation and Technology",
+    "year": "2021",
+    "venue": "Innovations in Agriculture for a Self-Reliant India",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "book-chapter",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s008",
+    "doi": null,
+    "title": "Smart (Precision) Agriculture",
+    "year": "2025",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s009",
+    "doi": "10.47278/journal.ijab/2025.105",
+    "title": "Path Analysis of Corn Kernel Physical Properties as Quality Indicators of Poultry Feed Ingredients",
+    "year": "2025",
+    "venue": "International Journal of Agriculture and Biosciences",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s010",
+    "doi": "10.1504/ijpti.2025.10075141",
+    "title": "Unpacking the harvest losses challenges to enhancing food security among farming communities in Southern Highland, Tanzania",
+    "year": "2026",
+    "venue": "International Journal of Postharvest Technology and Innovation",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s011",
+    "doi": "10.13031/aea.16468",
+    "title": "Optimization of Numerical Approach for a Commercial Grain Conditioning Simulation Tool (PHAST Model) Using Finite Difference Method",
+    "year": "2025",
+    "venue": "Applied Engineering in Agriculture",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s012",
+    "doi": null,
+    "title": "Post-Harvest Loss Management as a Low Carbon Transformational Pathway in Sma",
+    "year": "2025",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s013",
+    "doi": null,
+    "title": "Strategies for Developing Sustainable Supply Chain Links with Local Producer",
+    "year": "2022",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s014",
+    "doi": null,
+    "title": "Sovremennye i istoricheskie aspekty otechestvennogo proizvodstva zerna",
+    "year": "2020",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s015",
+    "doi": "10.4314/tjs.v49i3.16",
+    "title": "Design of a Cooling System Integrated with Ultraviolet Light for Preservation of Fruits and Vegetables at Variable Tropical Weather Conditions: A Case Study of Arusha, Tanzania",
+    "year": "2023",
+    "venue": "Tanzania Journal of Science",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "journal-article",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s016",
+    "doi": "10.58694/20.500.12479/2737",
+    "title": "Design of an evaporative cooling system integrated with ultraviolet light for preservation of fruits and vegetables at variable tropical weather conditions: a case study of Arusha, Tanzania",
+    "year": "2024",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "dissertation",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s017",
+    "doi": null,
+    "title": "Post-harvest Losses in Animal Production",
+    "year": null,
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s018",
+    "doi": "10.1201/9781003055037-8",
+    "title": "Application of Optimization and Statistical Techniques in Post-Harvest Supply Chain",
+    "year": "2021",
+    "venue": "Mathematical Modeling and Computation of Real-Time Problems",
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "book-chapter",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s019",
+    "doi": "10.47749/t/unicamp.2023.1372938",
+    "title": "Electronic sensors for grain storage",
+    "year": "2023",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "fechado",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "type": "dissertation",
+    "resolved_by": "crossref"
+   },
+   {
+    "id": "grains_s020",
+    "doi": null,
+    "title": "Factors Influencing Women Empowerment in Agriculture in Developing Countries",
+    "year": "2024",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
+   },
+   {
+    "id": "grains_s021",
+    "doi": null,
+    "title": "Vzaimodeystvie transportnyh sredstv s punktom predvaritelnoy obrabotki zerna",
+    "year": "2020",
+    "venue": null,
+    "oa_status": null,
+    "is_oa": null,
+    "src": [
+     "scholar"
+    ],
+    "status": "so_scholar_sem_doi",
+    "classificado": false,
+    "nota": "título truncado pelo Scholar; sem DOI conhecido",
+    "resolved_by": null
    }
   ]
  }
