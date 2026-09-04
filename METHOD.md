@@ -269,3 +269,19 @@ sem serem de editora grande (Inderscience 3, e um cada de ASABE, Springer, o
 brasileiro *Journal of Aerospace Technology and Management* e o tcheco *Agricultural
 Economics*). Bloqueio de acesso, não falha de método — com a exceção dos dois últimos,
 que são de acesso relativamente aberto e merecem nova tentativa.
+
+## Deduplicação pode esconder achado
+
+A união multi-fonte deduplica por DOI e por título normalizado. Isso é correto para
+contagem — a mesma obra em duas bases não pode virar duas citações — mas apaga um
+sinal quando os dois registros são **publicações distintas do mesmo texto**.
+
+Ocorreu uma vez: `10.1051/shsconf/202521601037` e `10.1051/shsconf/202521601068` são o
+mesmo trabalho publicado duas vezes no *SHS Web of Conferences*, com o texto reescrito
+por sinônimos entre as versões. A deduplicação fundiu os dois; a classificação do
+registro absorvido está em `data/classify_orfas.json`, e o achado de duplicata foi
+transferido para a nota do registro vivo.
+
+Regra adotada: registro absorvido pela deduplicação vai para o arquivo de órfãs, com o
+motivo, em vez de ser descartado — e qualquer achado que só existia nele é transferido
+para o registro sobrevivente antes do arquivamento.

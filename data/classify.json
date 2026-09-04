@@ -243,7 +243,7 @@
   "stance": "none",
   "reuse": [],
   "flag": "duplicate",
-  "note": "Ver par com a entrada 053.",
+  "note": "SHS Web of Conferences. O mesmo trabalho foi publicado DUAS VEZES no mesmo veículo, com DOIs distintos (10.1051/shsconf/202521601068 e 10.1051/shsconf/202521601037) e o texto reescrito por sinônimos entre as versões — a segunda troca “these losses are caused by” por “these victims occur due to”. Indício de conteúdo reciclado. A deduplicação por título fundiu os dois num registro só; a contagem trata como uma citação, mas o par existe e está registrado.",
   "passages": [
    "These losses are caused by poor handling, poor storage facilities, or lack of proper logistics [2]."
   ],
@@ -271,24 +271,6 @@
    "evidence_sha256_16": "d1ad8f460a2eb39b",
    "evidence_kind": "passagem literal",
    "source": "reverificacao:https://restpublisher.com/wp-content/uploads/2023/01/5-Post-harvest-losses-in-Indian-maize-amid-increasing-food-insecurity-Analysis-using-TOPSIS-method.pdf",
-   "codebook": "METHOD.md@v1"
-  }
- },
- "10.1051/shsconf/202521601037": {
-  "role": "drive_by",
-  "stance": "none",
-  "reuse": [],
-  "flag": "duplicate",
-  "note": "Mesmo título e veículo da entrada 044, publicado em duplicata, com a frase parafraseada (“these victims occur due to…”). Indício de texto reciclado.",
-  "passages": [
-   "These victims occur due to influences such as inappropriate management, insufficient storage facilities, and incompetent logistics [2]."
-  ],
-  "prov": {
-   "coded_at": "2026-09-04",
-   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
-   "evidence_sha256_16": "4c78462419959767",
-   "evidence_kind": "passagem literal",
-   "source": null,
    "codebook": "METHOD.md@v1"
   }
  },
@@ -1879,6 +1861,24 @@
    "evidence_sha256_16": "5f68e27ed9151e32",
    "evidence_kind": "passagem literal",
    "source": "PDF fornecido pelo autor · PDF fornecido pelo autor (10.1002:bse.3191)",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.5028/jatm.v11.977": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "weak",
+  "note": "Journal of Aerospace Technology and Management, recuperado via SciELO. Atribui ao artigo 'evidência de que a dissuasão estratégica de entrada prevalece em hubs'. O artigo trata de internalização de congestionamento e efeitos de transbordamento da entrada de LCC sobre atrasos; não testa dissuasão de entrada. Caracterização frouxa, não erro grosseiro.",
+  "passages": [
+   "The internalization of costs of delays is determined by the strategic incentives of carriers when balancing the benefits from connections and passenger preferred times with the congestion costs, with evidence that strategic entry deterrence prevails at hubs (Bendinelli et al. 2016)."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "c84c68c8bd1a4dd0",
+   "evidence_kind": "passagem literal",
+   "source": "nova tentativa dirigida: http://www.scielo.br/j/jatm/a/8B9fSXxbstXNgHHnQGdgtPS/?lang=en",
    "codebook": "METHOD.md@v1"
   }
  }
