@@ -1,0 +1,10705 @@
+{
+ "n": 1108,
+ "paper": "airline",
+ "records": [
+  {
+   "cites_focal": false,
+   "id": "003a313525133fa79c1451952a5ce905414f6e77",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "0089adf3a18754f4b850e978c689ecc19b46d098",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "00b58d9d45cbfcabc5b4bb3452945efae0cf0af7",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "011edfa63ae54f76c000f5048a416695ab1f536c",
+   "seeds_A_cited": [
+    5,
+    9,
+    16,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": true,
+   "id": "0146038cb1f2effdd357d5e11cec570d07e771b7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "018c760107ed0076392d92e44479208ff9eff1d6",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "0190253db09be903a9d58855188b7f9050ee6e67",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "01c62a89faf5940027213e166169fdfe82dc0dc9",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "01deef5a309a84d9a5593d6cabee349e1bbfd503",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "0235c0cec18d0de9e029d632263635b6909b604d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "029139f2a76360c7128a9690a22f71731bd43900",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "02c83071096536cf32ff5cde80f0d228bc37f4a8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "02f6204031f2551f8eb779b4a1d72fae540b3637",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "03448ec09f2c1d10e8a3ac0778adbd112af8f6a6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "034836620fb02a2d03eb3aceacc2180414f5c763",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "034d696030c6ded0c7edff654a84146a0beb21a3",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "036fd794586d00f903c865b58df93ec4f9149b9b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    8,
+    24
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "03d0a14486e0a1e81954b3cb82249b40668525de",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "0454839fa41a85e94eef5580cadd15e3639d8ade",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "04c5c3bf64e86fd309bb7f17373ea627ba747a79",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "04db7a90dfa195f741bd4f32ca7edf26bbef3b36",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "04f1c49e9afa97b395522f36b48d3d445c76049e",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "04f50a06ecfc439edf81a04a11efeb93a1599296",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "0534cb4cd8c9fe9b6a0463a178fb8dacef4e2e34",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "0547837f77389aa85f7978a3c1830bb8a162175f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "055e1d62e4c4f1dd20d98e4b19391b906daf206c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "056439a67d164a513fb589a4468e9ff7ebf45ef8",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "0572b1a0540e60e207c5f82f569738bb293a2d6e",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "0581f343751b5b47236a66ace118261252875690",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "05853575b14d7b58c94317f4927e67e6ab962418",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "05b952ab1a74556983c20d4871b361ef253c92b2",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "05c68111cefc2f884dc54d0b5600cd0cb0cdca17",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "06367f4782fe488ed7e270d157da36de0b289256",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "063f58a22aafe5cae2f6c6d9321215da9dfb8e70",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "068ff52845aee330f643b45fb22f5c6abf317357",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "06a0580587a38ebb819bf72a9d81ca2c184719f9",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "06d7cfb08baa2597a6dee667038c83a9e319086f",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "0723cdce0ef151dc0a8f73ac34dc1796c925fa7a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "072853590ebcb856e413a56c50bff131b3abe44f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "076b28c3e66f54b9792b01c5c176dfd1c0ef0c3b",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "086196b2f72a41c31b19aca0845fc95e3786a7a6",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": true,
+   "id": "086a95889f1cc64e07156122adac3573a3d42e05",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "088d41f5990b054c12c40d505a977e3410160fe1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "089f0cfe246cd1c05e737ddb29ffe8e454cdcd4e",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": true,
+   "id": "08c1d4cb9953eacb36692a9881e8d3e91f19a8e6",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "08c8b99043d1455131a7a12a506cea437a540139",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "095d2e8987897fc3012936a1743701fc82acf997",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "09bf8f29771360b9fe36c66cb695b939058283f8",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "09c1a3c613c70f3bfb44e298ba2ad1abefa35dea",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "0a19d0b94b6759f93af693733c7b35408f49dc37",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "0a6ebbc44a32d835330451b43814a3dc23aad70e",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "0a7700c8f53f34ecb20ab9ec5277c32789e9d6e3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "0b344c4fed033e73899110a7d73ec22fd973a85e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "0b476aa18f59c8d3c5e575c975703d615f7be019",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "0bc32e03689c0c72dfc3665334b55a84e8f817e4",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "0bd0c09e8bbe28c99a81a1cf7775f0f6429526ce",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "0bfa5c86b6522e85ab0e65d793d626a52d13fcb0",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "0c857f32ca7aa09c1cf3a4d8b9a5779631a31768",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "0caec75c752a58468d4c9e38bc9855e3da5e02e8",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "0d2ab2f302fec020786c340661f302935e7a0907",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "0d4add8f47331378e373faef62e64ad358338ee9",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "0d9c7308e35a69a50ca0449cc07d43e2fa37a891",
+   "seeds_A_cited": [
+    5,
+    9,
+    14,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "0da84fb8e7f8c557bf76d5be6a708fe8a93b410e",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "0e3d5319e9e2021990e57cb6ae576632d7e9c457",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "0e433cc1833bf86689476db97329af5bc92c1710",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "0e60f509d41eeb984b6541c6213cdd1ff6ccbced",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "0e6de6caf44ab3928d934446693ccfce92cc7d89",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "0f42127f46161ee8ee0be97887337620998c05e1",
+   "seeds_A_cited": [
+    1,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "0f631ec1c1db0bd2c4a1e21d57c8a8278ef7f02e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "0f7933f6a9235142f91f9d48e1740a8f3f190916",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "0f8ea73ad969a3d084a565db4dc99bcb59768a6d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    21
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "0fb2ecf094e66d28c396634ab4765c3263de0a9f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "0ff6460a903ad711d2692ca9fa2b42d0c90721bb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "1050a1d282068039e374b968c2287cbdc4ae26f7",
+   "seeds_A_cited": [
+    1,
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "107304e155265160e97ba7539f781d671a6775c2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "1075fe9ab66f4a9cc293a8aec8b68c1c029ddf7e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "10907b2084de1bb17ddc4b0758226582c1428075",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "10b3d7bba3b545d130b0741a7024f2fbf0370f24",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "112dd6a52d021c48811e49ef13554f2e2003d04b",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "113bad34c27d4d35a0ec8494d3e7ef1cc42ab5c7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "117632f3835fe8d55c7f88a147c6d8063f0c0bdb",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "119162d9c55014d8ccb5214ad70ecfb3e5bca9ac",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "1208c4a34d52222c998af20ed767927f09a08369",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "1231c062e9e6b7e63d0d9266766db4a5fabef7d6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "128eefce09836b0e4f2b814a1caf5581089098a9",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "1293aba5103fae336f7ecdfdf6394c61c4d606f0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "131ed7b4c03879d269a40f3caf0878fafa0c38ed",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "136067492dc9ae94f3f646a08d6a69aec250db4d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "1383d25801a78d0fbba66b1d3e3130d00adf689a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "138ca7c16820a173390eb16934c0c35276f6acc6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "13946e957e0286333a2ea279932dce3bcb0f20bd",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    21
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "13be7072aee9e133b4ab8dc185d3ca5df9f844fa",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "13e391aaa893447ff6ea222e8511b5a86538b52f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "142f58ddbdc2c992ff3c8754cb54118ece98b79c",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "1433b1434de21f7ef22986524f6e98b9962b56dd",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "146b4ef83d540bdf8cf01dea1069bf712ab158a9",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "147a9d89bc1f020f76682dfb9e38c70946b3af54",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "1487dc65b163be21554246aac9b9884c7916d671",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "1496419475234cbdd49a5191c3ea6f9630e2471b",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "14fae033322a62960b007eee1b9a4a1ef80ef437",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "153f2bc83a43f1b2c8cc410ab69fd727728df66f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "1594051a9c66f8214bc427277eeffcd7bb7ef8d5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "15eff3ede37eccfb7123d851e99a287c476bfbda",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "15fbc833c82de90d592c741795f16da6af45b4df",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "1603086e96229db337beb92a56029d274927e0fc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "1623858f9044c2c3dab91250a2f9a12accf8b552",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "169b5fc542621f7a545c753bd3a87ea9d114fffe",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "16b96e9eab589fd8ec4d58079b35a52b0de8c344",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "16ec33a4ae571b2ddb7b42dd27b1879c0e3e8ce6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "16fc09927258905c2c4aaab866dbd2e54e5f2f1e",
+   "seeds_A_cited": [
+    1,
+    14
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "170445466f994dd111d6009099e321ac080cb8f7",
+   "seeds_A_cited": [
+    1,
+    5
+   ],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "176687b9fafdb5305a420e1477e94595d716eb84",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "1788f41d592328814f18bf2754da68602d87e975",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "180f4a7c4157d3f77d9ccc04a3164af9f70ababb",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "1843248f63d2a74a04fca40ca1db791ab2f94b02",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "18472ad61507cffa297cd636d7f96914608b0c4b",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "18618f9178cf353ffae02c4155013a1a539055c5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "19102c512552aeffc6356e47aff110efae6e8597",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "195cc3c4454f1cbfe82ce706370335e21f78e0d0",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "19c6e4094610296c3343ac1c3c915a933f988002",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "1a15e5d60b1a770001253537c249968787d2ef99",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "1a25f2f5f7e5c22b20fea2c1337d09d0fb9c0fe0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "1a2c8dfa96bbdfdd62a1ecc929f3f60694826b51",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "1aaaf3018dbb40121fb740e2accfa40ef22f8990",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "1ab3a79e1240336c77cc1ac9856f5b442d09aba4",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "1b3b6d82da179c0d70f227734c1313da5a1770c8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "1bd22b3cdd7ef64796b2c2b5944b30c1e1321624",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "1c1417bd3ac316f27a2163f38f5db21120569e1f",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": true,
+   "id": "1c9c3214a31851a610e38fb5a37a0a3931a35ccb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "1cd7f17d00745603bb834d6dec964a57a89afee3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "1cfce7a566e630790300ee71e222a139dc6daca6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "1d16ebcf3a16dcda84698a5caa085ab422167c2b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "1db29b511d47c6e89a3055eeb1d9b81d9287e1e3",
+   "seeds_A_cited": [
+    5,
+    9,
+    14,
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "1de8020982bb29e2fd5a786ee160103d1dab95c6",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "1e0c013a59d800efabc325f7a48ae9dec4ff9c70",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "1e31eb2395f23aee346b6c740a25c09831ed844f",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "1e4104dfc5ab02d831cfd363f76cb5ee8a833795",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "1e6ddf3e028e6d15992dfdfc06d8ee7102c517aa",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "1effa0dd94b5abe81aa5d7ee1e59b1dc449e505c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "1f1b34682cd1bea185c8950d7351bd657035cd95",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "1f30bde6a74a96c28558ab3623a8716897cb5f5e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "1f81057e84e43fd2d6611f1ebf393b29a37b53be",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "1f9079a7408d08ae6cd0dd74ebfaa728216b3626",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "1f9e9792aaf6fb6123517189092be63f6fb1ce39",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "1fa19da7879ad42893bc08741015d58ea14ecda0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "2005a19eff1ae6e1592a380296752acf5d63a522",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "202b87995cdcd063d41442d2dd57bbbc3f287461",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "202de26cca260d45e4f59e67b9e10c45a7fa71ea",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "2043f5236659c369dd674b7a2a0977530cf7cae6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "204c03f8a272dffeff5fe1bb7046e185373b04dd",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "20ad958ab112362046c8d0d14d8a9d24d8e50062",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    8
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "20c9726191747fef743464f2dbbb9df75968adfa",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "20e811c4e370758c0bb08c574925b58c01ffa25b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "215a89dfff10e905c9a01648301f4b94e9e8901f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19,
+    21
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "2163be077b48c84fc18ba4c5b1e66cec5ca38b95",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "21b2b70ccd63bb8b3b969727a93ba131e80efd8f",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "21fcad6f2f626ca218f8b749acefd6dfe1b58ca3",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "2200fae7e02c9e6ee01e07568c05edd65fb93647",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "2269128692a10ac5862f4ceeecf5341a10c63353",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "22973d861bb4497fcef0c1c316e534c91386c1a3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "22c14265b8ad15bc25ad18095d725fdfe4eb80fc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "22ddf37c4b89d43748a81a151da34b5c0a84c62f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "237107258c89eeb07b5dd6f66462a90d0a7a19cc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "2373d3c836a058c138e71402b477cc22255dd3e4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "244f77b6cadd5bf09a682773abb25bd5e3763bed",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": true,
+   "id": "245257c26bc0fe36a2670b666219e425706a0bed",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "245833f9d344c7eef14d06a9df3466e17de7cc3a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "24bbd4e2952dc2612e2551e3fcfc49f5359840d0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "24bd39a3b33afc037478f229dabe25953945888a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "24c81a1f2023fb8dd0879aadbe71913949bc22de",
+   "seeds_A_cited": [
+    1,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "25543e8b46711385f8b97634772937234fbface2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "256d3e40646b442d9d6e8feec42280bf3b69a905",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "257586460ae3be9c8e229dc92412e93fc6bfb999",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "257b9626fd3e26ff0c717ca21d521ed4be88febb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "25989c5079a45ba2a4397b0c4829d137a5faac45",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "25fd7d925c533cc7a87d114450c42ac2dd13c22c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "263302c86bb4d560c5854a0fb9599350ce1e0180",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "264a8ff61aa688c9b94151d1fb3a5bf65ae4bbbd",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "26618546f0af0decd7b43d4b58ff0de1fa52d00e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    21
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "26a86a480eceeeaa5d039f0b354913b63291d7f7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "26fd11a780e30db5953f15fd314165befc3dcc50",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "2708eadc400ae98ac9b5d8a6b17fac915c9dbe8f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "27424465131505cba49140d0e53054a2f231b2eb",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "27ebb05f56d1e32734188bcafd2d8f7b0ff4bb2c",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "282464da61633377db2d72a4691a16446955ae97",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19,
+    21
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "285642303f572baf9d0eb0ef11aa6b1023edd7e7",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    16,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "28d4034da8346532024058dd1e8a13138dd33b40",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "2901d46734f9b3833dfa9036d6dddfcd7b0e6c42",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "295b014511b4a05268ebd2e68d0af501c6506b89",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": true,
+   "id": "2a30d6ffebf8d0524a4277d857d172705f4caca5",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "2a4a122246f61d1c14d0450e189cedeb91c3ded9",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "2a4acf6a4d7d896b1996bb98aa852e44c379d9a8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "2a716bb78956de392ab2c6200b679b26230479b8",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "2a7a4d226bc9e100f604cce58088759d05813dd5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "2aaa306fce7b301ee03d9feb7eb5b2a49ed03b80",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": true,
+   "id": "2ad99de723b6e9f0869a21de833168f877ba7420",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    14,
+    26
+   ],
+   "seeds_B_cited": [
+    8,
+    11,
+    15,
+    19,
+    24
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "2b193838bd493de7bdeeefd1cdcb78842d7104e4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "2b83a80d88c512b04d7dc1ec60879f9716be94a8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "2b909e85ffd2884d704062c4e70ee71c6bf6f93e",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "2bac3530cf56c06857c3948b18d7388b1ff4eb55",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "2c01443485df125d65fe6b2c240952b89bb825ac",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "2c171247535fb13ce49eccc231fe76e5c4a5a69c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "2c4f66f42b3b426d15a6113ee870a1361ce4c832",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "2c568cc013c02508def65a808785fba819e3fed5",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "2d4bda0ac7b42acc1ac19bae297b0d1003a1a9a4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "2d6d42fb746455e1439817109299fe1d284d737c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "2d73abac89c32bf0e6bb47015cad95743fbaf60d",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "2d9379ac953aa649a9e565943211b659c6a68f80",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "2db35062949d396dad5ba26efb6e468bb4a06229",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "2dfa3770fbbca086ebbaecc8790f0c30f1777063",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "2e256d1830384f5e85ff27698b8d8216920f053b",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "2e2dc6f90c3c2f475052ff4a9d9fc7c61d159c82",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "2e3a79da42aec1b5f16b68e19876a85b997db9ac",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "2e4df6df85307b2d3acc4eb84237afd090a2bbe0",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "2eeaef58c5b6937ff40c82f3ac039f9f3046e16d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "2f4eda5c412d4ca12449c3ca67d32126fb90ad07",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "2f8190526564e89eae7558e000b1ab937087379b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "2fa5107960912b76115344b459d8d7df4e064b69",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "2fd4b9d03524016c65a7a5e95ed25bf8d434d35c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "304533fd02a17e783722a5e309b143999a2925f5",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "306514c871b967b29cbbaed9eef21b3a78651a30",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "30df2f236420164742a64a713128ccc9e45a656b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "30e93478452e0fb0f5bc0801f5992879d0e563d9",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "30f9e07eae4cb0b211ca96a7fa588fba6286e8dc",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "3107300ed3a6e7c85022e19f81c402e887e1eea4",
+   "seeds_A_cited": [
+    1,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "3135cc5ec1b535ed01480b79be1232ee05a9ce57",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "31525c7ffe854c610b28375c8d03084e60260f3d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "315a7b0d6c6080fbbf179f6dccc99a6af2447180",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "318b73d37ae531c937ac080d186f0cc79203ddbf",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "31c88c7bf2d850f7dc9188042b0c3dc60274f596",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "31d60bee022c220cbb9609e14cf113778936f7aa",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "31ea51a2357140ffcb6275bf2aa44e5bc5b4d88e",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "320baf145afb8169da68cc53cd06decd7769452e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "325c8bd00f844b179d3be9c2702e930abaf9c7f6",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "32d28862c7bac011471f452c9a9329dd8e06aa75",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "32ecf9f70488a42ab6ce48b2314e5963b6cbeb91",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "33017e8c7de93105728229bd083142dc19576138",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": true,
+   "id": "3398ce263bfa8b5641e316932e40607333f47730",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "3399848f742e906c85e7b3095377451249cd637f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "33df8ca29a3393a6e73986af0e2afe21040c2e44",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": true,
+   "id": "33e138a4b84cf9d69a8e7a9605c24f22d4d9603f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "3554d7058f2ef08b994bb6a8a35cf9b5e17fe982",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "3575fe304529c1e5f044912c8229eeaa1743dca5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "35c5c0445aec7c125a19d76c0f671aa9c178ea8b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "3676c1af9acfd7250e017a78bfbfa85dc838edec",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "36975dea2160c442fc993120897c656e7baed396",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "369ea88fa494cc3272785bdbe40f4053fa77be59",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "36f2d4650879cd7f88fc762193270eafdd253540",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "377b4217d98c64cfa47f9f1868cdc4660b9ab1f3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": true,
+   "id": "37de13daddf8bba99a732751e085884fdee45757",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "37ee9425cc091e40ff92860eb7286e3a681f8575",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "382084551e56f0ba819eaf9bde784c9de8ba3ffe",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "387071d17f15daac3f6a304a169318d6d6a54c65",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "38971c5815d3d7675564b54496b6256bdc8f25fe",
+   "seeds_A_cited": [
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "38a52772575bae36da32036287f35aeff03948e1",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "38fe0aff7f1de3b71e0f0efa28d1065adf11a546",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "3a5e1a3527eacd9dbdb19156febb1166f13931b2",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "3a8d752cd9d0f47875000b983e5c5dd35c903cfc",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "3ad37b5a5361d7815cffb2fd26b103674580c64a",
+   "seeds_A_cited": [
+    5,
+    9,
+    14,
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "3b8b1c2629425bfc2ef806d7cb2140711d3afe6c",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "3ba97fa10f71d859ce59fa68b4e402be15c57d22",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "3bb505bfbe20f12e1d9ca920e37281fd424045a0",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "3d4fe8c665d7773f4562fcba11122f6f69bc7846",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "3d6cae976cb3e604f6f7c82d824ac29079025982",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "3d6cefaa962f6be914c3188396155ec74798b29f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "3d7812599863e7d4557e58dacaa8ef00025302ef",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "3d880c20a6ef4fb72247e6ccfea5ff1da826e94d",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "3e1a1ccef8f878c3be9d1a1f7447d7285ef4afb0",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "3e1c725bbad627bea9ae28c507f496529fc00cd7",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "3eb312a1f7da977027324566b7415c78455d2dc2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19,
+    21
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "3eca310818decf99ad42212d8e538441c0b26845",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "3ed48329e34ad714c21c082cba80c1fafa2bd3cc",
+   "seeds_A_cited": [
+    5,
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "3ef9fa991559498319f61ecd12e8a98912ed547c",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "3fc3ef081bf018dc8ed9ca2d21f4d5e8f6d022b4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "40097d3460cda951fd1f6674d2e3a2b30c22ce5b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": true,
+   "id": "400a846e40e3eeb733711db1b87bedda7aa1ab14",
+   "seeds_A_cited": [
+    1,
+    5
+   ],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": true,
+   "id": "4023e9127e96c7f34db7901e3289fa2b0c701d7c",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "40693ba8a32bc393d74ceeea4d7ee8a6b3cc9aea",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "407b16c50f8b9516a1f2952d1875fb618b674fe1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "4126cc1e4c8d34c095b6b760a19324a86419229e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "419c3ad1a3e8e8630b9845149cab8b0364e9e0a9",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": true,
+   "id": "41ba10fe53a6edccb1d96758abc4139a51b507e9",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "41cce5d0e9ff77ab60879d0cfd15334bdef6dcd5",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": true,
+   "id": "41f27335dfe698fa642c955dde549e9831060603",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "4201d1e07c64d6dc4b53cedac629dd3df12cc9cc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    21
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "423da8167eff161a82814f41783a4090189a4afc",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "428280a580ba48bf49d4eed94446549f882fff45",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "429d606d0e7d80999e045d5e077f438355fbda2a",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "431af3eb0afc1f0ae401d94c90a1df05c59c4be7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "43440b6aede78cb051755fe9db6750c9e04a7133",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "435f43b9b40d83065bb5a6f5c8c5153ab8eaa809",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "43a575d637bc4a911f0381ee07c78eaff028cb72",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "43aceaa5cca3386f65ad6a33b532541c7259c43d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "43aebfd789b03bc6eaf7f94c1ba5e8c3ad562b46",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "43ee0daa3c3ae9c3d9cdb9ab240a50f05c13b993",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "44407348deeed6cb6ffa8dcc6073022b3691b908",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "4442ffa86567c6a3a04e7b89fa32c6b1483d221c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "44780a6d72d900c04fea8fd6dc502245d9b0f7da",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19,
+    21
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "44831ed93d5e7a14942e38cfa9edb01a74a049de",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "44fd469b6b5ec7c5b30b310fb5373604d86d9102",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "453f109e2ef3c1a399cf140ec314b162c5d9fcab",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "4592785f331ed3fecf525e944507e9028ff694fe",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "45b9579182de79f9c453729d7f4abda0ea088464",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "45e10b11afb5aae081279bb94f55f321d7b5ebc2",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "4620dc65c87e289e53a8932ef4e34ee7eb6926fe",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "4638d183f5d0dd70ab265ae654fe2eb971d19f09",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "463fb5894f27f2c37d7a0fd3d1002b3ae9635268",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "46685b04e2e7eb23f0f680a9b576529756b194a9",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "46e2cc24f087928bec567e0ae5e5a5111a73a361",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "46e3aca71f7bc5a9395d72570da2f49c336e8d18",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "46f9231c53f3b9b4cb63928eb00507e7e569c1fb",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "473b306372d29958de24f58f5e38b20c45198ecb",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "474554b62976df16839b5acd7485b8845c61a242",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "478625ad57591ea4202df51393fba29e15d2c654",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "47971a34598b5dc0700f74f8343ebed633ced470",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "479f9de29953c7ee52c1c157b57c87a8048ce90f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "47b24361efd8194bc0dca9ce523ce6a9d9e7e899",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "486e40ffbbae91c4ffdb9e96891da1d59d2b2b57",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "488fe3e1418c4db0f8bce9d70cd13cefe63a2b40",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "48d70515b40f011180ecad29c76fc4418714c429",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "48ddfcdc8e06d01b8cc14752e25aec074b5a5173",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "494624d27bcd6ccfc970ff1741473d8b616b92ed",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "4951cbbbf4d2f775712e25c8add52444976b5809",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "495c84265e26860ea8a448d0995c33185bb2b357",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "498d95d9bd992613d968f2f6dc09cd2e5b9f5fd7",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "49f3a965592e5369def1774102d6331af12bd1a7",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    14,
+    16,
+    26
+   ],
+   "seeds_B_cited": [
+    8,
+    11,
+    15,
+    19,
+    24
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "4a17cdd1566857e2d00df438e25efb1687f64d75",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "4a28d8aa4127a260614a5bdefab9810b934ea183",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "4a2ee0d738ad44c9d737d1491c6a7cac60dd4711",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "4acf13ce19cd8bc72bcfc0300c7fb5598c65e339",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "4b131df5f4c917b50fe7053467f08c9be370cdeb",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "4b27ed9341f05ede12a9f8c22e43fd599b994110",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "4b28bfcf90055ffd8e47219b3afd74990caef0f5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "4b9f1cb4d5a6e7e688b5aa699fffeabe8ef30e49",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "4bb1b8da9744682bc098763ff8cda9ab4692eec4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "4c0bf11be48743a5fd9cd9c4506c7185ad12c5d0",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "4c3f95e9270ce48e76820d3c95715243328f2171",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "4c46055352e6c5730518f3e4aac07e8a4d1b149a",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "4c54ed23577d3eed81e78fdbdbae9444075571ac",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "4cdfb7bfd7de74b11d45fb0adffc628e08238c7c",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "4cf4b528d4baff475c6a8741e62221f5a90cf312",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "4cfa2501c2975f8ada96f1396850d8f5930713be",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "4d4bc75962bd06e3efb9532203f13285dd208322",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "4d549b65d7bff7aa69bd98b223299c14d4cdb4fb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "4d6430d9b8302f0d256fb7c9b6c987ef0f6f386d",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "4d72040f6a85f260eabb02aa5df44532fe677afa",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "4d95bf26a796a37b383f319670fdeef3c763192d",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "4ea0652045ebe50204d61fcdd9c156f1fcebb9ee",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "4f4ccb05803219745775f2961406b30ca9f7e2e2",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "4f97f05a71483a51fed5f7496040edac84db8556",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "4fda2b9e2e7c029ce9a62b6382970e52ef453e29",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [
+    21
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "5031e24b6b4471bac3a89c6d552f672dead5825a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": true,
+   "id": "50817b9f938f6c61fdb45685bf31dd126228b108",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19,
+    24
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "50e385bacc1e08c4ac32607cb2303724ff913e22",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "50f6826fcd2daecd71d8de9b17d1f725208fb6c3",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "519ef79e3610dd7833033146db04ae149ecc3253",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "519f48057b0d0e49b2e3bf7ca23c5d5616c6c5d9",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "51c04c58039d9c110dd058007f0105852b2efd32",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "523a4239caff0395b78c071015408b89b2253462",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "52523af003cbf405fced78bf533f4524211215a1",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "52850eac6fba3d08e0fef4464a5d22694be50e02",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "531579f4a292a43fbc4593f5d74124c185ea3028",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": true,
+   "id": "532b245b94bd7a7929f3405616a1685212b53b5e",
+   "seeds_A_cited": [
+    1
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "535a3d7fec7b654ebccc0e5bfecac8d156752f78",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "5445af322be6b29c23143f1c9213d182713a6058",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "546079e9de3bb28002924d31223a6959fb9c913d",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "54772be4a1b487dad6b64d62b75cdc4d8c338119",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "547d2c3ce968df9387fc968d8984284a96dfde0b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "5480cf259e2add3b1ef33741ce4ba5a2e1de755c",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "54be984194354c3e2787eab1f14e7193c235ec41",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "54f3a59f0834af6be6395b2a362b8ebdfaab175e",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "54fa1282f35a45986e22b54dc85903631b8457f1",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "55c8d1bed726bded0c7fc5d6e7ddba05cf651fee",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "55df7dd85eb17afe439fbb3a2a2887e32487ce5e",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "56214b2976fadf83f5d16313ad0ab51edbceac59",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "56494013513401cbad4a92023359ab6b2fb8c647",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    24
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "56659a22e581e4226aa01bc4bf135edf58953b10",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "56864aadc05479dc3ee1f736774e24e692ffa435",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "568d4904175f1e10259b10182e5624ba7f92cfc3",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "56c6897a2dd01d32539492703a24f7518345f6ba",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "56fe0e40c20f093d663d7d75403f6c02c1c914df",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "5710da6011e86ba1a7d0f1a6e73af3966c8f3a07",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "57631d1b9728b4efcfb424371f4c5087bc442b9b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "57a097b3a238b89aae29458f17fbd2fa3cfcbd6f",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "580504ae5fc8c90636407ebf347cb4589eb29f38",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "582f00e457c9e896a35c3bd4fb0cd849c26bbd8b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "587cf6e9ffb75e2d79abbb83910aa93c54989c8b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "58cfbb2122602422bdad8b58d22d103be3e2effd",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "59b8016aa10ee5323edac3b9d5e8aa708cf8e781",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "59c318555e3e50ad0b865b891a3af907e0755e6a",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "5a202e8349d60ecc3643f6a03b7dea21407fe4da",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "5a5005bf30c7ee394e35a8bf11df24f83c33f2c5",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "5a535c910837b8f448b8260ee4bbc23d36413e04",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "5a892a0bd4a0f546d7c4112d8fc4fbd6fe16a804",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "5ab565418ddffbc40b5d06fc7198fda1ba0e2d4e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "5b93314c8172aba49c554abd7f19755e5f9e5985",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "5bad77e4f67eae17b8819f7eb52ec77fda10e08c",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "5c7a2d97b8c5ace573c7fe8645271050c2376246",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "5c8f8e34039038cc035f350dd8b81d48572cc13e",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "5c910c043cc628ae6c88e20aafddf7c6b4cf2f9d",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "5cb17bc0d5832bd18c9ef5e8dfa7c46e422b3740",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "5cebb77304936b0885803c4757e4c02bdecb91e7",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "5d6de4915e7c90e502640bc9fc5e244678797a85",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "5db1541355d0fdcec5876a9ee3d764c01898bf6f",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "5db955ede03b6eb0e9732afb885871ec9c2bb1c0",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "5ddf675bfa5966abe42f5a8df3ec5b02daaaceea",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": true,
+   "id": "5e1e427cc77cc0180581031fdbecadcb2c41a9d1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "5e20b7b54968a712a4c8d9242873971031dc8e2a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": true,
+   "id": "5e5938114889dad20f82bfe4d05df8cd9c3fa6e3",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "5f4ac14a67b788e5e48a507a78060739c34f6692",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": true,
+   "id": "5f54c3ce55fd3a43cc592508a43540085fe07117",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "5f67489e251ba81646f3ee45f2bfb31dbaf4521f",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "5f98255908ab43a6f38ffb19a6e65b2e76946573",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "603a329a79db8abedfb066b573087ef2d870b447",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "606ae356b06472e099c5d134738dbf3c95657826",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "606e82972a63c494dbaa5fd44c1761293d9de88c",
+   "seeds_A_cited": [
+    1
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "6080973e29ee7e9e2163284094033f2e3c25ce49",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "6117c35165a9c704c05f098ac6c1265e82e8d98d",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "612ad28e6760f70ed289e42c91c39be66d7f7bf3",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "617cecd7137941336d9008d6f5f092dba0ca9ef4",
+   "seeds_A_cited": [
+    5,
+    9,
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "618bbbff20f8dc9db05561fb403b7287e1c79f70",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "619f5a3b8585341a3c21b4431d1ac23264c3087d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "629ca04e0139619a9e38040cec7c48c64ff9133d",
+   "seeds_A_cited": [
+    5,
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "62c8c32addb96c48204e2802af3e665721a5f4c6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "62f5b8e21207a696cfddf1544248791501649502",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "635d7dfe5d5855c76f7a6888e8f08beda5dcfb3d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "63dde9e3a2cceb1fd942d7116a7ecf7a6da0df66",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "641a046e913dd68dffc0ac0de3cb45d7e040d786",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "644703e7f104bb7b982d30cb2bde90aebf264865",
+   "seeds_A_cited": [
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "647ae42a55ea0df1cb6d7bf637a9077a3b73cdc7",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "64acfdac3a2989cadbc5c960d60c94915dc7eb2e",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "64eaa8306bd8d47ba3deb102997c55ccc46c1b44",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "64ebfa065c2c964e9e6c01b886ea2e793e309e59",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "653f2ce5b8306f02be21b2c3f0569fd9e283b466",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "65950ffb965a693f85a5c7848fcd5974a506d88c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "65cb2f2b8834ef53e7144aa785ebb3b32676f71b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "65ed0e534f4e129fbb9c9a351c96e6be0b3175cf",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "6617f1947907d33db8a89fcc90db329f28b36a32",
+   "seeds_A_cited": [
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "66b288b2a8a14fff1285012346027aa9f25e062e",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "67252cfd1c661eddfbd6ae172c8608510701370b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "67c1c113da396679df77508d26d52e47f4f188b4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "67c2ac2dcd7b16e4df96b1f8faea71a3309f9d26",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "67c8b88f273c0526ace5bc66b8b287fd1e6afbbb",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "68112cf54f72ed4556cefec5512f6082fa62d69c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "682f0e14100a590d85430089ea32ffd1345ae136",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "68a6cf20f571f7291954fd428ae3ca4a6ed04143",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "69034145ec6047b542e40a71b6913973d1e2b8d1",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "690d1fc0177f1185c71779696fda6bc644ee2948",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "690fa034adf19d63a7c956474eabdfe2ac78be01",
+   "seeds_A_cited": [
+    5,
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "6957572d70e048272ed90058352bd3f83ec50124",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "697a08796cbb5213fdb471cc1872bbe1890339d7",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "699f224655c94c664483a070077397ea4b086410",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "69aaebce636c159e5ba9fd31aab3e8ec1973148e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "69c41afeef366e1098716118e650cc8c31e4c84f",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "69cd6301421ed48c7df07225cda3894c26f7c4a9",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "69ce53607cd1c903f18cd9d5b71a5194bf9786a4",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "6a6245495dcfcc14b937d032abda66c989aaebff",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "6b3065d4b39d5b67e3d9c5d2170a3cf865a119e8",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "6b533086d3dd8483060fc061b3cedff1e30955bc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "6b8765b2c2ba183ff75363de781394285364cd9e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "6be91f2443dd3d69026964e14c04a3012d8e423d",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "6be974d2e02d76ba477b97824fd0e98a30d48590",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "6c20fffe5b5fa91885c94cd59e815be200522d11",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "6c44ada90de3bce5411f509a220a80d3b899b79c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "6cf6f34c8c2ffa82856f437cfdaa0fe23abd7a15",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "6d0f7ccc8d1c18a0bca5857a1b1d3f8ba0a948bd",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "6d1cbfd0ab6880a5fe0f5ce95e7d4a3072955839",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "6e529acede79c3a4486eabb1b7822638dde90e96",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "6e7ea1713d3d8515dea7e0f2f5f289690706b69a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "6f3a571eabc524533344b33c985583710cd65621",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "6fa10e90ad33016c1853a6ee9f3451f1990489f4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "6fb725e57b503d0f29a941729c22639693cfb8c4",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "70179db795942443795c973111c28d2f52d95a6b",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "70714c70705da5087b517edbf3579b7d3b326f2c",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "70733a49e0d6b57a3cead04bdd2d4e58d5ff64c4",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "70955d2e7fffba68cf4888b6a3f1946f58a7cdcc",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "70ad31db15122bca0a3fccaf764a03071a673f19",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "70d0239c8e2aff13deb915f975c2fec867aa88e9",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "7106b90917458d0d7e4805769e9a08380836f008",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "710c741790a2b9f1d8fbb26a773a01b19176aa32",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "713287224381d71339bc6c749fc0af50fbffb9a1",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "71586a90d99cc7243c53b7a231ab1103bcde9b71",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "71e6805a252c5b9ff2809550c20410f7c153c28f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "71f51bc134e8ff95243bbcb8e365e15fdc7defc0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "724306e3d9e609e62b93970721107efb7e763687",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "7284a467e47921be483597e3bf261cf1535fab49",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "72da021ce4dec3e1f4718f794d966bf3e1ef3d38",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": true,
+   "id": "72dd9cb72dc2ce5cf55210e70bfc4878d95753ec",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "730803fcbb4199e04ee4617821325aa133b8ab8a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "735295ca30d86169157a9480dde34d23473fc01b",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "73559174b175a544cddd26bd418de39c12392751",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "74078526e37b0de3f752281a7ffab048b2da4cca",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "74339466e022fbb666e94265bd9f997da589ce8f",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "74f6513d3cbf200d114c6a40bdaac2e309e5ed55",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "756a2a05b2c5af8379c3e53d94a4d6e0fdc05321",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "7580c2152764c84f8aa70e2a8654acf1bbeac784",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "7585b0d250a92cd42710ae976534a27db1b3e926",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "7587ad7863a7cf9a2f2f7aac22b62ace15f348c6",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "75885b0486d6f408e6620ca6f4de359a622537e7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    8
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "75ab7f799006ab0b5213197ecdd19727fab3a774",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "75dd6879c23a0bfa6c8552209f35febb72326536",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    21,
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "7618df2d0fb31548a26c3de77a72fdd9b6b3305a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "7685fcaa7269f97c1758f6a4565dde4544e043db",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "77650bae52aacc6e6df0f4ccd79bf554720843e7",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "77ad902e6f39239e0bd882e82d889a8275d750f5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "7839a27cfa1ee9782ea770fb46471c8091cffb18",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "78ac97c2985574ee3315bae82851709d3f6c8ef7",
+   "seeds_A_cited": [
+    9,
+    16
+   ],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "790f08f275db6a772101c6ddec6ac759a94538d8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "791ea1c47a87da58d5efda68c40a26fb40841f61",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "7928f691a68c9673607b69a2b3247a15581ed844",
+   "seeds_A_cited": [
+    5,
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "795677ca483b0ada958ba2591cd084a45e55b544",
+   "seeds_A_cited": [
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "79a8e0aef2c1b003ab391aa7efc8c1782ac87a42",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "79bfb0853fbed7c015603b352d60314b185f8d85",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "79ecea64ad835f0f87a6ca7783f6b8cd011428c3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "7a474dbc6c2deea615f8e508ffbea2c75b8eaf7f",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "7a5e46b832e112ef815fed25f4a67dc090417c22",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "7a785719f1b31e6f4eef484aaf2bd27f279a880b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "7a8bf001dd71a1810f5c597b58a6be871f745035",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "7ad36bed0a6f7bf2df95c0da473020418362222a",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "7b11cf6e212828bfae8160cfbc32f4f8fad8e483",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "7b49482fc1bb4c948cb0487aa50767751a911e11",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "7b868010190e5c4e742d64e4ed8ea3b58a6db1cc",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "7bc2dc2a3a98261c110972cb3699969ac4f9b731",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15,
+    21
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "7be810a3afadda0524c8914540127a6bc14eba70",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "7beeee81860aa865d2b86da9a49fdd6336c99f85",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "7c29276402e6644c426813816aa83cf8fa94fa56",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "7ca96c9988a5bc199074272402d834959f3db588",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "7cbe215b23ba97db96b3fff44399cd6c37c724d4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "7d6a7045ffe5492ccfeaff43438296ceecfb2bf4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "7d7942a0f7944ada0e1075157f32b2d189a78fdb",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "7db8b3707cfe77f8d5b611fdf763a280af31d551",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "7ddbbafac53af441f16bc96b88e5e5d1603f44de",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "7def90291a4c0cabe6882e23ed59fb645b358ee4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "7df5f3793e0cb68e5edf2b1cdf2fac7587f0e733",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "7e25be02fa4d9a3d71dd352f474325781882323e",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "7e812c8d63a9a311c13bb44ef3f1445669ce183b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "7e8e6bff4a14e8bf5b38f509b31c0ccc52578ddc",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "7eaa00c9f991d2fc1fb02211468d8248deb8228b",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "7ec3f8ee351c48133538269f3cf36a3eeef52d0b",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "7eff57959e4a2c5d50b16499fdb6dad3e1bf9e4b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "7f6f30b2c5f83c9be2e887c224f079849fcdcd94",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "806b2775804ba1c6e411f1b5fab9d0b16355b07e",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "808651101d1273d0ab75db8969e526b1bc348671",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "80aea4a4144f0b7ce368981fffc72c8eb21c7f99",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "812f3012108453b0f3446a4a7a9be8c23eb9026f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "813fe9eba044b9d29692687d56e9e7d5dbf1800e",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "81606638133b5880d97a56924a2c2562c2bd4b8c",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "819cb0b487e7a049df789f49969f05a4c96f85a3",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "81b42a2976a190ff91a611392f9117990b436a5c",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "82432e568fc685ad0651b70f5817de18b6d61b14",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "82d34a82e91a66af5bb14a42db984e79636075a6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "836475ffa945642766dfffc3b3c3d4df934157d6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "83a9307ef1533d8fc6843685e846f3f42e14dd8b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "83b077dcfb824b4cdb688fdb61c53785f983e06c",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "83b2c881fe3363bec5545cbe67ed46d365e16905",
+   "seeds_A_cited": [
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "83fb446dae866250daec6e6842fd703d9e7362fa",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "843c193aced8a48f83a48e3da3b8603e04eadea5",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "847464e4ef80a60f59f9a8555e9a91ce4c057007",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    21
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "8478b444cfed91d98bc72898a68315b5d59a4c78",
+   "seeds_A_cited": [
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "848f55c46b9ad8fa6c5fe5387dfb53a3e5b29c2c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "84f241c125fa20cd67c4bc17830330385bd72ba7",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "85000cd06ad39cfa7b88afb415ba345be901bdba",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "85599a40fb3c954c0cecf8eca9b839dc3293f3a8",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "857ad83c3ef3c962017712b85c744fe45a42c655",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "85d5abe5c212dd3d91952af78787f73c313cc2bc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": true,
+   "id": "85e5b028834afb0b4e35a3f8bd6673433def17df",
+   "seeds_A_cited": [
+    1,
+    9,
+    16
+   ],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "86097c0107973f1b86122b81fefa851cd4010bb9",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "8611504089c817f6f0bf94f6400c233260b83a45",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "8663b7d92356c37bcbc15623475135fdf767aae2",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "866662872b4bbdbde653b91518e1c7a103755cb2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "86e8b1e2da21dd2d9fc9b23db7724d2a7688935d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "86f5dbd1935bdb6b1a89da7674923e6c289fbced",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "8780e3604a7b6183c8253860417485319d4823fa",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "87ba274cd1bceb4ce1b19284520a3ee532e54b40",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "87bba1f6f79ee619e852fbcdc27c26f1f05a7795",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "881ac88f5e1497c0a258ae5167c0429247565a07",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "88453d7734d1d6beefcd276918381e15cf138494",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "884fd79f221f74c654a3928d99325fcc705aa6b1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "88505a449b2a13b9822536e045a5897cd4db4529",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "886e93073e7963572426547f133191372f149bef",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "887e8bca8a55fe4416a6367a6388ae017c33284f",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "8892cba5e9e34fe3b1c5ca2803cde34e02e8290e",
+   "seeds_A_cited": [
+    5,
+    9,
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "88cc7f59b7622215278a6d6f97240dd8dbebffd9",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "88ea822043ad78102fa6186cc6a637dc6247a9f4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "891581fa050da601d1d3958f9ad8d877c4a9483f",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "891f768a3d87dab53ddb1d115eb8d8beaae823eb",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "89b11d190c67f290e8fb5af64d31008d6d295fbf",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "89b20037620c76c02a1b0637deff3224d9181030",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "89d758ce839a4508ec9bb5d7e73c3b0543b3d78a",
+   "seeds_A_cited": [
+    5,
+    9,
+    16,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "89fe350c91d0f6874fa7f9aff5bd49bc90be458c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "8a8837cd58578d5b611179e58cf37f6f501cf3d2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "8b1af5f7b049e1343809d82a53db8ddfb1d885bb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "8b2e3aef283686b64827b4bc2e96fa24c8093cc6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "8b36294acb637efbf32054806b50622090ffc8b1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "8b6fe15040bec7dd7ec6bb9f9b802bdfaa325ec7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": true,
+   "id": "8b89be8719309b489f2c304da59aedf95c3ba8d3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "8b926679ecd6adb49b0068918df79c37cd7fcbfb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "8bb2522480eac7d240a6778f76fec6c4785694ad",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "8c118a26ae6189011192c197d4a65336dfbe8ecc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "8c3358e2655fbc787f696fa0adb9e519101d01b3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "8c5ab3e7e9f5fa74280abe9117053fae1b2072cc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "8ca60b17a2051511718b8b9011e265e839281878",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "8cc4526a1ed1e24e9c51d271a827d15d5f235c08",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "8ce33ccd0154a5a779544056e676f86427e4c6e3",
+   "seeds_A_cited": [
+    1,
+    5,
+    26
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19,
+    21,
+    24
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "8cea22b1f4669d9d980f9132a49578a5d0c23b7e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "8d4500e8194b8b3edde08966dd9e455837a548a6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "8d69df897334a698609c830e4673a33a4ca5b347",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "8dbc89133872f55cabe169bcdebf2a406589dfb4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "8dee28571a583ca9448088612f9c9040fb2f4b54",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "8e0ad5836ba93cc7897a634fa50875b640fa4d53",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "8e1bf8174b0aa35627b3bb6ad9692393f5990984",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "8e358ade281e25a6bb6b34eefd7923cef3a9be77",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "8e7a78f205b810d27e575910a987a2fbd1a27be5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "8ea94b0cd9507dfcf88a6d0cb338e92136d02328",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "8eb0bd018bb9e4c3ea8590cc3991d80baab8b203",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": true,
+   "id": "8eb74e066262eead099816a82c82dc983cd7f823",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "8f076a046c02a4ccb3255939452133f71c5f4067",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "8f0a9fe8f30313d8b0281b4b44226cda5af96fa5",
+   "seeds_A_cited": [
+    1,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "8f2e33ecba617bcbda93522c3103cc3609642de1",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "8f4841cec1b4764c5e8d3243036134330d27dc77",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "8fa218832d90ef03e450214582e681b761a1a6ae",
+   "seeds_A_cited": [
+    5,
+    14,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "8fa28d4ffe14521ada487d3f0a4dc5964e0a5d23",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    8
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "8fcab63b38192404d90265944bf3f13055c1af90",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "90126954f565180a51466996e0b359254d325836",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "909b42e42fe37b2ab520c8ddc72cadf9ebb0951b",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "91807ae280ae09aa9137c829d078d54c64678647",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "9199eb74d5bc40bba731cfae702ec1ead3e95739",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "91df5e1fada674aa85b826865d17fa72c3bbed77",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "91f06672ac39cd3e44ae16fcd502a5b91aa99006",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "9227d501bc0e22ef28e650ebc9fa64908e60f2a3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "92601c7bb958452c60d8c1f3613484ae4a2a3e51",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "935df2247164bf768ba3b77eeb11205a8950861c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "937c15943de001bd878a32e1dd106a1cbe294f37",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "93aa7160c4e5a5b9e2f9e8dac96855aeb71396a3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "93d176211818a959735bdcf780f7af1f32473d2f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "94a8ff56f441eb2cd6b0868dcbcef0c96470dc9d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "94cf2531f52fd1871f915b9c7fa90c27ffa1a573",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "94ec707dd4f5181860d54ea607efa1f9f23decc7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "9534bd1171675573d40ff76c0e96d76a48cce8a3",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "953575f93bda3bd89559b4d1090808abae01d638",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "9538d40cb4f3654bc782e128ce0f1f88e78e2cb4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "9542281a86c72d54d52f52fee3432d236136e489",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "954d581114f224324842d1f9ab98eb7e76936da2",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "9579c7ca184b6092fc0f9d5dd1c148fd05e49747",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "9604be9dde33f661b3ffb91a00bd060c7b4d2ead",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "96aff72c72e987fdfca510eed106e331f4d72d1a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "9713628e53166d22738892771c12b68312df68a7",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "975d931580fc4adc4afaf628a2552437584a6603",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "977324e30afea2ca923dfab08c12a7c3a4db8a54",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "977524893dcd05bef92d6c7352bcf650e2ed643f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "978d9131521d3bb31ac700b66cc09c20964b4cd6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "97ac96696704adfabbfe1f6693886fa5fde9bf61",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "97be1774142c4309f09746b6f2436d3d1e22bb5f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "97c047131525124b1b5a5e61ee6b977285472ef0",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "97d5935320694790cbff6b1bfd14c6ee52331da2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": true,
+   "id": "98202910512f546d0283d698d6da802157e848f4",
+   "seeds_A_cited": [
+    1,
+    5
+   ],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "982d1bcacda5fcfe181502fc653966c128f57a80",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "98511a2187027bc4d095e23b6734707c954b89a6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "98b92c8fbabbc9822ed95193bc37e58c741faf61",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "98f47d04a2ba7a7786ff96ce579d415641ee3096",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "98f50f914ba938d09f3a4ae037220601968b23c1",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "991457e2b5f94e1069f9e2de300dd0a377c90c22",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "991e7497897bed5948033847c7d577b40df9afca",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "99419224ecfdf56da6f1f6e0deebaa0abcdb7883",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "994f9a442cc141549dfd9f8cfb7e7fc2854b815a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    21
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "9985c6f2626431a9985c03f04ac9eee94defc3af",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "99d32499e039604de0f1f097206b0a6303908367",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "99ed0aca7155f2948a9395185a42a69ffb82aaca",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "9a31ae7c592f70087cb5e47b788fbfb9cc0409d2",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "9a416431f941d4d6026cd3052d463fb14ff413e1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "9a41861da77771aba9064e97c7d6e51a7fd301ac",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "9a4ecfdae8a485b7ba23c170bed6f383bc0ec2c6",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "9a636e4aba2b85153d4987f612919beddf21007a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "9a72a01bddb9c67261ecdf8d8b364e3b7cf070c6",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "9adcf332b9dc4649eedb547bf515200db9a0e93b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "9b05d0b8d620af266287f158aff86b6df1281395",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "9b75eb49f57bd777c5fb271bd6d42ce7b412764d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "9b8a685fc613d8397bf5d0a004e126f9c0b31b7a",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "9baf7461ac7a8d5c3116b48d107bc4dcf39a8398",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "9be36d084e1c08c645dc8b8616121371cc119e3b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": true,
+   "id": "9c08c30252d0a33f90067cfcfe0239d8033e3ff8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "9c71c499185d37d96750a757580bd4b8c33f28b8",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "9cef99a8c10020ec58378f228fca9d40be55fcb0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": true,
+   "id": "9d1eef1f5ce747611ac8aafb8821200c27817a33",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "9d48d1741f0c803c98f651daea556ba6bf5d7259",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": true,
+   "id": "9d6e91c86381d23418b48cb4fef5c7bc5bfa74e7",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "9d748aa81f43f04303d98f6cc0adabcea74da3ed",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "9e1c9b702334566ec7c1c1154d8499062c788889",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "9e1f52cbec8932fece13d454c0da5c713b5c249e",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "9e8bfcefadd669b5bd3178a29322940703b0c6d0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "9eaa828b30514b6439828257fa8a0b97c61f3d10",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "9ee32fb24883bd962a00de0d487a3e9c6cd8ed3f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "9f0208cbb546a7decac7669ea677cc48b8c96f30",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "9f66f21d7af16de939b5b116bf5565e45d6840b4",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "9f688a78f9630bdfb5ffe6aae2ffb9f51b3673f9",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "9f811c4088cfd78b52b154a4991ae9cb5432b341",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "9f9d3718cc79c42a0065e08f799dcfdd0ed13122",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "9fdfd9bcf6a4572ae7477c8466761804262c8f95",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "a01f71a4dd61c768d2cdc7697dea7709019464da",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "a0368abbbaf1f1dc8710fdb5aafca868b73b4e71",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "a0481095e0e6a21b380d49d7234a756c503a185b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "a070d567ed3d4c8cdb43a41563f2ecea458266c7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "a08354ad6f8498ecc9228ed48f4d61c8128f221b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "a09524995f156f4578aab7290bb38cd8c5dbd7b3",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "a0a88961f87f43defd665394d92bee26a97ad5f4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "a120226704cf800882a7249c32696b1ee4f04ed1",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "a12361bfb98fe1b73252930a1d224ec6fd49c7ff",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "a14a39d369d9e918a7fe8b96b239af0a1a9cdfa6",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "a14cb964f019d573a1862cb3479cc02018e173d1",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "a1a9a384312baf97650fa97c48dd84a73ead817e",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "a265f10d3354dd640b1b5444c90823f6fc8af0f2",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "a2b8c993a04acbb25511a734e46a6e7f61a2868d",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "a2edfebb05b31301d4aea71d08d83ff608c28ea7",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "a2f2452f1a9964979ce615060e3ab05c85a16e93",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "a31dd44911c86154017348f588ff876591d30ec5",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "a38a4d5d29a80f476e9476f7b121a07077a78af1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "a41979aa422ff721fdca95b980b883e1ead5f572",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "a4b25fbb1f947450ca68968b4074457b6b7f0c1b",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "a4d018ba300f2635ab60eae7577532ed098e6f00",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "a4f04a992f4bb28d46144775a7a6483ad535ad5c",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "a4f0fbacd7c6979d72acf61fd4924c2f32f8e079",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "a534a2fcdb3fc1a92bb624e23443592fda303962",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "a54a66f02f79a2ec945549438a473710313a990f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "a62a5899c39464d36555dac77bd4d113efc80213",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "a63d1640f293adb8fe15c5a7b1f34bfb9b4cfd35",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "a67ae5f748461881f17aefcb4161771e8f5abe57",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "a68f7b32804e267742dec3760ce6ec45fd71bd45",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "a6a011fc1a6de0049457cc3f97014c7f5c8fbf02",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "a6d51ad098d7ec5ca72dad8ad58f336dac35a594",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "a6d59140dcddca98fe83f905c7b0a6697c303bdb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "a6f18ad30266242ff1c4b40ebdbcad2b8d39c9f8",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "a6f467134736fc7d61b68f066e76cfc70eadaa0b",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "a701355831605137477ee35686f963ed926c4665",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "a724592ad5dc09e18a0a5101f5b9771ba442c5ba",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "a7354a8b2782fdefcf1a595989e55bcac628fb99",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "a7579b98843d5ea6fa798f5bbd50a106285d6e36",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "a76fa723ff3f48d547eb9d9c5d4b7c8315d1c328",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "a7901349990f5759cab2a7780caf65b9868b1353",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "a79d47630a4d11c839bfb1209b6b730cbf8bee53",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "a7c9ac756c0ad4155075578b5dbae0e0bfc4e1e3",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "a8b9e77d3d9d0fc0f239ea454fed106f09b7b27e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "a993ca9ecedbd4d91036da917339e76f3fde418e",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "a9d170004daf534acb987942c21ef0c60b964ffa",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "aa347916f74187bbfab445b5baf1f2e11771065e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15,
+    24
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "aa53013e3c70ad2fa52c44e639a11e68f1623f58",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "ab08a63ce114761146bb25f0f56581fc6fac6168",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "ab2a7a05cb617b7fff711be70be9ed16fc1e7e30",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "ab466b2958afe475e4ace4c1d2509be67fd3b3e1",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "abbd005eef6db5f1c33dd156830d3b3d73edb8ed",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "ac50745c6a6fe105c142e5cff6c769604fa4e663",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "ac76a060c0abdaeae64e08d1082eccadf3ffa471",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "acb6de37a9f2ad35c9aaab4d8a7f0548ba580a40",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "acd27d088d6dd5214cb34e4329471960c3d2d800",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "ad8fc39e4ebf76ae697ee0a8af29ef46216faed3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "adbf58fe741a5c141337108d7845686e2603ed31",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "adc7231778016e7e53acc8f204e30d729bf0b556",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "aeaf11feaaa9f409e112d1f5a399056a3ed08034",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "aebcfa2faddd3399a14c7edd3379344642a959ce",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "af01241c456a7561682ce5cd2b1ff272ebf25336",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "af451a23798bb48376ce45ded23e541461c41738",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    8
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "af9dad8efc92922f17554865a24416b7aa365d6c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "af9dd533cd79c5a885bf6e24328ebbcee1872909",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "b02a6f765e305376858a21b8c6515f659b6c3300",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "b064c34f8100d1f0f8d572e26d422427716548b4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "b09da42c95da4b9fba4d4b85b0b534b83996ac4e",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "b0d5f192dfa8c476c5df63971f5c99c82d5e760b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "b100c0b2371a48ab479a73c78f0671a5b8cac89c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "b11875543e0a7de63f1121a35be7a381c5989a85",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "b180d260aac107dca569603f3579cc153042a361",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "b18c3d2cf9e5c2e9cd667836fbc95e338c94add8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "b1a9136fad0b996c4775b9c4cec2765e717b5553",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "b1ba75f0435ab957d6d8ccd70ff5eff7a3c4e727",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "b20312ed243d7b58bde7bd28507682112f8026ad",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "b22c20a55635f8756bbf71ff842504ca95ba226d",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "b25ad1310b39c80e5ee8fb273310d83ed6a5de40",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    19,
+    21,
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "b26ba15d6a49db2550d3afaf00897ee381e88e8e",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "b277d5fd41471cc251ea8cbad4e7211c55b1c014",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "b2a7511fbab07a9a7e3012c9ba4b51cbbefeb7bd",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "b300c558db53fac5d09b2ad60e3e0e971e2537d2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "b32ec0b3a6c3d1ca8f6ba5379f79823d6c969759",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "b3319f1e154dc6ea8b30b91ea4a40dc6fc375fc8",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "b3a2904ce614a971756897d597d45752b3458b76",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "b3b0359c08cd3a792efea8c7d4e8c8e88c602823",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "b434f065a9de49c9dc115e87bbd3a5102c7e4f0d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19,
+    24
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "b4619fedc040725b7bd23e86fa2a2252fee238ae",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "b4975449d760a5e907480117b9575284dbe263ee",
+   "seeds_A_cited": [
+    5,
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "b49d5771f140640ea1d50376991073a6942f68f0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "b4d09d2c20f2af8810c22ccd60813c3f5a416130",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "b511caa3d00f5605288dbd7469bc3455f1e7cc5d",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "b53df96fbc1a0f5a4d1eea003561772bfa17dc47",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "b56ac63d057e5abb6e0904d0f513c7e4162a9a85",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "b56e56b677a05c56d9cccad56bcfa46b2840856d",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "b59718e7e00fb8f9a24ffb928906c8052281ff73",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "b5bfa06d5ac626b98c28f8d3087c43ecba4f59b4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "b673b539c32e92d9faf8d04dba4446e8c41055de",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "b6848352bc6e675289e9572b8e91c6e76d52c7c5",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "b695a6d418fd5f72ef2354f1451aa5cd789c2259",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "b6a2e629565e5b95876f7b355635a3580587fab7",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "b6eec7e45bf1294d401ef6cb4ef295092136f513",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "b75ebe4d8562974a1f6a50d8a213d92e5f79558c",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "b76fc6dfc15dc6dea4b69552da241c078475ed5f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "b7f9a1c8bd9946e20e42e9f23497a4d228adf729",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "b811d6dedf370cc66dff9995a3da7ce875451167",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "b830ca70d659e051c9d700bb02cadea79debdb56",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "b89b9da0078d885eadb607dd0536d50049c9efcd",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "b8eee6bab0a875130624291e6108e5441e4142c6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "b906ceb6041a1d1ff16cedd3923699de67c6c850",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "b99581686e5cc9bd2a17f2cf5e668ae3fdb92861",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "b9aa2431a79570e0f1e81bc21ca3e29dae3ba833",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "b9ec6fe3b1ed341c8e641896a99000c74296bd2f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "ba74def50564901993131b90689335df96e6ca5b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "bae2e8a5006bb98581fd8553c59d66bd1463aabe",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "bb1a8eb7ab14acab8fb714600648259945b76a7a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "bb2ad97c218a49737559a575a9b80608c80877d7",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "bb3adab6c76a06c8fadb6ece3cc4b35e7ba48c29",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "bbd7fb0ea5b4ab8c4de769c8a0fbf62f6a75e07c",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "bc6f94a0777720009fb0d7591f147924edc23e84",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "bc7c2162309631b77423800e72e03d9cb8711028",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    8
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "bc908d850ddbdf31ffcb89cd6cebedc69e0d7a13",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "bcb09148147f484589000822d394796271c27f33",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "bce90d6f311545f90138e3bc8f009730381420ac",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "bd29abdce14de7daaab153808b47a0b84ce57444",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "bd5b54b62a090f10fba5097a9bd77d5977fb3643",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "bda9f10ba5122c839941bcdeefe116a3e49f7a44",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "bdc28b48093b0aa7ca7e190bda3c9ca8c7820b29",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "bde24f88b643d7174603bde737e4d208d6ff71ad",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "bde4eda85b87d088d1c6e24f056111b1f5cac38b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "be3814c129faaceb56daea815449e031a57b15cc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "be740cff7d560e52170f0b647d46387c824280e9",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "be783b881f11dc200cc01ee51e1994cf8b2cc08e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "be9a015de683acee791d87741719990c397b4636",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "bec900b4c617fd005b1f425c28c39a4a6a1430a7",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "bf1c1a7133275292ae93123647d6adea4b54976e",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "bf2be2b639586d68402e652e256453beb581e8ed",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "bf2d0cd9a1b30fa060267999a82dcbd678df8fd7",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "bfc89be1193ec57bd4556681d548c1af32fe12be",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "c00bb6e8a917d7b5eb5dc559b1204e83c776110d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "c08365357c441442f4038f1f9d7e5256daa4b147",
+   "seeds_A_cited": [
+    16
+   ],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "c0da5e6de04f00ab19e3ffa99abc3c37c7b173c3",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "c101b19297329bee274c4d2fe2493b0a42a8ceb5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "c1a6cc601dc52694f9ba282b26f049e29db24402",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "c1e27fe8b418c9899ccc587328e20c0005fec2c8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "c1f0a0ced8d75bdaebc163fe7f08c4b5c56fe7be",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "c2c506c54b394d30dc3294325c7005e648b427ff",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "c2fba644b72cfaee03134bdca072dcac0f14a207",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "c302226e6008b6bd127d159fb93cfb3486122836",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "c336b9f8f9f237b73b00e8d9deacd505e9b4f8b5",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "c34de2ca9164d45c0eae81208634bdb9313ef2c3",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "c4292f298e6ef865155055c5688f924a2ade1af3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "c438c781056ce732a5b590810ef8cfb56dfb8d94",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "c439fbe02168b2477678dfda4b955f9c8de2c7dc",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    16,
+    26
+   ],
+   "seeds_B_cited": [
+    8,
+    11,
+    15,
+    19,
+    21,
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "c47c8d5b6bc2aa97dd5f9bec94b8606f10eed43a",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "c4f3a862c53555893a519d884b3532bae1806149",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "c54bf6ce229dc646b09f9ee034732910713494d9",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "c560fcf6ccf20875e0a7e3700732984ce5a7f40c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "c5778cd0439cf7465819b2c8f689816474d7b790",
+   "seeds_A_cited": [
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "c5d943723680794cab5872a6d84708a145062e60",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "c6348e6cb33071c52938d668c22e37da66224e66",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "c640ee9bf8a08f9b242183dc234daf1f8a03ddb1",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "c7430ced048891bb24d055bddafac64b9591c516",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "c7456e3ea4a88b6b9b7e4ecfbb53610d224bbc94",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "c74e92b22658d96eb4808156ec91bf10fe95803d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "c78f297bc20c1a751e77831061cfc05436bae525",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "c7cb91f9a015b5e59c8d5c3e06ac616e29e4e7e2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "c80e5dcae6c334277b88938c780eb7d93beaafdd",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "c87ef2369c9b983d6a7a98f2a846d452e7c33c22",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "c8c2bf4451cd758bc4b732c4f1b5bdba431afedb",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "c8f534fb4ab871f1879e48f49a03d99e80ede918",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "c9115ca8a7d59544ae6933771b2ea9ad4b4c2254",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": true,
+   "id": "c91340c6c76b83633febb68e1dfe473ac87ee0cb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "c9248655eedf0a20971ee32f0744ada8f95f1bac",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "c97233988abc971bbcd142d10aa7e687507b7f0b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "c99755ee6a17dafd1e878af1c914d1fc5e7e6249",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "c99dac24e1ad955e6ce0075c239fb36cc1533025",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "c9d2e03e87aa6567207a1f3f6ce3944e6d5a4eae",
+   "seeds_A_cited": [
+    1,
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "c9f1ae6d02ebee46468f07e9572fa3e3fa5d70f6",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "ca245139bb022dac71412b4a565725affd8b2dc9",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "ca6f4ffca05377ac76beae29ff5903948e541a32",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "caf2d161e65f68a614ba6c6272c02c405cf9dd80",
+   "seeds_A_cited": [
+    1
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "cb90a223b0ed2aacd41aa49e3f669f699d718368",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "cbb939529378d89714aef7c3d901330b6287d104",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "cc2490f01c13229d9709ce7b9e5334cd63b7129b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "cc8b6045c2fc29dacfbf90225a78c62a18b33eb5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "cce1e12a18b8c2ce4a9182b642928e248e9f5ead",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "ccf0d454c054df3ba0398a3da9b9e39b171d0c5d",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "ccf5fd43e66c00563f7c9a4c4999bd779de35ce4",
+   "seeds_A_cited": [
+    14,
+    16
+   ],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "ccf90191ab9c66cab7f8b220229e5c7e16079ea3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "cd10048c6a9fbd3c85b7402d2327d6b9dcc9594b",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "cd31a723169d495a544133fbd1920c160ced523a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "cd45e9bbb579281760bfb797136fdbc952f5c0a6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "cd48145ad3a9dfeb59f067591839cdb63d8500f9",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": true,
+   "id": "cd92f7e4878a6e5f916a55cc963fdd42bb5a635c",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "cdbdeb27c8c0e4011987dd8efdd4348c86567c2b",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "ce4f0ed63a1b584346a723eee48fa09579c6a581",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "ce9e78d9cec8661e9a12e87ea87e1f953111beec",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "cea245f475f854b41f8b74956f38795d67e4d033",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "ceb1ddbb94ab345350ced5892aef0b12a502ca7a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "cefc4fb7ddc07dc15f54e1ffba5d26ab8bda851a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "cf02e574acd6162e0c2a3b4a6cda84adad710e5e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "cf8662beccd5fc7354b7558936833e7a0642e35b",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "d015110aac03f6216fe5920c72c2f919c3ede4d9",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "d05bc1296519ecf8cf7dcb6ef2732e11b31367bc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "d094f35c8ebc1a3717014ea78d7dc3c6fefc7f47",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "d0bf858d5e3226c6ca1a35a1833343493e5fed3f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "d11b0f56e864db0aa2937ea87e67ff6741c8fa27",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "d136bee4299232f896319ad2eff6764175ef8da2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "d14749508ded50d9ac2e2cb8df26be08ed2862fa",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "d158196d292b950f9ed1ba6397ebee33a5942c08",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "d18702361f27e6d3c6de3a63a16a9aae6c977008",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "d1f7201ecb823e31d0d87c29f47233df530e6a86",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "d235663a05181244d75f9de20f7090f28bd9c57b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "d2742d59f01cffe074a72d81f6b74156f71bc168",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "d2a0c2b16dd251f006fb03b28a875c56800465b9",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "d2a5c7376909d551b247756eaa25f590e101eabe",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "d2c421b89699a92221cfc13e51786302c5189f1c",
+   "seeds_A_cited": [
+    1,
+    5,
+    9,
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": true,
+   "id": "d32295fe273a29bf95d9f486c933a669f574c54a",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "d32a1367315a67ee672edde26855dc9132f47b18",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "d3cb3b7a114872d1cce2b024d25221e32058d925",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "d3d2816965f75aa610255dcd229ced3269dd6e01",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "d3f74aa2a8078a86e448a7ce9e4bc769080eb987",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "d41df8068333aad188496ad0d91a26c3155f2950",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "d4c0d97cbe2c1545ba158343189c7229e057ec1c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "d4df33dea3f3384f49160d3ca248b55cdb0e068a",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "d4e5af55727bd5c8ad16f6be95d7bfb1dbc6a32b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "d4fb7b4b0e7038146ff907610a757696505afa2c",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "d5189189fe50a1666e0ea3e8479330ec7db803ab",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "d5aae61a48a337162638eebc83d5e73a08be71a1",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "d5ba751fb22cf5a50652a9e7a34276aae291d1bb",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "d5bd9d361358b7b8381937fc6c4aaea2b5b691f2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "d6adf6388ae8e21987fcc80a94ab687a56a2f50b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "d6c316aa34cb38de9961fd10c3f6e04fab2e71e2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "d6d0289e02e2998764d60f961965e99330e714dc",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "d6e869a87d43245f214d4b0e179a313e11dd6236",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "d6ffe896fbe5658a85dcf8d62c12815b5e549a94",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "d71f8c7a60a94fa9641cda0f74fcaedfe9f1ccb6",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "d72f9ca92349fa34ce6c82a62e846aab8d95108d",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "d74f90f2fe76ef09a8e7bb165bec045c42efb9cf",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "d75737706178a85848f3d19a8f1be681f7cb4a1e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "d758453fdca78d55f05b75a4befefff23e2d8c00",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "d7daacbd907c2b274d80d760ba7a21b100a02425",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "d7e0ae0f4ea4d7cc3265d877f4cfd6f880615411",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "d82ac9d6e5d1c9fd81f648787c8e2f60f79038d3",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "d83fe3bdc9ac7ff47bd876b8c8770735e6585e4a",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "d85766357a6ccb0d42fba3b1bc647d6fd0c26763",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "d8a822f6b64ea3198962c8f104b46626d418828e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "d8d02435e0166cc2b65c475b85e2b9ee9b4d77ea",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "d9064cd8264f682e64ddbba84651f8351cbdc4b4",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "d97b900cb6e58f738accf171c053a83a5d91186b",
+   "seeds_A_cited": [
+    1,
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "d9bf25e61bf8c6c6d4b75b07765a8e0d3e2faea2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "da120ea2c6cf8a71bc97fb0c8bf51d5869ff3c75",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "da74412230280083b0ba8603bc49005f92cc956e",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "da794589448baf2b83bb9136ed53240e66d612f9",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "da7ed726912ccea77613a703d4f05943642af54b",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "da8a2f96d9bccab347fb11d3a8b68f14e4570104",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "dab8b63ea6a712d8b464cbac2a83b16bde888ff0",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "db3fcccc615f6fda2623c388f2df27334e39a2e9",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "dc8eea4656d51db38ae65109b0cce50f37cda826",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "dc9b39828155ccab374a9b0258a32b9fb0eed504",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "dceb1dff44137d21cba06d53558313d2534dfcf7",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "dcf0d820c91418ed0247b0697fb2a927a592101f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "dcf4d9497c2410ea5e964cd9b2d1043b0424ff58",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "dd145b6fa0c7487d9437d684c156a9d21bb02e57",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "ddcfc615c8691141a6d18ee8a4f7fe7efeeae960",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "de29f32e6cbb9fd323ecc14ad921517086b839ac",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "de5740194e16d76d1b7f6511fce50dba36693f5b",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "dea929c6d9f2fba5a1db699655cf9e3267f52828",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "ded268f7f21b01bb2e3a68f7b180b38a521056cc",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "df8de910be16439b969cfd4a1dbc15ee113f4923",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "dfcd6d9b8d49387a45def6714f8748fb21fc76b9",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "e09b49fb74ea8af9fbe2e56daf066aea906687fd",
+   "seeds_A_cited": [
+    1
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "e0a41b46785617e54f19b172a78e59dacc920c8c",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "e0ecc2d80f5e7fc18ae302c9e38291e642624c42",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "e12914391f332f74412ab004ee94821143067f7e",
+   "seeds_A_cited": [
+    1,
+    5,
+    14,
+    26
+   ],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "e16c7f44289adffbba1c604423d1784ed281bf58",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "e1901119e0c293cf9022c56bbdab195f2db5d8e0",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "e1a0a0c847488cdf174e4c10c5b89ff70149afb8",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "e247b615444fbe7b22dbc9644a5d5bd7ffae38e3",
+   "seeds_A_cited": [
+    16
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "e2f46cc88f2b6939b449cb56b93c87dd854ed84f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19,
+    21
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "e31f560b4f5cdd1fdc53ead54d9a9b2fd25986ce",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "e3465bb4409d7f71d65dffdb1097484e7579c8cd",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "e38b2a47a13fc7f63b60cf228884d55196e98e4c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "e3cf688a005e4da93e7992e401e5b47ea879bed9",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "e3d969e674dee1ced672d2eebeef09bf0aa45d61",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "e47e642db58da6b577e7a210f1f0689a5f01a950",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "e515cc746b95c5b922010bd07b758f3fb00124d6",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "e555020729ae323963af8c7f0b84ed34015bffa2",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "e5937d2f0f22669a6fe2d661bac97a71ffcf0d15",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "e5f3e1b3baf4218567bd5de3c096b871aa7d0182",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "e6368e14e023fa34018f8f59e1206ee8c15b68e3",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "e649d29821f31c5b0e87d5751a33874256acef6e",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "e69946e1782d45fdfb7097a1ac6bf9bc0d155366",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "e6c7f7b3e5d60d2e3788a5fefeb0ab2b4b165f76",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "e709feee99da1fc9401ceb14777acf799a37012f",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "e75feca7af2d65d840926a677bb334d4d46ad02c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "e7a275b207dbcd8c9cd1c7f1df788b369d68d08e",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "e7a9864f7edf8a3ebc4d9f70df5f9a3010646f86",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": true,
+   "id": "e7e6296612c42f9fc51dd54ae53aaedd1ae64316",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "e7f65bc334e3a1f35f11b2b8ecaf80844af2189c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "e88190c0d908d689d48e9405cca66afa0685c0d1",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "e8d214a4f8ed330ecd11235f1c7b1810f3a0b384",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "e8fcf9c390934fa062a1773345e586f371c90430",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "e90035321802bc7d4e1693d2a07acfc54a13c887",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "e9088397c13103f6e2457bbc7453c6bbef60e625",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "e957b237788d8df7d3821929545c279448c3bcba",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "e9644193509c5e3d65bcdb504b345ebfdeb79471",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "e980dbf439213aaea7372d56487e3955375048cd",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "e9a04948a1ee387df23ae4ab953b4ec14f9bce82",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "e9c97b402d6eb68932356a2effab98963a0fb4aa",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "e9ecc21195ef2b1576511c72a73e902d6253f221",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "eaac6a3c3a10f00d8746f8eb261761cc40874706",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "eac3fabfe5f018a8970b631bf803f60e7a9bd3b6",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "eb19f8e1c108145760ffea65bb3f829512a9557a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "ec09fe4b5562cdbcb1e7537c4760c70fc6f6aefe",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "ec1c2e26853c13273b997499d338c68e8c5379f3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "ec39fdb4b171af8dce70675dab6f7616988476dc",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "ec98f453da0c31907c1b5563a87a9eabda34e6c9",
+   "seeds_A_cited": [
+    14,
+    26
+   ],
+   "seeds_B_cited": [
+    15,
+    19,
+    24
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "ecaf44bf01357c885e80cb0e0d58cf68cb7da028",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": true,
+   "id": "ecbed702182c5cd4a684fc345352675c30860e3e",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    11,
+    15,
+    19,
+    24
+   ],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "eccf623e6c27f639659774352a0efee80050f3d5",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "ecdc7c49975cb77ebdb33c8ad4a87979a704fb08",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "eceff881b6f24c2e6a400cbdaa778de073452b1b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "ed590558b452468a7513966fde2bf1578493b0f4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "ed77f9d0130d02fd05fd756a205bfffbb817d82d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "ed7956a5960006565063edd76a58af9fbeacb4c5",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "edb95f5e76c3ea1c2ae395c5e0815660bbc07b9b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "edbb6d29b2d29fd3d6ef6413702ee8af577fd7ae",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "ee686d6a08cb27355a9ae188443d06f8d5bf0e04",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "ee7555cd6154a44a8f3543ce052f16ec7233dd95",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "ee7ed28180b2dcd6dc78634501c511e334cdfa28",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "eebf53fa02645ddee1c9f71526d8de2609f18067",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "eed2eecd636cb1aeeadeadb75cbbe43782da7bf0",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "ef1a31ee5f89cf94ecc6cf8aea0126dc7b344b6a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "ef2748be01f9bfb850180f27dbeab926bef4d4c7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "ef75dfdccd824236eeb8b071c015ac02b58d1d5f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "efd68b4ec41fe5772cc55d52663060ca7a5df2e3",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "effd324d96ed908b904c47898fb2cff5db5d0d04",
+   "seeds_A_cited": [
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "f016ac0c9e128daf2a42f8646233fbac5dbf59cf",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "f0b0deb0233e257426cc15ec0455e126d0bfc864",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "f15128ec366ab3cc611bf607a81aad6cff180610",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "f193c2516e989987d0215d38f4bebb610431267b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15,
+    19,
+    24
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "f1d42b03764c67adde7411d752f686657cc29891",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "f1e07f3d13ac0478c249f9382ea4840aa9832208",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "f1f2b94f5fc7f112ab7f47411c2dcfab38c3b6d8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "f232603f41d6b86274082046d0ec3ee7c843c4b7",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "f2a53a55e11c72b35fc7104e73bc6495342a4944",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "f2e536620e01eff87dccf0be383a78d533896ba7",
+   "seeds_A_cited": [
+    1,
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "f37cbdc5d6fe51ce445a56f121c9bcd182a61a59",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2024
+  },
+  {
+   "cites_focal": false,
+   "id": "f3904db0a9655065f9e6f8d66efec095bee32991",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "f390720449b64b44663462a0e2ea9797eff3f14d",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "f3f8b94f45fa2eede21500df8ec884cdd930ddeb",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "f4b0d0d2b5bb036c2e8f598fe76992e730648bd1",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "f4ec62453ae08a91a96b51aa314867af9f8f9ad7",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "f52ff07fa6093897e471479f7ee7d6c661aee6ed",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "f5442c8f99e30bf920b8402ff7cc009a892241f0",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2020
+  },
+  {
+   "cites_focal": false,
+   "id": "f55e17c03691c4a83564cf0312cf19bde636e08f",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "f57dfea8be52f5fa015211e265a39bafce21605d",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "f5c43c8490ae4ab843ac47dbb70f95a51fbcda67",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "f5f441cbeb15691977d7f2805a1fd40797a94abd",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2009
+  },
+  {
+   "cites_focal": false,
+   "id": "f623e480b9f7cddc0cf76f8325c19e16ec1304a8",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    15
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "f711f2c6314cc8300fed3f2e442ead68d42507cf",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    19
+   ],
+   "year": 2015
+  },
+  {
+   "cites_focal": false,
+   "id": "f725d67a8261b412e2ffbb18e44669c534c42c9a",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "f755977249ffc527b02a6878da85724ef7642876",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "f8111ea06e1b185d424bdd5dd88b6c6b83e3dc72",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "f82820d3915d05cb9e2f6eab2bba040ed8717a5c",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2008
+  },
+  {
+   "cites_focal": false,
+   "id": "f83ead83ad63ff72b13be9236c90988c1b634aa2",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2004
+  },
+  {
+   "cites_focal": false,
+   "id": "f89c5a88209e4687196334f272ad28e32489aa80",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
+   "id": "f8d5ee099914f385980fd90534268edda9db84fe",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  },
+  {
+   "cites_focal": false,
+   "id": "f912721cc78c9ed392806e8e76d8758601a34f38",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "f98063185bfde7ddcaf06c9428ad92ddaf580fd0",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "f98402eaac2134d3ce259141a3b3b4770b4040a1",
+   "seeds_A_cited": [
+    1,
+    5,
+    9
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "f99d6cada6cfe2023d7182c895a7d680efa9b4fd",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "f9fa2355d333a9e7bd34e1d7b5c8121ed1c3b6a3",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
+   "id": "fa07f9ffc7823443b2dd30bfa0bee58e89bd50db",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "fa1ad1ea1a23ed6a7602e175c5d27505cb8efb99",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "fa8e5810216e1f9d9d4269318852f5e24d2d28f5",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "fab497cc7b2d447a1ac7fbc9abbc19125b81d253",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2018
+  },
+  {
+   "cites_focal": false,
+   "id": "fafe449e6bf2a2d75a492edc7b818c81fda9cf96",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "fb00d3c85f684595bcd5be39ce8c4b1445cd0e24",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "fb0fbb80da1a83cc67072680e074e81cb64086f8",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "fb10b3f18d0578b28ad865201aaf9dab2a2e3d99",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "fb1969a3d19b1b05b20dac46d5492edd30d28a09",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2011
+  },
+  {
+   "cites_focal": false,
+   "id": "fb1e6a9d6c93b81b439c7e2c24e82e15ca43c99d",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "fb2e1adad4f6e7e09cd6801240747ef0cd44ddcf",
+   "seeds_A_cited": [
+    5,
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "fbcdabe9666f1e5bade8809622a450dfbd372882",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "fbf3d5407386a597344a61211ae90ffe8a32008b",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15,
+    24
+   ],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "fbf886c4758d49fd09a9ac1720300f5323f728c2",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "fc2d2dd832d9a132e8b55677217cf1c513e3c2e9",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "fca400149d8ec0f6ce2824092132ff4d20b904cb",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "fca6db065540c1a905c2b2fb0e87a14f4d220291",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2019
+  },
+  {
+   "cites_focal": false,
+   "id": "fcc3117006375787a63a1f742896f4118c406893",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "fccff85706fa7a6909c17c50ad4c0cc209674b0a",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "fce69072226a63837885504ba1c8b4922ce69ee4",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "fcfd72d8da10f24a665de3926c0be9dd1bef271a",
+   "seeds_A_cited": [
+    14
+   ],
+   "seeds_B_cited": [],
+   "year": 2023
+  },
+  {
+   "cites_focal": false,
+   "id": "fd5ad5c276215a1740471fdcfdcb95db79b67bc0",
+   "seeds_A_cited": [
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2003
+  },
+  {
+   "cites_focal": false,
+   "id": "fd81a425fefb714ec8851081e90b19729c21de62",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "fdd0eb113eca089d8dffe7efbd7c18efe9a30d04",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    21
+   ],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "fe0fff0c00e7a91b944e539d85410bfa8de2ac7c",
+   "seeds_A_cited": [
+    5,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2010
+  },
+  {
+   "cites_focal": false,
+   "id": "fe2ea1ca7598d9f165b531964928dda6db728d02",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2006
+  },
+  {
+   "cites_focal": false,
+   "id": "fe4eaedd8519b1b5833e7145f95e814a428f4982",
+   "seeds_A_cited": [
+    9,
+    26
+   ],
+   "seeds_B_cited": [],
+   "year": 2026
+  },
+  {
+   "cites_focal": false,
+   "id": "fe863c9ffefece4c8289f9202b801146ad7a4dcf",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2007
+  },
+  {
+   "cites_focal": false,
+   "id": "fec933f4758c67c569ba1dfc6fb0f274104054db",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2016
+  },
+  {
+   "cites_focal": false,
+   "id": "fee6cbddef445ea9ccce749070d6268f37e026ec",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "fef12436dec6463b389a93ead9af9aeb24af2c9f",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    11,
+    24
+   ],
+   "year": 2022
+  },
+  {
+   "cites_focal": false,
+   "id": "ff0b408dea7be7c754f0c81e187c80d99d4ae6df",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2012
+  },
+  {
+   "cites_focal": false,
+   "id": "ffe9955c2a99c6899acf4211263bb205d5f8272c",
+   "seeds_A_cited": [
+    5
+   ],
+   "seeds_B_cited": [],
+   "year": 2017
+  },
+  {
+   "cites_focal": false,
+   "id": "fffaeec9cafc00c1d32582bd51f789b65892d6ee",
+   "seeds_A_cited": [
+    5,
+    9
+   ],
+   "seeds_B_cited": [],
+   "year": 2021
+  }
+ ],
+ "snapshot_date": "2026-09-04"
+}

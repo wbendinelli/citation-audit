@@ -1,0 +1,363 @@
+{
+ "backend": "semanticscholar",
+ "focal": {
+  "doi": "10.1016/j.spc.2019.09.002",
+  "openalex_cited_by_count": 60,
+  "openalex_id": "W2979112534",
+  "openalex_year": 2019,
+  "s2_citation_count": 54,
+  "s2_paper_id": "17f2024a487af516ede08f16bdb3cdc53ab16d12",
+  "s2_reference_count": 33,
+  "s2_title": "What are the main factors that determine post-harvest losses of grains?",
+  "s2_year": 2020
+ },
+ "mapped": {
+  "W1593746558": {
+   "doi_used": "10.1016/j.jue.2016.02.003",
+   "pdf_n": 8,
+   "s2_paper_id": "5741b4b4d4a887d560731aabd4b6327250b08221",
+   "s2_title": "Malthus living in a slum: Urban concentration, infrastructures and economic growth",
+   "sim": 0.9937,
+   "title": "Malthus living in a slum: Urban concentration, infrastructure and economic growth",
+   "via": "doi",
+   "year": 2016
+  },
+  "W1976386631": {
+   "doi_used": null,
+   "pdf_n": 10,
+   "s2_paper_id": "cc3abcba3daa349fb5c65d129fb6e5487821b11e",
+   "s2_title": "Unit root tests for panel data",
+   "sim": 1.0,
+   "title": "Unit root tests for panel data",
+   "via": "title_search",
+   "year": 2001
+  },
+  "W1983259037": {
+   "doi_used": "10.1016/j.gfs.2014.10.002",
+   "pdf_n": 24,
+   "s2_paper_id": "8bab65bf7efc74fe648b12cb870b55234fe91c80",
+   "s2_title": "Post-Harvest Loss in Sub-Saharan Africa -- What Do Farmers Say?",
+   "sim": 1.0,
+   "title": "Post-harvest loss in sub-Saharan Africa—what do farmers say?",
+   "via": "doi",
+   "year": 2014
+  },
+  "W2004244248": {
+   "doi_used": null,
+   "pdf_n": 33,
+   "s2_paper_id": "ad46cef3b3d670387b0bcf88fed9f424baf33063",
+   "s2_title": "Changing food consumption patterns in East Asia: Implications of the trend towards livestock products",
+   "sim": 1.0,
+   "title": "Changing food consumption patterns in East Asia: Implications of the trend towards livestock products",
+   "via": "title_search",
+   "year": 1997
+  },
+  "W2021202145": {
+   "doi_used": null,
+   "pdf_n": 4,
+   "s2_paper_id": "a59362f4d2d3c2d1ba6cd9a661bf3f8fae5e0714",
+   "s2_title": "DYNAMICS AND STAGNATION IN THE MALTHUSIAN EPOCH",
+   "sim": 1.0,
+   "title": "Dynamics and Stagnation in the Malthusian Epoch",
+   "via": "title_search",
+   "year": 2011
+  },
+  "W2037349743": {
+   "doi_used": "10.1017/s0021859610000936",
+   "pdf_n": 22,
+   "s2_paper_id": "7b25e5ccb2b8911e50d5bf349ab84c2a17fcc017",
+   "s2_title": "Postharvest losses and waste in developed and less developed countries: opportunities to improve resource use*",
+   "sim": 1.0,
+   "title": "Postharvest losses and waste in developed and less developed countries: opportunities to improve resource use",
+   "via": "doi",
+   "year": 2010
+  },
+  "W2129920143": {
+   "doi_used": "10.1016/j.worlddev.2014.08.002",
+   "pdf_n": 1,
+   "s2_paper_id": "f3b17057d83007c9ec07b29499c3c3b7644c3152",
+   "s2_title": "Unpacking Postharvest Losses in Sub-Saharan Africa: A Meta-Analysis",
+   "sim": 1.0,
+   "title": "Unpacking Postharvest Losses in Sub-Saharan Africa: A Meta-Analysis",
+   "via": "doi",
+   "year": 2014
+  },
+  "W2133852638": {
+   "doi_used": null,
+   "pdf_n": 23,
+   "s2_paper_id": "d3d3577caafe760e47524faeaf10f8057c9dc988",
+   "s2_title": "Reducing food losses by intelligent food logistics",
+   "sim": 1.0,
+   "title": "Reducing food losses by intelligent food logistics",
+   "via": "title_search",
+   "year": 2014
+  },
+  "W2138803696": {
+   "doi_used": "10.1098/rstb.2010.0126",
+   "pdf_n": 31,
+   "s2_paper_id": "51566c5011f3bc7d66d1831061a047bdbbecb94f",
+   "s2_title": "Food waste within food supply chains: quantification and potential for change to 2050",
+   "sim": 1.0,
+   "title": "Food waste within food supply chains: quantification and potential for change to 2050",
+   "via": "doi",
+   "year": 2010
+  },
+  "W2143517703": {
+   "doi_used": "10.1016/j.foodcont.2005.09.008",
+   "pdf_n": 30,
+   "s2_paper_id": "69c572ca379d6cfa8e7056de5fbf5b8a05ec4a64",
+   "s2_title": "Detection techniques for stored-product insects in grain",
+   "sim": 1.0,
+   "title": "Detection techniques for stored-product insects in grain",
+   "via": "doi",
+   "year": 2005
+  },
+  "W2152086049": {
+   "doi_used": null,
+   "pdf_n": 43,
+   "s2_paper_id": "bc341f314d409d494ee3390213d395d0fb608afe",
+   "s2_title": "Missing Food : The Case of Postharvest Grain Losses in Sub-Saharan Africa",
+   "sim": 1.0,
+   "title": "Missing food : the case of postharvest grain losses in Sub-Saharan Africa",
+   "via": "title_search",
+   "year": 2011
+  },
+  "W2165200372": {
+   "doi_used": "10.1186/2048-7010-2-13",
+   "pdf_n": 35,
+   "s2_paper_id": "c2982cdba080387e3ae404e02810c22b6c02762e",
+   "s2_title": "What economic theory tells us about the impacts of reducing food losses and/or waste: implications for research, policy and practice",
+   "sim": 1.0,
+   "title": "What economic theory tells us about the impacts of reducing food losses and/or waste: implications for research, policy and practice",
+   "via": "doi",
+   "year": 2013
+  },
+  "W2192017595": {
+   "doi_used": null,
+   "pdf_n": 40,
+   "s2_paper_id": "8c4b23d20fdd3a17c46d4ef6b893a01d0b6870cc",
+   "s2_title": "Drivers of food waste and their implications for sustainable policy development",
+   "sim": 1.0,
+   "title": "Drivers of food waste and their implications for sustainable policy development",
+   "via": "title_search",
+   "year": 2015
+  },
+  "W2283883233": {
+   "doi_used": null,
+   "pdf_n": 5,
+   "s2_paper_id": "8c3cb97ddf0a159f9a28ce65ed638f8eb31ed46c",
+   "s2_title": "Wheat in National Diets",
+   "sim": 1.0,
+   "title": "Wheat in National Diets",
+   "via": "title_search",
+   "year": 1941
+  },
+  "W2328751657": {
+   "doi_used": "10.1021/es401426b",
+   "pdf_n": 27,
+   "s2_paper_id": "fd97e09c0172c9c69478b5948230b17e7ee76b80",
+   "s2_title": "Food losses and waste in China and their implication for water and land.",
+   "sim": 1.0,
+   "title": "Food Losses and Waste in China and Their Implication for Water and Land",
+   "via": "doi",
+   "year": 2013
+  },
+  "W2334347049": {
+   "doi_used": "10.1021/acs.est.5b05088",
+   "pdf_n": 20,
+   "s2_paper_id": "b7a06945e7dd21bf5354d753c633d6bea887d902",
+   "s2_title": "Food Surplus and Its Climate Burdens.",
+   "sim": 1.0,
+   "title": "Food Surplus and Its Climate Burdens",
+   "via": "doi",
+   "year": 2016
+  },
+  "W2399146901": {
+   "doi_used": null,
+   "pdf_n": 19,
+   "s2_paper_id": "19c0065b1ad3f83f5ce7b0b16742d137d0f2125e",
+   "s2_title": "Global food losses and food waste: extent, causes and prevention",
+   "sim": 1.0,
+   "title": "Global food losses and food waste: extent, causes and prevention.",
+   "via": "title_search",
+   "year": 2011
+  },
+  "W2471902605": {
+   "doi_used": "10.3390/su8070595",
+   "pdf_n": 25,
+   "s2_paper_id": "9e7f0015ed1940201f74c95a7deeb16d51a54dde",
+   "s2_title": "Strategies to Reduce Food Loss in the Global South",
+   "sim": 1.0,
+   "title": "Strategies to Reduce Food Loss in the Global South",
+   "via": "doi",
+   "year": 2016
+  },
+  "W2477707054": {
+   "doi_used": "10.4337/9780857939388",
+   "pdf_n": 16,
+   "s2_paper_id": "46b450249793587e16edf83c4d3c5250e27844b1",
+   "s2_title": "The Challenge of Food Security",
+   "sim": 1.0,
+   "title": "The Challenge of Food Security",
+   "via": "doi",
+   "year": 2012
+  },
+  "W2502317260": {
+   "doi_used": "10.1021/acs.est.6b01993",
+   "pdf_n": 37,
+   "s2_paper_id": "534ff233709a266b3d3b356a78c144ae626f437d",
+   "s2_title": "Reducing Food Loss and Waste to Enhance Food Security and Environmental Sustainability.",
+   "sim": 1.0,
+   "title": "Reducing Food Loss and Waste to Enhance Food Security and Environmental Sustainability",
+   "via": "doi",
+   "year": 2016
+  },
+  "W2553929651": {
+   "doi_used": null,
+   "pdf_n": 38,
+   "s2_paper_id": "8149d32a0e186c9e2a3ece58adc8f6d7d71a623d",
+   "s2_title": "Value‐Adding Practices in Food Supply Chain: Evidence from Indian Food Industry",
+   "sim": 1.0,
+   "title": "Value‐Adding Practices in Food Supply Chain: Evidence from Indian Food Industry",
+   "via": "title_search",
+   "year": 2016
+  },
+  "W2563596701": {
+   "doi_used": "10.1016/j.gfs.2016.11.004",
+   "pdf_n": 9,
+   "s2_paper_id": "fe5cf428461f2a3fd71924c5efcc4ea0fa714df7",
+   "s2_title": "Food losses and waste: Navigating the inconsistencies",
+   "sim": 1.0,
+   "title": "Food losses and waste: Navigating the inconsistencies",
+   "via": "doi",
+   "year": 2016
+  },
+  "W2608295428": {
+   "doi_used": "10.1016/j.foodpol.2017.03.012",
+   "pdf_n": 39,
+   "s2_paper_id": "835fdd4b7208880545e5f9bf0a41c49626c63d4c",
+   "s2_title": "Review: Food loss and waste in Sub-Saharan Africa",
+   "sim": 1.0,
+   "title": "Review: Food loss and waste in Sub-Saharan Africa",
+   "via": "doi",
+   "year": 2017
+  },
+  "W2962083712": {
+   "doi_used": null,
+   "pdf_n": 28,
+   "s2_paper_id": "735c02690a453da7e63d1255fd2f279722ec43d4",
+   "s2_title": "Using the waste Kuznet's curve to explore regional variation in the decoupling of waste generation and socioeconomic indicators",
+   "sim": 1.0,
+   "title": "Using the waste Kuznet's curve to explore regional variation in the decoupling of waste generation and socioeconomic indicators",
+   "via": "title_search",
+   "year": 2019
+  },
+  "W3012084716": {
+   "doi_used": null,
+   "pdf_n": 45,
+   "s2_paper_id": "fbd0746d5f3a012c09b2259ce5fd85cda9f53da8",
+   "s2_title": "Food Loss and Waste Accounting and Reporting Standard",
+   "sim": 1.0,
+   "title": "Food Loss and Waste Accounting and Reporting Standard",
+   "via": "title_search",
+   "year": 2016
+  },
+  "W3013687609": {
+   "doi_used": null,
+   "pdf_n": 15,
+   "s2_paper_id": "e8432508bb43bb1c27c68df0af4e3826c660532e",
+   "s2_title": "Reducing food loss and waste",
+   "sim": 1.0,
+   "title": "Reducing Food Loss and Waste",
+   "via": "title_search",
+   "year": 2013
+  },
+  "W4200078537": {
+   "doi_used": null,
+   "pdf_n": 12,
+   "s2_paper_id": "eb2a70d2897d96efe29f5352096ba5c87d8483df",
+   "s2_title": "World Food and Agriculture - Statistical Pocketbook 2021",
+   "sim": 1.0,
+   "title": "World Food and Agriculture - Statistical Pocketbook 2021",
+   "via": "title_search",
+   "year": 2021
+  },
+  "W4328001292": {
+   "doi_used": null,
+   "pdf_n": 42,
+   "s2_paper_id": "adf5496bd9334cbbc6b24ee07f45d5d7cb6ed40c",
+   "s2_title": "How Relevant Is Malthus for Economic Development Today?",
+   "sim": 1.0,
+   "title": "How Relevant Is Malthus for Economic Development Today?",
+   "via": "title_search",
+   "year": 2009
+  },
+  "W608138743": {
+   "doi_used": "10.1016/j.resconrec.2015.06.002",
+   "pdf_n": 6,
+   "s2_paper_id": "65a8c104676204b84253b7cd9521d386375c52ee",
+   "s2_title": "Agriculture biomass in India: Part 2. Post-harvest losses, cost and environmental impacts",
+   "sim": 1.0,
+   "title": "Agriculture biomass in India: Part 2. Post-harvest losses, cost and environmental impacts",
+   "via": "doi",
+   "year": 2015
+  },
+  "W862881128": {
+   "doi_used": null,
+   "pdf_n": 7,
+   "s2_paper_id": "c8eb0cf671f6d42471feae41ff564434c9d48b3a",
+   "s2_title": "Agriculture biomass in India: Part 1. Estimation and characterization",
+   "sim": 1.0,
+   "title": "Agriculture biomass in India: Part 1. Estimation and characterization",
+   "via": "title_search",
+   "year": 2015
+  }
+ },
+ "n_mapped": 30,
+ "n_r_valid": 35,
+ "n_unmapped": 5,
+ "paper": "grains",
+ "snapshot_date": "2026-09-04",
+ "unmapped": [
+  {
+   "doi_tried": null,
+   "openalex_id": "W2468533502",
+   "pdf_n": 18,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "The methodology of the FAO study: Global Food Losses and Food Waste - extent, causes and prevention”- FAO, 2011",
+   "year": 2013
+  },
+  {
+   "doi_tried": null,
+   "openalex_id": "W3144944579",
+   "pdf_n": 34,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "Returns to Investment in Reducing Postharvest Food Losses and Increasing Agricultural Productivity Growth",
+   "year": 2016
+  },
+  {
+   "doi_tried": "10.1227/01.neu.0000349921.14519.2a",
+   "openalex_id": "W1887601576",
+   "pdf_n": 29,
+   "reason": "DOI não resolveu ou reprovou o crivo de título, e busca por título não atingiu sim >= 0.90",
+   "title": "The New and Changing Roles of Cold Storages in the Potato Supply Chain in Bihar",
+   "year": 2015
+  },
+  {
+   "doi_tried": "10.1016/j.scitotenv.2012.08.092",
+   "openalex_id": "W2072377819",
+   "pdf_n": 26,
+   "reason": "DOI não resolveu ou reprovou o crivo de título, e busca por título não atingiu sim >= 0.90",
+   "title": "Lost food, wasted resources: Global food supply chain losses and their impacts on freshwater, cropland, and fertiliser use",
+   "year": 2012
+  },
+  {
+   "doi_tried": "10.1016/j.scitotenv.2016.07.041",
+   "openalex_id": "W2477432668",
+   "pdf_n": 32,
+   "reason": "DOI não resolveu ou reprovou o crivo de título, e busca por título não atingiu sim >= 0.90",
+   "title": "A half-century of production-phase greenhouse gas emissions from food loss & waste in the global food supply chain",
+   "year": 2016
+  }
+ ]
+}

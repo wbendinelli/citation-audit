@@ -1,0 +1,271 @@
+{
+ "backend": "semanticscholar",
+ "focal": {
+  "doi": "10.1016/j.tra.2016.01.001",
+  "openalex_cited_by_count": 53,
+  "openalex_id": "W3124922190",
+  "openalex_year": 2016,
+  "s2_citation_count": 49,
+  "s2_paper_id": "49f3a965592e5369def1774102d6331af12bd1a7",
+  "s2_reference_count": 27,
+  "s2_title": "Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry",
+  "s2_year": 2024
+ },
+ "mapped": {
+  "W1487607581": {
+   "doi_used": null,
+   "pdf_n": 2,
+   "s2_paper_id": "13681a8a9a1abd1e20f09c85984957a5aafc5e96",
+   "s2_title": "Enhanced routines for instrumental variables/GMM estimation and testing",
+   "sim": 1.0,
+   "title": "Enhanced routines for instrumental variables/GMM estimation and testing",
+   "via": "title_search",
+   "year": 2007
+  },
+  "W1592051488": {
+   "doi_used": null,
+   "pdf_n": 12,
+   "s2_paper_id": "f77cf9ccf68656bb341576172983306484387ad6",
+   "s2_title": "Valuation of New Goods Under Perfect and Imperfect Competition",
+   "sim": 1.0,
+   "title": "Valuation of new goods under perfect and imperfect competition",
+   "via": "title_search",
+   "year": 1996
+  },
+  "W1681321672": {
+   "doi_used": null,
+   "pdf_n": 21,
+   "s2_paper_id": "b76fc6dfc15dc6dea4b69552da241c078475ed5f",
+   "s2_title": "Do Low Cost Carriers Provide Low Quality Service",
+   "sim": 1.0,
+   "title": "Do Low Cost Carriers Provide Low Quality Service",
+   "via": "title_search",
+   "year": 2008
+  },
+  "W1971154727": {
+   "doi_used": null,
+   "pdf_n": 24,
+   "s2_paper_id": "617ea4adb747e526d1442cfcf7ecec9d900210fd",
+   "s2_title": "The relationship between on-time performance and airline market share: a new approach",
+   "sim": 1.0,
+   "title": "The relationship between on-time performance and airline market share: a new approach",
+   "via": "title_search",
+   "year": 2000
+  },
+  "W1971695812": {
+   "doi_used": null,
+   "pdf_n": 26,
+   "s2_paper_id": "382084551e56f0ba819eaf9bde784c9de8ba3ffe",
+   "s2_title": "Airport capacity and congestion when carriers have market power",
+   "sim": 1.0,
+   "title": "Airport capacity and congestion when carriers have market power",
+   "via": "title_search",
+   "year": 2006
+  },
+  "W1971944009": {
+   "doi_used": null,
+   "pdf_n": 8,
+   "s2_paper_id": "dfeabec7e10a6b1296a952069e29ad75dba85090",
+   "s2_title": "Can LCCs’ economic efficiency create negative externalities for air transport? An analysis of passenger waiting time",
+   "sim": 1.0,
+   "title": "Can LCCs’ economic efficiency create negative externalities for air transport? An analysis of passenger waiting time",
+   "via": "title_search",
+   "year": 2014
+  },
+  "W1972785961": {
+   "doi_used": null,
+   "pdf_n": 5,
+   "s2_paper_id": "53920bf799ad9027528181e2634ac56c520d68c3",
+   "s2_title": "Airport Congestion When Carriers Have Market Power",
+   "sim": 1.0,
+   "title": "Airport Congestion When Carriers Have Market Power",
+   "via": "title_search",
+   "year": 2002
+  },
+  "W2007397651": {
+   "doi_used": null,
+   "pdf_n": 1,
+   "s2_paper_id": "b906ceb6041a1d1ff16cedd3923699de67c6c850",
+   "s2_title": "Internalization of congestion at US hub airports",
+   "sim": 1.0,
+   "title": "Internalization of congestion at US hub airports",
+   "via": "title_search",
+   "year": 2012
+  },
+  "W2013153027": {
+   "doi_used": null,
+   "pdf_n": 9,
+   "s2_paper_id": "4d8ed5d867248482729c6b13dac0a16786a8affb",
+   "s2_title": "Congestion Pricing and Capacity of Large Hub Airports: A Bottleneck Model with Stochastic Queues",
+   "sim": 1.0,
+   "title": "Congestion Pricing and Capacity of Large Hub Airports: A Bottleneck Model with Stochastic Queues",
+   "via": "title_search",
+   "year": 1995
+  },
+  "W2022752352": {
+   "doi_used": null,
+   "pdf_n": 17,
+   "s2_paper_id": "8b4e2b883a8474101793185d274efe36dc0febe2",
+   "s2_title": "Estimating flight-level price elasticities using online airline data: A first step toward integrating pricing, demand, and revenue optimization",
+   "sim": 1.0,
+   "title": "Estimating flight-level price elasticities using online airline data: A first step toward integrating pricing, demand, and revenue optimization",
+   "via": "title_search",
+   "year": 2014
+  },
+  "W2022885785": {
+   "doi_used": null,
+   "pdf_n": 11,
+   "s2_paper_id": "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed",
+   "s2_title": "Competition and service quality: New evidence from the airline industry",
+   "sim": 1.0,
+   "title": "Competition and service quality: New evidence from the airline industry",
+   "via": "title_search",
+   "year": 2014
+  },
+  "W2029577960": {
+   "doi_used": null,
+   "pdf_n": 4,
+   "s2_paper_id": "806b2775804ba1c6e411f1b5fab9d0b16355b07e",
+   "s2_title": "Entry Patterns in the Southwest Airlines Route System",
+   "sim": 1.0,
+   "title": "Entry Patterns in the Southwest Airlines Route System",
+   "via": "title_search",
+   "year": 2004
+  },
+  "W2080204438": {
+   "doi_used": null,
+   "pdf_n": 6,
+   "s2_paper_id": "96e35e03607b27af00131c2e4e1142cd422d9d63",
+   "s2_title": "City-Pairs Versus Airport-Pairs: A Market-Definition Methodology for the Airline Industry",
+   "sim": 1.0,
+   "title": "City-Pairs Versus Airport-Pairs: A Market-Definition Methodology for the Airline Industry",
+   "via": "title_search",
+   "year": 2012
+  },
+  "W2146186607": {
+   "doi_used": null,
+   "pdf_n": 15,
+   "s2_paper_id": "136067492dc9ae94f3f646a08d6a69aec250db4d",
+   "s2_title": "Competition and Service Quality in the U.S. Airline Industry",
+   "sim": 1.0,
+   "title": "Competition and Service Quality in the U.S. Airline Industry",
+   "via": "title_search",
+   "year": 2003
+  },
+  "W2183738200": {
+   "doi_used": null,
+   "pdf_n": 16,
+   "s2_paper_id": "86097c0107973f1b86122b81fefa851cd4010bb9",
+   "s2_title": "Congesting the commons: A test for strategic congestion externalities in the airline industry",
+   "sim": 1.0,
+   "title": "Congesting the commons: A test for strategic congestion externalities in the airline industry",
+   "via": "title_search",
+   "year": 2013
+  },
+  "W3121743323": {
+   "doi_used": null,
+   "pdf_n": 19,
+   "s2_paper_id": "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+   "s2_title": "Do Incumbents Improve Service Quality in Response to Entry? Evidence from Airlines' On-Time Performance",
+   "sim": 1.0,
+   "title": "Do incumbents improve service quality in response to entry? Evidence from airlines’ on-time performance",
+   "via": "title_search",
+   "year": 2015
+  },
+  "W3124692878": {
+   "doi_used": null,
+   "pdf_n": 25,
+   "s2_paper_id": "b59718e7e00fb8f9a24ffb928906c8052281ff73",
+   "s2_title": "The Social Cost of Air Traffic Delays",
+   "sim": 1.0,
+   "title": "The Social Cost of Air Traffic Delays",
+   "via": "title_search",
+   "year": 2014
+  },
+  "W3125554796": {
+   "doi_used": null,
+   "pdf_n": 13,
+   "s2_paper_id": "03faaf50c747096ce0f21ff89cd394553e61eae0",
+   "s2_title": "Does Product Differentiation Soften Price Reactions to Entry? Evidence from the Airline Industry",
+   "sim": 1.0,
+   "title": "Does product differentiation soften price reactions to entry? Evidence from the airline Industry",
+   "via": "title_search",
+   "year": 2012
+  },
+  "W3125600493": {
+   "doi_used": null,
+   "pdf_n": 14,
+   "s2_paper_id": "8e358ade281e25a6bb6b34eefd7923cef3a9be77",
+   "s2_title": "Network Effects, Congestion Externalities, and Air Traffic Delays: Or Why Not All Delays Are Evil",
+   "sim": 1.0,
+   "title": "Network Effects, Congestion Externalities, and Air Traffic Delays: Or Why Not All Delays Are Evil",
+   "via": "title_search",
+   "year": 2003
+  },
+  "W330570307": {
+   "doi_used": null,
+   "pdf_n": 18,
+   "s2_paper_id": "15165dd85687e965d3eabdd7741970d89ba6d1f9",
+   "s2_title": "Hub Premium, Airport Dominance and Market Power in the European Airline Industry",
+   "sim": 1.0,
+   "title": "Hub premium, airport dominance and market power in the European airline industry",
+   "via": "title_search",
+   "year": 2019
+  }
+ },
+ "n_mapped": 20,
+ "n_r_valid": 26,
+ "n_unmapped": 6,
+ "paper": "airline",
+ "snapshot_date": "2026-09-04",
+ "unmapped": [
+  {
+   "doi_tried": null,
+   "openalex_id": "W1977760729",
+   "pdf_n": 20,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "Do carriers internalize congestion costs? Empirical evidence on the internalization question",
+   "year": 2008
+  },
+  {
+   "doi_tried": null,
+   "openalex_id": "W2050263712",
+   "pdf_n": 10,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "(When) Do hub airlines internalize their self-imposed congestion delays?",
+   "year": 2007
+  },
+  {
+   "doi_tried": null,
+   "openalex_id": "W2113214536",
+   "pdf_n": 23,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "Determinants of delays at European airports",
+   "year": 2009
+  },
+  {
+   "doi_tried": null,
+   "openalex_id": "W2167803083",
+   "pdf_n": 22,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "Does competition influence airline on-time performance?",
+   "year": 2006
+  },
+  {
+   "doi_tried": null,
+   "openalex_id": "W2163234206",
+   "pdf_n": 7,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "Low-cost carrier competition and airline service quality in Europe",
+   "year": 2015
+  },
+  {
+   "doi_tried": null,
+   "openalex_id": "W7131634583",
+   "pdf_n": 3,
+   "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+   "title": "Causes and Effects of Air Traffic Delays: Evidence From Aggregated Data",
+   "year": 2014
+  }
+ ]
+}

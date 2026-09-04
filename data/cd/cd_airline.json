@@ -1,0 +1,957 @@
+{
+ "B": 2000,
+ "backend": "semanticscholar",
+ "cap_per_ref": null,
+ "checks_global": {
+  "cited_by_count": 53,
+  "n_p_citers_all_time": 49,
+  "n_p_citers_le_cited_by_count": true,
+  "n_p_citers_le_s2_citation_count": true,
+  "s2_citation_count": 49
+ },
+ "citers_per_reference": {
+  "03faaf50c747096ce0f21ff89cd394553e61eae0": 20,
+  "0f0ac700bd6ecb2e73882c134054706eb863fa00": 122,
+  "136067492dc9ae94f3f646a08d6a69aec250db4d": 164,
+  "13681a8a9a1abd1e20f09c85984957a5aafc5e96": 245,
+  "15165dd85687e965d3eabdd7741970d89ba6d1f9": 10,
+  "382084551e56f0ba819eaf9bde784c9de8ba3ffe": 114,
+  "4d8ed5d867248482729c6b13dac0a16786a8affb": 115,
+  "53920bf799ad9027528181e2634ac56c520d68c3": 201,
+  "617ea4adb747e526d1442cfcf7ecec9d900210fd": 60,
+  "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed": 77,
+  "806b2775804ba1c6e411f1b5fab9d0b16355b07e": 60,
+  "86097c0107973f1b86122b81fefa851cd4010bb9": 15,
+  "8b4e2b883a8474101793185d274efe36dc0febe2": 116,
+  "8e358ade281e25a6bb6b34eefd7923cef3a9be77": 31,
+  "96e35e03607b27af00131c2e4e1142cd422d9d63": 71,
+  "b59718e7e00fb8f9a24ffb928906c8052281ff73": 6,
+  "b76fc6dfc15dc6dea4b69552da241c078475ed5f": 10,
+  "b906ceb6041a1d1ff16cedd3923699de67c6c850": 34,
+  "dfeabec7e10a6b1296a952069e29ad75dba85090": 8,
+  "f77cf9ccf68656bb341576172983306484387ad6": 425
+ },
+ "crosstab_t5": {
+  "fisher_substantive": {
+   "p_two_sided": 0.28989139515455303,
+   "table_rows_i_j__cols_substantive_other": [
+    [
+     0,
+     5
+    ],
+    [
+     5,
+     12
+    ]
+   ]
+  },
+  "n_classified": {
+   "i": 5,
+   "j": 17
+  },
+  "role": {
+   "i": {
+    "brief_mention": 4,
+    "drive_by": 1
+   },
+   "j": {
+    "brief_mention": 10,
+    "foundational": 3,
+    "real_mention": 2,
+    "supporting": 2
+   }
+  },
+  "stance": {
+   "i": {
+    "supporting": 5
+   },
+   "j": {
+    "contradictory": 1,
+    "supporting": 16
+   }
+  }
+ },
+ "discrepancies_referenced_works_vs_membership": {
+  "examples": [
+   {
+    "id": "0146038cb1f2effdd357d5e11cec570d07e771b7",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "086a95889f1cc64e07156122adac3573a3d42e05",
+    "membership": [
+     "382084551e56f0ba819eaf9bde784c9de8ba3ffe",
+     "53920bf799ad9027528181e2634ac56c520d68c3"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "1c9c3214a31851a610e38fb5a37a0a3931a35ccb",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "245257c26bc0fe36a2670b666219e425706a0bed",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "3398ce263bfa8b5641e316932e40607333f47730",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "4d8ed5d867248482729c6b13dac0a16786a8affb",
+     "53920bf799ad9027528181e2634ac56c520d68c3",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "37de13daddf8bba99a732751e085884fdee45757",
+    "membership": [
+     "382084551e56f0ba819eaf9bde784c9de8ba3ffe",
+     "4d8ed5d867248482729c6b13dac0a16786a8affb",
+     "53920bf799ad9027528181e2634ac56c520d68c3"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "400a846e40e3eeb733711db1b87bedda7aa1ab14",
+    "membership": [
+     "53920bf799ad9027528181e2634ac56c520d68c3",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed",
+     "b906ceb6041a1d1ff16cedd3923699de67c6c850"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "41f27335dfe698fa642c955dde549e9831060603",
+    "membership": [
+     "4d8ed5d867248482729c6b13dac0a16786a8affb",
+     "53920bf799ad9027528181e2634ac56c520d68c3"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "50817b9f938f6c61fdb45685bf31dd126228b108",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "136067492dc9ae94f3f646a08d6a69aec250db4d",
+     "4d8ed5d867248482729c6b13dac0a16786a8affb",
+     "53920bf799ad9027528181e2634ac56c520d68c3",
+     "617ea4adb747e526d1442cfcf7ecec9d900210fd",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed",
+     "96e35e03607b27af00131c2e4e1142cd422d9d63",
+     "b906ceb6041a1d1ff16cedd3923699de67c6c850"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "532b245b94bd7a7929f3405616a1685212b53b5e",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "136067492dc9ae94f3f646a08d6a69aec250db4d",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed",
+     "b906ceb6041a1d1ff16cedd3923699de67c6c850"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "5e1e427cc77cc0180581031fdbecadcb2c41a9d1",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "5e5938114889dad20f82bfe4d05df8cd9c3fa6e3",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "136067492dc9ae94f3f646a08d6a69aec250db4d",
+     "53920bf799ad9027528181e2634ac56c520d68c3",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "5f54c3ce55fd3a43cc592508a43540085fe07117",
+    "membership": [
+     "136067492dc9ae94f3f646a08d6a69aec250db4d",
+     "53920bf799ad9027528181e2634ac56c520d68c3",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "72dd9cb72dc2ce5cf55210e70bfc4878d95753ec",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "85e5b028834afb0b4e35a3f8bd6673433def17df",
+    "membership": [
+     "4d8ed5d867248482729c6b13dac0a16786a8affb",
+     "617ea4adb747e526d1442cfcf7ecec9d900210fd",
+     "86097c0107973f1b86122b81fefa851cd4010bb9",
+     "b906ceb6041a1d1ff16cedd3923699de67c6c850"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "8eb74e066262eead099816a82c82dc983cd7f823",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "53920bf799ad9027528181e2634ac56c520d68c3",
+     "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "9c08c30252d0a33f90067cfcfe0239d8033e3ff8",
+    "membership": [
+     "617ea4adb747e526d1442cfcf7ecec9d900210fd"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "9d1eef1f5ce747611ac8aafb8821200c27817a33",
+    "membership": [
+     "53920bf799ad9027528181e2634ac56c520d68c3"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "c91340c6c76b83633febb68e1dfe473ac87ee0cb",
+    "membership": [
+     "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+     "96e35e03607b27af00131c2e4e1142cd422d9d63"
+    ],
+    "refbased": []
+   },
+   {
+    "id": "cd92f7e4878a6e5f916a55cc963fdd42bb5a635c",
+    "membership": [
+     "382084551e56f0ba819eaf9bde784c9de8ba3ffe",
+     "4d8ed5d867248482729c6b13dac0a16786a8affb",
+     "53920bf799ad9027528181e2634ac56c520d68c3",
+     "b906ceb6041a1d1ff16cedd3923699de67c6c850"
+    ],
+    "refbased": []
+   }
+  ],
+  "n_checked": 49,
+  "n_membership_has_more": 20,
+  "n_mismatch": 20,
+  "n_referenced_works_has_more": 0
+ },
+ "focal": {
+  "cited_by_count": 53,
+  "doi": "10.1016/j.tra.2016.01.001",
+  "openalex_id": "W3124922190",
+  "s2_citation_count": 49,
+  "s2_paper_id": "49f3a965592e5369def1774102d6331af12bd1a7",
+  "year": 2016
+ },
+ "id_mapping": {
+  "id_map_file": "data/cd/id_map_airline.json",
+  "n_mapped": 20,
+  "n_r_valid_openalex": 26,
+  "n_unmapped": 6,
+  "unmapped": [
+   {
+    "doi_tried": null,
+    "openalex_id": "W1977760729",
+    "pdf_n": 20,
+    "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+    "title": "Do carriers internalize congestion costs? Empirical evidence on the internalization question",
+    "year": 2008
+   },
+   {
+    "doi_tried": null,
+    "openalex_id": "W2050263712",
+    "pdf_n": 10,
+    "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+    "title": "(When) Do hub airlines internalize their self-imposed congestion delays?",
+    "year": 2007
+   },
+   {
+    "doi_tried": null,
+    "openalex_id": "W2113214536",
+    "pdf_n": 23,
+    "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+    "title": "Determinants of delays at European airports",
+    "year": 2009
+   },
+   {
+    "doi_tried": null,
+    "openalex_id": "W2167803083",
+    "pdf_n": 22,
+    "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+    "title": "Does competition influence airline on-time performance?",
+    "year": 2006
+   },
+   {
+    "doi_tried": null,
+    "openalex_id": "W2163234206",
+    "pdf_n": 7,
+    "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+    "title": "Low-cost carrier competition and airline service quality in Europe",
+    "year": 2015
+   },
+   {
+    "doi_tried": null,
+    "openalex_id": "W7131634583",
+    "pdf_n": 3,
+    "reason": "sem DOI utilizável e busca por título não atingiu sim >= 0.90",
+    "title": "Causes and Effects of Air Traffic Delays: Evidence From Aggregated Data",
+    "year": 2014
+   }
+  ]
+ },
+ "loo_cd5": {
+  "all": [
+   {
+    "cd5_without_r": -0.01065891472868217,
+    "delta": 9.215200053615778e-05,
+    "r": "03faaf50c747096ce0f21ff89cd394553e61eae0"
+   },
+   {
+    "cd5_without_r": -0.01085883514313919,
+    "delta": 0.00029207241499317783,
+    "r": "0f0ac700bd6ecb2e73882c134054706eb863fa00"
+   },
+   {
+    "cd5_without_r": -0.011156186612576065,
+    "delta": 0.0005894238844300521,
+    "r": "136067492dc9ae94f3f646a08d6a69aec250db4d"
+   },
+   {
+    "cd5_without_r": -0.013447432762836185,
+    "delta": 0.0028806700346901727,
+    "r": "13681a8a9a1abd1e20f09c85984957a5aafc5e96"
+   },
+   {
+    "cd5_without_r": -0.010628019323671498,
+    "delta": 6.125659552548568e-05,
+    "r": "15165dd85687e965d3eabdd7741970d89ba6d1f9"
+   },
+   {
+    "cd5_without_r": -0.01083743842364532,
+    "delta": 0.0002706756954993072,
+    "r": "382084551e56f0ba819eaf9bde784c9de8ba3ffe"
+   },
+   {
+    "cd5_without_r": -0.010710808179162609,
+    "delta": 0.00014404545101659623,
+    "r": "4d8ed5d867248482729c6b13dac0a16786a8affb"
+   },
+   {
+    "cd5_without_r": -0.006986027944111776,
+    "delta": -0.0035807347840342363,
+    "r": "53920bf799ad9027528181e2634ac56c520d68c3"
+   },
+   {
+    "cd5_without_r": -0.008797653958944282,
+    "delta": -0.0017691087692017302,
+    "r": "617ea4adb747e526d1442cfcf7ecec9d900210fd"
+   },
+   {
+    "cd5_without_r": -0.010710808179162609,
+    "delta": 0.00014404545101659623,
+    "r": "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed"
+   },
+   {
+    "cd5_without_r": -0.010912698412698412,
+    "delta": 0.0003459356845523995,
+    "r": "806b2775804ba1c6e411f1b5fab9d0b16355b07e"
+   },
+   {
+    "cd5_without_r": -0.010597302504816955,
+    "delta": 3.0539776670942403e-05,
+    "r": "86097c0107973f1b86122b81fefa851cd4010bb9"
+   },
+   {
+    "cd5_without_r": -0.011099899091826439,
+    "delta": 0.0005331363636804261,
+    "r": "8b4e2b883a8474101793185d274efe36dc0febe2"
+   },
+   {
+    "cd5_without_r": -0.010597302504816955,
+    "delta": 3.0539776670942403e-05,
+    "r": "8e358ade281e25a6bb6b34eefd7923cef3a9be77"
+   },
+   {
+    "cd5_without_r": -0.01085883514313919,
+    "delta": 0.00029207241499317783,
+    "r": "96e35e03607b27af00131c2e4e1142cd422d9d63"
+   },
+   {
+    "cd5_without_r": -0.010607521697203472,
+    "delta": 4.075896905745939e-05,
+    "r": "b59718e7e00fb8f9a24ffb928906c8052281ff73"
+   },
+   {
+    "cd5_without_r": -0.010566762728146013,
+    "delta": 0.0,
+    "r": "b76fc6dfc15dc6dea4b69552da241c078475ed5f"
+   },
+   {
+    "cd5_without_r": -0.010576923076923078,
+    "delta": 1.0160348777064898e-05,
+    "r": "b906ceb6041a1d1ff16cedd3923699de67c6c850"
+   },
+   {
+    "cd5_without_r": -0.010597302504816955,
+    "delta": 3.0539776670942403e-05,
+    "r": "dfeabec7e10a6b1296a952069e29ad75dba85090"
+   },
+   {
+    "cd5_without_r": -0.014965986394557823,
+    "delta": 0.00439922366641181,
+    "r": "f77cf9ccf68656bb341576172983306484387ad6"
+   }
+  ],
+  "cd5_full": -0.010566762728146013,
+  "top5_abs_delta": [
+   {
+    "cd5_without_r": -0.014965986394557823,
+    "delta": 0.00439922366641181,
+    "r": "f77cf9ccf68656bb341576172983306484387ad6"
+   },
+   {
+    "cd5_without_r": -0.006986027944111776,
+    "delta": -0.0035807347840342363,
+    "r": "53920bf799ad9027528181e2634ac56c520d68c3"
+   },
+   {
+    "cd5_without_r": -0.013447432762836185,
+    "delta": 0.0028806700346901727,
+    "r": "13681a8a9a1abd1e20f09c85984957a5aafc5e96"
+   },
+   {
+    "cd5_without_r": -0.008797653958944282,
+    "delta": -0.0017691087692017302,
+    "r": "617ea4adb747e526d1442cfcf7ecec9d900210fd"
+   },
+   {
+    "cd5_without_r": -0.011156186612576065,
+    "delta": 0.0005894238844300521,
+    "r": "136067492dc9ae94f3f646a08d6a69aec250db4d"
+   }
+  ]
+ },
+ "n_p_citers_all_time": 49,
+ "n_r_valid": 20,
+ "paper": "airline",
+ "r_valid": [
+  "03faaf50c747096ce0f21ff89cd394553e61eae0",
+  "0f0ac700bd6ecb2e73882c134054706eb863fa00",
+  "136067492dc9ae94f3f646a08d6a69aec250db4d",
+  "13681a8a9a1abd1e20f09c85984957a5aafc5e96",
+  "15165dd85687e965d3eabdd7741970d89ba6d1f9",
+  "382084551e56f0ba819eaf9bde784c9de8ba3ffe",
+  "4d8ed5d867248482729c6b13dac0a16786a8affb",
+  "53920bf799ad9027528181e2634ac56c520d68c3",
+  "617ea4adb747e526d1442cfcf7ecec9d900210fd",
+  "6fc7e29c62313c9ade57fdf3dc9e5b615cafbbed",
+  "806b2775804ba1c6e411f1b5fab9d0b16355b07e",
+  "86097c0107973f1b86122b81fefa851cd4010bb9",
+  "8b4e2b883a8474101793185d274efe36dc0febe2",
+  "8e358ade281e25a6bb6b34eefd7923cef3a9be77",
+  "96e35e03607b27af00131c2e4e1142cd422d9d63",
+  "b59718e7e00fb8f9a24ffb928906c8052281ff73",
+  "b76fc6dfc15dc6dea4b69552da241c078475ed5f",
+  "b906ceb6041a1d1ff16cedd3923699de67c6c850",
+  "dfeabec7e10a6b1296a952069e29ad75dba85090",
+  "f77cf9ccf68656bb341576172983306484387ad6"
+ ],
+ "requests": {
+  "cache_hits": 71,
+  "network": 0,
+  "none_responses": 0,
+  "total": 71
+ },
+ "s2_pagination_caps_hit": [],
+ "seed": 20260904,
+ "snapshot_date": "2026-09-04",
+ "windows": {
+  "1": {
+   "CD": -0.002824858757062147,
+   "CD_nok": -0.3333333333333333,
+   "DI2": {
+    "n_i": 1,
+    "n_j": 2,
+    "n_k": 60,
+    "value": -0.015873015873015872
+   },
+   "DI5": {
+    "n_i": 3,
+    "n_j": 0,
+    "n_k": 2,
+    "value": 0.6
+   },
+   "checks": {
+    "ni_plus_nj": 3,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 3
+   },
+   "ci_95": {
+    "CD": [
+     -0.011299435028248588,
+     0.005649717514124294
+    ],
+    "CD_nok": [
+     -1.0,
+     1.0
+    ],
+    "DI2": [
+     -0.06899576527525711,
+     0.03636363636363636
+    ],
+    "DI5": [
+     0.0,
+     1.0
+    ],
+    "holst_CD": [
+     -0.011299435028248588,
+     0.005649717514124294
+    ]
+   },
+   "holst": {
+    "CD": -0.002824858757062147,
+    "n_i": 1,
+    "n_j": 2,
+    "n_k": 351
+   },
+   "n_i": 1,
+   "n_j": 2,
+   "n_k": 351,
+   "n_window": 354,
+   "t": 1,
+   "t_nominal": 1,
+   "truncated": false
+  },
+  "10": {
+   "CD": -0.011651816312542838,
+   "CD_nok": -0.3469387755102041,
+   "DI2": {
+    "n_i": 23,
+    "n_j": 26,
+    "n_k": 220,
+    "value": -0.011152416356877323
+   },
+   "DI5": {
+    "n_i": 45,
+    "n_j": 4,
+    "n_k": 13,
+    "value": 0.6612903225806451
+   },
+   "checks": {
+    "ni_plus_nj": 49,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 49
+   },
+   "ci_95": {
+    "CD": [
+     -0.021247429746401644,
+     -0.00205620287868403
+    ],
+    "CD_nok": [
+     -0.6,
+     -0.06976744186046512
+    ],
+    "DI2": [
+     -0.06072314612868048,
+     0.039870431893687684
+    ],
+    "DI5": [
+     0.5087719298245614,
+     0.8035801820728291
+    ],
+    "holst_CD": [
+     -0.021247429746401644,
+     -0.00205620287868403
+    ]
+   },
+   "holst": {
+    "CD": -0.011651816312542838,
+    "n_i": 16,
+    "n_j": 33,
+    "n_k": 1410
+   },
+   "n_i": 16,
+   "n_j": 33,
+   "n_k": 1410,
+   "n_window": 1459,
+   "t": 10,
+   "t_nominal": 10,
+   "truncated": false
+  },
+  "3": {
+   "CD": -0.006675567423230975,
+   "CD_nok": -0.3333333333333333,
+   "DI2": {
+    "n_i": 7,
+    "n_j": 8,
+    "n_k": 101,
+    "value": -0.008620689655172414
+   },
+   "DI5": {
+    "n_i": 14,
+    "n_j": 1,
+    "n_k": 8,
+    "value": 0.5652173913043478
+   },
+   "checks": {
+    "ni_plus_nj": 15,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 15
+   },
+   "ci_95": {
+    "CD": [
+     -0.017356475300400534,
+     0.0026702269692923898
+    ],
+    "CD_nok": [
+     -0.8004545454545454,
+     0.17705882352940858
+    ],
+    "DI2": [
+     -0.07620879120879122,
+     0.05834558823529405
+    ],
+    "DI5": [
+     0.31995454545454544,
+     0.7894736842105263
+    ],
+    "holst_CD": [
+     -0.017356475300400534,
+     0.0026702269692923898
+    ]
+   },
+   "holst": {
+    "CD": -0.006675567423230975,
+    "n_i": 5,
+    "n_j": 10,
+    "n_k": 734
+   },
+   "n_i": 5,
+   "n_j": 10,
+   "n_k": 734,
+   "n_window": 749,
+   "t": 3,
+   "t_nominal": 3,
+   "truncated": false
+  },
+  "5": {
+   "CD": -0.010566762728146013,
+   "CD_nok": -0.44,
+   "DI2": {
+    "n_i": 10,
+    "n_j": 15,
+    "n_k": 153,
+    "value": -0.028089887640449437
+   },
+   "DI5": {
+    "n_i": 23,
+    "n_j": 2,
+    "n_k": 10,
+    "value": 0.6
+   },
+   "checks": {
+    "ni_plus_nj": 25,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 25
+   },
+   "ci_95": {
+    "CD": [
+     -0.020172910662824207,
+     -0.0009606147934678194
+    ],
+    "CD_nok": [
+     -0.7692857142857144,
+     -0.06647058823529518
+    ],
+    "DI2": [
+     -0.08333333333333333,
+     0.024845493031735725
+    ],
+    "DI5": [
+     0.3947169059011164,
+     0.78125
+    ],
+    "holst_CD": [
+     -0.020172910662824207,
+     -0.0009606147934678194
+    ]
+   },
+   "holst": {
+    "CD": -0.010566762728146013,
+    "n_i": 7,
+    "n_j": 18,
+    "n_k": 1016
+   },
+   "n_i": 7,
+   "n_j": 18,
+   "n_k": 1016,
+   "n_window": 1041,
+   "t": 5,
+   "t_nominal": 5,
+   "truncated": false
+  }
+ },
+ "windows_strict": {
+  "1": {
+   "CD": -0.005128205128205128,
+   "CD_nok": -0.3333333333333333,
+   "DI2": {
+    "n_i": 1,
+    "n_j": 2,
+    "n_k": 35,
+    "value": -0.02631578947368421
+   },
+   "DI5": {
+    "n_i": 3,
+    "n_j": 0,
+    "n_k": 0,
+    "value": 1.0
+   },
+   "checks": {
+    "ni_plus_nj": 3,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 3
+   },
+   "ci_95": {
+    "CD": [
+     -0.02564102564102564,
+     0.010256410256410256
+    ],
+    "CD_nok": [
+     -1.0,
+     1.0
+    ],
+    "DI2": [
+     -0.125,
+     0.058823529411764705
+    ],
+    "DI5": [
+     1.0,
+     1.0
+    ],
+    "holst_CD": [
+     -0.02564102564102564,
+     0.010256410256410256
+    ]
+   },
+   "holst": {
+    "CD": -0.005128205128205128,
+    "n_i": 1,
+    "n_j": 2,
+    "n_k": 192
+   },
+   "n_i": 1,
+   "n_j": 2,
+   "n_k": 192,
+   "n_window": 195,
+   "t": 1,
+   "t_nominal": 1,
+   "truncated": false
+  },
+  "10": {
+   "CD": -0.013076923076923076,
+   "CD_nok": -0.3469387755102041,
+   "DI2": {
+    "n_i": 23,
+    "n_j": 26,
+    "n_k": 195,
+    "value": -0.012295081967213115
+   },
+   "DI5": {
+    "n_i": 45,
+    "n_j": 4,
+    "n_k": 11,
+    "value": 0.6833333333333333
+   },
+   "checks": {
+    "ni_plus_nj": 49,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 49
+   },
+   "ci_95": {
+    "CD": [
+     -0.023076923076923078,
+     -0.002307692307692308
+    ],
+    "CD_nok": [
+     -0.6,
+     -0.07142857142857142
+    ],
+    "DI2": [
+     -0.06882184984085378,
+     0.04292392493478075
+    ],
+    "DI5": [
+     0.5262726488352027,
+     0.819672131147541
+    ],
+    "holst_CD": [
+     -0.023076923076923078,
+     -0.002307692307692308
+    ]
+   },
+   "holst": {
+    "CD": -0.013076923076923076,
+    "n_i": 16,
+    "n_j": 33,
+    "n_k": 1251
+   },
+   "n_i": 16,
+   "n_j": 33,
+   "n_k": 1251,
+   "n_window": 1300,
+   "t": 10,
+   "t_nominal": 10,
+   "truncated": false
+  },
+  "3": {
+   "CD": -0.00847457627118644,
+   "CD_nok": -0.3333333333333333,
+   "DI2": {
+    "n_i": 7,
+    "n_j": 8,
+    "n_k": 76,
+    "value": -0.01098901098901099
+   },
+   "DI5": {
+    "n_i": 14,
+    "n_j": 1,
+    "n_k": 6,
+    "value": 0.6190476190476191
+   },
+   "checks": {
+    "ni_plus_nj": 15,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 15
+   },
+   "ci_95": {
+    "CD": [
+     -0.020338983050847456,
+     0.003389830508474576
+    ],
+    "CD_nok": [
+     -0.7897368421052632,
+     0.16666666666666666
+    ],
+    "DI2": [
+     -0.09197476004265909,
+     0.07500672043010749
+    ],
+    "DI5": [
+     0.35714285714285715,
+     0.8571428571428571
+    ],
+    "holst_CD": [
+     -0.020338983050847456,
+     0.003389830508474576
+    ]
+   },
+   "holst": {
+    "CD": -0.00847457627118644,
+    "n_i": 5,
+    "n_j": 10,
+    "n_k": 575
+   },
+   "n_i": 5,
+   "n_j": 10,
+   "n_k": 575,
+   "n_window": 590,
+   "t": 3,
+   "t_nominal": 3,
+   "truncated": false
+  },
+  "5": {
+   "CD": -0.012471655328798186,
+   "CD_nok": -0.44,
+   "DI2": {
+    "n_i": 10,
+    "n_j": 15,
+    "n_k": 128,
+    "value": -0.032679738562091505
+   },
+   "DI5": {
+    "n_i": 23,
+    "n_j": 2,
+    "n_k": 8,
+    "value": 0.6363636363636364
+   },
+   "checks": {
+    "ni_plus_nj": 25,
+    "ni_plus_nj_eq_p_citers_in_window": true,
+    "ni_plus_nj_le_cited_by_count": true,
+    "ni_plus_nj_le_s2_citation_count": true,
+    "p_citers_in_window": 25
+   },
+   "ci_95": {
+    "CD": [
+     -0.023809523809523808,
+     -0.0011337868480725624
+    ],
+    "CD_nok": [
+     -0.7694444444444445,
+     -0.058823529411764705
+    ],
+    "DI2": [
+     -0.09629852744310576,
+     0.034488745210727936
+    ],
+    "DI5": [
+     0.42857142857142855,
+     0.8276108374384235
+    ],
+    "holst_CD": [
+     -0.023809523809523808,
+     -0.0011337868480725624
+    ]
+   },
+   "holst": {
+    "CD": -0.012471655328798186,
+    "n_i": 7,
+    "n_j": 18,
+    "n_k": 857
+   },
+   "n_i": 7,
+   "n_j": 18,
+   "n_k": 857,
+   "n_window": 882,
+   "t": 5,
+   "t_nominal": 5,
+   "truncated": false
+  }
+ }
+}
