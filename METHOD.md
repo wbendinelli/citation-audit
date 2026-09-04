@@ -83,3 +83,47 @@ Esse portão derrubou 8 falsos positivos e confirmou 6 fantasmas legítimos.
 
 Marcadas explicitamente e excluídas do indicador de reuso metodológico externo.
 Uma citação assinada por coautor do artigo citado não mede alcance independente.
+
+## Codebook: os casos de fronteira
+
+As definições acima não resolvem sozinhas os casos difíceis. Estes são os julgamentos
+reais feitos nesta auditoria, cada um com o exemplo que o motivou. Um segundo
+codificador deve conseguir reproduzir as decisões a partir daqui.
+
+**Contraposição sem hostilidade.** *TR-A 2018* agrupa o artigo entre os estudos que só
+tratam de atraso de chegada e escreve "In contrast to these studies, this work
+investigates…". Não há crítica; há delimitação de escopo com o citante se colocando
+acima. Pela regra liberal isso é `contradictory`.
+
+**Verbo de distanciamento não basta.** *JATM 2022* escreve "Still Bendinelli et al.
+claim that there is little evidence…". "Claim" distancia, mas o citante relata o achado
+com precisão e não o contesta. Fica `supporting`.
+
+**`wrongly_interpreted` versus `weak`.** *JATM 2019* diz que o artigo investiga estrutura
+de custo da companhia — o objeto está errado, é `wrongly_interpreted`. Já *Transport
+Policy 2019* lê o resultado sobre LCC como positivo, enquanto *JATM 2022* lê o mesmo
+resultado como nulo: aqui a leitura é discutível, não demonstravelmente falsa, então é
+`weak` e a divergência entre citantes fica registrada na nota.
+
+**`method_adoption` versus `brief_mention` em bloco.** *TR-E 2020* adota o tratamento de
+endogeneidade do artigo e instrumenta HHI por causa dele — `method_adoption`. *Economics
+of Transportation 2022* cita o artigo no bloco de oito referências que justifica a
+escolha de variáveis de controle, sem adotar nada específico — `brief_mention`. A régua
+é: o citante mudaria de desenho se o artigo não existisse?
+
+**`drive_by` versus `brief_mention`.** `drive_by` é afirmação genérica que qualquer
+fonte da área sustentaria ("cereais são componentes vitais da alimentação"). 
+`brief_mention` atribui ao artigo uma afirmação específica ("o nível da estrutura
+pós-colheita é um dos determinantes das perdas").
+
+**`bibliography_only` exige o corpo.** Ver o portão 3 acima. Sem corpo comprovado, o
+registro é `evidencia_insuficiente`, nunca fantasma.
+
+**Autocitação e coautor.** Marcadas e excluídas do indicador de reuso externo. Não são
+falha: são impacto que não mede alcance independente.
+
+## Provenance
+
+Cada classificação em `data/classify.json` carrega um bloco `prov` com data, quem
+codificou, o hash SHA-256 da evidência, o tipo de evidência (passagem literal ou corpo
+completo sem menção), a URL ou arquivo de origem, e a versão do codebook.

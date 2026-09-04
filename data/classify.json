@@ -7,7 +7,15 @@
   "note": "Consta apenas na lista de referências (ref. 51). Zero menções no corpo do texto.",
   "passages": [
    "47. Li, S. & Kallas, Z. Meta-analysis of consumers’ willingness to pay for sustainable food products. Appetite 163, 105239 (2021). 48. Kumar, A. et al. Adoption and diffusion of improved technologies and production practices in agriculture: insights from a donor-led intervention in Nepal. Land Use Policy 95, 104621 (2020). 49. Weiss, D. J. et al. A global map of travel time to cities to assess inequalities in accessibility in 2015. Nature 553, 333–336 (2018). 50. Mukoro, V., Sharmina, M. & Gallego-Schmid, A. A review of business models for access to affordable and clean energy in Africa: Do they deliver social, economic, and environmental value? Energy Res. Soc. Sci. 88, 102530 (2022). 51. Bendinelli, W. E., Su, C. T., Péra, T. G. & Caixeta Filho, J. V. What are the main factors that determine post-harvest losses of grains? Sustain. Prod. Consum. 21, 228–238 (2020). 52. Irungu, K. R. G., Mbugua, D. & Muia, J. Information and communication technologies (ICTs) attract youth into proﬁtable agriculture in Kenya. New Pub. KARLO 81, 24–33 (2015). 53. Jolex, A. & Tufa, A. The effect of ICT use on the proﬁtability of young agripreneurs in Malawi. Sustainability 14, 2536 (2022). 54. Warr, P. Roads and poverty in rural laos: an econometric analysis. Paciﬁc Econ. Rev. 15, 152–169 (2010). 55. Amador-Jimenez, L. & Willis, C. J. Demonstrating a correlation between infrastructure and national developm"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "4bec644dcedb29bc",
+   "evidence_kind": "passagem literal",
+   "source": "reverificacao:https://www.nature.com/articles/s43247-023-01062-3.pdf?error=cookies_not_supported&code=db9ad687-86a3-4c09-babf-1aa7984d8bc1",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1080/19315260.2024.2392551": {
   "role": "brief_mention",
@@ -17,7 +25,15 @@
   "note": "",
   "passages": [
    "Lack of infrastructure, and proper handling knowledge for post-harvest management result in high post-harvest loss in developing countries (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f1ca93c1a383beb4",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1080/19315260.2024.2392551",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jspr.2025.102611": {
   "role": "drive_by",
@@ -27,7 +43,15 @@
   "note": "Citação definicional em bloco com outras duas fontes.",
   "passages": [
    "ndal et al., 2024; Li et al., 2024a). This work aims to delineate these terms, employing precise definitions to anchor our discussion and analysis. Additionally, we explore the burgeoning role of Artificial Intelligence (AI) and Machine Learning (ML) in addressing these issues, demonstrating how technology can transform traditional practices in the agricultural sector (Taş et al., 2024; Li et al., 2024b; Han et al., 2024) (see Figs. 3 and 4). \"Post-harvest losses\" are defined as the quantitative and qualitative losses of food between harvest and sale, encompassing factors like spoilage during storage, degradation during transportation, and inefficiencies in processing (Minten et al., 2021; Bendinelli et al., 2020; Ma et al., 2022). These losses are predominantly seen within the supply chain and are influenced by technical, logistical, and managerial shortcomings (Cardoen et al., 2015; An and Ouyang, 2016; Jiang et al., * Corresponding author. E-mail addresses: olawaleabisola365@gmail.com (R.A. Olawale), olawumisola13@gmail.com (M.A. Olawumi), bioladapo@abuad.edu.ng (B.I. Oladapo). https://doi.org/10.1016/j.jspr.2025.102611 Received 31 October 2024; Received in revised form 27 February 2025; Accepted 28 February 2025 Available online 3 March 2025 0022-474X/© 2025 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/li"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "472594976148a3b0",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jspr.2025.102611",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1007/s42853-022-00130-4": {
   "role": "brief_mention",
@@ -37,7 +61,15 @@
   "note": "",
   "passages": [
    "HS of grains also contributes to improved food price stability due to an increase in the amount of stored food, even during the crop off-seasons(Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "1cccb02fdabda577",
+   "evidence_kind": "passagem literal",
+   "source": "html:https://link.springer.com/article/10.1007/s42853-022-00130-4?error=cookies_not_supported&code=83a593d1-16ac-485b-b8b4-747a90fd6733",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1007/s12571-022-01259-y": {
   "role": "real_mention",
@@ -47,7 +79,15 @@
   "note": "Aponta uma limitação: diz que o artigo cita gênero mas não vai além da desagregação por sexo do chefe do domicílio.",
   "passages": [
    "ther post-harvest loss reduction or in gender equality. However, potentially more problematic is the scenario in which progress on post-harvest loss reduction is achieved but that “food loss reduction does not address or even exacerbates gender inequalities” (2018, p. 19). Despite this increased awareness among development actors, most scientific research on post-harvest losses does not consider gender. In a literature review of fruit and vegetable post-harvest loss research by Gardas et al. (2018), none of the studies included brought up the issue of gender. A few journal articles on PHL that do bring up the term ‘gender’, do not actually go beyond sex disaggregation of household headship (Bendinelli et al., 2020; Chegere, 2018) For example, Chegere (2018), only separates the data by female and male household heads in a study about the economic trade-offs of adopting measures recommended to reduce post-harvest losses with no inclusion of other post-harvest management roles conducted by women and men. These studies do not make an effort to untangle any of the other gendered dynamics, for example at the household level, that relate to post-harvest management. 3 \u0007Research context and methods Jimma Zone, one of twenty in Oromia Regional State, was selected from the southwestern part of Ethiopia. Over 90% of the population of Jimma Zone is Oromo. Gender differences among the Jimma Oromo are"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "5334cdedf8ecac1e",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1007/s12571-022-01259-y",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1080/09718524.2023.2273153": {
   "role": "brief_mention",
@@ -57,7 +97,15 @@
   "note": "Atribui ao artigo um dado específico sobre Gana. O artigo trata de determinantes de PHL com base brasileira.",
   "passages": [
    "Ghana has one of the highest incidences of PHL in the world, significantly higher than other middle income countries (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f6c9192b2ca4a0ee",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1080/09718524.2023.2273153",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.47836/ifrj.32.2.05": {
   "role": "drive_by",
@@ -67,7 +115,15 @@
   "note": "",
   "passages": [
    "arious abiotic and biotic factors. Biotic factors include insects, weeds, 380 Keerthana, B., et al./IFRJ 32(2): 379 - 399 pathogens, and other nematodes. They cause approximately 20 - 40% crop loss. It is estimated that only 18 - 20% of the crops produced worldwide are destroyed by insects, which leads to quantitative and qualitative food loss (FAO, 2019). Approximately, 33% of the globally produced food, equivalent to approximately 1.3 billion tons and valued at approximately US $1 trillion, is lost each year during postharvest operations. Addressing postharvest losses (PHL) is essential for improving food security, reducing waste, and enhancing the efficiency of the food supply chain (Bendinelli et al., 2020). The PHL remains a critical concern, as in field and storage godowns. Globally, it is quite common for plants to experience PHL of grains ranging from 10 - 15% (Hassan et al., 2023). In India, the storage loss of cereals is estimated to be approximately 0.75 to 1.21%, and for pulses and oilseeds, it varies from 1.18 to 1.67% and 0.22 to 1.61%, respectively (Ahmad et al., 2021). Stored grain insect pests pose a major threat to food security and economic stability. In food grain storage, insect infestations result in quantitative and qualitative losses, diminishing the overall value of the food grain. Storage grain pests not only feed on stored food grains, but also introduce co"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "6b3b224206ff04d8",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.3390/su142013352": {
   "role": "supporting",
@@ -77,7 +133,15 @@
   "note": "Descreve corretamente o desenho empírico (arroz, milho, soja, trigo) e o achado principal sobre infraestrutura de armazenagem e comercialização.",
   "passages": [
    "Bendinelli et al. [17] empirically investigated the representative factors contributing to post-harvest losses of grains (rice, maize, soybean, and wheat) and found that insufﬁcient post-harvest infrastructure, especially in food storage and food marketing, could lead to higher post-harvest losses."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "e39805053b2be1fb",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.3390/su142013352",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.35633/inmateh-62-14": {
   "role": "wrongly_interpreted",
@@ -87,7 +151,15 @@
   "note": "Atribui ao artigo uma definição de food waste — produção menos a soma dos usos produtivos — que não é a definição empregada no paper.",
   "passages": [
    "According to a recent definition food waste is the difference between the amount of food produced and the sum of all food employed in any kind of productive use, whether food or nonfood (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "ec962eacf937aead",
+   "evidence_kind": "passagem literal",
+   "source": "html:https://inmateh.eu/volumes/volume-62--no3--2020/62-14-dumitru-oana-food-losses-in-primary-cereal-production-a-review/",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1590/s0102-0536-20220313": {
   "role": "supporting",
@@ -100,7 +172,15 @@
   "passages": [
    "food, but also to lower levels of losses and food waste (FAO, 2019). This Brazilian case study explores this gap and proposes efficient procedures to mitigate food waste, focusing on wholesale. This study aims to evaluate whether the combination of operational and management practices in the fruits and vegetables logistics and commercialization stages are associated with lower levels of wasting in the wholesale sector. This research contributes to the proposition of strategies that allow the establishment of fruit and vegetables sustainable supply chains identifying different ways to reduce food waste. MATERIAL AND METHODS Data description From the definitions of food loss and food wastes (Bendinelli et al., 2020; Gao et al., 2021), intentional losses are associated with the initial stages of the food supply chain, from agricultural production to agro-industrial processing (Figure 1), while intentional waste is associated with those occurring from the wholesale market to the consumer market (Figure 1). The research focused on the wholesale market in one of the main Wholesale Food Markets in Brazil, CEASA Campinas (Figure 1). Fresh foods of different perishability characteristics were evaluated, i.e.: lettuce (Lactuca sativa), potato (Solanum tuberosum), orange (Citrus sinensis), papaya (Carica papaya) and tomato (Lycopersicon esculentum). These are among the most consumed and commercia",
    "the practice by wholesale merchants that are associated with low waste of products and a rule for not performing practices that are associated with high waste of horticultural products (Box 2). The practices that contribute to greater logistics chain efficiency are: monitoring price movement, use of cold chain with regards to transport and storage, and the provision of services in accordance with the specificity of the customer. These were the variables associated with low levels of waste. Countries that have been reducing food waste rates have invested in building infrastructure, such as storage facilities, coupled with the transfer of knowledge and technology along the food supply chain (Bendinelli et al., 2020). Strengthening relations between government, industry and rural producers can contribute to reducing post-harvest losses (Gardas et al., 2017). Horticultura Brasileira 40 (3) July - September, 2022 338 Strategies for reducing the waste of fruit and vegetable supply chains: the search for sustainable wholesale systems The frequencies of the variables were identified in the association rules (Box 2) related to low waste. Of the 17 possible practices carried out by the wholesale merchants in the chain, eight of them stood out (Box 2). Three practices are common for all nine rules associated with low waste. The practices perform services for clients, practice promotional pric"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f34dad3e93f3733f",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.4236/as.2022.139061": {
   "role": "drive_by",
@@ -111,7 +191,15 @@
   "passages": [
    "mes. Grain PHLs in SSA are mainly caused by insect pests and mycotoxin contamination [8] [9] [10]. These pose a substantial food security threat as they cause significant quantitative and qualitative losses of otherwise edible grains [11] [12] [13]. Globally, approximately one-third of the food produced for human consumption is lost or wasted annually post-harvest [14]. This quantity of food loss equates to the annual worth of cereal imports to SSA and exceeds the value of food aid supplied to SSA in a decade [15] [16]. Food that is lost or squandered on its way to consumption signifies a waste of resources in terms of land, labor, water, and other resources used to produce the food in vain [17] [18]. Because of the criticality of post-harvest food loss reduction, the 2030 Sustainable Development Goals (SDGs) emphasize raising global awareness of the issue. Target 12.3 of the SDGs calls for halving the global per capita food waste by 2030 and reducing food losses in the production and supply chains [19]. Grain PHLs during storage are estimated to be high, with dry weight losses reaching up to 30% [20] [21], but can be higher when considered together with DOI: 10.4236/as.2022.139061 990 Agricultural Sciences F. Okori et al. quality losses [22] [23]. Insects, rodents, and molds are the leading causes of grain storage losses [23] [24]. One of the factors contributing to high grai",
    "Food that is lost or squandered on its way to consumption signifies a waste of resources in terms of land, labor, water, and other resources used to produce the food in vain [17] [18]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "2550968b7f6afde0",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.58567/rea03040001": {
   "role": "drive_by",
@@ -122,7 +210,15 @@
   "passages": [
    "ng fair distribution of benefits between grain producing and consuming countries (Sotelo, 2020). In particular, in developing countries, the expansion of grain trade should benefit small farmers and vulnerable groups locally, contributing to socially inclusive development. Fair trade mechanisms can ensure that grain producers receive more reasonable income, improving their production conditions and living standards (Kathiresan et al., 2020). Furthermore, governments and NGOs can support small farmers by providing financial assistance, technical training, and market access, helping them better participate in the international grain market, improving their income levels, and reducing poverty (Bendinelli et al., 2020). Future grain trade policies should focus on achieving a balanced coordination of economic benefits, environmental protection, and social fairness. Lastly, the development of grain trade faces unpredictable challenges, such as extreme weather due to global warming, supply chain disruptions caused by political conflicts, and logistical issues related to pandemics. Addressing these challenges requires joint efforts from governments, international organizations, businesses, and academia (Maiyar & Thakkar, 2019). Future research should delve deeper into risk management in grain trade, such as establishing an international grain risk management platform to monitor and assess global",
    "Furthermore, governments and NGOs can support small farmers by providing financial assistance, technical training, and market access, helping them better participate in the international grain market, improving their income levels, and reducing poverty (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "d9f7f9992234caba",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.58567/rea03040001",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1080/23311932.2023.2247178": {
   "role": "brief_mention",
@@ -132,7 +228,15 @@
   "note": "Aloca o artigo num balde de literatura: “alguns focaram na cadeia inteira”.",
   "passages": [
    "At the same time, some focused on the whole supply chain of post-harvest loss (Bendinelli et al., 2019)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f0686c8277ce50e4",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1080/23311932.2023.2247178",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1051/shsconf/202521601068": {
   "role": "drive_by",
@@ -142,7 +246,15 @@
   "note": "Ver par com a entrada 053.",
   "passages": [
    "These losses are caused by poor handling, poor storage facilities, or lack of proper logistics [2]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "8de2dabcff17e67e",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1051/shsconf/202521601068",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.46632/rmc/2/4/29": {
   "role": "bibliography_only",
@@ -152,7 +264,15 @@
   "note": "Consta apenas na bibliografia. Zero menções no corpo.",
   "passages": [
    "ronment.\" Journal of Manufacturing Systems 37 (2015): 599-615. Cengiz Toklu, Merve. \"Interval type-2 fuzzy TOPSIS method for calibration supplier selection problem: A case study in an automotive company.\" Arabian Journal of Geosciences 11, no. 13 (2018): 1-7. Hengsdijk, H., and W. J. De Boer. \"Post-harvest management and post-harvest losses of cereals in Ethiopia.\" Food Security 9, no. 5 (2017): 945-958. Tefera, Tadele. \"Post-harvest losses in African maize in the face of increasing food shortage.\" Food security 4, no. 2 (2012): 267-277. Kaminski, Jonathan, and Luc Christiaensen. \"Post-harvest loss in sub-Saharan Africa—what do farmers say?.\" Global Food Security 3, no. 3-4 (2014): 149-158. Bendinelli, William Eduardo, Connie Tenin Su, Thiago Guilherme Péra, and José Vicente Caixeta Filho. \"What are the main factors that determine post-harvest losses of grains?.\" Sustainable production and consumption 21 (2020): 228238. Raut, Rakesh D., Bhaskar B. Gardas, Manoj Kharat, and Balkrishna Narkhede. \"Modeling the drivers of post-harvest losses–MCDM approach.\" Computers and Electronics in Agriculture 154 (2018): 426-433. Mogale, D. G., Sri Krishna Kumar, and Manoj Kumar Tiwari. \"Green food supply chain design considering risk and post-harvest losses: A case study.\" Annals of Operations Research 295, no. 1 (2020): 257-284. Kasso, Mohammed, and Afework Bekele. \"Post-harvest loss and quality deter"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "d1ad8f460a2eb39b",
+   "evidence_kind": "passagem literal",
+   "source": "reverificacao:https://restpublisher.com/wp-content/uploads/2023/01/5-Post-harvest-losses-in-Indian-maize-amid-increasing-food-insecurity-Analysis-using-TOPSIS-method.pdf",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1051/shsconf/202521601037": {
   "role": "drive_by",
@@ -162,7 +282,15 @@
   "note": "Mesmo título e veículo da entrada 044, publicado em duplicata, com a frase parafraseada (“these victims occur due to…”). Indício de texto reciclado.",
   "passages": [
    "These victims occur due to influences such as inappropriate management, insufficient storage facilities, and incompetent logistics [2]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "4c78462419959767",
+   "evidence_kind": "passagem literal",
+   "source": null,
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.3389/fsufs.2025.1560865": {
   "role": "drive_by",
@@ -172,7 +300,15 @@
   "note": "Usa o artigo para afirmar dificuldade de acesso a mercados por pequenos produtores na China.",
   "passages": [
    "lishment and healthy operation—namely, increasing farmers’ incomes, improving wholesalers’ efficiency, and delivering benefits to consumers. Because these two government bodies are aligned in their objectives and desired outcomes, this manuscript treats them as a single “government” actor, which collectively chooses its strategy. Vegetable farmers are the primary suppliers whose decisions directly determine market supply volumes and quality (Jin and Xu, 2024). However, since small-scale cultivation still predominates in China, individual growers cannot directly access wholesale markets or retail outlets to sell their produce, making it difficult for small producers to link to large markets (Bendinelli et al., 2020). Instead, a large network of transport agents operates between farms and consumption markets, serving as the logistical bridge (Fan et al., 2021). These agents are composed of wholesalers and brokers: wholesalers, with their broad procurement radii, high volumes, and diverse varieties, typically do not transact directly with growers but rely on brokers to handle sourcing, quality inspection, consolidation and loading, and price negotiation (Bolívar et al., 2025). Because a broker’s functions are effectively a subset of a wholesaler’s operations, this study integrates the broker role into the wholesaler actor. Wholesalers represent the demand side of the cross-regional chain, p"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "361354a381f67c1c",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.64026/jssf/2026006": {
   "role": "real_mention",
@@ -183,7 +319,15 @@
   "passages": [
    "in food waste up to 98%. According to Bradford et al. [8], it is important to counter abiotic factors especially moisture content and climatic conditions to minimize storage losses. Commodities in the agricultural sector are also sensitive to moisture hence when they are stored enough, they have to be dried to attain an appropriate moisture content. Based on this, it is advised that the moisture value should be kept to less than 13% extended storage, and below 15% when the time to be stored is not more than six months (see Table 1). Furthermore, moving grain out of small farms to large, well monitored consolidated storage facilities is an effective approach of reducing PHL. As described by Bendinelli et al. [14], post-harvest grain losses refer to all the losses incurred after the grain has been harvested until the grain is eventually used either to be utilized as food or otherwise. The productivity of agriculture in most of the developing countries, mostly in SSA (sub-Saharan Africa) is still lower than that of wealthy countries. The low crop yield is further aggravated by PHL of legumes and cereals that usually amount to 20- 30% in many low-income nations around the globe. Tong et al. [15] describes that these losses may be in the quality or quantity of the grain thus majorly reducing the value of the grain. Losses would be quantitative due to scattering and spillage of grain, immedia",
    "un. 2006, doi: 10.1016/j.ijrefrig.2006.03.011. G. J. Daglish, M. K. Nayak, F. H. Arthur, and C. G. Athanassiou, “Insect Pest Management in Stored Grain,” in Recent Advances in Stored Product Protection, 2018, pp. 45–63. doi: 10.1007/978-3-662-56125-6_3. B. Nath, G. Chen, C. M. O’Sullivan, and D. Zare, “Research and Technologies to Reduce Grain Postharvest Losses: a review,” Foods, vol. 13, no. 12, p. 1875, Jun. 2024, doi: 10.3390/foods13121875. S. B. Williams, L. L. Murdock, and D. Baributsa, “Sorghum seed storage in Purdue Improved Crop Storage (PICS) bags and improvised containers,” Journal of Stored Products Research, vol. 72, pp. 138–142, May 2017, doi: 10.1016/j.jspr.2017.04.004. W. E. Bendinelli, C. T. Su, T. G. Péra, and J. V. C. Filho, “What are the main factors that determine post-harvest losses of grains?,” Sustainable Production and Consumption, vol. 21, pp. 228–238, Oct. 2019, doi: 10.1016/j.spc.2019.09.002. C. Tong, H. Gao, S. Luo, L. Liu, and J. Bao, “Impact of postharvest operations on rice grain quality: A review,” Comprehensive Reviews in Food Science and Food Safety, vol. 18, no. 3, pp. 626–640, Mar. 2019, doi: 10.1111/1541-4337.12439. J. MacPherson et al., “Future agricultural systems and the role of digitalization for achieving sustainability goals. A review,” Agronomy for Sustainable Development, vol. 42, no. 4, p. 70, Jul. 2022, doi: 10.1007/s13593-022-00792-6. A. O"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "726f585b5fc3eff5",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1007/s41348-026-01320-4": {
   "role": "drive_by",
@@ -193,7 +337,15 @@
   "note": "",
   "passages": [
    "Addressing postharvest losses is essential for enhancing food security and reducing waste (Bendinelli et al. 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "0fb6676f3b4d5ea7",
+   "evidence_kind": "passagem literal",
+   "source": "html:https://link.springer.com/article/10.1007/s41348-026-01320-4?error=cookies_not_supported&code=1d2f022e-915a-40cc-873f-46c48bbf4077",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.ecotra.2019.02.002": {
   "role": "brief_mention",
@@ -204,7 +356,15 @@
   "passages": [
    "On the other hand, hub airlines have leeway in their scheduling decisions, which allows to partially offset the increased congestion (Mayer and Sinai, 2003; Brueckner, 2009; Ater, 2012; Bendinelli et al., 2016).",
    ", adverse weather conditions, strikes and other incidents) lead to airport congestion (Bendinelli et al., 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "0f77b65e29917fdd",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.ecotra.2019.02.002",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tra.2019.01.006": {
   "role": "brief_mention",
@@ -214,7 +374,15 @@
   "note": "Citado pela definição institucional brasileira de atraso (30 minutos).",
   "passages": [
    "As a rare exception, a flight is considered on time if it arrives later than 30min from its scheduled arrival time in Brazil (Bendinelli et al., 2016). Under the On-Time Disclosure Rule (OTDR) promulgated by the U.S. Department of Transportation in 1987, airlines accounting for at least one percent of U.S. domestic passenger revenue are required to report their on-time performance, which in turn is published monthly since 1995. With the increased prevalence of publicized aircraft-to-ground data communication since the late 1990s, numerous private organizations have been tracking on-time statistics linked to unique airline flight numbers. Flight-specific on-time statistics have been reported on airfare booking websites worldwide, potentially influencing passengers’ future travel decisions. As a result, individual airlines can and have been observed to adjust their scheduled block times to engineer better on-time performance to potentially make their schedule offers more attractive (Prince and Simon, 2009). Prior studies have linked higher percentages of flights arriving on time (i.e., within 15min of scheduled arrival time) to fewer customer complaints, which in turn leads to higher operating profits for airlines (Dresner and Xu, 1995; Steven et al., 2012). Under European Union Regulation 261/2004, compensation owed by airlines to passengers on a delayed flight is also calculated based on the difference between actual and scheduled arrival times, along with flight distance. It is therefore in the interest of airlines as profit-maximizing entities to increase scheduled block times to improve their so-called on-time arrival performance if they operate in the European Union. While anecdotal evidence has pointed to increasing scheduled block times over the years, evidence has concentrated in the U.S., T.P.C. Fan Transportation Research Part A 121 (2019) 192–217"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f402ee71bbd378fa",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tra.2019.01.006",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2022.102207": {
   "role": "brief_mention",
@@ -224,7 +392,15 @@
   "note": "",
   "passages": [
    "as the hybridization of airline business models and the entry of ULCCs. Studies show that LCCs can still reduce airfares (Asahi & Murakami, 2017; Chen, 2017; Zhang et al., 2018; Ren, 2020), but they are no longer as effective when compared to ULCCs (Bachwich & Wittman, 2017; Zou et al., 2017). In addition to affecting rival pricing behaviors, many studies found, LCCs could affect the operation and business strategy of their rivals. Additionally, they can affect the capacity decisions of other airlines, such as the size of the aircraft used on a particular route or frequency of flights, and even force rivals to change their flight times to avoid competition (Pearson et al., 2015; Sun, 2015; Bendinelli et al., 2016; Mohammadian et al., 2019). Current studies on charter flights have also confirmed the trends in the literature, as low-cost airlines have effectively replaced charter airlines (Wu, 2016; Castillo-Manzano et al., 2017). Overall, studies show that low-cost carriers force their rivals to respond to them to not lose their dominant position in the market, by reducing their airfares or adapting their operations for better efficiency. Several studies have also investigated the effect of LCCs on airport revenue by examining whether airports were experiencing any financial benefits from an association with an LCC but no clear consensus has emerged. While some studies have shown a negat"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "ae50a3488f32a224",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1038/s41598-023-30703-y": {
   "role": "real_mention",
@@ -234,7 +410,15 @@
   "note": "Posicionamento tópico correto entre os estudos de competição versus pontualidade.",
   "passages": [
    "For example, Mcconnachie et al.17, observed a reduction in mean speeds concomitantly with increases in fuel prices. • Flight delay management: refers to identifying, assessing, and mitigating delays in flight operations. A delayed flight can cause a cascading effect on the entire schedule of a carrier and disrupt the plans of many passengers and airports, besides other airlines. Flight delay management is therefore a critical function of flight operations. One of the strategies of flight delay management is flight schedule recovery, which can include adjusting the flight schedules and speeds, besides rerouting flights to minimize the impact of delays. Prince and ­Simon4, Kang and ­Hansen3, Bendinelli et al.28, Eufrásio et al.23, and Calzada and ­Fageda29, among many others, investigate the association between market competition and airlines’ concern with punctuality. • Airport operations: refers to the management and coordination of all activities performed at the endpoint airports of a flight. It involves many institutions besides the airline, including, among others, the ground handling of aircraft, passenger and baggage processing, air traffic control, and maintenance of the airport facilities and equipment. The primary goal of airport operations is to ensure that flights are conducted safely and efficiently, while also providing a high level of service to passengers and other airpor"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "431ab21a8ecc5ca5",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2017.09.008": {
   "role": "foundational",
@@ -247,7 +431,15 @@
   "passages": [
    "Mayer and Sinai (2003), Brueckner (2002), Santos and Robin (2010), and Bendinelli et al. (2016) show that delays are lower at concentrated airports, providing evidence for the internalization hypothesis.",
    "The only study looking at an emerging economy is Bendinelli et al. (2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "9c0501f4f9fea839",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2017.09.008",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1080/10696679.2021.2008802": {
   "role": "brief_mention",
@@ -257,7 +449,15 @@
   "note": "",
   "passages": [
    "LCCs target markets for leisure travel, because leisure travelers are more price-sensitive than non-leisure travelers (Bendinelli et al., 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "9e398d0a82a38908",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1080/10696679.2021.2008802",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.14295/transportes.v26i2.1379": {
   "role": "real_mention",
@@ -267,7 +467,15 @@
   "note": "Descreve uma variável específica do modelo: proporção de atrasos por mau tempo.",
   "passages": [
    "exas e difı́ceis de serem mensuradas e gerenciadas, como eventos de situaçõ es meteoroló gicas extremas. Entre esses eventos, ı́ndices pluviomé tricos oscilantes podem ser considerados como de alto impacto nas operaçõ es de transporte aé reo. Estudos sobre eventos meteoroló gicos impactantes na aviaçã o, como incidê ncias de tempestades formadoras de rajadas de vento, podem ser identi icados em Metchko e Monteiro (2014), bem como estudos sobre ocorrê ncia de cancelamentos de voos devido à chuva extrema, como em Koetse e Rietveld (2009). Alé m desses, há també m estudos que buscam mensurar os impactos dos atrasos dos voos nos custos e na dinâ mica do transporte aé reo, como em Bendinelli, Bettini e Oliveira (2016), que consideram em suas aná lises, entre outras, variá veis relacionadas à proporçã o de atrasos de voos devido ao mau tempo. Já em Santos e Robin (2010), em que se analisam as principais causas para os atrasos de voos em aeroportos europeus, os autores demonstram que a concentraçã o de mercado em determinados aeroportos e companhias aé reas estã o entre as principais causas para os atrasos. Sendo assim, nota-se que tais estudos nã o consideram as situaçõ es climá ticas em acontecimento, mais incisivamente o clima futuro e como esse provocará alteraçõ es nas operaçõ es dos aeroportos. Trata-se, portanto, de uma lista de estudos que analisam o passado"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "d98f599ea8d4b128",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.5937/npdunp1802119r": {
   "role": "drive_by",
@@ -277,7 +485,15 @@
   "note": "Artigo sobre política de concorrência nos Bálcãs. Uso tópico distante.",
   "passages": [
    "te, 1993; Lin et al., 2000; Gilbert, 2018), as well as in any other economic system such as Serbia (Begović & Mijatović, 2002; Begović & Pavić, 2010; Protić & Lazarević, 2015; Radivojević, 2018). Competition policy based on effective market competition eliminates the possibility of creating restrictive agreements, abuse of dominant position, and a merger between market participants that could have negative effects on competition. There are numerous empirical studies that examine the level of market competition in various industries worldwide. For example, Grzybowski (2008) and Whalley & Curwen (2012) explore market competition in the mobile telecommunications industry in European countries. Bendinelli, Bettini & Oliveira, (2016) and Oliveira & Oliveira (2018) analyse the level of market concentration and competition intensity in the airline industry. There is also a large body of similar studies in the banking industry (Bikker & Haaf, 2002; Michis, 2016), automobile industry (Levinsohn, 1994; Berry, Levinsohn & Pakes, 1999; Tansey & Raju, 2017), coal industry (Chen, 2013; Yang, Zhang & Wang, 2017), etc. 2. Research methodology, the hypothesis, and database As mentioned in the introduction section, the goal of this paper is to explore the results of the Balkan countries (with special emphasis on Serbia) in the process of establishing effective market competition and determine the existenc"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "93a235d8b8fe738d",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.5937/npdunp1802119r",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tranpol.2020.04.013": {
   "role": "foundational",
@@ -290,7 +506,15 @@
   "passages": [
    "Following Bendinelli et al. (2016), our study includes variables to control for concentration both at airport and market levels.",
    "Following Bendinelli et al. (2016), our study includes variables to control for con-"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "5f26b59a3bc16913",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tranpol.2020.04.013",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.14295/transportes.v29i1.2236": {
   "role": "real_mention",
@@ -300,7 +524,15 @@
   "note": "Resume corretamente a pergunta de pesquisa e o achado confirmado.",
   "passages": [
    "orais (dia e hora), congestionamentos, redes de aeroportos e o clima. Yu et al. (2019) utilizaram um mé todo de aprendizado nã o supervisionado combinado com um algoritmo de aprendizado supervisionado de regressã o e classi;icaçã o para realizar aná lises de prevençã o de atrasos de voos. No Brasil, Scarpel e Pecicioni (2018) empregaram uma abordagem de aná lise de dados para construir um modelo de alerta com a ;inalidade de prever a ocorrê ncia de dias congestionados no GRU. A combinaçã o de abordagens de modelagem que se baseiam em diferentes premissas permitiu gerar um modelo com maior ;lexibilidade e trouxe melhorias na precisã o das previsõ es. Por uma concepçã o diferente, Bendinelli et al. (2016) analisaram se a ausê ncia de concorrê ncia favorecia o aumento das taxas de atrasos e cancelamento de voos, relaçã o que foi con;irmada pelos autores. Na literatura, há a criaçã o de modelos para prever atraso mé dio no dia ou a fatia de voos atrasados, considerando apenas informaçõ es relativas ao dia. Nesse tipo de modelo as observaçõ es sã o independentes, nã o se busca identi;icar associaçõ es entre dias diferentes. Este estudo tratou os atrasos em aeroportos por meio da identi;icaçã o de padrõ es de dias, de forma dependente em que se buscou identi;icar regimes que pudessem ser caracterizados utilizando uma distribuiçã o de probabilidade, ou seja, mé dia e"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "d939a3e970166292",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.11606/d.12.2021.tde-19012022-204119": {
   "role": "real_mention",
@@ -310,7 +542,15 @@
   "note": "",
   "passages": [
    "orrison (2001), dos cinco casos de competição potencial avaliados, o mais efetivo era quando a Southwest operava em ambos aeroportos da rota, mas sem ofertá-la, com impacto nos preços de 33%. Onde ocorria competição direta o efeito era de 46%. Goolsbee e Syverson (2008) incorporam a dinâmica temporal em seu modelo. Seus resultados indicam que as empresas incumbentes respondem à ameaça de entrada reduzindo preços em cerca de 17% em relação ao período base. Nas rotas em que a Southwest ameaça 1 Também com base no mercado de aviação civil, Goetz e Shapiro (2012) analisam a utilização de alianças estratégicas pelas incumbentes como resposta a ameaça de entrada, enquanto Prince e Simon (2015) e Bendinelli, Bettini e Oliveira (2016) analisam a resposta em termos de qualidade (pontualidade dos voos) 24 Capítulo 2. Revisão de literatura mas não entra após pelo menos 3 trimestres (de 3 a 12 trimestres), as tarifas aéreas são ainda mais baixas, 24% menores do que no período base. Já nas rotas em que a Southwest de fato entra, é observada uma redução de 21% nas tarifas quando se concretiza a entrada e de 29% ao final do período analisado após a entrada (ambas em relação ao período base). No trabalho de Brueckner, Lee e Singer (2013), nas rotas em que existem voos diretos, o efeito da competição potencial exercida pela Southwest é da ordem de 8%, enquanto o de outras empresas de baixo custo não"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "7526ae7b06f2f38a",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.55463/hkjss.issn.1021-3619.62.33": {
   "role": "wrongly_interpreted",
@@ -320,7 +560,15 @@
   "note": "Afirma que o artigo examina a relação entre registros de acidentes ou segurança e desempenho financeiro. O artigo trata de atrasos, internalização de congestionamento e entrada de low cost carriers.",
   "passages": [
    "019 is 64.6% of global passenger traffic. In addition, the AsiaPacific region has a loss of 2,148 million passengers, representing a decrease of 61.3% from all regions. The International Civil Aviation Organization (ICAO) (2021) reported that during the COVID-19 outbreak, the number of worldwide passengers decreased by 60% in 2020, 49% in 2021, and 27% to 32% in 2022 compared with the year 2019. Moreover, the Airports Council International World (ACI) (2021) said that airlines’ revenue dropped by around $380 billion compared to 2019. Due to the pandemic, travel restrictions grounded global aircraft by 64% in April 2020. Several studies have focused on factors impacting the airline industry. Bendinelli et al. (2016), Kalemba and Campa-Planas (2019), Fardnia et al. (2021), Chang et al. (2018) examine the relationship between accident records or safety and financial performance. Kiracı (2019) and Goh and Rasli (2014) explore the impact of the global financial crisis on the airline industry. Additionally, some studies have investigated the impacts of COVID-19 on corporate performance, for example, stock return (Maneenop & Kotcharin, 2020; Richardson et al., 2014), ROE and ROA (Achim et al., 2022; Anh & Gan, 2021), and return on ROI (Barros & Couto, 2013). However, studies on the impacts of nonfinancial factors, the number of passengers, available seat kilometers, revenue passenger kilometers"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "87a7491a1f6aecaa",
+   "evidence_kind": "passagem literal",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.3390/agriculture12040465": {
   "role": "brief_mention",
@@ -330,7 +578,15 @@
   "note": "Atribui ao artigo a causa das perdas em países em desenvolvimento: técnicas de colheita defasadas e infraestrutura pós-colheita limitada.",
   "passages": [
    "In developing countries, the main causes of food loss are related to outdated harvest techniques and limited postharvest handling and infrastructure [6]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "2366d59965d545de",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.3390/agriculture12040465",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.3390/agriculture11111147": {
   "role": "drive_by",
@@ -340,7 +596,15 @@
   "note": "Citação numérica em bloco [5,21,22,23] sobre inadequação do grão danificado. O artigo trata de deformação de haste e espiga — tópico distante.",
   "passages": [
    "Injured grain has reduced germination, and pathogens develop in the resulting cracks during storage. This often makes it impossible to obtain quality seed material… the grain is unsuitable not only for the production of baked goods, but also for animal feed [5,21,22,23]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "664183348e670105",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.3390/agriculture11111147",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.3390/app122010433": {
   "role": "drive_by",
@@ -350,7 +614,15 @@
   "note": "Citação em bloco [1,10,11,12,13] sobre propagação de atraso na rede de aeroportos.",
   "passages": [
    "From the airport's point of view, the main study object is how delays are propagated in the airport network [1,10,11,12,13]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "c430db77edce6238",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.3390/app122010433",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.5281/zenodo.17506763": {
   "role": "real_mention",
@@ -360,7 +632,15 @@
   "note": "Resume corretamente o achado de internalização de custo de atraso pela presença de LCC. Assinado por Alessandro V. M. Oliveira, coautor do artigo citado. É o gêmeo em inglês de airline_010.",
   "passages": [
    "assic literature on the effects of LCCs on fares. In addition to price impacts, as highlighted by Porter (2008), the presence of a competitor can compel existing companies to modify their operations or even their business strategies—a hypothesis that has also been tested in recent aviation research. Sun (2015) found that the presence of LCCs on a route increases the differentiation of aircraft departure times as airlines seek to avoid direct competition or peak hours while offering a more differentiated product to passengers. Along similar lines, Mohammadian et al. (2019) reported that competing airlines also adjust the type of aircraft used and the frequency of flights operated on a route. Bendinelli et al. (2016) presented results suggesting that the presence of an LCC may lead incumbent airlines to internalize delay costs. Regarding the impacts on the operations and strategies of incumbent airlines, Pearson et al. (2015) conducted an exploratory study in the Asian market to assess the strategic capacity of traditional airlines to compete with the growing number of LCCs in the region. They concluded that Northeast Asia is the area where airlines are least prepared to face competition from low-cost carriers, and therefore network carriers in this region should strengthen their strategic capacity @ 2024 Center for Airline Economics, Brazil. 2 both to improve responsiveness to LCCs an"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "ed09dbbd8360b6b7",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://arxiv.org/pdf/2511.00932",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.5281/zenodo.10671654": {
   "role": "foundational",
@@ -373,7 +653,15 @@
   "passages": [
    "Determinantes concorrenciais dos atrasos dos voos no aeroporto e na rota William Eduardo Bendinelli Alessandro V. M. Oliveira Instituto Tecnológico de Aeronáutica, São José dos Campos, Brasil  Autor correspondente. Instituto Tecnológico de Aeronáutica. Praça Marechal Eduardo Gomes, 50. 12.280-250 - São José dos Campos, SP - Brasil. E-mail: alessandro@ita.br. Resumo: Atrasos de voos são uma realidade na indústria aérea moderna no mundo todo. Entretanto, os estudos da literatura têm investigado os determinantes concorrenciais dos atrasos advindos de fatores originários no aeroporto e na rota de forma separada. Este trabalho tem como objetivo apresentar um estudo nacional que utilizou uma abordagem unificadora da literatura, considerando os efeitos locais e globais da concorrência sobre o",
    "potencial para congestionamento em alguns períodos, mas é passível de resolução por meio de cooperação voluntária entre as companhias aéreas (sinal amarelo). Um schedules facilitator é designado para auxiliar nesse processo. Finalmente, o aeroporto Nível 3 (ou Coordinated Airport) apresenta elevado nível de congestionamento, tal que a demanda pela infraestrutura do aeroporto excede a capacidade nos períodos relevantes, mas as tentativas de solução de problemas operacionais (atrasos, cancelamentos) por cooperação voluntária, no Nível 2, falharam, sendo designado um Slot Coordinator independente. III. CASO DOS AEROPORTOS BRASILEIROS Para aplicação da teoria e das hipóteses acima discutidas, Bendinelli, Bettini e Oliveira (2016) investigam o problema com o objetivo de melhor entender o atrasos de voos na indústria aérea brasileira. Outro estudo que trata do tema, mas considerando o papel dos slots aeroportuários, é Miranda e Oliveira (2018) No Brasil, atrasos de empresas aéreas têm sido discutidos há tempos, mas nenhuma tarifa de congestionamento foi implementada até o momento. Em 2008, três dos aeroportos mais importantes do país estavam entre os mais atrasados do mundo (Aeroporto Internacional de Brasília (BSB), Aeroporto de Congonhas (CGH) e o Aeroporto Internacional de Guarulhos (GRU)) . Para reverter essa situação, o país se envolveu em um grande esforço na supervisão de voos durante"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "06c1b20a352b0c25",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://arxiv.org/pdf/2402.11373",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.5281/zenodo.10671650": {
   "role": "real_mention",
@@ -383,7 +671,15 @@
   "note": "Versão em português de airline_003, mesmos autores. Citação de coautor.",
   "passages": [
    "Além do impacto no preço, como foi levantada na frase de Porter (2008), a presença de um concorrente pode forçar as companhias existentes a mudarem suas operações ou mesmo estratégias de negócio, e essa hipótese também foi testada nos últimos anos pela literatura da aviação. Sun (2015) diz que a presença de LCCs numa rota aumenta a diferenciação dos tempos de partida das aeronaves numa tentativa de evitar a concorrência direta ou o horário de pico, além de oferecer um produto diferenciado aos passageiros. Seguindo nessa linha, Mohammadian et al. (2019) dizem que as companhias aéreas concorrentes chegam a mudar o tipo de aeronave utilizada e até a frequência de voos servidos em uma rota. Já Bendinelli et al. (2016) encontraram resultados sugerindo que a presença de uma LCC pode ser responsável pela internalização dos custos dos atrasos pelas suas companhias aéreas. Ainda sobre impactos nas operações e estratégias das companhias aéreas incumbentes, Pearson et al. (2015) fizeram uma pesquisa investigativa no mercado asiático para avaliar a capacidade estratégica das companhias aéreas tradicionais para competir com o crescente número de LCCs naquele mercado; eles concluem que o nordeste asiático é a região em que as companhias aéreas estão menos preparada para a concorrência com as low costs, e que portanto as network carriers dessa região devem fortalecer a sua capacidade estratégica tanto"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "ecb8f8822d618305",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://arxiv.org/pdf/2402.11372",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.33119/sip.2025.201.2": {
   "role": "brief_mention",
@@ -393,7 +689,15 @@
   "note": "Citado para sustentar que greves de controle de tráfego repercutem na operação de linhas e aeroportos.",
   "passages": [
    "wewnętrznych (z perspektywy przedsiębiorstw) można przede wszystkim wymienić operacyjne i finansowe. Natomiast z perspektywy sektora również konkurencja między podmiotami oraz konieczność współpracy mogą być źródłem wystąpienia ryzyka czy stanów niepewności co do dalszego rozwoju sytuacji w sektorze. Przykładami zdarzeń, które mogą się zrealizować w obszarze operacyjnym, są np. opóźnienia wynikające z przyczyn technicznych lub czynników pogodowych [Borsky, Unterberger, 2019], strajki, których skutki mogą być odczuwane nie tylko przez podmioty, w których występują, np. strajk kontrolerów ruchu lotniczego będzie mieć również konsekwencje dla działalności operacyjnej linii i portów lotniczych [Bendinelli, Bettini, Oliveira, 2016]. Większość czynników ryzyka operacyjnego jest stosunkowo niewielkim zagrożeniem z perspektywy całego sektora czy też w ujęciu długoterminowym ze względu na ich zwykle lokalny (odnoszący się do danego rynku lub nawet podmiotu) i ograniczony w czasie charakter, a także wypracowane na przestrzeni wielu lat działalności sposoby zarządzania nimi i ich mitygacji, na przykład poprzez odpowiednie planowanie siatki lotów [Şimşek, Aktürk, 2022]. Ryzyko finansowe związane jest nie tylko z działalnością finansową przedsiębiorstw funkcjonujących na rynku lotniczym, polegającą na przykład na wykorzystywaniu instrumentów finansowych do zabezpieczenia przed wahaniami cen paliwa lo"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f74fe871cb5eb832",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://econjournals.sgh.waw.pl/SiP/article/download/4731/5026",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.18805/ag.d-6397": {
   "role": "brief_mention",
@@ -403,7 +707,15 @@
   "note": "Citação definicional de perda pós-colheita, em bloco com uma outra fonte.",
   "passages": [
    "s significant financial hardship for farmers and supply chain participants globally. In India, post-harvest loss (PHL) in rice is a serious problem that affects farmer earnings, food security and overall economic effectiveness. Key words: Disease, Pest, Post harvest losses, Rice. In rice, post-harvest losses (PHL) are the quantitative and qualitative decreases in rice grain that occur in between the harvest and human consumption (Qu et al., 2021). This encompasses any reduction in the quantity of consumable rice grain that is the result of factors that impede its utilization by humans, such as a decrease in nutritional value, a decrease in its marketability, or a decrease in its edibility (Bendinelli et al., 2020 and Mahendran et al., 2024). PHL should be distinguished from intentional reductions, such as the removal of bran or husk during milling, which are essential processing stages (Muller et al., 2022). Globally, post-harvest losses in rice can range from 10% to 40% of total production, depending on the region and the techniques employed. In developing countries, losses are generally higher due to traditional methods and less advanced infrastructure. The post-harvest losses for grains, including rice, are typically estimated to be between 10% and 20% at the pre-processing stage (Nath et al., 2024). The quantitative harvest and post-harvest losses for cereals, which encompass paddy/"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "99c87bbb8d48f54c",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://arccarticles.s3.amazonaws.com/OnlinePublish/Final-article-attachemnt-with-doi-D-6397-6089603e9087340b9bdcbbb1.pdf",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.51470/plantarchives.2024.v24.sp-gabels.029": {
   "role": "drive_by",
@@ -413,7 +725,15 @@
   "note": "Afirmação genérica sobre dependência de pequenos produtores e beneficiadoras.",
   "passages": [
    "the insects that infest grains that have been stored, and the genera Sitophilus and Tribolium are the most destructive species of storage insects (Khan and Selman 1988). The rice weevil, Sitophilus oryzae (L.), is one of the most destructive pests of cereal grains and their products. (Yan et al., 2014; Rita Devi et al., 2017). It is a major pest that feeds on whole grain kernels. Significant loss in grain weight, secondary pest infestation, and contamination due to growth of fungus are all results of adult feeding and larval activity inside kernels (Athanassiou et al., 2017). Grain production in many developing nations mainly depends on Small-scale farmers and postharvest processing mills (Bendinelli et al., 2020). When grains are stored, synthetic insecticides are used to control rice weevil pest. Chemical insecticides and fumigants were frequently used to treat insect storage pests, but this practice led to serious issues like the emergence of insect species that are resistant to insecticides (Zettler and Cuperus, 1990; Ribeiro et al., 2003; Lorini et al., 2007; Mehta and Kumar, 2020) and also recent laboratory studies indicated that many cultivars have developed some resistance to S. oryzae (Swamynarayana et al., 2014).Although inexpensive and feasible, fumigation has many drawbacks when compared to other methods of pest control. Insect populations are becoming more and more resistan"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f7973e10983a0a20",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://www.plantarchives.org/article/29%20TESTING-THE-EFFECT-OF-HERBAL-POWDERS-ON-GRAIN-PARAMETERS-IN-STORED-WHEAT-IN-THE-PRESENCE-OF-SITOPHILUS-ORYZAE-UNDER-FREE-CHOICE.pdf",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.47278/journal.ijab/2025.070": {
   "role": "brief_mention",
@@ -423,7 +743,15 @@
   "note": "Atribui ao artigo o vínculo entre secagem tradicional ao sol e perdas pós-colheita.",
   "passages": [
    "classified into three quality levels: Premium, Medium I, and Medium II (BSN, 2020). Generally, farmers employ conventional farming practices, particularly in crop management aspects such as shelling, drying, and storage (Cecil et al., 2023). Corn shelling is typically done using locally produced sheller machines that are often unstandardized and untested. The drying process involves spreading the corn on tarps and leaving it to dry in the sun for two to three days. Consequently, the moisture content of the corn is highly dependent on weather conditions during drying. This traditional drying and storage method can lead to significant contamination of the corn kernels and postharvest losses (Bendinelli et al., 2020). Feed mills must carefully adjust the quality of lowgrade corn to meet factory feed formulation standards. A key factor affecting feed quality is moisture content, which recommends maintaining moisture levels between 14% and 16% (Cabañas-Ojeda et al., 2023). Corn with moisture levels exceeding 16% is prone to quality degradation, storage damage, and increased risk of fungal contamination. Damaged kernels, including moldy or cracked seeds, are particularly vulnerable to contamination by destructive microorganisms such as fungi (Islam et al., 2018). These contaminants can lead to mycotoxins, such as deoxynivalenol and zearalenone, negatively affecting feed safety. No significant"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "21ff86a6b7a61653",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://www.ijagbio.com/pdf-files/25-162.pdf",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.47278/journal.ijab/2025.105": {
   "role": "brief_mention",
@@ -433,7 +761,15 @@
   "note": "Mecanização subótima como causa de grão quebrado. Mesmo grupo e periódico de grains_s002.",
   "passages": [
    "through mediated relationships. Thus, improving corn kernel quality remains challenging at the farm level, particularly in areas such as harvest and postharvest mechanization, moisture management, and contamination control during storage. Corn batches are procured from smallholder farmers across multiple regions both within and beyond South Sulawesi Province, resulting in considerable variability in conditions and quality. In general, farmers rely on traditional farming practices, particularly in postharvest processes such as shelling, drying, and storage (Cecil et al., 2023). Suboptimal mechanization often results in increased damaged and broken kernels, which subsequently degrade quality (Bendinelli et al., 2020). Moreover, many farmers still rely on uncontrolled natural drying methods (Arslan & Alibaş, 2024), resulting in inconsistent moisture levels that increase the risk of mold growth, particularly under poor storage ventilation and high humidity conditions (Dagnas & Membré, 2013). Contamination with foreign materials remains a common issue at the farm level due to uneven sorting and cleaning processes (Hagen et al., 2020). Limited access to improved postharvest technology contributes to higher levels of soil residue, stalk fragments, and other particulates mixed with corn (Mutungi et al., 2022). Foreign materials not only directly lower quality but also serve as carriers of pathog"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "519fe10fce3bce40",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://www.ijagbio.com/pdf-files/25-307.pdf",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.4314/tjs.v49i3.16": {
   "role": "drive_by",
@@ -443,7 +779,15 @@
   "note": "Citação em bloco com Ambuko e Bustos & Moors. Par com grains_s016: artigo de periódico e a dissertação que o originou, mesmo autor.",
   "passages": [
    "onditions (Gall and Benkeblia 2022, Freimoser et al. (Arah et al. 2016, Dhakulkar et al. 2018, 2019, Pétriacq et al. 2018). The challenge in Sibomana et al. 2016). Perishability of fruits minimizing fruits and vegetables post-harvest and vegetables is directly linked to rapid losses is largely hinged on how to come up quality losses immediately after harvest when with reliable and sustainable storage systems subjected to poor handling and storage for perishable produce at the minimum initial 741 http://tjs.udsm.ac.tz/index.php/tjs www.ajol.info/index.php/tjs/ Gunda et al. - Design of a Cooling System Integrated with Ultraviolet Light for Preservation and running costs (Ambuko et al. 2017, Bendinelli et al. 2020, Bustos and Moors 2018). Evaporative cooling systems are one of the options for horticultural post-harvest storage because of their environmental friendliness and energy-saving features (Verploegen et al. 2018, Elik et al. 2019, Rajapaksha et al. 2021). Evaporative cooling systems enable lowcost high-quality preservation of perishable products. These systems use less energy and have the potential to reduce post-harvest losses for small-scale farmers who do not have the means to invest in expensive systems that also demand a large amount of energy (Chopra and Kumar 2017, Lal Basediya et al. 2013, Zakari et al. 2016, AlZubaydi and Dartnall 2014). Chopra and Kumar proposed a semici"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "0587993eee7696fb",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://www.ajol.info/index.php/tjs/article/download/256770/242541",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.58694/20.500.12479/2737": {
   "role": "drive_by",
@@ -453,7 +797,15 @@
   "note": "Dissertação de mestrado que deu origem a grains_s015. Mesma passagem.",
   "passages": [
    "et al., 2016). Perishability of fruits and vegetables is directly linked to rapid quality losses immediately after harvest when subjected to poor handling and storage conditions (Heidari et al., 2019; Oyedepo et al., 2019; Panchabikesan et al., 2018). In tropical areas, spoilage of produce is caused not only by high temperatures but also by bacteria, yeast, mold, and attack by viruses (Gall & Benkeblia, 2022; Freimoser et al., 2019; Pétriacq et al., 2018). The challenge in minimizing fruits and vegetables' post-harvest losses is largely hinged on how to come up with reliable and sustainable storage systems for perishable produce at the minimum initial and running costs (Ambuko et al., 2017; Bendinelli et al., 2020; Bustos & Moors, 2018). Evaporative cooling systems are one of the options for horticultural post-harvest storage because of their environmental friendliness and energy-saving features (Verploegen et al., 2018; Elik et al., 2019; Rajapaksha et al., 2021). Evaporative cooling systems enable low-cost, high-quality preservation of perishable products. These systems use less energy and have the potential to reduce post-harvest losses for smallscale farmers who do not have the means to invest in expensive systems that also demand a large amount of energy (Chopra & Kumar, 2017; Lal-Basediya et al., 2013; Zakari et al., 2016; Dartnall, 2014). Ultraviolet light is a kind of electromagn"
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f8f5ac23341d9d53",
+   "evidence_kind": "passagem literal",
+   "source": "pdf:https://dspace.nm-aist.ac.tz/server/api/core/bitstreams/d182912e-dc05-4911-baf7-11b0a5c118b7/content",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1007/s00217-026-05237-y": {
   "role": "bibliography_only",
@@ -461,7 +813,15 @@
   "reuse": [],
   "flag": "ghost",
   "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. European Food Research and Technology (2026) — revisão sobre IA em perdas pós-colheita.",
-  "passages": []
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "html:https://link.springer.com/article/10.1007/s00217-026-05237-y?error=cookies_not_supported&code=f6a04ab1-736c-47a3-ab4b-ce80543d3c1f",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.26898/0370-8799-2020-4-11": {
   "role": "bibliography_only",
@@ -469,7 +829,15 @@
   "reuse": [],
   "flag": "ghost",
   "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Siberian Herald of Agricultural Science (2020) — artigo russo sobre transporte e pré-tratamento de grão.",
-  "passages": []
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "rodada-1 (re-arquivado por DOI)",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1007/978-3-030-98067-2_172-1": {
   "role": "bibliography_only",
@@ -477,7 +845,15 @@
   "reuse": [],
   "flag": "ghost",
   "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biotecnologia e mitigação de perdas pós-colheita (2025).",
-  "passages": []
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "html:https://link.springer.com/rwe/10.1007/978-3-030-98067-2_172-1?error=cookies_not_supported&code=6e5ce4e0-28e3-42a9-8731-447ad7689648",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1007/978-3-031-06562-0_11": {
   "role": "bibliography_only",
@@ -485,7 +861,15 @@
   "reuse": [],
   "flag": "ghost",
   "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biorrefinarias de resíduo alimentar (2022).",
-  "passages": []
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "html:https://link.springer.com/chapter/10.1007/978-3-031-06562-0_11?error=cookies_not_supported&code=46bea422-bd11-463e-94ab-e45c9aa7f329",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.3390/ijerph19158921": {
   "role": "drive_by",
@@ -495,7 +879,15 @@
   "note": "Citação numérica em bloco [21,22,23,24] sobre impacto financeiro de atrasos para as companhias.",
   "passages": [
    "From the air transport perspective, airlines have the most significant negative financial impact in the case of delays, which was researched in [21,22,23,24]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "f03f8b187b108669",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.3390/ijerph19158921",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.3390/agriculture11090877": {
   "role": "brief_mention",
@@ -505,7 +897,15 @@
   "note": "Atribui ao artigo a estimativa de que a perda pós-colheita de grão varia de 20% a 35% conforme a região.",
   "passages": [
    "It is estimated that post-harvest loss of grain varies from 20% to 35% in different regions of the world [12]."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "62b592e36cbee740",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.3390/agriculture11090877",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.trb.2026.103567": {
   "role": "real_mention",
@@ -515,7 +915,15 @@
   "note": "Transportation Research Part B. Emparelhado com Brueckner (2005) como a fonte da hipótese de internalização de congestionamento.",
   "passages": [
    "The prior studies suggested that the hub-and-spoke carriers are more likely to internalize the delay costs caused by their own operations, i.e., “congestion internalization hypothesis” (Brueckner, 2005; Bendinelli et al., 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "82a41d8256787a30",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.trb.2026.103567",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.rtbm.2025.101458": {
   "role": "brief_mention",
@@ -525,7 +933,15 @@
   "note": "Revisão de LCC. Citação em bloco de três fontes sobre efeito de LCC em atraso e uso de capacidade.",
   "passages": [
    "Operationally, LCCs shape airport dynamics, influencing flight delays and capacity utilization (Bendinelli et al., 2016, Coto-Millán et al., 2014, Lee and Worthington, 2014)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "4eb82974a2d57a15",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.rtbm.2025.101458",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2024.102708": {
   "role": "brief_mention",
@@ -535,7 +951,15 @@
   "note": "Citação em bloco com Bubalo e Gaggero, sobre comparação de tarifa e qualidade de serviço.",
   "passages": [
    "studies have been conducted to compare airfares, service quality, and cooperation among air carriers (Bubalo and Gaggero, 2015; Bendinelli et al., 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "c36115b555f44c60",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2024.102708",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2023.102493": {
   "role": "real_mention",
@@ -545,7 +969,15 @@
   "note": "Restitui corretamente os DOIS achados: atraso cai com mais concorrência na rota, e cai também com menos concorrência no aeroporto. Poucos citantes captam essa dupla direção.",
   "passages": [
    "Bendinelli et al. (2016), for instance, investigated the incentives of an airline to increase on-time performance with the existence of market competition. They found delays to decrease with increasing competition on an origin destination market, but also concluded delays to decrease with decreasing competition at an airport."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "01f651e1d383ddf4",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2023.102493",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.indmarman.2023.09.003": {
   "role": "supporting",
@@ -557,7 +989,15 @@
   "note": "Usa o artigo para justificar a construção da variável MarketType do próprio modelo — a citação sustenta uma escolha de desenho empírico, não só o texto.",
   "passages": [
    "MarketType. LCCs typically focus on markets with a high proportion of leisure passengers because this segment of the market is more price-sensitive than business travelers (Bendinelli, Bettini, & Oliveira, 2016). To determine whether a given market is a leisure market, we used Gerardi and Shapiro (2009) list of leisure destinations in the US."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "1c7a22aade221eb2",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.indmarman.2023.09.003",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2022.102352": {
   "role": "real_mention",
@@ -567,7 +1007,15 @@
   "note": "Posiciona o achado como o resultado nulo num debate de resultados divergentes (Prince & Simon versus Bubalo & Gaggero). Reporta com precisão, sem contestar.",
   "passages": [
    "while Prince and Simon [2015] uncover that LCC entry increases flight delays, Bubalo and Gaggero [2015] conclude just the opposite. Still Bendinelli et al., [2016] claim that there is little evidence to support either a moderating or accentuation effect of LCC entry on delays."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "bce307ebbc9eba28",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2022.102352",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tre.2022.103000": {
   "role": "foundational",
@@ -577,7 +1025,15 @@
   "note": "Transportation Research Part E. A descrição mais precisa que qualquer citante fez do artigo: identifica que ele concilia duas vertentes da literatura num único modelo econométrico, testando efeito de internalização e efeito concorrência-qualidade.",
   "passages": [
    "Bendinelli et al. (2016) try to conciliate these two strands of the literature by presenting a single econometric model to test both the “congestion internalization effect” and the “competition-quality effect”. Specifically, they suggest that airlines’ internalization of congestion can be explained by their dominant position at the airport."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "12755e1a07e02c51",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tre.2022.103000",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jbusres.2022.03.043": {
   "role": "supporting",
@@ -589,7 +1045,15 @@
   "note": "Mesma construção de variável de airline_013, com texto quase idêntico: mesmo grupo de pesquisa reaproveitando a própria seção de método.",
   "passages": [
    "As leisure travel demand is more price-sensitive, LCCs target markets with a high percentage of leisure passengers (Bendinelli, Bettini, & Oliveira, 2016). We identified leisure routes using Gerardi and Shapiro's (2009) list of the U.S. leisure destinations."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "be0297fbda5fa654",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jbusres.2022.03.043",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.ecotra.2022.100252": {
   "role": "brief_mention",
@@ -599,7 +1063,15 @@
   "note": "Economics of Transportation. Citado no bloco canônico de determinantes de pontualidade que justifica as variáveis de controle de congestionamento e concorrência.",
   "passages": [
    "we include three control variables that attempt to control for potential congestion and competition effects, which are studied determinants of on-time flight performance (Brueckner 2002a, 2002b, Mayer and Sinai 2003, Mazzeo 2003, Greenfield 2014, Bubalo and Gaggero 2015, Bendinelli et al. 2016, Fageda and Flores-Fillol 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "96e82c69c3802912",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.ecotra.2022.100252",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tranpol.2021.10.015": {
   "role": "brief_mention",
@@ -609,7 +1081,15 @@
   "note": "Transport Policy. Bloco sobre precificação por internalização de congestionamento, ao lado de Brueckner e Miranda & Oliveira.",
   "passages": [
    "Finally, airport congestion internalization pricing behavior by carriers may arise (Brueckner, 2002; Wan et al., 2015; Bendinelli et al., 2016; Guo et al., 2018; Miranda and Oliveira, 2018)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "e9d79db1802d60c3",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tranpol.2021.10.015",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2021.102064": {
   "role": "foundational",
@@ -620,7 +1100,15 @@
   "passages": [
    "previous studies explored the hypotheses of congestion internalization and hubness effect from an airport perspective and competition and quality from a route perspective (Bendinelli et al., 2016; Brueckner, 2002; Greenfield, 2014; Mayer and Sinai, 2003).",
    "Only few studies are based on intra-European flights (Santos and Robin, 2010) and domestic flights in Brazil (Bendinelli et al., 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "6f9d6abd236a49b9",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2021.102064",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.trip.2020.100189": {
   "role": "supporting",
@@ -630,7 +1118,15 @@
   "note": "Usa o artigo como fonte documental da base VRA da ANAC — a citação sustenta a descrição do dado que o próprio estudo emprega.",
   "passages": [
    "All the information used in the VRA is provided by the airlines and aggregated by ANAC (Bendinelli et al., 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "c7add77bf2f96d3e",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.trip.2020.100189",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.trc.2020.102686": {
   "role": "brief_mention",
@@ -640,7 +1136,15 @@
   "note": "Transportation Research Part C. Aloca o artigo no campo dos que sustentam a predição teórica de internalização, contra o campo dos que a refutam.",
   "passages": [
    "Empirical studies on this topic are less conclusive though, as some supporting the theoretical prediction (e.g., Brueckner 2002, Mayer and Sinai 2003, Rupp 2009, Ater 2012, Bilotkach et al. 2013, Bendinelli et al. 2016) while others providing evidences against it."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "7d7bfb17e52a7953",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.trc.2020.102686",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2019.101690": {
   "role": "brief_mention",
@@ -650,7 +1154,15 @@
   "note": "Emparelhado com Brueckner como evidência de que companhia dominante tem incentivo a internalizar congestionamento.",
   "passages": [
    "According to some analytical inferences and empirical evidences (e.g. Brueckner, 2002; Bendinelli et al., 2016), dominant airlines have an incentive in internalizing congestion."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "137e51619fe8133b",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2019.101690",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2019.05.001": {
   "role": "wrongly_interpreted",
@@ -660,7 +1172,15 @@
   "note": "Afirma que o artigo investiga o impacto do desempenho operacional sobre a ESTRUTURA DE CUSTO da companhia. O artigo não trata de custo: trata de atraso, internalização de congestionamento e entrada de LCC.",
   "passages": [
    "Bendinelli, Bettini and Oliveira (2016) investigate the impact of operational performance on airline cost structure and show that flight activity outside schedule windows, delay and schedule buffers impact airline costs substantially."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "088bad1612712b5b",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2019.05.001",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2019.03.001": {
   "role": "supporting",
@@ -672,7 +1192,15 @@
   "note": "Justifica a inclusão da participação operacional da companhia no aeroporto (índice de Herfindahl) como variável de controle do próprio modelo.",
   "passages": [
    "The operational share of an airline at an airport impacts on on-time performance of flight activities (Brueckner, 2002; Bendinelli et al., 2016). Consequently, we include this variable to control for its impact on ground times."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "2745313ec4d41958",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2019.03.001",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tranpol.2018.12.012": {
   "role": "brief_mention",
@@ -682,7 +1210,15 @@
   "note": "Diz que o artigo reporta resultado SEMELHANTE ao de Bubalo & Gaggero, isto é, que a presença de LCC melhora a operação. Mas airline_015 lê o mesmo artigo como tendo achado pouca evidência em qualquer direção. Dois citantes leem o resultado sobre LCC em sentidos opostos.",
   "passages": [
    "Bubalo and Gaggero (2015) showed that the presence of the LCC even could positively impact airport operations and foster improvement in service quality. A similar result has been reported by Bendinelli et al., (2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "a1dc6b361b943cf9",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tranpol.2018.12.012",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jspr.2025.102547": {
   "role": "brief_mention",
@@ -692,7 +1228,15 @@
   "note": "Journal of Stored Products Research. Citação definicional sobre a variabilidade do conceito de perda.",
   "passages": [
    "The definition of losses can vary depending on factors such as the type of product, storage conditions, handling practices, and market dynamics (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "988201073eacb118",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jspr.2025.102547",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.foodchem.2024.142637": {
   "role": "real_mention",
@@ -702,7 +1246,15 @@
   "note": "Food Chemistry. Atribui corretamente a estimativa quantitativa do artigo: perdas de 25% a 30% da oferta total, incluindo produção, importação e variação de estoque.",
   "passages": [
    "Bendinelli et al. (2020) reported that estimates of post-harvest losses for food grains range from 25 % to 30 % of the total supply, which includes production, imports, and stock variations."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "b5dd12f7e4fc6ef0",
+   "evidence_kind": "passagem literal",
+   "source": "html:https://pubmed.ncbi.nlm.nih.gov/39752738/",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jspr.2024.102288": {
   "role": "brief_mention",
@@ -712,7 +1264,15 @@
   "note": "Ecoa o achado central: o nível da estrutura pós-colheita como determinante das perdas.",
   "passages": [
    "One of the main factors that determine postharvest losses of grains is the postharvest level of structure (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "e212039490c684ae",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jspr.2024.102288",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.compag.2022.106936": {
   "role": "real_mention",
@@ -722,7 +1282,15 @@
   "note": "Computers and Electronics in Agriculture. Descrição precisa: nomeia as quatro culturas (arroz, milho, soja, trigo) e o achado sobre infraestrutura de armazenagem e comercialização.",
   "passages": [
    "Bendinelli et al. (2020) discussed the influence of macroeconomic conditions on the PHL of grains (rice, maize, soybeans, and wheat). The results revealed that the lack of post-harvest infrastructure, especially in food storage and food marketing, was the significant cause of PHL."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "3fc7350ad524a9be",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.compag.2022.106936",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.spc.2021.08.004": {
   "role": "drive_by",
@@ -732,7 +1300,15 @@
   "note": "Mesmo periódico do artigo citado. Citação em bloco para a estatística genérica de um terço da produção global.",
   "passages": [
    "Food loss and waste (FLW) sums one-third of the total food produced globally for human consumption, about 1.3 billion tons of food (Priefer et al., 2016; Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "7cd493b9bf7998d7",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.spc.2021.08.004",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jspr.2022.101941": {
   "role": "drive_by",
@@ -742,7 +1318,15 @@
   "note": "Frase de abertura genérica sobre cereais serem componentes vitais da alimentação.",
   "passages": [
    "Cereals, oilseeds and legumes are vital components of human food and animal feeds (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "38981f05a3162828",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jspr.2022.101941",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tra.2018.10.005": {
   "role": "brief_mention",
@@ -752,7 +1336,15 @@
   "note": "Agrupa o artigo entre os estudos que só tratam de atraso de chegada e se posiciona explicitamente contra: “In contrast to these studies, this work investigates delays resulting from handling not only passengers but also cargo.” É delimitação de escopo, não crítica hostil — mas conta como contraposição pela regra liberal.",
   "passages": [
    "Most studies on airline delays address arrival delay instead of departure delay (e.g. Mayer and Sinai, 2003, Deshpande and Arikan, 2012, Bubalo and Gaggero, 2015, Prince and Simon, 2015, Bendinelli et al., 2016). In contrast to these studies, this work investigates delays resulting from handling not only passengers but also cargo."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "b9d9d226b50654e4",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tra.2018.10.005",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tra.2018.10.012": {
   "role": "foundational",
@@ -762,7 +1354,15 @@
   "note": "Transportation Research Part A. Explica o mecanismo do artigo com precisão: separar concentração de mercado e de aeroporto, atribuindo internalização de congestionamento à concentração aeroportuária e efeito qualidade à concentração de mercado.",
   "passages": [
    "To conciliate these two strands of literature, Bendinelli et al. (2016) differentiate the market concentrations at the market level and at the airport level. They propose that airport concentration is more relevant to airport congestion self-internalization while market concentration is more relevant to the competition in the quality aspect of delay."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "e71b884a06cd8b9b",
+   "evidence_kind": "passagem literal",
+   "source": "html:https://ira.lib.polyu.edu.hk/handle/10397/98293",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tre.2016.12.012": {
   "role": "foundational",
@@ -772,7 +1372,15 @@
   "note": "Transportation Research Part E. Reproduz corretamente a direção dupla do achado, o que a maioria dos citantes não faz.",
   "passages": [
    "Bendinelli et al. (2016) address airline delays by separating the market-based level of competition and the airport-based dominance of an airline. They equally find a decrease in delays as competition on an origin-destination-market increases, whereas delays decrease as competition at an airport decreases."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "ef5bb8a4bea9164e",
+   "evidence_kind": "passagem literal",
+   "source": "html:https://orbilu.uni.lu/handle/10993/36903",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.ijindorg.2021.102742": {
   "role": "brief_mention",
@@ -782,7 +1390,15 @@
   "note": "International Journal of Industrial Organization. Aloca o artigo no campo dos que acham que concentração melhora pontualidade.",
   "passages": [
    "Some papers have found that airport and route concentration lead to better OTP levels (Mayer and Sinai, 2003; Rupp et al., 2006; Bendinelli et al., 2016; Prince and Simon, 2015), while others have found that more concentration in routes and airports is associated with worse OTP levels."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "01efa139a92135b1",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.ijindorg.2021.102742",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jtrangeo.2021.103260": {
   "role": "brief_mention",
@@ -792,7 +1408,15 @@
   "note": "Journal of Transport Geography. Bloco sobre adaptação de tarifa de congestionamento quando a companhia dominante internaliza custos.",
   "passages": [
    "Several studies argue that if dominant carriers internalise such costs, congestion pricing for Full Service Network Carriers should be adapted to account for internalised costs (Bendinelli et al., 2016; Brueckner and Van Dender, 2008; Miranda and Oliveira, 2018; Pels and Verhoef, 2004; Rupp, 2009)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "21874206bd44de7e",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jtrangeo.2021.103260",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tre.2020.102186": {
   "role": "supporting",
@@ -804,7 +1428,15 @@
   "note": "Transportation Research Part E. Adota o tratamento de endogeneidade do artigo: assume correlação entre componentes não observados do atraso e o estado da concorrência, e por isso instrumenta HHI e participação de LCC.",
   "passages": [
    "motivated by the previous literature—Greenfield (2014) and Bendinelli, Bettini, and Oliveira (2016)—we assume that the unobserved components of the flight delays on city-pair market k at time t are correlated with the status of competition in that market. As a result, we must treat the market concentration and LCC share of flights—namely, HHI and LCCS—as endogenous."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "012c23d0415582ad",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tre.2020.102186",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tra.2018.06.008": {
   "role": "supporting",
@@ -816,7 +1448,15 @@
   "note": "Transportation Research Part A. Declara estender a literatura de internalização de congestionamento para o efeito de slots aeroportuários. Assinado por Miranda e Oliveira — Oliveira é coautor do artigo citado.",
   "passages": [
    "We extend the literature on the congestion internalization behaviors of major airlines to examine the possible impact of airport slots (Daniel, 1995, Brueckner, 2002, Mayer and Sinai, 2003a, Santos and Robin, 2010, Ater, 2012, Bendinelli et al., 2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "561b4b8f2697bcd4",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tra.2018.06.008",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tranpol.2017.12.021": {
   "role": "brief_mention",
@@ -826,7 +1466,15 @@
   "note": "Transport Policy. Bloco de literatura sobre associação estatisticamente significativa entre atraso e concentração em aeroporto e rota.",
   "passages": [
    "the literature has investigated and found a statistically significant association between airline delays and concentration at the airport and route levels - Mayer and Sinai, 2003, Mazzeo, 2003, Ater, 2012, and Bendinelli et al. (2016)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "2475d160740a36fb",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tranpol.2017.12.021",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.tranpol.2018.07.006": {
   "role": "real_mention",
@@ -836,7 +1484,15 @@
   "note": "Transport Policy. Descreve o objeto e a geografia corretamente, e vai ao detalhe de um resultado de controle: o efeito não significativo de code-sharing.",
   "passages": [
    "Bendinelli et al. (2016) investigated the impact and behavior of low-cost carriers (LCCs) in airline markets. They are particularly interested in how the entry of LCCs affects airline flight delays in the Brazilian industry. In their analysis, they control for the effects of code-sharing and found no statistically significant effect."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "b22a1900720d06c1",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.tranpol.2018.07.006",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.jairtraman.2021.102044": {
   "role": "supporting",
@@ -848,7 +1504,15 @@
   "note": "Journal of Air Transport Management. Replica o procedimento de identificação do artigo: instrumentos estruturais como deslocadores de demanda, explorando a estrutura de painel.",
   "passages": [
    "The procedure is similar to the one presented in, e.g., Bendinelli et al. (2016). The structural instruments consist of demand shifters, commonly used to identify variables in price models, which are expected to influence market concentration, number of passengers, and/or the extent of financial distress."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "5bb189ec4d15cdde",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.jairtraman.2021.102044",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.clfs.2026.100028": {
   "role": "brief_mention",
@@ -858,7 +1522,15 @@
   "note": "Cleaner Food Systems. Bloco sobre produtores com mais escolaridade e ativos adotarem melhores práticas de armazenagem.",
   "passages": [
    "Educated farmers with more assets tend to use better storage and handling practices, which helps lower physical and economic losses (Debebe, 2022; Bendinelli et al., 2020; Kikulwe et al., 2018)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "326b85769563e307",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.clfs.2026.100028",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.biocontrol.2021.104568": {
   "role": "brief_mention",
@@ -868,7 +1540,15 @@
   "note": "Biological Control. Atribui ao artigo os fatores de processamento, armazenagem, embalagem e comercialização.",
   "passages": [
    "In addition, improper processing, storage, packaging or marketing are the other important factors (Bendinelli et al., 2020)."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "809007cc0ec71e5e",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.biocontrol.2021.104568",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.igd.2023.100108": {
   "role": "supporting",
@@ -880,7 +1560,15 @@
   "note": "Innovation and Green Development. Usa o artigo para justificar a escolha da variável de abertura comercial num modelo de crescimento verde para a UEMOA — alcance para fora da agronomia, em macroeconomia do desenvolvimento.",
   "passages": [
    "The trade openness is measured as the exports and imports of goods and services sum divided by GDP. The variable choice is supported by Bendinelli et al. (2020) and the expected sign is mixed."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "2ec9a9f45742c289",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.igd.2023.100108",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/j.compag.2021.106405": {
   "role": "drive_by",
@@ -890,7 +1578,15 @@
   "note": "Computers and Electronics in Agriculture. Citação em bloco sobre mau uso de tecnologia na cadeia produtiva.",
   "passages": [
    "A part of the waste in agriculture is related to the incidence of bad weather, increased tolerance of pests, and misuse of technologies (Baributsa and Njoroge, 2020, Bendinelli et al., 2020) in the agricultural production chain."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "d74710be2d12ac62",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/j.compag.2021.106405",
+   "codebook": "METHOD.md@v1"
+  }
  },
  "10.1016/bs.hesagr.2022.03.001": {
   "role": "real_mention",
@@ -900,6 +1596,14 @@
   "note": "Handbook of Agricultural Economics (Elsevier). Colocação de prestígio: o artigo é a referência do handbook para o caso de commodities estocáveis. A generalização para países de renda alta é um pequeno alargamento — o artigo é sobre o Brasil.",
   "passages": [
    "whereas higher-income countries typically face few systematic challenges in limiting waste for storable commodities (e.g., grains, see Bendinelli, Su, Péra, & Caixeta Filho, 2020), lower-income countries often face gaps in the quantity and quality of farm-level storage and infrastructure."
-  ]
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "80094f768ba01c2f",
+   "evidence_kind": "passagem literal",
+   "source": "https://doi.org/10.1016/bs.hesagr.2022.03.001",
+   "codebook": "METHOD.md@v1"
+  }
  }
 }
