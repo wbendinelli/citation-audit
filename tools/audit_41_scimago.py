@@ -16,6 +16,7 @@ Uso:
   python3 tools/audit_41_scimago.py           casa com o CSV e grava journals.json
   python3 tools/audit_41_scimago.py --check   só valida o journals.json já commitado (sem rede, sem CSV)
 """
+
 import collections
 import csv
 import re
@@ -29,13 +30,22 @@ SCIMAGO_CSV = auditlib.DATA / "scimago" / "scimagojr_2025.csv"
 
 # ---------------- só usado no modo de gravação (lê o CSV) ----------------
 
+
 def norm_issn(s):
-    return {re.sub(r"[^0-9X]", "", x.upper()) for x in re.split(r"[,\s]+", s or "") if x.strip()}
+    return {
+        re.sub(r"[^0-9X]", "", x.upper())
+        for x in re.split(r"[,\s]+", s or "")
+        if x.strip()
+    }
+
 
 def num(s):
     s = (s or "").strip().replace(",", ".")
-    try: return float(s)
-    except ValueError: return None
+    try:
+        return float(s)
+    except ValueError:
+        return None
+
 
 def ler_scimago(path):
     idx, linhas = {}, 0
@@ -43,8 +53,10 @@ def ler_scimago(path):
         for row in csv.DictReader(f, delimiter=";"):
             linhas += 1
             for i in norm_issn(row.get("Issn")):
-                if len(i) == 8: idx.setdefault(i, row)
+                if len(i) == 8:
+                    idx.setdefault(i, row)
     return idx, linhas
+
 
 def scimago_de(row):
     if row is None:
@@ -65,7 +77,7 @@ def scimago_de(row):
         "tipo": (row.get("Type") or "").strip(),
         "open_access": (row.get("Open Access") or "").strip(),
         "citacoes_doc_2a": num(row.get("Citations / Doc. (2years)")),
-        "overton": num(row.get("Overton")),   # citações em documento de política
+        "overton": num(row.get("Overton")),  # citações em documento de política
         "cobertura": (row.get("Coverage") or "").strip(),
     }
 
@@ -78,9 +90,12 @@ if CHECK:
     erros = tier_erros(sources)
     if erros:
         print(f"VIOLAÇÕES DA REGRA DE TIER: {len(erros)}")
-        for e in erros: print(f"  {e}")
+        for e in erros:
+            print(f"  {e}")
         sys.exit(1)
-    print(f"ok: {len(sources)} periódicos satisfazem a regra de tier (--check, sem rede/CSV)")
+    print(
+        f"ok: {len(sources)} periódicos satisfazem a regra de tier (--check, sem rede/CSV)"
+    )
 else:
     if not SCIMAGO_CSV.exists():
         raise SystemExit(f"CSV do Scimago não encontrado em {SCIMAGO_CSV}")
@@ -89,22 +104,30 @@ else:
     print(f"{linhas} periódicos no Scimago, {len(idx)} ISSNs indexados")
 
     casou = 0
-    for sid, m in sources.items():
-        issns = norm_issn(m.get("issn_l") or "") | norm_issn(" ".join(m.get("issn") or []))
+    for m in sources.values():
+        issns = norm_issn(m.get("issn_l") or "") | norm_issn(
+            " ".join(m.get("issn") or [])
+        )
         row = next((idx[i] for i in issns if i in idx), None)
         sc = scimago_de(row)
-        if sc is not None: casou += 1
+        if sc is not None:
+            casou += 1
         tp = tier_proxy_de(m.get("citedness_2a"))
         tier, base = tier_e_base(tp, sc)
         m["scimago"], m["tier_proxy"], m["tier"], m["tier_base"] = sc, tp, tier, base
 
     auditlib.save_journals(journals)
     print(f"\ncasaram {casou}/{len(sources)} periódicos com o Scimago")
-    q = collections.Counter(m["scimago"]["quartil"] for m in sources.values() if m.get("scimago"))
+    q = collections.Counter(
+        m["scimago"]["quartil"] for m in sources.values() if m.get("scimago")
+    )
     print("quartis:", dict(sorted(q.items(), key=lambda x: str(x[0]))))
     falt = sorted(m["nome"] for m in sources.values() if not m.get("scimago"))
-    print(f"\nsem correspondência ({len(falt)}) — conferir se são repositório ou periódico novo:")
-    for n in falt[:20]: print(f"   {n}")
+    print(
+        f"\nsem correspondência ({len(falt)}) — conferir se são repositório ou periódico novo:"
+    )
+    for n in falt[:20]:
+        print(f"   {n}")
 
     erros = tier_erros(sources)
     assert not erros, f"regra de tier inconsistente logo após gravar: {erros}"

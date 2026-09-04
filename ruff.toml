@@ -1,0 +1,12 @@
+# Config do ruff (usado por pre-commit e por CI). Sem select explícito: fica
+# no default do ruff, que é o alvo (é o que o repositório de referência
+# também faz — nenhum pyproject.toml, código escrito para bater com o
+# default). As três regras abaixo são a única exceção deliberada: os
+# scripts de rede (fase 10-22) usam `except Exception` amplo de propósito —
+# é o padrão de resiliência que segura a colheita quando uma fonte externa
+# falha de um jeito imprevisível (timeout, JSON malformado, DNS, etc.);
+# listar cada exceção específica exigiria adivinhar o que cada API de
+# terceiro pode lançar, o que é pior que a captura ampla que já registra e
+# segue. Ver tools/README.md.
+[lint]
+ignore = ["BLE001", "S110", "S112"]

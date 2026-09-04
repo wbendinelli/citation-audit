@@ -11,6 +11,7 @@ Uso:
   python3 tools/audit_50_pending.py --check   renderiza em memória e compara
                                                byte a byte com os arquivos commitados
 """
+
 import csv
 import io
 import json
@@ -34,8 +35,21 @@ O_QUE_FAZER = {
     "tem_texto": "texto em mãos — falta ler a passagem e classificar em data/classify.json",
 }
 
-FIELDNAMES = ["id", "artigo", "doi", "link", "titulo", "veiculo", "ano", "editora",
-              "editora_estabelecida", "quartil", "status", "o_que_fazer", "arquivo_destino"]
+FIELDNAMES = [
+    "id",
+    "artigo",
+    "doi",
+    "link",
+    "titulo",
+    "veiculo",
+    "ano",
+    "editora",
+    "editora_estabelecida",
+    "quartil",
+    "status",
+    "o_que_fazer",
+    "arquivo_destino",
+]
 
 
 def linha(key, r, sources):
@@ -61,14 +75,17 @@ def linha(key, r, sources):
 
 
 def ordenar(rows):
-    return sorted(rows, key=lambda l: (l["artigo"], l["status"], l["veiculo"] or "", l["id"]))
+    return sorted(
+        rows, key=lambda l: (l["artigo"], l["status"], l["veiculo"] or "", l["id"])
+    )
 
 
 def render_csv(rows, fieldnames):
     buf = io.StringIO(newline="")
     w = csv.DictWriter(buf, fieldnames=fieldnames, lineterminator="\n")
     w.writeheader()
-    for row in rows: w.writerow(row)
+    for row in rows:
+        w.writerow(row)
     return buf.getvalue()
 
 
@@ -81,7 +98,8 @@ def gerar():
 
     pendencias, sem_quartil = [], []
     for key, r in auditlib.iter_records(master):
-        if not r.get("doi"): continue
+        if not r.get("doi"):
+            continue
         l = linha(key, r, sources)
         if not classify.get(r["doi"].lower()):
             pendencias.append(l)
@@ -93,8 +111,16 @@ def gerar():
             sem_quartil.append(l2)
 
     pendencias_csv = render_csv(ordenar(pendencias), FIELDNAMES)
-    sem_quartil_csv = render_csv(ordenar(sem_quartil), FIELDNAMES + ["veredito", "razao"])
-    return pendencias_csv, sem_quartil_csv, len(pendencias), len(sem_quartil), len(decisoes)
+    sem_quartil_csv = render_csv(
+        ordenar(sem_quartil), FIELDNAMES + ["veredito", "razao"]
+    )
+    return (
+        pendencias_csv,
+        sem_quartil_csv,
+        len(pendencias),
+        len(sem_quartil),
+        len(decisoes),
+    )
 
 
 pendencias_csv, sem_quartil_csv, n_pend, n_sq, n_dec = gerar()
@@ -103,21 +129,31 @@ OUT_SQ = auditlib.DATA / "derived" / "sem_quartil.csv"
 
 if "--check" in sys.argv[1:]:
     erros = []
-    for path, gerado, nome in ((OUT_PEND, pendencias_csv, "pendencias.csv"),
-                                (OUT_SQ, sem_quartil_csv, "sem_quartil.csv")):
+    for path, gerado, nome in (
+        (OUT_PEND, pendencias_csv, "pendencias.csv"),
+        (OUT_SQ, sem_quartil_csv, "sem_quartil.csv"),
+    ):
         atual = path.read_text(encoding="utf-8") if path.exists() else None
         if atual != gerado:
             erros.append(nome)
-            print(f"DRIFT: data/derived/{nome} gerado difere do commitado "
-                  f"({len(gerado)} chars gerados vs {len(atual) if atual is not None else 0} commitados)")
+            print(
+                f"DRIFT: data/derived/{nome} gerado difere do commitado "
+                f"({len(gerado)} chars gerados vs {len(atual) if atual is not None else 0} commitados)"
+            )
     if erros:
         sys.exit(1)
-    print(f"ok: pendencias.csv ({n_pend} linhas) e sem_quartil.csv ({n_sq} linhas, "
-          f"{n_dec} vereditos) idênticos aos gerados")
+    print(
+        f"ok: pendencias.csv ({n_pend} linhas) e sem_quartil.csv ({n_sq} linhas, "
+        f"{n_dec} vereditos) idênticos aos gerados"
+    )
 else:
     OUT_PEND.parent.mkdir(parents=True, exist_ok=True)
     OUT_PEND.write_text(pendencias_csv, encoding="utf-8")
     OUT_SQ.write_text(sem_quartil_csv, encoding="utf-8")
-    print(f"-> data/derived/pendencias.csv: {n_pend} registros com DOI e sem classificação")
-    print(f"-> data/derived/sem_quartil.csv: {n_sq} registros com DOI sem quartil Scimago "
-          f"({n_dec} com veredito manual em decisoes_scimago.json)")
+    print(
+        f"-> data/derived/pendencias.csv: {n_pend} registros com DOI e sem classificação"
+    )
+    print(
+        f"-> data/derived/sem_quartil.csv: {n_sq} registros com DOI sem quartil Scimago "
+        f"({n_dec} com veredito manual em decisoes_scimago.json)"
+    )
