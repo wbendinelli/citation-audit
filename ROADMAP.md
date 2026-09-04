@@ -54,3 +54,17 @@ de `reports/` que outros repositórios SAPIANS usam para o deliverable final
 - **Segunda edição da colheita** — re-rodar o bloco A
   (`tools/README.md#como-rodar`) para capturar citações novas desde a
   primeira colheita.
+
+## Entregues em 2026-09-04 (fase de análises)
+
+- `audit_63_adjudicate`, `audit_67_ghost_audit`, `audit_68_base_rates`; teste cego e colegiado completos (METHOD §17–§18).
+- Auditoria de referências (`data/cd/refs_audit_*.json`); scripts 64/65/66 escritos, aguardando cota de API para o CD e a co-citação.
+
+## Pendências abertas pela fase de análises
+
+- **Validação pelo autor** das 63 afirmações (`data/claims/claims.json`, `validated_by_author: false`) — o registro foi extraído por modelo e usado como verdade pelos codificadores; a validação humana é o que falta para fechar o argumento.
+- **Codificação humana (H1/H2)** prevista em §17: 30 itens às cegas pelo autor e adjudicação humana das discordâncias. Os papéis foram preenchidos por painel de modelos; a versão humana substitui, não soma.
+- **Persistir os corpos lidos por SSO**: 11 dos 12 vereditos de fantasma repousam em leitura documentada no navegador, não em arquivo em `text/`. Refazer a leitura salvando o corpo torna a auditoria 67 reproduzível.
+- **Números da literatura marcados `verification_status: pendente`** em `data/base_rates.json`: conferir na fonte primária antes de citar (Boyack 2018 1,4%; Jergas & Baethge 2015 maior/menor; Moravcsik 1975).
+- **Índice CD e co-citação**: rodar `audit_65`/`audit_66` com cota do OpenAlex (reseta 00:00 UTC) e comparar com o backend Semantic Scholar — a divergência entre bases é ela própria um resultado (Leibel & Bornmann 2024).
+- **Sensibilidade de profundidade** (D1 do codebook v2.1): reportar `foundational` com a leitura de texto completo de c1 nos 26 itens de janela automática.

@@ -62,6 +62,15 @@ citado aqui ficaria órfão no dia seguinte.
   (Opus) e do codificador 3 (Sonnet) ainda não chegaram — `data/irr/README.md`
   documenta os arquivos e o que falta.
 
+## 2026-09-04 — teste cego, adjudicação e análises
+
+- `data/classify.json` adjudicado por três codificadores (c1 original; c2 Opus e c3 Sonnet, cegos) e colegiado de três painéis para 19 contestações; codebook v2.1 em METHOD §18 (`91167d1`).
+- `grains_024` reclassificado de fantasma para em-texto: marcador sobrescrito localizado pela auditoria de fantasmas.
+- `tools/audit_63_adjudicate.py` (maioria de três, derivação de `distortion`, união de `claim_ids`, colegiado).
+- `tools/audit_67_ghost_audit.py` e `tools/audit_68_base_rates.py` com `data/ghost_audit.json` e `data/base_rates.json` (`9f00ffc`).
+- Ferramental do relatório: `check_numbers.py`, `sapians.py` standalone, fontes vendorizadas, `reports/01-impacto/{figuras,numeros}.typ`, `referencias.bib` (`b49b206`).
+- `data/cd/refs_audit_*.json`: listas de referência auditadas; 4 referências falsas no OpenAlex para grãos.
+
 ## 2026-09-04 — reorganização SAPIANS
 
 Oito passos que levaram o repositório do formato da auditoria original ao
