@@ -1,0 +1,37 @@
+{
+ "grains": {
+  "8":  {"role":"bibliography_only","stance":"none","reuse":[],"flag":"ghost","note":"Consta apenas na lista de referências (ref. 51). Zero menções no corpo do texto."},
+  "9":  {"role":"brief_mention","stance":"supporting","reuse":[],"flag":"","note":""},
+  "11": {"role":"drive_by","stance":"none","reuse":[],"flag":"","note":"Citação definicional em bloco com outras duas fontes."},
+  "12": {"role":"brief_mention","stance":"supporting","reuse":[],"flag":"","note":""},
+  "19": {"role":"real_mention","stance":"contradictory","reuse":[],"flag":"critical","note":"Aponta uma limitação: diz que o artigo cita gênero mas não vai além da desagregação por sexo do chefe do domicílio."},
+  "23": {"role":"brief_mention","stance":"supporting","reuse":[],"flag":"weak","note":"Atribui ao artigo um dado específico sobre Gana. O artigo trata de determinantes de PHL com base brasileira."},
+  "24": {"role":"drive_by","stance":"supporting","reuse":[],"flag":"","note":""},
+  "27": {"role":"supporting","stance":"supporting","reuse":[],"flag":"good","note":"Descreve corretamente o desenho empírico (arroz, milho, soja, trigo) e o achado principal sobre infraestrutura de armazenagem e comercialização."},
+  "30": {"role":"wrongly_interpreted","stance":"supporting","reuse":[],"flag":"misattribution","note":"Atribui ao artigo uma definição de food waste — produção menos a soma dos usos produtivos — que não é a definição empregada no paper."},
+  "34": {"role":"supporting","stance":"supporting","reuse":["method_adoption"],"flag":"good","note":"Adota as definições de perda e desperdício do artigo como base metodológica, e usa o achado sobre infraestrutura na discussão."},
+  "35": {"role":"drive_by","stance":"none","reuse":[],"flag":"","note":"Citação numérica em bloco [17][18] para afirmação genérica sobre desperdício de recursos."},
+  "37": {"role":"drive_by","stance":"supporting","reuse":[],"flag":"weak","note":"Sustenta afirmação sobre comércio internacional de grãos e redução de pobreza, fora do escopo do artigo."},
+  "41": {"role":"brief_mention","stance":"none","reuse":[],"flag":"","note":"Aloca o artigo num balde de literatura: “alguns focaram na cadeia inteira”."},
+  "44": {"role":"drive_by","stance":"none","reuse":[],"flag":"duplicate","note":"Ver par com a entrada 053."},
+  "50": {"role":"bibliography_only","stance":"none","reuse":[],"flag":"ghost","note":"Consta apenas na bibliografia. Zero menções no corpo."},
+  "53": {"role":"drive_by","stance":"none","reuse":[],"flag":"duplicate","note":"Mesmo título e veículo da entrada 044, publicado em duplicata, com a frase parafraseada (“these victims occur due to…”). Indício de texto reciclado."},
+  "54": {"role":"drive_by","stance":"supporting","reuse":[],"flag":"weak","note":"Usa o artigo para afirmar dificuldade de acesso a mercados por pequenos produtores na China."},
+  "58": {"role":"real_mention","stance":"supporting","reuse":[],"flag":"","note":"Adota a definição de perdas pós-colheita do artigo, com atribuição explícita e correta."},
+  "60": {"role":"drive_by","stance":"supporting","reuse":[],"flag":"","note":""}
+ },
+ "airline": {
+  "2":  {"role":"brief_mention","stance":"supporting","reuse":[],"flag":"","note":"Agrupado com Mayer & Sinai, Brueckner e Ater — o conjunto canônico da hipótese de internalização."},
+  "20": {"role":"brief_mention","stance":"supporting","reuse":[],"flag":"","note":"Citado pela definição institucional brasileira de atraso (30 minutos)."},
+  "23": {"role":"brief_mention","stance":"supporting","reuse":[],"flag":"","note":""},
+  "24": {"role":"real_mention","stance":"supporting","reuse":[],"flag":"","note":"Posicionamento tópico correto entre os estudos de competição versus pontualidade."},
+  "34": {"role":"foundational","stance":"supporting","reuse":["result_validated"],"flag":"good","note":"Duas passagens: agrupa o artigo com a literatura canônica de internalização e o identifica como o único estudo sobre uma economia emergente."},
+  "38": {"role":"brief_mention","stance":"supporting","reuse":[],"flag":"","note":""},
+  "41": {"role":"real_mention","stance":"supporting","reuse":[],"flag":"","note":"Descreve uma variável específica do modelo: proporção de atrasos por mau tempo."},
+  "43": {"role":"drive_by","stance":"none","reuse":[],"flag":"weak","note":"Artigo sobre política de concorrência nos Bálcãs. Uso tópico distante."},
+  "44": {"role":"foundational","stance":"supporting","reuse":["method_adoption"],"flag":"best","note":"Replica a especificação (controles de concentração em aeroporto e mercado) e adota o instrumento tipo Hausman (AvMSOR). Único marcado como influential pelo Semantic Scholar."},
+  "50": {"role":"real_mention","stance":"supporting","reuse":[],"flag":"","note":"Resume corretamente a pergunta de pesquisa e o achado confirmado."},
+  "52": {"role":"real_mention","stance":"supporting","reuse":[],"flag":"","note":""},
+  "53": {"role":"wrongly_interpreted","stance":"supporting","reuse":[],"flag":"misattribution","note":"Afirma que o artigo examina a relação entre registros de acidentes ou segurança e desempenho financeiro. O artigo trata de atrasos, internalização de congestionamento e entrada de low cost carriers."}
+ }
+}

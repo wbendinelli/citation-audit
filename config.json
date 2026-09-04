@@ -1,0 +1,10 @@
+{
+  "papers": {
+    "airline": {"doi": "10.1016/j.tra.2016.01.001", "year": 2016,
+                "label": "Airline delays / LCC entry (Transportation Research A)"},
+    "grains":  {"doi": "10.1016/j.spc.2019.09.002", "year": 2019,
+                "label": "Post-harvest losses of grains (Sustainable Prod. & Consumption)"}
+  },
+  "author_surname": "Bendinelli",
+  "contact_email": "wbendinelli@gmail.com"
+}
