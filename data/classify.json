@@ -486,5 +486,109 @@
   "flag": "ghost",
   "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biorrefinarias de resíduo alimentar (2022).",
   "passages": []
+ },
+ "10.3390/ijerph19158921": {
+  "role": "drive_by",
+  "stance": "none",
+  "reuse": [],
+  "flag": "",
+  "note": "Citação numérica em bloco [21,22,23,24] sobre impacto financeiro de atrasos para as companhias.",
+  "passages": [
+   "From the air transport perspective, airlines have the most significant negative financial impact in the case of delays, which was researched in [21,22,23,24]."
+  ]
+ },
+ "10.3390/agriculture11090877": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Atribui ao artigo a estimativa de que a perda pós-colheita de grão varia de 20% a 35% conforme a região.",
+  "passages": [
+   "It is estimated that post-harvest loss of grain varies from 20% to 35% in different regions of the world [12]."
+  ]
+ },
+ "10.1016/j.trb.2026.103567": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Transportation Research Part B. Emparelhado com Brueckner (2005) como a fonte da hipótese de internalização de congestionamento.",
+  "passages": [
+   "The prior studies suggested that the hub-and-spoke carriers are more likely to internalize the delay costs caused by their own operations, i.e., “congestion internalization hypothesis” (Brueckner, 2005; Bendinelli et al., 2016)."
+  ]
+ },
+ "10.1016/j.rtbm.2025.101458": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Revisão de LCC. Citação em bloco de três fontes sobre efeito de LCC em atraso e uso de capacidade.",
+  "passages": [
+   "Operationally, LCCs shape airport dynamics, influencing flight delays and capacity utilization (Bendinelli et al., 2016, Coto-Millán et al., 2014, Lee and Worthington, 2014)."
+  ]
+ },
+ "10.1016/j.jairtraman.2024.102708": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Citação em bloco com Bubalo e Gaggero, sobre comparação de tarifa e qualidade de serviço.",
+  "passages": [
+   "studies have been conducted to compare airfares, service quality, and cooperation among air carriers (Bubalo and Gaggero, 2015; Bendinelli et al., 2016)."
+  ]
+ },
+ "10.1016/j.jairtraman.2023.102493": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Restitui corretamente os DOIS achados: atraso cai com mais concorrência na rota, e cai também com menos concorrência no aeroporto. Poucos citantes captam essa dupla direção.",
+  "passages": [
+   "Bendinelli et al. (2016), for instance, investigated the incentives of an airline to increase on-time performance with the existence of market competition. They found delays to decrease with increasing competition on an origin destination market, but also concluded delays to decrease with decreasing competition at an airport."
+  ]
+ },
+ "10.1016/j.indmarman.2023.09.003": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "method_adoption"
+  ],
+  "flag": "good",
+  "note": "Usa o artigo para justificar a construção da variável MarketType do próprio modelo — a citação sustenta uma escolha de desenho empírico, não só o texto.",
+  "passages": [
+   "MarketType. LCCs typically focus on markets with a high proportion of leisure passengers because this segment of the market is more price-sensitive than business travelers (Bendinelli, Bettini, & Oliveira, 2016). To determine whether a given market is a leisure market, we used Gerardi and Shapiro (2009) list of leisure destinations in the US."
+  ]
+ },
+ "10.1016/j.jairtraman.2022.102352": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Posiciona o achado como o resultado nulo num debate de resultados divergentes (Prince & Simon versus Bubalo & Gaggero). Reporta com precisão, sem contestar.",
+  "passages": [
+   "while Prince and Simon [2015] uncover that LCC entry increases flight delays, Bubalo and Gaggero [2015] conclude just the opposite. Still Bendinelli et al., [2016] claim that there is little evidence to support either a moderating or accentuation effect of LCC entry on delays."
+  ]
+ },
+ "10.1016/j.tre.2022.103000": {
+  "role": "foundational",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Transportation Research Part E. A descrição mais precisa que qualquer citante fez do artigo: identifica que ele concilia duas vertentes da literatura num único modelo econométrico, testando efeito de internalização e efeito concorrência-qualidade.",
+  "passages": [
+   "Bendinelli et al. (2016) try to conciliate these two strands of the literature by presenting a single econometric model to test both the “congestion internalization effect” and the “competition-quality effect”. Specifically, they suggest that airlines’ internalization of congestion can be explained by their dominant position at the airport."
+  ]
+ },
+ "10.1016/j.jbusres.2022.03.043": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "method_adoption"
+  ],
+  "flag": "",
+  "note": "Mesma construção de variável de airline_013, com texto quase idêntico: mesmo grupo de pesquisa reaproveitando a própria seção de método.",
+  "passages": [
+   "As leisure travel demand is more price-sensitive, LCCs target markets with a high percentage of leisure passengers (Bendinelli, Bettini, & Oliveira, 2016). We identified leisure routes using Gerardi and Shapiro's (2009) list of the U.S. leisure destinations."
+  ]
  }
 }

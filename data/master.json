@@ -48,7 +48,8 @@
     "has_fulltext": false,
     "id": "airline_002",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
    },
    {
     "doi": "10.5281/zenodo.17506763",
