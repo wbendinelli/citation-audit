@@ -1,4 +1,18 @@
-raw/
-*.pdf
-.DS_Store
+# texto e PDF completos dos citantes: extraídos localmente, não
+# redistribuíveis — ver text/README.md e pdf/README.md
+text/*.txt
+text/_orfaos/
+pdf/*.pdf
+
+# planilha do Scimago: baixada manualmente, não redistribuível — ver
+# data/scimago/README.md
+data/scimago/*.csv
+
+# cache de rede dos scripts de colheita
+data/cache/
+
 __pycache__/
+*.pyc
+.venv*/
+.DS_Store
+.ruff_cache/
