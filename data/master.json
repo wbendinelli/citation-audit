@@ -719,14 +719,14 @@
     "openalex": "https://openalex.org/W3036489880",
     "has_fulltext": false,
     "id": "airline_028",
-    "status": "evidencia_insuficiente",
+    "status": "texto_parcial",
     "classificado": false,
     "text_path": "text/airline_028.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s40305-020-00306-9?error=cookies_not_supported&code=1ac6d001-a620-4bec-84a0-d5690acff05a",
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto: só 2.260 caracteres antes das referências"
    },
    {
     "doi": "10.1007/s13762-020-02710-3",
@@ -749,7 +749,7 @@
     "openalex": "https://openalex.org/W3011410023",
     "has_fulltext": false,
     "id": "airline_029",
-    "status": "evidencia_insuficiente",
+    "status": "tem_texto",
     "classificado": false,
     "text_path": "text/airline_029.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s13762-020-02710-3?error=cookies_not_supported&code=f735b538-92d8-4f45-a81d-19fd1dab60b2",
@@ -1988,11 +1988,12 @@
     "src": [
      "scholar"
     ],
-    "status": "fechado",
+    "status": "texto_parcial",
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "book-chapter",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "nota_integridade": "Page Unavailable no Springer"
    },
    {
     "id": "airline_s017",
@@ -2420,7 +2421,7 @@
     "openalex": "https://openalex.org/W4410439592",
     "has_fulltext": false,
     "id": "grains_011",
-    "status": "evidencia_insuficiente",
+    "status": "tem_texto",
     "classificado": false,
     "text_path": "text/grains_011.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s42690-025-01511-w?error=cookies_not_supported&code=abfaa708-fadf-4c3f-9334-70e5122b2808",
@@ -3266,7 +3267,7 @@
     "openalex": "https://openalex.org/W3137290043",
     "has_fulltext": false,
     "id": "grains_043",
-    "status": "evidencia_insuficiente",
+    "status": "tem_texto",
     "classificado": false,
     "text_path": "text/grains_043.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s10668-021-01314-2?error=cookies_not_supported&code=e1694804-6ec6-4f53-b98d-715c83e52654",
@@ -3451,14 +3452,14 @@
     "openalex": "https://openalex.org/W3200135532",
     "has_fulltext": false,
     "id": "grains_050",
-    "status": "evidencia_insuficiente",
+    "status": "texto_parcial",
     "classificado": false,
     "text_path": "text/grains_050.txt",
     "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-16-3791-9_8?error=cookies_not_supported&code=e7a26918-8153-4822-b4c4-7723651acaa9",
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto do capítulo, 12.503 caracteres"
    },
    {
     "doi": "10.35633/inmateh-62-14",
@@ -3596,7 +3597,7 @@
      "scholar"
     ],
     "id": "grains_056",
-    "status": "evidencia_insuficiente",
+    "status": "tem_texto",
     "classificado": false,
     "text_path": "text/grains_056.txt",
     "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-97-2795-7_12?error=cookies_not_supported&code=f40ab68e-d086-40b3-a2a8-b15a8f47c45a",
@@ -3813,7 +3814,7 @@
     "text_source": "html:https://link.springer.com/article/10.1007/s43621-026-04167-9?error=cookies_not_supported&code=aba559c6-61f1-48aa-a521-457e4cf0b80f",
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (8070 chars)"
+    "nota_integridade": "página de rosto, 5.736 caracteres"
    },
    {
     "id": "grains_s004",

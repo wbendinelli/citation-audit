@@ -1605,5 +1605,89 @@
    "source": "https://doi.org/10.1016/bs.hesagr.2022.03.001",
    "codebook": "METHOD.md@v1"
   }
+ },
+ "10.1007/s10668-021-01314-2": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Environment, Development and Sustainability. Atribui ao artigo o efeito das perdas sobre a renda do produtor e a segurança alimentar do consumidor, via preço dos substitutos.",
+  "passages": [
+   "Also, it tends to impact the income generation of producers and consumer food security, which often leads to higher prices for available substitutes (Bendinelli et al., 2019)."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "ce5f6fdba496d0a4",
+   "evidence_kind": "passagem literal",
+   "source": "springer via SSO USP · https://doi.org/10.1007/s10668-021-01314-2",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1007/s13762-020-02710-3": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "International Journal of Environmental Science and Technology. Atribui ao artigo o mecanismo de que atraso surge da interação entre operador aéreo e fatores externos, levando a congestionamento.",
+  "passages": [
+   "The causes for delays are numerous and interconnected, but it can be summarized that delays happen when air transport operators interact with external factors which then leads to congestion (Bendinelli et al. 2016)."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "fa6fe2c5f754300f",
+   "evidence_kind": "passagem literal",
+   "source": "springer via SSO USP · https://doi.org/10.1007/s13762-020-02710-3",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1007/978-3-030-71704-9_45": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Corpo do capítulo obtido e verificado via SSO (46.663 caracteres antes das referências, com seção de método e tabelas). Nenhuma menção no texto.",
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "springer via SSO USP · https://doi.org/10.1007/978-3-030-71704-9_45",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1007/s42690-025-01511-w": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Corpo obtido e verificado (26.541 caracteres antes das referências, com resultados de mortalidade de insetos). Nenhuma menção no texto.",
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "springer via SSO USP · https://doi.org/10.1007/s42690-025-01511-w",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1007/978-981-97-2795-7_12": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Corpo do capítulo obtido e verificado (56.804 caracteres antes das referências, com seções sobre dose de irradiação). Nenhuma menção no texto.",
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "springer via SSO USP · https://doi.org/10.1007/978-981-97-2795-7_12",
+   "codebook": "METHOD.md@v1"
+  }
  }
 }
