@@ -1,0 +1,10 @@
+# O pipeline (tools/audit_*.py) é stdlib pura de Python — nenhuma dependência
+# externa de Python — mais o pdftotext do poppler para os scripts que
+# extraem PDF (macOS: brew install poppler; Debian/Ubuntu: apt install
+# poppler-utils). Python >= 3.10.
+#
+# As duas pins abaixo servem só à fase 81 (audit_81_figures.py, reservada em
+# ROADMAP.md, ainda não escrita) — os gráficos do relatório precisam de
+# versão fixa para reproduzir byte a byte.
+matplotlib==3.11.1
+numpy==2.4.6

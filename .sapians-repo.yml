@@ -1,0 +1,9 @@
+# Declaração de tier do golden path SAPIANS.
+class: Research
+tier: C
+description: Auditoria da qualidade das citações recebidas por dois artigos — grafo multi-fonte, evidência por passagem literal, quartil Scimago oficial.
+
+# Tier C segue o precedente de sapians-research (Research/C — ver o
+# .sapians-repo.yml de lá): este repositório está no mesmo teto de
+# infraestrutura — CI + pre-commit + lock de dependências; sem releases;
+# nenhum pacote consumido por outro repositório da organização.

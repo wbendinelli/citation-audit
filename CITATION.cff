@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Se você usar este material, cite-o conforme abaixo."
+title: "citation-audit: auditoria da qualidade das citações recebidas por dois artigos"
+type: software
+authors:
+  - family-names: "Bendinelli"
+    given-names: "William Eduardo"
+    affiliation: "Universidade de São Paulo"
+date-released: "2026-09-04"
+url: "https://github.com/wbendinelli/citation-audit"
+repository-code: "https://github.com/wbendinelli/citation-audit"
+license: MIT
+keywords:
+  - citation analysis
+  - citation function
+  - bibliometrics
+  - reproducible research
+  - scientometrics
+abstract: >-
+  Audita a qualidade — não a contagem — das citações recebidas por dois
+  artigos do autor: "Airline delays, congestion internalization and
+  non-price spillover effects of low cost carrier entry" (DOI
+  10.1016/j.tra.2016.01.001, Transportation Research Part A) e "What are
+  the main factors that determine post-harvest losses of grains?" (DOI
+  10.1016/j.spc.2019.09.002, Sustainable Production and Consumption). O
+  grafo de citações une quatro fontes automáticas — OpenAlex, Semantic
+  Scholar, OpenCitations e Europe PMC — com as listas completas do Google
+  Scholar, deduplicadas por DOI e por título normalizado. A regra de
+  evidência é liberal com o alcance e rígida com a prova: nenhuma citação é
+  classificada sem a passagem literal do texto citante em mãos, e citação
+  sem evidência recuperada fica fora de toda contagem, não é presumida boa
+  nem ruim. Três portões de integridade automáticos impedem conclusão
+  falsa — o texto tem de ser do artigo certo, uma página de rosto de
+  publisher não vale como texto completo, e "só na bibliografia" exige
+  corpo comprovado antes de virar veredito de citação-fantasma. O tier de
+  cada periódico citante é o quartil oficial do Scimago Journal Rank
+  (edição 2025), casado por ISSN. A população do estudo é definida por
+  três critérios cumulativos — DOI depositado, editora estabelecida, artigo
+  de periódico — e todo número citado na prosa deste repositório é impresso
+  por um script versionado, nunca digitado à mão.

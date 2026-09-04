@@ -1,0 +1,17 @@
+* text=auto eol=lf
+
+*.pdf binary
+*.png binary
+
+# CSVs derivados (tools/audit_50_pending.py) e o relatório HTML
+# (tools/audit_80_report_html.py) são saída determinística de script, não
+# conteúdo escrito à mão — GitHub não deve computar linguagem nem diff
+# "humano" sobre eles.
+data/derived/** linguist-generated
+report/index.html linguist-generated
+
+# data/classify.json NÃO é marcado linguist-generated, de propósito: é
+# gerado por edição humana assistida (a passagem literal + o julgamento do
+# codificador), não por transformação determinística de outra fonte. Marcá-lo
+# esconderia o diff de coding em revisão de PR — que é exatamente o que
+# precisa ficar revisável.
