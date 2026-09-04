@@ -1,21 +1,30 @@
 {
- "10.1051/shsconf/202521601037": {
-  "role": "drive_by",
-  "stance": "none",
-  "reuse": [],
-  "flag": "duplicate",
-  "note": "Mesmo título e veículo da entrada 044, publicado em duplicata, com a frase parafraseada (“these victims occur due to…”). Indício de texto reciclado.",
-  "passages": [
-   "These victims occur due to influences such as inappropriate management, insufficient storage facilities, and incompetent logistics [2]."
+ "entries": {
+  "10.1051/shsconf/202521601037": {
+   "flag": "duplicate",
+   "motivo_orfa": "A deduplicação por título normalizado fundiu este DOI com 10.1051/shsconf/202521601068, que é o registro vivo. A classificação fica arquivada porque a evidência foi coletada de fato, mas não entra em nenhuma contagem para não contar a mesma obra duas vezes.",
+   "note": "Mesmo título e veículo da entrada 044, publicado em duplicata, com a frase parafraseada (“these victims occur due to…”). Indício de texto reciclado.",
+   "passages": [
+    "These victims occur due to influences such as inappropriate management, insufficient storage facilities, and incompetent logistics [2]."
+   ],
+   "prov": {
+    "codebook": "METHOD.md@v1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "evidence_kind": "passagem literal",
+    "evidence_sha256_16": "4c78462419959767",
+    "source": null
+   },
+   "reuse": [],
+   "role": "drive_by",
+   "stance": "none"
+  }
+ },
+ "meta": {
+  "codebook": "METHOD.md@v1",
+  "coders": [
+   "claude-opus-5"
   ],
-  "prov": {
-   "coded_at": "2026-09-04",
-   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
-   "evidence_sha256_16": "4c78462419959767",
-   "evidence_kind": "passagem literal",
-   "source": null,
-   "codebook": "METHOD.md@v1"
-  },
-  "motivo_orfa": "A deduplicação por título normalizado fundiu este DOI com 10.1051/shsconf/202521601068, que é o registro vivo. A classificação fica arquivada porque a evidência foi coletada de fato, mas não entra em nenhuma contagem para não contar a mesma obra duas vezes."
+  "schema": 2
  }
 }

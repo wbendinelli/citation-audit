@@ -14,7 +14,7 @@ import auditlib
 
 master = auditlib.load_master()
 CFG = auditlib.load_config()
-CL = auditlib.load_classify()          # chaveado por DOI
+CL = auditlib.classify_entries(auditlib.load_classify())          # chaveado por DOI
 
 ROLE={"bibliography_only":("só na bibliografia","ghost",0),"drive_by":("de passagem","dim",1),
       "brief_mention":("menção breve","dim",2),"real_mention":("menção real","accent",3),
@@ -163,7 +163,7 @@ REVISTAS="".join(
   for k in ("airline","grains"))
 
 # ---------------- quartil Scimago ----------------
-JR=auditlib.load_journals()
+JR=auditlib.journal_sources(auditlib.load_journals())
 QORD=["Q1","Q2","Q3","Q4","fora do Scimago","sem métrica"]
 def quart(r):
     m=JR.get(r.get("source_id") or "")

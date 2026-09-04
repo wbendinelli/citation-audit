@@ -44,13 +44,10 @@ def load_master():
     sempre devolve a forma v2 em memória. A migração definitiva do arquivo
     em disco é feita uma única vez por `tools/_migrar_v2.py`; este loader
     só evita que cada script precise saber qual dos dois formatos está
-    gravado.
+    gravado. `load_classify`/`load_journals` seguem o mesmo padrão, com
+    "entries"/"sources" no lugar de "papers".
     """
-    with open(DATA / "master.json", encoding="utf-8") as f:
-        raw = json.load(f)
-    if isinstance(raw, dict) and "meta" in raw and "papers" in raw:
-        return raw
-    return {"meta": {"schema": 1}, "papers": raw}
+    return _load_versioned("master.json", "papers")
 
 
 def save_master(master):
@@ -58,10 +55,7 @@ def save_master(master):
     schema 1 continua plano no disco, schema >= 2 grava com o envelope
     `meta`. Só `tools/_migrar_v2.py` deve elevar `meta.schema` para 2.
     """
-    meta = master.get("meta") or {"schema": 1}
-    obj = {"meta": meta, "papers": master["papers"]} if meta.get("schema", 1) >= 2 \
-        else master["papers"]
-    _dump(obj, DATA / "master.json")
+    _save_versioned("master.json", master, "papers")
 
 
 def iter_records(master):
@@ -75,23 +69,52 @@ def iter_records(master):
 # ---------------- data/classify.json ----------------
 
 def load_classify():
-    with open(DATA / "classify.json", encoding="utf-8") as f:
-        return json.load(f)
+    return _load_versioned("classify.json", "entries")
 
 
 def save_classify(classify):
-    _dump(classify, DATA / "classify.json")
+    _save_versioned("classify.json", classify, "entries")
+
+
+def classify_entries(classify):
+    """`classify["entries"]` — o dict `doi minúsculo -> classificação`."""
+    return classify["entries"]
 
 
 # ---------------- data/journals.json ----------------
 
 def load_journals():
-    with open(DATA / "journals.json", encoding="utf-8") as f:
-        return json.load(f)
+    return _load_versioned("journals.json", "sources")
 
 
 def save_journals(journals):
-    _dump(journals, DATA / "journals.json")
+    _save_versioned("journals.json", journals, "sources")
+
+
+def journal_sources(journals):
+    """`journals["sources"]` — o dict `source_id (OpenAlex) -> periódico`."""
+    return journals["sources"]
+
+
+# ---------------- v1/v2 genérico ----------------
+
+def _load_versioned(filename, key):
+    """Carrega `data/<filename>`. Aceita o v1 plano (o próprio dict de
+    dados, sem envelope) e o v2 (`{"meta": {...}, <key>: {...}}`); sempre
+    devolve a forma v2 em memória — ver `load_master` para o porquê."""
+    with open(DATA / filename, encoding="utf-8") as f:
+        raw = json.load(f)
+    if isinstance(raw, dict) and "meta" in raw and key in raw:
+        return raw
+    return {"meta": {"schema": 1}, key: raw}
+
+
+def _save_versioned(filename, obj, key):
+    """Grava `data/<filename>` preservando o esquema com que foi
+    carregado — ver `save_master`."""
+    meta = obj.get("meta") or {"schema": 1}
+    out = {"meta": meta, key: obj[key]} if meta.get("schema", 1) >= 2 else obj[key]
+    _dump(out, DATA / filename)
 
 
 # ---------------- rede ----------------

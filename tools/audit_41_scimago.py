@@ -44,9 +44,9 @@ def tier_e_base(tier_proxy, scimago):
     return tier_proxy, "proxy OpenAlex (sem correspondência no Scimago)"
 
 
-def checar(journals):
+def checar(sources):
     erros = []
-    for sid, m in journals.items():
+    for sid, m in sources.items():
         tp = tier_proxy_de(m.get("citedness_2a"))
         tier, base = tier_e_base(tp, m.get("scimago"))
         if m.get("tier_proxy") != tp:
@@ -103,14 +103,15 @@ def scimago_de(row):
 
 CHECK = "--check" in sys.argv[1:]
 journals = auditlib.load_journals()
+sources = auditlib.journal_sources(journals)
 
 if CHECK:
-    erros = checar(journals)
+    erros = checar(sources)
     if erros:
         print(f"VIOLAÇÕES DA REGRA DE TIER: {len(erros)}")
         for e in erros: print(f"  {e}")
         sys.exit(1)
-    print(f"ok: {len(journals)} periódicos satisfazem a regra de tier (--check, sem rede/CSV)")
+    print(f"ok: {len(sources)} periódicos satisfazem a regra de tier (--check, sem rede/CSV)")
 else:
     if not SCIMAGO_CSV.exists():
         raise SystemExit(f"CSV do Scimago não encontrado em {SCIMAGO_CSV}")
@@ -119,7 +120,7 @@ else:
     print(f"{linhas} periódicos no Scimago, {len(idx)} ISSNs indexados")
 
     casou = 0
-    for sid, m in journals.items():
+    for sid, m in sources.items():
         issns = norm_issn(m.get("issn_l") or "") | norm_issn(" ".join(m.get("issn") or []))
         row = next((idx[i] for i in issns if i in idx), None)
         sc = scimago_de(row)
@@ -129,12 +130,12 @@ else:
         m["scimago"], m["tier_proxy"], m["tier"], m["tier_base"] = sc, tp, tier, base
 
     auditlib.save_journals(journals)
-    print(f"\ncasaram {casou}/{len(journals)} periódicos com o Scimago")
-    q = collections.Counter(m["scimago"]["quartil"] for m in journals.values() if m.get("scimago"))
+    print(f"\ncasaram {casou}/{len(sources)} periódicos com o Scimago")
+    q = collections.Counter(m["scimago"]["quartil"] for m in sources.values() if m.get("scimago"))
     print("quartis:", dict(sorted(q.items(), key=lambda x: str(x[0]))))
-    falt = sorted(m["nome"] for m in journals.values() if not m.get("scimago"))
+    falt = sorted(m["nome"] for m in sources.values() if not m.get("scimago"))
     print(f"\nsem correspondência ({len(falt)}) — conferir se são repositório ou periódico novo:")
     for n in falt[:20]: print(f"   {n}")
 
-    erros = checar(journals)
+    erros = checar(sources)
     assert not erros, f"regra de tier inconsistente logo após gravar: {erros}"

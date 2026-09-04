@@ -62,7 +62,13 @@ with ThreadPoolExecutor(max_workers=6) as ex:
     for f in as_completed([ex.submit(meta, i) for i in ids]):
         sid, m = f.result()
         if m: JR[sid] = m
-auditlib.save_journals(JR)
+
+try:
+    journals = auditlib.load_journals()
+except FileNotFoundError:
+    journals = {"meta": {"schema": 1}, "sources": {}}
+journals["sources"] = JR
+auditlib.save_journals(journals)
 auditlib.save_master(master)
 print(f"-> data/journals.json com {len(JR)} periódicos")
 com = [m for m in JR.values() if m.get("citedness_2a") is not None]

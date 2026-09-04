@@ -23,7 +23,7 @@ def eh_pagina_de_rosto(t):
     return prosa < 4000 and marcadores >= 8
 
 master = auditlib.load_master()
-classify = auditlib.load_classify()
+classify = auditlib.classify_entries(auditlib.load_classify())
 
 rebaixados, confirmados = [], []
 for key, r in auditlib.iter_records(master):

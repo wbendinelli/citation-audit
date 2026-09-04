@@ -45,8 +45,8 @@ for key, fname in (("airline","airline.txt"), ("grains","grains.txt")):
         master["papers"][key]["citing"].append({
             "id": f"{key}_s{i:03d}", "doi": None, "title": s["title"], "year": s["year"],
             "venue": None, "oa_status": None, "is_oa": None,
-            "src": ["scholar"], "status": "so_scholar", "classificado": False,
-            "nota": "título truncado pelo Scholar; sem DOI conhecido",
+            "src": ["scholar"], "status": "so_scholar",
+            "nota_integridade": "título truncado pelo Scholar; sem DOI conhecido",
         })
     report[key] = {"scholar": len(scholar), "junk": junk, "casados": matched,
                    "novos": len(novos), "antes": base, "depois": len(master["papers"][key]["citing"])}

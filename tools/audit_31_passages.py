@@ -64,7 +64,7 @@ for key, r in auditlib.iter_records(master):
     else: r["citation_status_auto"]="not_found"; stats["nao_achou"]+=1
 
 auditlib.save_master(master)
-CL = auditlib.load_classify()
+CL = auditlib.classify_entries(auditlib.load_classify())
 novos=[r for k,r in auditlib.iter_records(master)
        if r.get("passages_auto") and not CL.get((r.get("doi") or "").lower())]
 print(f"com texto ............ {stats['com_texto']}")

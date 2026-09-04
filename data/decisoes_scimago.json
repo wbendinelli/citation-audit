@@ -1,0 +1,198 @@
+{
+ "airline_003": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_008": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_009": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_010": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_011": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_040": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "airline_044": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "airline_045": {
+  "razao": "anais de conferência",
+  "veredito": "correto"
+ },
+ "airline_048": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "airline_059": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "airline_063": {
+  "razao": "anais de conferência",
+  "veredito": "correto"
+ },
+ "airline_064": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_065": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "airline_066": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "airline_067": {
+  "razao": "tese ou dissertação",
+  "veredito": "correto"
+ },
+ "airline_069": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_s001": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "airline_s008": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "airline_s012": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "airline_s013": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_s014": {
+  "razao": "tese ou dissertação",
+  "veredito": "correto"
+ },
+ "airline_s016": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "airline_s017": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "airline_s021": {
+  "razao": "DOI de projeto (CORDIS), não é publicação",
+  "veredito": "correto"
+ },
+ "grains_004": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_005": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_010": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_016": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_019": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_026": {
+  "razao": "anais de conferência",
+  "veredito": "correto"
+ },
+ "grains_032": {
+  "razao": "repositório de preprint",
+  "veredito": "correto"
+ },
+ "grains_042": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_044": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_045": {
+  "razao": "anais de conferência",
+  "veredito": "correto"
+ },
+ "grains_046": {
+  "razao": "anais de conferência",
+  "veredito": "correto"
+ },
+ "grains_047": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_049": {
+  "razao": "anais de conferência",
+  "veredito": "correto"
+ },
+ "grains_055": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "grains_056": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "grains_058": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_059": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "grains_060": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "grains_061": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_062": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_s007": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "grains_s015": {
+  "razao": "periódico de verdade, fora do Scopus ou recente",
+  "veredito": "periodico"
+ },
+ "grains_s016": {
+  "razao": "tese ou dissertação",
+  "veredito": "correto"
+ },
+ "grains_s018": {
+  "razao": "capítulo ou livro",
+  "veredito": "correto"
+ },
+ "grains_s019": {
+  "razao": "tese ou dissertação",
+  "veredito": "correto"
+ }
+}
