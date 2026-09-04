@@ -1,0 +1,1142 @@
+{
+ "IRR-0029": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.3390/agriculture11111147",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_038"
+ },
+ "IRR-0252": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s00217-026-05237-y",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_001"
+ },
+ "IRR-0439": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2019.03.001",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_034"
+ },
+ "IRR-04bf": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.3390/ijerph19158921",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_017"
+ },
+ "IRR-05b4": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jtrangeo.2021.103260",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_054"
+ },
+ "IRR-0776": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s00217-026-05237-y",
+  "duplicate_of": "IRR-0252",
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_001"
+ },
+ "IRR-0e5b": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.35633/inmateh-62-14",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_051"
+ },
+ "IRR-0ea4": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.3390/app122010433",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_053"
+ },
+ "IRR-1016": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tranpol.2020.04.013",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_026"
+ },
+ "IRR-11ba": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.3389/fsufs.2025.1560865",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_009"
+ },
+ "IRR-135c": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tranpol.2018.07.006",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_058"
+ },
+ "IRR-1531": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tre.2016.12.012",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_043"
+ },
+ "IRR-1b0c": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1080/10696679.2021.2008802",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_022"
+ },
+ "IRR-1b78": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tra.2018.06.008",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_055"
+ },
+ "IRR-1c51": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1007/978-3-030-71704-9_45",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_066"
+ },
+ "IRR-1c64": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1080/19315260.2024.2392551",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_018"
+ },
+ "IRR-1d19": {
+  "batch": 4,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.jairtraman.2022.102352",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_015"
+ },
+ "IRR-1eca": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.47278/journal.ijab/2025.105",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_s009"
+ },
+ "IRR-2200": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s41348-026-01320-4",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_002"
+ },
+ "IRR-27d7": {
+  "batch": 2,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.jairtraman.2022.102352",
+  "duplicate_of": "IRR-1d19",
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_015"
+ },
+ "IRR-29fd": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1007/978-981-97-2795-7_12",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_056"
+ },
+ "IRR-2ad1": {
+  "batch": 2,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.ecotra.2022.100252",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_019"
+ },
+ "IRR-2bd5": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.3390/agriculture11090877",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_039"
+ },
+ "IRR-2c1b": {
+  "batch": 3,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.tra.2018.10.005",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_037"
+ },
+ "IRR-3173": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2023.102493",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_012"
+ },
+ "IRR-321e": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jtrangeo.2021.103260",
+  "duplicate_of": "IRR-05b4",
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_054"
+ },
+ "IRR-327a": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.5937/npdunp1802119r",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_048"
+ },
+ "IRR-357b": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1038/s41598-023-30703-y",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_014"
+ },
+ "IRR-35ae": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1002/bse.3191",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_054"
+ },
+ "IRR-3847": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.igd.2023.100108",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_052"
+ },
+ "IRR-3978": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s42690-025-01511-w",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_011"
+ },
+ "IRR-3b60": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s40305-020-00306-9",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_028"
+ },
+ "IRR-3c3a": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tre.2022.103000",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_016"
+ },
+ "IRR-4cc0": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.spc.2021.08.004",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_040"
+ },
+ "IRR-4ed0": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.3390/su142013352",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_031"
+ },
+ "IRR-4f3b": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s10668-021-01314-2",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_043"
+ },
+ "IRR-4fd3": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1007/978-3-030-71704-9_45",
+  "duplicate_of": "IRR-1c51",
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_066"
+ },
+ "IRR-54a4": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.64026/jssf/2026006",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_005"
+ },
+ "IRR-55c3": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.58694/20.500.12479/2737",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_s016"
+ },
+ "IRR-5c00": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.5028/jatm.v11.977",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_038"
+ },
+ "IRR-648f": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1080/03081060.2020.1701706",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_030"
+ },
+ "IRR-692a": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2021.102044",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_061"
+ },
+ "IRR-6a4c": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.58567/rea03040001",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_016"
+ },
+ "IRR-6be4": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.trc.2020.102686",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_027"
+ },
+ "IRR-6caf": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s42853-022-00130-4",
+  "duplicate_of": "IRR-cb12",
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_037"
+ },
+ "IRR-6cdf": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.susoc.2023.04.003",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_028"
+ },
+ "IRR-6d84": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.5281/zenodo.17506763",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_003"
+ },
+ "IRR-6fce": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1038/s43247-023-01062-3",
+  "duplicate_of": "IRR-8576",
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_024"
+ },
+ "IRR-70aa": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.3390/agriculture12040465",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_035"
+ },
+ "IRR-73e0": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jspr.2024.102288",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_021"
+ },
+ "IRR-73f8": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.foodchem.2024.142637",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_017"
+ },
+ "IRR-74f7": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1108/s2212-160920170000006014",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_059"
+ },
+ "IRR-7860": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2021.102064",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_024"
+ },
+ "IRR-786d": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.clfs.2026.100028",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_004"
+ },
+ "IRR-7fe7": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jspr.2025.102547",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_012"
+ },
+ "IRR-7fe9": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.4236/as.2022.139061",
+  "duplicate_of": null,
+  "n_scrubbed": 1,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_047"
+ },
+ "IRR-81e6": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.51470/plantarchives.2024.v24.sp-gabels.029",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_019"
+ },
+ "IRR-8576": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1038/s43247-023-01062-3",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_024"
+ },
+ "IRR-870d": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2019.101690",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_031"
+ },
+ "IRR-872a": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.biocontrol.2021.104568",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_041"
+ },
+ "IRR-87ab": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1007/978-3-031-06562-0_11",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_060"
+ },
+ "IRR-8c05": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s12571-022-01259-y",
+  "duplicate_of": "IRR-cc96",
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_036"
+ },
+ "IRR-8c18": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.ecotra.2019.02.002",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_033"
+ },
+ "IRR-8cba": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jtrangeo.2020.102749",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_050"
+ },
+ "IRR-8dc2": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jbusres.2022.03.043",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_018"
+ },
+ "IRR-90d1": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2017.09.008",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_042"
+ },
+ "IRR-9a22": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.5281/zenodo.10671654",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_008"
+ },
+ "IRR-a050": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.26898/0370-8799-2020-4-11",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_044"
+ },
+ "IRR-a164": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1590/s0102-0536-20220313",
+  "duplicate_of": null,
+  "n_scrubbed": 1,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_033"
+ },
+ "IRR-a1e3": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.4314/tjs.v49i3.16",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_s015"
+ },
+ "IRR-a299": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/bs.hesagr.2022.03.001",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_055"
+ },
+ "IRR-a5c7": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jatrs.2026.100103",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_002"
+ },
+ "IRR-a77b": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s13762-020-02710-3",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_029"
+ },
+ "IRR-a975": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.11606/d.12.2021.tde-19012022-204119",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_067"
+ },
+ "IRR-aa83": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.ijindorg.2021.102742",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_052"
+ },
+ "IRR-acf0": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.47836/ifrj.32.2.05",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_015"
+ },
+ "IRR-ae39": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.rtbm.2025.101458",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_004"
+ },
+ "IRR-af13": {
+  "batch": 1,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.jspr.2022.101941",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_057"
+ },
+ "IRR-b03f": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.47278/journal.ijab/2025.070",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_s002"
+ },
+ "IRR-b097": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.18805/ag.d-6397",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_008"
+ },
+ "IRR-b1f0": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.indmarman.2023.09.003",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_013"
+ },
+ "IRR-b9db": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tranpol.2017.12.021",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_056"
+ },
+ "IRR-be8d": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jatrs.2024.100013",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_007"
+ },
+ "IRR-bf00": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tra.2019.01.006",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_036"
+ },
+ "IRR-bf09": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2022.102207",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_020"
+ },
+ "IRR-c162": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tre.2016.12.010",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_051"
+ },
+ "IRR-c3c8": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tranpol.2021.10.015",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_023"
+ },
+ "IRR-c479": {
+  "batch": 1,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.jairtraman.2019.05.001",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_032"
+ },
+ "IRR-c5fa": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.trip.2020.100189",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_025"
+ },
+ "IRR-c6eb": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1080/23311932.2023.2247178",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_025"
+ },
+ "IRR-cb12": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s42853-022-00130-4",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_037"
+ },
+ "IRR-cc5f": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.14295/transportes.v26i2.1379",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_040"
+ },
+ "IRR-cc69": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.55463/hkjss.issn.1021-3619.62.33",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_068"
+ },
+ "IRR-cc96": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1007/s12571-022-01259-y",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_036"
+ },
+ "IRR-cd2a": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.46632/rmc/2/4/29",
+  "duplicate_of": "IRR-d073",
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_061"
+ },
+ "IRR-cda7": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.compag.2022.106936",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_034"
+ },
+ "IRR-d073": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.46632/rmc/2/4/29",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_061"
+ },
+ "IRR-d1c4": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1111/jbfa.12351",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_057"
+ },
+ "IRR-d82e": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.1080/15325008.2024.2316257",
+  "duplicate_of": "IRR-ed51",
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_022"
+ },
+ "IRR-dd24": {
+  "batch": 3,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.tranpol.2018.12.012",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_035"
+ },
+ "IRR-e06d": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.5281/zenodo.10671650",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_010"
+ },
+ "IRR-e113": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1080/09718524.2023.2273153",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_023"
+ },
+ "IRR-e1b7": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1007/978-3-030-98067-2_172-1",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_059"
+ },
+ "IRR-e65d": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.compag.2021.106405",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_053"
+ },
+ "IRR-ea18": {
+  "batch": 2,
+  "codebook_exemplar": true,
+  "doi": "10.1016/j.tre.2020.102186",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_046"
+ },
+ "IRR-ed51": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1080/15325008.2024.2316257",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "auto",
+  "record_id": "grains_022"
+ },
+ "IRR-ed73": {
+  "batch": 2,
+  "codebook_exemplar": false,
+  "doi": "10.33119/sip.2025.201.2",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "auto",
+  "record_id": "airline_s012"
+ },
+ "IRR-edd4": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.trb.2026.103567",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_001"
+ },
+ "IRR-eef4": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jspr.2025.102611",
+  "duplicate_of": null,
+  "n_scrubbed": 1,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_013"
+ },
+ "IRR-efbf": {
+  "batch": 4,
+  "codebook_exemplar": false,
+  "doi": "10.1051/shsconf/202521601068",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_046"
+ },
+ "IRR-f02e": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.14295/transportes.v29i1.2236",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_065"
+ },
+ "IRR-f08a": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.tra.2018.10.012",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_039"
+ },
+ "IRR-f95a": {
+  "batch": 1,
+  "codebook_exemplar": false,
+  "doi": "10.26898/0370-8799-2020-4-11",
+  "duplicate_of": "IRR-a050",
+  "n_scrubbed": 0,
+  "paper": "grains",
+  "passage_source": "curated",
+  "record_id": "grains_044"
+ },
+ "IRR-fee5": {
+  "batch": 3,
+  "codebook_exemplar": false,
+  "doi": "10.1016/j.jairtraman.2024.102708",
+  "duplicate_of": null,
+  "n_scrubbed": 0,
+  "paper": "airline",
+  "passage_source": "curated",
+  "record_id": "airline_005"
+ }
+}

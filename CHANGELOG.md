@@ -50,6 +50,17 @@ citado aqui ficaria órfão no dia seguinte.
   do codebook das estatísticas primárias, e inferência com poder de
   predição (PPI/PPI++). Resultados ainda pendentes — preenchidos por
   `audit_62_irr_stats.py` quando a coleta terminar.
+- **Pacote cego gravado em `data/irr/`.** `audit_61_irr_pack.py` gera
+  `pack_blind.json` (114 itens — 104 vivos + 10 duplicados — em 4 lotes,
+  sem DOI/veículo/ano/rótulo), `pack_key.json` (a chave, nunca exposta a um
+  codificador), `instructions.md` (o codebook v2 completo mais os casos de
+  fronteira literais de §6) e `irr_c1_from_v2.json` (rótulos do codificador
+  1, projetados do `classify.json` já migrado). `--audit` confirma 0
+  vazamentos de identidade. `audit_62_irr_stats.py --selftest` passa
+  16/16 (Krippendorff 2011, κ de Cohen de livro-texto, identidades de
+  PABAK/AC1/PPI, e ponta a ponta c1 vs. c1). Rótulos do codificador 2
+  (Opus) e do codificador 3 (Sonnet) ainda não chegaram — `data/irr/README.md`
+  documenta os arquivos e o que falta.
 
 ## 2026-09-04 — reorganização SAPIANS
 

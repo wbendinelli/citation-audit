@@ -1,0 +1,1280 @@
+{
+ "IRR-0029": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-0252": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-0439": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-04bf": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-05b4": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-0776": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-0e5b": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-0ea4": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-1016": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-11ba": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-135c": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1531": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1b0c": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1b78": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "work_extended"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-1c51": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-1c64": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1d19": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1eca": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-2200": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-27d7": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-29fd": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-2ad1": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-2bd5": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-2c1b": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "contradictory"
+ },
+ "IRR-3173": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-321e": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-327a": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-357b": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-35ae": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-3847": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-3978": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-3b60": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-3c3a": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-4cc0": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-4ed0": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-4f3b": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-4fd3": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-54a4": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-55c3": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-5c00": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-648f": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-692a": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-6a4c": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6be4": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6caf": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6cdf": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-6d84": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6fce": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-70aa": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-73e0": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-73f8": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-74f7": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-7860": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-786d": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-7fe7": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-7fe9": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-81e6": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-8576": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-870d": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-872a": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-87ab": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-8c05": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "contradictory"
+ },
+ "IRR-8c18": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-8cba": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-8dc2": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-90d1": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "result_validated"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-9a22": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "work_extended"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-a050": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-a164": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-a1e3": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-a299": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-a5c7": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-a77b": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-a975": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-aa83": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-acf0": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-ae39": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-af13": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-b03f": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-b097": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-b1f0": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-b9db": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-be8d": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-bf00": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-bf09": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-c162": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-c3c8": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-c479": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-c5fa": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-c6eb": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-cb12": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-cc5f": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-cc69": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-cc96": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "contradictory"
+ },
+ "IRR-cd2a": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-cda7": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-d073": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-d1c4": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-d82e": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-dd24": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-e06d": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-e113": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-e1b7": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-e65d": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-ea18": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-ed51": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-ed73": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-edd4": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-eef4": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-efbf": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-f02e": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-f08a": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-f95a": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": null,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": null,
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-fee5": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": null,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": null,
+  "reuse": [],
+  "stance": "supporting"
+ }
+}
