@@ -242,10 +242,15 @@ Dos 98 artigos de periódico com quartil Scimago:
 | Quartil | Total | Com trecho literal | Fantasma verificado | Falta | % com trecho |
 |---|---|---|---|---|---|
 | Q1 | 69 | 58 | 5 | 6 | 84% |
-| Q2 | 16 | 9 | 0 | 6 | 56% |
+| Q2 | 16 | 9 | 0 | 5 (+1 aresta falsa) | 56% |
 | Q3 | 8 | 5 | 1 | 2 | 62% |
 | Q4 | 5 | 1 | 0 | 4 | 20% |
-| **Total** | **98** | **73** | **6** | **19** | **74%** |
+| **Total** | **98** | **73** | **6** | **18 (+1)** | **74%** |
+
+A conta fecha como 73 trecho + 6 fantasma + 1 aresta falsa + 18 pendentes = 98. A
+aresta falsa (`grains_s001`, *Journal of Horticultural Science and Biotechnology*) não
+é pendência: o PDF foi obtido e verificado, e o artigo não cita o trabalho em lugar
+nenhum. Contá-la como "falta evidência" seria erro — a evidência existe e é negativa.
 
 Somando trecho literal e fantasma verificado — os dois são evidência, apenas de tipos
 diferentes — a cobertura é de **79 em 98, 81%**. Por artigo: aviação 42 de 50 com
@@ -258,6 +263,9 @@ análise — a evidência é mais densa onde o impacto importa mais — mas prec
 declarado, porque significa que as estatísticas de Q4 se apoiam em 1 observação e não
 sustentam comparação entre quartis.
 
-Os 19 que faltam concentram-se em Emerald (4), Wiley (4), Inderscience (3), Springer
-(2) e um em cada de Taylor & Francis, De Gruyter, Hindawi e outros — todos bloqueados
-por assinatura ausente ou verificação anti-bot, não por falha de método.
+Os 18 que faltam: 11 vêm da lista de editoras grandes que o autor tentou baixar sem
+sucesso (Emerald 4, Wiley 4, Hindawi 2, Springer 1), e 7 entraram por terem quartil
+sem serem de editora grande (Inderscience 3, e um cada de ASABE, Springer, o
+brasileiro *Journal of Aerospace Technology and Management* e o tcheco *Agricultural
+Economics*). Bloqueio de acesso, não falha de método — com a exceção dos dois últimos,
+que são de acesso relativamente aberto e merecem nova tentativa.
