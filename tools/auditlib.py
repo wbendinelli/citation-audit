@@ -96,6 +96,22 @@ def journal_sources(journals):
     return journals["sources"]
 
 
+def quartil_scimago(rec, sources):
+    """Quartil oficial do Scimago do periódico de `rec` (via `source_id`),
+    ou None se não há quartil real (Q1..Q4) atribuído — seja por o
+    periódico não casar com o Scimago, seja por casar com quartil em
+    branco ("-"). Usado por audit_50_pending e check_data para que as
+    duas nunca possam divergir sobre o que conta como "sem quartil"."""
+    m = sources.get(rec.get("source_id") or "")
+    if not m:
+        return None
+    sc = m.get("scimago")
+    if not sc:
+        return None
+    q = sc.get("quartil")
+    return q if q in ("Q1", "Q2", "Q3", "Q4") else None
+
+
 # ---------------- v1/v2 genérico ----------------
 
 def _load_versioned(filename, key):

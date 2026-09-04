@@ -39,6 +39,7 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | `audit_32_gate_bibonly.py` | 30 | `data/master.json`, `config.json`, `data/classify.json`, `text/*.txt` | `data/master.json` | não |
 | `audit_40_journals.py` | 40 | `data/master.json`, `config.json`; OpenAlex | `data/master.json`, `data/journals.json` | não |
 | `audit_41_scimago.py` | 40 | `data/journals.json`, `data/scimago/scimagojr_2025.csv` | `data/journals.json` | sim |
+| `audit_50_pending.py` | 50 | `data/master.json`, `data/classify.json`, `data/journals.json`, `data/decisoes_scimago.json`, `config.json` | `data/derived/pendencias.csv`, `data/derived/sem_quartil.csv` | sim |
 | `audit_80_report_html.py` | 80 | `data/master.json`, `data/classify.json`, `data/journals.json`, `config.json`, `data/scholar/*.txt` | `report/index.html` | sim |
 
 `--check` nunca escreve: renderiza/computa em memória e compara com o que já
@@ -68,6 +69,7 @@ python3 tools/audit_30_validate_texts.py
 python3 tools/audit_31_passages.py
 python3 tools/audit_32_gate_bibonly.py
 python3 tools/audit_41_scimago.py
+python3 tools/audit_50_pending.py
 python3 tools/audit_80_report_html.py
 ```
 
