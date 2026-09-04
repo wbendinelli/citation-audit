@@ -47,7 +47,7 @@
     ],
     "has_fulltext": false,
     "id": "airline_002",
-    "status": "oa_bloqueado",
+    "status": "tem_texto",
     "classificado": false,
     "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
    },
@@ -172,7 +172,7 @@
     ],
     "has_fulltext": false,
     "id": "airline_007",
-    "status": "oa_bloqueado",
+    "status": "tem_texto",
     "classificado": false
    },
    {
@@ -1280,7 +1280,7 @@
      "scholar"
     ],
     "id": "airline_050",
-    "status": "texto_parcial",
+    "status": "tem_texto",
     "classificado": false,
     "text_path": "text/airline_050.txt",
     "text_source": "rodada-1 (re-arquivado por DOI)",
@@ -1305,7 +1305,7 @@
      "scholar"
     ],
     "id": "airline_051",
-    "status": "fechado",
+    "status": "tem_texto",
     "classificado": false,
     "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
    },
@@ -2878,7 +2878,7 @@
     "openalex": "https://openalex.org/W4366777152",
     "has_fulltext": false,
     "id": "grains_028",
-    "status": "oa_bloqueado",
+    "status": "tem_texto",
     "classificado": false,
     "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
    },

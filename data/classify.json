@@ -1689,5 +1689,87 @@
    "source": "springer via SSO USP · https://doi.org/10.1007/978-981-97-2795-7_12",
    "codebook": "METHOD.md@v1"
   }
+ },
+ "10.1016/j.jatrs.2026.100103": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Journal of the Air Transport Research Society (2026). Corpo obtido pelo SSO e verificado: 54.229 caracteres de corpo antes das referências, com estimação de modelo espacial (SDM). Nenhuma menção no texto.",
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.jatrs.2026.100103",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1016/j.jtrangeo.2020.102749": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Journal of Transport Geography (2020). Corpo obtido pelo SSO e verificado: 36.028 caracteres de corpo, com discussão sobre aeronave narrow-body e hub-bypassing. Nenhuma menção no texto.",
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.jtrangeo.2020.102749",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1016/j.tre.2016.12.010": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Transportation Research Part E (2016). Corpo obtido pelo SSO e verificado: 76.968 caracteres de corpo, com especificação econométrica e variáveis de booking. Nenhuma menção no texto.",
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.tre.2016.12.010",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1016/j.susoc.2023.04.003": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Sustainable Operations and Computers (2023). Corpo obtido pelo SSO e verificado: 60.383 caracteres de corpo, com os fatores F3, F4 e F6 do próprio modelo. Nenhuma menção no texto.",
+  "passages": [],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": null,
+   "evidence_kind": "corpo completo sem menção no texto",
+   "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.susoc.2023.04.003",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1016/j.jatrs.2024.100013": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Airline competition: A comprehensive review of recent research (JATRS 2024). O artigo entra na tabela-resumo da revisão abrangente da área, caracterizado corretamente: estudo analítico, 209 rotas no Brasil, 2002–2013, efeitos da entrada de LCC. Estar na tabela de síntese do campo é colocação de referência, não menção de passagem.",
+  "passages": [
+   "Bendinelli et al. (2016) | Ana | 209 routes in Brazil | 2002–2013 | Effects of LCC entry"
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "fb4cd266088f6db8",
+   "evidence_kind": "passagem literal (linha de tabela de revisão)",
+   "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.jatrs.2024.100013",
+   "codebook": "METHOD.md@v1"
+  }
  }
 }
