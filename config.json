@@ -1,10 +1,38 @@
 {
   "papers": {
     "airline": {"doi": "10.1016/j.tra.2016.01.001", "year": 2016,
-                "label": "Airline delays / LCC entry (Transportation Research A)"},
+                "label": "Airline delays / LCC entry (Transportation Research A)",
+                "title": "Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry",
+                "venue": "Transportation Research Part A: Policy and Practice"},
     "grains":  {"doi": "10.1016/j.spc.2019.09.002", "year": 2019,
-                "label": "Post-harvest losses of grains (Sustainable Prod. & Consumption)"}
+                "label": "Post-harvest losses of grains (Sustainable Prod. & Consumption)",
+                "title": "What are the main factors that determine post-harvest losses of grains?",
+                "venue": "Sustainable Production and Consumption"}
   },
   "author_surname": "Bendinelli",
-  "contact_email": "wbendinelli@gmail.com"
+  "mailto": "wbendinelli@gmail.com",
+  "editoras_estabelecidas": {
+    "10.1016": "Elsevier",
+    "10.1007": "Springer",
+    "10.1002": "Wiley",
+    "10.1111": "Wiley",
+    "10.1155": "Hindawi (Wiley)",
+    "10.1080": "Taylor & Francis",
+    "10.1108": "Emerald",
+    "10.3390": "MDPI",
+    "10.1177": "SAGE",
+    "10.1017": "Cambridge",
+    "10.1093": "Oxford UP",
+    "10.1515": "De Gruyter",
+    "10.1038": "Nature Portfolio",
+    "10.1371": "PLOS",
+    "10.1186": "BMC",
+    "10.1057": "Palgrave"
+  },
+  "scimago": {
+    "edition": "2025",
+    "url": "https://www.scimagojr.com/journalrank.php?out=xls",
+    "sha256": "6f20399957173a13e3c1729a5fb3b5821844ba75e8d640c8b3040ab19a6f7180",
+    "bytes": 11253130
+  }
 }

@@ -1,11 +1,14 @@
-"""Etapa 9: localiza a passagem citante em todo texto disponível.
+"""Etapa 31: localiza a passagem citante em todo texto disponível.
 
 Duas estratégias: sobrenome no corpo (estilo autor-ano) e número da referência
 seguido até as ocorrências no corpo (estilo numérico).
 """
-import json, os, re
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CFG = json.load(open(f"{ROOT}/config.json")); SUR = CFG["author_surname"]
+import re
+
+import auditlib
+
+CFG = auditlib.load_config()
+SUR = CFG["author_surname"]
 
 def clean(s): return re.sub(r"\s+"," ", s or "").strip()
 
@@ -39,32 +42,31 @@ def by_number(t):
         out.append(clean(body[max(0,mm.start()-650): mm.end()+650]))
     return out, num
 
-M=json.load(open(f"{ROOT}/data/master.json"))
+master = auditlib.load_master()
 stats={"com_texto":0,"com_passagem":0,"so_bibliografia":0,"nao_achou":0}
-for key,blk in M.items():
-    for r in blk["citing"]:
-        p = r.get("text_path")
-        if not p or not os.path.exists(f"{ROOT}/{p}"): continue
-        stats["com_texto"]+=1
-        t=open(f"{ROOT}/{p}",encoding="utf-8",errors="ignore").read()
-        ps, how = [], []
-        n = by_name(t)
-        if n: ps+=n; how.append("nome")
-        bn, num = by_number(t)
-        if bn: ps+=bn; how.append(f"num[{num}]")
-        seen=set(); ded=[]
-        for x in ps:
-            k=re.sub(r"\W","",x.lower())[:70]
-            if k not in seen: seen.add(k); ded.append(x)
-        r["passages"]=ded[:4]; r["passage_how"]=how
-        if ded: stats["com_passagem"]+=1
-        elif SUR in t: r["citation_status"]="bibliography_only"; stats["so_bibliografia"]+=1
-        else: r["citation_status"]="not_found"; stats["nao_achou"]+=1
+for key, r in auditlib.iter_records(master):
+    p = r.get("text_path")
+    if not p or not (auditlib.ROOT / p).exists(): continue
+    stats["com_texto"]+=1
+    t = (auditlib.ROOT / p).read_text(encoding="utf-8", errors="ignore")
+    ps, how = [], []
+    n = by_name(t)
+    if n: ps+=n; how.append("nome")
+    bn, num = by_number(t)
+    if bn: ps+=bn; how.append(f"num[{num}]")
+    seen=set(); ded=[]
+    for x in ps:
+        k=re.sub(r"\W","",x.lower())[:70]
+        if k not in seen: seen.add(k); ded.append(x)
+    r["passages_auto"]=ded[:4]; r["passages_how"]=how
+    if ded: stats["com_passagem"]+=1
+    elif SUR in t: r["citation_status_auto"]="bibliography_only"; stats["so_bibliografia"]+=1
+    else: r["citation_status_auto"]="not_found"; stats["nao_achou"]+=1
 
-json.dump(M,open(f"{ROOT}/data/master.json","w"),ensure_ascii=False,indent=1)
-CL=json.load(open(f"{ROOT}/data/classify.json"))
-novos=[r for k,b in M.items() for r in b["citing"]
-       if r.get("passages") and not CL.get((r.get("doi") or "").lower())]
+auditlib.save_master(master)
+CL = auditlib.load_classify()
+novos=[r for k,r in auditlib.iter_records(master)
+       if r.get("passages_auto") and not CL.get((r.get("doi") or "").lower())]
 print(f"com texto ............ {stats['com_texto']}")
 print(f"com passagem ......... {stats['com_passagem']}")
 print(f"so na bibliografia ... {stats['so_bibliografia']}")

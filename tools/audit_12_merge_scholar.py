@@ -1,19 +1,13 @@
-"""Etapa 6: cruza as listas do Google Scholar com o inventário multi-fonte.
+"""Etapa 12: cruza as listas do Google Scholar com o inventário multi-fonte.
 
 Os títulos do Scholar vêm truncados (~76 chars), então o casamento é por prefixo
 normalizado, com verificação de similaridade.
 """
-import json, os, re, unicodedata
 from difflib import SequenceMatcher
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-M = json.load(open(f"{ROOT}/data/master.json"))
+import auditlib
 
-def norm(t):
-    t = unicodedata.normalize("NFKD", t or "")
-    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
-    t = re.sub(r"[^a-z0-9 ]", " ", t)
-    return re.sub(r"\s+", " ", t).strip()
+master = auditlib.load_master()
 
 JUNK = {"my blog","programa da disciplina","kata pengantar","scholar commons",
         "scientific communication","innovation and green development",
@@ -21,14 +15,14 @@ JUNK = {"my blog","programa da disciplina","kata pengantar","scholar commons",
         "transportation research interdisciplinary perspectives"}
 
 report = {}
-for key, fname in (("airline","airline_scholar.txt"), ("grains","grains_scholar.txt")):
-    lines = [l.rstrip("\n") for l in open(f"{ROOT}/scholar/{fname}") if l.strip()]
+for key, fname in (("airline","airline.txt"), ("grains","grains.txt")):
+    lines = [l.rstrip("\n") for l in open(auditlib.DATA / "scholar" / fname) if l.strip()]
     scholar = []
     for l in lines:
         t, _, y = l.rpartition("|")
-        scholar.append({"title": t.strip(), "year": y.strip() or None, "n": norm(t)})
+        scholar.append({"title": t.strip(), "year": y.strip() or None, "n": auditlib.norm_title(t)})
 
-    have = [(norm(r.get("title") or ""), r) for r in M[key]["citing"]]
+    have = [(auditlib.norm_title(r.get("title") or ""), r) for r in master["papers"][key]["citing"]]
     matched, novos, junk = 0, [], 0
     for s in scholar:
         if s["n"] in JUNK or len(s["n"]) < 12:
@@ -46,18 +40,18 @@ for key, fname in (("airline","airline_scholar.txt"), ("grains","grains_scholar.
         else:
             novos.append(s)
 
-    base = len(M[key]["citing"])
+    base = len(master["papers"][key]["citing"])
     for i, s in enumerate(novos, 1):
-        M[key]["citing"].append({
+        master["papers"][key]["citing"].append({
             "id": f"{key}_s{i:03d}", "doi": None, "title": s["title"], "year": s["year"],
             "venue": None, "oa_status": None, "is_oa": None,
             "src": ["scholar"], "status": "so_scholar", "classificado": False,
             "nota": "título truncado pelo Scholar; sem DOI conhecido",
         })
     report[key] = {"scholar": len(scholar), "junk": junk, "casados": matched,
-                   "novos": len(novos), "antes": base, "depois": len(M[key]["citing"])}
+                   "novos": len(novos), "antes": base, "depois": len(master["papers"][key]["citing"])}
 
-json.dump(M, open(f"{ROOT}/data/master.json","w"), ensure_ascii=False, indent=1)
+auditlib.save_master(master)
 
 print(f"{'':>9}{'Scholar':>9}{'ruido':>7}{'casados':>9}{'novos':>7}{'antes':>7}{'depois':>8}")
 for k, r in report.items():

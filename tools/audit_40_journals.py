@@ -1,26 +1,17 @@
-"""Etapa 13: banco de periódicos. Enriquece cada veículo com metadados do OpenAlex
+"""Etapa 40: banco de periódicos. Enriquece cada veículo com metadados do OpenAlex
 (ISSN, editora, país, h-index, citedness de 2 anos) para permitir atribuição de tier."""
-import json, os, re, time, unicodedata, urllib.parse, urllib.request, urllib.error
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CFG  = json.load(open(f"{ROOT}/config.json")); MAIL = CFG["contact_email"]
-M    = json.load(open(f"{ROOT}/data/master.json"))
+import auditlib
 
-def jget(u, tries=4):
-    for a in range(tries):
-        try:
-            req = urllib.request.Request(u, headers={"Accept":"application/json",
-                  "User-Agent":f"citation-audit/0.4 (mailto:{MAIL})"})
-            with urllib.request.urlopen(req, timeout=60) as r: return json.load(r)
-        except urllib.error.HTTPError as e:
-            if e.code == 404: return None
-            time.sleep(min(12, 2**a))
-        except Exception: time.sleep(min(12, 2**a))
-    return None
+CFG = auditlib.load_config()
+MAIL = CFG.get("mailto") or CFG.get("contact_email")
+master = auditlib.load_master()
+
 
 def venue_norm(v):
-    import html
+    import html, re
     v = html.unescape(v or "").strip()
     v = re.sub(r"\s+", " ", v)
     v = re.sub(r"(Transportation Research Part [A-F])\s*:?\s*.*", r"\1", v)
@@ -28,17 +19,14 @@ def venue_norm(v):
 
 # 1) resolve o source de cada citante direto pelo DOI (mais confiável que buscar por nome)
 def source_de(doi):
-    w = jget(f"https://api.openalex.org/works/https://doi.org/{urllib.parse.quote(doi)}?mailto={MAIL}")
+    w = auditlib.jget(f"https://api.openalex.org/works/https://doi.org/{urllib.parse.quote(doi)}?mailto={MAIL}")
     if not w: return None
     loc = (w.get("primary_location") or {}).get("source") or {}
     return {"source_id": loc.get("id"), "display_name": loc.get("display_name"),
             "issn_l": loc.get("issn_l"), "host": loc.get("host_organization_name"),
             "type": loc.get("type"), "work_type": w.get("type")}
 
-alvos = {}
-for k, b in M.items():
-    for r in b["citing"]:
-        if r.get("doi"): alvos[r["id"]] = r
+alvos = {r["id"]: r for k, r in auditlib.iter_records(master) if r.get("doi")}
 
 print(f"resolvendo source de {len(alvos)} citantes com DOI...")
 with ThreadPoolExecutor(max_workers=6) as ex:
@@ -59,7 +47,7 @@ with ThreadPoolExecutor(max_workers=6) as ex:
 ids = sorted({r["source_id"] for r in alvos.values() if r.get("source_id")})
 print(f"buscando metadados de {len(ids)} periódicos distintos...")
 def meta(sid):
-    s = jget(f"{sid.replace('https://openalex.org/','https://api.openalex.org/sources/')}?mailto={MAIL}")
+    s = auditlib.jget(f"{sid.replace('https://openalex.org/','https://api.openalex.org/sources/')}?mailto={MAIL}")
     if not s: return sid, None
     st = s.get("summary_stats") or {}
     return sid, {"id":sid, "nome":s.get("display_name"), "issn_l":s.get("issn_l"),
@@ -74,8 +62,8 @@ with ThreadPoolExecutor(max_workers=6) as ex:
     for f in as_completed([ex.submit(meta, i) for i in ids]):
         sid, m = f.result()
         if m: JR[sid] = m
-json.dump(JR, open(f"{ROOT}/data/journals.json","w"), ensure_ascii=False, indent=1)
-json.dump(M,  open(f"{ROOT}/data/master.json","w"),  ensure_ascii=False, indent=1)
+auditlib.save_journals(JR)
+auditlib.save_master(master)
 print(f"-> data/journals.json com {len(JR)} periódicos")
 com = [m for m in JR.values() if m.get("citedness_2a") is not None]
 print(f"   com citedness de 2 anos: {len(com)}/{len(JR)}")

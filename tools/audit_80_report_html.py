@@ -1,7 +1,20 @@
-import json, re, html, os, collections
-HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(HERE)
-M=json.load(open(f"{ROOT}/data/master.json"))
-CL=json.load(open(f"{ROOT}/data/classify.json"))          # chaveado por DOI
+"""Etapa 80: gera report/index.html a partir de master/classify/journals/config.
+
+Uso:
+  python3 tools/audit_80_report_html.py           grava report/index.html
+  python3 tools/audit_80_report_html.py --check   renderiza em memória e compara
+                                                   byte a byte com o arquivo commitado
+"""
+import collections
+import html
+import re
+import sys
+
+import auditlib
+
+master = auditlib.load_master()
+CFG = auditlib.load_config()
+CL = auditlib.load_classify()          # chaveado por DOI
 
 ROLE={"bibliography_only":("só na bibliografia","ghost",0),"drive_by":("de passagem","dim",1),
       "brief_mention":("menção breve","dim",2),"real_mention":("menção real","accent",3),
@@ -18,20 +31,20 @@ FLAG={"best":("Melhor citação","good"),"good":("Uso substantivo","good"),
       "ghost":("Citação-fantasma","ghost"),"weak":("Atribuição frágil","warn"),
       "duplicate":("Publicação duplicada","warn"),
       "autocitacao":("Autocitação","ghost"),"coautor":("Citação de coautor","warn")}
-TITLES={"airline":("Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry","Transportation Research Part A","2016","10.1016/j.tra.2016.01.001"),
-        "grains":("What are the main factors that determine post-harvest losses of grains?","Sustainable Production and Consumption","2019","10.1016/j.spc.2019.09.002")}
 
 def esc(s): return html.escape(s or "")
 def center(p,n=430):
     m=re.search(r"Bendinelli|@@",p)
-    if not m: return (p[:n]+"\u2026") if len(p)>n else p
+    if not m: return (p[:n]+"…") if len(p)>n else p
     a=max(0,m.start()-n//2); b=min(len(p),m.start()+n//2)
-    return ("\u2026" if a>0 else "")+p[a:b].strip().replace("@@","")+("\u2026" if b<len(p) else "")
+    return ("…" if a>0 else "")+p[a:b].strip().replace("@@","")+("…" if b<len(p) else "")
 
 status_tot=collections.Counter()
 sections=[]; kpi=collections.Counter()
 for key in ("airline","grains"):
-    blk=M[key]; title,venue,yr,doi=TITLES[key]
+    blk=master["papers"][key]
+    p_cfg=CFG["papers"][key]
+    title,venue,yr,doi=p_cfg["title"],p_cfg["venue"],p_cfg["year"],p_cfg["doi"]
     total=len(blk["citing"])
     for r in blk["citing"]: status_tot[r["status"]]+=1
     ents=[]; dist=collections.Counter()
@@ -48,7 +61,7 @@ for key in ("airline","grains"):
         rl,rc_,_=ROLE[c["role"]]; sl,sc=STANCE[c["stance"]]
         chips=f'<span class="chip r-{rc_}">{PT[c["role"]]}</span><span class="chip {sc}">{sl}</span>'
         for t in c.get("reuse",[]): chips+=f'<span class="chip reuse">{REUSE[t]}</span>'
-        if r.get("is_influential"): chips+='<span class="chip infl">influential \u00b7 S2</span>'
+        if r.get("is_influential"): chips+='<span class="chip infl">influential · S2</span>'
         fl=FLAG.get(c.get("flag") or "")
         qs=[center(p) for p in (c.get("passages") or [])][:2]
         quotes="".join(f"<blockquote>{esc(q)}</blockquote>" for q in qs)
@@ -57,7 +70,7 @@ for key in ("airline","grains"):
         ftag=f'<span class="flag f-{fl[1]}">{fl[0]}</span>' if fl else ""
         ents.append(f'''<article class="entry{fcls}">
  <header class="e-head"><h3>{esc(r.get("title"))}</h3>{ftag}</header>
- <p class="meta"><span class="venue">{esc(r.get("venue") or "sem veículo indexado")}</span><span class="dot">\u00b7</span>{r.get("year") or ""}<span class="dot">\u00b7</span><span class="mono">{esc(r.get("oa_status") or "?")}</span></p>
+ <p class="meta"><span class="venue">{esc(r.get("venue") or "sem veículo indexado")}</span><span class="dot">·</span>{r.get("year") or ""}<span class="dot">·</span><span class="mono">{esc(r.get("oa_status") or "?")}</span></p>
  <div class="chips">{chips}</div>
  {quotes}{note}
 </article>''')
@@ -66,23 +79,20 @@ for key in ("airline","grains"):
     bars="".join(f'<span class="seg s-{ROLE[r][1]}" style="flex:{dist[r]}" title="{PT[r]}: {dist[r]}"><b>{dist[r]}</b></span>' for r in order if dist.get(r))
     leg="".join(f'<span class="lg"><i class="sw s-{ROLE[r][1]}"></i>{PT[r]} <b>{dist[r]}</b></span>' for r in order if dist.get(r))
     sections.append(f'''<section class="paper" id="{key}">
- <div class="p-head"><p class="eyebrow mono">{esc(venue)} \u00b7 {yr}</p><h2>{esc(title)}</h2>
- <p class="doi mono">{doi} \u2014 {total} cita\u00e7\u00f5es na uni\u00e3o de quatro fontes, <b>{n} com evid\u00eancia verificada</b></p></div>
+ <div class="p-head"><p class="eyebrow mono">{esc(venue)} · {yr}</p><h2>{esc(title)}</h2>
+ <p class="doi mono">{doi} — {total} citações na união de quatro fontes, <b>{n} com evidência verificada</b></p></div>
  <div class="bar">{bars}</div><div class="legend">{leg}</div>
  <div class="entries">{"".join(ents)}</div></section>''')
 
 # ---------------- funil e quebra por revista ----------------
-import html as _h, unicodedata as _u
-GRANDES={"10.1016":"Elsevier","10.1007":"Springer","10.1002":"Wiley","10.1111":"Wiley",
- "10.1155":"Wiley","10.1080":"Taylor & Francis","10.1108":"Emerald","10.3390":"MDPI",
- "10.1177":"SAGE","10.1017":"Cambridge","10.1093":"Oxford UP","10.1515":"De Gruyter",
- "10.1038":"Nature Portfolio","10.1371":"PLOS","10.1186":"BMC","10.1057":"Palgrave"}
-SCHOLAR={"airline":95,"grains":76}
+GRANDES = CFG["editoras_estabelecidas"]
+SCHOLAR = {k: sum(1 for l in (auditlib.DATA / "scholar" / f"{k}.txt").open() if l.strip())
+           for k in ("airline", "grains")}
 def _livro(d):
     suf=d.split("/",1)[1] if "/" in d else ""
     return suf.startswith("978") or "9781" in suf or "9780" in suf or d.startswith("10.1007/978")
 def venue_norm(v):
-    v=_h.unescape(v or "?").strip()
+    v=html.unescape(v or "?").strip()
     v=re.sub(r"\s+"," ",v)
     v=re.sub(r"(Transportation Research Part [A-F])\s*:?\s*", r"\1: ", v)
     v=re.sub(r"\s*[:,]\s*$","",v)
@@ -99,17 +109,17 @@ def venue_norm(v):
     return v
 
 def funil(key):
-    rs=M[key]["citing"]
+    rs=master["papers"][key]["citing"]
     doi=[r for r in rs if r.get("doi")]
     gr=[r for r in doi if r["doi"].split("/")[0] in GRANDES]
     per=[r for r in gr if not _livro(r["doi"])]
     cf=[r for r in per if CL.get(r["doi"].lower())]
     return [("Google Scholar reporta",SCHOLAR[key],None),
-            ("Invent\u00e1rio ap\u00f3s dedup e ru\u00eddo",len(rs),len(rs)-SCHOLAR[key]),
+            ("Inventário após dedup e ruído",len(rs),len(rs)-SCHOLAR[key]),
             ("Com DOI depositado",len(doi),-(len(rs)-len(doi))),
             ("Editora estabelecida",len(gr),-(len(doi)-len(gr))),
-            ("Peri\u00f3dico (sem cap\u00edtulo, anais, preprint)",len(per),-(len(gr)-len(per))),
-            ("Com evid\u00eancia verificada",len(cf),-(len(per)-len(cf)))]
+            ("Periódico (sem capítulo, anais, preprint)",len(per),-(len(gr)-len(per))),
+            ("Com evidência verificada",len(cf),-(len(per)-len(cf)))]
 
 def render_funil(key):
     f=funil(key); topo=f[0][1]
@@ -125,7 +135,7 @@ def render_funil(key):
 
 def render_revistas(key):
     rows=[]
-    for r in M[key]["citing"]:
+    for r in master["papers"][key]["citing"]:
         d=r.get("doi") or ""
         if not d or d.split("/")[0] not in GRANDES or _livro(d): continue
         c=CL.get(d.lower())
@@ -139,11 +149,11 @@ def render_revistas(key):
         chips="".join(f"<i class='q s-{ROLE[r][1]}' title='{PT[r]}: {dist[r]}'>{dist[r]}</i>"
                       for r in ordem if dist.get(r))
         reuse=sum(len(c.get("reuse") or []) for c in cs)
-        rtag=(f"<b>{reuse}</b>" if reuse else "<span class='off'>\u2013</span>")
+        rtag=(f"<b>{reuse}</b>" if reuse else "<span class='off'>–</span>")
         out.append(f"<tr><td class='v'>{esc(v)}</td><td class='n'>{len(cs)}</td>"
                    f"<td class='qs'>{chips}</td><td class='n'>{rtag}</td></tr>")
-    return ("<div class='scroll'><table class='tbl rev'><tr><th>Peri\u00f3dico</th><th class='n'>Cita\u00e7\u00f5es</th>"
-            "<th>Distribui\u00e7\u00e3o de papel</th><th class='n'>Reuso</th></tr>"+"".join(out)+"</table></div>")
+    return ("<div class='scroll'><table class='tbl rev'><tr><th>Periódico</th><th class='n'>Citações</th>"
+            "<th>Distribuição de papel</th><th class='n'>Reuso</th></tr>"+"".join(out)+"</table></div>")
 
 FUNIS="".join(
   f"<div class='fcol'><h3>{'Aviação' if k=='airline' else 'Grãos'}</h3>{render_funil(k)}</div>"
@@ -153,18 +163,18 @@ REVISTAS="".join(
   for k in ("airline","grains"))
 
 # ---------------- quartil Scimago ----------------
-JR=json.load(open(f"{ROOT}/data/journals.json"))
-QORD=["Q1","Q2","Q3","Q4","fora do Scimago","sem m\u00e9trica"]
+JR=auditlib.load_journals()
+QORD=["Q1","Q2","Q3","Q4","fora do Scimago","sem métrica"]
 def quart(r):
     m=JR.get(r.get("source_id") or "")
-    if not m: return "sem m\u00e9trica"
+    if not m: return "sem métrica"
     sc=m.get("scimago")
     if sc and sc.get("quartil") in ("Q1","Q2","Q3","Q4"): return sc["quartil"]
     return "fora do Scimago"
-QCLS={"Q1":"q1","Q2":"q2","Q3":"q3","Q4":"q4","fora do Scimago":"qx","sem m\u00e9trica":"qn"}
+QCLS={"Q1":"q1","Q2":"q2","Q3":"q3","Q4":"q4","fora do Scimago":"qx","sem métrica":"qn"}
 
 def barras_q(key):
-    c=collections.Counter(quart(r) for r in M[key]["citing"]); tot=sum(c.values())
+    c=collections.Counter(quart(r) for r in master["papers"][key]["citing"]); tot=sum(c.values())
     segs="".join(f"<span class='qseg {QCLS[x]}' style='flex:{c[x]}' title='{x}: {c[x]}'>{c[x]}</span>"
                  for x in QORD if c.get(x))
     leg="".join(f"<span class='lg'><i class='sw {QCLS[x]}'></i>{x} <b>{c[x]}</b></span>"
@@ -174,7 +184,7 @@ def barras_q(key):
 ROLES_ORD=["foundational","supporting","real_mention","brief_mention","drive_by","bibliography_only","wrongly_interpreted"]
 def matriz_q():
     tab=collections.defaultdict(collections.Counter)
-    for k,b in M.items():
+    for k,b in master["papers"].items():
         for r in b["citing"]:
             c=CL.get((r.get("doi") or "").lower())
             if c: tab[quart(r)][c["role"]]+=1
@@ -182,16 +192,16 @@ def matriz_q():
     tr=""
     for x in QORD:
         if not tab[x]: continue
-        tds="".join(f"<td class='n {'hi' if tab[x][r] else 'off'}'>{tab[x][r] or '\u00b7'}</td>" for r in ROLES_ORD)
+        tds="".join(f"<td class='n {'hi' if tab[x][r] else 'off'}'>{tab[x][r] or '·'}</td>" for r in ROLES_ORD)
         tr+=f"<tr><td class='v'><i class='sw {QCLS[x]}'></i>{x}</td>{tds}</tr>"
     return f"<div class='scroll'><table class='tbl mat'><tr><th>Quartil</th>{th}</tr>{tr}</table></div>"
 
-QBARS="".join(f"<div class='fcol'><h3>{'Avia\u00e7\u00e3o' if k=='airline' else 'Gr\u00e3os'}</h3>{barras_q(k)}</div>"
+QBARS="".join(f"<div class='fcol'><h3>{'Aviação' if k=='airline' else 'Grãos'}</h3>{barras_q(k)}</div>"
               for k in ("airline","grains"))
 QMATRIZ=matriz_q()
 _reuse_q=collections.Counter()
 _ghost_q=collections.Counter()
-for k,b in M.items():
+for k,b in master["papers"].items():
     for r in b["citing"]:
         c=CL.get((r.get("doi") or "").lower())
         if not c: continue
@@ -200,9 +210,9 @@ for k,b in M.items():
 REUSE_Q1=_reuse_q["Q1"]; REUSE_TOT=sum(_reuse_q.values())
 GHOST_Q1=_ghost_q["Q1"]; GHOST_TOT=sum(_ghost_q.values())
 
-TOT=sum(len(b["citing"]) for b in M.values())
-NCL=sum(1 for k,b in M.items() for r in b["citing"] if CL.get((r.get("doi") or "").lower()))
-NDOI=sum(1 for k,b in M.items() for r in b["citing"] if r.get("doi"))
+TOT=sum(len(b["citing"]) for b in master["papers"].values())
+NCL=sum(1 for k,b in master["papers"].items() for r in b["citing"] if CL.get((r.get("doi") or "").lower()))
+NDOI=sum(1 for k,b in master["papers"].items() for r in b["citing"] if r.get("doi"))
 st=lambda k: status_tot.get(k,0)
 
 CSS = """
@@ -358,95 +368,107 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
 <style>{CSS}</style>
 <div class="wrap">
 <header class="top">
- <p class="eyebrow mono">Auditoria de cita\u00e7\u00f5es \u00b7 taxonomia Paperclip \u00b7 setembro de 2026</p>
+ <p class="eyebrow mono">Auditoria de citações · taxonomia Paperclip · setembro de 2026</p>
  <h1>Quem cita, e como</h1>
- <p class="lede">Cada cita\u00e7\u00e3o recebida pelos dois artigos foi rastreada at\u00e9 a passagem exata onde
- o trabalho \u00e9 mencionado, e classificada por papel, postura e reuso efetivo \u2014 a mesma taxonomia
- que o <span class="mono">citation-explorer</span> do Paperclip aplica, extra\u00edda do c\u00f3digo-fonte da ferramenta.</p>
+ <p class="lede">Cada citação recebida pelos dois artigos foi rastreada até a passagem exata onde
+ o trabalho é mencionado, e classificada por papel, postura e reuso efetivo — a mesma taxonomia
+ que o <span class="mono">citation-explorer</span> do Paperclip aplica, extraída do código-fonte da ferramenta.</p>
  <div class="kpis">
-  <div class="kpi"><b>{TOT}</b><span>cita\u00e7\u00f5es mapeadas</span></div>
+  <div class="kpi"><b>{TOT}</b><span>citações mapeadas</span></div>
   <div class="kpi"><b>{100*NCL/NDOI:.0f}%</b><span>das {NDOI} com DOI, verificadas</span></div>
-  <div class="kpi"><b>{kpi["reuse"]}</b><span>com reuso metodol\u00f3gico externo</span></div>
-  <div class="kpi"><b>{kpi["self"]}</b><span>autocita\u00e7\u00e3o ou coautor</span></div>
-  <div class="kpi hl"><b>{kpi["mis"]}</b><span>atribui\u00e7\u00f5es incorretas</span></div>
-  <div class="kpi hl"><b>{kpi["ghost"]}</b><span>cita\u00e7\u00f5es-fantasma</span></div>
+  <div class="kpi"><b>{kpi["reuse"]}</b><span>com reuso metodológico externo</span></div>
+  <div class="kpi"><b>{kpi["self"]}</b><span>autocitação ou coautor</span></div>
+  <div class="kpi hl"><b>{kpi["mis"]}</b><span>atribuições incorretas</span></div>
+  <div class="kpi hl"><b>{kpi["ghost"]}</b><span>citações-fantasma</span></div>
  </div>
 </header>
 <section class="funnel">
- <h2>De 171 cita\u00e7\u00f5es no Scholar at\u00e9 as que d\u00e3o para ler</h2>
+ <h2>De {SCHOLAR["airline"]+SCHOLAR["grains"]} citações no Scholar até as que dão para ler</h2>
  <p style="font-size:.9rem;color:var(--ink2);max-width:70ch;margin:14px 0 0">
- Cada degrau retira um grupo pelo motivo declarado. A popula\u00e7\u00e3o do estudo \u00e9 o
- pen\u00faltimo degrau: artigo de peri\u00f3dico, de editora estabelecida, com DOI. O \u00faltimo
- mostra quanto dessa popula\u00e7\u00e3o j\u00e1 tem a passagem citante em m\u00e3os.</p>
+ Cada degrau retira um grupo pelo motivo declarado. A população do estudo é o
+ penúltimo degrau: artigo de periódico, de editora estabelecida, com DOI. O último
+ mostra quanto dessa população já tem a passagem citante em mãos.</p>
  <div class="fgrid">{FUNIS}</div>
- <h2 style="margin-top:54px">Onde as cita\u00e7\u00f5es est\u00e3o, e como cada revista cita</h2>
+ <h2 style="margin-top:54px">Onde as citações estão, e como cada revista cita</h2>
  <p style="font-size:.9rem;color:var(--ink2);max-width:70ch;margin:14px 0 18px">
- Cada quadrado \u00e9 uma cita\u00e7\u00e3o, colorida pelo papel: verde escuro fundacional,
- verde sustenta, azul men\u00e7\u00e3o real, cinza men\u00e7\u00e3o breve ou de passagem,
- cinza-claro s\u00f3 na bibliografia, vermelho interpretado errado. A \u00faltima coluna conta
- quantas adotaram m\u00e9todo, dado ou resultado.</p>
+ Cada quadrado é uma citação, colorida pelo papel: verde escuro fundacional,
+ verde sustenta, azul menção real, cinza menção breve ou de passagem,
+ cinza-claro só na bibliografia, vermelho interpretado errado. A última coluna conta
+ quantas adotaram método, dado ou resultado.</p>
  <div class="rgrid">{REVISTAS}</div>
 </section>
 <section class="funnel">
- <h2>A qualidade dos ve\u00edculos que citam</h2>
+ <h2>A qualidade dos veículos que citam</h2>
  <p style="font-size:.9rem;color:var(--ink2);max-width:70ch;margin:14px 0 22px">
- Quartil oficial do Scimago (SJR Best Quartile, edi\u00e7\u00e3o 2025), casado por ISSN.
- Setenta dos 93 peri\u00f3dicos citantes t\u00eam quartil; os demais s\u00e3o
- reposit\u00f3rio de preprint, s\u00e9rie de confer\u00eancia ou peri\u00f3dico regional
+ Quartil oficial do Scimago (SJR Best Quartile, edição 2025), casado por ISSN.
+ Setenta dos 93 periódicos citantes têm quartil; os demais são
+ repositório de preprint, série de conferência ou periódico regional
  fora do Scopus.</p>
  <div class="fgrid">{QBARS}</div>
- <h3 style="margin-top:40px;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--ink3)">Papel da cita\u00e7\u00e3o por quartil do peri\u00f3dico</h3>
+ <h3 style="margin-top:40px;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--ink3)">Papel da citação por quartil do periódico</h3>
  <div style="margin-top:12px">{QMATRIZ}</div>
  <div class="grid2" style="margin-top:30px">
   <p style="font-size:.9rem;color:var(--ink2)"><b>O engajamento de fundo se concentra no topo.</b>
-  Toda cita\u00e7\u00e3o fundacional est\u00e1 em Q1, e {REUSE_Q1} das {REUSE_TOT} que adotam
-  m\u00e9todo, dado ou resultado tamb\u00e9m. Quem l\u00ea a fundo publica em revista boa.</p>
-  <p style="font-size:.9rem;color:var(--ink2)"><b>Mas cita\u00e7\u00e3o-fantasma n\u00e3o \u00e9 doen\u00e7a de revista fraca.</b>
-  {GHOST_Q1} das {GHOST_TOT} est\u00e3o em Q1 \u2014 entre elas <i>Transportation Research Part E</i>,
+  Toda citação fundacional está em Q1, e {REUSE_Q1} das {REUSE_TOT} que adotam
+  método, dado ou resultado também. Quem lê a fundo publica em revista boa.</p>
+  <p style="font-size:.9rem;color:var(--ink2)"><b>Mas citação-fantasma não é doença de revista fraca.</b>
+  {GHOST_Q1} das {GHOST_TOT} estão em Q1 — entre elas <i>Transportation Research Part E</i>,
   <i>Communications Earth &amp; Environment</i> e <i>Journal of Transport Geography</i>. Listar na
-  bibliografia sem citar no texto acontece em peri\u00f3dico de primeira linha.</p>
+  bibliografia sem citar no texto acontece em periódico de primeira linha.</p>
  </div>
 </section>
 {"".join(sections)}
 <section class="method">
- <h2>M\u00e9todo e limites</h2>
+ <h2>Método e limites</h2>
  <div class="grid2">
   <div>
-   <h3>Como cada cita\u00e7\u00e3o foi avaliada</h3>
+   <h3>Como cada citação foi avaliada</h3>
    <p>Quatro eixos independentes, exatamente como o Paperclip define:</p>
    <ul>
-    <li><b>Papel</b> \u2014 de <span class="mono">s\u00f3 na bibliografia</span> at\u00e9 <span class="mono">fundacional</span>, medindo o quanto o artigo importou para quem citou.</li>
-    <li><b>Postura</b> \u2014 apoia, contrap\u00f5e ou neutra. Regra deliberadamente liberal: um contraste calmo j\u00e1 conta como contraposi\u00e7\u00e3o.</li>
-    <li><b>Reuso</b> \u2014 ado\u00e7\u00e3o de m\u00e9todo, valida\u00e7\u00e3o de resultado, reuso de dado, benchmark ou extens\u00e3o.</li>
-    <li><b>Status</b> \u2014 presente no corpo do texto ou apenas na lista de refer\u00eancias.</li>
+    <li><b>Papel</b> — de <span class="mono">só na bibliografia</span> até <span class="mono">fundacional</span>, medindo o quanto o artigo importou para quem citou.</li>
+    <li><b>Postura</b> — apoia, contrapõe ou neutra. Regra deliberadamente liberal: um contraste calmo já conta como contraposição.</li>
+    <li><b>Reuso</b> — adoção de método, validação de resultado, reuso de dado, benchmark ou extensão.</li>
+    <li><b>Status</b> — presente no corpo do texto ou apenas na lista de referências.</li>
    </ul>
-   <p><b>Regra de evid\u00eancia:</b> nenhuma classifica\u00e7\u00e3o sem o documento em m\u00e3os \u2014 a passagem literal, ou o
-   texto completo comprovando que a men\u00e7\u00e3o s\u00f3 existe na bibliografia. P\u00e1gina de rosto de publisher, que
-   exibe as refer\u00eancias sem o corpo, n\u00e3o serve de prova e n\u00e3o entra em contagem alguma.</p>
+   <p><b>Regra de evidência:</b> nenhuma classificação sem o documento em mãos — a passagem literal, ou o
+   texto completo comprovando que a menção só existe na bibliografia. Página de rosto de publisher, que
+   exibe as referências sem o corpo, não serve de prova e não entra em contagem alguma.</p>
   </div>
   <div>
-   <h3>Onde est\u00e1 o resto</h3>
-   <p>O grafo de cita\u00e7\u00e3o vem da uni\u00e3o de OpenAlex, Semantic Scholar, OpenCitations e Europe PMC,
-   deduplicada por DOI e por t\u00edtulo normalizado. O texto vem de Unpaywall, Europe PMC, arXiv e
-   reposit\u00f3rios institucionais.</p>
+   <h3>Onde está o resto</h3>
+   <p>O grafo de citação vem da união de OpenAlex, Semantic Scholar, OpenCitations e Europe PMC,
+   deduplicada por DOI e por título normalizado. O texto vem de Unpaywall, Europe PMC, arXiv e
+   repositórios institucionais.</p>
    <div class="scroll"><table class="tbl">
-    <tr><th>Situa\u00e7\u00e3o</th><th class="n">Cita\u00e7\u00f5es</th></tr>
+    <tr><th>Situação</th><th class="n">Citações</th></tr>
     <tr><td>Texto completo validado</td><td class="n">{st("tem_texto")}</td></tr>
-    <tr><td>S\u00f3 p\u00e1gina de rosto</td><td class="n">{st("texto_parcial")+st("evidencia_insuficiente")+st("texto_incorreto")}</td></tr>
-    <tr><td>OA com verifica\u00e7\u00e3o anti-bot</td><td class="n">{st("oa_antibot")}</td></tr>
-    <tr><td>OA n\u00e3o recuperado</td><td class="n">{st("oa_bloqueado")+st("oa_baixavel")}</td></tr>
+    <tr><td>Só página de rosto</td><td class="n">{st("texto_parcial")+st("evidencia_insuficiente")+st("texto_incorreto")}</td></tr>
+    <tr><td>OA com verificação anti-bot</td><td class="n">{st("oa_antibot")}</td></tr>
+    <tr><td>OA não recuperado</td><td class="n">{st("oa_bloqueado")+st("oa_baixavel")}</td></tr>
     <tr><td>Fechado</td><td class="n">{st("fechado")}</td></tr>
-    <tr><td>S\u00f3 no Scholar, sem DOI</td><td class="n">{st("so_scholar_sem_doi")+st("sem_doi")}</td></tr>
+    <tr><td>Só no Scholar, sem DOI</td><td class="n">{st("so_scholar_sem_doi")+st("sem_doi")}</td></tr>
    </table></div>
   </div>
  </div>
- <p style="margin-top:24px"><b>O invent\u00e1rio est\u00e1 fechado.</b> \u00c0s quatro APIs somaram-se as listas
- completas de \u201ccited by\u201d do Google Scholar (95 e 76), paginadas manualmente. O Scholar confirmou
- 118 registros que as APIs j\u00e1 tinham e acrescentou 45; em contrapartida, as APIs acharam registros que
- o Scholar n\u00e3o lista. A uni\u00e3o d\u00e1 <b>{TOT}</b> \u2014 mais do que qualquer fonte sozinha.
+ <p style="margin-top:24px"><b>O inventário está fechado.</b> Às quatro APIs somaram-se as listas
+ completas de “cited by” do Google Scholar (95 e 76), paginadas manualmente. O Scholar confirmou
+ 118 registros que as APIs já tinham e acrescentou 45; em contrapartida, as APIs acharam registros que
+ o Scholar não lista. A união dá <b>{TOT}</b> — mais do que qualquer fonte sozinha.
  Dos 45 exclusivos do Scholar, 21 foram resolvidos a DOI via Crossref; os {st("so_scholar_sem_doi")} restantes
- s\u00e3o tese, cap\u00edtulo de livro e peri\u00f3dico sem DOI depositado.</p>
+ são tese, capítulo de livro e periódico sem DOI depositado.</p>
 </section>
 </div>"""
-open(f"{ROOT}/report/index.html","w").write(HTML)
-print("ok", len(HTML), "bytes |", TOT, "citacoes |", NCL, "classificadas")
+
+OUT = auditlib.REPORTS / "index.html"
+nbytes = len(HTML.encode("utf-8"))
+if "--check" in sys.argv[1:]:
+    atual = OUT.read_text(encoding="utf-8") if OUT.exists() else None
+    if atual != HTML:
+        atual_bytes = len(atual.encode("utf-8")) if atual is not None else 0
+        print(f"DRIFT: report/index.html gerado difere do commitado "
+              f"({nbytes} bytes gerados vs {atual_bytes} commitados)")
+        sys.exit(1)
+    print(f"ok: report/index.html idêntico ao gerado ({nbytes} bytes | {TOT} citacoes | {NCL} classificadas)")
+else:
+    OUT.write_text(HTML, encoding="utf-8")
+    print("ok", nbytes, "bytes |", TOT, "citacoes |", NCL, "classificadas")
