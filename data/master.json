@@ -10,7 +10,7 @@
     "doi": "10.1016/j.trb.2026.103567",
     "title": "Day-ahead Flight Retiming and Aircraft Rerouting Considering Airport Congestion",
     "year": 2026,
-    "venue": "Transportation Research Part B: Methodological",
+    "venue": "Transportation Research Part B Methodological",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "closed",
@@ -26,7 +26,12 @@
     "has_fulltext": false,
     "id": "airline_001",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S96305778",
+    "issn_l": "0191-2615",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jatrs.2026.100103",
@@ -49,13 +54,18 @@
     "id": "airline_002",
     "status": "tem_texto",
     "classificado": false,
-    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
+    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir",
+    "source_id": "https://openalex.org/S4387289958",
+    "issn_l": "2941-198X",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.5281/zenodo.17506763",
     "title": "Low-Cost Carriers in Aviation: Significance and Developments",
     "year": 2025,
-    "venue": "arXiv.org",
+    "venue": "arXiv (Cornell University)",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "green",
@@ -79,13 +89,18 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4306400194",
+    "issn_l": "2331-8422",
+    "publisher": "Cornell University",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "doi": "10.1016/j.rtbm.2025.101458",
     "title": "Market shares on the rise, academic attention on the decline? A comprehensive review on low-cost airlines and their research challenges",
     "year": 2025,
-    "venue": "Research in Transportation Business &amp; Management",
+    "venue": "Research in Transportation Business & Management",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "closed",
@@ -101,7 +116,12 @@
     "has_fulltext": false,
     "id": "airline_004",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S2764779785",
+    "issn_l": "2210-5395",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2024.102708",
@@ -126,7 +146,12 @@
     "has_fulltext": false,
     "id": "airline_005",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1108/ejm-01-2023-0014",
@@ -151,7 +176,12 @@
     "has_fulltext": false,
     "id": "airline_006",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S89389284",
+    "issn_l": "0309-0566",
+    "publisher": "Emerald Publishing Limited",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jatrs.2024.100013",
@@ -173,7 +203,12 @@
     "has_fulltext": false,
     "id": "airline_007",
     "status": "tem_texto",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4387289958",
+    "issn_l": "2941-198X",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.5281/zenodo.10671654",
@@ -206,7 +241,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4306401271",
+    "issn_l": null,
+    "publisher": "Federal Reserve Bank of St. Louis",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "doi": "10.5281/zenodo.10671656",
@@ -232,7 +272,12 @@
     "classificado": false,
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "arquivo baixado não corresponde ao título do registro"
+    "nota_integridade": "arquivo baixado não corresponde ao título do registro",
+    "source_id": "https://openalex.org/S4306401271",
+    "issn_l": null,
+    "publisher": "Federal Reserve Bank of St. Louis",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "doi": "10.5281/zenodo.10671650",
@@ -262,7 +307,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4306400194",
+    "issn_l": "2331-8422",
+    "publisher": "Cornell University",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "doi": "10.5281/zenodo.10671658",
@@ -288,7 +338,12 @@
     "classificado": false,
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "arquivo baixado não corresponde ao título do registro"
+    "nota_integridade": "arquivo baixado não corresponde ao título do registro",
+    "source_id": "https://openalex.org/S4306400194",
+    "issn_l": "2331-8422",
+    "publisher": "Cornell University",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "doi": "10.1016/j.jairtraman.2023.102493",
@@ -313,7 +368,12 @@
     "has_fulltext": false,
     "id": "airline_012",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.indmarman.2023.09.003",
@@ -337,7 +397,12 @@
     "has_fulltext": false,
     "id": "airline_013",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S31748134",
+    "issn_l": "0019-8501",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1038/s41598-023-30703-y",
@@ -370,7 +435,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S196734849",
+    "issn_l": "2045-2322",
+    "publisher": "Nature Portfolio",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2022.102352",
@@ -395,13 +465,18 @@
     "has_fulltext": false,
     "id": "airline_015",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tre.2022.103000",
     "title": "Airport dominance, route network design and flight delays",
     "year": 2023,
-    "venue": "Transportation Research Part E: Logistics and Transportation Review",
+    "venue": "Transportation Research Part E Logistics and Transportation Review",
     "type": "article",
     "is_oa": true,
     "oa_status": "hybrid",
@@ -417,7 +492,12 @@
     "has_fulltext": false,
     "id": "airline_016",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S173966628",
+    "issn_l": "1366-5545",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.3390/ijerph19158921",
@@ -442,13 +522,18 @@
     "has_fulltext": true,
     "id": "airline_017",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S15239247",
+    "issn_l": "1660-4601",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jbusres.2022.03.043",
     "title": "How incumbents’ response strategy impacts rivals’ market exit timing?",
     "year": 2022,
-    "venue": "Journal of business research",
+    "venue": "Journal of Business Research",
     "type": "article",
     "is_oa": false,
     "oa_status": "closed",
@@ -466,7 +551,12 @@
     "has_fulltext": false,
     "id": "airline_018",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S93284759",
+    "issn_l": "0148-2963",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.ecotra.2022.100252",
@@ -488,7 +578,12 @@
     "has_fulltext": false,
     "id": "airline_019",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S2898237991",
+    "issn_l": "2212-0122",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2022.102207",
@@ -521,7 +616,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1108/ejm-02-2021-0087",
@@ -546,13 +646,18 @@
     "has_fulltext": false,
     "id": "airline_021",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S89389284",
+    "issn_l": "0309-0566",
+    "publisher": "Emerald Publishing Limited",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1080/10696679.2021.2008802",
     "title": "Price reactions to a rival’s market exit: evidence from the U.S. airline industry",
     "year": 2022,
-    "venue": "Journal of Marketing Theory and Practice",
+    "venue": "The Journal of Marketing Theory and Practice",
     "type": "article",
     "is_oa": false,
     "oa_status": "closed",
@@ -571,7 +676,12 @@
     "has_fulltext": false,
     "id": "airline_022",
     "status": "fechado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S42468459",
+    "issn_l": "1069-6679",
+    "publisher": "Taylor & Francis",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tranpol.2021.10.015",
@@ -596,7 +706,12 @@
     "has_fulltext": false,
     "id": "airline_023",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S186558940",
+    "issn_l": "0967-070X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2021.102064",
@@ -621,7 +736,12 @@
     "has_fulltext": false,
     "id": "airline_024",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.trip.2020.100189",
@@ -646,7 +766,12 @@
     "has_fulltext": true,
     "id": "airline_025",
     "status": "oa_antibot",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210230100",
+    "issn_l": "2590-1982",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tranpol.2020.04.013",
@@ -671,7 +796,12 @@
     "has_fulltext": true,
     "id": "airline_026",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S186558940",
+    "issn_l": "0967-070X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.trc.2020.102686",
@@ -695,7 +825,12 @@
     "has_fulltext": false,
     "id": "airline_027",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S64511102",
+    "issn_l": "0968-090X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/s40305-020-00306-9",
@@ -719,14 +854,23 @@
     "openalex": "https://openalex.org/W3036489880",
     "has_fulltext": false,
     "id": "airline_028",
-    "status": "texto_parcial",
+    "status": "tem_texto",
     "classificado": false,
     "text_path": "text/airline_028.txt",
-    "text_source": "html:https://link.springer.com/article/10.1007/s40305-020-00306-9?error=cookies_not_supported&code=1ac6d001-a620-4bec-84a0-d5690acff05a",
-    "passages": [],
-    "passage_how": [],
+    "text_source": "PDF fornecido pelo autor (10.1007:s40305-020-00306-9.pdf)",
+    "passages": [
+     "ical evidence in support of the internalization hypothesis was offered by Ref. [11], which showed that flight delays are lower at highly concentrated airports, where the dominant carrier is likely to internalize much of the congestion it creates, thus limiting its extent. Reference [12] presented a modeling framework for evaluating the sensitivity of airline schedules to the congestion pricing of airports. Reference [13] held that a significant part of the impact of congestion pricing cannot be accounted for by using models in the literature, which were based on the assumptions of constant load factors and constant aircraft sizes. References [14–16] provided a review of recent work about airport congesting pricing. Most of the above works did not give equilibrium flights and equilibrium prices either under aiming to joint profit maximization or under aiming to self-profit maximization. Equilibrium solutions are totally different under these two different scenarios. Furthermore, most of the above works are passenger-based method of congestion pricing, which took price difference under these two different scenarios as congestion price. Few of them are flight-based method of congestion pricing. Airport operations can be separated into airside and landside operations. These two components o"
+    ],
+    "passage_how": [
+     "num[14]"
+    ],
     "citation_status": null,
-    "nota_integridade": "página de rosto: só 2.260 caracteres antes das referências"
+    "nota_integridade": "página de rosto: só 2.260 caracteres antes das referências",
+    "source_id": "https://openalex.org/S2764888454",
+    "issn_l": "2194-668X",
+    "publisher": "Springer Science+Business Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/s13762-020-02710-3",
@@ -749,14 +893,19 @@
     "openalex": "https://openalex.org/W3011410023",
     "has_fulltext": false,
     "id": "airline_029",
-    "status": "tem_texto",
+    "status": "evidencia_insuficiente",
     "classificado": false,
     "text_path": "text/airline_029.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s13762-020-02710-3?error=cookies_not_supported&code=f735b538-92d8-4f45-a81d-19fd1dab60b2",
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo",
+    "source_id": "https://openalex.org/S85680945",
+    "issn_l": "1735-1472",
+    "publisher": "Springer Science+Business Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1080/03081060.2020.1701706",
@@ -780,8 +929,21 @@
     "openalex": "https://openalex.org/W2995540770",
     "has_fulltext": false,
     "id": "airline_030",
-    "status": "fechado",
-    "classificado": false
+    "status": "tem_texto",
+    "classificado": false,
+    "text_path": "text/airline_030.txt",
+    "text_source": "PDF fornecido pelo autor (10.1080:03081060.2020.1701706)",
+    "passages": [
+     "rport congestion and road congestion operate diﬀerently. Road users are atomistic while airlines are not. In other words, while road users have no incentive to take account of the congestion they impose on other drivers (Teodorovic et al. (2008)), an airline that schedules an extra ﬂight at a crowded airport congests other airlines but also imposes congestion costs on the other ﬂights it operates. Airport congestion tolls apparently need not be as large as the atomistic tolls implied by road-pricing theory because some congestion is then internalized. Pels and Verhoef (2004), Triantis et al. (2011) and Basso and Zhang (2007) provided further elaboration on the internalization of congestion. Bendinelli, Bettini, and Oliveira CONTACT Baocheng Zhang bczhang@cauc.edu.cn College of Air Traﬃc Management, Civil Aviation University of China, Tianjin 300300, People’s Republic of China; Lab of Air Traﬃc Management and Optimization, Civil Aviation University of China, Tianjin 300300, People’s Republic of China © 2019 Informa UK Limited, trading as Taylor & Francis Group 2 B. ZHANG ET AL. (2016), Czerny and Zhang (2014b) and Zhang and Czerny (2012) have reviewed recent work about airport congestion pricing. Price discrimination between diﬀerent types of passenger has received considerable attention (Czerny and Zhang 2015, 2011, 2014a; Koopmans and Lieshout 2016). However, little eﬀort has been s"
+    ],
+    "passage_how": [
+     "nome"
+    ],
+    "source_id": "https://openalex.org/S68242086",
+    "issn_l": "0308-1060",
+    "publisher": "Taylor & Francis",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2019.101690",
@@ -806,7 +968,12 @@
     "has_fulltext": false,
     "id": "airline_031",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2019.05.001",
@@ -831,7 +998,12 @@
     "has_fulltext": false,
     "id": "airline_032",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.ecotra.2019.02.002",
@@ -856,7 +1028,12 @@
     "has_fulltext": true,
     "id": "airline_033",
     "status": "oa_antibot",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S2898237991",
+    "issn_l": "2212-0122",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2019.03.001",
@@ -881,7 +1058,12 @@
     "has_fulltext": false,
     "id": "airline_034",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tranpol.2018.12.012",
@@ -906,13 +1088,18 @@
     "has_fulltext": false,
     "id": "airline_035",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S186558940",
+    "issn_l": "0967-070X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tra.2019.01.006",
     "title": "Schedule creep – In search of an uncongested baseline block time by examining scheduled flight block times worldwide 1986–2016",
     "year": 2019,
-    "venue": "Transportation Research Part A: Policy and Practice",
+    "venue": "Transportation Research Part A Policy and Practice",
     "type": "article",
     "is_oa": true,
     "oa_status": "closed",
@@ -930,13 +1117,18 @@
     "has_fulltext": false,
     "id": "airline_036",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S159637997",
+    "issn_l": "0965-8564",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tra.2018.10.005",
     "title": "Does cargo matter? The impact of air cargo operations on departure on-time performance for combination carriers",
     "year": 2019,
-    "venue": "Transportation Research Part A: Policy and Practice",
+    "venue": "Transportation Research Part A Policy and Practice",
     "type": "article",
     "is_oa": true,
     "oa_status": "green",
@@ -954,7 +1146,12 @@
     "has_fulltext": false,
     "id": "airline_037",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S159637997",
+    "issn_l": "0965-8564",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.5028/jatm.v11.977",
@@ -980,14 +1177,20 @@
     "text_source": "html:https://pure.hud.ac.uk/en/publications/the-impact-of-delays-on-customers-satisfaction-an-empirical-analy/",
     "classificado": false,
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (10305 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (10305 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S143744812",
+    "issn_l": "1984-9648",
+    "publisher": "Aerospace Technology and Science Department",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tra.2018.10.012",
     "title": "Can airfares tell? An alternative empirical strategy for airport congestion internalization",
     "year": 2018,
-    "venue": "Transportation Research Part A: Policy and Practice",
+    "venue": "Transportation Research Part A Policy and Practice",
     "type": "Review",
     "is_oa": true,
     "oa_status": "green",
@@ -1009,8 +1212,14 @@
     "text_source": "html:https://ira.lib.polyu.edu.hk/handle/10397/98293",
     "classificado": false,
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (5418 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (5418 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S159637997",
+    "issn_l": "0965-8564",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.14295/transportes.v26i2.1379",
@@ -1041,7 +1250,12 @@
      "nome"
     ],
     "citation_status": null,
-    "nota_integridade": "arquivo baixado não corresponde ao título do registro"
+    "nota_integridade": "arquivo baixado não corresponde ao título do registro",
+    "source_id": "https://openalex.org/S2737822813",
+    "issn_l": "1415-7713",
+    "publisher": "Associação Nacional de Pesquisa e Ensino em Transportes",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": null,
@@ -1087,7 +1301,12 @@
     "has_fulltext": false,
     "id": "airline_042",
     "status": "fechado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tre.2016.12.012",
@@ -1115,8 +1334,14 @@
     "text_path": "text/airline_043.txt",
     "text_source": "html:https://orbilu.uni.lu/handle/10993/36903",
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (3743 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (3743 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S173966628",
+    "issn_l": "1366-5545",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.55959/msu0130-0105-6-59-2-9",
@@ -1144,14 +1369,20 @@
     "text_path": "text/airline_044.txt",
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (3992 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (3992 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S4210233438",
+    "issn_l": "0130-0105",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1063/5.0110640",
     "title": "Aircraft routes of domestic cargo transport based on the Indonesian National Logistics System",
     "year": 2023,
-    "venue": "International Conference on Biomedical Engineering",
+    "venue": "AIP conference proceedings",
     "type": "Conference",
     "is_oa": false,
     "oa_status": "closed",
@@ -1170,7 +1401,12 @@
     "has_fulltext": false,
     "id": "airline_045",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S2764696622",
+    "issn_l": "0094-243X",
+    "publisher": "American Institute of Physics",
+    "source_type": "journal",
+    "work_type": "conference-paper"
    },
    {
     "doi": "10.1016/j.tre.2020.102186",
@@ -1194,7 +1430,12 @@
     "has_fulltext": false,
     "id": "airline_046",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S173966628",
+    "issn_l": "1366-5545",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": null,
@@ -1240,7 +1481,12 @@
     "has_fulltext": true,
     "id": "airline_048",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S4210225043",
+    "issn_l": "2619-998X",
+    "publisher": "Faculty of Agronomy in Čačak",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": null,
@@ -1280,13 +1526,19 @@
      "scholar"
     ],
     "id": "airline_050",
-    "status": "tem_texto",
+    "status": "texto_parcial",
     "classificado": false,
     "text_path": "text/airline_050.txt",
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (8837 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S80150607",
+    "issn_l": "0966-6923",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tre.2016.12.010",
@@ -1307,7 +1559,12 @@
     "id": "airline_051",
     "status": "tem_texto",
     "classificado": false,
-    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
+    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir",
+    "source_id": "https://openalex.org/S173966628",
+    "issn_l": "1366-5545",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.ijindorg.2021.102742",
@@ -1327,7 +1584,12 @@
     ],
     "id": "airline_052",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S183232449",
+    "issn_l": "0167-7187",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.3390/app122010433",
@@ -1348,7 +1610,12 @@
     ],
     "id": "airline_053",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S4210205812",
+    "issn_l": "2076-3417",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jtrangeo.2021.103260",
@@ -1369,7 +1636,12 @@
     ],
     "id": "airline_054",
     "status": "oa_antibot",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S80150607",
+    "issn_l": "0966-6923",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tra.2018.06.008",
@@ -1389,7 +1661,12 @@
     ],
     "id": "airline_055",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S159637997",
+    "issn_l": "0965-8564",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tranpol.2017.12.021",
@@ -1410,7 +1687,12 @@
     ],
     "id": "airline_056",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S186558940",
+    "issn_l": "0967-070X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1111/jbfa.12351",
@@ -1430,13 +1712,23 @@
      "scholar"
     ],
     "id": "airline_057",
-    "status": "texto_parcial",
+    "status": "tem_texto",
     "text_path": "text/airline_057.txt",
-    "text_source": "html:https://research.tilburguniversity.edu/en/publications/causal-language-intensity-in-performance-commentary-and-financial/",
+    "text_source": "PDF fornecido pelo autor (10.1111:jbfa.12351)",
     "classificado": false,
-    "passage_how": [],
+    "passage_how": [
+     "nome"
+    ],
     "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (10268 chars)"
+    "nota_integridade": "apenas página de rosto/abstract (10268 chars)",
+    "passages": [
+     "trument variable, we ran a number of tests (Harford et al., 2014). Table 5 reveals that correcting for potential simultaneity bias in this way does not affect our prior findings on the association between causal reasoning intensity and properties of analyst behaviour. Predicted causal reasoning on performance is still significantly and positively associated with analyst following and negatively with analysts’ earnings forecast dispersion. The positive association between causal reasoning intensity and forecast accuracy also remains significant14. These results indicate that the instrument is significant in explaining the endogenous variables. Secondly, we ran the weak identification test (Bendinelli et al., 2016; Docquier et al., 2008) - the Cragg-Donald Wald F statistic value in Model I, II, and III, are 111.31, 82.08, and 80.72. The null hypothesis is rejected for all three models. Therefore, we conclude that our instrument variable is not a weak instrument. Finally, we ran the Sargan test for all three Models and found that our instrument does not suffer from the overidentification problem (chi-square p-value < 0.05 in all Models). 14 The magnitude of the coefficient increases substantially. As the first stage regression only captures a portion of the variation of the explanatory variable, its This article is protected by copyright. All rights reserved. 41 6. Supplementary tests"
+    ],
+    "source_id": "https://openalex.org/S48254654",
+    "issn_l": "0306-686X",
+    "publisher": "Wiley",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.tranpol.2018.07.006",
@@ -1457,7 +1749,12 @@
     ],
     "id": "airline_058",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S186558940",
+    "issn_l": "0967-070X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1108/s2212-160920170000006014",
@@ -1478,13 +1775,23 @@
     ],
     "oa_landing": "http://books.emeraldinsight.com/page/detail/Economics-of-Airport-Operations/?k=9781787144989",
     "id": "airline_059",
-    "status": "texto_parcial",
+    "status": "tem_texto",
     "classificado": false,
     "text_path": "text/airline_059.txt",
-    "text_source": "rodada-1 (re-arquivado por DOI)",
-    "passage_how": [],
+    "text_source": "PDF fornecido pelo autor (10.1108:s2212-160920170000006014.pdf)",
+    "passage_how": [
+     "nome"
+    ],
     "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (5791 chars)"
+    "nota_integridade": "apenas página de rosto/abstract (5791 chars)",
+    "passages": [
+     "ns such as small islands can count on small catchment areas, but travelers have no real alternatives; neither inter-modal nor intra-modal. In this case, the limitedness of the market may leave space for only a few and monopolistic routes, typically toward the hub or the main base of the operating carrier. This situation may differ during holiday periods, when additional supplies provide services to tourists (by either charter or seasonal LCCs). Secondary airports, totally or partially competing with major airports, lay on the other side of the range of the market structure spectrum. They may have a marginal role unless some conditions appear, such as congestion problems at the main airport (Bendinelli, Bettini, & Oliveira, 2016) or if they allow airlines to serve the captive market without bearing the higher costs of primary airports (as Rome Ciampino/Fiumicino, Girona/Barcelona El Prat, London Luton or Stansted/Heathrow). Many air markets have expanded toward secondary airports to search for extra capacity, given congestion and delay problems that affect major airports all over the world, particularly in Europe, where increasing traffic and lack of both airport development/expansion and strong regulatory policies have worsened the problem (Madas & Zografos, 2008). Even more frequently, LCCs have used secondary airports to serve the otherwise impenetrable markets of former flag carriers,"
+    ],
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "doi": "10.1515/rne-2021-0016",
@@ -1505,7 +1812,12 @@
     ],
     "id": "airline_060",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S6772833",
+    "issn_l": "1446-9022",
+    "publisher": "De Gruyter",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jairtraman.2021.102044",
@@ -1526,7 +1838,12 @@
     ],
     "id": "airline_061",
     "status": "oa_antibot",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S99242495",
+    "issn_l": "0969-6997",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": null,
@@ -1566,7 +1883,12 @@
     ],
     "id": "airline_063",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4306501120",
+    "issn_l": null,
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "conference-paper"
    },
    {
     "doi": "10.2139/ssrn.3100261",
@@ -1587,7 +1909,12 @@
     "oa_landing": "https://doi.org/10.2139/ssrn.3100261",
     "id": "airline_064",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210172589",
+    "issn_l": "1556-5068",
+    "publisher": "RELX Group (Netherlands)",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "doi": "10.14295/transportes.v29i1.2236",
@@ -1612,7 +1939,12 @@
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "arquivo baixado não corresponde ao título do registro"
+    "nota_integridade": "arquivo baixado não corresponde ao título do registro",
+    "source_id": "https://openalex.org/S2737822813",
+    "issn_l": "1415-7713",
+    "publisher": "Associação Nacional de Pesquisa e Ensino em Transportes",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/978-3-030-71704-9_45",
@@ -1642,7 +1974,12 @@
     "nota_integridade": "apenas a lista de referências da página do capítulo; o corpo não está acessível",
     "passages": [
      "ork carriers and low cost carriers in Turkish Airline market. Procedia Soc. Behav. Sci. 207 , 642–651 (2015) Article Google Scholar M. Ball, C. Barnhart, M. Dresner, M. Hansen, K. Neels, A. Odoni, et al., Total Delay Impact Study: A Comprehensive Assessment of the Costs and Impacts of Flight Delay in the United States (Institute of Transportation Studies, University of California, Berkeley, Berkeley, 2010) Google Scholar P. Baumgarten, R. Malina, A. Lange, The impact of hubbing concentration on flight delays within airline networks: An empirical analysis of the US domestic market. Transp. Res. Part E Logistics Transp. Rev. 66 , 103–114 (2014) Article Google Scholar W.E. Bendinelli, H.F. Bettini, A.V. Oliveira, Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry. Transp. Res. A Policy Pract. 85 , 39–52 (2016) Article Google Scholar P. Berster, M.C. Gelhausen, D. Wilken, Is increasing aircraft size common practice of airlines at congested airports? J. Air Transp. Manag. 46 , 40–48 (2015) Article Google Scholar C.F. Bien, Y.F. Low, Taoyuan airport vows to improve on-time performance. Central News Agency (2016, January 14) . Retrieved from http://www.taiwannews.com.tw/en/news/2868374 S. Borenstein, J. Netz, Why do all the flights leave at 8 am?: Competition and departure-time differentiation in airline ma"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4210179641",
+    "issn_l": "2569-7072",
+    "publisher": "Springer International Publishing",
+    "source_type": "book series",
+    "work_type": "book-chapter"
    },
    {
     "doi": "10.11606/d.12.2021.tde-19012022-204119",
@@ -1670,7 +2007,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "dissertation"
    },
    {
     "doi": "10.55463/hkjss.issn.1021-3619.62.33",
@@ -1697,7 +2039,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4387287060",
+    "issn_l": "1021-3619",
+    "publisher": "Science Press",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.2139/ssrn.3253232",
@@ -1716,7 +2063,12 @@
     "oa_landing": "https://doi.org/10.2139/ssrn.3253232",
     "id": "airline_069",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210172589",
+    "issn_l": "1556-5068",
+    "publisher": "RELX Group (Netherlands)",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "id": "airline_s001",
@@ -1733,7 +2085,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "monograph",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book"
    },
    {
     "id": "airline_s002",
@@ -1782,7 +2139,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "journal-article",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": "https://openalex.org/S4210171608",
+    "issn_l": "2050-0467",
+    "publisher": "Inderscience Publishers",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "airline_s005",
@@ -1843,11 +2205,22 @@
     "src": [
      "scholar"
     ],
-    "status": "fechado",
+    "status": "aresta_falsa",
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "book-chapter",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "text_path": "text/airline_s008.txt",
+    "text_source": "PDF fornecido pelo autor (10.1108:s2212-160920170000006006.pdf)",
+    "passages": [],
+    "passage_how": [],
+    "citation_status": "not_found",
+    "nota_integridade": "PDF completo obtido e verificado (passou no portão de título); o sobrenome não aparece nenhuma vez no texto nem na bibliografia. A aresta de citação do índice é falsa.",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "id": "airline_s009",
@@ -1902,7 +2275,7 @@
     "doi": "10.33119/sip.2025.201.2",
     "title": "Ryzyko biznesowe w pasażerskim lotnictwie cywilnym – w poszukiwaniu źródeł niestabilności sektora",
     "year": "2025",
-    "venue": "Studia i Prace Kolegium Zarządzania i Finansów",
+    "venue": "Studia i Prace Kolegium Zarządzania i Finansów / Szkoła Główna Handlowa",
     "oa_status": null,
     "is_oa": null,
     "src": [
@@ -1920,7 +2293,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4306531060",
+    "issn_l": "1234-8872",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "airline_s013",
@@ -1937,7 +2315,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "journal-article",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": "https://openalex.org/S4210172589",
+    "issn_l": "1556-5068",
+    "publisher": "RELX Group (Netherlands)",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "id": "airline_s014",
@@ -1958,8 +2341,14 @@
     "text_path": "text/airline_s014.txt",
     "text_source": "html:https://drum.lib.umd.edu/items/ad733ddf-a5ff-47a4-9e9b-eb4004a0c5fc",
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (3059 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (3059 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S4306401518",
+    "issn_l": null,
+    "publisher": "University of Maryland, College Park",
+    "source_type": "repository",
+    "work_type": "dissertation"
    },
    {
     "id": "airline_s015",
@@ -1993,7 +2382,12 @@
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "book-chapter",
     "resolved_by": "crossref",
-    "nota_integridade": "Page Unavailable no Springer"
+    "nota_integridade": "Page Unavailable no Springer",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "id": "airline_s017",
@@ -2010,7 +2404,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "journal-article",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": "https://openalex.org/S4210172589",
+    "issn_l": "1556-5068",
+    "publisher": "RELX Group (Netherlands)",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "id": "airline_s018",
@@ -2159,13 +2558,18 @@
     "text_source": "html:https://link.springer.com/article/10.1007/s00217-026-05237-y?error=cookies_not_supported&code=f6a04ab1-736c-47a3-ab4b-ce80543d3c1f",
     "passages": [],
     "passage_how": [],
-    "citation_status": "bibliography_only"
+    "citation_status": "bibliography_only",
+    "source_id": "https://openalex.org/S169454776",
+    "issn_l": "0373-0174",
+    "publisher": "Springer Science+Business Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/s41348-026-01320-4",
     "title": "Imaging technologies for non-invasive detection of insect pest infestations in stored food grains: a review",
     "year": 2026,
-    "venue": "Journal of plant diseases and protection",
+    "venue": "Journal of Plant Diseases and Protection",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "closed",
@@ -2189,7 +2593,12 @@
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo",
+    "source_id": "https://openalex.org/S158730009",
+    "issn_l": "1861-3829",
+    "publisher": "Springer Science+Business Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1108/dta-08-2024-0806",
@@ -2213,7 +2622,12 @@
     "has_fulltext": false,
     "id": "grains_003",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S152623109",
+    "issn_l": "0033-0337",
+    "publisher": "Emerald Publishing Limited",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.clfs.2026.100028",
@@ -2237,7 +2651,12 @@
     "has_fulltext": false,
     "id": "grains_004",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S5407050711",
+    "issn_l": "3050-8355",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.64026/jssf/2026006",
@@ -2264,7 +2683,12 @@
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "arquivo baixado não corresponde ao título do registro"
+    "nota_integridade": "arquivo baixado não corresponde ao título do registro",
+    "source_id": "https://openalex.org/S7407057635",
+    "issn_l": "3104-4654",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1155/aia/5730172",
@@ -2289,7 +2713,12 @@
     "has_fulltext": true,
     "id": "grains_006",
     "status": "oa_antibot",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210240776",
+    "issn_l": "2314-7539",
+    "publisher": "Hindawi Publishing Corporation",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1155/aia/3910210",
@@ -2313,7 +2742,12 @@
     "has_fulltext": true,
     "id": "grains_007",
     "status": "oa_antibot",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210240776",
+    "issn_l": "2314-7539",
+    "publisher": "Hindawi Publishing Corporation",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.18805/ag.d-6397",
@@ -2343,7 +2777,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S2764562560",
+    "issn_l": "0253-150X",
+    "publisher": "Agricultural Research Communication Center",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.3389/fsufs.2025.1560865",
@@ -2376,13 +2815,18 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4210212157",
+    "issn_l": "2571-581X",
+    "publisher": "Frontiers Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.47941/ijhss.2771",
     "title": "Association between Household Socio-Demographic Factors and Postharvest Management Technologies Use for Grains in Dodoma Region, Tanzania",
     "year": 2025,
-    "venue": "International journal of humanities and social sciences",
+    "venue": "International Journal of Humanity and Social Sciences",
     "type": "JournalArticle",
     "is_oa": true,
     "oa_status": "diamond",
@@ -2397,7 +2841,12 @@
     "has_fulltext": true,
     "id": "grains_010",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4389157608",
+    "issn_l": "3005-5407",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/s42690-025-01511-w",
@@ -2421,14 +2870,19 @@
     "openalex": "https://openalex.org/W4410439592",
     "has_fulltext": false,
     "id": "grains_011",
-    "status": "tem_texto",
+    "status": "evidencia_insuficiente",
     "classificado": false,
     "text_path": "text/grains_011.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s42690-025-01511-w?error=cookies_not_supported&code=abfaa708-fadf-4c3f-9334-70e5122b2808",
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo",
+    "source_id": "https://openalex.org/S6691161",
+    "issn_l": "1742-7584",
+    "publisher": "Springer Nature",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jspr.2025.102547",
@@ -2453,7 +2907,12 @@
     "has_fulltext": false,
     "id": "grains_012",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S85016161",
+    "issn_l": "0022-474X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jspr.2025.102611",
@@ -2478,7 +2937,12 @@
     "has_fulltext": true,
     "id": "grains_013",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S85016161",
+    "issn_l": "0022-474X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1002/fes3.70086",
@@ -2503,13 +2967,18 @@
     "has_fulltext": true,
     "id": "grains_014",
     "status": "oa_antibot",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S2736865700",
+    "issn_l": "2048-3694",
+    "publisher": "Wiley",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.47836/ifrj.32.2.05",
     "title": "Ensuring food security: Strategies for insect pest detection in storage - A review",
     "year": 2025,
-    "venue": "International food research journal",
+    "venue": "International Food Research Journal",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "bronze",
@@ -2535,7 +3004,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S2765030195",
+    "issn_l": "2231-7546",
+    "publisher": "University of Putra Malaysia",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.58567/rea03040001",
@@ -2560,7 +3034,12 @@
     "has_fulltext": true,
     "id": "grains_016",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S4387286453",
+    "issn_l": "2972-3515",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.foodchem.2024.142637",
@@ -2589,8 +3068,14 @@
     "text_path": "text/grains_017.txt",
     "text_source": "html:https://pubmed.ncbi.nlm.nih.gov/39752738/",
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (8584 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (8584 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S98026630",
+    "issn_l": "0308-8146",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1080/19315260.2024.2392551",
@@ -2615,13 +3100,18 @@
     "has_fulltext": false,
     "id": "grains_018",
     "status": "fechado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S180041405",
+    "issn_l": "1548-1689",
+    "publisher": "Taylor & Francis",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.51470/plantarchives.2024.v24.sp-gabels.029",
     "title": "TESTING THE EFFECT OF HERBAL POWDERS ON GRAIN PARAMETERS IN STORED WHEAT IN THE PRESENCE OF SITOPHILUS ORYZAE UNDER FREE CHOICE",
     "year": 2024,
-    "venue": "Plant Archives",
+    "venue": "PLANT ARCHIVES",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "bronze",
@@ -2644,13 +3134,18 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S11973042",
+    "issn_l": "0972-5210",
+    "publisher": "Dr. R.S. Yadav",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.17221/221/2023-agricecon",
     "title": "Subsidy policies for the grain supply chain considering postharvest loss of grain and agricultural pollutant emission in China",
     "year": 2024,
-    "venue": "Agricultural Economics-zemedelska Ekonomika",
+    "venue": "Agricultural Economics (Zemědělská ekonomika)",
     "type": "JournalArticle",
     "is_oa": true,
     "oa_status": "gold",
@@ -2669,7 +3164,12 @@
     "has_fulltext": false,
     "id": "grains_020",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S980556082",
+    "issn_l": "0139-570X",
+    "publisher": "Czech Academy of Agricultural Sciences",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.jspr.2024.102288",
@@ -2694,13 +3194,18 @@
     "has_fulltext": false,
     "id": "grains_021",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S85016161",
+    "issn_l": "0022-474X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1080/15325008.2024.2316257",
     "title": "Modeling and Control of an Indirect Solar Dryer in Forced Convection Mode Using System Identification and Model Predictive Control",
     "year": 2024,
-    "venue": "Electric power components and systems",
+    "venue": "Electric Power Components and Systems",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "closed",
@@ -2718,14 +3223,27 @@
     "openalex": "https://openalex.org/W4392123393",
     "has_fulltext": false,
     "id": "grains_022",
-    "status": "fechado",
-    "classificado": false
+    "status": "tem_texto",
+    "classificado": false,
+    "text_path": "text/grains_022.txt",
+    "text_source": "PDF fornecido pelo autor (10.1080:15325008.2024.2316257)",
+    "passages": [
+     "mplementation process HUMAN AND ANIMAL RIGHTS 6. CONCLUSION In conclusion, the proposed system successfully demonstrated the superior efficiency of an indirect solar dryer with forced convection mode, substantiated by compelling numerical results. The comparative assessment of three No violation of Human and Animal Rights is involved. FUNDING No funding is involved in this work. Rafiq et al.: Modeling and Control of an Indirect Solar Dryer in Forced Convection Mode Using System Identification and Model Predictive Control 827 DATA AVAILABILITY STATEMENT Data sharing not applicable to this article as no datasets were generated or analyzed during the current study. REFERENCES 0[1] W. E. Bendinelli, C. T. Su, T. G. P�era, and J. V. Caixeta Filho, “What are the main factors that determine post-harvest losses of grains,” Sustain. Prod. Consump., vol. 21, pp. 228–238, 2020. DOI: 10.1016/j.spc.2019.09.002. 0[2] G. V. Barbosa-C�anovas and P. Juliano, “Desorption phenomena in food dehydration processes,” in Water Activity Foods: fundamentals Applications. Ames, IA: Blackwell Publishing, 2020, pp. 425–452. 0[3] N. A. Safri et al., “Current status of solar-assisted greenhouse drying systems for drying industry (food materials and agricultural crops),” Trends Food Sci. Technol., vol. 114, pp. 633–657, 2021. DOI: 10.1016/j.tifs.2021.05.035. 0[4] V. K. Chauhan, S. K. Shukla, J. V. Tirkey, and P."
+    ],
+    "passage_how": [
+     "nome"
+    ],
+    "source_id": "https://openalex.org/S37096616",
+    "issn_l": "1532-5008",
+    "publisher": "Taylor & Francis",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1080/09718524.2023.2273153",
     "title": "Assessing gendered impacts of post-harvest technologies in Northern Ghana: gender equity and food security",
     "year": 2023,
-    "venue": "Gender, Technology and Development",
+    "venue": "Gender Technology and Development",
     "type": "JournalArticle",
     "is_oa": true,
     "oa_status": "hybrid",
@@ -2744,13 +3262,18 @@
     "has_fulltext": true,
     "id": "grains_023",
     "status": "oa_antibot",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S110812003",
+    "issn_l": "0971-8524",
+    "publisher": "Taylor & Francis",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1038/s43247-023-01062-3",
     "title": "Nearly half of the world is suitable for diversified farming for sustainable intensification",
     "year": 2023,
-    "venue": "Communications Earth &amp; Environment",
+    "venue": "Communications Earth & Environment",
     "type": "JournalArticle",
     "is_oa": true,
     "oa_status": "gold",
@@ -2774,13 +3297,18 @@
     "text_source": "reverificacao:https://www.nature.com/articles/s43247-023-01062-3.pdf?error=cookies_not_supported&code=db9ad687-86a3-4c09-babf-1aa7984d8bc1",
     "passages": [],
     "passage_how": [],
-    "citation_status": "bibliography_only"
+    "citation_status": "bibliography_only",
+    "source_id": "https://openalex.org/S4210221880",
+    "issn_l": "2662-4435",
+    "publisher": "Nature Portfolio",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1080/23311932.2023.2247178",
     "title": "Subsidy strategies of grain supply chain considering stakeholder efforts on post-harvest loss reduction and pollution emission reduction",
     "year": 2023,
-    "venue": "Cogent Food &amp; Agriculture",
+    "venue": "Cogent Food & Agriculture",
     "type": "JournalArticle",
     "is_oa": true,
     "oa_status": "diamond",
@@ -2799,13 +3327,18 @@
     "has_fulltext": false,
     "id": "grains_025",
     "status": "oa_antibot",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S2764637833",
+    "issn_l": "2331-1932",
+    "publisher": "Cogent OA",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1088/1755-1315/1253/1/012001",
     "title": "Toxicity and chemical compounds of Piper aduncum fruit extract against storage pest Sitophilus oryzae and Callosobruchus maculatus",
     "year": 2023,
-    "venue": "IOP Conference Series: Earth and Environment",
+    "venue": "IOP Conference Series Earth and Environmental Science",
     "type": "JournalArticle",
     "is_oa": true,
     "oa_status": "diamond",
@@ -2828,14 +3361,20 @@
     "text_path": "text/grains_026.txt",
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (4890 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (4890 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S4210195883",
+    "issn_l": "1755-1315",
+    "publisher": "IOP Publishing",
+    "source_type": "conference",
+    "work_type": "conference-paper"
    },
    {
     "doi": "10.1111/jfpe.14456",
     "title": "Postharvest engineering: Effects of drying and storage operations on the quality of processed soybeans",
     "year": 2023,
-    "venue": "Journal of food process engineering",
+    "venue": "Journal of Food Process Engineering",
     "type": "JournalArticle",
     "is_oa": false,
     "oa_status": "closed",
@@ -2854,7 +3393,12 @@
     "has_fulltext": false,
     "id": "grains_027",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S151747869",
+    "issn_l": "0145-8876",
+    "publisher": "Wiley",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.susoc.2023.04.003",
@@ -2880,7 +3424,12 @@
     "id": "grains_028",
     "status": "tem_texto",
     "classificado": false,
-    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
+    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir",
+    "source_id": "https://openalex.org/S4210180919",
+    "issn_l": "2666-4127",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1002/est2.461",
@@ -2904,7 +3453,12 @@
     "has_fulltext": true,
     "id": "grains_029",
     "status": "oa_antibot",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210199075",
+    "issn_l": "2578-4862",
+    "publisher": "Wiley",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1108/afr-06-2022-0076",
@@ -2929,7 +3483,12 @@
     "has_fulltext": false,
     "id": "grains_030",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S19383905",
+    "issn_l": "0002-1466",
+    "publisher": "Emerald Publishing Limited",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.3390/su142013352",
@@ -2954,13 +3513,18 @@
     "has_fulltext": true,
     "id": "grains_031",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S10134376",
+    "issn_l": "2071-1050",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.2139/ssrn.4193379",
     "title": "Food Loss and Waste from Farm to Gate in Brazilian Soybean Production",
     "year": 2022,
-    "venue": "Social Science Research Network",
+    "venue": "SSRN Electronic Journal",
     "type": "article",
     "is_oa": true,
     "oa_status": "gold",
@@ -2979,7 +3543,12 @@
     "has_fulltext": true,
     "id": "grains_032",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210172589",
+    "issn_l": "1556-5068",
+    "publisher": "RELX Group (Netherlands)",
+    "source_type": "repository",
+    "work_type": "preprint"
    },
    {
     "doi": "10.1590/s0102-0536-20220313",
@@ -3013,7 +3582,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S75515220",
+    "issn_l": "0102-0536",
+    "publisher": "Associação Brasileira de Olericultura",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.compag.2022.106936",
@@ -3038,7 +3612,12 @@
     "has_fulltext": false,
     "id": "grains_034",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S116775814",
+    "issn_l": "0168-1699",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.3390/agriculture12040465",
@@ -3063,7 +3642,12 @@
     "has_fulltext": false,
     "id": "grains_035",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S4210202585",
+    "issn_l": "2077-0472",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/s12571-022-01259-y",
@@ -3088,7 +3672,12 @@
     "has_fulltext": true,
     "id": "grains_036",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S73449225",
+    "issn_l": "1876-4517",
+    "publisher": "Springer Science+Business Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/s42853-022-00130-4",
@@ -3119,7 +3708,12 @@
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo",
+    "source_id": "https://openalex.org/S4210231410",
+    "issn_l": "1738-1266",
+    "publisher": "Springer Science+Business Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.3390/agriculture11111147",
@@ -3144,7 +3738,12 @@
     "has_fulltext": false,
     "id": "grains_038",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S4210202585",
+    "issn_l": "2077-0472",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.3390/agriculture11090877",
@@ -3169,7 +3768,12 @@
     "has_fulltext": false,
     "id": "grains_039",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210202585",
+    "issn_l": "2077-0472",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.spc.2021.08.004",
@@ -3194,7 +3798,12 @@
     "has_fulltext": false,
     "id": "grains_040",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S2764749963",
+    "issn_l": "2352-5509",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "review"
    },
    {
     "doi": "10.1016/j.biocontrol.2021.104568",
@@ -3219,7 +3828,12 @@
     "has_fulltext": false,
     "id": "grains_041",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S161676133",
+    "issn_l": "1049-9644",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.24203/ajafs.v9i2.6615",
@@ -3243,13 +3857,18 @@
     "has_fulltext": true,
     "id": "grains_042",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S2764681313",
+    "issn_l": "2321-1571",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/s10668-021-01314-2",
     "title": "Assessing drivers of post-harvest losses: tangible and intangible resources’ perspective",
     "year": 2021,
-    "venue": "Environment, Development and Sustainability",
+    "venue": "Environment Development and Sustainability",
     "type": "article",
     "is_oa": false,
     "oa_status": "closed",
@@ -3267,14 +3886,19 @@
     "openalex": "https://openalex.org/W3137290043",
     "has_fulltext": false,
     "id": "grains_043",
-    "status": "tem_texto",
+    "status": "evidencia_insuficiente",
     "classificado": false,
     "text_path": "text/grains_043.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s10668-021-01314-2?error=cookies_not_supported&code=e1694804-6ec6-4f53-b98d-715c83e52654",
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo",
+    "source_id": "https://openalex.org/S155209994",
+    "issn_l": "1387-585X",
+    "publisher": "Springer Science+Business Media",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.26898/0370-8799-2020-4-11",
@@ -3303,7 +3927,12 @@
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passages": [],
     "passage_how": [],
-    "citation_status": "bibliography_only"
+    "citation_status": "bibliography_only",
+    "source_id": "https://openalex.org/S4210220883",
+    "issn_l": "0370-8799",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1051/e3sconf/202017505005",
@@ -3327,7 +3956,12 @@
     "has_fulltext": true,
     "id": "grains_045",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210186093",
+    "issn_l": "2267-1242",
+    "publisher": "EDP Sciences",
+    "source_type": "journal",
+    "work_type": "conference-paper"
    },
    {
     "doi": "10.1051/shsconf/202521601068",
@@ -3352,13 +3986,18 @@
     "has_fulltext": true,
     "id": "grains_046",
     "status": "oa_bloqueado",
-    "classificado": true
+    "classificado": true,
+    "source_id": "https://openalex.org/S4210202797",
+    "issn_l": "2261-2424",
+    "publisher": "EDP Sciences",
+    "source_type": "journal",
+    "work_type": "conference-paper"
    },
    {
     "doi": "10.4236/as.2022.139061",
     "title": "Grain Hermetic Storage Adoption in Northern Uganda: Awareness, Use, and the Constraints to Technology Adoption",
     "year": 2022,
-    "venue": "Agricultural Science",
+    "venue": "Agricultural Sciences",
     "type": "article",
     "is_oa": true,
     "oa_status": "diamond",
@@ -3384,7 +4023,12 @@
     ],
     "passage_how": [
      "num[17]"
-    ]
+    ],
+    "source_id": "https://openalex.org/S2764731291",
+    "issn_l": "2156-8553",
+    "publisher": "Scientific Research Publishing",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": null,
@@ -3428,13 +4072,18 @@
     "has_fulltext": true,
     "id": "grains_049",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4210186093",
+    "issn_l": "2267-1242",
+    "publisher": "EDP Sciences",
+    "source_type": "journal",
+    "work_type": "conference-paper"
    },
    {
     "doi": "10.1007/978-981-16-3791-9_8",
     "title": "Modeling the Causes of Post-harvest Loss in the Agri-Food Supply Chain to Achieve Sustainable Development Goals: An ISM Approach",
     "year": 2021,
-    "venue": "Challenges and Opportunities of Circular Economy in Agri-Food Sector",
+    "venue": "Environmental footprints and eco-design of products and processes",
     "type": "book-chapter",
     "is_oa": false,
     "oa_status": "closed",
@@ -3452,14 +4101,19 @@
     "openalex": "https://openalex.org/W3200135532",
     "has_fulltext": false,
     "id": "grains_050",
-    "status": "texto_parcial",
+    "status": "evidencia_insuficiente",
     "classificado": false,
     "text_path": "text/grains_050.txt",
     "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-16-3791-9_8?error=cookies_not_supported&code=e7a26918-8153-4822-b4c4-7723651acaa9",
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do capítulo, 12.503 caracteres"
+    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo",
+    "source_id": "https://openalex.org/S4210170043",
+    "issn_l": "2345-7651",
+    "publisher": "Springer Nature",
+    "source_type": "book series",
+    "work_type": "book-chapter"
    },
    {
     "doi": "10.35633/inmateh-62-14",
@@ -3488,8 +4142,14 @@
     "text_source": "html:https://inmateh.eu/volumes/volume-62--no3--2020/62-14-dumitru-oana-food-losses-in-primary-cereal-production-a-review/",
     "classificado": true,
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (2663 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (2663 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S2764873327",
+    "issn_l": "2068-2239",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.igd.2023.100108",
@@ -3514,7 +4174,12 @@
     "has_fulltext": false,
     "id": "grains_052",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4387283849",
+    "issn_l": "2949-7531",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/j.compag.2021.106405",
@@ -3535,7 +4200,12 @@
     ],
     "id": "grains_053",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S116775814",
+    "issn_l": "0168-1699",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "review"
    },
    {
     "doi": "10.1002/bse.3191",
@@ -3555,8 +4225,21 @@
      "scholar"
     ],
     "id": "grains_054",
-    "status": "oa_antibot",
-    "classificado": false
+    "status": "tem_texto",
+    "classificado": false,
+    "text_path": "text/grains_054.txt",
+    "text_source": "PDF fornecido pelo autor (10.1002:bse.3191)",
+    "passages": [
+     "option challenges' contextual interrelationship and hierarchical structure? Food is one of the most critical requirements of human life, and the RQ3: What is the causal relationship and intensity of the CE chal- supply chain plays an essential role in providing food, whether it is lenges, and how does it help ensure sustainable consumption and unprocessed (vegetables, grains, fruits, etc.) or processed food from production? farmers/producers to consumers (Chkanikova & Sroufe, 2021; Wang et al., 2021). Feeding the world's rising population is the point of concern for the supply chain, and the FSC sees pressure to provide safe 1.2 | Research objective and secure food to all people (Bendinelli et al., 2020). In food production, processing, and huge distribution, food waste is associated, and The following objectives are set to achieve in this study: the wastage of food raises several environmental, social, and economic concerns. Food wastage is associated with a large environmen- RO1: To explore the CE adoption challenges Indian FSC to ensure tal impact that is directly dumped into the landfills without recovering SCP. and reusing. According to UN food waste, one-third of the produced RO2: To investigate the interrelationship and hierarchical structure edible food gets wasted, and around one-third of our population does for the CE adoption challenges in FSC. not get foo"
+    ],
+    "passage_how": [
+     "nome"
+    ],
+    "source_id": "https://openalex.org/S205793605",
+    "issn_l": "0964-4733",
+    "publisher": "Wiley",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1016/bs.hesagr.2022.03.001",
@@ -3577,7 +4260,12 @@
     ],
     "id": "grains_055",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S4685533",
+    "issn_l": "1574-0072",
+    "publisher": "Elsevier BV",
+    "source_type": "book series",
+    "work_type": "book-chapter"
    },
    {
     "doi": "10.1007/978-981-97-2795-7_12",
@@ -3597,14 +4285,19 @@
      "scholar"
     ],
     "id": "grains_056",
-    "status": "tem_texto",
+    "status": "evidencia_insuficiente",
     "classificado": false,
     "text_path": "text/grains_056.txt",
     "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-97-2795-7_12?error=cookies_not_supported&code=f40ab68e-d086-40b3-a2a8-b15a8f47c45a",
     "passages": [],
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo"
+    "nota_integridade": "página de rosto do publisher: lista de referências sem o corpo",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "doi": "10.1016/j.jspr.2022.101941",
@@ -3625,7 +4318,12 @@
     ],
     "id": "grains_057",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "source_id": "https://openalex.org/S85016161",
+    "issn_l": "0022-474X",
+    "publisher": "Elsevier BV",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.18378/rvads.v18i2.9586",
@@ -3649,7 +4347,12 @@
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passages": [],
     "passage_how": [],
-    "citation_status": "not_found"
+    "citation_status": "not_found",
+    "source_id": "https://openalex.org/S2737542012",
+    "issn_l": "1981-8203",
+    "publisher": "Grupo Verde de Agroecologia e Abelhas (GVAA)",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "doi": "10.1007/978-3-030-98067-2_172-1",
@@ -3675,7 +4378,12 @@
     "text_source": "html:https://link.springer.com/rwe/10.1007/978-3-030-98067-2_172-1?error=cookies_not_supported&code=6e5ce4e0-28e3-42a9-8731-447ad7689648",
     "passages": [],
     "passage_how": [],
-    "citation_status": "bibliography_only"
+    "citation_status": "bibliography_only",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "doi": "10.1007/978-3-031-06562-0_11",
@@ -3701,7 +4409,12 @@
     "text_source": "html:https://link.springer.com/chapter/10.1007/978-3-031-06562-0_11?error=cookies_not_supported&code=46bea422-bd11-463e-94ab-e45c9aa7f329",
     "passages": [],
     "passage_how": [],
-    "citation_status": "bibliography_only"
+    "citation_status": "bibliography_only",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "doi": "10.46632/rmc/2/4/29",
@@ -3725,7 +4438,12 @@
     "text_source": "reverificacao:https://restpublisher.com/wp-content/uploads/2023/01/5-Post-harvest-losses-in-Indian-maize-amid-increasing-food-insecurity-Analysis-using-TOPSIS-method.pdf",
     "passages": [],
     "passage_how": [],
-    "citation_status": "bibliography_only"
+    "citation_status": "bibliography_only",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "article"
    },
    {
     "doi": "10.31713/mcit.2024.073",
@@ -3749,8 +4467,14 @@
     "text_source": "html:https://mcitjournal.org.ua/index.php/MCIT/en/article/view/459",
     "classificado": false,
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (3589 chars)"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (3589 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S4210183068",
+    "issn_l": "2707-1030",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s001",
@@ -3763,11 +4487,22 @@
     "src": [
      "scholar"
     ],
-    "status": "fechado",
+    "status": "aresta_falsa",
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "journal-article",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "text_path": "text/grains_s001.txt",
+    "text_source": "PDF fornecido pelo autor (10.1080:14620316.2022.2091488)",
+    "passages": [],
+    "passage_how": [],
+    "citation_status": "not_found",
+    "nota_integridade": "PDF completo obtido e verificado (passou no portão de título); o sobrenome não aparece nenhuma vez no texto nem na bibliografia. A aresta de citação do índice é falsa.",
+    "source_id": "https://openalex.org/S55420515",
+    "issn_l": "1462-0316",
+    "publisher": "Taylor & Francis",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s002",
@@ -3792,7 +4527,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S2764816705",
+    "issn_l": "2305-6622",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s003",
@@ -3813,8 +4553,14 @@
     "text_path": "text/grains_s003.txt",
     "text_source": "html:https://link.springer.com/article/10.1007/s43621-026-04167-9?error=cookies_not_supported&code=aba559c6-61f1-48aa-a521-457e4cf0b80f",
     "passage_how": [],
-    "citation_status": null,
-    "nota_integridade": "página de rosto, 5.736 caracteres"
+    "citation_status": "not_found",
+    "nota_integridade": "apenas página de rosto/abstract (8070 chars)",
+    "passages": [],
+    "source_id": "https://openalex.org/S4210179043",
+    "issn_l": "2662-9984",
+    "publisher": "Springer Nature",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s004",
@@ -3863,7 +4609,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "journal-article",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": "https://openalex.org/S149838422",
+    "issn_l": "1741-5357",
+    "publisher": "Inderscience Publishers",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s007",
@@ -3880,7 +4631,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "book-chapter",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "id": "grains_s008",
@@ -3921,7 +4677,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S2764816705",
+    "issn_l": "2305-6622",
+    "publisher": null,
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s010",
@@ -3938,7 +4699,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "journal-article",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": "https://openalex.org/S117574551",
+    "issn_l": "1744-7550",
+    "publisher": "Inderscience Publishers",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s011",
@@ -3955,7 +4721,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "journal-article",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": "https://openalex.org/S199825796",
+    "issn_l": "0883-8542",
+    "publisher": "American Society of Agricultural and Biological Engineers",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s012",
@@ -4028,7 +4799,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": "https://openalex.org/S4210234216",
+    "issn_l": "0856-1761",
+    "publisher": "African Journals OnLine",
+    "source_type": "journal",
+    "work_type": "article"
    },
    {
     "id": "grains_s016",
@@ -4053,7 +4829,12 @@
     ],
     "passage_how": [
      "nome"
-    ]
+    ],
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "dissertation"
    },
    {
     "id": "grains_s017",
@@ -4086,7 +4867,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "book-chapter",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "book-chapter"
    },
    {
     "id": "grains_s019",
@@ -4103,7 +4889,12 @@
     "classificado": false,
     "nota": "título truncado pelo Scholar; sem DOI conhecido",
     "type": "dissertation",
-    "resolved_by": "crossref"
+    "resolved_by": "crossref",
+    "source_id": null,
+    "issn_l": null,
+    "publisher": null,
+    "source_type": null,
+    "work_type": "dissertation"
    },
    {
     "id": "grains_s020",

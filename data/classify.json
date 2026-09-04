@@ -1771,5 +1771,115 @@
    "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.jatrs.2024.100013",
    "codebook": "METHOD.md@v1"
   }
+ },
+ "10.1007/s40305-020-00306-9": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Journal of the Operations Research Society of China. Atribui ao artigo a evidência empírica que sustenta a hipótese de internalização, com o mecanismo correto.",
+  "passages": [
+   "Empirical evidence in support of the internalization hypothesis was offered by Ref. [11], which showed that flight delays are lower at highly concentrated airports, where the dominant carrier is likely to internalize much of the congestion it creates, thus limiting its extent."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "59df97d1535526f3",
+   "evidence_kind": "passagem literal",
+   "source": "PDF fornecido pelo autor · PDF fornecido pelo autor (10.1007:s40305-020-00306-9.pdf)",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1080/03081060.2020.1701706": {
+  "role": "wrongly_interpreted",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "misattribution",
+  "note": "Transportation Planning and Technology. Afirma que o artigo REVISOU trabalhos recentes sobre precificação de congestionamento aeroportuário. O artigo não é revisão e não trata de precificação: é estudo empírico de atraso e entrada de LCC. Quarta atribuição incorreta do conjunto.",
+  "passages": [
+   "Bendinelli, Bettini, and Oliveira (2016), Czerny and Zhang (2014b) and Zhang and Czerny (2012) have reviewed recent work about airport congestion pricing."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "b821d7e70d65474a",
+   "evidence_kind": "passagem literal",
+   "source": "PDF fornecido pelo autor · PDF fornecido pelo autor (10.1080:03081060.2020.1701706)",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1111/jbfa.12351": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "method_adoption"
+  ],
+  "flag": "best",
+  "note": "Journal of Business Finance & Accounting. Cita o artigo como referência do teste de identificação fraca (Cragg-Donald Wald F) aplicado no próprio modelo. É adoção de método atravessando campo: transporte para finanças e contabilidade.",
+  "passages": [
+   "Secondly, we ran the weak identification test (Bendinelli et al., 2016; Docquier et al., 2008) — the Cragg-Donald Wald F statistic value in Model I, II, and III, are 111.31, 82.08, and 80.72. The null hypothesis is rejected for all three models."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "2c6f69f1fc5edae5",
+   "evidence_kind": "passagem literal",
+   "source": "PDF fornecido pelo autor · PDF fornecido pelo autor (10.1111:jbfa.12351)",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1108/s2212-160920170000006014": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Capítulo de Advances in Airline Economics. Usa o artigo para a condição sob a qual aeroporto secundário deixa de ter papel marginal: congestionamento no aeroporto principal.",
+  "passages": [
+   "Secondary airports … may have a marginal role unless some conditions appear, such as congestion problems at the main airport (Bendinelli, Bettini, & Oliveira, 2016)."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "5a5eec0f4b39c9ab",
+   "evidence_kind": "passagem literal",
+   "source": "PDF fornecido pelo autor · PDF fornecido pelo autor (10.1108:s2212-160920170000006014.pdf)",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1080/15325008.2024.2316257": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Electric Power Components and Systems. Resume corretamente método e objeto: modelo econométrico com painel global relacionando condições macroeconômicas e perdas pós-colheita das principais culturas de grão.",
+  "passages": [
+   "[1]. Utilizing an econometric model with global panel data, the research explores the intricate relationship between macroeconomic conditions and post-harvest losses for major grain crops."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "1a7e68a49fa19470",
+   "evidence_kind": "passagem literal",
+   "source": "PDF fornecido pelo autor · PDF fornecido pelo autor (10.1080:15325008.2024.2316257)",
+   "codebook": "METHOD.md@v1"
+  }
+ },
+ "10.1002/bse.3191": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Business Strategy and the Environment. Sustenta a premissa de pressão sobre a cadeia para prover alimento seguro à população crescente.",
+  "passages": [
+   "Feeding the world's rising population is the point of concern for the supply chain, and the FSC sees pressure to provide safe and secure food to all people (Bendinelli et al., 2020)."
+  ],
+  "prov": {
+   "coded_at": "2026-09-04",
+   "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+   "evidence_sha256_16": "5f68e27ed9151e32",
+   "evidence_kind": "passagem literal",
+   "source": "PDF fornecido pelo autor · PDF fornecido pelo autor (10.1002:bse.3191)",
+   "codebook": "METHOD.md@v1"
+  }
  }
 }

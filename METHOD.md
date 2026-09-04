@@ -162,3 +162,37 @@ justamente nos veículos menores, então **as taxas sob esta população são ma
 favoráveis do que sob o inventário completo**; e "editora estabelecida" é proxy grosso
 para relevância — um critério mais defensável seria indexação em Scopus ou Web of
 Science com quartil, se a análise final exigir.
+
+## Tier de periódico: proxy declarado, não quartil oficial
+
+`data/journals.json` guarda, para cada um dos 93 periódicos citantes, os metadados do
+OpenAlex: ISSN-L, editora, país, tipo, acesso aberto, DOAJ, h-index, contagem de obras
+e `2yr_mean_citedness` (proxy de fator de impacto).
+
+O campo `tier_proxy` aplica cortes **declarados** sobre a citedness de 2 anos:
+T1 ≥ 6,0 · T2 ≥ 3,5 · T3 ≥ 2,0 · T4 < 2,0.
+
+**Isto não é quartil Scimago nem JCR.** O Scimago responde 403 a qualquer coleta
+automatizada; o quartil oficial teria de ser importado à mão. A métrica bruta está
+gravada ao lado do tier justamente para que a troca seja substituir uma coluna.
+
+Três limitações que precisam ser ditas ao usar:
+
+1. **Não é normalizado por área.** Um corte absoluto favorece campos de citação
+   rápida. Comparar aviação com agronomia por este tier é comparar réguas diferentes.
+2. **Periódico novo distorce.** *Journal of the Air Transport Research Society* sai
+   como T1 com citedness 9,0 e h-index 20 — a janela de 2 anos é instável em
+   periódico recém-lançado.
+3. **Repositório não é periódico.** SSRN, arXiv e RePEc recebem T4 por terem
+   citedness baixa, o que não diz nada sobre qualidade. Eles já ficam fora da
+   população do estudo pelo filtro de tipo de documento.
+
+## Citações em documento de política pública
+
+Nenhuma foi detectada. Os tipos de documento citante, pelo OpenAlex, são: 112 artigo,
+11 capítulo de livro, 10 preprint, 6 anais, 4 tese, 2 revisão, 1 livro — e 29 sem DOI.
+**Zero do tipo `report`**, que é como relatório institucional aparece.
+
+Isso não prova ausência: grafos de citação acadêmicos cobrem mal documento de política.
+A base que cobre é a Overton, que é paga. Uma verificação manual dirigida aos
+repositórios de FAO, Banco Mundial, OCDE, Embrapa e CONAB seria o caminho barato.

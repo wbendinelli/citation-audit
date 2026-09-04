@@ -1,0 +1,2302 @@
+{
+ "https://openalex.org/S110812003": {
+  "id": "https://openalex.org/S110812003",
+  "nome": "Gender Technology and Development",
+  "issn_l": "0971-8524",
+  "issn": [
+   "0971-8524",
+   "0973-0656",
+   "1940-1175"
+  ],
+  "editora": "Taylor & Francis",
+  "pais": "IN",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 47,
+  "citedness_2a": 2.2037037037037037,
+  "i10": 264,
+  "works": 1090,
+  "areas": [
+   "ICT Impact and Policies",
+   "Gender Politics and Representation",
+   "Agricultural Innovations and Practices"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S143744812": {
+  "id": "https://openalex.org/S143744812",
+  "nome": "Journal of Aerospace Technology and Management",
+  "issn_l": "1984-9648",
+  "issn": [
+   "1984-9648",
+   "2175-9146"
+  ],
+  "editora": "Aerospace Technology and Science Department",
+  "pais": "BR",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 34,
+  "citedness_2a": 0.8818897637795275,
+  "i10": 208,
+  "works": 804,
+  "areas": [
+   "Rocket and propulsion systems research",
+   "Spacecraft Design and Technology",
+   "Energetic Materials and Combustion"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S117574551": {
+  "id": "https://openalex.org/S117574551",
+  "nome": "International Journal of Postharvest Technology and Innovation",
+  "issn_l": "1744-7550",
+  "issn": [
+   "1744-7550",
+   "1744-7569"
+  ],
+  "editora": "Inderscience Publishers",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 18,
+  "citedness_2a": 0.24193548387096775,
+  "i10": 40,
+  "works": 358,
+  "areas": [
+   "Postharvest Quality and Shelf Life Management",
+   "Plant Physiology and Cultivation Studies",
+   "Nanocomposite Films for Food Packaging"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S116775814": {
+  "id": "https://openalex.org/S116775814",
+  "nome": "Computers and Electronics in Agriculture",
+  "issn_l": "0168-1699",
+  "issn": [
+   "0168-1699",
+   "1872-7107"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 222,
+  "citedness_2a": 10.373452346674345,
+  "i10": 7346,
+  "works": 11165,
+  "areas": [
+   "Smart Agriculture and AI",
+   "Remote Sensing in Agriculture",
+   "Spectroscopy and Chemometric Analyses"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S10134376": {
+  "id": "https://openalex.org/S10134376",
+  "nome": "Sustainability",
+  "issn_l": "2071-1050",
+  "issn": [
+   "2071-1050"
+  ],
+  "editora": "Multidisciplinary Digital Publishing Institute",
+  "pais": "CH",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 301,
+  "citedness_2a": 5.451401273885351,
+  "i10": 57529,
+  "works": 109066,
+  "areas": [
+   "Environmental Sustainability in Business",
+   "Energy, Environment, Economic Growth",
+   "Sustainable Supply Chain Management"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S11973042": {
+  "id": "https://openalex.org/S11973042",
+  "nome": "PLANT ARCHIVES",
+  "issn_l": "0972-5210",
+  "issn": [
+   "0972-5210",
+   "2581-6063"
+  ],
+  "editora": "Dr. R.S. Yadav",
+  "pais": "IN",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 21,
+  "citedness_2a": 0.15722222222222224,
+  "i10": 115,
+  "works": 6557,
+  "areas": [
+   "Agricultural Science and Fertilization",
+   "Agricultural Economics and Practices",
+   "Genetics and Plant Breeding"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S149838422": {
+  "id": "https://openalex.org/S149838422",
+  "nome": "International Journal of Value Chain Management",
+  "issn_l": "1741-5357",
+  "issn": [
+   "1741-5357",
+   "1741-5365"
+  ],
+  "editora": "Inderscience Publishers",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 22,
+  "citedness_2a": 0.14634146341463414,
+  "i10": 62,
+  "works": 455,
+  "areas": [
+   "Quality and Supply Management",
+   "Sustainable Supply Chain Management",
+   "Supply Chain Resilience and Risk Management"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S151747869": {
+  "id": "https://openalex.org/S151747869",
+  "nome": "Journal of Food Process Engineering",
+  "issn_l": "0145-8876",
+  "issn": [
+   "0145-8876",
+   "1745-4530"
+  ],
+  "editora": "Wiley",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 84,
+  "citedness_2a": 2.773109243697479,
+  "i10": 2295,
+  "works": 5013,
+  "areas": [
+   "Food Drying and Modeling",
+   "Microencapsulation and Drying Processes",
+   "Microbial Inactivation Methods"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S15239247": {
+  "id": "https://openalex.org/S15239247",
+  "nome": "International Journal of Environmental Research and Public Health",
+  "issn_l": "1660-4601",
+  "issn": [
+   "1660-4601",
+   "1661-7827"
+  ],
+  "editora": "Multidisciplinary Digital Publishing Institute",
+  "pais": "CH",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 321,
+  "citedness_2a": 3.4842982268745994,
+  "i10": 42822,
+  "works": 66606,
+  "areas": [
+   "COVID-19 and Mental Health",
+   "Obesity, Physical Activity, Diet",
+   "Air Quality and Health Impacts"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S152623109": {
+  "id": "https://openalex.org/S152623109",
+  "nome": "Data Technologies and Applications",
+  "issn_l": "0033-0337",
+  "issn": [
+   "0033-0337",
+   "1758-7301",
+   "2514-9288",
+   "2514-9318"
+  ],
+  "editora": "Emerald Publishing Limited",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 49,
+  "citedness_2a": 1.8666666666666667,
+  "i10": 412,
+  "works": 1922,
+  "areas": [
+   "Library Collection Development and Digital Resources",
+   "Library Science and Information Systems",
+   "Web and Library Services"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S155209994": {
+  "id": "https://openalex.org/S155209994",
+  "nome": "Environment Development and Sustainability",
+  "issn_l": "1387-585X",
+  "issn": [
+   "1387-585X",
+   "1573-2975"
+  ],
+  "editora": "Springer Science+Business Media",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 136,
+  "citedness_2a": 4.657782515991471,
+  "i10": 4255,
+  "works": 9224,
+  "areas": [
+   "Energy, Environment, Economic Growth",
+   "Environmental Impact and Sustainability",
+   "Environmental Sustainability in Business"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S158730009": {
+  "id": "https://openalex.org/S158730009",
+  "nome": "Journal of Plant Diseases and Protection",
+  "issn_l": "1861-3829",
+  "issn": [
+   "1861-3829",
+   "1861-3837",
+   "2948-264X",
+   "2948-2658"
+  ],
+  "editora": "Springer Science+Business Media",
+  "pais": "DE",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 56,
+  "citedness_2a": 3.082890541976621,
+  "i10": 672,
+  "works": 2288,
+  "areas": [
+   "Plant Pathogens and Fungal Diseases",
+   "Plant-Microbe Interactions and Immunity",
+   "Insect Pest Control Strategies"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S159637997": {
+  "id": "https://openalex.org/S159637997",
+  "nome": "Transportation Research Part A Policy and Practice",
+  "issn_l": "0965-8564",
+  "issn": [
+   "0965-8564",
+   "1879-2375"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 211,
+  "citedness_2a": 4.690978886756238,
+  "i10": 3520,
+  "works": 5639,
+  "areas": [
+   "Transportation Planning and Optimization",
+   "Urban Transport and Accessibility",
+   "Transportation and Mobility Innovations"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S161676133": {
+  "id": "https://openalex.org/S161676133",
+  "nome": "Biological Control",
+  "issn_l": "1049-9644",
+  "issn": [
+   "1049-9644",
+   "1090-2112"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 157,
+  "citedness_2a": 3.7027027027027026,
+  "i10": 4190,
+  "works": 5849,
+  "areas": [
+   "Insect-Plant Interactions and Control",
+   "Plant-Microbe Interactions and Immunity",
+   "Biological Control of Invasive Species"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S169454776": {
+  "id": "https://openalex.org/S169454776",
+  "nome": "European Food Research and Technology",
+  "issn_l": "0373-0174",
+  "issn": [
+   "0373-0174",
+   "1438-2377",
+   "1438-2385"
+  ],
+  "editora": "Springer Science+Business Media",
+  "pais": "DE",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 154,
+  "citedness_2a": 3.4745762711864407,
+  "i10": 6355,
+  "works": 26848,
+  "areas": [
+   "Fermentation and Sensory Analysis",
+   "Phytochemicals and Antioxidant Activities",
+   "Meat and Animal Product Quality"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S173966628": {
+  "id": "https://openalex.org/S173966628",
+  "nome": "Transportation Research Part E Logistics and Transportation Review",
+  "issn_l": "1366-5545",
+  "issn": [
+   "1366-5545",
+   "1878-5794"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 188,
+  "citedness_2a": 8.226158038147139,
+  "i10": 3101,
+  "works": 4578,
+  "areas": [
+   "Transportation Planning and Optimization",
+   "Vehicle Routing Optimization Methods",
+   "Transportation and Mobility Innovations"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S180041405": {
+  "id": "https://openalex.org/S180041405",
+  "nome": "International Journal of Vegetable Science",
+  "issn_l": "1548-1689",
+  "issn": [
+   "1548-1689",
+   "1548-1697",
+   "1931-5260",
+   "1931-5279"
+  ],
+  "editora": "Taylor & Francis",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 36,
+  "citedness_2a": 2.268965517241379,
+  "i10": 308,
+  "works": 991,
+  "areas": [
+   "Growth and nutrition in plants",
+   "Agricultural Practices and Plant Genetics",
+   "Agronomic Practices and Intercropping Systems"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S183232449": {
+  "id": "https://openalex.org/S183232449",
+  "nome": "International Journal of Industrial Organization",
+  "issn_l": "0167-7187",
+  "issn": [
+   "0167-7187",
+   "1873-7986"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 152,
+  "citedness_2a": 2.2346368715083798,
+  "i10": 1597,
+  "works": 2731,
+  "areas": [
+   "Merger and Competition Analysis",
+   "Consumer Market Behavior and Pricing",
+   "Digital Platforms and Economics"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S186558940": {
+  "id": "https://openalex.org/S186558940",
+  "nome": "Transport Policy",
+  "issn_l": "0967-070X",
+  "issn": [
+   "0967-070X",
+   "1879-310X"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 167,
+  "citedness_2a": 5.306703397612488,
+  "i10": 2590,
+  "works": 4174,
+  "areas": [
+   "Urban Transport and Accessibility",
+   "Transportation Planning and Optimization",
+   "Transportation and Mobility Innovations"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S19383905": {
+  "id": "https://openalex.org/S19383905",
+  "nome": "Agricultural Finance Review",
+  "issn_l": "0002-1466",
+  "issn": [
+   "0002-1466",
+   "2041-6326"
+  ],
+  "editora": "Emerald Publishing Limited",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 51,
+  "citedness_2a": 1.6623376623376624,
+  "i10": 379,
+  "works": 769,
+  "areas": [
+   "Agricultural risk and resilience",
+   "Agricultural Economics and Policy",
+   "Microfinance and Financial Inclusion"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S196734849": {
+  "id": "https://openalex.org/S196734849",
+  "nome": "Scientific Reports",
+  "issn_l": "2045-2322",
+  "issn": [
+   "2045-2322"
+  ],
+  "editora": "Nature Portfolio",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 464,
+  "citedness_2a": 4.9923904715469805,
+  "i10": 170628,
+  "works": 311405,
+  "areas": [
+   "Cancer-related molecular mechanisms research",
+   "MicroRNA in disease regulation",
+   "Gut microbiota and health"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S205793605": {
+  "id": "https://openalex.org/S205793605",
+  "nome": "Business Strategy and the Environment",
+  "issn_l": "0964-4733",
+  "issn": [
+   "0964-4733",
+   "1099-0836"
+  ],
+  "editora": "Wiley",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 239,
+  "citedness_2a": 8.433393339333934,
+  "i10": 2826,
+  "works": 5215,
+  "areas": [
+   "Environmental Sustainability in Business",
+   "Sustainable Supply Chain Management",
+   "Corporate Social Responsibility Reporting"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S199825796": {
+  "id": "https://openalex.org/S199825796",
+  "nome": "Applied Engineering in Agriculture",
+  "issn_l": "0883-8542",
+  "issn": [
+   "0883-8542",
+   "1943-7838"
+  ],
+  "editora": "American Society of Agricultural and Biological Engineers",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 73,
+  "citedness_2a": 1.242603550295858,
+  "i10": 1406,
+  "works": 3915,
+  "areas": [
+   "Soil Mechanics and Vehicle Dynamics",
+   "Irrigation Practices and Water Management",
+   "Agricultural Engineering and Mechanization"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2736865700": {
+  "id": "https://openalex.org/S2736865700",
+  "nome": "Food and Energy Security",
+  "issn_l": "2048-3694",
+  "issn": [
+   "2048-3694"
+  ],
+  "editora": "Wiley",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 64,
+  "citedness_2a": 4.353887399463807,
+  "i10": 389,
+  "works": 918,
+  "areas": [
+   "Rice Cultivation and Yield Improvement",
+   "Climate change impacts on agriculture",
+   "Agricultural Innovations and Practices"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2737542012": {
+  "id": "https://openalex.org/S2737542012",
+  "nome": "Revista Verde de Agroecologia e Desenvolvimento Sustentável",
+  "issn_l": "1981-8203",
+  "issn": [
+   "1981-8203"
+  ],
+  "editora": "Grupo Verde de Agroecologia e Abelhas (GVAA)",
+  "pais": "BR",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 18,
+  "citedness_2a": 0.4090909090909091,
+  "i10": 52,
+  "works": 1278,
+  "areas": [
+   "Growth and nutrition in plants",
+   "Agricultural and Food Sciences",
+   "Soil Management and Crop Yield"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2737822813": {
+  "id": "https://openalex.org/S2737822813",
+  "nome": "Transportes",
+  "issn_l": "1415-7713",
+  "issn": [
+   "1415-7713",
+   "2237-1346"
+  ],
+  "editora": "Associação Nacional de Pesquisa e Ensino em Transportes",
+  "pais": "BR",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 15,
+  "citedness_2a": 0.32051282051282054,
+  "i10": 36,
+  "works": 1006,
+  "areas": [
+   "Infrastructure Maintenance and Monitoring",
+   "Transportation Planning and Optimization",
+   "Urban Transport and Accessibility"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764562560": {
+  "id": "https://openalex.org/S2764562560",
+  "nome": "Agricultural Science Digest - A Research Journal",
+  "issn_l": "0253-150X",
+  "issn": [
+   "0253-150X",
+   "0976-0547"
+  ],
+  "editora": "Agricultural Research Communication Center",
+  "pais": "IN",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 15,
+  "citedness_2a": 0.2801664355062413,
+  "i10": 44,
+  "works": 1901,
+  "areas": [
+   "Agricultural Science and Fertilization",
+   "Agricultural Economics and Practices",
+   "Rice Cultivation and Yield Improvement"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764681313": {
+  "id": "https://openalex.org/S2764681313",
+  "nome": "Asian Journal of Agriculture and Food Sciences",
+  "issn_l": "2321-1571",
+  "issn": [
+   "2321-1571"
+  ],
+  "editora": null,
+  "pais": "IN",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 12,
+  "citedness_2a": 0.0,
+  "i10": 17,
+  "works": 268,
+  "areas": [
+   "Agricultural Innovations and Practices",
+   "Animal Nutrition and Physiology",
+   "African Botany and Ecology Studies"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764696622": {
+  "id": "https://openalex.org/S2764696622",
+  "nome": "AIP conference proceedings",
+  "issn_l": "0094-243X",
+  "issn": [
+   "0094-243X",
+   "1551-7616",
+   "1935-0465"
+  ],
+  "editora": "American Institute of Physics",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 128,
+  "citedness_2a": 0.48561529998361386,
+  "i10": 15128,
+  "works": 282775,
+  "areas": [
+   "Particle physics theoretical and experimental studies",
+   "Quantum Chromodynamics and Particle Interactions",
+   "Particle accelerators and beam dynamics"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764749963": {
+  "id": "https://openalex.org/S2764749963",
+  "nome": "Sustainable Production and Consumption",
+  "issn_l": "2352-5509",
+  "issn": [
+   "2352-5509"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 136,
+  "citedness_2a": 12.503410641200546,
+  "i10": 1737,
+  "works": 2264,
+  "areas": [
+   "Sustainable Supply Chain Management",
+   "Environmental Impact and Sustainability",
+   "Environmental Sustainability in Business"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764731291": {
+  "id": "https://openalex.org/S2764731291",
+  "nome": "Agricultural Sciences",
+  "issn_l": "2156-8553",
+  "issn": [
+   "2156-8553",
+   "2156-8561"
+  ],
+  "editora": "Scientific Research Publishing",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 46,
+  "citedness_2a": 0.6531531531531531,
+  "i10": 451,
+  "works": 1744,
+  "areas": [
+   "Agronomic Practices and Intercropping Systems",
+   "Soil Carbon and Nitrogen Dynamics",
+   "Rice Cultivation and Yield Improvement"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764637833": {
+  "id": "https://openalex.org/S2764637833",
+  "nome": "Cogent Food & Agriculture",
+  "issn_l": "2331-1932",
+  "issn": [
+   "2331-1932"
+  ],
+  "editora": "Cogent OA",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 69,
+  "citedness_2a": 3.2609090909090908,
+  "i10": 828,
+  "works": 2358,
+  "areas": [
+   "Agricultural Innovations and Practices",
+   "Food composition and properties",
+   "Agricultural risk and resilience"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764779785": {
+  "id": "https://openalex.org/S2764779785",
+  "nome": "Research in Transportation Business & Management",
+  "issn_l": "2210-5395",
+  "issn": [
+   "2210-5395",
+   "2210-5409"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 69,
+  "citedness_2a": 2.8369565217391304,
+  "i10": 697,
+  "works": 1573,
+  "areas": [
+   "Maritime Ports and Logistics",
+   "Urban and Freight Transport Logistics",
+   "Transportation Planning and Optimization"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764816705": {
+  "id": "https://openalex.org/S2764816705",
+  "nome": "International Journal of Agriculture and Biosciences",
+  "issn_l": "2305-6622",
+  "issn": [
+   "2305-6622",
+   "2306-3599"
+  ],
+  "editora": null,
+  "pais": "NG",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 19,
+  "citedness_2a": 1.019197207678883,
+  "i10": 59,
+  "works": 1264,
+  "areas": [
+   "Zoonotic diseases and public health",
+   "Animal Nutrition and Physiology",
+   "Animal Disease Management and Epidemiology"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764873327": {
+  "id": "https://openalex.org/S2764873327",
+  "nome": "INMATEH Agricultural Engineering",
+  "issn_l": "2068-2239",
+  "issn": [
+   "2068-2239",
+   "2068-4215"
+  ],
+  "editora": null,
+  "pais": "RO",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 24,
+  "citedness_2a": 1.2486979166666667,
+  "i10": 130,
+  "works": 1807,
+  "areas": [
+   "Soil Mechanics and Vehicle Dynamics",
+   "Agricultural Engineering and Mechanization",
+   "Smart Agriculture and AI"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2764888454": {
+  "id": "https://openalex.org/S2764888454",
+  "nome": "Journal of the Operations Research Society of China",
+  "issn_l": "2194-668X",
+  "issn": [
+   "2194-668X",
+   "2194-6698"
+  ],
+  "editora": "Springer Science+Business Media",
+  "pais": "DE",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 27,
+  "citedness_2a": 0.9494949494949495,
+  "i10": 113,
+  "works": 709,
+  "areas": [
+   "Advanced Optimization Algorithms Research",
+   "Sparse and Compressive Sensing Techniques",
+   "Optimization and Variational Analysis"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2765030195": {
+  "id": "https://openalex.org/S2765030195",
+  "nome": "International Food Research Journal",
+  "issn_l": "2231-7546",
+  "issn": [
+   "2231-7546"
+  ],
+  "editora": "University of Putra Malaysia",
+  "pais": "MY",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 64,
+  "citedness_2a": 1.4545454545454546,
+  "i10": 881,
+  "works": 2167,
+  "areas": [
+   "Phytochemicals and Antioxidant Activities",
+   "Food composition and properties",
+   "Meat and Animal Product Quality"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S2898237991": {
+  "id": "https://openalex.org/S2898237991",
+  "nome": "Economics of Transportation",
+  "issn_l": "2212-0122",
+  "issn": [
+   "2212-0122",
+   "2212-0130"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 37,
+  "citedness_2a": 4.311475409836065,
+  "i10": 137,
+  "works": 295,
+  "areas": [
+   "Transportation Planning and Optimization",
+   "Aviation Industry Analysis and Trends",
+   "Transport and Economic Policies"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S31748134": {
+  "id": "https://openalex.org/S31748134",
+  "nome": "Industrial Marketing Management",
+  "issn_l": "0019-8501",
+  "issn": [
+   "0019-8501",
+   "1873-2062"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 243,
+  "citedness_2a": 7.8671328671328675,
+  "i10": 3774,
+  "works": 5392,
+  "areas": [
+   "Customer Service Quality and Loyalty",
+   "Innovation and Knowledge Management",
+   "Business Strategy and Innovation"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210170043": {
+  "id": "https://openalex.org/S4210170043",
+  "nome": "Environmental footprints and eco-design of products and processes",
+  "issn_l": "2345-7651",
+  "issn": [
+   "2345-7651",
+   "2345-766X"
+  ],
+  "editora": "Springer Nature",
+  "pais": "SG",
+  "tipo": "book series",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 30,
+  "citedness_2a": 0.8114754098360656,
+  "i10": 179,
+  "works": 1024,
+  "areas": [
+   "Sustainable Supply Chain Management",
+   "Environmental Impact and Sustainability",
+   "Environmental Sustainability in Business"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210171608": {
+  "id": "https://openalex.org/S4210171608",
+  "nome": "International Journal of Sustainable Aviation",
+  "issn_l": "2050-0467",
+  "issn": [
+   "2050-0467",
+   "2050-0475"
+  ],
+  "editora": "Inderscience Publishers",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 14,
+  "citedness_2a": 0.4423076923076923,
+  "i10": 24,
+  "works": 440,
+  "areas": [
+   "Advanced Aircraft Design and Technologies",
+   "Aviation Industry Analysis and Trends",
+   "Air Traffic Management and Optimization"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210172589": {
+  "id": "https://openalex.org/S4210172589",
+  "nome": "SSRN Electronic Journal",
+  "issn_l": "1556-5068",
+  "issn": [
+   "1556-5068"
+  ],
+  "editora": "RELX Group (Netherlands)",
+  "pais": "US",
+  "tipo": "repository",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 448,
+  "citedness_2a": 0.2041949171737916,
+  "i10": 108054,
+  "works": 1672516,
+  "areas": [
+   "Corporate Finance and Governance",
+   "Financial Markets and Investment Strategies",
+   "Banking stability, regulation, efficiency"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S37096616": {
+  "id": "https://openalex.org/S37096616",
+  "nome": "Electric Power Components and Systems",
+  "issn_l": "1532-5008",
+  "issn": [
+   "1532-5008",
+   "1532-5016"
+  ],
+  "editora": "Taylor & Francis",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 72,
+  "citedness_2a": 6.042944785276074,
+  "i10": 1293,
+  "works": 3196,
+  "areas": [
+   "Microgrid Control and Optimization",
+   "Optimal Power Flow Distribution",
+   "Power System Optimization and Stability"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210179043": {
+  "id": "https://openalex.org/S4210179043",
+  "nome": "Discover Sustainability",
+  "issn_l": "2662-9984",
+  "issn": [
+   "2662-9984"
+  ],
+  "editora": "Springer Nature",
+  "pais": "CH",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 54,
+  "citedness_2a": 4.487435959990242,
+  "i10": 662,
+  "works": 4266,
+  "areas": [
+   "Environmental Sustainability in Business",
+   "Energy, Environment, Economic Growth",
+   "Sustainable Supply Chain Management"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210179641": {
+  "id": "https://openalex.org/S4210179641",
+  "nome": "Transactions on computational science and computational intelligence",
+  "issn_l": "2569-7072",
+  "issn": [
+   "2569-7072",
+   "2569-7080"
+  ],
+  "editora": "Springer International Publishing",
+  "pais": "CH",
+  "tipo": "book series",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 17,
+  "citedness_2a": 1.1818181818181819,
+  "i10": 31,
+  "works": 509,
+  "areas": [
+   "IoT and Edge/Fog Computing",
+   "Big Data and Business Intelligence",
+   "Advanced Malware Detection Techniques"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210180919": {
+  "id": "https://openalex.org/S4210180919",
+  "nome": "Sustainable Operations and Computers",
+  "issn_l": "2666-4127",
+  "issn": [
+   "2666-4127"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "CN",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 35,
+  "citedness_2a": 5.786885245901639,
+  "i10": 77,
+  "works": 146,
+  "areas": [
+   "Sustainable Supply Chain Management",
+   "Supply Chain and Inventory Management",
+   "Energy, Environment, Economic Growth"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210183068": {
+  "id": "https://openalex.org/S4210183068",
+  "nome": "Modeling Control and Information Technologies",
+  "issn_l": "2707-1030",
+  "issn": [
+   "2707-1030",
+   "2707-1049"
+  ],
+  "editora": null,
+  "pais": "UA",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 5,
+  "citedness_2a": 0.16334661354581673,
+  "i10": 2,
+  "works": 492,
+  "areas": [
+   "Military Technology and Strategies",
+   "Legal and Regulatory Analysis",
+   "Linguistic, Cultural, and Literary Studies"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210186093": {
+  "id": "https://openalex.org/S4210186093",
+  "nome": "E3S Web of Conferences",
+  "issn_l": "2267-1242",
+  "issn": [
+   "2267-1242",
+   "2555-0403"
+  ],
+  "editora": "EDP Sciences",
+  "pais": "FR",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 60,
+  "citedness_2a": 1.040456026058632,
+  "i10": 3836,
+  "works": 62410,
+  "areas": [
+   "Industrial Engineering and Technologies",
+   "Building Energy and Comfort Optimization",
+   "Engineering and Environmental Studies"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210195883": {
+  "id": "https://openalex.org/S4210195883",
+  "nome": "IOP Conference Series Earth and Environmental Science",
+  "issn_l": "1755-1315",
+  "issn": [
+   "1755-1315",
+   "1755-1307"
+  ],
+  "editora": "IOP Publishing",
+  "pais": "GB",
+  "tipo": "conference",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 77,
+  "citedness_2a": 0.6015395064523432,
+  "i10": 7921,
+  "works": 125051,
+  "areas": [
+   "Food and Agricultural Sciences",
+   "Geological and Geophysical Studies",
+   "Food Industry and Aquatic Biology"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210202585": {
+  "id": "https://openalex.org/S4210202585",
+  "nome": "Agriculture",
+  "issn_l": "2077-0472",
+  "issn": [
+   "2077-0472"
+  ],
+  "editora": "Multidisciplinary Digital Publishing Institute",
+  "pais": "CH",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 129,
+  "citedness_2a": 4.806584362139918,
+  "i10": 5386,
+  "works": 14113,
+  "areas": [
+   "Smart Agriculture and AI",
+   "Soil Carbon and Nitrogen Dynamics",
+   "Soil Mechanics and Vehicle Dynamics"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210202797": {
+  "id": "https://openalex.org/S4210202797",
+  "nome": "SHS Web of Conferences",
+  "issn_l": "2261-2424",
+  "issn": [
+   "2261-2424",
+   "2416-5182"
+  ],
+  "editora": "EDP Sciences",
+  "pais": "FR",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 44,
+  "citedness_2a": 0.5304425304425304,
+  "i10": 611,
+  "works": 14793,
+  "areas": [
+   "Linguistics and Discourse Analysis",
+   "Educational Innovations and Challenges",
+   "Educational Methods and Teacher Development"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210205812": {
+  "id": "https://openalex.org/S4210205812",
+  "nome": "Applied Sciences",
+  "issn_l": "2076-3417",
+  "issn": [
+   "2076-3417"
+  ],
+  "editora": "Multidisciplinary Digital Publishing Institute",
+  "pais": "CH",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 227,
+  "citedness_2a": 3.879127725856698,
+  "i10": 32011,
+  "works": 92258,
+  "areas": [
+   "Rock Mechanics and Modeling",
+   "Infrastructure Maintenance and Monitoring",
+   "Geotechnical Engineering and Underground Structures"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210212157": {
+  "id": "https://openalex.org/S4210212157",
+  "nome": "Frontiers in Sustainable Food Systems",
+  "issn_l": "2571-581X",
+  "issn": [
+   "2571-581X"
+  ],
+  "editora": "Frontiers Media",
+  "pais": "CH",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 108,
+  "citedness_2a": 4.217705510388437,
+  "i10": 2079,
+  "works": 5976,
+  "areas": [
+   "Agricultural Innovations and Practices",
+   "Agriculture Sustainability and Environmental Impact",
+   "Organic Food and Agriculture"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210199075": {
+  "id": "https://openalex.org/S4210199075",
+  "nome": "Energy Storage",
+  "issn_l": "2578-4862",
+  "issn": [
+   "2578-4862"
+  ],
+  "editora": "Wiley",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 44,
+  "citedness_2a": 4.058035714285714,
+  "i10": 337,
+  "works": 1434,
+  "areas": [
+   "Advanced Battery Technologies Research",
+   "Advancements in Battery Materials",
+   "Phase Change Materials Research"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210220883": {
+  "id": "https://openalex.org/S4210220883",
+  "nome": "Siberian Herald of Agricultural Science",
+  "issn_l": "0370-8799",
+  "issn": [
+   "0370-8799",
+   "2658-462X"
+  ],
+  "editora": null,
+  "pais": "RU",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 7,
+  "citedness_2a": 0.2887700534759358,
+  "i10": 3,
+  "works": 1115,
+  "areas": [
+   "Agricultural Productivity and Crop Improvement",
+   "Agriculture and Biological Studies",
+   "Animal Nutrition and Health"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210221880": {
+  "id": "https://openalex.org/S4210221880",
+  "nome": "Communications Earth & Environment",
+  "issn_l": "2662-4435",
+  "issn": [
+   "2662-4435"
+  ],
+  "editora": "Nature Portfolio",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 102,
+  "citedness_2a": 8.170731707317072,
+  "i10": 1698,
+  "works": 3988,
+  "areas": [
+   "Climate variability and models",
+   "Geology and Paleoclimatology Research",
+   "Geological and Geochemical Analysis"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210225043": {
+  "id": "https://openalex.org/S4210225043",
+  "nome": "Naucne publikacije Drzavnog univerziteta u Novom Pazaru Serija B Drustvene & humanisticke nauke",
+  "issn_l": "2619-998X",
+  "issn": [
+   "2619-998X",
+   "2620-0074"
+  ],
+  "editora": "Faculty of Agronomy in Čačak",
+  "pais": "RS",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 5,
+  "citedness_2a": 0.0,
+  "i10": 0,
+  "works": 50,
+  "areas": [
+   "Regional Development and Management Studies",
+   "Linguistics, Language Diversity, and Identity",
+   "Global Trade and Competitiveness"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210230100": {
+  "id": "https://openalex.org/S4210230100",
+  "nome": "Transportation Research Interdisciplinary Perspectives",
+  "issn_l": "2590-1982",
+  "issn": [
+   "2590-1982"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 74,
+  "citedness_2a": 2.6362876254180603,
+  "i10": 679,
+  "works": 2139,
+  "areas": [
+   "Urban Transport and Accessibility",
+   "Transportation Planning and Optimization",
+   "Transportation and Mobility Innovations"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210231410": {
+  "id": "https://openalex.org/S4210231410",
+  "nome": "Journal of Biosystems Engineering",
+  "issn_l": "1738-1266",
+  "issn": [
+   "1738-1266",
+   "2234-1862"
+  ],
+  "editora": "Springer Science+Business Media",
+  "pais": "KR",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 31,
+  "citedness_2a": 4.0,
+  "i10": 206,
+  "works": 1444,
+  "areas": [
+   "Soil Mechanics and Vehicle Dynamics",
+   "Agricultural Engineering and Mechanization",
+   "Agriculture, Soil, Plant Science"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210233438": {
+  "id": "https://openalex.org/S4210233438",
+  "nome": "Lomonosov Economics Journal",
+  "issn_l": "0130-0105",
+  "issn": [
+   "0130-0105"
+  ],
+  "editora": null,
+  "pais": "RU",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 13,
+  "citedness_2a": 0.8655913978494624,
+  "i10": 25,
+  "works": 934,
+  "areas": [
+   "Economic and Technological Developments in Russia",
+   "Legal and Regulatory Analysis",
+   "Linguistic, Cultural, and Literary Studies"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210234216": {
+  "id": "https://openalex.org/S4210234216",
+  "nome": "Tanzania Journal of Science",
+  "issn_l": "0856-1761",
+  "issn": [
+   "0856-1761",
+   "2507-7961"
+  ],
+  "editora": "African Journals OnLine",
+  "pais": "TZ",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 20,
+  "citedness_2a": 0.6683168316831684,
+  "i10": 111,
+  "works": 1164,
+  "areas": [
+   "Aquatic Ecosystems and Biodiversity",
+   "Geological and Geochemical Analysis",
+   "Heavy metals in environment"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4210240776": {
+  "id": "https://openalex.org/S4210240776",
+  "nome": "Advances in Agriculture",
+  "issn_l": "2314-7539",
+  "issn": [
+   "2314-7539",
+   "2356-654X"
+  ],
+  "editora": "Hindawi Publishing Corporation",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 34,
+  "citedness_2a": 1.4555984555984556,
+  "i10": 173,
+  "works": 584,
+  "areas": [
+   "Agricultural Innovations and Practices",
+   "Agricultural pest management studies",
+   "Agronomic Practices and Intercropping Systems"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S42468459": {
+  "id": "https://openalex.org/S42468459",
+  "nome": "The Journal of Marketing Theory and Practice",
+  "issn_l": "1069-6679",
+  "issn": [
+   "1069-6679",
+   "1944-7175"
+  ],
+  "editora": "Taylor & Francis",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 104,
+  "citedness_2a": 3.3461538461538463,
+  "i10": 696,
+  "works": 1107,
+  "areas": [
+   "Consumer Behavior in Brand Consumption and Identification",
+   "Customer Service Quality and Loyalty",
+   "Digital Marketing and Social Media"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4306400194": {
+  "id": "https://openalex.org/S4306400194",
+  "nome": "arXiv (Cornell University)",
+  "issn_l": "2331-8422",
+  "issn": [
+   "2331-8422"
+  ],
+  "editora": "Cornell University",
+  "pais": "US",
+  "tipo": "repository",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 671,
+  "citedness_2a": 0.1818396461143945,
+  "i10": 101132,
+  "works": 3213599,
+  "areas": [
+   "Particle physics theoretical and experimental studies",
+   "Astronomy and Astrophysical Research",
+   "Black Holes and Theoretical Physics"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4306401518": {
+  "id": "https://openalex.org/S4306401518",
+  "nome": "University Libraries (University of Maryland)",
+  "issn_l": null,
+  "issn": null,
+  "editora": "University of Maryland, College Park",
+  "pais": null,
+  "tipo": "repository",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 84,
+  "citedness_2a": 0.014720812182741117,
+  "i10": 865,
+  "works": 25411,
+  "areas": [
+   "Genomics and Phylogenetic Studies",
+   "Plant Pathogens and Fungal Diseases",
+   "Mycorrhizal Fungi and Plant Interactions"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4306401271": {
+  "id": "https://openalex.org/S4306401271",
+  "nome": "RePEc: Research Papers in Economics",
+  "issn_l": null,
+  "issn": null,
+  "editora": "Federal Reserve Bank of St. Louis",
+  "pais": null,
+  "tipo": "repository",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 435,
+  "citedness_2a": 0.35097493036211697,
+  "i10": 71502,
+  "works": 1530624,
+  "areas": [
+   "Monetary Policy and Economic Impact",
+   "Economic theories and models",
+   "Global Financial Crisis and Policies"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4306501120": {
+  "id": "https://openalex.org/S4306501120",
+  "nome": "AIAA AVIATION 2020 FORUM",
+  "issn_l": null,
+  "issn": null,
+  "editora": null,
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 24,
+  "citedness_2a": 0.0,
+  "i10": 117,
+  "works": 818,
+  "areas": [
+   "Fluid Dynamics and Turbulent Flows",
+   "Computational Fluid Dynamics and Aerodynamics",
+   "Aerodynamics and Acoustics in Jet Flows"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4306531060": {
+  "id": "https://openalex.org/S4306531060",
+  "nome": "Studia i Prace Kolegium Zarządzania i Finansów / Szkoła Główna Handlowa",
+  "issn_l": "1234-8872",
+  "issn": [
+   "1234-8872",
+   "2657-5620"
+  ],
+  "editora": null,
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 9,
+  "citedness_2a": 0.30864197530864196,
+  "i10": 7,
+  "works": 2083,
+  "areas": [
+   "Management and Organizational Practices",
+   "Economic and Fiscal Studies",
+   "Polish socio-economic development"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4387283849": {
+  "id": "https://openalex.org/S4387283849",
+  "nome": "Innovation and Green Development",
+  "issn_l": "2949-7531",
+  "issn": [
+   "2949-7531"
+  ],
+  "editora": "Elsevier BV",
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 49,
+  "citedness_2a": 17.116564417177916,
+  "i10": 131,
+  "works": 235,
+  "areas": [
+   "Energy, Environment, Economic Growth",
+   "Environmental Sustainability in Business",
+   "Energy, Environment, and Transportation Policies"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4387286453": {
+  "id": "https://openalex.org/S4387286453",
+  "nome": "Review of Economic Assessment",
+  "issn_l": "2972-3515",
+  "issn": [
+   "2972-3515"
+  ],
+  "editora": null,
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 5,
+  "citedness_2a": 1.0606060606060606,
+  "i10": 0,
+  "works": 53,
+  "areas": [
+   "Energy, Environment, Economic Growth",
+   "Fiscal Policy and Economic Growth",
+   "Corporate Finance and Governance"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4387289958": {
+  "id": "https://openalex.org/S4387289958",
+  "nome": "Journal of the Air Transport Research Society",
+  "issn_l": "2941-198X",
+  "issn": [
+   "2941-198X"
+  ],
+  "editora": null,
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 20,
+  "citedness_2a": 9.0,
+  "i10": 48,
+  "works": 133,
+  "areas": [
+   "Aviation Industry Analysis and Trends",
+   "Air Traffic Management and Optimization",
+   "Transportation Planning and Optimization"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4387287060": {
+  "id": "https://openalex.org/S4387287060",
+  "nome": "Hong Kong Journal of Social Sciences",
+  "issn_l": "1021-3619",
+  "issn": [
+   "1021-3619"
+  ],
+  "editora": "Science Press",
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 7,
+  "citedness_2a": 0.20967741935483872,
+  "i10": 3,
+  "works": 409,
+  "areas": [
+   "Islamic Finance and Banking Studies",
+   "SMEs Development and Digital Marketing",
+   "Technology-Enhanced Education Studies"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4389157608": {
+  "id": "https://openalex.org/S4389157608",
+  "nome": "International Journal of Humanity and Social Sciences",
+  "issn_l": "3005-5407",
+  "issn": [
+   "3005-5407"
+  ],
+  "editora": null,
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 8,
+  "citedness_2a": 1.7954545454545454,
+  "i10": 8,
+  "works": 95,
+  "areas": [
+   "Poverty, Education, and Child Welfare",
+   "HIV/AIDS Impact and Responses",
+   "Job Satisfaction and Organizational Behavior"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S4685533": {
+  "id": "https://openalex.org/S4685533",
+  "nome": "Handbook of agricultural economics",
+  "issn_l": "1574-0072",
+  "issn": [
+   "1574-0072",
+   "1875-5747"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "NL",
+  "tipo": "book series",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 33,
+  "citedness_2a": 0.0,
+  "i10": 75,
+  "works": 184,
+  "areas": [
+   "Agricultural Economics and Policy",
+   "Economics of Agriculture and Food Markets",
+   "Agricultural Innovations and Practices"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S48254654": {
+  "id": "https://openalex.org/S48254654",
+  "nome": "Journal of Business Finance &amp Accounting",
+  "issn_l": "0306-686X",
+  "issn": [
+   "0306-686X",
+   "1468-5957"
+  ],
+  "editora": "Wiley",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 149,
+  "citedness_2a": 2.391304347826087,
+  "i10": 1690,
+  "works": 3329,
+  "areas": [
+   "Corporate Finance and Governance",
+   "Auditing, Earnings Management, Governance",
+   "Financial Markets and Investment Strategies"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S5407050711": {
+  "id": "https://openalex.org/S5407050711",
+  "nome": "Cleaner Food Systems",
+  "issn_l": "3050-8355",
+  "issn": [
+   "3050-8355"
+  ],
+  "editora": "Elsevier BV",
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 3,
+  "citedness_2a": 0.6440677966101694,
+  "i10": 0,
+  "works": 59,
+  "areas": [
+   "Agriculture Sustainability and Environmental Impact",
+   "Food Waste Reduction and Sustainability",
+   "Organic Food and Agriculture"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S55420515": {
+  "id": "https://openalex.org/S55420515",
+  "nome": "The Journal of Horticultural Science and Biotechnology",
+  "issn_l": "1462-0316",
+  "issn": [
+   "1462-0316",
+   "2380-4084"
+  ],
+  "editora": "Taylor & Francis",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 77,
+  "citedness_2a": 2.9078947368421053,
+  "i10": 1726,
+  "works": 3130,
+  "areas": [
+   "Plant Physiology and Cultivation Studies",
+   "Postharvest Quality and Shelf Life Management",
+   "Horticultural and Viticultural Research"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S64511102": {
+  "id": "https://openalex.org/S64511102",
+  "nome": "Transportation Research Part C Emerging Technologies",
+  "issn_l": "0968-090X",
+  "issn": [
+   "0968-090X",
+   "1879-2359"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 235,
+  "citedness_2a": 7.585808580858086,
+  "i10": 3928,
+  "works": 5425,
+  "areas": [
+   "Transportation Planning and Optimization",
+   "Traffic control and management",
+   "Traffic Prediction and Management Techniques"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S6691161": {
+  "id": "https://openalex.org/S6691161",
+  "nome": "International Journal of Tropical Insect Science",
+  "issn_l": "1742-7584",
+  "issn": [
+   "1742-7584",
+   "1742-7592"
+  ],
+  "editora": "Springer Nature",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 59,
+  "citedness_2a": 1.0638051044083527,
+  "i10": 1176,
+  "works": 4823,
+  "areas": [
+   "Insect Pest Control Strategies",
+   "Insect-Plant Interactions and Control",
+   "Insect Resistance and Genetics"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S6772833": {
+  "id": "https://openalex.org/S6772833",
+  "nome": "Review of Network Economics",
+  "issn_l": "1446-9022",
+  "issn": [
+   "1446-9022",
+   "2194-5993"
+  ],
+  "editora": "De Gruyter",
+  "pais": "AU",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 52,
+  "citedness_2a": 0.3448275862068966,
+  "i10": 170,
+  "works": 469,
+  "areas": [
+   "Digital Platforms and Economics",
+   "ICT Impact and Policies",
+   "Merger and Competition Analysis"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S68242086": {
+  "id": "https://openalex.org/S68242086",
+  "nome": "Transportation Planning and Technology",
+  "issn_l": "0308-1060",
+  "issn": [
+   "0308-1060",
+   "1026-7840",
+   "1029-0354"
+  ],
+  "editora": "Taylor & Francis",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 65,
+  "citedness_2a": 2.2254545454545456,
+  "i10": 633,
+  "works": 1845,
+  "areas": [
+   "Transportation Planning and Optimization",
+   "Urban Transport and Accessibility",
+   "Transportation and Mobility Innovations"
+  ],
+  "tier_proxy": "T3",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S73449225": {
+  "id": "https://openalex.org/S73449225",
+  "nome": "Food Security",
+  "issn_l": "1876-4517",
+  "issn": [
+   "1876-4517",
+   "1876-4525"
+  ],
+  "editora": "Springer Science+Business Media",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 119,
+  "citedness_2a": 3.528368794326241,
+  "i10": 1011,
+  "works": 1731,
+  "areas": [
+   "Food Security and Health in Diverse Populations",
+   "Child Nutrition and Water Access",
+   "Agricultural Innovations and Practices"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S7407057635": {
+  "id": "https://openalex.org/S7407057635",
+  "nome": "Journal of Smart and Sustainable Farming",
+  "issn_l": "3104-4654",
+  "issn": [
+   "3104-4654"
+  ],
+  "editora": null,
+  "pais": null,
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 2,
+  "citedness_2a": 0.21428571428571427,
+  "i10": 0,
+  "works": 28,
+  "areas": [
+   "Smart Agriculture and AI",
+   "Remote Sensing in Agriculture",
+   "Agricultural Innovations and Practices"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S75515220": {
+  "id": "https://openalex.org/S75515220",
+  "nome": "Horticultura Brasileira",
+  "issn_l": "0102-0536",
+  "issn": [
+   "0102-0536",
+   "1806-9991"
+  ],
+  "editora": "Associação Brasileira de Olericultura",
+  "pais": "BR",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": false,
+  "h_index": 48,
+  "citedness_2a": 1.0338983050847457,
+  "i10": 1061,
+  "works": 2774,
+  "areas": [
+   "Growth and nutrition in plants",
+   "Banana Cultivation and Research",
+   "Soil Management and Crop Yield"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S80150607": {
+  "id": "https://openalex.org/S80150607",
+  "nome": "Journal of Transport Geography",
+  "issn_l": "0966-6923",
+  "issn": [
+   "0966-6923",
+   "1873-1236"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "NL",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 188,
+  "citedness_2a": 6.146620847651776,
+  "i10": 2823,
+  "works": 4686,
+  "areas": [
+   "Urban Transport and Accessibility",
+   "Transportation Planning and Optimization",
+   "Urban and Freight Transport Logistics"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S85680945": {
+  "id": "https://openalex.org/S85680945",
+  "nome": "International Journal of Environmental Science and Technology",
+  "issn_l": "1735-1472",
+  "issn": [
+   "1735-1472",
+   "1735-2630"
+  ],
+  "editora": "Springer Science+Business Media",
+  "pais": "IR",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 134,
+  "citedness_2a": 4.2543728135932035,
+  "i10": 3988,
+  "works": 7855,
+  "areas": [
+   "Adsorption and biosorption for pollutant removal",
+   "Heavy metals in environment",
+   "Advanced oxidation water treatment"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S89389284": {
+  "id": "https://openalex.org/S89389284",
+  "nome": "European Journal of Marketing",
+  "issn_l": "0309-0566",
+  "issn": [
+   "0309-0566",
+   "1758-7123"
+  ],
+  "editora": "Emerald Publishing Limited",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 233,
+  "citedness_2a": 4.9,
+  "i10": 2808,
+  "works": 3970,
+  "areas": [
+   "Consumer Behavior in Brand Consumption and Identification",
+   "Customer Service Quality and Loyalty",
+   "Digital Marketing and Social Media"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S93284759": {
+  "id": "https://openalex.org/S93284759",
+  "nome": "Journal of Business Research",
+  "issn_l": "0148-2963",
+  "issn": [
+   "0148-2963",
+   "1873-7978"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "US",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 402,
+  "citedness_2a": 10.259592326139089,
+  "i10": 9388,
+  "works": 13129,
+  "areas": [
+   "Consumer Behavior in Brand Consumption and Identification",
+   "Customer Service Quality and Loyalty",
+   "Digital Marketing and Social Media"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S85016161": {
+  "id": "https://openalex.org/S85016161",
+  "nome": "Journal of Stored Products Research",
+  "issn_l": "0022-474X",
+  "issn": [
+   "0022-474X",
+   "1879-1212"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 116,
+  "citedness_2a": 3.5408163265306123,
+  "i10": 2324,
+  "works": 4220,
+  "areas": [
+   "Insect Pest Control Strategies",
+   "Insect and Pesticide Research",
+   "Insect Resistance and Genetics"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S96305778": {
+  "id": "https://openalex.org/S96305778",
+  "nome": "Transportation Research Part B Methodological",
+  "issn_l": "0191-2615",
+  "issn": [
+   "0191-2615",
+   "1879-2367"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 228,
+  "citedness_2a": 5.724137931034483,
+  "i10": 3021,
+  "works": 4225,
+  "areas": [
+   "Transportation Planning and Optimization",
+   "Traffic control and management",
+   "Transportation and Mobility Innovations"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S98026630": {
+  "id": "https://openalex.org/S98026630",
+  "nome": "Food Chemistry",
+  "issn_l": "0308-8146",
+  "issn": [
+   "0308-8146",
+   "1873-7072"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 399,
+  "citedness_2a": 9.838271500127345,
+  "i10": 39346,
+  "works": 51994,
+  "areas": [
+   "Phytochemicals and Antioxidant Activities",
+   "Meat and Animal Product Quality",
+   "Proteins in Food Systems"
+  ],
+  "tier_proxy": "T1",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S980556082": {
+  "id": "https://openalex.org/S980556082",
+  "nome": "Agricultural Economics (Zemědělská ekonomika)",
+  "issn_l": "0139-570X",
+  "issn": [
+   "0139-570X",
+   "1805-9295"
+  ],
+  "editora": "Czech Academy of Agricultural Sciences",
+  "pais": "CZ",
+  "tipo": "journal",
+  "is_oa": true,
+  "in_doaj": true,
+  "h_index": 45,
+  "citedness_2a": 1.3692307692307693,
+  "i10": 506,
+  "works": 1791,
+  "areas": [
+   "Agricultural Economics and Policy",
+   "Global Trade and Competitiveness",
+   "Agricultural economics and policies"
+  ],
+  "tier_proxy": "T4",
+  "tier_base": "openalex 2yr_mean_citedness"
+ },
+ "https://openalex.org/S99242495": {
+  "id": "https://openalex.org/S99242495",
+  "nome": "Journal of Air Transport Management",
+  "issn_l": "0969-6997",
+  "issn": [
+   "0969-6997",
+   "1873-2089"
+  ],
+  "editora": "Elsevier BV",
+  "pais": "GB",
+  "tipo": "journal",
+  "is_oa": false,
+  "in_doaj": false,
+  "h_index": 125,
+  "citedness_2a": 4.882488479262673,
+  "i10": 1829,
+  "works": 2855,
+  "areas": [
+   "Aviation Industry Analysis and Trends",
+   "Air Traffic Management and Optimization",
+   "Transport and Economic Policies"
+  ],
+  "tier_proxy": "T2",
+  "tier_base": "openalex 2yr_mean_citedness"
+ }
+}
