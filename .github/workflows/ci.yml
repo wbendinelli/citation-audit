@@ -1,0 +1,84 @@
+# Quatro checagens, nada além disso:
+#   links     — links relativos e âncoras em todo .md + CITATION.cff
+#               (lychee, offline e determinístico; não sai da rede).
+#   checks    — pre-commit inteiro (yaml/json, ruff em tools/, actionlint,
+#               os quatro hooks locais de invariante/geração).
+#   scripts   — Python 3.12: roda audit_50_pending.py, audit_41_scimago.py
+#               --check, audit_80_report_html.py e check_data.py sobre os
+#               dados já commitados, depois exige árvore de trabalho limpa
+#               (`git status --porcelain` vazio) — é a prova de que o que
+#               está commitado é exatamente o que os scripts produzem hoje.
+#               audit_41_scimago roda só em --check porque a planilha do
+#               Scimago não é commitada (data/scimago/README.md); os outros
+#               dois rodam em modo de escrita porque a árvore limpa depois
+#               já prova a igualdade, sem precisar de um segundo modo.
+#   citation  — CITATION.cff continua schema-válido.
+#
+# Todas as actions de terceiro são fixadas por SHA (a tag vem em
+# comentário), copiadas verbatim do repositório de referência
+# interpretable-ml-lectures. Dependabot observa o ecossistema
+# github-actions e propõe os bumps.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Cancela runs supersedidos só em PR — cancelar um run de main deixa um X
+# vermelho enganoso no commit.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Confere links relativos e âncoras
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: --offline --no-progress --include-fragments "**/*.md" CITATION.cff
+          fail: true
+
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - run: pip install pre-commit
+      - name: pre-commit (lint, invariantes, geração)
+        run: pre-commit run --all-files --show-diff-on-failure
+
+  scripts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - run: python3 tools/audit_50_pending.py
+      - run: python3 tools/audit_41_scimago.py --check
+      - run: python3 tools/audit_80_report_html.py
+      - run: python3 tools/check_data.py
+      - name: Nada deve ter mudado em relação ao commitado
+        run: |
+          git status --porcelain
+          test -z "$(git status --porcelain)"
+
+  citation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: dieghernan/cff-validator@d8f85828214016ce6976e740b6e0504c0fdc4dbb # v5

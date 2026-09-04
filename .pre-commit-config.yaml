@@ -1,0 +1,63 @@
+# Checagens automáticas das regras que CONTRIBUTING.md declara em prosa.
+# Rodar localmente com: pre-commit run --all-files (pip install pre-commit)
+# CI roda os mesmos hooks no job `checks`.
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-json
+      - id: end-of-file-fixer
+        exclude: '\.(html|csv|txt)$'
+      - id: trailing-whitespace
+        # .md: espaço duplo no fim da linha é quebra de linha forçada em
+        # Markdown (ver .editorconfig) — não "corrigir".
+        exclude: '\.md$'
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.4
+    hooks:
+      - id: ruff-check
+        files: ^tools/
+        # auditlib.py, check_data.py e audit_6*.py: fora do escopo desta
+        # reorganização (outro agente edita esses arquivos em paralelo) —
+        # nunca reformatar/relintar por baixo de um trabalho em andamento.
+        # Ver a nota equivalente em ruff.toml.
+        exclude: ^tools/(auditlib|check_data|audit_6[0-9]_.*)\.py$
+      - id: ruff-format
+        files: ^tools/
+        exclude: ^tools/(auditlib|check_data|audit_6[0-9]_.*)\.py$
+
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
+
+  - repo: local
+    hooks:
+      - id: data-invariants
+        name: data/*.json satisfazem as 8 invariantes (check_data.py)
+        entry: python3 tools/check_data.py
+        language: system
+        files: ^(tools/(check_data|auditlib)\.py|data/(master|classify|classify_orfas|journals|decisoes_scimago)\.json)$
+        pass_filenames: false
+      - id: pending-generated
+        name: data/derived/*.csv batem com master+classify+journals+decisoes
+        entry: python3 tools/audit_50_pending.py --check
+        language: system
+        files: ^(tools/(audit_50_pending|auditlib)\.py|data/(master|classify|journals|decisoes_scimago)\.json|data/derived/(pendencias|sem_quartil)\.csv)$
+        pass_filenames: false
+      - id: report-generated
+        name: report/index.html bate com master+classify+journals+config
+        entry: python3 tools/audit_80_report_html.py --check
+        language: system
+        files: ^(tools/(audit_80_report_html|auditlib)\.py|data/(master|classify|journals)\.json|config\.json|report/index\.html)$
+        pass_filenames: false
+      - id: tier-rule
+        name: journals.json satisfaz a regra de tier (audit_41_scimago)
+        entry: python3 tools/audit_41_scimago.py --check
+        language: system
+        files: ^(tools/(audit_41_scimago|auditlib)\.py|data/journals\.json)$
+        pass_filenames: false

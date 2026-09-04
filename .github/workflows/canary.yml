@@ -1,0 +1,35 @@
+# Canário semanal, não-bloqueante: a mesma derivação do job `scripts` de
+# ci.yml, no Python mais novo disponível (3.x) em vez do 3.12 fixo. O
+# pipeline é stdlib pura — não há stack pinado para testar drift de
+# dependência (ver requirements.txt) — então o que este workflow vigia é
+# stdlib/sintaxe: um Python novo mudando comportamento de algo que os
+# scripts usam. Não roda em PR nem bloqueia merge; existe no próprio
+# workflow para o README poder carregar o badge dele.
+name: canary
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # semanal, junto com o job agendado do CI
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  latest-python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.x"
+      - run: python3 --version
+      - run: python3 tools/audit_50_pending.py
+      - run: python3 tools/audit_41_scimago.py --check
+      - run: python3 tools/audit_80_report_html.py
+      - run: python3 tools/check_data.py
+      - name: Nada deve ter mudado em relação ao commitado
+        run: |
+          git status --porcelain
+          test -z "$(git status --porcelain)"

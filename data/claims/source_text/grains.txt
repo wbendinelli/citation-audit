@@ -832,4 +832,3 @@ Minten, B., Reardon, T., Singh, K.M.M., Sutradhar, R., 2014. The new and changin
 Neethirajan, S., Karunakaran, C., Jayas, D.S., White, N.D.G., 2007. Detection
     techniques for stored-product insects in grain. Food Control 18, 157–162.
     http://dx.doi.org/10.1016/j.foodcont.2005.09.008.
-

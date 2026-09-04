@@ -1,0 +1,15 @@
+# Só github-actions, de propósito. O pipeline (tools/) é stdlib pura — as
+# duas únicas pins de requirements.txt (matplotlib, numpy) servem à fase 81
+# ainda não escrita, e mover pin de conteúdo é decisão deliberada de quem
+# mantém o repositório, não automação (ver CLAUDE.md) — então o ecossistema
+# pip não é observado aqui. Action desatualizada ou sem pin numa action com
+# `issues:write`/`contents:write` é o risco de cadeia de suprimentos de
+# livro-texto que este arquivo existe para prevenir.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
