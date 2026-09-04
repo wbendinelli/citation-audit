@@ -63,6 +63,19 @@ inventario / sem_doi / total: 29
 inventario / total: 176
 
 == audit_70 §funil ==
+funil / airline / desagregacao / evidencia_por_quartil / Q1: 41
+funil / airline / desagregacao / evidencia_por_quartil / Q2: 3
+funil / airline / desagregacao / evidencia_por_quartil / sem quartil: 1
+funil / airline / desagregacao / fora_editora_por_editora / Aerospace Technology and Science Department: 1
+funil / airline / desagregacao / fora_editora_por_editora / American Institute of Physics: 1
+funil / airline / desagregacao / fora_editora_por_editora / Associação Nacional de Pesquisa e Ensino em Transportes: 2
+funil / airline / desagregacao / fora_editora_por_editora / Cornell University: 3
+funil / airline / desagregacao / fora_editora_por_editora / Federal Reserve Bank of St. Louis: 2
+funil / airline / desagregacao / fora_editora_por_editora / RELX Group (Netherlands): 4
+funil / airline / desagregacao / fora_editora_por_editora / outras: 10
+funil / airline / desagregacao / sem_evidencia_por_editora / De Gruyter: 1
+funil / airline / desagregacao / sem_evidencia_por_editora / Emerald Publishing Limited: 2
+funil / airline / desagregacao / sem_evidencia_por_editora / prefixo 10.1108: 1
 funil / airline / steps / 0 / valor: 95
 funil / airline / steps / 1 / delta: -2
 funil / airline / steps / 1 / valor: 93
@@ -74,6 +87,22 @@ funil / airline / steps / 4 / delta: -2
 funil / airline / steps / 4 / valor: 49
 funil / airline / steps / 5 / delta: -4
 funil / airline / steps / 5 / valor: 45
+funil / grains / desagregacao / evidencia_por_quartil / Q1: 21
+funil / grains / desagregacao / evidencia_por_quartil / Q2: 4
+funil / grains / desagregacao / evidencia_por_quartil / Q3: 2
+funil / grains / desagregacao / evidencia_por_quartil / sem quartil: 2
+funil / grains / desagregacao / fora_editora_por_editora / African Journals OnLine: 1
+funil / grains / desagregacao / fora_editora_por_editora / Agricultural Research Communication Center: 1
+funil / grains / desagregacao / fora_editora_por_editora / EDP Sciences: 3
+funil / grains / desagregacao / fora_editora_por_editora / Inderscience Publishers: 2
+funil / grains / desagregacao / fora_editora_por_editora / outras: 20
+funil / grains / desagregacao / fora_editora_por_editora / prefixo 10.1201: 2
+funil / grains / desagregacao / fora_editora_por_editora / prefixo 10.47278: 2
+funil / grains / desagregacao / sem_evidencia_por_editora / Emerald Publishing Limited: 2
+funil / grains / desagregacao / sem_evidencia_por_editora / Hindawi Publishing Corporation: 2
+funil / grains / desagregacao / sem_evidencia_por_editora / Springer Nature: 1
+funil / grains / desagregacao / sem_evidencia_por_editora / Taylor & Francis: 1
+funil / grains / desagregacao / sem_evidencia_por_editora / Wiley: 3
 funil / grains / steps / 0 / valor: 76
 funil / grains / steps / 1 / delta: 7
 funil / grains / steps / 1 / valor: 83

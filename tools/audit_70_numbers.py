@@ -621,6 +621,27 @@ def _funil_steps(ctx, paper):
     ]
     periodico = [r for r in editora if not is_book_like(norm_doi(r["doi"]))]
     evidencia = [r for r in periodico if norm_doi(r["doi"]) in ctx.entries]
+
+    # Desagregação dos cortes do funil (pedido do waterfall do relatório):
+    # quem sai em "editora estabelecida", por editora; quem fica sem
+    # evidência, por editora; e a barra final, por quartil Scimago.
+    def _editora_nome(r):
+        src = ctx.sources.get(r.get("source_id") or "") or {}
+        return src.get("editora") or f"prefixo {doi_prefix(norm_doi(r['doi']))}"
+
+    fora_editora = [r for r in com_doi if r not in editora]
+    sem_evidencia = [r for r in periodico if r not in evidencia]
+    desagregacao = {
+        "fora_editora_por_editora": _top_k(
+            _counter_dict(_editora_nome(r) for r in fora_editora), k=6
+        ),
+        "sem_evidencia_por_editora": _counter_dict(
+            _editora_nome(r) for r in sem_evidencia
+        ),
+        "evidencia_por_quartil": _counter_dict(
+            quartil_scimago(r, ctx.sources) or "sem quartil" for r in evidencia
+        ),
+    }
     valores = [
         scholar,
         len(recs),
@@ -641,15 +662,25 @@ def _funil_steps(ctx, paper):
                 "delta": delta,
             }
         )
-    return steps, valores
+    return steps, valores, desagregacao
+
+
+def _top_k(contagem, k):
+    """Os k maiores por contagem (desempate alfabético) e o resto em `outras`."""
+    itens = sorted(contagem.items(), key=lambda kv: (-kv[1], kv[0]))
+    out = dict(itens[:k])
+    resto = sum(n for _, n in itens[k:])
+    if resto:
+        out["outras"] = resto
+    return out
 
 
 def build_funil(ctx):
     out = {}
     valores_por_paper = {}
     for paper in PAPERS:
-        steps, valores = _funil_steps(ctx, paper)
-        out[paper] = {"steps": steps}
+        steps, valores, desagregacao = _funil_steps(ctx, paper)
+        out[paper] = {"steps": steps, "desagregacao": desagregacao}
         valores_por_paper[paper] = valores
     linhas = []
     for i, (rotulo, motivo) in enumerate(FUNIL_ROTULOS):

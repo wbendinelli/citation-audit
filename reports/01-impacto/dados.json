@@ -4470,6 +4470,27 @@
  },
  "funil": {
   "airline": {
+   "desagregacao": {
+    "evidencia_por_quartil": {
+     "Q1": 41,
+     "Q2": 3,
+     "sem quartil": 1
+    },
+    "fora_editora_por_editora": {
+     "Aerospace Technology and Science Department": 1,
+     "American Institute of Physics": 1,
+     "Associação Nacional de Pesquisa e Ensino em Transportes": 2,
+     "Cornell University": 3,
+     "Federal Reserve Bank of St. Louis": 2,
+     "RELX Group (Netherlands)": 4,
+     "outras": 10
+    },
+    "sem_evidencia_por_editora": {
+     "De Gruyter": 1,
+     "Emerald Publishing Limited": 2,
+     "prefixo 10.1108": 1
+    }
+   },
    "steps": [
     {
      "delta": null,
@@ -4510,6 +4531,30 @@
    ]
   },
   "grains": {
+   "desagregacao": {
+    "evidencia_por_quartil": {
+     "Q1": 21,
+     "Q2": 4,
+     "Q3": 2,
+     "sem quartil": 2
+    },
+    "fora_editora_por_editora": {
+     "African Journals OnLine": 1,
+     "Agricultural Research Communication Center": 1,
+     "EDP Sciences": 3,
+     "Inderscience Publishers": 2,
+     "outras": 20,
+     "prefixo 10.1201": 2,
+     "prefixo 10.47278": 2
+    },
+    "sem_evidencia_por_editora": {
+     "Emerald Publishing Limited": 2,
+     "Hindawi Publishing Corporation": 2,
+     "Springer Nature": 1,
+     "Taylor & Francis": 1,
+     "Wiley": 3
+    }
+   },
    "steps": [
     {
      "delta": null,

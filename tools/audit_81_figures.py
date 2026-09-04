@@ -374,44 +374,190 @@ def _figura_pendente(paineis, figsize):
 
 @_saida("fig01_funil.png")
 def fig01_funil(D):
-    """Funil por artigo: Scholar -> inventário -> com DOI -> editora
-    estabelecida -> periódico -> evidência verificada. Bloco `funil`
-    (`audit_70 §funil`), dois painéis empilhados (um por artigo).
+    """Waterfall do funil por artigo (bloco `funil`, `audit_70 §funil`).
 
-    O passo "periódico" é a população do estudo (METHOD.md §9): é o único
-    marcado em azul; os outros cinco ficam em cinza-neutro. `funil.linhas`
-    já traz o valor + delta pré-formatado em português ("93 (-2)") -- é
-    esse texto que vai em cada barra, não um número recalculado aqui.
+    À esquerda, a cascata: o total do Scholar, cada corte como barra
+    flutuante ancorada no nível corrente (terracota = saiu, sage = entrou),
+    o nível que resta anotado sob cada corte, e a barra final (azul) com o
+    que foi lido. A linha tracejada azul marca a população do estudo
+    (METHOD.md §9: o nível depois do corte de capítulo/anais). À direita,
+    os dois desdobramentos pedidos pelo autor, do bloco
+    `funil.<artigo>.desagregacao`: quem saiu no corte de editora, por
+    editora, e o quartil Scimago de quem ficou.
+
+    Barras flutuantes são a forma do waterfall: a base de cada corte é o
+    nível corrente, nunca negativa, e o eixo y começa em zero -- é o que a
+    regra da casa checa. Cinco cores: cinza (total), terracota (corte),
+    sage (ganho), azul (o que fica / população) e cinza-claro (conectores).
     """
-    fig, eixos = plt.subplots(2, 1, figsize=SP.PAINEL)
-    linhas = D["funil"]["linhas"]
-    for ax, paper in zip(eixos, PAPERS):
+    CORTES = [
+        "Google\nScholar",
+        "duplicatas\ne ruído",
+        "sem DOI",
+        "fora de editora\nestabelecida",
+        "capítulo, anais\nou preprint",
+        "sem evidência\nverificada",
+        "com evidência\nverificada",
+    ]
+    fig = plt.figure(figsize=SP.PAINEL)
+    gs = fig.add_gridspec(
+        2,
+        2,
+        width_ratios=[2.85, 1.5],
+        wspace=0.30,
+        hspace=0.50,
+        left=0.055,
+        right=0.985,
+        top=0.95,
+        bottom=0.075,
+    )
+    for row, paper in enumerate(PAPERS):
         steps = D["funil"][paper]["steps"]
         assert steps[4]["rotulo"].startswith("Periódico"), (
             "ordem do funil mudou em dados.json"
         )
-        x = np.arange(len(steps))
-        valores = [s["valor"] for s in steps]
-        cores = [SP.AZUL if i == 4 else SP.CINZA for i in range(len(steps))]
-        ax.bar(x, valores, color=cores, width=0.66)
-        chave_txt = "airline_txt" if paper == "airline" else "grains_txt"
-        for xi, s, linha in zip(x, steps, linhas):
+        valores = [int(s["valor"]) for s in steps]
+        deltas = [int(s["delta"]) for s in steps[1:]]
+        ax = fig.add_subplot(gs[row, 0])
+        largura = 0.62
+        # total inicial
+        ax.bar(0, valores[0], color=SP.CINZA, width=largura)
+        ax.text(
+            0,
+            valores[0] + 1.6,
+            str(valores[0]),
+            ha="center",
+            va="bottom",
+            fontsize=9,
+            color=SP.ESCURO,
+            weight="bold",
+        )
+        nivel = valores[0]
+        for i, d in enumerate(deltas, start=1):
+            base = nivel + d if d < 0 else nivel
+            ax.bar(
+                i,
+                abs(d),
+                bottom=base,
+                width=largura,
+                color=SP.TERRACOTA if d < 0 else SP.SAGE,
+            )
+            ax.plot(
+                [i - 1 + largura / 2, i - largura / 2],
+                [nivel, nivel],
+                color=SP.CINZA_CLARO,
+                lw=0.8,
+                ls=(0, (1.5, 2)),
+            )
+            topo = max(nivel, nivel + d)
             ax.text(
-                xi,
-                s["valor"],
-                linha[chave_txt],
+                i,
+                topo + 1.6,
+                f"{d:+d}".replace("-", "−"),
                 ha="center",
                 va="bottom",
-                fontsize=7.6,
+                fontsize=8.6,
                 color=SP.ESCURO,
             )
-        ax.set_xticks(x)
-        ax.set_xticklabels(
-            [s["rotulo"] for s in steps], rotation=18, ha="right", fontsize=7.2
+            ax.text(
+                i,
+                min(nivel, nivel + d) - 1.6,
+                str(nivel + d),
+                ha="center",
+                va="top",
+                fontsize=7.4,
+                color=SP.CINZA,
+            )
+            nivel += d
+        ax.bar(6, nivel, color=SP.AZUL, width=largura)
+        ax.text(
+            6,
+            nivel + 1.6,
+            str(nivel),
+            ha="center",
+            va="bottom",
+            fontsize=9,
+            color=SP.ESCURO,
+            weight="bold",
         )
-        ax.set_ylim(0, max(valores) * 1.2)
+        # população do estudo: o nível depois do corte de capítulo/anais
+        pop = valores[4]
+        ax.plot(
+            [4 - largura / 2, 6 + largura / 2 + 0.05],
+            [pop, pop],
+            color=SP.AZUL,
+            lw=0.8,
+            ls=(0, (4, 3)),
+        )
+        # rótulo em duas linhas sobre a barra final, acima do rótulo do total,
+        # para não colidir com o delta da barra vizinha
+        ax.text(
+            6,
+            max(nivel + 7.5, pop + 1.8),
+            f"população\ndo estudo · {pop}",
+            ha="center",
+            va="bottom",
+            fontsize=7.0,
+            color=SP.AZUL,
+            linespacing=1.15,
+        )
+        ax.set_xticks(range(7))
+        ax.set_xticklabels(CORTES, fontsize=7.4)
+        ax.set_xlim(-0.6, 6.6)
+        ax.set_ylim(0, 100)
         ax.set_ylabel("citantes (n)")
+        ax.grid(axis="x", visible=False)
         _rotulo_painel(ax, PAPER_LABEL[paper])
+
+        # desdobramentos
+        des = D["funil"][paper]["desagregacao"]
+        gs_r = gs[row, 1].subgridspec(2, 1, hspace=0.95)
+        ax_a = fig.add_subplot(gs_r[0])
+        fora = des["fora_editora_por_editora"]
+        itens = sorted(
+            ((k, int(v)) for k, v in fora.items() if k != "outras"),
+            key=lambda kv: (kv[1], kv[0]),
+        )
+        if "outras" in fora:
+            itens = [("outras", int(fora["outras"]))] + itens
+        nomes = [textwrap.shorten(k, 34, placeholder="…") for k, _ in itens]
+        ns = [n for _, n in itens]
+        ax_a.barh(range(len(itens)), ns, color=SP.TERRACOTA, height=0.62)
+        ax_a.set_yticks(range(len(itens)))
+        ax_a.set_yticklabels(nomes, fontsize=6.8)
+        for yi, n in enumerate(ns):
+            ax_a.text(n + 0.4, yi, str(n), va="center", fontsize=6.8, color=SP.ESCURO)
+        ax_a.set_xlim(0, max(ns) * 1.3)
+        ax_a.set_xticks([])
+        ax_a.grid(visible=False)
+        ax_a.set_title(
+            "saíram no corte de editora, por editora",
+            loc="left",
+            fontsize=7.4,
+            color=SP.CINZA,
+        )
+        ax_b = fig.add_subplot(gs_r[1])
+        quart = des["evidencia_por_quartil"]
+        ordem = ["Q1", "Q2", "Q3", "Q4", "sem quartil"]
+        ns_q = [int(quart.get(q, 0)) for q in ordem]
+        ax_b.barh(range(len(ordem)), ns_q, color=SP.AZUL, height=0.62)
+        ax_b.set_yticks(range(len(ordem)))
+        ax_b.set_yticklabels(ordem, fontsize=6.8)
+        ax_b.invert_yaxis()
+        for yi, n in enumerate(ns_q):
+            ax_b.text(n + 0.4, yi, str(n), va="center", fontsize=6.8, color=SP.ESCURO)
+        ax_b.set_xlim(0, max(ns_q) * 1.3)
+        ax_b.set_xticks([])
+        ax_b.grid(visible=False)
+        ax_b.set_title(
+            "ficaram com evidência, por quartil Scimago",
+            loc="left",
+            fontsize=7.4,
+            color=SP.CINZA,
+        )
+        for a in (ax_a, ax_b):
+            for sp_ in ("top", "right", "bottom"):
+                a.spines[sp_].set_visible(False)
     return fig
 
 

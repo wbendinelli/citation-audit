@@ -229,7 +229,7 @@ com quartil, e a análise final deveria migrar para ele.
 
 #figure(
   image("/reports/01-impacto/figuras/fig01_funil.png", width: 88%),
-  caption: [Do que o Scholar lista ao que foi lido com passagem literal: o artigo de aviação retém 45 dos 95 registros iniciais e o de grãos 29 dos 76.#footnote[audit_70 §funil: `funil / airline / steps` e `funil / grains / steps`, primeiro e último passo.]],
+  caption: [Do que o Scholar lista ao que foi lido com passagem literal: o artigo de aviação retém 45 dos 95 registros iniciais e o de grãos 29 dos 76.#footnote[audit_70 §funil: `funil / airline / steps` e `funil / grains / steps`, primeiro e último passo. À direita, quem saiu no corte de editora, por editora, e o quartil Scimago de quem ficou com evidência; a linha tracejada marca a população do estudo.]],
 ) <fig-funil>
 
 == Os três portões de integridade

@@ -84,6 +84,7 @@ citado aqui ficaria órfão no dia seguinte.
 - `tools/audit_63_adjudicate.py` (maioria de três, derivação de `distortion`, união de `claim_ids`, colegiado).
 - `tools/audit_67_ghost_audit.py` e `tools/audit_68_base_rates.py` com `data/ghost_audit.json` e `data/base_rates.json`.
 - Ferramental do relatório: `check_numbers.py`, `sapians.py` standalone, fontes vendorizadas, `reports/01-impacto/{figuras,numeros}.typ`, `referencias.bib`.
+- `fig01_funil` vira waterfall por artigo com desdobramentos (quem saiu no corte de editora, por editora; quartil de quem ficou), lidos de `funil.<artigo>.desagregacao` novo no `audit_70`.
 - Relatório técnico `reports/01-impacto/main.typ` (Resumo, §1–§9, Anexo A; 103 números com ponteiro `audit_70 §chave`, zero sem fonte) e `relatorio-impacto.pdf`.
 - `tools/audit_81_figures.py` (14 figuras) e `tools/audit_82_readme_svgs.py` (4 SVGs em `docs/assets/`).
 - `tools/sapians.py`: `_ausente()` deixa de exigir pandas (fase 81 roda só com matplotlib e numpy).
