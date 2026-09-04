@@ -86,7 +86,9 @@ imprima**. A cadeia é esta:
 3. Figuras de medida saem de `tools/audit_81_figures.py`, que lê só `dados.json`
    e roda no venv pinado (`uv venv --python 3.12 .venv && uv pip install
    --python .venv/bin/python -r requirements.txt`; `matplotlib` e `numpy`
-   fixados para os PNGs saírem byte-idênticos). Diagramas de mecanismo são
+   fixados para os PNGs saírem byte-idênticos na mesma plataforma; o CI, no
+   Ubuntu, confere com `--check --tolerant`, que compara dimensões e regras da
+   casa, porque o rasterizador muda entre sistemas). Diagramas de mecanismo são
    Typst nativo em `figuras.typ`, sem dígito dentro. Os SVGs do README saem de
    `tools/audit_82_readme_svgs.py`.
 4. Compilação: `typst compile --root . --font-path tools/fonts

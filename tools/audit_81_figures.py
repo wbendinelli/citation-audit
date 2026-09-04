@@ -1487,6 +1487,13 @@ def _sem_eixo_twin_no_codigo():
 # ==========================================================================
 
 
+def _dims(png_bytes):
+    """(largura, altura) lidos do IHDR de um PNG."""
+    import struct
+
+    return struct.unpack(">II", png_bytes[16:24])
+
+
 def parse_args(argv):
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -1501,6 +1508,11 @@ def parse_args(argv):
         "--check",
         action="store_true",
         help="regenera em memória/diretório temporário e compara byte a byte com reports/01-impacto/figuras/ já gravado; nunca escreve; sai 1 se houver diferença ou violação de regra da casa",
+    )
+    ap.add_argument(
+        "--tolerant",
+        action="store_true",
+        help="com --check: compara dimensões (IHDR do PNG) e regras da casa, não bytes -- para CI em outra plataforma, onde o Agg/freetype rasteriza diferente; a byte-igualdade vale dentro do venv pinado da máquina que gerou",
     )
     ap.add_argument(
         "--only",
@@ -1561,7 +1573,17 @@ def main(argv=None):
                 (tmp_dir / nome).write_bytes(png_bytes)
                 atual = OUT_DIR / nome
                 commitado = atual.read_bytes() if atual.is_file() else None
-                if commitado != png_bytes:
+                if args.tolerant:
+                    # IHDR: largura e altura nos bytes 16..24 -- o que não pode
+                    # mudar entre plataformas é a geometria, não o rasterizado.
+                    dim_novo = png_bytes[16:24]
+                    dim_velho = commitado[16:24] if commitado else None
+                    if dim_velho != dim_novo:
+                        divergentes.append(
+                            f"{nome} (dimensões {_dims(png_bytes)} geradas vs "
+                            f"{_dims(commitado) if commitado else 'ausente'} commitadas)"
+                        )
+                elif commitado != png_bytes:
                     tam_novo = len(png_bytes)
                     tam_velho = len(commitado) if commitado is not None else 0
                     divergentes.append(
@@ -1576,9 +1598,12 @@ def main(argv=None):
                 print(f"  {d}")
         if problemas_gerais or divergentes:
             return 1
-        print(
-            f"ok --check: {len(alvo)} figura(s) idênticas às gravadas, regras da casa OK"
+        modo = (
+            "com as mesmas dimensões das gravadas"
+            if args.tolerant
+            else "idênticas às gravadas"
         )
+        print(f"ok --check: {len(alvo)} figura(s) {modo}, regras da casa OK")
         return 0
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
