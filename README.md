@@ -45,3 +45,31 @@ Baixe pelo seu acesso institucional, salve com o nome indicado na coluna
 
 Download avulso e manual. Coleta automatizada através de proxy institucional viola os
 termos dos publishers e costuma derrubar o acesso da instituição inteira.
+
+## Fontes do grafo de citação
+
+A união de quatro índices, deduplicada por DOI e por título normalizado:
+
+| Fonte | airline | grains |
+|---|---|---|
+| OpenAlex | 53 | 60 |
+| Semantic Scholar | 49 | 54 |
+| OpenCitations | 39 | 50 |
+| Europe PMC | 0 | 0 |
+| **União** | **69** | **62** |
+
+O Google Scholar reporta 95 e 76. A diferença de ~40 é tese, capítulo de livro,
+working paper e periódico não indexado — material sem DOI depositado, fora do alcance
+de qualquer API. Para fechar esse último trecho, salve as páginas "Cited by" do Scholar
+(`Cmd+S`, HTML completo) em `scholar/` e rode a etapa de parsing.
+
+## Etapas
+
+```
+pipeline/00_harvest.py          união multi-fonte do grafo de citação
+pipeline/01_triage.py           enriquecimento + classificação de acesso
+pipeline/02_download.py         download OA e extração de texto
+pipeline/03_download_deep.py    varredura de todas as localizações OA
+pipeline/04_passages.py         localização da passagem citante
+pipeline/05_report.py           gera report/index.html
+```

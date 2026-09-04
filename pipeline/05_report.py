@@ -1,14 +1,15 @@
-import json, re, html, os
-HERE=os.path.dirname(os.path.abspath(__file__))
-inv=json.load(open(f"{HERE}/inventory.json")); cl=json.load(open(f"{HERE}/classify.json"))
+import json, re, html, os, collections
+HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(HERE)
+M=json.load(open(f"{ROOT}/data/master.json"))
+CL=json.load(open(f"{ROOT}/data/classify.json"))          # chaveado por DOI
 
-ROLE={"bibliography_only":("só na bibliografia","ghost",0),
-      "drive_by":("de passagem","dim",1),
-      "brief_mention":("menção breve","dim",2),
-      "real_mention":("menção real","accent",3),
-      "supporting":("sustenta","good",4),
-      "foundational":("fundacional","good-deep",5),
+ROLE={"bibliography_only":("só na bibliografia","ghost",0),"drive_by":("de passagem","dim",1),
+      "brief_mention":("menção breve","dim",2),"real_mention":("menção real","accent",3),
+      "supporting":("sustenta","good",4),"foundational":("fundacional","good-deep",5),
       "wrongly_interpreted":("interpretado errado","bad",-1)}
+PT={"bibliography_only":"só na bibliografia","drive_by":"de passagem","brief_mention":"menção breve",
+    "real_mention":"menção real","supporting":"sustenta","foundational":"fundacional",
+    "wrongly_interpreted":"interpretado errado"}
 STANCE={"supporting":("apoia","s-good"),"contradictory":("contrapõe","s-bad"),"none":("neutra","s-dim")}
 REUSE={"method_adoption":"adota método","result_validated":"valida resultado",
        "dataset_reuse":"reusa dado","benchmarking":"benchmark","work_extended":"estende"}
@@ -16,71 +17,60 @@ FLAG={"best":("Melhor citação","good"),"good":("Uso substantivo","good"),
       "critical":("Crítica ao artigo","bad"),"misattribution":("Atribuição incorreta","bad"),
       "ghost":("Citação-fantasma","ghost"),"weak":("Atribuição frágil","warn"),
       "duplicate":("Publicação duplicada","warn")}
-PAPERS={"airline":("Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry",
-                   "Transportation Research Part A","2016","10.1016/j.tra.2016.01.001",53),
-        "grains":("What are the main factors that determine post-harvest losses of grains?",
-                  "Sustainable Production and Consumption","2019","10.1016/j.spc.2019.09.002",60)}
-
-def center(p, n=430):
-    m=re.search(r"Bendinelli",p)
-    if not m: return (p[:n]+"…") if len(p)>n else p
-    a=max(0,m.start()-n//2); b=min(len(p),m.start()+n//2)
-    s=("…" if a>0 else "")+p[a:b].strip()+("…" if b<len(p) else "")
-    return s
-
-def pick(it):
-    ps=[p for p in it.get("passages",[]) if "Bendinelli" in p] or it.get("passages",[])
-    ps=sorted(ps,key=len)
-    out,seen=[],set()
-    for p in ps:
-        c=center(p); k=re.sub(r"\W","",c.lower())[:60]
-        if k in seen: continue
-        seen.add(k); out.append(c)
-        if len(out)==2: break
-    return out
+TITLES={"airline":("Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry","Transportation Research Part A","2016","10.1016/j.tra.2016.01.001"),
+        "grains":("What are the main factors that determine post-harvest losses of grains?","Sustainable Production and Consumption","2019","10.1016/j.spc.2019.09.002")}
 
 def esc(s): return html.escape(s or "")
+def center(p,n=430):
+    m=re.search(r"Bendinelli|@@",p)
+    if not m: return (p[:n]+"\u2026") if len(p)>n else p
+    a=max(0,m.start()-n//2); b=min(len(p),m.start()+n//2)
+    return ("\u2026" if a>0 else "")+p[a:b].strip().replace("@@","")+("\u2026" if b<len(p) else "")
 
-sections=[]
+status_tot=collections.Counter()
+sections=[]; kpi=collections.Counter()
 for key in ("airline","grains"):
-    title,venue,yr,doi,ncit=PAPERS[key]
-    ents=[]
-    items=sorted([x for x in inv[key]["citing"] if str(x["n"]) in cl[key]],
-                 key=lambda x:(-ROLE[cl[key][str(x["n"])]["role"]][2], x["venue"] or ""))
-    dist={}
-    for it in items:
-        c=cl[key][str(it["n"])]; dist[c["role"]]=dist.get(c["role"],0)+1
-        rl,rc,_=ROLE[c["role"]]; sl,sc=STANCE[c["stance"]]
-        fl=FLAG.get(c["flag"])
-        chips=f'<span class="chip r-{rc}">{rl}</span><span class="chip {sc}">{sl}</span>'
-        for t in c["reuse"]: chips+=f'<span class="chip reuse">{REUSE[t]}</span>'
-        if it.get("s2_influential"): chips+='<span class="chip infl">influential · S2</span>'
-        quotes="".join(f'<blockquote>{esc(q)}</blockquote>' for q in pick(it))
-        note=f'<p class="note">{esc(c["note"])}</p>' if c["note"] else ""
-        flagcls=f' flagged f-{fl[1]}' if fl else ""
-        flagtag=f'<span class="flag f-{fl[1]}">{fl[0]}</span>' if fl else ""
-        ents.append(f'''<article class="entry{flagcls}">
- <header class="e-head"><h3>{esc(it["title"])}</h3>{flagtag}</header>
- <p class="meta"><span class="venue">{esc(it["venue"] or "sem veículo indexado")}</span><span class="dot">·</span>{it["year"]}<span class="dot">·</span><span class="mono">{esc(it["oa_status"])}</span></p>
+    blk=M[key]; title,venue,yr,doi=TITLES[key]
+    total=len(blk["citing"])
+    for r in blk["citing"]: status_tot[r["status"]]+=1
+    ents=[]; dist=collections.Counter()
+    rows=[(r,CL.get((r.get("doi") or "").lower())) for r in blk["citing"]]
+    rows=[(r,c) for r,c in rows if c]
+    rows.sort(key=lambda rc:(-ROLE[rc[1]["role"]][2], rc[0].get("venue") or ""))
+    for r,c in rows:
+        dist[c["role"]]+=1
+        for t in c.get("reuse",[]): kpi["reuse"]+=1
+        if c.get("flag")=="misattribution": kpi["mis"]+=1
+        if c.get("role")=="bibliography_only": kpi["ghost"]+=1
+        rl,rc_,_=ROLE[c["role"]]; sl,sc=STANCE[c["stance"]]
+        chips=f'<span class="chip r-{rc_}">{PT[c["role"]]}</span><span class="chip {sc}">{sl}</span>'
+        for t in c.get("reuse",[]): chips+=f'<span class="chip reuse">{REUSE[t]}</span>'
+        if r.get("is_influential"): chips+='<span class="chip infl">influential \u00b7 S2</span>'
+        fl=FLAG.get(c.get("flag") or "")
+        qs=[center(p) for p in (c.get("passages") or [])][:2]
+        quotes="".join(f"<blockquote>{esc(q)}</blockquote>" for q in qs)
+        note=f'<p class="note">{esc(c.get("note"))}</p>' if c.get("note") else ""
+        fcls=f" flagged f-{fl[1]}" if fl else ""
+        ftag=f'<span class="flag f-{fl[1]}">{fl[0]}</span>' if fl else ""
+        ents.append(f'''<article class="entry{fcls}">
+ <header class="e-head"><h3>{esc(r.get("title"))}</h3>{ftag}</header>
+ <p class="meta"><span class="venue">{esc(r.get("venue") or "sem veículo indexado")}</span><span class="dot">\u00b7</span>{r.get("year") or ""}<span class="dot">\u00b7</span><span class="mono">{esc(r.get("oa_status") or "?")}</span></p>
  <div class="chips">{chips}</div>
  {quotes}{note}
 </article>''')
     order=["foundational","supporting","real_mention","brief_mention","drive_by","bibliography_only","wrongly_interpreted"]
-    tot=sum(dist.values())
-    bars="".join(f'<span class="seg s-{ROLE[r][1]}" style="flex:{dist[r]}" title="{ROLE[r][0]}: {dist[r]}"><b>{dist[r]}</b></span>'
-                 for r in order if dist.get(r))
-    legend="".join(f'<span class="lg"><i class="sw s-{ROLE[r][1]}"></i>{ROLE[r][0]} <b>{dist[r]}</b></span>'
-                   for r in order if dist.get(r))
+    n=sum(dist.values())
+    bars="".join(f'<span class="seg s-{ROLE[r][1]}" style="flex:{dist[r]}" title="{PT[r]}: {dist[r]}"><b>{dist[r]}</b></span>' for r in order if dist.get(r))
+    leg="".join(f'<span class="lg"><i class="sw s-{ROLE[r][1]}"></i>{PT[r]} <b>{dist[r]}</b></span>' for r in order if dist.get(r))
     sections.append(f'''<section class="paper" id="{key}">
- <div class="p-head">
-  <p class="eyebrow mono">{esc(venue)} · {yr}</p>
-  <h2>{esc(title)}</h2>
-  <p class="doi mono">{doi} — {ncit} citações no OpenAlex, <b>{tot} com passagem recuperada</b></p>
- </div>
- <div class="bar">{bars}</div>
- <div class="legend">{legend}</div>
- <div class="entries">{"".join(ents)}</div>
-</section>''')
+ <div class="p-head"><p class="eyebrow mono">{esc(venue)} \u00b7 {yr}</p><h2>{esc(title)}</h2>
+ <p class="doi mono">{doi} \u2014 {total} cita\u00e7\u00f5es na uni\u00e3o de quatro fontes, <b>{n} com passagem recuperada</b></p></div>
+ <div class="bar">{bars}</div><div class="legend">{leg}</div>
+ <div class="entries">{"".join(ents)}</div></section>''')
+
+TOT=sum(len(b["citing"]) for b in M.values())
+NCL=sum(1 for k,b in M.items() for r in b["citing"] if CL.get((r.get("doi") or "").lower()))
+st=lambda k: status_tot.get(k,0)
 
 CSS = """
 :root{
@@ -189,6 +179,7 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 """
 
+
 HTML=f"""<title>Quem Cita Bendinelli</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -196,52 +187,53 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
 <style>{CSS}</style>
 <div class="wrap">
 <header class="top">
- <p class="eyebrow mono">Auditoria de citações · taxonomia Paperclip · setembro de 2026</p>
+ <p class="eyebrow mono">Auditoria de cita\u00e7\u00f5es \u00b7 taxonomia Paperclip \u00b7 setembro de 2026</p>
  <h1>Quem cita, e como</h1>
- <p class="lede">Cada citação recebida pelos dois artigos foi rastreada até a passagem exata onde
- o trabalho é mencionado, e classificada por papel, postura e reuso efetivo — a mesma taxonomia
- que o <span class="mono">citation-explorer</span> do Paperclip aplica, extraída do código-fonte da ferramenta.</p>
+ <p class="lede">Cada cita\u00e7\u00e3o recebida pelos dois artigos foi rastreada at\u00e9 a passagem exata onde
+ o trabalho \u00e9 mencionado, e classificada por papel, postura e reuso efetivo \u2014 a mesma taxonomia
+ que o <span class="mono">citation-explorer</span> do Paperclip aplica, extra\u00edda do c\u00f3digo-fonte da ferramenta.</p>
  <div class="kpis">
-  <div class="kpi"><b>113</b><span>citações nos dois artigos</span></div>
-  <div class="kpi"><b>31</b><span>com passagem recuperada</span></div>
-  <div class="kpi"><b>3</b><span>com reuso metodológico real</span></div>
-  <div class="kpi hl"><b>2</b><span>atribuições incorretas</span></div>
-  <div class="kpi hl"><b>2</b><span>citações-fantasma</span></div>
+  <div class="kpi"><b>{TOT}</b><span>cita\u00e7\u00f5es mapeadas</span></div>
+  <div class="kpi"><b>{NCL}</b><span>com passagem recuperada</span></div>
+  <div class="kpi"><b>{kpi["reuse"]}</b><span>com reuso metodol\u00f3gico</span></div>
+  <div class="kpi hl"><b>{kpi["mis"]}</b><span>atribui\u00e7\u00f5es incorretas</span></div>
+  <div class="kpi hl"><b>{kpi["ghost"]}</b><span>cita\u00e7\u00f5es-fantasma</span></div>
  </div>
 </header>
 {"".join(sections)}
 <section class="method">
- <h2>Método e limites</h2>
+ <h2>M\u00e9todo e limites</h2>
  <div class="grid2">
   <div>
-   <h3>Como cada citação foi avaliada</h3>
+   <h3>Como cada cita\u00e7\u00e3o foi avaliada</h3>
    <p>Quatro eixos independentes, exatamente como o Paperclip define:</p>
    <ul>
-    <li><b>Papel</b> — de <span class="mono">só na bibliografia</span> até <span class="mono">fundacional</span>, medindo o quanto o artigo importou para quem citou.</li>
-    <li><b>Postura</b> — apoia, contrapõe ou neutra. Regra deliberadamente liberal: um contraste calmo já conta como contraposição.</li>
-    <li><b>Reuso</b> — adoção de método, validação de resultado, reuso de dado, benchmark ou extensão.</li>
-    <li><b>Status</b> — presente no corpo do texto ou apenas na lista de referências.</li>
+    <li><b>Papel</b> \u2014 de <span class="mono">s\u00f3 na bibliografia</span> at\u00e9 <span class="mono">fundacional</span>, medindo o quanto o artigo importou para quem citou.</li>
+    <li><b>Postura</b> \u2014 apoia, contrap\u00f5e ou neutra. Regra deliberadamente liberal: um contraste calmo j\u00e1 conta como contraposi\u00e7\u00e3o.</li>
+    <li><b>Reuso</b> \u2014 ado\u00e7\u00e3o de m\u00e9todo, valida\u00e7\u00e3o de resultado, reuso de dado, benchmark ou extens\u00e3o.</li>
+    <li><b>Status</b> \u2014 presente no corpo do texto ou apenas na lista de refer\u00eancias.</li>
    </ul>
+   <p><b>Regra de evid\u00eancia:</b> nenhuma classifica\u00e7\u00e3o sem a passagem literal em m\u00e3os. Cita\u00e7\u00e3o n\u00e3o lida fica fora de toda contagem \u2014 nunca vira \u201ccita\u00e7\u00e3o ruim\u201d.</p>
   </div>
   <div>
-   <h3>De onde veio a evidência</h3>
-   <p>Grafo de citações do OpenAlex; texto completo por Unpaywall, Europe PMC, arXiv e repositórios
-   institucionais; trechos de citação do Semantic Scholar como fonte complementar. Nenhuma
-   classificação foi feita sem a passagem literal em mãos.</p>
+   <h3>Onde est\u00e1 o resto</h3>
+   <p>O grafo de cita\u00e7\u00e3o vem da uni\u00e3o de OpenAlex, Semantic Scholar, OpenCitations e Europe PMC,
+   deduplicada por DOI e por t\u00edtulo normalizado. O texto vem de Unpaywall, Europe PMC, arXiv e
+   reposit\u00f3rios institucionais.</p>
    <div class="scroll"><table class="tbl">
-    <tr><th>Cobertura de passagem</th><th class="n">Aviação</th><th class="n">Grãos</th></tr>
-    <tr><td>Citações totais</td><td class="n">53</td><td class="n">60</td></tr>
-    <tr><td>Texto completo obtido</td><td class="n">11</td><td class="n">14</td></tr>
-    <tr><td>Passagem classificável</td><td class="n">12</td><td class="n">19</td></tr>
-    <tr><td>Teto do Paperclip</td><td class="n">4–8</td><td class="n">0</td></tr>
+    <tr><th>Situa\u00e7\u00e3o</th><th class="n">Cita\u00e7\u00f5es</th></tr>
+    <tr><td>Texto completo obtido</td><td class="n">{st("tem_texto")}</td></tr>
+    <tr><td>OA com verifica\u00e7\u00e3o anti-bot</td><td class="n">{st("oa_antibot")}</td></tr>
+    <tr><td>OA n\u00e3o recuperado</td><td class="n">{st("oa_bloqueado")}</td></tr>
+    <tr><td>Fechado</td><td class="n">{st("fechado")}</td></tr>
+    <tr><td>Sem DOI</td><td class="n">{st("sem_doi")}</td></tr>
    </table></div>
   </div>
  </div>
- <p style="margin-top:24px"><b>O que ainda falta.</b> 82 das 113 citações estão atrás de paywall
- — Elsevier, Wiley e Springer bloqueiam download automatizado. Elas não foram classificadas e
- não entram em nenhuma contagem acima. A leitura correta destes números é
- “entre as citações que deu para ler”, não “entre todas”.</p>
+ <p style="margin-top:24px"><b>O Google Scholar ainda acha mais.</b> Scholar reporta 95 e 76 cita\u00e7\u00f5es;
+ a uni\u00e3o de quatro \u00edndices com DOI chega a {TOT}. A diferen\u00e7a \u00e9 tese, cap\u00edtulo de livro,
+ working paper e peri\u00f3dico n\u00e3o indexado \u2014 material que s\u00f3 o Scholar cobre e que nenhuma API alcan\u00e7a.</p>
 </section>
 </div>"""
-open(f"{HERE}/report.html","w").write(HTML)
-print("ok", len(HTML), "bytes")
+open(f"{ROOT}/report/index.html","w").write(HTML)
+print("ok", len(HTML), "bytes |", TOT, "citacoes |", NCL, "classificadas")
