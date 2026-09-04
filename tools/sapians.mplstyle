@@ -1,0 +1,94 @@
+# SAPIANS — estilo matplotlib do curso (SCC5819, ICMC-USP)
+#
+# Cópia de packages/python/sapians.mplstyle de sapians-latex @ 4c10f27
+# (Crisp White Edition). A fonte é aquele arquivo: mudança de identidade
+# visual nasce lá e é copiada para cá, nunca o contrário.
+#
+# Três desvios deliberados do original, cada um marcado com "DELTA" abaixo,
+# todos pela mesma razão: lá o alvo é o PDF do slide, aqui é o PNG que fica
+# embutido em base64 dentro do .ipynb commitado.
+#
+# Um ajuste que não é desvio: font.monospace não existe no .mplstyle da
+# marca; o valor vem de packages/typst/src/tokens.typ (`font-mono`), que é
+# onde a marca declara a família monoespaçada.
+#
+# Uma correção, registrada: a sexta cor do prop_cycle era 8C857B no arquivo
+# da marca — um cinza que não aparece em nenhum arquivo de tokens. Aqui ela
+# é 6D675F (sapians-muted-dark / SP.CINZA), o cinza que os tokens definem e
+# que o resto do estilo já usa em eixos e rótulos.
+
+# Figure
+figure.facecolor: FFFFFF
+figure.edgecolor: FFFFFF
+figure.dpi: 100          # DELTA (marca: 300) — este é o DPI do PNG inline
+                         # que o Jupyter embute em base64 no .ipynb. A 300 o
+                         # caderno commitado incha por ordem de grandeza sem
+                         # que ninguém veja diferença na tela.
+savefig.dpi: 150         # DELTA (marca: não define) — o arquivo promovido
+                         # para modules/NN-slug/figures/ é impresso e
+                         # projetado; 150 é o mínimo que aguenta os dois.
+figure.autolayout: False # DELTA (marca: True) — autolayout conflita com o
+                         # tight_layout(rect=...) que SP.salvar aplica para
+                         # reservar a banda do título. Com os dois ligados o
+                         # título senta em cima do gráfico.
+
+# Axes
+axes.facecolor: FFFFFF
+axes.edgecolor: E5E0D8
+axes.linewidth: 0.8
+axes.grid: True
+axes.grid.which: major
+axes.grid.axis: y
+axes.titlesize: 11
+axes.titleweight: bold
+axes.titlepad: 12
+axes.titlecolor: 161311
+axes.labelsize: 8.5
+axes.labelweight: medium
+axes.labelcolor: 6D675F
+axes.labelpad: 6
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.left: True
+axes.spines.bottom: True
+axes.prop_cycle: cycler('color', ['315B86', 'C96F3F', 'D9822B', '4E8752', '161311', '6D675F'])
+
+# Grid
+grid.color: EBE7E1
+grid.linestyle: --
+grid.linewidth: 0.5
+grid.alpha: 0.8
+
+# Ticks
+xtick.direction: out
+ytick.direction: out
+xtick.color: 6D675F
+ytick.color: 6D675F
+xtick.labelsize: 7.5
+ytick.labelsize: 7.5
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+
+# Legend
+legend.frameon: True
+legend.framealpha: 0.95
+legend.facecolor: FFFFFF
+legend.edgecolor: E5E0D8
+legend.fancybox: True
+legend.fontsize: 7.5
+legend.borderpad: 0.6
+legend.labelspacing: 0.5
+
+# Lines and Scatters
+lines.linewidth: 1.6
+lines.solid_capstyle: round
+lines.markersize: 5
+scatter.edgecolors: none
+
+# Typography
+font.family: sans-serif
+font.sans-serif: Inter, Helvetica Neue, Arial, DejaVu Sans
+font.monospace: JetBrains Mono, Menlo, Courier New, DejaVu Sans Mono
+text.color: 161311
