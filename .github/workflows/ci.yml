@@ -90,6 +90,7 @@ jobs:
       - name: Figuras byte-idênticas (matplotlib e numpy pinados, fontes vendorizadas)
         run: python3 tools/audit_81_figures.py --check
       - run: python3 tools/check_numbers.py --prose reports/01-impacto/main.typ --exempt reports/01-impacto/check_numbers_exempt.txt
+      - run: python3 tools/check_numbers.py --prose README.md --exempt reports/01-impacto/check_numbers_exempt.txt
 
   citation:
     runs-on: ubuntu-latest

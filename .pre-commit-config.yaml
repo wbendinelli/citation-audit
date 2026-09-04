@@ -81,3 +81,9 @@ repos:
         language: system
         files: ^(tools/check_numbers\.py|reports/01-impacto/(main\.typ|numeros\.txt|check_numbers_exempt\.txt))$
         pass_filenames: false
+      - id: readme-numbers
+        name: todo número do README aponta para numeros.txt (check_numbers)
+        entry: python3 tools/check_numbers.py --prose README.md --exempt reports/01-impacto/check_numbers_exempt.txt
+        language: system
+        files: ^(tools/check_numbers\.py|README\.md|reports/01-impacto/numeros\.txt)$
+        pass_filenames: false

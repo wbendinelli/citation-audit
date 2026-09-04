@@ -52,6 +52,7 @@
 #let num(v) = if v == none { [—] } else { text(str(v)) }
 #let txt(v) = if v == none { [—] } else { text(v) }
 #let cel(v) = if v == none { [—] } else { text(str(v).replace("_", " ")) }
+#let lit(v) = if v == none { [—] } else { text(v.replace(regex("(\\d)\\.(\\d)"), m => m.captures.at(0) + "," + m.captures.at(1))) }
 #let _regua-grossa = line(length: 100%, stroke: 0.9pt + sapians-text-dark)
 #let _cols-funil = (8%, 1fr, 13%, 13%)
 #let _cols-periodicos = (1fr, 13%, 12%, 12%, 13%)
@@ -83,7 +84,13 @@
   estimativa que os artigos apenas citam de terceiros. O quarto é que a
   evidência lida não cobre os quartis por igual: ela é densa em Q1 e rala em
   Q4, por bloqueio de acesso de editora, e esse viés precisa ser declarado
-  antes de qualquer comparação entre quartis. Todo número em prosa é impresso
+  antes de qualquer comparação entre quartis. No antes e depois, o índice de
+  disrupção não decide nada sozinho, porque duas variantes do mesmo índice
+  discordam de sinal sobre o mesmo grafo, e o sinal que se sustenta é o de
+  co-citação: as duas vertentes que o artigo de aviação declara conciliar
+  passaram a ser citadas juntas com mais frequência depois dele, e quem faz
+  essa ponte cita o artigo dez vezes mais que quem fica de um lado só. Todo
+  número em prosa é impresso
   por um script versionado, e a nota de rodapé que o acompanha diz qual seção
   de `numeros.txt` o imprime.
 ]
@@ -567,50 +574,185 @@ o tratamento de endogeneidade, o instrumento ou a construção de variável é.
 
 = 6. Antes e depois: deslocou ou consolidou?
 
-Esta seção está reservada. Ela mede se cada artigo deslocou a literatura que o
-antecede ou se consolidou essa literatura, e a medida não pôde ser calculada
-nesta rodada: os blocos correspondentes de `dados.json` estão marcados como
-pendentes, porque a cota diária da API do OpenAlex zerou no meio da execução e
-os indicadores parciais foram removidos de propósito, para não serem
-confundidos com resultado real.
+O achado desta seção vem antes de qualquer leitura substantiva, e é sobre a
+régua. Dois índices de disrupção calculados sobre o mesmo grafo, com os mesmos
+dados e na mesma janela, apontam em direções opostas para o artigo de aviação.
+O índice CD padrão fica praticamente em zero, com CD5 de −0,011 e IC95% de
+−0,020 a −0,001.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `CD` e `ci_95 / CD`.]
+O DI5, que só conta como antecessor compartilhado o citante que traz cinco
+referências em comum, lê o mesmo artigo como deslocador, com 0,600 e IC95% de
+0,395 a 0,781.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `DI5 / value` e `ci_95 / DI5`.]
+Não é erro de cálculo. É a dependência de variante que @leibel2024 descrevem
+como um multiverso de indicadores, e que @bornmann2020 já haviam exposto ao
+testar DI1 contra DI5 diante de avaliação por pares.
 
-O instrumento é o índice CD de @funk2017, portado para artigos por @wu2019.
-@fig-cd mostra o mecanismo. Quem publica depois do artigo pode citar o artigo
-sem citar os antecessores dele, citar os dois, ou citar só os antecessores. O
-índice é a diferença entre o primeiro e o segundo grupo, dividida pelo total.
-Vale mais um quando todo trabalho posterior cita o artigo e ignora os
-antecessores, e menos um quando todo trabalho posterior cita os dois juntos. Na
-prática o terceiro grupo domina o denominador e comprime tudo perto de zero, e
-é por isso que a leitura exige as variantes: a que exige um número mínimo de
-referências em comum, defendida por @bornmann2020, e a que descarta o terceiro
-grupo. A janela de citação também muda o resultado, como mostra @bornmann2019,
-e a literatura recente ainda discute se o índice mede inovação conceitual ou
-apenas prática de citação, com @leibel2024 revisando o campo, @petersen2024
-mostrando o viés de inflação de citações e @holst2024 e @park2023 em lados
-opostos sobre o declínio medido.
+== Por que os dois índices discordam
 
-A segunda medida é a co-citação de @small1973, e responde a outra pergunta: o
-campo passou a tratar duas vertentes como uma depois do artigo? O artigo de
-aviação declara conciliar a hipótese de internalização de congestionamento com
-a de relação entre competição e qualidade, e a co-citação é a única primitiva
-que dá um antes e um depois genuínos, porque é definida pelo comportamento
-posterior da comunidade, e não pela lista de referências do próprio artigo,
-como o acoplamento bibliográfico de @kessler1963. O desenho pretendido está
-descrito em `docs/revisao-literatura.md` e inclui o cálculo da fração de novos
-laços entre as duas vertentes que passa por documentos que citam o artigo.
-
-Uma limitação precisa ser dita desde já, e ela não depende da cota de API: não
-haverá contrafactual pareado. Sem um par de vertentes de tamanho, idade e
-densidade comparáveis, e sem artigo focal equivalente, não é possível separar o
-efeito do artigo de uma tendência geral de integração da área. O resultado,
-quando vier, será descritivo.
-
-// §6: preencher quando audit_65 e audit_66 rodarem (blocos cd, cocitacao)
+@fig-cd-mecanismo mostra o desenho. Quem publica depois do artigo pode citar o
+artigo sem citar os antecessores dele, citar os dois, ou citar só os
+antecessores. O índice é a diferença entre os dois primeiros grupos dividida
+pelo total, e vale mais um quando todo trabalho posterior cita o artigo e
+ignora os antecessores.
 
 #figure(
   fig-cd(),
   caption: [O índice de disrupção lido como grafo: quem publica depois cita o artigo sozinho, o artigo com os antecessores, ou só os antecessores. O terceiro grupo domina o denominador e comprime o índice perto de zero.],
+) <fig-cd-mecanismo>
+
+O terceiro grupo é o problema. Na janela de cinco anos do artigo de aviação
+existem 7 citantes do primeiro tipo e 18 do segundo, contra 1.016 do
+terceiro.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `n_i`, `n_j` e `n_k`.]
+O numerador tem dezenas, o denominador tem milhares, e o resultado é
+aritmeticamente obrigado a ficar perto de zero, qualquer que seja o conteúdo
+das citações. É a compressão que @wu2019b apontaram, e a variante que descarta
+o terceiro grupo devolve, para os mesmos dados, um valor de −0,440, isto é, o
+lado consolidador da escala.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5 / CD_nok`.]
+
+O DI5 responde a outra pergunta. Ele só admite no grupo dos absorvidos o
+citante que compartilha cinco ou mais referências com o artigo, e joga fora do
+universo inteiro quem compartilha entre uma e quatro. Sobram 23 citantes do
+primeiro tipo, 2 do segundo e 10 do
+terceiro.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5 / DI5`, campos `n_i`, `n_j` e `n_k`.]
+O índice sobe para 0,600 na janela de cinco anos e 0,661 na de dez, com IC95%
+de 0,509 a 0,804.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5 / DI5` e `windows / 10 / DI5`, com `ci_95 / DI5`.]
+Lido como está, o DI5 diz que quem cita o artigo de aviação em profundidade
+raramente cita junto o bloco de antecessores dele. Lido com cuidado, diz que
+sobraram poucos casos para julgar.
+
+O artigo de grãos não produz sinal em nenhuma das duas leituras. O CD5 é 0,001,
+com IC95% de −0,001 a 0,003, e o DI5 é 0,306, com IC95% de 0,207 a
+0,412.#footnote[audit_70 §cd: `cd / grains / cd_index / windows / 5`, campos `CD`, `DI5 / value` e `ci_95`.]
+A compressão é ainda mais severa que na aviação, com 7.114 obras no terceiro
+grupo, e a janela de dez anos não existe: o artigo é de 2019, e o script
+trunca o slot em sete anos e marca a
+truncagem.#footnote[audit_70 §cd: `cd / grains / cd_index / windows / 5 / n_k` e `windows / 10 / t` contra `t_nominal`.]
+Ler qualquer um dos dois valores como veredito sobre a contribuição do artigo
+seria confundir uma propriedade da vizinhança de citação com uma propriedade do
+trabalho.
+
+#figure(
+  image("/reports/01-impacto/figuras/fig13_cd.png", width: 100%),
+  caption: [O índice CD do artigo de aviação fica colado em zero nas quatro janelas enquanto o DI5 o lê como deslocador: −0,011 contra 0,600 na janela de cinco anos, sobre exatamente o mesmo grafo.#footnote[audit_70 §cd: `cd / airline / cd_index / windows`, campos `CD` e `DI5 / value` em cada janela.]],
 ) <fig-cd>
+
+== O que a leitura de passagem acrescenta ao índice
+
+O índice separa os citantes em grupos sem olhar para o que eles dizem. Como
+esta auditoria leu as passagens, dá para perguntar se os dois grupos citam de
+maneira diferente. Cruzando o status na janela de cinco anos com a
+profundidade, o artigo de aviação tem cinco citantes classificados no grupo que
+o cita sem citar os antecessores, e nenhum deles é substantivo; as citações
+fundacionais e as que sustentam o desenho do citante estão todas no grupo que
+cita os dois lados. O teste exato de Fisher sobre essa tabela não rejeita
+independência.#footnote[`data/cd/cd_airline.json`, bloco `crosstab_t5`, campos `n_classified`, `role` e `fisher_substantive`. O bloco ainda não é exportado para `numeros.txt`.]
+
+O resultado é pequeno, e por isso mesmo instrutivo. A crítica corrente ao
+índice, resumida por @leibel2024, é que ele mede prática de citação e não
+conteúdo. Um repositório com passagem literal pode responder a isso de forma
+empírica, cruzando o grupo do índice com o papel da citação, e aqui a resposta
+é que o grupo não prevê o papel. Eclipsar os antecessores, neste corpus, é o
+que fazem as citações rasas.
+
+== Deixando uma referência de fora por vez
+
+A outra maneira de sondar a fragilidade do índice é removê-lo peça por peça. O
+procedimento recalcula o CD5 tirando uma referência do conjunto de cada vez.
+Nenhuma remoção move o resultado além da terceira casa decimal, nos dois
+artigos. As duas que mais pesam no artigo de aviação puxam para lados opostos:
+tirar a referência metodológica sobre valoração de bens novos empurra o CD5
+para baixo, e tirar o estudo sobre congestionamento aeroportuário com poder de
+mercado o empurra para
+cima.#footnote[`data/cd/cd_airline.json` e `cd_grains.json`, bloco `loo_cd5`, campo `top5_abs_delta`. O bloco ainda não é exportado para `numeros.txt`.]
+No artigo de grãos, todas as cinco remoções mais influentes movem o valor na
+mesma direção, o que é coerente com um índice já colado em zero. A conclusão
+prática é que a instabilidade do CD aqui não vem de uma referência específica.
+Vem do denominador.
+
+== Co-citação: o campo passou a ler as duas vertentes juntas?
+
+A segunda medida é a co-citação de @small1973, e responde a outra pergunta. O
+artigo de aviação declara conciliar duas vertentes da literatura de atrasos: a
+da internalização de congestionamento no aeroporto e a da relação entre
+competição e qualidade na rota. As sementes das duas vertentes saem das
+próprias seções de revisão do artigo, dez referências de um lado e oito do
+outro, e o universo é o conjunto de obras que citam ao menos uma
+semente.#footnote[`data/cocit/seeds_airline.json` para a partição, com o cabeçalho de seção e a citação literal que a justificam; `data/cocit/cocit_airline.json` para o universo.]
+Só a co-citação dá um antes e um depois genuínos, porque é definida pelo
+comportamento posterior da comunidade e não pela lista de referências do
+próprio artigo, que é o que o acoplamento bibliográfico de @kessler1963 mede.
+
+A fração de obras que citam as duas vertentes sobe de 0,053, ou 29 de 543 antes
+de 2016, para 0,085, ou 48 de 565 depois, uma diferença de
+0,032.#footnote[audit_70 §cocitacao: `cocitacao / periods / main`, campos `pre` e `post`, `share_AB` e `N_union`, e `delta_share_AB`.]
+O cosseno de Salton acompanha, de 0,104 para 0,157. O teste exato de Fisher
+sobre período contra citar as duas vertentes dá p de 0,044, e uma permutação
+com 10.000 embaralhamentos do ano dentro do universo dá p de
+0,043.#footnote[audit_70 §cocitacao: `cocitacao / tests`, blocos `fisher_period_x_cocites_both` e `permutation_delta_share_AB_main`.]
+
+Os placebos ajudam a localizar o salto no tempo. Movendo o corte para 2011, a
+diferença some e fica em −0,001; movendo para 2020, ela cai para 0,011; e a
+variante que trata 2016 como zona de exclusão preserva o efeito, com
+0,029.#footnote[audit_70 §cocitacao: `cocitacao / periods`, blocos `placebo_2011`, `placebo_2020` e `sensitivity`, campo `delta_share_AB`.]
+O deslocamento está no ano do artigo, e não em qualquer corte arbitrário da
+série.
+
+#figure(
+  image("/reports/01-impacto/figuras/fig14_cocitacao.png", width: 100%),
+  caption: [A fração de obras que co-citam as duas vertentes sobe de 0,053 para 0,085 no corte de 2016, e nenhum dos dois placebos reproduz o salto.#footnote[audit_70 §cocitacao: `cocitacao / periods / main` e os blocos `placebo_2011` e `placebo_2020`.]],
+) <fig-cocit>
+
+== Quem faz a ponte
+
+A pergunta seguinte é se o artigo está no caminho. Entre as obras que citam as
+duas vertentes depois de 2016, a fração que também cita o artigo é de 0,292, ou
+14 de 48; entre as que citam uma vertente só, é de 0,035, ou 18 de
+517.#footnote[audit_70 §cocitacao: `cocitacao / brokerage`, blocos `AB` e `single_strand`, campos `rate`, `k_cites_focal` e `n`.]
+A razão de chances é de 11,4, e o teste binomial exato contra a taxa de
+vertente única rejeita a igualdade com p abaixo de
+0,001.#footnote[audit_70 §cocitacao: `cocitacao / brokerage`, campos `odds_ratio_AB_vs_single` e `binom_test_AB_vs_single_p0`.]
+Visto do outro lado, dos 49 citantes do artigo na janela, 14 citam as duas
+vertentes.#footnote[audit_70 §cocitacao: `cocitacao / brokerage`, campos `n_focal_citers_in_window` e `AB / k_cites_focal`.]
+
+A confirmação mais direta não é estatística, é textual. Dois citantes dizem
+literalmente que o artigo concilia as duas vertentes, e os dois são registros
+já classificados nesta auditoria: `10.1016/j.tra.2018.10.012` e
+`10.1016/j.tre.2022.103000`.#footnote[audit_70 §cocitacao: `cocitacao / passage_confirmation / n_hits`; as passagens estão em `data/classify.json`, registros `airline_039` e `airline_016`.]
+O segundo, no _Transportation Research Part E_, é a descrição mais precisa que
+qualquer citante fez do trabalho:
+
+#quote(block: true)[
+  "Bendinelli et al. (2016) try to conciliate these two strands of the
+  literature by presenting a single econometric model to test both the
+  “congestion internalization effect” and the “competition-quality effect”."
+]
+
+A ressalva de METHOD.md vale inteira, e não foi levantada pelos resultados:
+sem contrafactual pareado, isto é descritivo. Não há um par de vertentes de
+tamanho, idade e densidade comparáveis, sem artigo focal equivalente, contra o
+qual comparar a subida. A área pode estar integrando as duas literaturas por
+conta própria, e o artigo pode ser um sintoma dessa integração em vez de causa
+dela. O que os números sustentam é mais modesto e ainda assim útil: as duas
+vertentes passaram a ser citadas juntas com mais frequência depois de 2016, o
+salto não aparece em cortes placebo, e quem faz a ponte cita o artigo dez vezes
+mais que quem fica de um lado só.
+
+== Limites de base
+
+Os dois cálculos rodaram com o Semantic Scholar como backend, porque a cota
+diária do OpenAlex tinha zerado. A troca deixa marca. O `s2_citation_count` do
+artigo de aviação e o do de grãos ficam abaixo do `cited_by_count` do OpenAlex,
+entre 8% e 10% menos citantes nos dois
+casos.#footnote[`data/cd/cd_airline.json` e `cd_grains.json`, bloco `checks_global`, campos `cited_by_count`, `s2_citation_count` e `n_p_citers_all_time`. O bloco ainda não é exportado para `numeros.txt`.]
+O mapeamento de identificadores também perde peças: 6 das 26 referências
+válidas do artigo de aviação e 5 das 35 do de grãos não encontraram par no
+Semantic Scholar.#footnote[audit_70 §cd: `cd / airline / refs_audit / n_valid` e `cd / grains / refs_audit / n_valid`; o detalhe do que não mapeou está em `data/cd/id_map_airline.json` e `id_map_grains.json`.]
+Elas ficaram fora do conjunto de referências que alimenta o índice.
+
+Isso não é ruído a ser escondido no rodapé. A dependência de base é um
+resultado da literatura de índices de disrupção, documentado por @leibel2024, e
+um valor de CD só significa alguma coisa acompanhado da base, da janela, da
+variante e do conjunto de referências que o produziu. Este relatório reporta os
+quatro.
 
 = 7. Anomalias
 
@@ -697,7 +839,7 @@ menções no corpo, `D_ind` são as menções no corpo com vínculo independente
     text(size: 6.9pt)[#raw(r.denominator_label)],
     [#pct(r.results.pooled.at("rate", default: none))],
     text(size: 6.6pt)[#pct(r.results.pooled.ci95_wilson.at(0)) a #pct(r.results.pooled.ci95_wilson.at(1))],
-    text(size: 6.6pt)[#txt(r.published).replace(regex("(\\d)\\.(\\d)"), m => m.captures.at(0) + "," + m.captures.at(1))],
+    text(size: 6.6pt)[#lit(r.published)],
   )).flatten(),
   fonte: [`data/base_rates.json` via `tools/audit_68_base_rates.py`; comparadores de @boyack2018, @jergas2015, @catalini2015, @moravcsik1975, @valenzuela2015, @cohan2019 e @bornmann2025.],
 )
@@ -765,10 +907,20 @@ de conteúdo, nunca o contrário.
 de quatro APIs gratuitas, e a cobertura de referências do OpenAlex é incompleta
 e não aleatória, como registra a própria documentação da base @openalex2022 e
 como discute a literatura de índices de disrupção. A cota diária do OpenAlex
-travou a §6 nesta rodada, e o Semantic Scholar passou a ser o segundo caminho
-para a mesma pergunta. Qualquer reexecução deste relatório pode obter um
-inventário diferente, e é por isso que `data/` é versionado junto com o código
-que o gera.
+zerou no meio da §6, e o Semantic Scholar entrou como segundo caminho para a
+mesma pergunta: conta menos citantes que o OpenAlex nos dois artigos, e deixa
+de fora as referências que não encontram par entre as bases. Qualquer
+reexecução deste relatório pode obter um inventário diferente, e é por isso que
+`data/` é versionado junto com o código que o gera.
+
+*O índice de disrupção depende da variante escolhida.* Como mostra a §6, o CD
+padrão e o DI5 dão sinais opostos para o artigo de aviação sobre exatamente o
+mesmo grafo, e o valor do CD é dominado pelo tamanho do terceiro grupo, não
+pelo conteúdo das citações. Nenhum número de disrupção deste relatório deve ser
+lido sozinho: ele só significa alguma coisa junto da base, da janela, da
+variante e do conjunto de referências que o produziram. A co-citação é menos
+frágil nesse aspecto, mas carrega a limitação declarada em METHOD.md de não ter
+contrafactual pareado, então também é descritiva.
 
 *Os comparadores de literatura estão pendentes.* Como diz a §8, os doze valores
 publicados da tabela de taxa-base ainda não foram reconferidos contra a fonte.

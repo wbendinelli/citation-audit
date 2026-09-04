@@ -83,15 +83,12 @@
       #h(0.5mm)#it.body
     ]
   ]
-  show heading.where(level: 1): it => [
-    #v(3.2mm)
+  // block(sticky: true): o título nunca fica órfão no pé da página.
+  show heading.where(level: 1): it => block(sticky: true, above: 3.2mm, below: 1.4mm)[
     #text(size: 10.5pt, weight: "bold", fill: sapians-text-dark)[#it.body]
-    #v(1.4mm)
   ]
-  show heading.where(level: 2): it => [
-    #v(2.4mm)
+  show heading.where(level: 2): it => block(sticky: true, above: 2.4mm, below: 0.9mm)[
     #text(size: 9.2pt, weight: "bold", fill: sapians-terracotta)[#it.body]
-    #v(0.9mm)
   ]
   body
 }

@@ -118,10 +118,17 @@ def _strip_noise(text: str) -> str:
     datas ISO/DMY antes de tokenizar. A numeração de heading é tratada por
     linha (ver _strip_heading_numbering) porque o resto do heading ainda
     deve ser varrido."""
-    text = _FENCED_CODE_RE.sub(lambda m: " " * len(m.group(0)), text)
-    text = _INLINE_CODE_RE.sub(lambda m: " " * len(m.group(0)), text)
-    text = _HTML_COMMENT_RE.sub(lambda m: " " * len(m.group(0)), text)
-    text = _DISPLAY_MATH_RE.sub(lambda m: " " * len(m.group(0)), text)
+
+    # Apaga o conteúdo mas preserva as quebras de linha: a numeração de linha
+    # é o que liga cada número ao seu ponteiro (janela de ±2 linhas), e um
+    # bloco cercado colapsado numa linha só deslocava tudo abaixo dele.
+    def _branco(m):
+        return re.sub(r"[^\n]", " ", m.group(0))
+
+    text = _FENCED_CODE_RE.sub(_branco, text)
+    text = _INLINE_CODE_RE.sub(_branco, text)
+    text = _HTML_COMMENT_RE.sub(_branco, text)
+    text = _DISPLAY_MATH_RE.sub(_branco, text)
     text = _INLINE_MATH_RE.sub(lambda m: " " * len(m.group(0)), text)
     text = _URL_RE.sub(lambda m: " " * len(m.group(0)), text)
     text = _ISO_DATE_RE.sub(lambda m: " " * len(m.group(0)), text)

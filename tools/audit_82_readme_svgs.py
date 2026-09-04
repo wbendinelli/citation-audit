@@ -1596,7 +1596,7 @@ def main(argv=None):
         for name, content in rendered.items():
             p = OUT_DIR / name
             atual = p.read_text(encoding="utf-8") if p.exists() else None
-            if atual != content:
+            if atual != content.rstrip("\n") + "\n":
                 atual_len = len(atual.encode("utf-8")) if atual is not None else 0
                 drift.append(
                     f"{name}: {len(content.encode('utf-8'))} bytes gerados vs {atual_len} commitados"
@@ -1610,7 +1610,9 @@ def main(argv=None):
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for name, content in rendered.items():
-        (OUT_DIR / name).write_text(content, encoding="utf-8")
+        # quebra de linha final: é o que o hook end-of-file-fixer exige, e o
+        # --check compara bytes com o arquivo commitado
+        (OUT_DIR / name).write_text(content.rstrip("\n") + "\n", encoding="utf-8")
     print(f"ok: {len(rendered)} SVGs gravados em {OUT_DIR}")
     return 0
 
