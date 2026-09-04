@@ -91,26 +91,34 @@ for key in ("airline", "grains"):
     dist = collections.Counter()
     rows = [(r, CL.get((r.get("doi") or "").lower())) for r in blk["citing"]]
     rows = [(r, c) for r, c in rows if c]
-    rows.sort(key=lambda rc: (-ROLE[rc[1]["role"]][2], rc[0].get("venue") or ""))
+    rows.sort(
+        key=lambda rc: (
+            -ROLE[auditlib.role_flag_v1(rc[1])[0]][2],
+            rc[0].get("venue") or "",
+        )
+    )
     for r, c in rows:
-        dist[c["role"]] += 1
-        if c.get("flag") in ("autocitacao", "coautor"):
+        role, flag = auditlib.role_flag_v1(
+            c
+        )  # projeção v2 -> (role, flag) do codebook v1
+        dist[role] += 1
+        if flag in ("autocitacao", "coautor"):
             kpi["self"] += 1
         for t in c.get("reuse", []):
-            if c.get("flag") not in ("autocitacao", "coautor"):
+            if flag not in ("autocitacao", "coautor"):
                 kpi["reuse"] += 1
-        if c.get("flag") == "misattribution":
+        if flag == "misattribution":
             kpi["mis"] += 1
-        if c.get("role") == "bibliography_only":
+        if role == "bibliography_only":
             kpi["ghost"] += 1
-        rl, rc_, _ = ROLE[c["role"]]
+        rl, rc_, _ = ROLE[role]
         sl, sc = STANCE[c["stance"]]
-        chips = f'<span class="chip r-{rc_}">{PT[c["role"]]}</span><span class="chip {sc}">{sl}</span>'
+        chips = f'<span class="chip r-{rc_}">{PT[role]}</span><span class="chip {sc}">{sl}</span>'
         for t in c.get("reuse", []):
             chips += f'<span class="chip reuse">{REUSE[t]}</span>'
         if r.get("is_influential"):
             chips += '<span class="chip infl">influential · S2</span>'
-        fl = FLAG.get(c.get("flag") or "")
+        fl = FLAG.get(flag or "")
         qs = [center(p) for p in (c.get("passages") or [])][:2]
         quotes = "".join(f"<blockquote>{esc(q)}</blockquote>" for q in qs)
         note = f'<p class="note">{esc(c.get("note"))}</p>' if c.get("note") else ""
@@ -242,7 +250,10 @@ def render_revistas(key):
     ]
     out = []
     for v, cs in sorted(agg.items(), key=lambda x: (-len(x[1]), x[0])):
-        dist = collections.Counter(c["role"] for c in cs)
+        roles = [
+            auditlib.role_flag_v1(c)[0] for c in cs
+        ]  # projeção v2 -> role do codebook v1
+        dist = collections.Counter(roles)
         chips = "".join(
             f"<i class='q s-{ROLE[r][1]}' title='{PT[r]}: {dist[r]}'>{dist[r]}</i>"
             for r in ordem
@@ -328,7 +339,8 @@ def matriz_q():
         for r in b["citing"]:
             c = CL.get((r.get("doi") or "").lower())
             if c:
-                tab[quart(r)][c["role"]] += 1
+                role, _ = auditlib.role_flag_v1(c)  # projeção v2 -> role do codebook v1
+                tab[quart(r)][role] += 1
     th = "".join(f"<th>{PT[x]}</th>" for x in ROLES_ORD)
     tr = ""
     for x in QORD:
@@ -354,9 +366,10 @@ for b in master["papers"].values():
         c = CL.get((r.get("doi") or "").lower())
         if not c:
             continue
+        role, _ = auditlib.role_flag_v1(c)  # projeção v2 -> role do codebook v1
         if c.get("reuse"):
             _reuse_q[quart(r)] += 1
-        if c["role"] == "bibliography_only":
+        if role == "bibliography_only":
             _ghost_q[quart(r)] += 1
 REUSE_Q1 = _reuse_q["Q1"]
 REUSE_TOT = sum(_reuse_q.values())

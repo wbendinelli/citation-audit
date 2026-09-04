@@ -2,11 +2,14 @@
 
 Pipeline de auditoria de citações. Todo script é `python3 tools/audit_NN_nome.py`,
 stdlib pura (nenhuma dependência externa de Python) + `pdftotext` do poppler
-(`brew install poppler`) para os scripts que extraem PDF.
+(`brew install poppler`) para os scripts que extraem PDF — exceto a fase 60
+(análises), onde `audit_62_irr_stats.py` usa `numpy` (ver a nota no fim de
+"Scripts" abaixo).
 
 `auditlib.py` não é um script — é a biblioteca compartilhada (caminhos,
 carregadores/gravadores de `data/*.json`, helpers de rede e texto, e as
-constantes de taxonomia `TAXONOMIA`/`STATUS`) que todo `audit_*.py` importa.
+constantes de taxonomia `TAXONOMIA`/`TAXONOMIA_V2`/`STATUS`) que todo
+`audit_*.py` importa.
 
 ## Fases
 
@@ -19,7 +22,7 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | 30 | integridade | valida que o texto baixado é do artigo certo e localiza a passagem citante |
 | 40 | periódicos | metadados de cada veículo citante e o tier (proxy OpenAlex / quartil Scimago) |
 | 50 | pendências | deriva CSVs de trabalho a partir do estado atual (o que falta, por quê) |
-| 60 | análises | *(reservado — nenhum script ainda)* |
+| 60 | análises | taxonomia v2 (`audit_60`), pacote cego e estatísticas de confiabilidade entre codificadores (`audit_61`/`audit_62`); demais análises de ROADMAP.md ainda reservadas |
 | 70 | números | *(reservado — nenhum script ainda)* |
 | 80 | saídas | gera `report/index.html` |
 
@@ -40,10 +43,32 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | `audit_40_journals.py` | 40 | `data/master.json`, `config.json`; OpenAlex | `data/master.json`, `data/journals.json` | não |
 | `audit_41_scimago.py` | 40 | `data/journals.json`, `data/scimago/scimagojr_2025.csv` | `data/journals.json` | sim |
 | `audit_50_pending.py` | 50 | `data/master.json`, `data/classify.json`, `data/journals.json`, `data/decisoes_scimago.json`, `config.json` | `data/derived/pendencias.csv`, `data/derived/sem_quartil.csv` | sim |
+| `audit_60_taxonomy_v2.py` | 60 | `data/classify.json`, `data/classify_orfas.json`, `data/master.json`, `METHOD.md` | `data/classify.json`, `data/classify_orfas.json`, `data/taxonomy_v2.json` | não¹ |
+| `audit_61_irr_pack.py` | 60 | `data/classify.json` (v2), `data/master.json`, `data/claims/claims.json`, `METHOD.md`, `config.json`, `data/claims/source_text/*.txt` | `data/irr/pack_blind.json`, `pack_key.json`, `instructions.md`, `irr_c1_from_v2.json` | não² |
+| `audit_62_irr_stats.py` | 60 | JSON de codificador (`--c1`/`--c2`/`--c3`/`--human`), `data/irr/pack_key.json` | `--out` (estatísticas de concordância) | não³ |
 | `audit_80_report_html.py` | 80 | `data/master.json`, `data/classify.json`, `data/journals.json`, `config.json`, `data/scholar/*.txt` | `report/index.html` | sim |
 
 `--check` nunca escreve: renderiza/computa em memória e compara com o que já
 está commitado, saindo com código 1 se houver diferença.
+
+¹ `audit_60_taxonomy_v2.py` não tem `--check` — é migração de uso pontual
+(v1 -> v2), não derivação recorrente. Tem `--dry-run` (não grava, só imprime
+distribuições e a checagem de round-trip) e `--force` (re-migra um
+`classify.json` já em v2, a partir de `prov.migrated_from_v1`; recusa se
+alguma entrada já foi adjudicada).
+² `audit_61_irr_pack.py` tem `--audit` em vez de `--check`: não gera pacote
+novo, só audita o pacote já gravado em `data/irr/` por vazamento de
+identidade (DOI, veículo, ano junto de "et al.", palavras de rótulo fora das
+passagens) — sai com código 1 se achar algum.
+³ `audit_62_irr_stats.py` tem `--selftest` em vez de `--check`: roda os casos
+de referência publicados (Krippendorff 2011, κ de Cohen de livro-texto,
+identidades de PABAK/AC1/PPI) e, se o pacote já existir em `data/irr/`,
+codificador-1 contra si mesmo — sem argumento nenhum sobre dado real.
+
+Fase 60 (`audit_60`/`audit_61`/`audit_62`) é a única exceção ao stdlib-puro:
+`audit_62_irr_stats.py` importa `numpy` (pin em `requirements.txt`, já usada
+por essa fase — ver CLAUDE.md). `audit_60` e `audit_61` continuam stdlib
+pura.
 
 `tools/check_data.py` não segue a numeração de fase — não deriva nada, só
 valida. Lê `data/master.json`, `data/classify.json`, `data/classify_orfas.json`,

@@ -271,10 +271,14 @@ def evidence_sha256_16(passages):
 
 # ---------------- taxonomia ----------------
 
-# Vocabulário fechado por eixo de classify.json (role/stance/reuse/flag),
-# copiado dos valores efetivamente em uso. `flag` nunca inclui a ausência de
-# flag: no esquema v1 isso era "", no v2 é `null` — os dois ficam fora desta
-# lista de propósito, e são tratados como "sem flag" por quem valida.
+# Vocabulário fechado do codebook v1 (role/stance/reuse/flag), copiado dos
+# valores efetivamente em uso. Superado por TAXONOMIA_V2 desde a migração de
+# METHOD.md §16 (2026-09-04) -- classify.json não guarda mais `role`/`flag`
+# no topo da entrada -- mas mantido porque `role_flag_v1()` abaixo projeta
+# uma entrada v2 de volta para esse vocabulário (prova de round-trip da
+# migração e relatório antigo). `flag` nunca inclui a ausência de flag: no
+# esquema v1 isso era "", no v2 é `null` — os dois ficam fora desta lista de
+# propósito, e são tratados como "sem flag" por quem valida.
 TAXONOMIA = {
     "role": ["bibliography_only", "brief_mention", "drive_by", "real_mention",
              "supporting", "foundational", "wrongly_interpreted"],
@@ -283,6 +287,84 @@ TAXONOMIA = {
     "flag": ["ghost", "critical", "weak", "good", "misattribution", "duplicate",
              "best", "coautor", "autocitacao"],
 }
+
+
+def role_flag_v1(entry):
+    """Projeta uma entrada v2 de `classify.json`/`classify_orfas.json` de volta
+    para `(role, flag)` do codebook v1 (METHOD.md §1, superado por §16).
+
+    Mesma prioridade de flag observada nos dados originais quando mais de um
+    eixo v2 poderia gerar uma flag: ghost > misattribution > weak > duplicate
+    > coautor/autocitacao > best > good > critical > nenhuma. É a regra que
+    prova que a migração v1 -> v2 (`audit_60_taxonomy_v2.py`) não perde
+    informação -- projetar de volta cada entrada migrada reproduz o par
+    (role, flag) original em 100% dos casos (round-trip).
+
+    Implementação única: `audit_60_taxonomy_v2.py` (checagem de round-trip)
+    e `audit_80_report_html.py` (relatório, que ainda pensa em role/flag)
+    importam esta função em vez de duplicar a regra.
+    """
+    presence = entry["presence"]
+    if presence == "reference_list_only":
+        return "bibliography_only", "ghost"
+    if presence == "not_cited":
+        return None, None  # sem equivalente no v1 (aresta falsa nunca foi classificada)
+    accuracy = entry.get("accuracy")
+    role = "wrongly_interpreted" if accuracy == "misrepresented" else entry.get("depth")
+    if accuracy == "misrepresented":
+        flag = "misattribution"
+    elif accuracy == "imprecise":
+        flag = "weak"
+    elif "duplicate_publication" in (entry.get("record_flags") or []):
+        flag = "duplicate"
+    elif entry.get("relation") == "coauthor":
+        flag = "coautor"
+    elif entry.get("relation") == "self":
+        flag = "autocitacao"
+    elif entry.get("highlight") == "best":
+        flag = "best"
+    elif entry.get("highlight") == "good":
+        flag = "good"
+    elif entry.get("stance") == "contradictory":
+        flag = "critical"
+    else:
+        flag = None
+    return role, flag
+
+
+# Vocabulário fechado por eixo do codebook v2 (METHOD.md §16): valores
+# permitidos e, quando o eixo é ordinal (depth), o posto de cada valor.
+# Definido aqui em vez de lido de data/taxonomy_v2.json na importação (que
+# tornaria toda fase 10-50 dependente da fase 60 só para importar auditlib) —
+# `load_taxonomy_v2_json()` abaixo lê o arquivo por baixo, e
+# `check_data.py` confere que os dois nunca divergem.
+TAXONOMIA_V2 = {
+    "presence": {"values": ["in_text", "reference_list_only", "not_cited"], "ranks": None},
+    "depth": {"values": ["drive_by", "brief_mention", "real_mention", "supporting", "foundational"],
+              "ranks": {"drive_by": 1, "brief_mention": 2, "real_mention": 3,
+                        "supporting": 4, "foundational": 5}},
+    "accuracy": {"values": ["accurate", "imprecise", "misrepresented"], "ranks": None},
+    "distortion": {"values": ["dead_end", "diversion", "transmutation", "relayed_attribution"],
+                   "ranks": None},
+    "stance": {"values": ["none", "supporting", "contradictory"], "ranks": None},
+    "reuse": {"values": ["method_adoption", "result_validated", "dataset_reuse",
+                         "benchmarking", "work_extended"], "ranks": None},
+    "relation": {"values": ["independent", "coauthor", "self"], "ranks": None},
+    "record_flags": {"values": ["duplicate_publication"], "ranks": None},
+    "highlight": {"values": ["none", "good", "best"], "ranks": None},
+    # "claims" fica fora: não é vocabulário fechado, é lista de ids de
+    # data/claims/claims.json.
+}
+
+
+def load_taxonomy_v2_json():
+    """Carrega data/taxonomy_v2.json inteiro (eixos, crosswalk,
+    migration_rules, codebook_exemplars) -- gerado por
+    `audit_60_taxonomy_v2.py`. Usado por `check_data.py` para conferir que
+    TAXONOMIA_V2 acima não divergiu do arquivo."""
+    with open(DATA / "taxonomy_v2.json", encoding="utf-8") as f:
+        return json.load(f)
+
 
 # Vocabulário fechado de master[*].citing[*].status.
 STATUS = (

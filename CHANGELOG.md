@@ -5,6 +5,38 @@ Mudanças notáveis no repositório. Entradas citam a mensagem do commit pelo
 para tirar `text/`/`pdf/` das rodadas antigas) antes da publicação, e um hash
 citado aqui ficaria órfão no dia seguinte.
 
+## 2026-09-04 — taxonomia v2 e confiabilidade entre codificadores
+
+- **Codebook v2: três eixos ortogonais substituem `role`+`flag`.**
+  `audit_60_taxonomy_v2.py` migra as 104 entradas vivas + 1 órfã de
+  `data/classify.json`/`classify_orfas.json` do `role` de sete valores (mais
+  uma `flag`) do codebook v1 para `presence`/`depth`/`accuracy` (+
+  `distortion`, sub-códigos de Greenberg 2009) julgados independentemente,
+  sem perda: a projeção inversa `auditlib.role_flag_v1()` reproduz
+  `(role, flag)` em 105/105 entradas (round-trip conferido a cada migração,
+  aborta se falhar). `stance` e `reuse` seguem eixos próprios; `relation`,
+  `record_flags` e `highlight` (editorial, fora das estatísticas) saem do
+  `role`/`flag` único do v1. `data/taxonomy_v2.json` documenta o vocabulário
+  de cada eixo, as regras de migração R1–R9 e o crosswalk contra Moravcsik &
+  Murugesan (1975), Teufel (2006), Jurgens et al. (2018), SciCite (Cohan et
+  al. 2019), Valenzuela et al. (2015) e CiTO.
+- **`check_data.py` (4) passa a validar o codebook v2**, não mais
+  `role`/`stance`/`reuse`/`flag` do v1: vocabulário de `presence`/`depth`/
+  `accuracy`/`distortion`/`stance`/`reuse`/`relation`/`record_flags`/
+  `highlight` contra `auditlib.TAXONOMIA_V2` (conferida por sua vez contra
+  `data/taxonomy_v2.json`, para os dois nunca divergirem em silêncio), a
+  consistência `depth`/`accuracy` nulos sse `presence != in_text`,
+  `distortion` não-nulo só quando `accuracy != accurate`, e as chaves novas
+  de `prov` (`migrated_from_v1`, `migration_rules`, `adjudicated`).
+- **`audit_80_report_html.py` lê role/flag via `auditlib.role_flag_v1()`**
+  em vez de campo direto no topo da entrada — `report/index.html` sai
+  byte-idêntico ao commitado (a mudança é de onde o dado vem, não do que é
+  mostrado).
+- **Fase 60 deixa de ser stdlib-pura.** `audit_62_irr_stats.py` usa `numpy`
+  (já pinado em `requirements.txt`, antes reservado só à fase 81) para as
+  estatísticas de concordância entre codificadores — fases 10–50 e 70–80
+  continuam stdlib + `pdftotext`.
+
 ## 2026-09-04 — reorganização SAPIANS
 
 Oito passos que levaram o repositório do formato da auditoria original ao

@@ -21,14 +21,16 @@ repos:
     hooks:
       - id: ruff-check
         files: ^tools/
-        # auditlib.py, check_data.py e audit_6*.py: fora do escopo desta
-        # reorganização (outro agente edita esses arquivos em paralelo) —
-        # nunca reformatar/relintar por baixo de um trabalho em andamento.
-        # Ver a nota equivalente em ruff.toml.
-        exclude: ^tools/(auditlib|check_data|audit_6[0-9]_.*)\.py$
+        # auditlib.py e check_data.py: fora do escopo desta reorganização
+        # (outro agente edita esses arquivos em paralelo) — nunca
+        # reformatar/relintar por baixo de um trabalho em andamento. Ver a
+        # nota equivalente em ruff.toml. audit_6*.py (fase 60) saiu desta
+        # lista de propósito: entregue e lint-limpo (2026-09-04), passa a
+        # ser lintado como qualquer script novo de tools/.
+        exclude: ^tools/(auditlib|check_data)\.py$
       - id: ruff-format
         files: ^tools/
-        exclude: ^tools/(auditlib|check_data|audit_6[0-9]_.*)\.py$
+        exclude: ^tools/(auditlib|check_data)\.py$
 
   - repo: https://github.com/rhysd/actionlint
     rev: v1.7.12

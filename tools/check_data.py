@@ -12,7 +12,12 @@ import sys
 import auditlib
 
 LOCAL = "--local" in sys.argv[1:]
-PROV_KEYS = {"codebook", "coded_at", "coded_by", "evidence_kind", "evidence_sha256_16", "source"}
+# prov de uma entrada v2 (METHOD.md §16): as 9 chaves do v1 + as 3 que a
+# migração acrescenta sempre; depth_basis só aparece quando a regra R3
+# (wrongly_interpreted) se aplicou -- por isso é opcional, não exigida.
+PROV_KEYS_V2 = {"codebook", "coded_at", "coded_by", "evidence_kind", "evidence_sha256_16",
+                "source", "migrated_from_v1", "migration_rules", "adjudicated"}
+PROV_KEYS_V2_OPCIONAIS = {"depth_basis"}
 
 erros = []
 avisos = []
@@ -49,25 +54,73 @@ for key, r in recs:
     if r["status"] not in auditlib.STATUS:
         erros.append(f"(3) {r['id']}: status {r['status']!r} fora do vocabulário STATUS")
 
-# (4) taxonomia + prov + hash de evidência, em classify.json E classify_orfas.json
+# (4) taxonomia v2 + prov + hash de evidência, em classify.json E classify_orfas.json
+# (4a) TAXONOMIA_V2 (auditlib, inline) bate com data/taxonomy_v2.json (fonte
+# gerada por audit_60_taxonomy_v2.py) -- os dois vocabulários não podem
+# divergir silenciosamente.
+_tax_v2_json = auditlib.load_taxonomy_v2_json()
+for eixo, info in _tax_v2_json["axes"].items():
+    if eixo == "claims":
+        continue
+    want_axis = {"values": info["values"], "ranks": info.get("ranks")}
+    got_axis = auditlib.TAXONOMIA_V2.get(eixo)
+    if got_axis != want_axis:
+        erros.append(f"(4) auditlib.TAXONOMIA_V2[{eixo!r}] diverge de data/taxonomy_v2.json: "
+                     f"auditlib={got_axis!r} json={want_axis!r}")
+
+# (4b) cada entrada: vocabulário por eixo, consistência presence/depth/accuracy/
+# distortion, e prov com as chaves da migração (ver PROV_KEYS_V2 acima)
 hash_mismatches = []
 for nome, entries in (("classify.json", classify), ("classify_orfas.json", orfas)):
     for doi, e in entries.items():
-        if e.get("role") not in auditlib.TAXONOMIA["role"]:
-            erros.append(f"(4) {nome}:{doi}: role {e.get('role')!r} fora de TAXONOMIA['role']")
-        if e.get("stance") not in auditlib.TAXONOMIA["stance"]:
-            erros.append(f"(4) {nome}:{doi}: stance {e.get('stance')!r} fora de TAXONOMIA['stance']")
+        if "role" in e or "flag" in e:
+            erros.append(f"(4) {nome}:{doi}: entrada ainda tem role/flag no topo (v1) -- "
+                         f"deveria estar só em prov.migrated_from_v1")
+        presence = e.get("presence")
+        if presence not in auditlib.TAXONOMIA_V2["presence"]["values"]:
+            erros.append(f"(4) {nome}:{doi}: presence {presence!r} fora de TAXONOMIA_V2['presence']")
+        in_text = presence == "in_text"
+        depth = e.get("depth")
+        if depth is not None and depth not in auditlib.TAXONOMIA_V2["depth"]["values"]:
+            erros.append(f"(4) {nome}:{doi}: depth {depth!r} fora de TAXONOMIA_V2['depth']")
+        if (depth is not None) != in_text:
+            erros.append(f"(4) {nome}:{doi}: depth {depth!r} inconsistente com presence {presence!r} "
+                         f"(depth é null sse presence != in_text)")
+        accuracy = e.get("accuracy")
+        if accuracy is not None and accuracy not in auditlib.TAXONOMIA_V2["accuracy"]["values"]:
+            erros.append(f"(4) {nome}:{doi}: accuracy {accuracy!r} fora de TAXONOMIA_V2['accuracy']")
+        if (accuracy is not None) != in_text:
+            erros.append(f"(4) {nome}:{doi}: accuracy {accuracy!r} inconsistente com presence {presence!r} "
+                         f"(accuracy é null sse presence != in_text)")
+        distortion = e.get("distortion")
+        if distortion is not None:
+            if distortion not in auditlib.TAXONOMIA_V2["distortion"]["values"]:
+                erros.append(f"(4) {nome}:{doi}: distortion {distortion!r} fora de TAXONOMIA_V2['distortion']")
+            if accuracy == "accurate":
+                erros.append(f"(4) {nome}:{doi}: distortion {distortion!r} setado com accuracy=accurate")
+        relation = e.get("relation")
+        if relation not in auditlib.TAXONOMIA_V2["relation"]["values"]:
+            erros.append(f"(4) {nome}:{doi}: relation {relation!r} fora de TAXONOMIA_V2['relation']")
+        for f in (e.get("record_flags") or []):
+            if f not in auditlib.TAXONOMIA_V2["record_flags"]["values"]:
+                erros.append(f"(4) {nome}:{doi}: record_flags {f!r} fora de TAXONOMIA_V2['record_flags']")
+        highlight = e.get("highlight")
+        if highlight not in auditlib.TAXONOMIA_V2["highlight"]["values"]:
+            erros.append(f"(4) {nome}:{doi}: highlight {highlight!r} fora de TAXONOMIA_V2['highlight']")
+        stance = e.get("stance")
+        if stance not in auditlib.TAXONOMIA_V2["stance"]["values"]:
+            erros.append(f"(4) {nome}:{doi}: stance {stance!r} fora de TAXONOMIA_V2['stance']")
         for t in (e.get("reuse") or []):
-            if t not in auditlib.TAXONOMIA["reuse"]:
-                erros.append(f"(4) {nome}:{doi}: reuse {t!r} fora de TAXONOMIA['reuse']")
-        flag = e.get("flag")
-        if flag is not None and flag not in auditlib.TAXONOMIA["flag"]:
-            erros.append(f"(4) {nome}:{doi}: flag {flag!r} fora de TAXONOMIA['flag']")
+            if t not in auditlib.TAXONOMIA_V2["reuse"]["values"]:
+                erros.append(f"(4) {nome}:{doi}: reuse {t!r} fora de TAXONOMIA_V2['reuse']")
         prov = e.get("prov") or {}
-        if set(prov.keys()) != PROV_KEYS:
-            faltam, sobram = PROV_KEYS - set(prov.keys()), set(prov.keys()) - PROV_KEYS
-            erros.append(f"(4) {nome}:{doi}: prov com chaves erradas "
-                         f"(faltam {sorted(faltam)}, sobram {sorted(sobram)})")
+        prov_keys = set(prov.keys())
+        if not PROV_KEYS_V2.issubset(prov_keys):
+            erros.append(f"(4) {nome}:{doi}: prov sem as chaves "
+                         f"{sorted(PROV_KEYS_V2 - prov_keys)}")
+        sobram = prov_keys - PROV_KEYS_V2 - PROV_KEYS_V2_OPCIONAIS
+        if sobram:
+            erros.append(f"(4) {nome}:{doi}: prov com chaves inesperadas {sorted(sobram)}")
         passages = e.get("passages") or []
         if passages:
             want = hashlib.sha256("\n".join(passages).encode("utf-8")).hexdigest()[:16]

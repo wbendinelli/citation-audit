@@ -1,30 +1,52 @@
 {
  "entries": {
   "10.1051/shsconf/202521601037": {
-   "flag": "duplicate",
+   "accuracy": "accurate",
+   "claims": [],
+   "codebook_exemplar": false,
+   "depth": "drive_by",
+   "distortion": null,
+   "highlight": "none",
    "motivo_orfa": "A deduplicação por título normalizado fundiu este DOI com 10.1051/shsconf/202521601068, que é o registro vivo. A classificação fica arquivada porque a evidência foi coletada de fato, mas não entra em nenhuma contagem para não contar a mesma obra duas vezes.",
    "note": "Mesmo título e veículo da entrada 044, publicado em duplicata, com a frase parafraseada (“these victims occur due to…”). Indício de texto reciclado.",
    "passages": [
     "These victims occur due to influences such as inappropriate management, insufficient storage facilities, and incompetent logistics [2]."
    ],
+   "presence": "in_text",
    "prov": {
-    "codebook": "METHOD.md@v1",
+    "adjudicated": false,
+    "codebook": "METHOD.md@v2",
     "coded_at": "2026-09-04",
     "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
     "evidence_kind": "passagem literal",
     "evidence_sha256_16": "4c78462419959767",
+    "migrated_from_v1": {
+     "flag": "duplicate",
+     "role": "drive_by"
+    },
+    "migration_rules": [
+     "R2",
+     "R7"
+    ],
     "source": null
    },
+   "record_flags": [
+    "duplicate_publication"
+   ],
+   "relation": "independent",
    "reuse": [],
-   "role": "drive_by",
    "stance": "none"
   }
  },
  "meta": {
-  "codebook": "METHOD.md@v1",
+  "codebook": "METHOD.md@v2",
   "coders": [
    "claude-opus-5"
   ],
-  "schema": 2
+  "migrated_at": "2026-09-04",
+  "migrated_from": "METHOD.md@v1",
+  "migration_tool": "audit_60_taxonomy_v2.py",
+  "schema": 2,
+  "taxonomy": "v2"
  }
 }

@@ -1,0 +1,830 @@
+{
+ "axes": {
+  "accuracy": {
+   "description": "o citante diz o que o artigo diz?",
+   "null_when": "presence != in_text",
+   "type": "nominal",
+   "values": [
+    "accurate",
+    "imprecise",
+    "misrepresented"
+   ]
+  },
+  "claims": {
+   "null_when": null,
+   "type": "list",
+   "values": "ids de data/claims/claims.json"
+  },
+  "depth": {
+   "description": "quanto o artigo importou para quem citou",
+   "null_when": "presence != in_text",
+   "ranks": {
+    "brief_mention": 2,
+    "drive_by": 1,
+    "foundational": 5,
+    "real_mention": 3,
+    "supporting": 4
+   },
+   "type": "ordinal",
+   "values": [
+    "drive_by",
+    "brief_mention",
+    "real_mention",
+    "supporting",
+    "foundational"
+   ]
+  },
+  "distortion": {
+   "description": "mecanismo do erro; atribuído no mapeamento de claims",
+   "null_when": "accuracy == accurate",
+   "source": "Greenberg (2009) BMJ 339:b2680 + relayed_attribution (local)",
+   "type": "nominal",
+   "values": [
+    "dead_end",
+    "diversion",
+    "transmutation",
+    "relayed_attribution"
+   ]
+  },
+  "highlight": {
+   "editorial": true,
+   "excluded_from_statistics": true,
+   "null_when": null,
+   "type": "nominal",
+   "values": [
+    "none",
+    "good",
+    "best"
+   ]
+  },
+  "presence": {
+   "description": "onde o artigo aparece no citante",
+   "null_when": null,
+   "type": "nominal",
+   "values": [
+    "in_text",
+    "reference_list_only",
+    "not_cited"
+   ]
+  },
+  "record_flags": {
+   "description": "sinais do registro, não da citação",
+   "null_when": null,
+   "type": "multi-label",
+   "values": [
+    "duplicate_publication"
+   ]
+  },
+  "relation": {
+   "description": "vínculo de autoria; coauthor/self ficam fora do reuso externo",
+   "null_when": null,
+   "type": "nominal",
+   "values": [
+    "independent",
+    "coauthor",
+    "self"
+   ]
+  },
+  "reuse": {
+   "description": "reuso efetivo; só quando o citante USA o trabalho",
+   "null_when": null,
+   "type": "multi-label",
+   "values": [
+    "method_adoption",
+    "result_validated",
+    "dataset_reuse",
+    "benchmarking",
+    "work_extended"
+   ]
+  },
+  "stance": {
+   "description": "postura do citante (regra liberal)",
+   "null_when": null,
+   "type": "nominal",
+   "values": [
+    "none",
+    "supporting",
+    "contradictory"
+   ]
+  }
+ },
+ "codebook_exemplars": [
+  {
+   "case": "contraposicao_sem_hostilidade",
+   "doi": "10.1016/j.tra.2018.10.005",
+   "method_ref": "TR-A 2018 — \"In contrast to these studies, this work investigates…\"",
+   "paper": "airline",
+   "record_id": "airline_037",
+   "v1": {
+    "flag": "critical",
+    "role": "brief_mention"
+   },
+   "v2": {
+    "accuracy": "accurate",
+    "depth": "brief_mention",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "contradictory"
+   },
+   "venue": "Transportation Research Part A Policy and Practice",
+   "year_doi": 2018,
+   "year_master": 2019
+  },
+  {
+   "case": "verbo_de_distanciamento_nao_basta",
+   "doi": "10.1016/j.jairtraman.2022.102352",
+   "method_ref": "JATM 2022 — \"Still Bendinelli et al. claim that there is little evidence…\"",
+   "paper": "airline",
+   "record_id": "airline_015",
+   "v1": {
+    "flag": null,
+    "role": "real_mention"
+   },
+   "v2": {
+    "accuracy": "accurate",
+    "depth": "real_mention",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "venue": "Journal of Air Transport Management",
+   "year_doi": 2022,
+   "year_master": 2023
+  },
+  {
+   "case": "wrongly_interpreted_versus_weak/misrepresented",
+   "doi": "10.1016/j.jairtraman.2019.05.001",
+   "method_ref": "JATM 2019 — estrutura de custo (objeto errado)",
+   "paper": "airline",
+   "record_id": "airline_032",
+   "v1": {
+    "flag": "misattribution",
+    "role": "wrongly_interpreted"
+   },
+   "v2": {
+    "accuracy": "misrepresented",
+    "depth": "brief_mention",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "venue": "Journal of Air Transport Management",
+   "year_doi": 2019,
+   "year_master": 2019
+  },
+  {
+   "case": "wrongly_interpreted_versus_weak/imprecise",
+   "doi": "10.1016/j.tranpol.2018.12.012",
+   "method_ref": "Transport Policy 2019 — leitura do resultado sobre LCC como positivo",
+   "paper": "airline",
+   "record_id": "airline_035",
+   "v1": {
+    "flag": "weak",
+    "role": "brief_mention"
+   },
+   "v2": {
+    "accuracy": "imprecise",
+    "depth": "brief_mention",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "venue": "Transport Policy",
+   "year_doi": 2018,
+   "year_master": 2019
+  },
+  {
+   "case": "method_adoption_versus_brief_mention/method_adoption",
+   "doi": "10.1016/j.tre.2020.102186",
+   "method_ref": "TR-E 2020 — adota o tratamento de endogeneidade e instrumenta HHI",
+   "paper": "airline",
+   "record_id": "airline_046",
+   "v1": {
+    "flag": "good",
+    "role": "supporting"
+   },
+   "v2": {
+    "accuracy": "accurate",
+    "depth": "supporting",
+    "presence": "in_text",
+    "reuse": [
+     "method_adoption"
+    ],
+    "stance": "supporting"
+   },
+   "venue": "Transportation Research Part E Logistics and Transportation Review",
+   "year_doi": 2020,
+   "year_master": 2021
+  },
+  {
+   "case": "method_adoption_versus_brief_mention/brief_mention",
+   "doi": "10.1016/j.ecotra.2022.100252",
+   "method_ref": "Economics of Transportation 2022 — bloco de oito referências",
+   "paper": "airline",
+   "record_id": "airline_019",
+   "v1": {
+    "flag": null,
+    "role": "brief_mention"
+   },
+   "v2": {
+    "accuracy": "accurate",
+    "depth": "brief_mention",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "venue": "Economics of Transportation",
+   "year_doi": 2022,
+   "year_master": 2022
+  },
+  {
+   "case": "drive_by_versus_brief_mention/drive_by",
+   "doi": "10.1016/j.jspr.2022.101941",
+   "method_ref": "grãos — \"cereais são componentes vitais da alimentação\"",
+   "paper": "grains",
+   "record_id": "grains_057",
+   "v1": {
+    "flag": null,
+    "role": "drive_by"
+   },
+   "v2": {
+    "accuracy": "accurate",
+    "depth": "drive_by",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "venue": "Journal of Stored Products Research",
+   "year_doi": 2022,
+   "year_master": 2022
+  }
+ ],
+ "crosswalk": [
+  {
+   "axis": "depth",
+   "cito": [
+    "citesForInformation"
+   ],
+   "jurgens_2018": [
+    "Background"
+   ],
+   "moravcsik_murugesan_1975": [
+    "perfunctory"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "background"
+   ],
+   "teufel_2006": [
+    "Neut"
+   ],
+   "valenzuela_2015": "incidental",
+   "value": "drive_by"
+  },
+  {
+   "axis": "depth",
+   "cito": [
+    "citesAsAuthority"
+   ],
+   "jurgens_2018": [
+    "Background"
+   ],
+   "moravcsik_murugesan_1975": [
+    "perfunctory"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "background"
+   ],
+   "teufel_2006": [
+    "Neut",
+    "PMot"
+   ],
+   "valenzuela_2015": "incidental",
+   "value": "brief_mention"
+  },
+  {
+   "axis": "depth",
+   "cito": [
+    "describes"
+   ],
+   "jurgens_2018": [
+    "Background",
+    "Motivation"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "background"
+   ],
+   "teufel_2006": [
+    "PMot",
+    "PSim"
+   ],
+   "valenzuela_2015": "incidental",
+   "value": "real_mention"
+  },
+  {
+   "axis": "depth",
+   "cito": [
+    "usesMethodIn",
+    "citesAsEvidence"
+   ],
+   "jurgens_2018": [
+    "Uses",
+    "Motivation"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic"
+   ],
+   "note": "SciCite: method quando há reuso metodológico, background quando só sustenta argumento",
+   "scicite_cohan_2019": [
+    "method",
+    "background"
+   ],
+   "teufel_2006": [
+    "PBas",
+    "PUse",
+    "PSup"
+   ],
+   "valenzuela_2015": "important",
+   "value": "supporting"
+  },
+  {
+   "axis": "depth",
+   "cito": [
+    "extends"
+   ],
+   "jurgens_2018": [
+    "Extends",
+    "Uses"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic",
+    "evolutionary"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "method",
+    "result"
+   ],
+   "teufel_2006": [
+    "PBas",
+    "PModi"
+   ],
+   "valenzuela_2015": "important",
+   "value": "foundational"
+  },
+  {
+   "axis": "stance",
+   "cito": [
+    "supports"
+   ],
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": [
+    "confirmative"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "result"
+   ],
+   "teufel_2006": [
+    "PSup"
+   ],
+   "valenzuela_2015": null,
+   "value": "supporting"
+  },
+  {
+   "axis": "stance",
+   "cito": [
+    "disagreesWith"
+   ],
+   "jurgens_2018": [
+    "CompareOrContrast"
+   ],
+   "moravcsik_murugesan_1975": [
+    "negational"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "result"
+   ],
+   "teufel_2006": [
+    "CoCo-",
+    "Weak"
+   ],
+   "valenzuela_2015": null,
+   "value": "contradictory"
+  },
+  {
+   "axis": "stance",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "sem postura declarada; equivale ao Neut de Teufel quando não há PMot/PSup",
+   "scicite_cohan_2019": null,
+   "teufel_2006": [
+    "Neut"
+   ],
+   "valenzuela_2015": null,
+   "value": "none"
+  },
+  {
+   "axis": "reuse",
+   "cito": [
+    "usesMethodIn"
+   ],
+   "jurgens_2018": [
+    "Uses"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "method"
+   ],
+   "teufel_2006": [
+    "PUse"
+   ],
+   "valenzuela_2015": "important",
+   "value": "method_adoption"
+  },
+  {
+   "axis": "reuse",
+   "cito": [
+    "confirms"
+   ],
+   "jurgens_2018": [
+    "CompareOrContrast"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic",
+    "confirmative"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "result"
+   ],
+   "teufel_2006": [
+    "PSup",
+    "CoCoR0"
+   ],
+   "valenzuela_2015": "important",
+   "value": "result_validated"
+  },
+  {
+   "axis": "reuse",
+   "cito": [
+    "usesDataFrom"
+   ],
+   "jurgens_2018": [
+    "Uses"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "method"
+   ],
+   "teufel_2006": [
+    "PUse"
+   ],
+   "valenzuela_2015": "important",
+   "value": "dataset_reuse"
+  },
+  {
+   "axis": "reuse",
+   "cito": [
+    "citesAsRelated"
+   ],
+   "jurgens_2018": [
+    "CompareOrContrast"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "result"
+   ],
+   "teufel_2006": [
+    "CoCoR0"
+   ],
+   "valenzuela_2015": "important",
+   "value": "benchmarking"
+  },
+  {
+   "axis": "reuse",
+   "cito": [
+    "extends"
+   ],
+   "jurgens_2018": [
+    "Extends"
+   ],
+   "moravcsik_murugesan_1975": [
+    "organic",
+    "evolutionary"
+   ],
+   "note": null,
+   "scicite_cohan_2019": [
+    "method"
+   ],
+   "teufel_2006": [
+    "PBas",
+    "PModi"
+   ],
+   "valenzuela_2015": "important",
+   "value": "work_extended"
+  },
+  {
+   "axis": "presence",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "fora dos esquemas de função; base de comparação: Boyack et al. 2018 (menções no corpo)",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "in_text"
+  },
+  {
+   "axis": "presence",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "Boyack et al. 2018: referência não mencionada no corpo (1,4% no corpus Elsevier)",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "reference_list_only"
+  },
+  {
+   "axis": "presence",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "aresta falsa do grafo de citações; sem equivalente",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "not_cited"
+  },
+  {
+   "axis": "accuracy",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "eixo de veridicidade — fora dos esquemas de função (Jergas & Baethge 2015)",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "accurate"
+  },
+  {
+   "axis": "accuracy",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "erro menor de citação (Jergas & Baethge 2015, categoria minor)",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "imprecise"
+  },
+  {
+   "axis": "accuracy",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "erro maior de citação; sub-códigos de Greenberg 2009 em `distortion`",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "misrepresented"
+  },
+  {
+   "axis": "distortion",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "Greenberg 2009: dead-end citation — a fonte não tem conteúdo relevante para a afirmação",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "dead_end"
+  },
+  {
+   "axis": "distortion",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "Greenberg 2009: citation diversion — conteúdo citado com significado diferente",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "diversion"
+  },
+  {
+   "axis": "distortion",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "Greenberg 2009: citation transmutation — hipótese vira fato pela citação",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "transmutation"
+  },
+  {
+   "axis": "distortion",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "extensão local: atribui ao artigo, como achado próprio, o que ele repassa de terceiros",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "relayed_attribution"
+  },
+  {
+   "axis": "relation",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "citação de coautor — literatura de autocitação, fora dos esquemas de função",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "coauthor"
+  },
+  {
+   "axis": "relation",
+   "cito": null,
+   "jurgens_2018": null,
+   "moravcsik_murugesan_1975": null,
+   "note": "autocitação",
+   "scicite_cohan_2019": null,
+   "teufel_2006": null,
+   "valenzuela_2015": null,
+   "value": "self"
+  }
+ ],
+ "meta": {
+  "codebook": "METHOD.md@v2",
+  "generated_at": "2026-09-04",
+  "generated_by": "audit_60_taxonomy_v2.py",
+  "note": "Três eixos ortogonais (presence, depth, accuracy) + stance + reuse; highlight é editorial e fica fora das estatísticas.",
+  "version": "2.0"
+ },
+ "migration_rules": [
+  {
+   "id": "R1",
+   "then": "presence = reference_list_only; depth = null; accuracy = null",
+   "when": "role == bibliography_only (flag ghost é absorvida)"
+  },
+  {
+   "id": "R2",
+   "then": "presence = in_text; depth = role",
+   "when": "role não é bibliography_only nem wrongly_interpreted"
+  },
+  {
+   "id": "R3",
+   "then": "presence = in_text; accuracy = misrepresented; depth = brief_mention com prov.depth_basis = migration_rule_R3",
+   "when": "role == wrongly_interpreted"
+  },
+  {
+   "id": "R4",
+   "then": "accuracy = imprecise",
+   "when": "flag == weak"
+  },
+  {
+   "id": "R5",
+   "then": "accuracy = misrepresented (conjunto R5 tem de ser igual ao conjunto R3)",
+   "when": "flag == misattribution"
+  },
+  {
+   "id": "R6",
+   "then": "relation = coauthor | self",
+   "when": "flag in {coautor, autocitacao}"
+  },
+  {
+   "id": "R7",
+   "then": "record_flags = [duplicate_publication]",
+   "when": "flag == duplicate"
+  },
+  {
+   "id": "R8",
+   "then": "highlight = flag",
+   "when": "flag in {good, best}"
+  },
+  {
+   "id": "R9",
+   "then": "descartada — 100% redundante com stance == contradictory (verificado na migração)",
+   "when": "flag == critical"
+  },
+  {
+   "id": "R0",
+   "then": "accuracy = accurate para in_text não tocado por R3/R4/R5; relation = independent; record_flags = []; highlight = none; distortion = null; claims = []",
+   "when": "padrão"
+  }
+ ],
+ "scheme_vocabularies": {
+  "cito": [
+   "citesForInformation",
+   "citesAsAuthority",
+   "usesMethodIn",
+   "usesDataFrom",
+   "extends",
+   "confirms",
+   "supports",
+   "disagreesWith",
+   "citesAsRelated",
+   "describes",
+   "citesAsEvidence"
+  ],
+  "jurgens_2018": [
+   "Background",
+   "Uses",
+   "Extends",
+   "Motivation",
+   "CompareOrContrast",
+   "Future"
+  ],
+  "moravcsik_murugesan_1975": {
+   "depth": [
+    "organic",
+    "perfunctory"
+   ],
+   "lineage": [
+    "evolutionary",
+    "juxtapositional"
+   ],
+   "stance": [
+    "confirmative",
+    "negational"
+   ]
+  },
+  "scicite_cohan_2019": [
+   "background",
+   "method",
+   "result"
+  ],
+  "teufel_2006": [
+   "Weak",
+   "CoCoGM",
+   "CoCoR0",
+   "CoCo-",
+   "CoCoXY",
+   "PBas",
+   "PUse",
+   "PModi",
+   "PMot",
+   "PSim",
+   "PSup",
+   "Neut"
+  ],
+  "valenzuela_2015": [
+   "incidental",
+   "important"
+  ]
+ },
+ "v1_projection": {
+  "flag_priority": [
+   "ghost",
+   "misattribution",
+   "weak",
+   "duplicate",
+   "coautor",
+   "autocitacao",
+   "best",
+   "good",
+   "critical",
+   ""
+  ],
+  "role": "bibliography_only se presence == reference_list_only; wrongly_interpreted se accuracy == misrepresented; senão depth",
+  "v1_flags": [
+   "ghost",
+   "critical",
+   "weak",
+   "good",
+   "misattribution",
+   "duplicate",
+   "best",
+   "coautor",
+   "autocitacao"
+  ],
+  "v1_roles": [
+   "bibliography_only",
+   "drive_by",
+   "brief_mention",
+   "real_mention",
+   "supporting",
+   "foundational",
+   "wrongly_interpreted"
+  ]
+ }
+}

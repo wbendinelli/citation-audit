@@ -80,10 +80,12 @@ checagem:
   DOI + editora estabelecida + artigo de periódico) são decisão de escopo
   registrada, não um filtro a "otimizar". Mudar o critério é uma proposta de
   método, não uma correção de bug.
-- **Adicionar dependência Python ao pipeline** (`tools/` é stdlib pura +
-  `pdftotext`, de propósito — ver `tools/README.md`). As duas pins em
-  `requirements.txt` servem só à fase 81 (figuras), reservada e ainda não
-  escrita.
+- **Adicionar dependência Python ao pipeline.** Fases 10–50 e 70–80: só
+  stdlib + `pdftotext`, de propósito — ver `tools/README.md`. Fase 60
+  (análises) pode usar `numpy` — `audit_62_irr_stats.py` é a exceção
+  deliberada (estatística de concordância entre codificadores). As duas pins
+  em `requirements.txt` servem à fase 60 e à fase 81 (figuras, reservada e
+  ainda não escrita).
 - **Rodar os scripts de coleta (fase 10–22) sem necessidade.** Tocam rede
   (OpenAlex, Semantic Scholar, OpenCitations, Europe PMC, Unpaywall,
   Crossref) e podem mudar `data/master.json` sob você — prefira o bloco B
