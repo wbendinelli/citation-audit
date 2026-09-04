@@ -1048,7 +1048,7 @@ def _ponto_cd_serie(janela, serie):
     raise ValueError(f"série desconhecida: {serie!r}")
 
 
-def _painel_cd_real(ax, bloco_paper):
+def _painel_cd_real(ax, bloco_paper, *, mostrar_legenda=True):
     """Forest-plot de CD_t por janela `t`, as quatro séries de
     `CD_SERIES`, para UM artigo já confirmado não-pendente pelo chamador
     (`fig13_cd`). `bloco_paper` é `D["cd"][<artigo>]` inteiro (usa só
@@ -1061,6 +1061,13 @@ def _painel_cd_real(ax, bloco_paper):
     pequeno deslocamento horizontal fixo (`CD_SERIE_OFFSET`, não
     aleatório) para os quatro pontos + IC de uma mesma janela não se
     empilharem um em cima do outro.
+
+    Uma janela pode vir truncada (`janela["truncated"]`, ex.: `grains`
+    t_nominal=10 só tem `t`=7 anos de citação até hoje -- o artigo é de
+    2019, e 2019+10 é ano que ainda não chegou): o rótulo do ponto nesse
+    caso mostra os dois números, "10 (7)" -- nominal fora, real dentro
+    dos parênteses -- lido de `janela["t_nominal"]`/`janela["t"]`, nunca
+    inferido daqui.
     """
     cd_index = bloco_paper["cd_index"]
     janelas = cd_index["windows"]
@@ -1120,22 +1127,31 @@ def _painel_cd_real(ax, bloco_paper):
             color=SP.CINZA,
         )
 
+    def _rotulo_t(t):
+        janela = janelas[t]
+        base = str(janela["t_nominal"])
+        return f"{base} ({janela['t']})" if janela.get("truncated") else base
+
     ax.set_xticks(x)
-    ax.set_xticklabels(ts)
+    ax.set_xticklabels([_rotulo_t(t) for t in ts])
     ax.set_xlim(-0.55, len(ts) - 0.45)
     ax.set_xlabel("janela t (anos)")
     ax.set_ylabel("índice de disrupção (-1 consolida, +1 desloca)")
-    # fora do eixo: em t=1 o IC de DI5/CD_nok já encosta no teto (chega a
-    # 1,0) -- "upper left" dentro do eixo cobria a ponta do whisker. Este
-    # painel é meio PAINEL de largura (lado a lado com o de grains), por
-    # isso 2 colunas (não 4, que ficaria apertado) em duas linhas.
-    ax.legend(
-        loc="upper center",
-        bbox_to_anchor=(0.5, -0.16),
-        ncol=2,
-        fontsize=7.2,
-        frameon=False,
-    )
+    if mostrar_legenda:
+        # fora do eixo: em t=1 o IC de DI5/CD_nok já encosta no teto
+        # (chega a 1,0) -- "upper left" dentro do eixo cobria a ponta do
+        # whisker. Este painel é meio PAINEL de largura (lado a lado com
+        # o outro artigo), por isso 2 colunas (não 4, que ficaria
+        # apertado) em duas linhas. Só um painel mostra (o primeiro) --
+        # as quatro séries e cores são as MESMAS nos dois artigos, uma
+        # legenda repetida embaixo dos dois painéis não diz nada a mais.
+        ax.legend(
+            loc="upper center",
+            bbox_to_anchor=(0.5, -0.16),
+            ncol=2,
+            fontsize=7.2,
+            frameon=False,
+        )
 
 
 @_saida("fig13_cd.png")
@@ -1148,23 +1164,27 @@ def fig13_cd(D):
     pendente`: se `True`, desenha só o aviso "pendente: <motivo>" (ver
     `_desenhar_pendente_no_eixo`); senão desenha o forest-plot de
     verdade (`_painel_cd_real`). Um artigo pendente nunca impede o outro
-    de desenhar -- hoje (`airline` chegou, `grains` ainda não) é
-    exatamente esse caso: o painel de `airline` é o gráfico de verdade, o
-    de `grains` continua o texto de aviso. Quando `grains` chegar (mesma
-    forma, por `audit_65_cd_index.py --paper grains`), regenerar deve
-    bastar -- nenhuma outra mudança de código.
+    de desenhar -- os dois já chegaram (`airline` e `grains`) e os dois
+    painéis desenham o gráfico de verdade hoje; a checagem por-artigo
+    fica porque `cocitacao`/outros blocos futuros podem voltar a chegar
+    um artigo de cada vez, e nenhuma mudança de código deveria ser
+    necessária quando isso acontecer de novo -- só regenerar.
 
     Forma lida em `cd.<artigo>.cd_index` (nenhuma folha aqui vem
     embrulhada em `{"valor","txt"}` -- são números/bool/None crus, ao
     contrário de blocos como `eixos`/`taxa_base`): `backend`, `crosstab`,
-    `fisher_p`, `loo` (os três últimos `None` na corrida de `airline`) e
-    `windows`, um dict por janela `t` ("1"/"3"/"5"/"10", strings) com
-    `CD`, `CD_nok`, `DI2 {n_i,n_j,n_k,value}`, `DI5 {n_i,n_j,n_k,value}`,
-    `holst {CD,n_i,n_j,n_k}`, `checks {...}` (não desenhado -- são
-    validações internas do índice, não dado pra figura), `ci_95 {CD,
-    CD_nok, DI2, DI5, holst_CD}` (cada um `[lo, hi]`) e, soltos na
-    própria janela, `n_i`, `n_j`, `n_k`, `n_window`, `t`, `t_nominal`,
-    `truncated`.
+    `fisher_p`, `loo` (os três `None` nas duas corridas) e `windows`, um
+    dict por janela `t` ("1"/"3"/"5"/"10", strings -- a CHAVE é o t
+    NOMINAL) com `CD`, `CD_nok`, `DI2 {n_i,n_j,n_k,value}`, `DI5
+    {n_i,n_j,n_k,value}`, `holst {CD,n_i,n_j,n_k}`, `checks {...}` (não
+    desenhado -- são validações internas do índice, não dado pra
+    figura), `ci_95 {CD, CD_nok, DI2, DI5, holst_CD}` (cada um `[lo,
+    hi]`) e, soltos na própria janela, `n_i`, `n_j`, `n_k`, `n_window`,
+    `t`, `t_nominal`, `truncated`. Em `grains`, a janela de chave "10"
+    tem `truncated=true`, `t_nominal=10` mas `t=7` -- o artigo é de 2019
+    e uma janela de 10 anos exigiria dado até 2029, que não existe; o
+    rótulo do ponto mostra os dois números ("10 (7)", ver
+    `_painel_cd_real`).
 
     Quatro séries desenhadas (`DI2` fica de fora -- não pedida): `CD`
     (azul escuro), `CD_nok` ("CD sem k", azul médio -- CD_nok ignora o
@@ -1178,7 +1198,7 @@ def fig13_cd(D):
     daquele eixo, não o inverso).
     """
     fig, eixos = plt.subplots(1, 2, figsize=SP.PAINEL)
-    for ax, paper in zip(eixos, PAPERS):
+    for idx, (ax, paper) in enumerate(zip(eixos, PAPERS)):
         bloco_paper = D["cd"][paper]
         if bloco_paper["cd_index"].get("pendente"):
             _desenhar_pendente_no_eixo(
@@ -1189,33 +1209,160 @@ def fig13_cd(D):
                 ),
             )
         else:
-            _painel_cd_real(ax, bloco_paper)
+            _painel_cd_real(ax, bloco_paper, mostrar_legenda=(idx == 0))
             _rotulo_painel(ax, PAPER_LABEL[paper])
     return fig
 
 
+COCIT_BROKER_ORDEM = ("AB", "A_only", "B_only", "single_strand")
+COCIT_BROKER_LABEL = {
+    "AB": "AB (cita os dois lados)",
+    "A_only": "só A",
+    "B_only": "só B",
+    "single_strand": "single-strand",
+}
+
+
 @_saida("fig14_cocitacao.png")
 def fig14_cocitacao(D):
-    """Share de co-citação A-B antes/depois do artigo, com placebos --
-    forma final AINDA NÃO gravada em `dados.json`. Bloco `cocitacao`
-    (`audit_70 §cocitacao`), hoje `pendente` (único motivo, não por
-    artigo): falta `data/cocit/cocit_<artigo>.json`, só o seed de
-    `airline` existe (`data/cocit/seeds_airline.json`, insumo, não
-    resultado).
+    """Co-citação A-B (o artigo focal e o par de disputa mais cocitado
+    com ele) -- só `airline`: o bloco descreve um par específico de
+    artigos cocitados, sem equivalente natural para `grains` nos dados
+    de hoje. Bloco `cocitacao` (`audit_70 §cocitacao`), duas partes lado
+    a lado dentro de um SLOT só -- não há "por artigo" aqui que
+    justifique PAINEL/dois painéis.
 
-    Mesma troca futura de `fig13_cd` (ler o formato quando 65/66
-    rodarem, nunca supor); mesma falha alta se o bloco parar de estar
-    pendente sem que esta função tenha sido reescrita.
+    Forma lida (nenhuma folha embrulhada em `{"valor","txt"}` -- mesma
+    convenção numérica crua de `cd`, ao contrário de blocos como
+    `eixos`/`taxa_base`): `periods.<cenário>` (`main`, zero ou mais
+    `placebo_*`, e um `sensitivity` que NÃO é um placebo -- só desloca o
+    ano de corte pós em +1, é checagem de robustez do próprio corte
+    principal, não um ano falso; fica de fora do painel de placebos por
+    isso, filtrado pelo prefixo `placebo_`) com `pre`/`post`, cada um
+    `{N_A,N_B,N_AB,N_union,jaccard,salton_cosine,share_AB,checks}`, e
+    `pre_range`/`post_range` (`[ano_ini, ano_fim]`); nenhum IC em
+    `share_AB` -- não desenha nenhum, não recomputa um.
+    `tests.fisher_period_x_cocites_both.p_two_sided` e
+    `tests.permutation_delta_share_AB_main.p_value` (os dois só do
+    cenário `main` -- a tabela de contingência do Fisher bate com os
+    `N_AB` de pré/pós do `main`). `brokerage.{AB,A_only,B_only,
+    single_strand}` com `k_cites_focal`/`n`/`rate`, mais
+    `odds_ratio_AB_vs_single`.
+
+    Parte 1 (esquerda): `share_AB` antes/depois, pré/pós dodgeados
+    dentro do próprio cenário -- `main` em azul, placebos em cinza (o
+    MESMO par azul/cinza da parte 2: azul = o sinal real sendo testado,
+    cinza = o comparador/controle -- reaproveitado dentro da mesma
+    figura, não só entre figuras). Fisher p e permutação p (`main`)
+    anotados como texto.
+
+    Parte 2 (direita): taxa de citação ao artigo focal por classe de
+    co-citante, barras horizontais do zero -- `AB` em azul, o resto em
+    cinza. `k_cites_focal/n` anotado tipo "14/48"; razão de chances
+    AB-vs-single-strand como texto.
     """
-    bloco = D["cocitacao"]
-    if not bloco.get("pendente"):
-        raise RuntimeError(
-            "cocitacao não está mais pendente -- fig14_cocitacao precisa ser "
-            "reescrita pra forma final (ver docstring desta função) antes de "
-            "gerar esta figura de novo."
+    cocit = D["cocitacao"]
+    fig, (ax_periodos, ax_broker) = plt.subplots(1, 2, figsize=SP.SLOT)
+
+    # ---- parte 1: share_AB antes/depois, main + placebos ----
+    periodos = cocit["periods"]
+    cenarios = ["main"] + sorted(k for k in periodos if k.startswith("placebo_"))
+    x, fracoes, cores, rotulos_fase = [], [], [], []
+    centros_grupo, rotulos_grupo = [], []
+    xi = 0.0
+    for cenario in cenarios:
+        bloco_cen = periodos[cenario]
+        cor = SP.AZUL if cenario == "main" else SP.CINZA
+        ano_corte = bloco_cen["post_range"][0]
+        nome_grupo = "main" if cenario == "main" else "placebo"
+        par_x = []
+        for fase, rotulo_fase in (("pre", "pré"), ("post", "pós")):
+            x.append(xi)
+            fracoes.append(bloco_cen[fase]["share_AB"])
+            cores.append(cor)
+            rotulos_fase.append(rotulo_fase)
+            par_x.append(xi)
+            xi += 1.0
+        centros_grupo.append(sum(par_x) / 2)
+        rotulos_grupo.append(f"{nome_grupo} ({ano_corte})")
+        xi += 0.6  # respiro entre cenários
+    x = np.array(x)
+    fracoes = np.array(fracoes)
+    ax_periodos.bar(x, fracoes * 100, color=cores, width=0.8)
+    for xi_, f in zip(x, fracoes):
+        ax_periodos.text(
+            xi_, f * 100, SP.pct(f), ha="center", va="bottom", fontsize=6.8
         )
-    motivo = bloco.get("motivo", "sem motivo registrado em dados.json")
-    return _figura_pendente([("airline + grains", motivo)], SP.SLOT)
+    ax_periodos.set_xticks(x)
+    ax_periodos.set_xticklabels(rotulos_fase, fontsize=7.2)
+    # rótulo do cenário (o corte que separa pré/pós), um só por par --
+    # repetir o nome do cenário em CADA barra (duas por par) foi a causa
+    # de uma sobreposição real na primeira versão: "placebo 2011" escrito
+    # duas vezes lado a lado, num slot de bar estreito, colidia com o
+    # "placebo 2011" vizinho. Uma linha curta por par, embaixo do rótulo
+    # pré/pós, não. `get_xaxis_transform()`: x em dado, y em fração do
+    # eixo -- não depende de onde o y-range dos dados termina.
+    for cx, rot in zip(centros_grupo, rotulos_grupo):
+        ax_periodos.text(
+            cx,
+            -0.15,
+            rot,
+            ha="center",
+            va="top",
+            fontsize=6.8,
+            color=SP.CINZA,
+            transform=ax_periodos.get_xaxis_transform(),
+        )
+    ax_periodos.set_ylim(0, fracoes.max() * 100 * 1.32)
+    ax_periodos.set_ylabel("share de co-citação A-B (%)")
+    p_fisher = cocit["tests"]["fisher_period_x_cocites_both"]["p_two_sided"]
+    p_perm = cocit["tests"]["permutation_delta_share_AB_main"]["p_value"]
+    ax_periodos.text(
+        0.02,
+        0.97,
+        f"main: Fisher p={SP.pt(p_fisher, 3)} · permutação p={SP.pt(p_perm, 3)}",
+        transform=ax_periodos.transAxes,
+        ha="left",
+        va="top",
+        fontsize=6.4,
+        color=SP.CINZA,
+    )
+
+    # ---- parte 2: brokerage ----
+    broker = cocit["brokerage"]
+    y = np.arange(len(COCIT_BROKER_ORDEM))
+    taxas = np.array([broker[c]["rate"] for c in COCIT_BROKER_ORDEM])
+    cores_b = [SP.AZUL if c == "AB" else SP.CINZA for c in COCIT_BROKER_ORDEM]
+    ax_broker.barh(y, taxas * 100, color=cores_b, height=0.55)
+    for yi, c in zip(y, COCIT_BROKER_ORDEM):
+        ax_broker.text(
+            broker[c]["rate"] * 100 + taxas.max() * 100 * 0.02,
+            yi,
+            f"{SP.pt_int(broker[c]['k_cites_focal'])}/{SP.pt_int(broker[c]['n'])}",
+            va="center",
+            fontsize=7,
+            color=SP.CINZA,
+        )
+    ax_broker.set_yticks(y)
+    ax_broker.set_yticklabels(
+        [COCIT_BROKER_LABEL[c] for c in COCIT_BROKER_ORDEM], fontsize=7.6
+    )
+    ax_broker.invert_yaxis()
+    ax_broker.set_xlim(0, taxas.max() * 100 * 1.32)
+    ax_broker.set_xlabel("cita o artigo focal (%)")
+    razao = broker["odds_ratio_AB_vs_single"]
+    ax_broker.text(
+        0.98,
+        0.03,
+        f"razão de chances AB vs single-strand: {SP.pt(razao, 1)}×",
+        transform=ax_broker.transAxes,
+        ha="right",
+        va="bottom",
+        fontsize=6.6,
+        color=SP.CINZA,
+    )
+    SP.sem_grade(ax_broker)
+    return fig
 
 
 # ==========================================================================
