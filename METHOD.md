@@ -211,3 +211,26 @@ que alimentam política pública; **não** diz que alguma citação a ele chegou
 documento de política. Afirmar o segundo a partir do primeiro seria erro. Para o dado
 por artigo é preciso a base Overton, que é paga, ou busca dirigida nos repositórios de
 FAO, Banco Mundial, OCDE, Embrapa e CONAB.
+
+## Ausência do Scimago: separar o que é limitação do que é tipo de documento
+
+Das 147 citações com DOI, 49 não têm quartil Scimago. Elas se dividem em dois grupos
+com significados opostos, e tratá-las como um bloco só seria erro.
+
+**32 estão corretamente fora**, porque não são artigo de periódico: 11 capítulos ou
+livros, 10 registros de repositório de preprint (SSRN, arXiv, RePEc), 6 anais de
+conferência (E3S, SHS, IOP, AIP, AIAA), 4 teses e 1 DOI de projeto do CORDIS
+(`10.3030/687772`), que não é sequer publicação. O Scimago indexa periódico; a ausência
+aqui é comportamento correto da base.
+
+**17 são periódico de verdade** ausentes do Scopus: `Transportes` (BR, duas citações),
+`Revista Verde` (BR), `Plant Archives` (IN), `Asian Journal of Agriculture and Food
+Sciences` (IN), `Tanzania Journal of Science`, `Siberian Herald of Agricultural
+Science` (RU), `Lomonosov Economics Journal` (RU), `Modeling Control and Information
+Technologies` (UA), `Naučne publikacije` (RS), `Studia i Prace` (PL), entre outros.
+A ausência é limitação de cobertura geográfica do Scopus, não sinal de qualidade.
+
+Removidos os 32, o denominador de artigos de periódico é **115**, dos quais **98 (85%)
+têm quartil**. Duas exceções merecem nota: `Cleaner Food Systems` e `Journal of the Air
+Transport Research Society` são periódicos lançados recentemente demais para constar na
+edição 2025 — ausência por idade, não por qualidade.
