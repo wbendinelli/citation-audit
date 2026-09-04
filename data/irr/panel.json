@@ -1,0 +1,79 @@
+{
+ "IRR-1b0c": {
+  "distortion": "transmutation",
+  "rationale": "Sub-código transmutation: AIR-I02 é mecanismo conjecturado (LCC mais atrativa a passageiros de lazer) transformado em fato estabelecido. dead_end exigiria ausência de conteúdo relevante, incompatível com accuracy=imprecise (tema adjacente)."
+ },
+ "IRR-1b78": {
+  "depth": "brief_mention",
+  "rationale": "Bloco de seis fontes atribui objeto específico (internalização de congestionamento), sem uso próprio; reuso vazio por maioria afasta 'supporting'. Régua drive_by×brief_mention e caso Economics of Transportation 2022: afirmação específica em bloco = nível 2."
+ },
+ "IRR-1eca": {
+  "accuracy": "misrepresented",
+  "rationale": "Regra: bloco que cola o artigo a afirmação sem conteúdo relevante = misrepresented + dead_end (distortion já fixado). Objeto errado: dano físico do grão por mecanização vs. painel macro de quantidade perdida (GR-DEF01)."
+ },
+ "IRR-2bd5": {
+  "accuracy": "misrepresented",
+  "rationale": "Regra 4: afirmação REPASSADA atribuída ao artigo como achado próprio é misrepresented+relayed_attribution. O codebook cita '20–35% dos grãos' (GR-R01, Gustavsson et al., 2011) como exemplo literal."
+ },
+ "IRR-327a": {
+  "depth": "brief_mention",
+  "rationale": "Depth mede o que o citante faz: atribui afirmação específica ('analisam concentração e intensidade de competição') = brief_mention. Não é genérica (drive_by) e, com accuracy imprecise, não descreve o conteúdo real (real_mention)."
+ },
+ "IRR-357b": {
+  "depth": "brief_mention",
+  "rationale": "Bloco de cinco com 'among many others' atribui afirmação específica — competição de mercado e pontualidade —, mas não descreve o conteúdo real do artigo; pela régua drive_by×brief_mention é nível 2, não real_mention."
+ },
+ "IRR-4cc0": {
+  "accuracy": "misrepresented",
+  "rationale": "Regra 4: afirmação REPASSADA (GR-R02, um terço da produção global perdido, de Gustavsson et al. 2011) atribuída ao artigo como achado próprio = misrepresented + relayed_attribution, distortion já fixado pelos dois cegos."
+ },
+ "IRR-7860": {
+  "depth": "foundational",
+  "rationale": "Eixo 2, nível 5: o citante identifica o artigo como referência única ('domestic flights in Brazil') e ainda descreve seu conteúdo real (AIR-M01). c1, com texto completo, sustenta foundational."
+ },
+ "IRR-786d": {
+  "accuracy": "imprecise",
+  "rationale": "Regra 4: extensão de escopo — comportamento individual do produtor inferido de painel macro por país = imprecise + diversion. Tema adjacente (GR-F09, infraestrutura pós-colheita), logo não é misrepresented nem dead_end."
+ },
+ "IRR-81e6": {
+  "accuracy": "imprecise",
+  "distortion": "diversion",
+  "rationale": "Porte do produtor e moinhos não estão no painel macro de 82 países, mas o tema (PHL em países em desenvolvimento) é adjacente, não vazio. Regra 4: extensão de escopo = imprecise + diversion."
+ },
+ "IRR-8dc2": {
+  "distortion": "transmutation",
+  "rationale": "Accuracy=imprecise por maioria exige distortion (regra 6). AIR-I02 é mecanismo CONJECTURADO virado fato ('LCCs target leisure markets') — transmutation. dead_end pareia com misrepresented, não com imprecise (regra 4)."
+ },
+ "IRR-a1e3": {
+  "accuracy": "imprecise",
+  "rationale": "Os dois cegos convergem contra c1: o bloco trata de perecíveis e GR-L03 veda extrapolar grãos a frutas e hortaliças. Regra 4: extensão de escopo a outras culturas = imprecise, não misrepresented."
+ },
+ "IRR-b1f0": {
+  "distortion": "transmutation",
+  "rationale": "Sub-código transmutation: conjectura AIR-I02 sobre atratividade da LCC ao passageiro de lazer citada como fato estabelecido. dead_end pressupõe nenhum conteúdo relevante, o que contraria accuracy=imprecise (tema adjacente) já fixada."
+ },
+ "IRR-cb12": {
+  "distortion": "diversion",
+  "rationale": "Com accuracy=imprecise (maioria), regra 6 exige distortion. Armazenagem e preços existem no artigo (GR-P02, GR-F07), mas citados com significado diferente — estabilização de preços — logo diversion, não dead_end."
+ },
+ "IRR-cc5f": {
+  "accuracy": "imprecise",
+  "rationale": "Leitura frouxa, não falsa: o artigo usa códigos de justificativa de atraso (AIR-D02) e variáveis de mau tempo; 'impactos dos atrasos nos custos' desloca o significado = imprecise + diversion. misrepresented exigiria objeto ou direção errados."
+ },
+ "IRR-cc69": {
+  "distortion": "dead_end",
+  "rationale": "Accuracy já é misrepresented; o artigo não tem conteúdo sobre acidentes, segurança ou desempenho financeiro — afirmação sem nenhum conteúdo relevante (definição de dead_end), diferente do caso 'estrutura de custo' (diversion)."
+ },
+ "IRR-ed51": {
+  "presence": "in_text",
+  "rationale": "Regra 3: a janela automática exibiu conclusão e bibliografia (trecho irrelevante) e c1, com texto completo, viu menção no corpo; prevalece c1, e com ela depth=real_mention e accuracy=accurate."
+ },
+ "IRR-f02e": {
+  "accuracy": "misrepresented",
+  "rationale": "Regra 4: 'relação confirmada pelos autores' converte em achado próprio o repasse do FAA OIG (AIR-R03); além disso o artigo não estuda cancelamentos — objeto errado, logo misrepresented."
+ },
+ "IRR-f08a": {
+  "depth": "foundational",
+  "rationale": "Nível 5: o citante identifica o artigo como referência única que concilia as duas correntes e constrói sobre ela sua estratégia alternativa. Cegos divididos (3 e 4); prevalece c1, que leu o corpo completo."
+ }
+}

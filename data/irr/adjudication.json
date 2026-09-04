@@ -1,0 +1,5870 @@
+{
+ "contested": [],
+ "items": {
+  "IRR-0029": {
+   "coders": {
+    "c1": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.3390/agriculture11111147",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-0252": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/s00217-026-05237-y",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-0439": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2019.03.001",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-04bf": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.3390/ijerph19158921",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-05b4": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jtrangeo.2021.103260",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-0e5b": {
+   "coders": {
+    "c1": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "GR-DEF02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.35633/inmateh-62-14",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [
+     "GR-DEF01",
+     "GR-DEF02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-0ea4": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.3390/app122010433",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-1016": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-M02"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M02"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tranpol.2020.04.013",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-M01",
+     "AIR-M02"
+    ],
+    "depth": "supporting",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [
+     "method_adoption"
+    ],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-11ba": {
+   "coders": {
+    "c1": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.3389/fsufs.2025.1560865",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-135c": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tranpol.2018.07.006",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F03"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-1531": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tre.2016.12.012",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01",
+     "AIR-F02",
+     "AIR-M01"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-1b0c": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-I02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "transmutation",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1080/10696679.2021.2008802",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "AIR-I02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "transmutation",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "colegiado",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-1b78": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "work_extended"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tra.2018.06.008",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "colegiado",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-1c51": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/978-3-030-71704-9_45",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-1c64": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F09",
+      "GR-P01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-P01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1080/19315260.2024.2392551",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F09",
+     "GR-P01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-1d19": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-F04"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F04"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2022.102352",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F04"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-1eca": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.47278/journal.ijab/2025.105",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-2200": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/s41348-026-01320-4",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-29fd": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/978-981-97-2795-7_12",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-2ad1": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.ecotra.2022.100252",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01",
+     "AIR-F02"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-2bd5": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-R01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "GR-R01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.3390/agriculture11090877",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [
+     "GR-R01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "relayed_attribution",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-2c1b": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-M05"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M05"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    }
+   },
+   "doi": "10.1016/j.tra.2018.10.005",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-M05"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "contradictory"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-3173": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2023.102493",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01",
+     "AIR-F02"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-327a": {
+   "coders": {
+    "c1": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.5937/npdunp1802119r",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "AIR-M01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "colegiado",
+    "distortion": "maioria_condicional",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-357b": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01"
+     ],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1038/s41598-023-30703-y",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F02",
+     "AIR-M01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "colegiado",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-35ae": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1002/bse.3191",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-3847": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F05"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F05"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.igd.2023.100108",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F05"
+    ],
+    "depth": "supporting",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [
+     "method_adoption"
+    ],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-3978": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/s42690-025-01511-w",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-3b60": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1007/s40305-020-00306-9",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-3c3a": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-F01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-F01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tre.2022.103000",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01",
+     "AIR-M01"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-4cc0": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-R02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "GR-R02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.spc.2021.08.004",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [
+     "GR-R02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "relayed_attribution",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-4ed0": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-D02",
+      "GR-F09"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-D02",
+      "GR-P01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.3390/su142013352",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-D02",
+     "GR-F09",
+     "GR-P01"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-4f3b": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1007/s10668-021-01314-2",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-54a4": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.64026/jssf/2026006",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "GR-DEF01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-55c3": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.58694/20.500.12479/2737",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F09"
+    ],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-5c00": {
+   "coders": {
+    "c1": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "AIR-R01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "AIR-R01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.5028/jatm.v11.977",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [
+     "AIR-R01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "relayed_attribution",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-648f": {
+   "coders": {
+    "c1": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1080/03081060.2020.1701706",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-692a": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M03",
+      "AIR-M04"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M03",
+      "AIR-M04"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2021.102044",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-M03",
+     "AIR-M04"
+    ],
+    "depth": "supporting",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [
+     "method_adoption"
+    ],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-6a4c": {
+   "coders": {
+    "c1": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.58567/rea03040001",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-6be4": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.trc.2020.102686",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-6cdf": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.susoc.2023.04.003",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-6d84": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-I01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-I01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.5281/zenodo.17506763",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F03",
+     "AIR-I01"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-70aa": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F09",
+      "GR-P01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.3390/agriculture12040465",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F09",
+     "GR-P01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-73e0": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F09",
+      "GR-L01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jspr.2024.102288",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F09",
+     "GR-L01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-73f8": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "GR-R01",
+      "GR-DEF03"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "GR-R01",
+      "GR-DEF03"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.foodchem.2024.142637",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [
+     "GR-DEF03",
+     "GR-R01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "relayed_attribution",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-74f7": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1108/s2212-160920170000006014",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-7860": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-D01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-D01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2021.102064",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-D01",
+     "AIR-M01"
+    ],
+    "depth": "foundational",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "colegiado",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-786d": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.clfs.2026.100028",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "GR-F09"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "maioria_condicional",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-7fe7": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jspr.2025.102547",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "GR-DEF01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-7fe9": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.4236/as.2022.139061",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-81e6": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.51470/plantarchives.2024.v24.sp-gabels.029",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "colegiado",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-8576": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1038/s43247-023-01062-3",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-870d": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2019.101690",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-872a": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-P01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.biocontrol.2021.104568",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F09",
+     "GR-P01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-87ab": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/978-3-031-06562-0_11",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-8c18": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.ecotra.2019.02.002",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-8cba": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.jtrangeo.2020.102749",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-8dc2": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-I02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "transmutation",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jbusres.2022.03.043",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "AIR-I02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "transmutation",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "colegiado",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-90d1": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "result_validated"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-D04"
+     ],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-D04"
+     ],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2017.09.008",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-D04",
+     "AIR-F01"
+    ],
+    "depth": "foundational",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-9a22": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "work_extended"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-D01",
+      "AIR-D03",
+      "AIR-D04",
+      "AIR-D05",
+      "AIR-F01",
+      "AIR-F02",
+      "AIR-F03",
+      "AIR-F04"
+     ],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-D01",
+      "AIR-D03",
+      "AIR-D05",
+      "AIR-F01"
+     ],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.5281/zenodo.10671654",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-D01",
+     "AIR-D03",
+     "AIR-D04",
+     "AIR-D05",
+     "AIR-F01",
+     "AIR-F02",
+     "AIR-F03",
+     "AIR-F04",
+     "AIR-M01"
+    ],
+    "depth": "foundational",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-a050": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.26898/0370-8799-2020-4-11",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-a164": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-DEF02",
+      "GR-P02"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-DEF01",
+      "GR-DEF02",
+      "GR-P02"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1590/s0102-0536-20220313",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-DEF01",
+     "GR-DEF02",
+     "GR-P02"
+    ],
+    "depth": "supporting",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [
+     "method_adoption"
+    ],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-a1e3": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-P01"
+     ],
+     "depth": "drive_by",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.4314/tjs.v49i3.16",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "GR-P01"
+    ],
+    "depth": "drive_by",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-a299": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F03",
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F01",
+      "GR-F03"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/bs.hesagr.2022.03.001",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F01",
+     "GR-F03",
+     "GR-F09"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-a5c7": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.jatrs.2026.100103",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-a77b": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/s13762-020-02710-3",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-a975": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-F05"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-F05"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.11606/d.12.2021.tde-19012022-204119",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F03",
+     "AIR-F05"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-aa83": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.ijindorg.2021.102742",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [
+     "AIR-F01",
+     "AIR-F02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-acf0": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.47836/ifrj.32.2.05",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-ae39": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-F05"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-F05"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.rtbm.2025.101458",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F03",
+     "AIR-F05"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-af13": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-D02"
+     ],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.jspr.2022.101941",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-D02"
+    ],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-b03f": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.47278/journal.ijab/2025.070",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F09"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-b097": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.18805/ag.d-6397",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "GR-DEF01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-b1f0": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-I02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "transmutation",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.indmarman.2023.09.003",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "AIR-I02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "transmutation",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "colegiado",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-b9db": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tranpol.2017.12.021",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01",
+     "AIR-F02"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-be8d": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-D01",
+      "AIR-F05"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-D01",
+      "AIR-F05"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.jatrs.2024.100013",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-D01",
+     "AIR-F05"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-bf00": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "AIR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tra.2019.01.006",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-DEF01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-bf09": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-I02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "transmutation",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2022.102207",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-I02"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-c162": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.tre.2016.12.010",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-c3c8": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.tranpol.2021.10.015",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-c479": {
+   "coders": {
+    "c1": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2019.05.001",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-c5fa": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-D02"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-D02"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.trip.2020.100189",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-D02"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-c6eb": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1080/23311932.2023.2247178",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-DEF01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-cb12": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-P02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1007/s42853-022-00130-4",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "GR-P02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "colegiado",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-cc5f": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "AIR-D02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.14295/transportes.v26i2.1379",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "AIR-D02"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  },
+  "IRR-cc69": {
+   "coders": {
+    "c1": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.55463/hkjss.issn.1021-3619.62.33",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "colegiado",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-cc96": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "contradictory"
+    }
+   },
+   "doi": "10.1007/s12571-022-01259-y",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "contradictory"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-cda7": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-D02",
+      "GR-F09"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-D02",
+      "GR-P01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.compag.2022.106936",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-D02",
+     "GR-F09",
+     "GR-P01"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-d073": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.46632/rmc/2/4/29",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-d1c4": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M04"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M04"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1111/jbfa.12351",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-M04"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "maioria2/3",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-dd24": {
+   "coders": {
+    "c1": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-P01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F05"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tranpol.2018.12.012",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F03",
+     "AIR-F05",
+     "AIR-P01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-e06d": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-I01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F03",
+      "AIR-I01"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.5281/zenodo.10671650",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F03",
+     "AIR-I01"
+    ],
+    "depth": "real_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-e113": {
+   "coders": {
+    "c1": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1080/09718524.2023.2273153",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-e1b7": {
+   "coders": {
+    "c1": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1007/978-3-030-98067-2_172-1",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "reference_list_only",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "grains"
+  },
+  "IRR-e65d": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.compag.2021.106405",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-ea18": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M03",
+      "AIR-F07"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M03"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [
+      "method_adoption"
+     ],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tre.2020.102186",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F07",
+     "AIR-M03"
+    ],
+    "depth": "supporting",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [
+     "method_adoption"
+    ],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "unanime",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-ed51": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": null,
+     "claim_ids": [],
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1080/15325008.2024.2316257",
+   "final": {
+    "accuracy": null,
+    "claim_ids": [],
+    "depth": null,
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "colegiado",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-ed73": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "misrepresented",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": "dead_end",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.33119/sip.2025.201.2",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [],
+    "depth": "brief_mention",
+    "distortion": "dead_end",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "unanime",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-edd4": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-F01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.trb.2026.103567",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-eef4": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "GR-DEF01"
+     ],
+     "depth": "brief_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.jspr.2025.102611",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [
+     "GR-DEF01"
+    ],
+    "depth": "brief_mention",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-efbf": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-F09"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "GR-P01"
+     ],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1051/shsconf/202521601068",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "GR-F09",
+     "GR-P01"
+    ],
+    "depth": "brief_mention",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "grains"
+  },
+  "IRR-f02e": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "misrepresented",
+     "claim_ids": [
+      "AIR-R03",
+      "AIR-F02"
+     ],
+     "depth": "brief_mention",
+     "distortion": "relayed_attribution",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [
+      "AIR-F02"
+     ],
+     "depth": "real_mention",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.14295/transportes.v29i1.2236",
+   "final": {
+    "accuracy": "misrepresented",
+    "claim_ids": [
+     "AIR-F02",
+     "AIR-R03"
+    ],
+    "depth": "real_mention",
+    "distortion": "relayed_attribution",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "colegiado",
+    "claim_ids": "uniao",
+    "depth": "maioria2/3",
+    "distortion": "maioria_condicional",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-f08a": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "foundational",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-M02",
+      "AIR-F01",
+      "AIR-F02"
+     ],
+     "depth": "real_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c3": {
+     "accuracy": "accurate",
+     "claim_ids": [
+      "AIR-M01",
+      "AIR-M02"
+     ],
+     "depth": "supporting",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    }
+   },
+   "doi": "10.1016/j.tra.2018.10.012",
+   "final": {
+    "accuracy": "accurate",
+    "claim_ids": [
+     "AIR-F01",
+     "AIR-F02",
+     "AIR-M01",
+     "AIR-M02"
+    ],
+    "depth": "foundational",
+    "distortion": null,
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "supporting"
+   },
+   "how": {
+    "accuracy": "unanime",
+    "claim_ids": "uniao",
+    "depth": "colegiado",
+    "distortion": "derivado_de_accuracy",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "unanime"
+   },
+   "paper": "airline"
+  },
+  "IRR-fee5": {
+   "coders": {
+    "c1": {
+     "accuracy": "accurate",
+     "claim_ids": [],
+     "depth": "brief_mention",
+     "distortion": null,
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "supporting"
+    },
+    "c2": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    },
+    "c3": {
+     "accuracy": "imprecise",
+     "claim_ids": [],
+     "depth": "drive_by",
+     "distortion": "diversion",
+     "presence": "in_text",
+     "reuse": [],
+     "stance": "none"
+    }
+   },
+   "doi": "10.1016/j.jairtraman.2024.102708",
+   "final": {
+    "accuracy": "imprecise",
+    "claim_ids": [],
+    "depth": "drive_by",
+    "distortion": "diversion",
+    "presence": "in_text",
+    "reuse": [],
+    "stance": "none"
+   },
+   "how": {
+    "accuracy": "maioria2/3",
+    "claim_ids": "unanime",
+    "depth": "maioria2/3",
+    "distortion": "unanime",
+    "presence": "unanime",
+    "reuse": "unanime",
+    "stance": "maioria2/3"
+   },
+   "paper": "airline"
+  }
+ },
+ "stats": {
+  "accuracy:colegiado": 8,
+  "accuracy:maioria": 36,
+  "accuracy:unanime": 60,
+  "claim_ids:contestado": 0,
+  "claim_ids:unanime": 71,
+  "claim_ids:uniao": 33,
+  "depth:colegiado": 5,
+  "depth:maioria": 39,
+  "depth:unanime": 60,
+  "distortion:colegiado": 6,
+  "distortion:contestado": 0,
+  "distortion:derivado": 70,
+  "distortion:maioria_condicional": 3,
+  "distortion:unanime": 84,
+  "presence:colegiado": 1,
+  "presence:unanime": 103,
+  "reuse:maioria": 9,
+  "reuse:unanime": 95,
+  "stance:maioria": 19,
+  "stance:unanime": 85
+ }
+}

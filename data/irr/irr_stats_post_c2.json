@@ -1,0 +1,1542 @@
+{
+ "intra_rater": {
+  "c1": {
+   "accuracy_agreement": 0.7,
+   "all_axes_identical": 6,
+   "claim_ids_jaccard": 0.85,
+   "depth_agreement": 0.8,
+   "distortion_agreement": 0.6,
+   "n_pairs": 10,
+   "n_pairs_in_key": 10,
+   "presence_agreement": 1.0,
+   "reuse_jaccard": 1.0,
+   "stance_agreement": 1.0
+  },
+  "c2": {
+   "accuracy_agreement": 1.0,
+   "all_axes_identical": 10,
+   "claim_ids_jaccard": 1.0,
+   "depth_agreement": 1.0,
+   "distortion_agreement": 1.0,
+   "n_pairs": 10,
+   "n_pairs_in_key": 10,
+   "presence_agreement": 1.0,
+   "reuse_jaccard": 1.0,
+   "stance_agreement": 1.0
+  }
+ },
+ "meta": {
+  "B": 2000,
+  "coders": {
+   "c1": "data/irr/coder_c2_opus.json",
+   "c2": "data/irr/coder_final.json"
+  },
+  "coverage": {
+   "c1": {
+    "coded": 114,
+    "missing_from_pack": 0,
+    "missing_ids": [],
+    "unknown_ids": []
+   },
+   "c2": {
+    "coded": 114,
+    "missing_from_pack": 0,
+    "missing_ids": [],
+    "unknown_ids": []
+   }
+  },
+  "exemplar_ids": [
+   "IRR-1d19",
+   "IRR-2ad1",
+   "IRR-2c1b",
+   "IRR-af13",
+   "IRR-c479",
+   "IRR-dd24",
+   "IRR-ea18"
+  ],
+  "key": "data/irr/pack_key.json",
+  "n_duplicate_pairs": 10,
+  "n_exemplars_excluded": 7,
+  "n_items_original": 104,
+  "n_primary": 97,
+  "notes": [
+   "primary exclui itens codebook_exemplar; sensitivity_with_exemplars inclui",
+   "PABAK usa k = nº de categorias do eixo (k = 2 nos eixos binários => 2·p_o − 1)",
+   "depth: α ordinal é a estatística primária; κ quadrático como segunda leitura",
+   "IC95 = bootstrap percentílico sobre itens"
+  ],
+  "seed": 20260904,
+  "validation": {
+   "c1": {
+    "null_coherence": 0,
+    "vocabulary": 0
+   },
+   "c2": {
+    "null_coherence": 0,
+    "vocabulary": 0
+   }
+  }
+ },
+ "multi_coder_alpha": null,
+ "pairs": {
+  "c1_vs_c2": {
+   "primary": {
+    "accuracy": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.8591190543376711,
+       "lo": 0.5986294774604195
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 0.8826241205963762,
+       "lo": 0.6605464703018696
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 0.858405319372628,
+       "lo": 0.602701689734654
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 0.8764705882352941,
+       "lo": 0.6437276785714284
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9176470588235294,
+       "lo": 0.7624851190476191
+      }
+     },
+     "confusion": {
+      "accurate": {
+       "accurate": 42,
+       "imprecise": 0,
+       "misrepresented": 0
+      },
+      "imprecise": {
+       "accurate": 6,
+       "imprecise": 15,
+       "misrepresented": 2
+      },
+      "misrepresented": {
+       "accurate": 2,
+       "imprecise": 3,
+       "misrepresented": 13
+      }
+     },
+     "k_categories": 3,
+     "n_pairs": 83,
+     "point": {
+      "alpha_nominal": 0.7371645631662787,
+      "gwet_ac1": 0.7774684196957979,
+      "kappa": 0.7371498172959805,
+      "pabak": 0.7650602409638556,
+      "raw_agreement": 0.8433734939759037
+     },
+     "prevalence": {
+      "accurate": {
+       "coder_a": 0.5060240963855421,
+       "coder_b": 0.6024096385542169,
+       "mean": 0.5542168674698795
+      },
+      "imprecise": {
+       "coder_a": 0.27710843373493976,
+       "coder_b": 0.21686746987951808,
+       "mean": 0.24698795180722893
+      },
+      "misrepresented": {
+       "coder_a": 0.21686746987951808,
+       "coder_b": 0.18072289156626506,
+       "mean": 0.19879518072289157
+      }
+     }
+    },
+    "accuracy_misrepresented": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.8959568733153639,
+       "lo": 0.5249648382559775
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 0.9616727033256505,
+       "lo": 0.8127714331671224
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 0.8955866523143164,
+       "lo": 0.5254933606013754
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 0.9381443298969072,
+       "lo": 0.731958762886598
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9690721649484536,
+       "lo": 0.865979381443299
+      }
+     },
+     "confusion": {
+      "no": {
+       "no": 77,
+       "yes": 2
+      },
+      "yes": {
+       "no": 5,
+       "yes": 13
+      }
+     },
+     "k_categories": 2,
+     "n_pairs": 97,
+     "point": {
+      "alpha_nominal": 0.7457180500658762,
+      "gwet_ac1": 0.8994446501295815,
+      "kappa": 0.7448327696354754,
+      "pabak": 0.8556701030927836,
+      "raw_agreement": 0.9278350515463918
+     },
+     "prevalence": {
+      "no": {
+       "coder_a": 0.8144329896907216,
+       "coder_b": 0.845360824742268,
+       "mean": 0.8298969072164948
+      },
+      "yes": {
+       "coder_a": 0.18556701030927836,
+       "coder_b": 0.15463917525773196,
+       "mean": 0.17010309278350516
+      }
+     }
+    },
+    "accuracy_not_accurate": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.9344503566172309,
+       "lo": 0.6957207207207208
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 0.943561250561893,
+       "lo": 0.7337696611421937
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 0.9341777878308075,
+       "lo": 0.7007441527305921
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 0.9381443298969072,
+       "lo": 0.7113402061855669
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9690721649484536,
+       "lo": 0.8556701030927835
+      }
+     },
+     "confusion": {
+      "no": {
+       "no": 56,
+       "yes": 0
+      },
+      "yes": {
+       "no": 8,
+       "yes": 33
+      }
+     },
+     "k_categories": 2,
+     "n_pairs": 97,
+     "point": {
+      "alpha_nominal": 0.8261261261261261,
+      "gwet_ac1": 0.8438317568927349,
+      "kappa": 0.8264758497316637,
+      "pabak": 0.8350515463917525,
+      "raw_agreement": 0.9175257731958762
+     },
+     "prevalence": {
+      "no": {
+       "coder_a": 0.5773195876288659,
+       "coder_b": 0.6597938144329897,
+       "mean": 0.6185567010309279
+      },
+      "yes": {
+       "coder_a": 0.422680412371134,
+       "coder_b": 0.3402061855670103,
+       "mean": 0.38144329896907214
+      }
+     }
+    },
+    "claim_ids": {
+     "jaccard": {
+      "ci95": {
+       "jaccard_mean": {
+        "B_valid": 2000,
+        "hi": 0.9690721649484536,
+        "lo": 0.8900343642611683
+       }
+      },
+      "n_pairs": 97,
+      "point": {
+       "jaccard_mean": 0.9347079037800686
+      }
+     }
+    },
+    "depth": {
+     "ci95": {
+      "alpha_interval": {
+       "B_valid": 2000,
+       "hi": 0.9471301676916467,
+       "lo": 0.7602821999316106
+      },
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.8862885830505345,
+       "lo": 0.6303176164607672
+      },
+      "alpha_ordinal": {
+       "B_valid": 2000,
+       "hi": 0.9434323499346556,
+       "lo": 0.7739349402415981
+      },
+      "exact_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9359177215189872,
+       "lo": 0.788235294117647
+      },
+      "kappa_linear": {
+       "B_valid": 2000,
+       "hi": 0.9092906429463081,
+       "lo": 0.6927397614387534
+      },
+      "kappa_quadratic": {
+       "B_valid": 2000,
+       "hi": 0.9468365061323031,
+       "lo": 0.761397587961462
+      },
+      "kappa_unweighted": {
+       "B_valid": 2000,
+       "hi": 0.8856380250437652,
+       "lo": 0.6308802592033977
+      },
+      "within_one_agreement": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9382716049382716
+      }
+     },
+     "confusion": {
+      "brief_mention": {
+       "brief_mention": 46,
+       "drive_by": 3,
+       "foundational": 0,
+       "real_mention": 4,
+       "supporting": 0
+      },
+      "drive_by": {
+       "brief_mention": 2,
+       "drive_by": 11,
+       "foundational": 0,
+       "real_mention": 0,
+       "supporting": 0
+      },
+      "foundational": {
+       "brief_mention": 0,
+       "drive_by": 0,
+       "foundational": 2,
+       "real_mention": 0,
+       "supporting": 0
+      },
+      "real_mention": {
+       "brief_mention": 0,
+       "drive_by": 0,
+       "foundational": 2,
+       "real_mention": 9,
+       "supporting": 0
+      },
+      "supporting": {
+       "brief_mention": 0,
+       "drive_by": 0,
+       "foundational": 0,
+       "real_mention": 0,
+       "supporting": 4
+      }
+     },
+     "n_depth_null_one_side": 0,
+     "n_pairs": 83,
+     "point": {
+      "alpha_interval": 0.8712180340663882,
+      "alpha_nominal": 0.7724137931034483,
+      "alpha_ordinal": 0.8737037523727295,
+      "exact_agreement": 0.8674698795180723,
+      "kappa_linear": 0.8160272804774084,
+      "kappa_quadratic": 0.8707283554741182,
+      "kappa_unweighted": 0.7715215215215215,
+      "within_one_agreement": 0.9759036144578314
+     },
+     "prevalence": {
+      "brief_mention": {
+       "coder_a": 0.6385542168674698,
+       "coder_b": 0.5783132530120482,
+       "mean": 0.608433734939759
+      },
+      "drive_by": {
+       "coder_a": 0.1566265060240964,
+       "coder_b": 0.1686746987951807,
+       "mean": 0.16265060240963855
+      },
+      "foundational": {
+       "coder_a": 0.024096385542168676,
+       "coder_b": 0.04819277108433735,
+       "mean": 0.03614457831325302
+      },
+      "real_mention": {
+       "coder_a": 0.13253012048192772,
+       "coder_b": 0.1566265060240964,
+       "mean": 0.14457831325301207
+      },
+      "supporting": {
+       "coder_a": 0.04819277108433735,
+       "coder_b": 0.04819277108433735,
+       "mean": 0.04819277108433735
+      }
+     },
+     "ranks": {
+      "brief_mention": 2,
+      "drive_by": 1,
+      "foundational": 5,
+      "real_mention": 3,
+      "supporting": 4
+     }
+    },
+    "depth_substantive": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.5206159960258321
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9373910798425095
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.5240431795878312
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.8969072164948453
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9484536082474226
+      }
+     },
+     "confusion": {
+      "no": {
+       "no": 89,
+       "yes": 2
+      },
+      "yes": {
+       "no": 0,
+       "yes": 6
+      }
+     },
+     "k_categories": 2,
+     "n_pairs": 97,
+     "note": "yes = supporting|foundational; depth null conta como no",
+     "point": {
+      "alpha_nominal": 0.8468253968253968,
+      "gwet_ac1": 0.97619339796294,
+      "kappa": 0.8462757527733755,
+      "pabak": 0.9587628865979381,
+      "raw_agreement": 0.979381443298969
+     },
+     "prevalence": {
+      "no": {
+       "coder_a": 0.9381443298969072,
+       "coder_b": 0.9175257731958762,
+       "mean": 0.9278350515463918
+      },
+      "yes": {
+       "coder_a": 0.061855670103092786,
+       "coder_b": 0.08247422680412371,
+       "mean": 0.07216494845360824
+      }
+     }
+    },
+    "distortion": {
+     "confusion": {
+      "dead_end": {
+       "dead_end": 10,
+       "diversion": 1,
+       "relayed_attribution": 0,
+       "transmutation": 0
+      },
+      "diversion": {
+       "dead_end": 1,
+       "diversion": 13,
+       "relayed_attribution": 0,
+       "transmutation": 0
+      },
+      "relayed_attribution": {
+       "dead_end": 0,
+       "diversion": 0,
+       "relayed_attribution": 5,
+       "transmutation": 0
+      },
+      "transmutation": {
+       "dead_end": 0,
+       "diversion": 0,
+       "relayed_attribution": 0,
+       "transmutation": 3
+      }
+     },
+     "kappa": 0.9105691056910569,
+     "n_pairs_both_not_accurate": 33,
+     "raw_agreement": 0.9393939393939394
+    },
+    "n_coded_both": 97,
+    "n_items": 97,
+    "presence": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.8527841342486652
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9637055283589537
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.852359208523592
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9536082474226804
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9690721649484536
+      }
+     },
+     "confusion": {
+      "in_text": {
+       "in_text": 83,
+       "not_cited": 0,
+       "reference_list_only": 0
+      },
+      "not_cited": {
+       "in_text": 0,
+       "not_cited": 0,
+       "reference_list_only": 0
+      },
+      "reference_list_only": {
+       "in_text": 1,
+       "not_cited": 0,
+       "reference_list_only": 13
+      }
+     },
+     "k_categories": 3,
+     "n_pairs": 97,
+     "note": "primário = concordância bruta; itens sem passagem têm presence fixado pela construção do pacote",
+     "point": {
+      "alpha_nominal": 0.9571967176757596,
+      "gwet_ac1": 0.988287499622664,
+      "kappa": 0.9569844789356985,
+      "pabak": 0.9845360824742269,
+      "raw_agreement": 0.9896907216494846
+     },
+     "prevalence": {
+      "in_text": {
+       "coder_a": 0.8556701030927835,
+       "coder_b": 0.865979381443299,
+       "mean": 0.8608247422680413
+      },
+      "not_cited": {
+       "coder_a": 0.0,
+       "coder_b": 0.0,
+       "mean": 0.0
+      },
+      "reference_list_only": {
+       "coder_a": 0.14432989690721648,
+       "coder_b": 0.13402061855670103,
+       "mean": 0.13917525773195877
+      }
+     }
+    },
+    "reuse": {
+     "any_reuse": {
+      "ci95": {
+       "alpha_nominal": {
+        "B_valid": 1958,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "gwet_ac1": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "kappa": {
+        "B_valid": 1958,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "pabak": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "raw_agreement": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       }
+      },
+      "confusion": {
+       "no": {
+        "no": 93,
+        "yes": 0
+       },
+       "yes": {
+        "no": 0,
+        "yes": 4
+       }
+      },
+      "k_categories": 2,
+      "n_pairs": 97,
+      "point": {
+       "alpha_nominal": 1.0,
+       "gwet_ac1": 1.0,
+       "kappa": 1.0,
+       "pabak": 1.0,
+       "raw_agreement": 1.0
+      },
+      "prevalence": {
+       "no": {
+        "coder_a": 0.9587628865979382,
+        "coder_b": 0.9587628865979382,
+        "mean": 0.9587628865979382
+       },
+       "yes": {
+        "coder_a": 0.041237113402061855,
+        "coder_b": 0.041237113402061855,
+        "mean": 0.041237113402061855
+       }
+      }
+     },
+     "jaccard": {
+      "ci95": {
+       "jaccard_mean": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       }
+      },
+      "n_pairs": 97,
+      "point": {
+       "jaccard_mean": 1.0
+      }
+     },
+     "per_tag": {
+      "benchmarking": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      },
+      "dataset_reuse": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      },
+      "method_adoption": {
+       "ci95": {
+        "alpha_nominal": {
+         "B_valid": 1958,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "gwet_ac1": {
+         "B_valid": 2000,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "kappa": {
+         "B_valid": 1958,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "pabak": {
+         "B_valid": 2000,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "raw_agreement": {
+         "B_valid": 2000,
+         "hi": 1.0,
+         "lo": 1.0
+        }
+       },
+       "confusion": {
+        "no": {
+         "no": 93,
+         "yes": 0
+        },
+        "yes": {
+         "no": 0,
+         "yes": 4
+        }
+       },
+       "k_categories": 2,
+       "n_pairs": 97,
+       "point": {
+        "alpha_nominal": 1.0,
+        "gwet_ac1": 1.0,
+        "kappa": 1.0,
+        "pabak": 1.0,
+        "raw_agreement": 1.0
+       },
+       "prevalence": {
+        "no": {
+         "coder_a": 0.9587628865979382,
+         "coder_b": 0.9587628865979382,
+         "mean": 0.9587628865979382
+        },
+        "yes": {
+         "coder_a": 0.041237113402061855,
+         "coder_b": 0.041237113402061855,
+         "mean": 0.041237113402061855
+        }
+       }
+      },
+      "result_validated": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      },
+      "work_extended": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      }
+     }
+    },
+    "stance": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.8096532703985748
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9128173851635476
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.8090470500166351
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.8917525773195876
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9278350515463918
+      }
+     },
+     "confusion": {
+      "contradictory": {
+       "contradictory": 1,
+       "none": 0,
+       "supporting": 2
+      },
+      "none": {
+       "contradictory": 0,
+       "none": 20,
+       "supporting": 0
+      },
+      "supporting": {
+       "contradictory": 0,
+       "none": 1,
+       "supporting": 73
+      }
+     },
+     "k_categories": 3,
+     "n_pairs": 97,
+     "point": {
+      "alpha_nominal": 0.9157082544766342,
+      "gwet_ac1": 0.9621672571261415,
+      "kappa": 0.9153084982537835,
+      "pabak": 0.9536082474226804,
+      "raw_agreement": 0.9690721649484536
+     },
+     "prevalence": {
+      "contradictory": {
+       "coder_a": 0.030927835051546393,
+       "coder_b": 0.010309278350515464,
+       "mean": 0.020618556701030927
+      },
+      "none": {
+       "coder_a": 0.20618556701030927,
+       "coder_b": 0.21649484536082475,
+       "mean": 0.211340206185567
+      },
+      "supporting": {
+       "coder_a": 0.7628865979381443,
+       "coder_b": 0.7731958762886598,
+       "mean": 0.768041237113402
+      }
+     }
+    }
+   },
+   "sensitivity_with_exemplars": {
+    "accuracy": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.8386256636281679,
+       "lo": 0.5846713107547764
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 0.8701551163914335,
+       "lo": 0.6554363617918462
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 0.8380760733983917,
+       "lo": 0.5897031682222328
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 0.8636363636363635,
+       "lo": 0.6373626373626373
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9090909090909091,
+       "lo": 0.7582417582417582
+      }
+     },
+     "confusion": {
+      "accurate": {
+       "accurate": 46,
+       "imprecise": 0,
+       "misrepresented": 0
+      },
+      "imprecise": {
+       "accurate": 8,
+       "imprecise": 15,
+       "misrepresented": 2
+      },
+      "misrepresented": {
+       "accurate": 2,
+       "imprecise": 3,
+       "misrepresented": 14
+      }
+     },
+     "k_categories": 3,
+     "n_pairs": 90,
+     "point": {
+      "alpha_nominal": 0.7162033611668956,
+      "gwet_ac1": 0.7645930511356205,
+      "kappa": 0.7169811320754715,
+      "pabak": 0.75,
+      "raw_agreement": 0.8333333333333334
+     },
+     "prevalence": {
+      "accurate": {
+       "coder_a": 0.5111111111111111,
+       "coder_b": 0.6222222222222222,
+       "mean": 0.5666666666666667
+      },
+      "imprecise": {
+       "coder_a": 0.2777777777777778,
+       "coder_b": 0.2,
+       "mean": 0.2388888888888889
+      },
+      "misrepresented": {
+       "coder_a": 0.2111111111111111,
+       "coder_b": 0.17777777777777778,
+       "mean": 0.19444444444444445
+      }
+     }
+    },
+    "accuracy_misrepresented": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.9057806099226218,
+       "lo": 0.5555739058629232
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 0.9647557187235244,
+       "lo": 0.8294759412246957
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 0.9054545454545455,
+       "lo": 0.5552338216914319
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 0.9423076923076923,
+       "lo": 0.7692307692307692
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9711538461538461,
+       "lo": 0.8846153846153846
+      }
+     },
+     "confusion": {
+      "no": {
+       "no": 83,
+       "yes": 2
+      },
+      "yes": {
+       "no": 5,
+       "yes": 14
+      }
+     },
+     "k_categories": 2,
+     "n_pairs": 104,
+     "point": {
+      "alpha_nominal": 0.7606936416184971,
+      "gwet_ac1": 0.9065288566476215,
+      "kappa": 0.7598944591029024,
+      "pabak": 0.8653846153846154,
+      "raw_agreement": 0.9326923076923077
+     },
+     "prevalence": {
+      "no": {
+       "coder_a": 0.8173076923076923,
+       "coder_b": 0.8461538461538461,
+       "mean": 0.8317307692307692
+      },
+      "yes": {
+       "coder_a": 0.18269230769230768,
+       "coder_b": 0.15384615384615385,
+       "mean": 0.16826923076923078
+      }
+     }
+    },
+    "accuracy_not_accurate": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.9130567226890755,
+       "lo": 0.6733727810650887
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 0.9248554913294799,
+       "lo": 0.7078651685393258
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 0.9127832372909099,
+       "lo": 0.6798768757214313
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 0.9230769230769231,
+       "lo": 0.6923076923076923
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9615384615384616,
+       "lo": 0.8461538461538461
+      }
+     },
+     "confusion": {
+      "no": {
+       "no": 60,
+       "yes": 0
+      },
+      "yes": {
+       "no": 10,
+       "yes": 34
+      }
+     },
+     "k_categories": 2,
+     "n_pairs": 104,
+     "point": {
+      "alpha_nominal": 0.7958579881656804,
+      "gwet_ac1": 0.8190045248868776,
+      "kappa": 0.796875,
+      "pabak": 0.8076923076923077,
+      "raw_agreement": 0.9038461538461539
+     },
+     "prevalence": {
+      "no": {
+       "coder_a": 0.5769230769230769,
+       "coder_b": 0.6730769230769231,
+       "mean": 0.625
+      },
+      "yes": {
+       "coder_a": 0.4230769230769231,
+       "coder_b": 0.3269230769230769,
+       "mean": 0.375
+      }
+     }
+    },
+    "claim_ids": {
+     "jaccard": {
+      "ci95": {
+       "jaccard_mean": {
+        "B_valid": 2000,
+        "hi": 0.9679487179487178,
+        "lo": 0.8958333333333333
+       }
+      },
+      "n_pairs": 104,
+      "point": {
+       "jaccard_mean": 0.935897435897436
+      }
+     }
+    },
+    "depth": {
+     "ci95": {
+      "alpha_interval": {
+       "B_valid": 2000,
+       "hi": 0.9438917059348773,
+       "lo": 0.7732199472480223
+      },
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.8795030793844834,
+       "lo": 0.6437412297204477
+      },
+      "alpha_ordinal": {
+       "B_valid": 2000,
+       "hi": 0.9382671752247128,
+       "lo": 0.7797053211582587
+      },
+      "exact_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9318181818181818,
+       "lo": 0.797752808988764
+      },
+      "kappa_linear": {
+       "B_valid": 2000,
+       "hi": 0.9058452942125853,
+       "lo": 0.7040921779144006
+      },
+      "kappa_quadratic": {
+       "B_valid": 2000,
+       "hi": 0.9436572082870003,
+       "lo": 0.7743375658204223
+      },
+      "kappa_unweighted": {
+       "B_valid": 2000,
+       "hi": 0.879104866500153,
+       "lo": 0.6445259930011134
+      },
+      "within_one_agreement": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9431818181818182
+      }
+     },
+     "confusion": {
+      "brief_mention": {
+       "brief_mention": 50,
+       "drive_by": 3,
+       "foundational": 0,
+       "real_mention": 5,
+       "supporting": 0
+      },
+      "drive_by": {
+       "brief_mention": 2,
+       "drive_by": 12,
+       "foundational": 0,
+       "real_mention": 0,
+       "supporting": 0
+      },
+      "foundational": {
+       "brief_mention": 0,
+       "drive_by": 0,
+       "foundational": 2,
+       "real_mention": 0,
+       "supporting": 0
+      },
+      "real_mention": {
+       "brief_mention": 0,
+       "drive_by": 0,
+       "foundational": 2,
+       "real_mention": 9,
+       "supporting": 0
+      },
+      "supporting": {
+       "brief_mention": 0,
+       "drive_by": 0,
+       "foundational": 0,
+       "real_mention": 0,
+       "supporting": 5
+      }
+     },
+     "n_depth_null_one_side": 0,
+     "n_pairs": 90,
+     "point": {
+      "alpha_interval": 0.8735677287709935,
+      "alpha_nominal": 0.770242806717296,
+      "alpha_ordinal": 0.8709394281169955,
+      "exact_agreement": 0.8666666666666667,
+      "kappa_linear": 0.8171262699564587,
+      "kappa_quadratic": 0.873179896665101,
+      "kappa_unweighted": 0.7695754213782804,
+      "within_one_agreement": 0.9777777777777777
+     },
+     "prevalence": {
+      "brief_mention": {
+       "coder_a": 0.6444444444444445,
+       "coder_b": 0.5777777777777777,
+       "mean": 0.6111111111111112
+      },
+      "drive_by": {
+       "coder_a": 0.15555555555555556,
+       "coder_b": 0.16666666666666666,
+       "mean": 0.1611111111111111
+      },
+      "foundational": {
+       "coder_a": 0.022222222222222223,
+       "coder_b": 0.044444444444444446,
+       "mean": 0.03333333333333333
+      },
+      "real_mention": {
+       "coder_a": 0.12222222222222222,
+       "coder_b": 0.15555555555555556,
+       "mean": 0.1388888888888889
+      },
+      "supporting": {
+       "coder_a": 0.05555555555555555,
+       "coder_b": 0.05555555555555555,
+       "mean": 0.05555555555555555
+      }
+     },
+     "ranks": {
+      "brief_mention": 2,
+      "drive_by": 1,
+      "foundational": 5,
+      "real_mention": 3,
+      "supporting": 4
+     }
+    },
+    "depth_substantive": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 1999,
+       "hi": 1.0,
+       "lo": 0.595703125
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9401507740116246
+      },
+      "kappa": {
+       "B_valid": 1999,
+       "hi": 1.0,
+       "lo": 0.5984555984555985
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9038461538461537
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9519230769230769
+      }
+     },
+     "confusion": {
+      "no": {
+       "no": 95,
+       "yes": 2
+      },
+      "yes": {
+       "no": 0,
+       "yes": 7
+      }
+     },
+     "k_categories": 2,
+     "n_pairs": 104,
+     "note": "yes = supporting|foundational; depth null conta como no",
+     "point": {
+      "alpha_nominal": 0.865234375,
+      "gwet_ac1": 0.9775862068965516,
+      "kappa": 0.8647594278283485,
+      "pabak": 0.9615384615384615,
+      "raw_agreement": 0.9807692307692307
+     },
+     "prevalence": {
+      "no": {
+       "coder_a": 0.9326923076923077,
+       "coder_b": 0.9134615384615384,
+       "mean": 0.9230769230769231
+      },
+      "yes": {
+       "coder_a": 0.0673076923076923,
+       "coder_b": 0.08653846153846154,
+       "mean": 0.07692307692307693
+      }
+     }
+    },
+    "distortion": {
+     "confusion": {
+      "dead_end": {
+       "dead_end": 10,
+       "diversion": 1,
+       "relayed_attribution": 0,
+       "transmutation": 0
+      },
+      "diversion": {
+       "dead_end": 1,
+       "diversion": 14,
+       "relayed_attribution": 0,
+       "transmutation": 0
+      },
+      "relayed_attribution": {
+       "dead_end": 0,
+       "diversion": 0,
+       "relayed_attribution": 5,
+       "transmutation": 0
+      },
+      "transmutation": {
+       "dead_end": 0,
+       "diversion": 0,
+       "relayed_attribution": 0,
+       "transmutation": 3
+      }
+     },
+     "kappa": 0.9123711340206185,
+     "n_pairs_both_not_accurate": 34,
+     "raw_agreement": 0.9411764705882353
+    },
+    "n_coded_both": 104,
+    "n_items": 104,
+    "presence": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.8418640183346066
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9659695143566113
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.8414634146341463
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9567307692307692
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 1.0,
+       "lo": 0.9711538461538461
+      }
+     },
+     "confusion": {
+      "in_text": {
+       "in_text": 90,
+       "not_cited": 0,
+       "reference_list_only": 0
+      },
+      "not_cited": {
+       "in_text": 0,
+       "not_cited": 0,
+       "reference_list_only": 0
+      },
+      "reference_list_only": {
+       "in_text": 1,
+       "not_cited": 0,
+       "reference_list_only": 13
+      }
+     },
+     "k_categories": 3,
+     "n_pairs": 104,
+     "note": "primário = concordância bruta; itens sem passagem têm presence fixado pela construção do pacote",
+     "point": {
+      "alpha_nominal": 0.9576427255985267,
+      "gwet_ac1": 0.9891601740625896,
+      "kappa": 0.9574468085106383,
+      "pabak": 0.9855769230769231,
+      "raw_agreement": 0.9903846153846154
+     },
+     "prevalence": {
+      "in_text": {
+       "coder_a": 0.8653846153846154,
+       "coder_b": 0.875,
+       "mean": 0.8701923076923077
+      },
+      "not_cited": {
+       "coder_a": 0.0,
+       "coder_b": 0.0,
+       "mean": 0.0
+      },
+      "reference_list_only": {
+       "coder_a": 0.1346153846153846,
+       "coder_b": 0.125,
+       "mean": 0.1298076923076923
+      }
+     }
+    },
+    "reuse": {
+     "any_reuse": {
+      "ci95": {
+       "alpha_nominal": {
+        "B_valid": 1986,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "gwet_ac1": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "kappa": {
+        "B_valid": 1986,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "pabak": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       },
+       "raw_agreement": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       }
+      },
+      "confusion": {
+       "no": {
+        "no": 99,
+        "yes": 0
+       },
+       "yes": {
+        "no": 0,
+        "yes": 5
+       }
+      },
+      "k_categories": 2,
+      "n_pairs": 104,
+      "point": {
+       "alpha_nominal": 1.0,
+       "gwet_ac1": 1.0,
+       "kappa": 1.0,
+       "pabak": 1.0,
+       "raw_agreement": 1.0
+      },
+      "prevalence": {
+       "no": {
+        "coder_a": 0.9519230769230769,
+        "coder_b": 0.9519230769230769,
+        "mean": 0.9519230769230769
+       },
+       "yes": {
+        "coder_a": 0.04807692307692308,
+        "coder_b": 0.04807692307692308,
+        "mean": 0.04807692307692308
+       }
+      }
+     },
+     "jaccard": {
+      "ci95": {
+       "jaccard_mean": {
+        "B_valid": 2000,
+        "hi": 1.0,
+        "lo": 1.0
+       }
+      },
+      "n_pairs": 104,
+      "point": {
+       "jaccard_mean": 1.0
+      }
+     },
+     "per_tag": {
+      "benchmarking": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      },
+      "dataset_reuse": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      },
+      "method_adoption": {
+       "ci95": {
+        "alpha_nominal": {
+         "B_valid": 1986,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "gwet_ac1": {
+         "B_valid": 2000,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "kappa": {
+         "B_valid": 1986,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "pabak": {
+         "B_valid": 2000,
+         "hi": 1.0,
+         "lo": 1.0
+        },
+        "raw_agreement": {
+         "B_valid": 2000,
+         "hi": 1.0,
+         "lo": 1.0
+        }
+       },
+       "confusion": {
+        "no": {
+         "no": 99,
+         "yes": 0
+        },
+        "yes": {
+         "no": 0,
+         "yes": 5
+        }
+       },
+       "k_categories": 2,
+       "n_pairs": 104,
+       "point": {
+        "alpha_nominal": 1.0,
+        "gwet_ac1": 1.0,
+        "kappa": 1.0,
+        "pabak": 1.0,
+        "raw_agreement": 1.0
+       },
+       "prevalence": {
+        "no": {
+         "coder_a": 0.9519230769230769,
+         "coder_b": 0.9519230769230769,
+         "mean": 0.9519230769230769
+        },
+        "yes": {
+         "coder_a": 0.04807692307692308,
+         "coder_b": 0.04807692307692308,
+         "mean": 0.04807692307692308
+        }
+       }
+      },
+      "result_validated": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      },
+      "work_extended": {
+       "n_pairs": 0,
+       "note": "nenhum codificador usou a tag"
+      }
+     }
+    },
+    "stance": {
+     "ci95": {
+      "alpha_nominal": {
+       "B_valid": 2000,
+       "hi": 0.9766550129694372,
+       "lo": 0.7754880694143167
+      },
+      "gwet_ac1": {
+       "B_valid": 2000,
+       "hi": 0.9886974180194259,
+       "lo": 0.9024641702156995
+      },
+      "kappa": {
+       "B_valid": 2000,
+       "hi": 0.9765448804691024,
+       "lo": 0.7752566180443003
+      },
+      "pabak": {
+       "B_valid": 2000,
+       "hi": 0.9855769230769231,
+       "lo": 0.8846153846153846
+      },
+      "raw_agreement": {
+       "B_valid": 2000,
+       "hi": 0.9903846153846154,
+       "lo": 0.9230769230769231
+      }
+     },
+     "confusion": {
+      "contradictory": {
+       "contradictory": 2,
+       "none": 0,
+       "supporting": 2
+      },
+      "none": {
+       "contradictory": 0,
+       "none": 20,
+       "supporting": 0
+      },
+      "supporting": {
+       "contradictory": 0,
+       "none": 2,
+       "supporting": 78
+      }
+     },
+     "k_categories": 3,
+     "n_pairs": 104,
+     "point": {
+      "alpha_nominal": 0.8956127080181543,
+      "gwet_ac1": 0.9529038831654026,
+      "kappa": 0.8951612903225806,
+      "pabak": 0.9423076923076923,
+      "raw_agreement": 0.9615384615384616
+     },
+     "prevalence": {
+      "contradictory": {
+       "coder_a": 0.038461538461538464,
+       "coder_b": 0.019230769230769232,
+       "mean": 0.028846153846153848
+      },
+      "none": {
+       "coder_a": 0.19230769230769232,
+       "coder_b": 0.21153846153846154,
+       "mean": 0.20192307692307693
+      },
+      "supporting": {
+       "coder_a": 0.7692307692307693,
+       "coder_b": 0.7692307692307693,
+       "mean": 0.7692307692307693
+      }
+     }
+    }
+   }
+  }
+ },
+ "ppi": null
+}

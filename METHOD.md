@@ -1,7 +1,7 @@
 # Método de auditoria de citações
 
 Codebook v1 — 2026-09-04
-Codebook v2 — 2026-09-04
+Codebook v2 — 2026-09-04 · Codebook v2.1 — 2026-09-04 (pós-teste cego, §18)
 
 Avaliar **a qualidade de cada citação recebida**, não a contagem. A pergunta não é
 "quantos me citaram", é "quem me usou de verdade, quem me citou de passagem, e quem
@@ -617,3 +617,73 @@ acima; o PPI fica disponível para rodadas futuras com cobertura parcial.
 
 *(preenchido por `audit_62_irr_stats.py` quando a coleta dos três codificadores
 terminar — ver ROADMAP.md.)*
+## §18 — Codebook v2.1: o que o teste cego ensinou
+
+O teste cego (três codificadores; §17) mostrou onde o codebook v2 era reprodutível e onde
+não era. Presença (κ ≈ 0,96–1,00), postura (κ 0,71–0,75 entre pares) e profundidade
+(α ordinal 0,57–0,77; concordância dentro de um degrau 0,87–0,99) se sustentam. **A acurácia
+não se sustentava**: κ 0,14–0,15 entre o codificador original e cada cego, contra 0,60
+entre os dois cegos. A diferença não é de quem codifica — é de **com que instrumento**:
+o codificador original não tinha o registro de afirmações (§15). Com o registro, dois
+modelos diferentes convergem. As regras abaixo tornam explícito o que o registro fez
+implicitamente, e valem para toda codificação daqui em diante.
+
+**A1 — Acurácia é avaliada em toda menção em-texto, inclusive citação em bloco.** Um bloco
+`[21,22,23,24]` que cola o artigo a uma afirmação que ele não contém é `imprecise` se o tema
+é adjacente ao do artigo, e `misrepresented` + `dead_end` se o artigo não tem conteúdo relevante
+(Greenberg 2009, *dead-end citation*). Profundidade `drive_by` **não** dispensa a avaliação
+de acurácia — os dois eixos são ortogonais.
+
+**A2 — Repasse atribuído como achado próprio é `misrepresented` + `relayed_attribution`.**
+O registro de afirmações marca com `status=relayed` o que o artigo atribui a terceiros
+(Gustavsson 2011 para "20–35% dos grãos" e "um terço da produção global"; Gustavsson 2013
+para a fórmula de %PHL; Molnar 2013 para "dissuasão de entrada em hubs"; FAA OIG para
+"sem concorrência, mais atraso"). "Bendinelli et al. reportam que…" seguido de um desses
+números é atribuição incorreta, ainda que o número esteja no artigo. Exemplos adjudicados:
+*Food Chemistry* 2024 ("25–30% da oferta"), *INMATEH* 2020, *Journal of Aerospace Technology
+and Management* 2018.
+
+**A3 — Extensão de escopo é `imprecise` + `diversion`; `misrepresented` exige objeto ou direção errados.**
+Generalizar de grãos para frutas e hortaliças, de painel macro por país para comportamento
+do produtor, ou do Brasil para Gana ou China, é `diversion`. Só é `misrepresented` quando o
+citante atribui ao artigo um objeto que ele não estuda (estrutura de custo, revisão de
+precificação, registros de acidente) ou inverte a direção de um achado (*IJIO* 2021: coloca
+o artigo entre os que acham concentração de rota **melhorando** a pontualidade; o achado é o
+oposto, AIR-F02).
+
+**A4 — Conjectura citada como fato é `transmutation`.** O artigo conjectura, em §4, que LCC
+é mais atraente ao passageiro de lazer em horários de vale (AIR-I02). Citar isso como
+"Bendinelli et al. mostram que LCCs miram mercados de lazer" converte hipótese em achado
+(Greenberg 2009, *citation transmutation*). Dois citantes fazem isso ao justificar a variável
+`MarketType`; a citação continua `supporting` em profundidade (sustenta o desenho do citante)
+e `imprecise`/`transmutation` em acurácia — mais um caso de ortogonalidade dos eixos.
+
+**D1 — `foundational` é propriedade do documento inteiro, e janela de passagem a subdetecta.**
+Nos 26 itens em que o pacote cego mostrou a janela automática de ±700 caracteres em vez do
+trecho curado, os cegos não podiam ver que um citante menciona o artigo doze vezes, ou o
+identifica como referência única em outra seção. A regra pré-registrada (maioria de três)
+foi mantida; o relatório apresenta como sensibilidade a leitura do codificador com texto
+completo nesses itens, e declara a direção do viés: a janela rebaixa `foundational` para
+`real_mention`, nunca o contrário.
+
+**R1 — A régua de reuso é estrita: "o citante mudaria de desenho se o artigo não existisse?".**
+Os cegos aplicaram a régua com mais rigor que o codificador original: `work_extended` e
+`result_validated` foram descartados por unanimidade dos cegos; `method_adoption` sobreviveu
+onde o citante replica instrumento, tratamento de endogeneidade ou construção de variável
+citando o artigo nominalmente. Declarar "estendemos a literatura de X" citando o artigo num
+bloco não é reuso.
+
+**P1 — Presença: evidência de texto completo prevalece sobre janela.** Quando a janela
+automática mostrou trecho irrelevante (conclusão, bibliografia) e o codificador com texto
+completo localizou a menção, a presença é `in_text`. Um caso (IRR-ed51), decidido pelo
+colegiado.
+
+### Resultado numérico do teste
+
+Pré-adjudicação, entre pares independentes: c2×c3 profundidade α 0,77, postura κ 0,75,
+acurácia κ 0,60, presença κ 1,00. Pós-adjudicação, contra o rótulo final (inflado por
+construção para c2 e c3, que formam a maioria): c1 acurácia κ 0,24, c2 0,74, c3 0,85.
+Adjudicação: 19 decisões do colegiado em 19 itens (acurácia 8, profundidade 5, distorção 5,
+presença 1); todo o resto por unanimidade, maioria ou derivação. Efeito nos totais: má
+atribuição de 4 para 16 em 91 em-texto (4% → 18%), imprecisão de 7 para 18, `foundational`
+de 7 para 4, `supporting` de 11 para 5, `method_adoption` de 9 para 5.

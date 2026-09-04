@@ -1,0 +1,49 @@
+{
+  "IRR-1b78": {
+    "depth": "brief_mention",
+    "rationale": "Bloco de seis fontes atribui objeto específico (internalização de congestionamento), sem uso próprio; reuso vazio por maioria afasta 'supporting'. Régua drive_by×brief_mention e caso Economics of Transportation 2022: afirmação específica em bloco = nível 2."
+  },
+  "IRR-29fd": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Presença unânime reference_list_only; eixos 2 e 4 só se aplicam quando presence=in_text, senão ficam null (tabela de tradução: bibliography_only → depth=null, accuracy=null)."
+  },
+  "IRR-357b": {
+    "depth": "brief_mention",
+    "rationale": "Bloco de cinco com 'among many others' atribui afirmação específica — competição de mercado e pontualidade —, mas não descreve o conteúdo real do artigo; pela régua drive_by×brief_mention é nível 2, não real_mention."
+  },
+  "IRR-6cdf": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Presença unânime reference_list_only; eixos 2 e 4 só se aplicam quando presence=in_text, senão ficam null (tabela de tradução: bibliography_only → depth=null, accuracy=null)."
+  },
+  "IRR-81e6": {
+    "accuracy": "imprecise",
+    "distortion": "diversion",
+    "rationale": "Porte do produtor e moinhos não estão no painel macro de 82 países, mas o tema (PHL em países em desenvolvimento) é adjacente, não vazio. Regra 4: extensão de escopo = imprecise + diversion."
+  },
+  "IRR-8cba": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Presença unânime reference_list_only; eixos 2 e 4 só se aplicam quando presence=in_text, senão ficam null (tabela de tradução: bibliography_only → depth=null, accuracy=null)."
+  },
+  "IRR-a1e3": {
+    "accuracy": "imprecise",
+    "rationale": "Os dois cegos convergem contra c1: o bloco trata de perecíveis e GR-L03 veda extrapolar grãos a frutas e hortaliças. Regra 4: extensão de escopo a outras culturas = imprecise, não misrepresented."
+  },
+  "IRR-c162": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Presença unânime reference_list_only; eixos 2 e 4 só se aplicam quando presence=in_text, senão ficam null (tabela de tradução: bibliography_only → depth=null, accuracy=null)."
+  },
+  "IRR-cc69": {
+    "distortion": "dead_end",
+    "rationale": "Accuracy já é misrepresented; o artigo não tem conteúdo sobre acidentes, segurança ou desempenho financeiro — afirmação sem nenhum conteúdo relevante (definição de dead_end), diferente do caso 'estrutura de custo' (diversion)."
+  },
+  "IRR-ed51": {
+    "presence": "in_text",
+    "depth": "real_mention",
+    "accuracy": "accurate",
+    "rationale": "Regra 3: a janela automática exibiu conclusão e bibliografia (trecho irrelevante) e c1, com texto completo, viu menção no corpo; prevalece c1, e com ela depth=real_mention e accuracy=accurate."
+  }
+}

@@ -1,0 +1,1404 @@
+{
+ "IRR-0029": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Bloco numérico genérico sobre germinação/panificação; artigo trata de determinantes macro de PHL, sem conteúdo relevante ao tema.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-0252": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; sem menção no corpo verificado; só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-0439": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 2 citações justificando variável de controle (participação operacional no aeroporto); como no exemplo do codebook, é brief_mention, sem reuse.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-04bf": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco numérico [21,22,23,24] para 'financial impact... in the case of delays'; afirmação genérica, sem uso específico do artigo.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-05b4": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 5 refs sobre internalização e pedágio de congestionamento; genérico mas compatível com AIR-F01.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-0776": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; corpo verificado sem menção, consta só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-0e5b": {
+  "accuracy": "misrepresented",
+  "claim_ids": [
+   "GR-DEF01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Rotula como definição de 'food waste' o que no artigo é definição de PHL/perda, que exclui varejo-consumo — diversion.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-0ea4": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "drive_by",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Bloco de 5 refs: 'how delays are propagated in the airport network'; artigo trata de determinantes, não propagação em rede.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-1016": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M02"
+  ],
+  "confidence": 3,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'Following Bendinelli et al., our study includes variables to control for concentration both at airport and market levels' — method_adoption.",
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-11ba": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "'individual growers cannot directly access wholesale markets' — tema de intermediação de mercado não coberto pelo artigo (determinantes macro de PHL).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-135c": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve pesquisa sobre LCCs e atrasos no Brasil; controle por code-sharing não consta no registro, mas é plausível e específico.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1531": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01",
+   "AIR-F02"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve corretamente sinais opostos: concentração de aeroporto reduz atraso, concentração de rota aumenta — AIR-F01/AIR-F02.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1b0c": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "'LCCs target markets for leisure travel, because leisure travelers are more price-sensitive' — mesmo padrão de IRR-8dc2/IRR-b1f0.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1b78": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 6 citações que declara 'estender a literatura' sobre internalização de congestionamento; tema central do artigo, mas sem adoção específica.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1c51": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Passagem é lista de referências no padrão 'Article Google Scholar', entrada sequencial entre outros autores; sem menção no corpo.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-1c64": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-P01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Atribui alta PHL em países em desenvolvimento à falta de infraestrutura, compatível com a recomendação de política do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1d19": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F04"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Caso de fronteira do próprio codebook: 'claim' distancia mas relata achado com precisão e sem contestar — supporting, accurate; corresponde a AIR-F04.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-1eca": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "'suboptimal mechanization often results in increased damaged and broken kernels' — mecanismo agronômico não coberto pelo artigo (macro, não micro).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-2200": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'Addressing postharvest losses is essential for enhancing food security' — alinhado à motivação do artigo, mas genérico; sem achado específico.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-27d7": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F04"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Caso de fronteira do codebook: 'claim' distancia mas relata achado com precisão (pouca evidência de efeito de LCC) — supporting.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-29fd": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; sem menção no corpo verificado; só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-2ad1": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01",
+   "AIR-F02"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 7 refs justificando variáveis de controle de congestionamento/competição — mesmo padrão do caso de fronteira 'brief_mention em bloco'.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-2bd5": {
+  "accuracy": "misrepresented",
+  "claim_ids": [
+   "GR-R01"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": "relayed_attribution",
+  "presence": "in_text",
+  "rationale": "'post-harvest loss of grain varies from 20% to 35%' atribuído ao artigo como achado próprio; é REPASSADO de Gustavsson et al. (GR-R01).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-2c1b": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M05"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Caso de fronteira do codebook (delimitação de escopo): 'In contrast to these studies' sem hostilidade → contradictory pela regra liberal.",
+  "reuse": [],
+  "stance": "contradictory"
+ },
+ "IRR-3173": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01",
+   "AIR-F02"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve corretamente os dois achados: atrasos caem com mais competição na rota e com menos competição no aeroporto.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-321e": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 5 citações atribuindo internalização de custos por transportadoras dominantes, ligado a H1 (AIR-F01); afirmação específica sobre efeito de concorrência.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-327a": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M01"
+  ],
+  "confidence": 2,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve corretamente o artigo como análise de concentração de mercado e intensidade de competição na indústria aérea.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-357b": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M01",
+   "AIR-F02"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco numérico de 5 citações descrevendo tema comum — associação entre competição de mercado e pontualidade — corresponde ao objeto central do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-35ae": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Menção genérica de abertura: 'FSC sees pressure to provide safe and secure food to all people'; sem achado específico atribuído.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-3847": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-F05"
+  ],
+  "confidence": 1,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'Variable choice is supported by' o artigo para abertura comercial; ambíguo se 'expected sign is mixed' refere-se ao achado do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-3978": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Item sem passagem (n_passages=0); consta só na lista de referências, conforme corpo verificado.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-3b60": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve com precisão internalização por concentração aeroportuária ('dominant carrier is likely to internalize') — real_mention, AIR-F01.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-3c3a": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M01",
+   "AIR-F01"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve com precisão o modelo unificado de duas hipóteses e o mecanismo de internalização via posição dominante — corresponde a AIR-M01 e AIR-F01.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-4cc0": {
+  "accuracy": "misrepresented",
+  "claim_ids": [
+   "GR-R02"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": "relayed_attribution",
+  "presence": "in_text",
+  "rationale": "Atribui 'one-third of total food' como achado do artigo; GR-R02 marca isso REPASSADO de Gustavsson et al. 2011.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-4ed0": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-D02",
+   "GR-P01"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve com precisão os grãos analisados (arroz/milho/soja/trigo) e o achado central sobre infraestrutura pós-colheita insuficiente elevando PHL — corresponde a GR-D02/GR-P01.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-4f3b": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Atribui impacto sobre renda de produtores e segurança alimentar (compatível com o resumo), mas acrescenta 'preços de substitutos' não presente — imprecise.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-4fd3": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Trecho é lista de referências em sequência (padrão 'Article Google Scholar' repetido) — reference_list_only.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-54a4": {
+  "accuracy": "imprecise",
+  "claim_ids": [
+   "GR-DEF01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Atribui definição de PHL a Bendinelli, mas amplia o alcance até o 'uso como alimento', enquanto o artigo exclui varejo/consumo final.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-55c3": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 3 fontes: 'reliable and sustainable storage systems' minimizam PHL; genérico, tema conectado mas sem achado específico.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-5c00": {
+  "accuracy": "misrepresented",
+  "claim_ids": [
+   "AIR-R01"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": "relayed_attribution",
+  "presence": "in_text",
+  "rationale": "Atribui a Bendinelli como achado próprio a dissuasão estratégica de entrada nos hubs, que o artigo apenas repassa de Molnar (2013).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-648f": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "drive_by",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Bloco de 3 refs que 'reviewed recent work'; trecho auto com sujeira de cabeçalho ('CONTACT Baocheng Zhang') dificulta leitura.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-692a": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M03",
+   "AIR-M04"
+  ],
+  "confidence": 2,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve procedimento próprio como 'similar ao apresentado em Bendinelli et al. (2016)' — instrumentos estruturais para endogeneidade; adota o método (method_adoption).",
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-6a4c": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Atribui apoio a pequenos agricultores via ONGs/assistência financeira e treinamento técnico, tema ausente do artigo (painel macro de PHL) — dead_end.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6be4": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Inclui o artigo entre estudos que confirmam empiricamente a internalização de congestionamento, camp 'supporting the theoretical prediction'.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6caf": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Atribui ao artigo efeito de armazenagem hermética sobre estabilidade de preços; tema não coberto pelo artigo (determinantes macro de PHL).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6cdf": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0: corpo verificado sem menção ao sobrenome — reference_list_only, conforme regra do pacote.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-6d84": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F03",
+   "AIR-I01"
+  ],
+  "confidence": 2,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Resultado específico: presença de LCC leva incumbentes a internalizar custos de atrasos, em lista de achados por autor — corresponde a AIR-F03/AIR-I01.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-6fce": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Passagem é lista de referências numerada (itens 47–55); sem menção no corpo do texto — reference_list_only.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-70aa": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-F09",
+   "GR-P01"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'Limited postharvest handling and infrastructure' como causa principal — quase idêntico ao exemplo de brief_mention do codebook.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-73e0": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-F09",
+   "GR-L01"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'Postharvest level of structure' como determinante principal — exemplo canônico de brief_mention do codebook, reflete o título do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-73f8": {
+  "accuracy": "misrepresented",
+  "claim_ids": [
+   "GR-R01",
+   "GR-DEF03"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "relayed_attribution",
+  "presence": "in_text",
+  "rationale": "Atribui '25–30% de PHL' como achado próprio; registro mostra faixa (20–35%) como REPASSADO de Gustavsson et al.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-74f7": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Vincula o artigo a 'congestion problems at the main airport' de forma genérica, sem achado específico apontável.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-7860": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M01",
+   "AIR-D01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Caracteriza hipóteses (internalização + competição-qualidade) e cita 'domestic flights in Brazil' com precisão, em bloco de 4 refs.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-786d": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Atribui achado sobre educação/ativos de agricultores e práticas de armazenagem, tema de nível domiciliar ausente do painel macro por país — dead_end.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-7fe7": {
+  "accuracy": "imprecise",
+  "claim_ids": [
+   "GR-DEF01"
+  ],
+  "confidence": 1,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Atribui variação da definição de perdas por produto/armazenagem/mercado; artigo dá definição única e fixa (GR-DEF01), não discussão de variabilidade.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-7fe9": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Passagem auto densa com múltiplos números; impossível isolar qual número é Bendinelli, mas tema (magnitude de PHL) é compatível.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-81e6": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "drive_by",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Afirmação genérica sobre pequenos produtores e moinhos; não corresponde a achado específico do painel macro do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-8576": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Trecho é lista de referências numerada ('51. Bendinelli, W. E....') — reference_list_only.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-870d": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 2 refs atribui incentivo de internalização de congestionamento a dominantes, compatível com o achado do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-872a": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-P01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'improper processing, storage, packaging or marketing are the other important factors' — afirmação específica, casa com GR-P01.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-87ab": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; corpo verificado sem menção, consta só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-8c05": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Atribui 'sex disaggregation of household headship' ao artigo (painel macro sem dado de gênero) como limitação — dead_end; contraposição sem hostilidade.",
+  "reuse": [],
+  "stance": "contradictory"
+ },
+ "IRR-8c18": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Citação compartilhada (4 fontes): 'hub airlines have leeway... partially offset the increased congestion'; consistente com achado de internalização.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-8cba": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0: corpo verificado sem menção ao sobrenome — reference_list_only, conforme regra do pacote.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-8dc2": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "'LCCs target markets with a high percentage of leisure passengers' — tema de seleção de mercado não presente no registro de achados.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-90d1": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01",
+   "AIR-D04"
+  ],
+  "confidence": 3,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'The only study looking at an emerging economy is Bendinelli et al.' identifica referência única (AIR-D04); passagem 1 reporta AIR-F01 com precisão.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-9a22": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M01",
+   "AIR-D01",
+   "AIR-D03",
+   "AIR-D05",
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "foundational",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Seção dedicada ('CASO DOS AEROPORTOS BRASILEIROS') reproduz metodologia, amostra, estatísticas descritivas e tabela de resultados como caso ilustrativo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-a050": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; corpo verificado sem menção, consta só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-a164": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-DEF01",
+   "GR-DEF02",
+   "GR-P02"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Reproduz distinção loss/waste e conclusão sobre infraestrutura de armazenagem reduzindo perdas — compatível com DEF01/DEF02/P02.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-a1e3": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Cita artigo sobre grãos em bloco genérico sobre armazenagem de frutas/hortaliças; o próprio artigo (GR-L03) diz não extrapolar a perecíveis.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-a299": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-F01",
+   "GR-F03"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Descreve corretamente lacuna de armazenagem em países de baixa renda vs. alta renda — compatível com GR-F01/GR-F03.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-a5c7": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Item sem passagem (n_passages=0); corpo verificado, sem menção detectada — consta só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-a77b": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "drive_by",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Afirmação genérica sobre 'fatores externos' causando congestionamento; não corresponde precisamente ao foco do artigo em concentração de mercado.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-a975": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F03",
+   "AIR-F05"
+  ],
+  "confidence": 2,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'analisam a resposta em termos de qualidade (pontualidade dos voos)' — descreve corretamente o conteúdo real do artigo, junto a Prince e Simon.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-aa83": {
+  "accuracy": "misrepresented",
+  "claim_ids": [
+   "AIR-F01",
+   "AIR-F02"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Agrupa concentração de aeroporto E de rota como levando a melhor OTP; artigo achou efeitos opostos (rota piora OTP, AIR-F02).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-acf0": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Afirmação genérica sobre importância de tratar PHL para segurança alimentar e eficiência da cadeia; qualquer fonte da área sustentaria — drive_by, sem erro específico.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-ae39": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F03",
+   "AIR-F05"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'LCCs shape airport dynamics, influencing flight delays' em bloco de 3 refs; compatível com AIR-F03/AIR-F05.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-af13": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'Cereals, oilseeds and legumes are vital components' — afirmação genérica que qualquer fonte da área sustentaria; drive_by.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-b03f": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Atribui contaminação de grãos por método tradicional de secagem/armazenagem a tema geral de PHL; genérico, compatível com o artigo — drive_by.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-b097": {
+  "accuracy": "imprecise",
+  "claim_ids": [
+   "GR-DEF01"
+  ],
+  "confidence": 1,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Atribui definição que mistura quantidade e qualidade ('decrease in nutritional value, marketability, edibility') a citação conjunta; GR-DEF01 fala só de quantidade.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-b1f0": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "'LCCs typically focus on markets with a high proportion of leisure passengers' — mesmo padrão de IRR-8dc2; tema fora do registro.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-b9db": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01",
+   "AIR-F02"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 4 citações atribuindo associação atraso-concentração em nível de aeroporto E rota — corresponde exatamente a AIR-F01 e AIR-F02.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-be8d": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-D01",
+   "AIR-F05"
+  ],
+  "confidence": 2,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Linha de tabela de revisão sistemática: 209 rotas, 2002–2013, efeitos da entrada de LCC — corresponde a AIR-D01/AIR-F05; descrição factual sem postura clara.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-bf00": {
+  "accuracy": "misrepresented",
+  "claim_ids": [
+   "AIR-DEF01"
+  ],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Atribui a Bendinelli o padrão de 30min brasileiro (ANAC), mas o artigo usa o padrão de 15min do BTS/DOT dos EUA — invertido.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-bf09": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 4 refs: 'force rivals to change their flight times to avoid competition'; atribuição difusa, sem afirmação isolável ao artigo.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-c162": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; sem menção no corpo verificado; só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-c3c8": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 5 citações para afirmação genérica hedged ('may arise') sobre internalização de congestionamento; sem uso próprio.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-c479": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "'investigate the impact of operational performance on airline cost structure' — objeto errado; artigo trata de atrasos/concorrência, não custo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-c5fa": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-D02"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'information used in the VRA is provided by the airlines and aggregated by ANAC' — descrição específica e correta da base (AIR-D02).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-c6eb": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-DEF01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Atribui foco em toda a cadeia de suprimentos de PHL, compatível com a definição do artigo (todas as etapas, exceto varejo/consumo).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-cb12": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "'HS of grains also contributes to improved food price stability' — armazenagem hermética e preços não são conteúdo do artigo (macro PHL).",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-cc5f": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Atribui variável sobre 'atrasos devido ao mau tempo' ao artigo; não consta no registro de afirmações — leitura não confirmável.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-cc69": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Agrupa o artigo entre estudos sobre 'accident records or safety and financial performance'; tema real é atraso/concentração — dead_end.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-cc96": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Crítica de que o artigo 'não vai além de desagregação por sexo de chefia domiciliar' — tema ausente do painel macro por país; contradictory, dead_end.",
+  "reuse": [],
+  "stance": "contradictory"
+ },
+ "IRR-cd2a": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Passagem é trecho da lista de referências em sequência (bibliografia), não menção no corpo; reference_list_only.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-cda7": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-D02",
+   "GR-P01"
+  ],
+  "confidence": 3,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Resumo preciso: condições macroeconômicas, grãos (arroz/milho/soja/trigo) e falta de infraestrutura pós-colheita como causa significativa de PHL — corresponde ao resumo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-d073": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Passagem é trecho da lista de referências (entradas bibliográficas em sequência), sem menção no corpo.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-d1c4": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M04"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Cita o artigo como precedente do teste de identificação fraca (Cragg-Donald), junto com outra referência; uso não exclusivo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-d82e": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Trecho é lista de referências numerada ('[1] W. E. Bendinelli...') — reference_list_only.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-dd24": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F05"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'Similar result' de impacto positivo da LCC é compatível com o spillover não-tarifário achado pelo artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-e06d": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F03",
+   "AIR-I01"
+  ],
+  "confidence": 2,
+  "depth": "real_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Resume achado específico em português: presença de LCC associada à internalização de custos de atrasos pelas incumbentes — corresponde a AIR-F03/AIR-I01.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-e113": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Atribui dado específico sobre Gana ('uma das maiores incidências de PHL do mundo') ausente do painel global por faixa de renda — dead_end, exemplo do codebook.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-e1b7": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; corpo verificado sem menção no texto; consta só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-e65d": {
+  "accuracy": "accurate",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "drive_by",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Bloco de 2 citações para afirmação genérica sobre clima ruim, pragas e mau uso de tecnologia como causas de desperdício agrícola — drive_by.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-ea18": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M03"
+  ],
+  "confidence": 3,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Adota a premissa de endogeneidade de HHI/LCCS nos atrasos 'motivated by' o artigo — method_adoption, compatível com AIR-M03.",
+  "reuse": [
+   "method_adoption"
+  ],
+  "stance": "supporting"
+ },
+ "IRR-ed51": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "Passagem é lista de referências numerada ('[1]...[2]...[3]...'), sem menção no corpo do texto; reference_list_only apesar de n_passages=1.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-ed73": {
+  "accuracy": "misrepresented",
+  "claim_ids": [],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": "dead_end",
+  "presence": "in_text",
+  "rationale": "Atribui a Bendinelli et al. consequências de greve de controladores; artigo trata de concentração/atrasos, não greves — dead_end.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-edd4": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-F01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Atribui hipótese de internalização de congestionamento por transportadoras dominantes, compatível com achado central do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-eef4": {
+  "accuracy": "imprecise",
+  "claim_ids": [
+   "GR-DEF01"
+  ],
+  "confidence": 1,
+  "depth": "brief_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Definição de PHL citada em bloco de 3 fontes; paráfrase geral não reproduz o qualificador 'não intencional' do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-efbf": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "GR-P01"
+  ],
+  "confidence": 2,
+  "depth": "brief_mention",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "Citação numérica única atribuindo perdas a manuseio/armazenagem/logística inadequados, alinhado ao achado central do artigo sobre infraestrutura pós-colheita.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-f02e": {
+  "accuracy": "imprecise",
+  "claim_ids": [
+   "AIR-F02"
+  ],
+  "confidence": 2,
+  "depth": "real_mention",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Descreve corretamente que ausência de concorrência aumenta atrasos, mas acrescenta 'cancelamento de voos', ausente do artigo.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-f08a": {
+  "accuracy": "accurate",
+  "claim_ids": [
+   "AIR-M01",
+   "AIR-M02"
+  ],
+  "confidence": 2,
+  "depth": "supporting",
+  "distortion": null,
+  "presence": "in_text",
+  "rationale": "'differentiate the market concentrations at market level and airport level' — descreve a distinção metodológica central, usada para conciliar duas correntes.",
+  "reuse": [],
+  "stance": "supporting"
+ },
+ "IRR-f95a": {
+  "accuracy": null,
+  "claim_ids": [],
+  "confidence": 3,
+  "depth": null,
+  "distortion": null,
+  "presence": "reference_list_only",
+  "rationale": "n_passages=0; sem menção no corpo verificado; só na lista de referências.",
+  "reuse": [],
+  "stance": "none"
+ },
+ "IRR-fee5": {
+  "accuracy": "imprecise",
+  "claim_ids": [],
+  "confidence": 1,
+  "depth": "drive_by",
+  "distortion": "diversion",
+  "presence": "in_text",
+  "rationale": "Bloco genérico inclui tarifas e cooperação, temas não centrais do artigo, que trata de atrasos e competição-qualidade.",
+  "reuse": [],
+  "stance": "none"
+ }
+}

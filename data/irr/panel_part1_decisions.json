@@ -1,0 +1,52 @@
+{
+  "IRR-0252": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Presence=reference_list_only por unanimidade. Pelos Eixos 2 e 4, depth e accuracy só se aplicam quando presence=in_text; fora disso ficam null, como fixa a tabela v1→v2 para bibliography_only."
+  },
+  "IRR-1c51": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Janela mostra bibliografia alfabética ('Article Google Scholar'), presence=reference_list_only unânime. Eixos 2 e 4: depth e accuracy permanecem null quando presence≠in_text."
+  },
+  "IRR-2bd5": {
+    "accuracy": "misrepresented",
+    "rationale": "Regra 4: afirmação REPASSADA atribuída ao artigo como achado próprio é misrepresented+relayed_attribution. O codebook cita '20–35% dos grãos' (GR-R01, Gustavsson et al., 2011) como exemplo literal."
+  },
+  "IRR-3978": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Unanimidade em presence=reference_list_only, sem passagem e com corpo verificado. Eixos 2 e 4 só se aplicam a in_text, portanto depth=null e accuracy=null."
+  },
+  "IRR-7860": {
+    "depth": "foundational",
+    "rationale": "Eixo 2, nível 5: o citante identifica o artigo como referência única ('domestic flights in Brazil') e ainda descreve seu conteúdo real (AIR-M01). c1, com texto completo, sustenta foundational."
+  },
+  "IRR-8576": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Passagem é a lista numerada de referências (item 51); presence=reference_list_only. Pelos Eixos 2 e 4, depth e accuracy ficam null fora de in_text."
+  },
+  "IRR-8dc2": {
+    "distortion": "transmutation",
+    "rationale": "Accuracy=imprecise por maioria exige distortion (regra 6). AIR-I02 é mecanismo CONJECTURADO virado fato ('LCCs target leisure markets') — transmutation. dead_end pareia com misrepresented, não com imprecise (regra 4)."
+  },
+  "IRR-a5c7": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Sem passagem e corpo verificado: presence=reference_list_only unânime. Eixos 2 e 4 determinam null para depth e accuracy quando presence≠in_text."
+  },
+  "IRR-cb12": {
+    "distortion": "diversion",
+    "rationale": "Com accuracy=imprecise (maioria), regra 6 exige distortion. Armazenagem e preços existem no artigo (GR-P02, GR-F07), mas citados com significado diferente — estabilização de preços — logo diversion, não dead_end."
+  },
+  "IRR-d073": {
+    "depth": null,
+    "accuracy": null,
+    "rationale": "Trecho é sequência de entradas bibliográficas; presence=reference_list_only. Eixos 2 e 4: depth e accuracy ficam null quando não há menção no corpo."
+  },
+  "IRR-f02e": {
+    "accuracy": "misrepresented",
+    "rationale": "Regra 4: 'relação confirmada pelos autores' converte em achado próprio o repasse do FAA OIG (AIR-R03); além disso o artigo não estuda cancelamentos — objeto errado, logo misrepresented."
+  }
+}

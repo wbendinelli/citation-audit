@@ -1,0 +1,59 @@
+{
+ "IRR-1b0c": [
+  "distortion"
+ ],
+ "IRR-1b78": [
+  "depth"
+ ],
+ "IRR-1eca": [
+  "accuracy"
+ ],
+ "IRR-2bd5": [
+  "accuracy"
+ ],
+ "IRR-327a": [
+  "depth"
+ ],
+ "IRR-357b": [
+  "depth"
+ ],
+ "IRR-4cc0": [
+  "accuracy"
+ ],
+ "IRR-7860": [
+  "depth"
+ ],
+ "IRR-786d": [
+  "accuracy"
+ ],
+ "IRR-81e6": [
+  "accuracy"
+ ],
+ "IRR-8dc2": [
+  "distortion"
+ ],
+ "IRR-a1e3": [
+  "accuracy"
+ ],
+ "IRR-b1f0": [
+  "distortion"
+ ],
+ "IRR-cb12": [
+  "distortion"
+ ],
+ "IRR-cc5f": [
+  "accuracy"
+ ],
+ "IRR-cc69": [
+  "distortion"
+ ],
+ "IRR-ed51": [
+  "presence"
+ ],
+ "IRR-f02e": [
+  "accuracy"
+ ],
+ "IRR-f08a": [
+  "depth"
+ ]
+}
