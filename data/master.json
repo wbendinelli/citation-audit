@@ -885,7 +885,7 @@
     },
     {
      "arxiv": null,
-     "citation_status_auto": "bibliography_only",
+     "citation_status_auto": null,
      "corpusid": 214584690,
      "doi": "10.1007/s13762-020-02710-3",
      "has_fulltext": false,
@@ -910,7 +910,7 @@
       "s2",
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "evidencia_insuficiente",
      "text_path": "text/airline_029.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s13762-020-02710-3?error=cookies_not_supported&code=f735b538-92d8-4f45-a81d-19fd1dab60b2",
      "title": "The impact of dust on Kuwait International Airport operations: a case study",
@@ -2166,7 +2166,7 @@
      "src": [
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "aresta_falsa",
      "text_path": "text/airline_s008.txt",
      "text_source": "PDF fornecido pelo autor (10.1108:s2212-160920170000006006.pdf)",
      "title": "Airport and Airline Relationship of Multiple Functional Structures",
@@ -2480,7 +2480,7 @@
     },
     {
      "arxiv": null,
-     "citation_status_auto": "bibliography_only",
+     "citation_status_auto": null,
      "corpusid": 290440799,
      "doi": "10.1007/s41348-026-01320-4",
      "has_fulltext": false,
@@ -2505,7 +2505,7 @@
       "s2",
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "evidencia_insuficiente",
      "text_path": "text/grains_002.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s41348-026-01320-4?error=cookies_not_supported&code=1d2f022e-915a-40cc-873f-46c48bbf4077",
      "title": "Imaging technologies for non-invasive detection of insect pest infestations in stored food grains: a review",
@@ -2758,7 +2758,7 @@
     },
     {
      "arxiv": null,
-     "citation_status_auto": "bibliography_only",
+     "citation_status_auto": null,
      "corpusid": 278699536,
      "doi": "10.1007/s42690-025-01511-w",
      "has_fulltext": false,
@@ -2784,7 +2784,7 @@
       "s2",
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "evidencia_insuficiente",
      "text_path": "text/grains_011.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s42690-025-01511-w?error=cookies_not_supported&code=abfaa708-fadf-4c3f-9334-70e5122b2808",
      "title": "Optimizing modified ecological compositions enables eco-friendly control of Tribolium castaneum in grain storage",
@@ -3049,7 +3049,7 @@
     },
     {
      "arxiv": null,
-     "citation_status_auto": null,
+     "citation_status_auto": "bibliography_only",
      "corpusid": 270143279,
      "doi": "10.17221/221/2023-agricecon",
      "has_fulltext": false,
@@ -3060,6 +3060,7 @@
      "nota_integridade": "agriculturejournals.cz entrega resumo mais lista de referências: apenas 3.620 caracteres antes da seção de referências. O corpo não está acessível, então o sobrenome aparecer só na bibliografia não prova citação-fantasma.",
      "oa_status": "gold",
      "openalex": "https://openalex.org/W4399124615",
+     "passages_auto": [],
      "passages_how": [],
      "pdf": "https://doi.org/10.17221/221/2023-agricecon",
      "pmcid": null,
@@ -3074,7 +3075,7 @@
       "s2",
       "scholar"
      ],
-     "status": "evidencia_insuficiente",
+     "status": "tem_texto",
      "text_path": "text/grains_020.txt",
      "text_source": "nova tentativa dirigida: http://agricecon.agriculturejournals.cz/artkey/age-202405-0002_subsidy-policies-for-the-grain-supply-chain-considering-postharvest-loss-of-grain-and-agricultural-pollutant-em.php",
      "title": "Subsidy policies for the grain supply chain considering postharvest loss of grain and agricultural pollutant emission in China",
@@ -3596,7 +3597,7 @@
     },
     {
      "arxiv": null,
-     "citation_status_auto": "bibliography_only",
+     "citation_status_auto": null,
      "corpusid": 246754571,
      "doi": "10.1007/s42853-022-00130-4",
      "has_fulltext": false,
@@ -3624,7 +3625,7 @@
       "s2",
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "evidencia_insuficiente",
      "text_path": "text/grains_037.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s42853-022-00130-4?error=cookies_not_supported&code=83a593d1-16ac-485b-b8b4-747a90fd6733",
      "title": "Grain Hermetic Storage and Post-Harvest Loss Reduction in Sub-Saharan Africa: Effects on Grain Damage, Weight Loss, Germination, Insect Infestation, and Mold and Mycotoxin Contamination",
@@ -3783,7 +3784,7 @@
     },
     {
      "arxiv": null,
-     "citation_status_auto": "bibliography_only",
+     "citation_status_auto": null,
      "corpusid": 232202187,
      "doi": "10.1007/s10668-021-01314-2",
      "has_fulltext": false,
@@ -3809,7 +3810,7 @@
       "s2",
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "evidencia_insuficiente",
      "text_path": "text/grains_043.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s10668-021-01314-2?error=cookies_not_supported&code=e1694804-6ec6-4f53-b98d-715c83e52654",
      "title": "Assessing drivers of post-harvest losses: tangible and intangible resources’ perspective",
@@ -3998,7 +3999,7 @@
     },
     {
      "arxiv": null,
-     "citation_status_auto": "bibliography_only",
+     "citation_status_auto": null,
      "corpusid": 239192820,
      "doi": "10.1007/978-981-16-3791-9_8",
      "has_fulltext": false,
@@ -4024,7 +4025,7 @@
       "s2",
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "evidencia_insuficiente",
      "text_path": "text/grains_050.txt",
      "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-16-3791-9_8?error=cookies_not_supported&code=e7a26918-8153-4822-b4c4-7723651acaa9",
      "title": "Modeling the Causes of Post-harvest Loss in the Agri-Food Supply Chain to Achieve Sustainable Development Goals: An ISM Approach",
@@ -4181,7 +4182,7 @@
      "year": 2022
     },
     {
-     "citation_status_auto": "bibliography_only",
+     "citation_status_auto": null,
      "doi": "10.1007/978-981-97-2795-7_12",
      "has_fulltext": false,
      "id": "grains_056",
@@ -4202,7 +4203,7 @@
       "opencitations",
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "evidencia_insuficiente",
      "text_path": "text/grains_056.txt",
      "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-97-2795-7_12?error=cookies_not_supported&code=f40ab68e-d086-40b3-a2a8-b15a8f47c45a",
      "title": "Enhancing Food Security, Safety, and Sustainability via the Application of Radiation Technology",
@@ -4392,7 +4393,7 @@
      "src": [
       "scholar"
      ],
-     "status": "tem_texto",
+     "status": "aresta_falsa",
      "text_path": "text/grains_s001.txt",
      "text_source": "PDF fornecido pelo autor (10.1080:14620316.2022.2091488)",
      "title": "Application of nanotechnology for preventing postharvest losses of agriproducts",

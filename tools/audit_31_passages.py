@@ -4,6 +4,7 @@ Duas estratégias: sobrenome no corpo (estilo autor-ano) e número da referênci
 seguido até as ocorrências no corpo (estilo numérico).
 """
 import re
+TERMINAIS = {"aresta_falsa"}  # veredito manual comprovado; nenhum portão o sobrescreve
 
 import auditlib
 
@@ -45,6 +46,7 @@ def by_number(t):
 master = auditlib.load_master()
 stats={"com_texto":0,"com_passagem":0,"so_bibliografia":0,"nao_achou":0}
 for key, r in auditlib.iter_records(master):
+    if r["status"] in TERMINAIS: continue
     p = r.get("text_path")
     if not p or not (auditlib.ROOT / p).exists(): continue
     stats["com_texto"]+=1

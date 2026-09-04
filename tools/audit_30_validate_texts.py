@@ -6,6 +6,7 @@ Regra 2 — texto curto sem o sobrenome citado é página de rosto/abstract,
 não texto completo: marca como parcial e não conta como lido.
 """
 import collections
+TERMINAIS = {"aresta_falsa"}  # veredito manual comprovado; nenhum portão o sobrescreve
 
 import auditlib
 
@@ -16,6 +17,7 @@ MIN_FULLTEXT = 15000
 master = auditlib.load_master()
 desvinc = parcial = ok = 0
 for key, r in auditlib.iter_records(master):
+    if r["status"] in TERMINAIS: continue
     p = r.get("text_path")
     if not p or not (auditlib.ROOT / p).exists(): continue
     t = (auditlib.ROOT / p).read_text(encoding="utf-8", errors="ignore")

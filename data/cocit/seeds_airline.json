@@ -1,0 +1,100 @@
+{
+  "paper": "airline",
+  "citation": "Bendinelli, W.E., Bettini, H.F.A.J., Oliveira, A.V.M. (2016). Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry. Transportation Research Part A 85, 39-52.",
+  "ref_source": "refs_pdf_airline.json (n = 1..26)",
+  "partition_headings": [
+    {
+      "heading": "2.1. Airport level determinants of delays: congestion internalization",
+      "page": 40,
+      "strand": "A"
+    },
+    {
+      "heading": "2.2. Route level determinants of delays: competition and quality",
+      "page": 41,
+      "strand": "B"
+    },
+    {
+      "heading": "2.3. A unifying framework: accounting for both the local and global effects of concentration",
+      "page": 41,
+      "strand": "A+B (the paper's own synthesis of the two strands)"
+    },
+    {
+      "heading": "2.4. The impact of LCCs on internalization and service quality",
+      "page": 42,
+      "strand": "B (LCC sub-literature, explicitly placed inside the competition-service quality strand)"
+    }
+  ],
+  "partition_evidence": [
+    {
+      "where": "§1. Introduction, p. 40",
+      "quote": "Following Daniel (1995), the literature has investigated the hypothesis of airport congestion internalization, meaning that a dominant airline could naturally internalize the costs associated with congestion delays that its aircraft impose without the need of a congestion toll – Brueckner (2002), Mayer and Sinai (2003), Daniel and Harback (2008), Rupp (2009), Zhang and Zhang (2006), and Ater (2012).",
+      "note": "Explicit roll-call of strand A."
+    },
+    {
+      "where": "§1. Introduction, p. 40",
+      "quote": "These findings are in accordance with another strand of the literature on airline delays that investigates the hypothesis of the competition-quality relationship. Pioneered by Suzuki (2000), this literature has many recent econometric papers investigating the local, route level determinants of delays, such as Mazzeo (2003), Rupp et al. (2006) and Greenfield (2014).",
+      "note": "Explicit roll-call of strand B."
+    },
+    {
+      "where": "§2.2, p. 41",
+      "quote": "While the airport internalization literature is interested in estimating the global effects of concentration – i.e., concerned with the mean airport level – this strand of the literature is interested in estimating the local effects of concentration – i.e., the market (route) level.",
+      "note": "States the A/B dividing criterion: global (airport) vs local (route) effects of concentration."
+    },
+    {
+      "where": "§2.3, p. 41",
+      "quote": "So far, Mazzeo (2003) and Bubalo and Gaggero (2015) have developed models with both route and airport market structure variables.",
+      "note": "The only two prior works the paper credits with both levels; both are still introduced as strand-B papers."
+    },
+    {
+      "where": "§2.4, p. 42",
+      "quote": "So far, a few articles in the competition-service quality literature have inspected the impacts of LCCs on flight delays.",
+      "note": "Places the whole LCC sub-literature inside strand B."
+    }
+  ],
+  "strand_A": {
+    "label": "Airport congestion internalization (global effects of airport-level concentration/dominance)",
+    "count": 10,
+    "refs": [
+      {"n": 1, "cite": "Ater 2012", "justification": "Listed in §1 and §2.1 among the internalization papers; panel evidence at airline-route-time level for US hubs confirming internalization."},
+      {"n": 3, "cite": "Bilotkach and Lakew 2014", "justification": "§2.1 groups it with the counter-evidence: 'to some extent' finds no self-internalization, hence still inside the internalization debate."},
+      {"n": 5, "cite": "Brueckner 2002", "justification": "§2.1 names it as the source of the rudimentary 25-US-airport evidence and of the route-symmetry assumption of this strand."},
+      {"n": 9, "cite": "Daniel 1995", "justification": "§2.1 identifies it as the origin of the internalization hypothesis ('Following Daniel (1995)') and quotes it in footnote 4."},
+      {"n": 10, "cite": "Daniel and Harback 2008", "justification": "§2.1 cites it as finding no self-internalization and therefore supporting congestion pricing."},
+      {"n": 14, "cite": "Mayer and Sinai 2003", "justification": "§2.1 lists it as confirming Brueckner's internalization result with disaggregated US panel data; also the schedule-padding/excess-travel-time reference."},
+      {"n": 16, "cite": "Molnar 2013", "justification": "Closes §2.1: internalization depends on strategic incentives, with entry deterrence prevailing at hubs."},
+      {"n": 20, "cite": "Rupp 2009", "justification": "§2.1 cites it among the no-internalization findings; also the critique of the excess-travel-time measure."},
+      {"n": 23, "cite": "Santos and Robin 2010", "justification": "§2.1: European application 2000-2004 that 'confirm the findings of congestion internalization'."},
+      {"n": 26, "cite": "Zhang and Zhang 2006", "justification": "Listed in the §1 enumeration of the airport congestion internalization strand."}
+    ]
+  },
+  "strand_B": {
+    "label": "Route/market competition and service quality (local effects of route-level concentration), including the LCC-entry sub-literature of §2.4",
+    "count": 8,
+    "refs": [
+      {"n": 7, "cite": "Bubalo and Gaggero 2015", "justification": "Introduced in §2.4 as competition-service quality work on LCC entry; §2.3 also credits it with both route and airport market-structure controls, without the internalization hypothesis.", "both_levels": true},
+      {"n": 8, "cite": "Castillo-Manzano and Lopez-Valpuesta 2014", "justification": "§2.4: finds LCCs have better on-time performance than FSCs - a service-quality comparison."},
+      {"n": 11, "cite": "Greenfield 2014", "justification": "§2.2 lists it among the papers estimating a delay equation on route concentration; also the source of the endogeneity/IV argument."},
+      {"n": 15, "cite": "Mazzeo 2003", "justification": "§2.2 names it as a core competition-quality paper; §2.3 also credits it with route HHI plus airport share, but without discussing internalization.", "both_levels": true},
+      {"n": 19, "cite": "Prince and Simon 2015", "justification": "§2.4: competitive response to entry; LCC entry raises incumbent delays via cost cutting - the hypothesis this paper tests and rejects."},
+      {"n": 21, "cite": "Rupp and Sayanak 2008", "justification": "§2.4: LCC vs FSC on-time performance comparison within the competition-service quality literature."},
+      {"n": 22, "cite": "Rupp, Owens and Plumly 2006", "justification": "§2.2 lists it among the recent econometric papers regressing delays on route concentration."},
+      {"n": 24, "cite": "Suzuki 2000", "justification": "§2.2 calls it the pioneer study of the competition-quality strand (on-time performance affects route market share)."}
+    ]
+  },
+  "neither": {
+    "label": "Cited for method, data construction, market definition or context - not part of either delay-literature strand",
+    "count": 8,
+    "refs": [
+      {"n": 2, "cite": "Baum, Schaffer and Stillman 2007", "justification": "Econometric tooling only: cited in footnote 18 for the Bartlett kernel bandwidth in the Newey-West correction."},
+      {"n": 4, "cite": "Boguslaski, Ito and Lee 2004", "justification": "Variable-construction reference: source of the max-concentration-between-endpoint-cities operator in §3.3."},
+      {"n": 6, "cite": "Brueckner, Lee and Singer 2014", "justification": "Market-definition methodology (city-pairs vs airport-pairs) used to justify the unit of analysis in §3.3; not a delay study."},
+      {"n": 12, "cite": "Hausman 1996", "justification": "Source of the Hausman-type instrument idea (footnote 19 of §3.4); pure identification method."},
+      {"n": 13, "cite": "Huse and Oliveira 2012", "justification": "Contextual footnote 3: Gol's entry effect on FSC prices in Brazil - a price study, not an on-time-performance study."},
+      {"n": 17, "cite": "Mumbower, Garrow and Higgins 2014", "justification": "Cited in §3.4 only as a precedent for Hausman-type instruments in airline demand/pricing work."},
+      {"n": 18, "cite": "Piga and Bachis 2006", "justification": "Cited in §3.4 only as a precedent for Hausman-type instruments; its hub-premium topic is not engaged with substantively."},
+      {"n": 25, "cite": "Villemeur, Billette, Ivaldi, Quinet and Urdanoz 2014", "justification": "Footnote 16 pointer on the social cost of delays / schedule padding; not part of the concentration-delay literature."}
+    ]
+  },
+  "totals": {"strand_A": 10, "strand_B": 8, "neither": 8, "all_refs": 26},
+  "prov": {"extracted_by": "claude-opus", "extracted_at": "2026-09-04"}
+}

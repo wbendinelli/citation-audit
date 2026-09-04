@@ -6,6 +6,7 @@ bibliografia NÃO prova citação-fantasma — prova apenas que não temos o cor
 Só é fantasma quem tem corpo comprovado e mesmo assim não menciona no texto.
 """
 import re
+TERMINAIS = {"aresta_falsa"}  # veredito manual comprovado; nenhum portão o sobrescreve
 
 import auditlib
 
@@ -27,6 +28,7 @@ classify = auditlib.classify_entries(auditlib.load_classify())
 
 rebaixados, confirmados = [], []
 for key, r in auditlib.iter_records(master):
+    if r["status"] in TERMINAIS: continue
     if r.get("citation_status_auto") != "bibliography_only": continue
     p = r.get("text_path")
     if not p or not (auditlib.ROOT / p).exists(): continue
@@ -42,6 +44,7 @@ for key, r in auditlib.iter_records(master):
 # revalida as classificações 'bibliography_only' já registradas
 revistas = []
 for key, r in auditlib.iter_records(master):
+    if r["status"] in TERMINAIS: continue
     c = classify.get((r.get("doi") or "").lower())
     if not c or c.get("role") != "bibliography_only": continue
     p = r.get("text_path")

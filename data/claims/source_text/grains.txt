@@ -1,0 +1,835 @@
+                                                    Sustainable Production and Consumption 21 (2020) 228–238
+
+
+
+                                                           Contents lists available at ScienceDirect
+
+
+                                         Sustainable Production and Consumption
+                                                      journal homepage: www.elsevier.com/locate/spc
+
+
+
+
+What are the main factors that determine post-harvest losses of
+grains?
+                                                                         ∗
+William Eduardo Bendinelli, Connie Tenin Su , Thiago Guilherme Péra,
+José Vicente Caixeta Filho
+Group of Research and Extension in Agroindustrial Logistics (ESALQ-LOG), Department of Economics, Administration and Sociology, College of
+Agriculture Luiz de Queiroz (ESALQ), University of Sao Paulo (USP), Av. Padua Dias, 11 - CEP 13418-900, Piracicaba, SP, Brazil
+
+
+
+article               info                          a b s t r a c t
+
+Article history:                                    Reducing post-harvest losses (PHL) permits the improvement of food security and food safety,
+Received 12 April 2019                              reduction of unnecessary resource use and increase of food supply chain actors’ profits. Most published
+Received in revised form 17 September 2019          studies have addressed the problem qualitatively, mainly due to difficulty obtaining necessary data.
+Accepted 30 September 2019
+                                                    This paper seeks to understand how macroeconomic conditions influence PHL of grains (rice, maize,
+Available online 4 October 2019
+                                                    soybeans and wheat), which are the main source of food for humans and animals, through the
+JEL classification:                                 construction of an econometric model using global level panel data from publicly available databases.
+O13                                                 Results suggest that increasing production to feed the increasing population often involves a difficult
+Q18                                                 trade-off. Some countries seeking on-farm production gains lack post-harvest infrastructure, especially
+C5                                                  in food storage and food marketing, which contribute to a sharp increase in the PHL level. There is
+Keywords:                                           also evidence that economic development non-linearly reduces grains’ PHL in all dimensions.
+Post-harvest loss                                                     © 2019 Institution of Chemical Engineers. Published by Elsevier B.V. All rights reserved.
+Economic development
+Econometric model
+Agribusiness
+
+
+
+1. Introduction                                                                       Parfitt et al., 2010; Shafiee-Jood and Cai, 2016). In developing and
+                                                                                      transitional countries, early stage FSC loss is generally greater
+   There are several definitions of post-harvest losses (PHL), a                      than food waste, while food waste is greater than food loss in
+term that can be used interchangeably with food loss and waste                        developed and industrialized countries (Cardoen et al., 2015a;
+(FLW) (Chaboud and Daviron, 2017; Sheahan and Barrett, 2017).                         Gustavsson et al., 2011). Fig. 1 shows the difference in food loss
+In this work, PHL are defined as the unintentional decrease in                        levels between developing countries (lower income levels) and
+the quantity of food produced for human consumption at all                            developed countries (higher income levels) for grains (rice, maize,
+stages of the food supply chain (FSC) regardless of the cause or                      soybeans and wheat).
+destination,1 not including retail and final consumption stages.                          The reduction of PHL levels can be motivated by four main
+FSC consists of a series of activities needed to deliver food through                 objectives. Firstly, a decrease in PHL could improve all four pillars
+multiple stages (production, handling and storage, processing,                        of food security, through increase in food availability (quantity),
+distribution, retailing) from farms to the final consumer (HLPE,                      improvement of food access due to reduction in prices, increase
+2014; Shafiee-Jood and Cai, 2016). Gustavsson et al. (2011) esti-                     of food utilization owing to the decrease of qualitative PHL, and
+mated that almost one-third of global food production in terms                        higher stability obtained by an increase in stored food (Affognon
+of weight is lost.                                                                    et al., 2015; Sheahan and Barrett, 2017).
+   The literature usually distinguishes food loss, that occurs in the                     Another objective is the improvement of food safety. Some
+early stages of the FSC, from food waste, that happens in retail                      PHL occur because of fungal or pest infestations, which can cause
+markets or after it reaches consumer and is generally related to                      severe human health implications if spoiled or contaminated food
+behavior, i.e., the intentional act of a person (Flanagan et al., 2019;               is consumed (Sheahan and Barrett, 2017). A third objective is to
+                                                                                      increase environmental sustainability, through the reduction of
+  ∗ Corresponding author.                                                             agricultural residues’ waste stream and greenhouse gas (GHG)
+                                                                                      emissions (Cardoen et al., 2015b,a; Flanagan et al., 2019; Porter
+      E-mail addresses: william.bendinelli@usp.br (W.E. Bendinelli),
+connie.su@usp.br (C.T. Su), thiago.pera@usp.br (T.G. Péra), jose.caixeta@usp.br       et al., 2016) and the reduction of unnecessary resource use. It
+(J.V. Caixeta Filho).                                                                 includes agricultural input resources (water, chemical fertilizer,
+   1 There are relevant works about edible and non-edible residues’ generation        agrochemicals, labor, and land) and FSC resources (fuel and en-
+and their potential uses and waste stream (Cardoen et al., 2015b,a).                  ergy) (Affognon et al., 2015; Shafiee-Jood and Cai, 2016; Sheahan
+
+https://doi.org/10.1016/j.spc.2019.09.002
+2352-5509/© 2019 Institution of Chemical Engineers. Published by Elsevier B.V. All rights reserved.
+                            W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238              229
+
+
+
+
+                            Fig. 1. Average food loss of grains (2000–2011) versus gross domestic product per capita (2011).
+                            Source: Data from FAOSTAT and World Bank.
+
+
+and Barrett, 2017). Kummu et al. (2012) found that around one-                   Nations Educational, Scientific and Cultural Organization (UN-
+quarter of the consumed water, cropland, and fertilizer used                     ESCO) also provide access to indicators related to PHL. Data from
+to produce food have been wasted. Lastly, PHL reduction can                      these sources can be used to estimate an econometric model to
+lead to economic benefits and well-being for FSC actors, through
+                                                                                 test hypotheses regarding PHL and the effects of its determinants.
+increased profits or lower costs (Sheahan and Barrett, 2017).
+                                                                                     Non-perishable food crops, such as cereal grains, oilseeds and
+    PHL can be attributed to different FSC related processes and
+operations (e.g., harvesting, drying, storage, transportation) or                legumes (hereinafter referred to as grains), constitute the ba-
+to external forces that induce PHL (e.g., market economy, re-                    sic elements for human diets in most developing and transi-
+source limitations, climate, legislation and cultural differences)               tional countries and are important products for smallholder farms
+(Parfitt et al., 2010; Shafiee-Jood and Cai, 2016). Thus, PHL can be             (World Bank, 2011). Grains are also the main component in most
+analyzed through economic, cultural, social, and environmental                   animal feed diets, thus having the highest crop production among
+perspectives. Economic elements are divided into micro, which
+                                                                                 food commodity groups (FAO, 2018a; Neethirajan et al., 2007).
+reflects the behavior of individual actors in the FSC, and macro,
+                                                                                 Maize, rice, wheat, and soybeans have the highest production of
+where the aggregated variables are studied instead of the single
+operator’s. Micro and macroeconomic dimensions are interre-                      all the grains, respectively, and are important in international
+lated, as the aggregated variables can be described as the sum                   food markets (AMIS, 2018; FAO, 2018b). It is estimated that
+of the individual economic actors’ variables (Segrè et al., 2014).               grains’ PHL vary from 20% to 35% across the world’s different
+    Several qualitative published works focused on the global                    geographical regions (Gustavsson et al., 2011).
+determinants of PHL (Chaboud and Daviron, 2017; Godfray et al.,                      The goal of this paper is to understand how macroeconomic
+2010; Hodges et al., 2011; Parfitt et al., 2010; Rutten, 2013;
+                                                                                 conditions influence grains’ (rice, maize, soybeans and wheat)
+Segrè et al., 2014; Shafiee-Jood and Cai, 2016; Sheahan and Bar-
+                                                                                 PHL, through the construction of an econometric model using
+rett, 2017; World Bank, 2011), but only a handful of works
+present international quantitative estimates of PHL determinants’                global level panel data with the necessary corrections. The re-
+coefficients (KC et al., 2016; Rosegrant et al., 2015). Data on                  sults should indicate the main macroeconomic determinants of
+PHL are scarce, old, mostly unreliable, and often not comparable                 PHL, contributing to a better understanding of this subject, and
+(Affognon et al., 2015; Chaboud and Daviron, 2017; Gustavsson                    stimulating new studies and policies.
+et al., 2011). Methods based on direct measurement are accurate                      This paper is structured in the following order. Section 2
+but demand high levels of effort and cost, making it difficult to
+                                                                                 presents the macro-economic conditions that impact PHL. Sec-
+measure the PHL of several food crops in numerous countries
+                                                                                 tion 3 shows the research design, detailing the selected data, the
+(World Resources Institute, 2016).
+    On the other hand, Food and Agriculture Organization of the                  econometric model and the estimation strategy. Section 4 con-
+United Nations Statistics (FAOSTAT) provides access to a large                   tains results, discussions, and the robustness checks performed.
+food and agriculture database. The World Bank and the United                     Lastly, Section 5 presents the concluding remarks.
+230                          W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238
+
+
+2. Macro economic conditions                                                      Bennett’s Law (Bennett, 1941), in combination with deficiency of
+                                                                                  infrastructure, tends to increase food loss and waste, especially
+2.1. Infrastructure                                                               of shorter shelf-life items (Cardoen et al., 2015a; Godfray et al.,
+                                                                                  2010; Parfitt et al., 2010; Rae, 1997; Segrè et al., 2014; Sheahan
+    In developing and transitional countries, the main causes of                  and Barrett, 2017), and decrease starchy staple food loss. The Ben-
+food loss are related to outdated harvest techniques and lim-                     nett’s Law states that the food share of starchy staples decreases
+ited post-harvest handling and infrastructure. The improvement                    with an increase in income (Bennett, 1941).
+of harvest techniques without the proper infrastructural invest-                      The Malthusian theory addresses the dynamics between pop-
+ments in food storage and transportation can lead to the creation                 ulation and economic growth. Its central hypothesis states that
+of food surplus, which can culminate in lower food prices and in                  technical improvements and resource expansion in the preindus-
+higher food losses due to difficulties in the conservation of the                 trial era had generated temporary increases in income per capita,
+oversupply. In addition, there will be higher food losses where                   while leading to a larger but not richer population. Recently,
+the links between producers and consumers are frail (Cardoen                      the Malthusian urban dynamics describes the urban growth in
+et al., 2015a; Hiç et al., 2016; Hodges et al., 2011; Kaminski and                developing countries mainly due to migration of population ‘‘ex-
+Christiaensen, 2014; Liu et al., 2013; Parfitt et al., 2010; Segrè                pulsed’’ from rural areas. When the population growth is not
+et al., 2014; Shashi et al., 2017).                                               appropriately accompanied by investments in urban infrastruc-
+    On the other hand, developed and industrialized countries                     ture, it leads to congestion costs that surpasses the benefits from
+have an advanced post-harvest infrastructure, thus their food                     agglomeration (Ashraf and Galor, 2011; Castells-Quintana, 2017;
+loss is extremely low; although, the food surplus and relatively                  Weil and Wilde, 2009).
+low cost of food in these countries do foster food waste. This
+more efficient infrastructure system led to a substantial growth                  2.3. Trade and globalization
+of the food-processing sector, allowing producers to diversify
+their incomes, while increasing the distance between economic
+                                                                                      Increased global agricultural trade or increased receipt of food
+agents (Hodges et al., 2011; Parfitt et al., 2010; Segrè et al., 2014;
+                                                                                  aid can either reduce or increase PHL in developing and tran-
+Thyberg and Tonjes, 2016). Table 1 provides an overview of the
+                                                                                  sitional countries. New opportunities for international agricul-
+characteristics of PHL according to a country’s stage of economic
+                                                                                  tural product trade can lessen PHL (Godfray et al., 2010; Parfitt
+development.
+                                                                                  et al., 2010) as new clients bring increasing sales volume and
+    Food marketing infrastructure plays an important role in PHL
+                                                                                  the demands of international trade require food and packaging
+(Hodges et al., 2011; Sheahan and Barrett, 2017). Better roads
+                                                                                  standardization, especially for the use of containerized shipments,
+generate lower transport costs and improve access to markets,
+                                                                                  which reduces product degradation and lowers PHL. Interestingly,
+which could accelerate trade and reduce the need for on-farm
+                                                                                  globalization could lower PHL due to the increase in efficiency of
+storage. Better access to electricity could improve local drying
+                                                                                  the whole FSC, even considering the increase in the number of lo-
+and processing. Better access to local markets, combined with
+                                                                                  gistic operations and longer travel times. Global food production
+policies focused on increasing consumer purchasing power, could
+                                                                                  efficiency could also increase because of regional specialization in
+increase the domestic demand, whilst the creation of adequate
+                                                                                  the production of the locally most suitable crops (Godfray et al.,
+relations to the international markets could help absorb the entire
+                                                                                  2010).
+offer (Godfray et al., 2010; KC et al., 2016; Segrè et al., 2014;
+                                                                                      Alternatively, trade globalization and food aid can raise PHL
+Sheahan and Barrett, 2017; World Bank, 2011).
+                                                                                  due to food price reduction caused by the importation of in-
+    Not only can poor infrastructure cause losses through prod-
+                                                                                  expensive, high quality imports that can put producers in the
+uct deterioration and spillage, it can also slow the adoption or
+                                                                                  destination markets at a disadvantage and reduce their incentive
+scaling-up of technologies that potentially reduce PHL (Affognon
+                                                                                  to manage PHL, even in poorer countries. Globalization also puts
+et al., 2015; Rosegrant et al., 2015). For instance, in Bihar, India,
+                                                                                  local distributors at a disadvantage as multi-national supermarket
+the adoption of cold storage practices significantly increased after
+the local government improved physical and social infrastructure.                 chains expand into developing and transitional countries, which
+The government there reformed policy, increased enforcement of                    impacts FSC dynamics and, consequently, PHL (Parfitt et al., 2010;
+the rule of law, strengthened governance, and invested in infras-                 Shafiee-Jood and Cai, 2016).
+tructure, particularly roads, thereby enhancing market access for
+farmers in remote areas (Minten et al., 2014; Rosegrant et al.,                   2.4. Food price inflation and unemployment
+2015; Shashi et al., 2017; Sheahan and Barrett, 2017).
+                                                                                      Food price inflation, as well as international food price peaks
+2.2. Urbanization and socio-economic growth                                       (for instance, during the 2007/2008 and the 2011/2012 food
+                                                                                  crisis), can cause a decrease or a change in the food consumption,
+   Economic development normally results in rapid urbanization,                   especially for groups with limited purchasing power (Chaboud
+agricultural sector contraction and changes in the employment                     and Daviron, 2017; Rosegrant et al., 2015; Rutten, 2013; Segrè
+structure. Urbanization demands that the FSC be extended to                       et al., 2014). In the short term, a reduction in the food demand can
+provide sufficient affordable food to meet the needs of a growing                 cause an imbalance with the food supply, leading to higher food
+urban population. However, FSC efficiency and PHL levels rely                     losses. A re-orientation of consumption leads to a higher demand
+heavily on road, rail, and market infrastructure improvements                     for staple foods and inexpensive food products that are usually
+(Aldred, 2012; Parfitt et al., 2010; Segrè et al., 2014; Shashi et al.,           high in calories and fat, with a possible progressive reduction in
+2017).                                                                            the demand for perishable and other more expensive food items
+   Furthermore, these modifications in employment structure                       (Segrè et al., 2014).
+frequently lead to changes in the social organization, in consump-                    Even though global gross food prices have fallen over the past
+tion habits and in the relationship with food. As urbanization                    century, the food price peaks are an indication of a forthcoming
+and household income grow simultaneously, the consumption of                      period of rising and more volatile food prices, driven primar-
+non-perishable food declines while the consumption of perish-                     ily by increased demand from rapidly developing countries and
+able food increases. This dietary transition, which conforms to                   first-generation biofuels production (Godfray et al., 2010).
+                                  W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238                              231
+
+Table 1
+Characteristics of PHL according to a country’s stage of technological/economic development.
+Source: Adapted from Parfitt et al. (2010) and Hodges et al. (2011).
+    Analysis              Developing countriesa                              Transitional countries                       Developed industrialized countries
+    dimension
+    Bottleneck in the     On-farm (mainly storage).                          From farm to the wholesale stage             Consumer.
+    supply chain (link)                                                      (mainly transportation).
+    Supply chain          Poor integration with local markets, many          Tighter integration of growers,              Use of highly integrated systems between
+    characteristics       intermediaries                                     suppliers, processors and distribution       growers and supply chain; more seasonal
+                          supplying urban markets.                           systems is required.                         produce imported; more secondary
+                                                                                                                          processing of food.
+    Type of growers       Smallholders, including subsistence farmers.       Small-scale farmers who often have           Medium- and large-scale farmers.
+                                                                             access to
+                                                                             limited post-harvest specific
+                                                                             infrastructure.
+    Markets and           Local markets: mostly meeting                      Produce of variable quality, target          Meet quality, safety, volume and timeliness
+    quality               household/village food requirements;               both local                                   demands of local retailers (particularly
+                          limited access to international markets.           (including supermarkets) and,                supermarkets/convenience store chains) and
+                                                                             increasingly, export markets in a            export markets.
+                                                                             number of countries.
+    Technological         Simple technologies, labor-intensive,              Packing houses, refrigeration and            Access to relatively sophisticated
+    development           traditional storage systems and harvesting         storage facilities systems side-by-side      technologies, e.g., packing-house equipment
+                          techniques.                                        with elements of traditional systems.        and cold chains; losses still occur;
+                                                                                                                          harvesting highly mechanized.
+    Incentives            Loss reductions have directly improved             Combination of developing and                Need for financial incentives to reduce
+                          livelihoods, food security, food quality and       developed country initiatives,               losses and waste since the low-margin
+                          health benefits. Improvements in                   depending on the country’s                   industries and low proportion of spending
+                          mechanization free up time to spend on             technological level and the market.          by families on food do not encourage
+                          more profitable off-farm activities.                                                            agents to cut losses or penalize for
+                                                                                                                          overproduction and waste.
+    Strategies            Wide education of farmers on the main                                                           Consumer education campaigns, waste
+                          causes of losses, infrastructure                                                                tariffs and the development of
+                          improvements to connect small farmers to                                                        public–private partnerships (PPPs) to
+                          markets, more effective supply chain with                                                       reduce and divide responsibility for losses
+                          access to microcredit to improve the                                                            and waste.
+                          technological level and public–private
+                          partnerships (PPPs) sharing investment
+                          costs and risks in the market targeted
+                          interventions.
+a
+ Hodges et al. (2011) use different nomenclature for countries: less developed countries, intermediate developing countries and developed countries, respectively.
+These three categories are also equivalent to the classification according to the country’s Gross Domestic Product (GDP) per capita, that is, in countries of low, middle
+and high income per capita.
+
+
+   In addition, a predictable price and policy environment could                       Despite all the problems, the FBS do provide an approximate
+support investments in off-farm storages, providing affordable                         picture of the overall food situation in a country and can be of
+drying and storage services to smallholders (World Bank, 2011).                        use in economic and nutritional studies, in development plans,
+   Unemployment causes a decrease in the consumer purchas-                             and in the formulation of related projects (FAO, 2001).
+ing power, leading to a reduction and a re-orientation in food                            In this current study, the dependent variable is the PHL per-
+consumption, with an effect similar to food price inflation. How-                      centage, calculated according to the formula utilized in Gustavs-
+ever, its impacts in the formation of PHL might have different                         son et al. (2013):
+consequences, with higher food losses due to a less efficient FSC                                 Losses                          Losses
+and lower consumer food waste owing to the need of better food                         %PHL =              =                                                         (1)
+management at the household level (Segrè et al., 2014).                                           Supply       Production + Import + Stock Variation
+                                                                                           All data used to calculate the dependent variable were from
+3. Research design                                                                     the FBS. The loss data available in the FBS comprise the food loss
+                                                                                       at all stages after harvest and prior to consumption, i.e., losses
+3.1. Data                                                                              during storage and transportation. The food supply is equal to
+                                                                                       the sum of production (primary crops), import quantity and stock
+    The dataset consists of panel data from 2000 through 2011 for                      variation, i.e., changes between the opening and closing stocks at
+82 countries with at least one percent of their geographical re-                       all levels, but mostly of stocks held by governments (FAO, 2001;
+gion’s domestic supply of grains. The domestic supply data were                        Gustavsson et al., 2013).
+obtained from the FAO Food Balance Sheets (FBS at FAOSTAT,                                 The independent variables were selected based on the macroe-
+2017).                                                                                 conomic conditions explored in Section 2 and will be presented
+    The FBS present a comprehensive picture of a country’s food                        in Section 3.2. All data utilized in this study are publicly available
+supply and its utilization for each food item during a specified                       from FAOSTAT, the World Bank, and UNESCO.
+reference period. They have been published since 1945 and are                              Observations with at least one missing data and/or outliers
+continually improved. The FBS data are assembled from a variety                        were excluded, because missing data would cause the matrix to
+of sources, so data quality and data coverage varies considerably                      be invertible and then the parameters could not be calculated.
+among countries and commodities (FAO, 2001). Also, adjustments                         These exclusions resulted in an unbalanced dataset as countries
+to the FBS basic data and missing data filling are needed to main-                     may have a different number of observations. In order to min-
+tain a certain degree of consistency, completeness, and reliability.                   imize the number of excluded observations, missing data was
+232                                W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238
+
+
+filled with data from the same country but from a different pe-                               et al., 2016), e.g., rural area with better access to markets
+riod; or when there was no individual country data, with adapted                              and higher percentage of paved roads. Source: Suite of Food
+data from figures coming out of the country’s geographical region.                            Security Indicators (FAOSTAT, 2017).
+For some independent variables, both country and regional data                              • ln railit : it is the natural logarithm of the rail lines density
+were unavailable, which made that specific dataset inestimable                                of country i in year t (unit of measure: km of route per
+and its input impossible. All data over three standard deviations                             100 square km of land area). This variable measures the
+were considered as outliers.                                                                  possibility of physical access to markets (FAOSTAT, 2017).
+                                                                                              It also expresses part of a country’s logistics infrastructure
+3.2. Econometric model                                                                        (Liu et al., 2013). Source: Suite of Food Security Indicators
+                                                                                              (FAOSTAT, 2017).
+      Eq. (2) presents the empirical PHL model:                                             • ln urbanit : it is the natural logarithm of the urban population
+                                                                                              of country i in year t (unit of measure: % of total population).
+ln yit = β0 + ln Xit β + dummiesit β + µg + λt + νit
+                                                                                              An increase in the rate of urbanization demands extended
+  i = 1, . . . , N ; t = 1, . . . , T                                          (2)            food supply chains, which has implications on PHL (Parfitt
+                                                                                              et al., 2010). Source: UNESCO (2017).
+where ln yit is the natural logarithm percent of grains postharvest
+loss in the country i in year t, β0 is the constant term, ln Xit is the
+                                                                                            • ln incomeit : it is the natural logarithm of the gross domestic
+                                                                                              product (GDP) per capita of country i in year t (unit of
+set of natural logarithm explanatory variables in the country i in
+                                                                                              measure: constant 2011 international $). This variable mea-
+year t, dummiesit is the set of dummy explanatory variables in the
+                                                                                              sures the economic possibility of market access (FAOSTAT,
+country i in year t, β is the set of regression coefficients of the
+                                                                                              2017) and expresses the economic development level of a
+explanatory variables with respect to the dependent variable, µg
+                                                                                              country. Also, growth in household income, which is highly
+is the unobservable group-specific effect, λt is the unobservable
+                                                                                              related to growth of GDP per capita, is associated with a
+time effect and νit is the remainder stochastic disturbance term
+                                                                                              dietary transition from starchy food staples to perishable
+with νit ∼ IID(0, σv2 ).
+                                                                                              food (Parfitt et al., 2010). Source: Suite of Food Security
+    The natural logarithm of the dependent and the explanatory
+                                                                                              Indicators (FAOSTAT, 2017).
+variables was used in order to capture the nonlinearities of the
+problem and to directly calculate the coefficients’ elasticities,
+                                                                                            • ln tradeit : it is the natural logarithm of the sum of the base
+                                                                                              price value of agricultural and food products imports and
+since the estimated parameters would already represent them.
+                                                                                              exports divided by the agriculture GDP of country i in year t
+In this way, one more estimation step was avoided.
+                                                                                              (unit of measure: %). This variable measures the country’s
+    The variables that best represent the macroeconomic con-
+                                                                                              openness to international trade of agricultural and food
+ditions that are the basis for the PHL determinants’ analysis
+                                                                                              products, which influences PHL (Parfitt et al., 2010). Sources:
+were selected as the explanatory variables (Chaboud and Davi-
+                                                                                              Trade Indices (FAOSTAT, 2017) and World Bank (2017) .
+ron, 2017; Godfray et al., 2010; Hiç et al., 2016; Kaminski and
+Christiaensen, 2014; KC et al., 2016; Liu et al., 2013; Parfitt et al.,
+                                                                                            • ln priceit : it is the natural logarithm of the domestic food
+                                                                                              price volatility of country i in year t (unit of measure: index).
+2010; Rosegrant et al., 2015; Rutten, 2013; Segrè et al., 2014;
+                                                                                              This variable expresses the variability in the relative price of
+Shafiee-Jood and Cai, 2016; Sheahan and Barrett, 2017; Thyberg
+                                                                                              food in a country and reflects food price inflation (FAOSTAT,
+and Tonjes, 2016; World Bank, 2011).
+                                                                                              2017). Source: Suite of Food Security Indicators (FAOSTAT,
+      • ln %PHLit : it is the natural logarithm of the losses quantity                        2017).
+        divided by the sum of production, imports and stock vari-                           • crisis : equal to 1 if year t ≥ 2008 and t ≤ 2011, 0 otherwise.
+        ation of grains of country i in year t (unit of measure: %).                          This is a dummy variable that represents the 2008–2011
+        Source: Food Balance Sheets (FAOSTAT, 2017).                                          economic crisis and food price spikes.
+      • ln supplyit : it is the natural logarithm of the dietary energy                     • low_incomeit , low_middle_incomeit , upper_middle_incomeit
+        supply per capita divided by the average dietary energy re-                           and high_incomeit : dummy variables that represent four
+        quirement per capita of country i in year t (unit of measure:                         clusters of incomeit , generated by the software Stata with
+        %). It expresses average dietary energy supply adequacy and                           medians as the basis.
+        measures a country’s food surplus or deficit, which reflects                        • low_tradeit and high_tradeit : dummy variables that repre-
+        its infrastructure (FAOSTAT, 2017). Source: Suite of Food                             sent two clusters of tradeit , generated by the software Stata
+        Security Indicators (FAOSTAT, 2017).                                                  with medians as the basis.
+      • ln food_sectorit : it is the natural logarithm of the food net                      • low_urbanit , middle_urbanit and high_urbanit : dummy vari-
+        production value per capita of country i in year t (unit                              ables that represent three clusters of urbanit , generated by
+        of measure: international $2 ). This variable expresses the                           the software Stata with medians as the basis.
+        relative economic size of the food production sector in the
+                                                                                           In the robustness check of results (Section 4.3), the follow-
+        country and it is an indication of infrastructure and de-
+                                                                                        ings dependent variables were also considered as alternative
+        velopment (FAOSTAT, 2017). Source: Suite of Food Security
+                                                                                        specification of ln %PHLit :
+        Indicators (FAOSTAT, 2017).
+      • ln roadit : it is the natural logarithm of the road density of                      • ln PHLit : it is the natural logarithm of the losses quantity of
+        country i in year t (unit of measure: km of road per 100                              grains of country i in year t (unit of measure: tons). Source:
+        square km of land area). This variable measures the possi-                            Food Balance Sheets (FAOSTAT, 2017).
+        bility of physical access to markets (FAOSTAT, 2017). It is                         • ln PHL_capitait : it is the natural logarithm of the losses quan-
+        considered as a proxy of a country’s logistics infrastructure                         tity of grains divided by the population of country i in year t
+        and it is assumed that a country with a higher road density                           (unit of measure: kg per capita). Source: Food Balance Sheets
+        has a higher probability of an efficient transportation (KC                           and Suite of Food Security Indicators (FAOSTAT, 2017).
+
+  2 ‘‘An international dollar would buy in the cited country a comparable                  Table 2 presents descriptive statistics for the dataset with-
+amount of goods and services a U.S. dollar would buy in the United States’’             out outliers (556 observations). Observations with at least one
+(World Bank, 2017).                                                                     missing data were not excluded in the descriptive statistics.
+                             W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238                           233
+
+
+3.3. Estimation strategy                                                          shown in the robustness checks (Section 4.3), the dependent vari-
+                                                                                  able ln PHL_capitait was used, maintaining the independent vari-
+    First, panel unit roots tests were performed to avoid spuri-                  able ln supplyit in the specifications (Table 5). Although the cor-
+ous regression. In the context of panel data unit-root tests, a                   relation between the main dependent variable ln %PHLit and the
+Fisher-type test performs a unit-root test on each panel’s series                 independent variable ln supplyit is low (−0.20), these approaches
+separately, and then combines the p-values to obtain an overall                   allow to minimize this potential endogeneity problem.
+test of whether the panel series contains a unit root (Choi, 2001).                   In addition, when the independent variable ln incomeit is used,
+All the tests subtract the cross-sectional averages from the series               the related independent variables ln priceit and ln tradeit were
+to mitigate the impact of cross-sectional dependence. All series                  excluded (specification (1) of Table 3). However, the GDP per
+rejected the null hypothesis that all panels contain a unit root of               capita information was transformed in four dummy variables
+at least 10 percent. As the panels are trend or drift stationary, it              indicating a country’s income level, and when using these dummy
+                                                                                  variables instead of the original variable, it is possible to tackle
+is not necessary to employ panel cointegration tests.
+                                                                                  the endogeneity problem and consider the independent variables
+    In the residuals, tests of panel heteroskedasticity and au-
+                                                                                  ln priceit and ln tradeit in the model (specifications (3) to (6) of
+tocorrelation were performed. It is important to differentiate
+                                                                                  Table 3).
+heteroskedasticity across panels and autocorrelation within pan-
+els. It is common to have different variance for each panel when
+                                                                                  4.2. Discussions
+working with data from many countries; however, autocorre-
+lation is something to be wary of. It is reasonable to assume
+                                                                                      Table 3 contain some important findings. The main one is that
+that laws and policies affect people’s behavior, both in the short
+                                                                                  there are evidences to find quantitatively the existence of the
+and long terms; and although these laws and policies may have                     relationships between PHL and the aforementioned interrelated
+positive externalities derived from other countries, their effect                 macroeconomic conditions. The obtained results are consistent
+is stronger within the country of their origin. Because of this, a                with the literature on PHL. The estimation strategy aimed at
+unique correlation parameter for each panel was structured.                       reducing modeling biases and generating more calibrated pa-
+    Following Green (2000), a modified Wald statistic to test                     rameters, which provides a better indication of intensity, both
+for group-wise heteroskedasticity in the fixed effect regression                  relatively and absolute, and sign of the PHL determinants’ coeffi-
+model’s residuals was employed. The null hypothesis of ho-                        cients.
+moscedastic disturbances was strongly rejected. A Wooldridge                          Considering the baseline models (columns (4) and (6) of Ta-
+test for autocorrelation in panel data was also implemented. This                 ble 3), the highest impact on PHL are due to variation on GPD
+test indicated the presence of first-order autocorrelation. The                   per capita. An increase on a country’s GPD per capita leads to
+procedure designed by Newey–West was employed to adjust the                       an increase in economic access to food for the poorest, a dietary
+panels’ standard error estimates.                                                 transition from starchy food staples to perishable food, economic
+    It is important to emphasize that, to the best of found knowl-                development, and investments on logistics infrastructure (Liu
+edge, this study is a pioneer in that it takes into account a world               et al., 2013), intensely reducing grains PHL. This impact is non-
+data panel and corrections to reduce parameter bias. There were                   linear and varies according to economic development cluster and
+only two other works that attempted to quantify the determi-                      culture, as it can be seen in Table 3 (dummy variables low _income,
+nants of PHL worldwide (KC et al., 2016; Rosegrant et al., 2015).                 low _middle_income and upper_middle_income). In order to test
+Both works present parameters with higher bias and a higher                       the non-linear relationship between economic development and
+probability of type-II error due to the lack of adequate correction               PHL reduction, the squared value of the independent variable
+and the omission of relevant variables.                                           ln incomeit was added (variable ln_square_income). Thus it was
+                                                                                  found the relationship is indeed non-linear and it is compliant
+                                                                                  with the Kuznets’ curve, in which the environmental degradation
+4. Results and discussions
+                                                                                  increases with the income per capita, until the inflexion point,
+                                                                                  and then gradually decreases (Madden et al., 2019), as it can be
+4.1. Results
+                                                                                  seen in specifications (1) and (2) of Table 3. In addition, the non-
+                                                                                  linearity was shown with the use of logarithm on both dependent
+    Table 3 presents estimation results from the empirical PHL                    and independent variables.
+determinants model. Six different specifications are considered.                      Urbanization (variable ln_urban) has a moderate effect3 on
+In the first, there are no corrections so that the results can be                 reducing PHL. Its several dimensions, such as agricultural sector
+compared with those from the studies noted in Section 3.3. In                     contraction, pressure on infrastructure, and more efficient supply
+specification (2), time fixed effects correction is added. In specifi-            chains, contribute to reduce PHL. When comparing countries
+cations (3) and (4), one-way and two-way fixed effect correction                  that have high levels of urbanization with countries that have
+are added, respectively, and the explanatory variable ln incomeit                 low (dummy variable low _urban) or medium (dummy variable
+is replaced with its four dummy variables, using high_incomeit                    middle_urban) levels of urbanization, one finds that the less ur-
+as the base group. Lastly, the two-way fixed effect correction is                 banized countries show a 29.9 percent and 23.6 percent higher
+kept in specifications (5) and (6) while adding the trade openness                level of PHL, respectively.
+dummies to specification (5) and the urbanization rate dummies                        The 2008–2011 crisis and the country’s openness to inter-
+to specification (6) to estimate how these economic develop-                      national trade of food have a moderate impact on PHL. Lack
+ment indicators affect PHL percentages. Clusters high_tradeit and                 of stability due to the 2008–2011 crisis (dummy variable crisis)
+high_urbanit are the base groups in (5) and (6). Columns (4) and                  increased PHL by affecting consumer purchasing power and by
+(6) contain the baseline models.                                                  putting investments on hold, e.g. in off-farm storages.
+    As both the main dependent variable ln %PHLit and the inde-                       There is some evidence that countries that are more integrated
+pendent variable ln supplyit contains food production information,                into global markets suffer fewer PHL (variable ln_trade). As it is
+two approaches were used: first, the dependent variable ln %PHLit
+was selected, but the independent variable ln supplyit was ex-                       3 In this work, moderate effect is considered when the estimated coefficient
+cluded from the specifications, as shown in Table 3. Secondly, as                 is between 0.15 and 0.40, while low effect occurs when it is lower than 0.15.
+234                                   W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238
+
+Table 2
+Descriptive statistics for the dependent and explanatory variables (without outliers).
+ Variables                             (1)         (2)                (3)              (4)           (5)      (7)          (8)           (9)         (10)       (11)     (12)
+ Pearson correlation
+ %PHL                         (1)       1.00
+ PHL                          (2)       0.14        1.00
+ PHL_capita                   (3)       0.52        0.08                1.00
+ supply                       (4)      −0.20       −0.07              −0.01             1.00
+ food_sector                  (5)      −0.33       −0.05               0.19             0.53          1.00
+ road                         (7)      −0.42       −0.01              −0.20             0.28          0.35     1.00
+ rail                         (8)      −0.42       −0.14              −0.07             0.31          0.31     0.80         1.00
+ income                       (9)      −0.58       −0.17              −0.18             0.63          0.60     0.56         0.57            1.00
+ price                        (10)      0.29       −0.01               0.19            −0.14         −0.24    −0.22        −0.20         −0.32         1.00
+ trade                        (11)     −0.39       −0.22              −0.12             0.37          0.38     0.54         0.64            0.60     −0.25      1.00
+ urban                        (12)     −0.41       −0.17              −0.02             0.57          0.53     0.23         0.34            0.72     −0.23      0.44     1.00
+
+ Univariate statistics
+ Mean                                      0.05     1,258,122          16.06           123.85        324.31    49.77        2.09         15,359       9.20      130.18   59.45
+ Standard deviation                        0.03     3,046,840          18.34            15.31        168.71    55.89        2.35         12,373       5.50      121.01   20.49
+ Minimum                                   0.00        17,467           1.03            89.00         63.00     1.20        0.00            808       0.00        8.08   12.25
+ Maximum                                   0.15    23,500,000         234.35           158.00        921.00   216.00       10.30         51,011      43.80      678.18   91.89
+
+
+                         Table 3
+                         Estimation results for the empirical model of PHL determinants.
+                          Variables                      (1)                (2)                 (3)           (4)                (5)               (6)
+                                                         % PHL              % PHL               % PHL         % PHL              % PHL             % PHL
+                          ln_food_sector                 0.152***           0.0364              0.261***      0.205***           0.0263            −0.0544*
+                                                         (0.0394)           (0.0636)            (0.0426)      (0.0346)           (0.0364)          (0.0309)
+                          ln_road                        −0.0860***         −0.0139             0.00708       0.00803            −0.00604          −0.00423
+                                                         (0.0217)           (0.0200)            (0.0182)      (0.0152)           (0.0166)          (0.0172)
+                          ln_rail                        −0.0174            −0.0538**           −0.0989***    −0.0865***         −0.0589***        −0.0740***
+                                                         (0.0192)           (0.0259)            (0.0179)      (0.0142)           (0.0174)          (0.0200)
+                          ln_income                      2.017***           2.899***
+                                                         (0.330)            (0.344)
+                          ln_square_income               −0.135***          −0.184***
+                                                         (0.0184)           (0.0199)
+                          ln_price                                                              0.0595***     0.0715***          0.0873***         0.0814***
+                                                                                                (0.0144)      (0.0152)           (0.0167)          (0.0171)
+                          ln_trade                                                              −0.216***     −0.204***
+                                                                                                (0.0184)      (0.0184)
+                          ln_urban                       −0.312***          −0.113              −0.337***     −0.338***          −0.459***
+                                                         (0.0563)           (0.0828)            (0.0478)      (0.0365)           (0.0481)
+                          crisis                         0.0670***          0.233***            0.00552       0.138***           0.332***          0.292***
+                                                         (0.0108)           (0.0390)            (0.0164)      (0.0417)           (0.0407)          (0.0387)
+                          low_income                                                            0.430***      0.452***           0.673***          0.731***
+                                                                                                (0.0713)      (0.0672)           (0.0633)          (0.0769)
+                          low_middle_income                                                     0.481***      0.501***           0.752***          0.706***
+                                                                                                (0.0627)      (0.0573)           (0.0496)          (0.0701)
+                          upper_middle_income                                                   0.337***      0.319***           0.592***          0.534***
+                                                                                                (0.0612)      (0.0575)           (0.0576)          (0.0684)
+                          low_trade                                                                                              0.249***          0.239***
+                                                                                                                                 (0.0302)          (0.0308)
+                          low_urban                                                                                                                0.299***
+                                                                                                                                                   (0.0621)
+                          middle_urban                                                                                                             0.236***
+                                                                                                                                                   (0.0522)
+                          constant                       −9.677***          −14.03***           −2.893***     −2.724***          −2.659***         −4.192***
+                                                         (1.392)            (1.418)             (0.248)       (0.227)            (0.302)           (0.207)
+                          Group fixed effect             No                 No                  Yes           Yes                Yes               Yes
+                          Time fixed effects             No                 Yes                 No            Yes                Yes               Yes
+                          Wald χ 2 (p-value)             0.0000             0.0000              0.0000        0.0000             0.0000            0.0000
+                          Nr observations                546                546                 534           534                534               534
+                          Nr countries                   69                 69                  68            68                 68                68
+
+                         Notes:
+                         1. Results produced by feasible generalized least squares (FGLS); statistics robust to heteroskedasticity and serial correlation
+                         where the correlation parameter is unique for each panel.
+                         2. Standard errors of the estimated coefficients (in brackets).
+                         3. P-value representations: ***p < 0.01, **p < 0.05, *p < 0.10.
+
+
+known, trade on a global scale opens opportunities for the expor-                                  with a low level of global trade (dummy variable low _trade) have
+tation of agricultural products, and investment on a global scale                                  23.9 percent more PHL when compared to countries with high
+has led to the establishment of large, internationally connected                                   levels of global trade. This is most likely related to a greater use
+supermarkets in several countries. Although economic openness                                      of standardized operations and packaging procedures to meet
+may threaten the development of domestic markets, the model                                        global trading requirements in countries more interconnected
+suggests that there is a positive net benefit relative to PHL that                                 with global markets, and these procedures lead to reduced PHL
+is related to greater economic openness. For example, countries                                    (Jedermann et al., 2014).
+                               W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238                               235
+
+                  Table 4
+                  Robustness checks: alternative concepts of dependent variable (ln PHLit ) and alternative selection of independent variables.
+                   Variables                  (1)             (2)            (3)            (4)          (5)            (6)            (7)
+                                              % PHL           PHL            PHL            PHL          PHL            PHL            PHL
+                   ln_supply                                  1.422***       1.305***       1.563***
+                                                              (0.342)        (0.393)        (0.378)
+                   ln_food_sector             −0.0544*        −0.00255       0.464***       0.188**      0.0639         0.345***       0.163**
+                                              (0.0309)        (0.0760)       (0.0867)       (0.0863)     (0.0738)       (0.0645)       (0.0785)
+                   ln_road                    −0.00423        0.0390         0.0570         0.0713       0.114***       0.0971**       0.0551
+                                              (0.0172)        (0.0411)       (0.0446)       (0.0443)     (0.0312)       (0.0403)       (0.0438)
+                   ln_rail                    −0.0740***      −0.0384        0.0529         0.151***     −0.0284        0.131***       0.185***
+                                              (0.0200)        (0.0371)       (0.0479)       (0.0429)     (0.0351)       (0.0381)       (0.0414)
+                   ln_income                                  7.251***                                   8.122***
+                                                              (0.512)                                    (0.358)
+                   ln_square_income                           −0.379***                                  −0.416***
+                                                              (0.0280)                                   (0.0199)
+                   ln_price                   0.0814***                                                                 −0.0187        −0.00520
+                                              (0.0171)                                                                  (0.0211)       (0.0182)
+                   ln_trade                                                  −0.432***                                  −0.488***
+                                                                             (0.0342)                                   (0.0357)
+                   ln_urban                                   −1.526***      0.275***                    −1.870***      0.344***
+                                                              (0.140)        (0.0855)                    (0.130)        (0.113)
+                   crisis                     0.292***        0.398***       0.0593         0.365***     0.424***       0.0770         0.435***
+                                              (0.0387)        (0.0483)       (0.0608)       (0.0567)     (0.0463)       (0.0596)       (0.0617)
+                   low_income                 0.731***                       0.339***       −0.149                      0.397***       −0.154
+                                              (0.0769)                       (0.116)        (0.144)                     (0.116)        (0.140)
+                   low_middle_income          0.706***                       0.191**        0.182*                      0.306***       0.168*
+                                              (0.0701)                       (0.0804)       (0.107)                     (0.0739)       (0.102)
+                   upper_middle_income        0.534***                       0.143***       0.157*                      0.181***       0.177**
+                                              (0.0684)                       (0.0521)       (0.0844)                    (0.0506)       (0.0844)
+                   low_trade                  0.239***                                      0.392***                                   0.334***
+                                              (0.0308)                                      (0.0622)                                   (0.0600)
+                   low_urban                  0.299***                                      0.691***                                   0.635***
+                                              (0.0621)                                      (0.129)                                    (0.127)
+                   middle_urban               0.236***                                      0.139                                      0.166*
+                                              (0.0522)                                      (0.0898)                                   (0.0864)
+                   constant                   −4.192***       −22.21***      4.648***       3.395**      −19.48***      11.33***       11.09***
+                                              (0.207)         (2.669)        (1.594)        (1.696)      (1.524)        (0.565)        (0.481)
+                   Group fixed effect         Yes             No             Yes            Yes          No             Yes            Yes
+                   Time fixed effects         Yes             Yes            Yes            Yes          Yes            Yes            Yes
+                   Wald χ 2 (p-value)         0.0000          0.0000         0.0000         0.0000       0.0000         0.0000         0.0000
+                   Nr observations            534             546            546            546          546            534            534
+                   Nr countries               68              69             69             69           69             68             68
+
+                  Notes:
+                  1. Results produced by feasible generalized least squares (FGLS); statistics robust to heteroskedasticity and serial correlation
+                  where the correlation parameter is unique for each panel.
+                  2. Standard errors of the estimated coefficients (in brackets).
+                  3. P-value representations: ***p < 0.01, **p < 0.05, *p < 0.10.
+
+
+    The three remaining determinants [size of the food produc-                      the model [specifications (3) and (6)]. Specifications (4) and (6)
+tion sector (variable ln food_sector), food price volatility (variable              contains the dummy variables that represent ln incomeit , ln tradeit
+ln price), and rail (variable ln rail)] influence PHL in a low level                and ln urbanit .
+with its signs consistent with the literature, although the sign                        Lastly, the causally related independent variables ln supplyit
+of the ln food_sector coefficient changed in specification (6). The                 and ln priceit are not considered together in the same specifica-
+road density (variable ln road) was not significant in the baseline                 tion. Thus, specifications (2), (3) and (4) considers ln supplyit and
+models. Still, the empirical model is robust, as will be seen in the                specifications (5), (6) and (7), uses ln priceit .
+next section.                                                                           These approaches led to 12 specifications, which generated
+                                                                                    robust results indicating that our empirical model is robust.
+                                                                                        In specifications (2) to (7) of Table 4, the PHL dependent
+4.3. Robustness checks
+                                                                                    variable was changed from percent of production loss to tons of
+                                                                                    production loss. The alteration led the road, rail and urbanization
+    Two sets of robustness checks were carried out to assess                        variables’ coefficients to change sign. This behavior was expected
+the validity and sensitivity of the results. First, alternative PHL                 since the dependent variable is not weighted; in other words,
+concepts were employed as dependent variables (Tables 4 and                         it should be expected that countries where there are a greater
+5). Secondly, some variables were dropped from the empirical                        number of logistical operations or that move a greater amount of
+model (Table 6). The resulting changes to the variables’ estimated                  agricultural product present a greater amount of loss in absolute
+coefficients were analyzed.                                                         terms. Because of this, another weight (country population) was
+    The main results are not changed when the PHL concept                           used to compare specifications (2) to (7) of Table 5 with the
+was changed. In both Tables 4 and 5, when the independent                           baseline specifications shown in Table 3.4 As one can see, only the
+variable ln incomeit is used, the related independent variables                     coefficient of the variables size of the food production sector and
+ln priceit and ln tradeit were excluded [specifications (2) and (5)].               rail density changed sign, which shows that the baseline model
+When the GDP per capita information was transformed in four                         is robust to most specification changes.
+dummy variables, the endogeneity problem is dealt with and the
+independent variables ln priceit and ln tradeit are considered in                       4 Specification (1) in Tables 4–6 is the same as specification (6) in Table 3.
+236                             W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238
+
+              Table 5
+              Robustness checks: alternative concepts of dependent variable (ln PHL_capitait ) and alternative selection of independent variables.
+               Variables                   (1)             (2)             (3)             (4)            (5)             (6)           (7)
+                                           % PHL           PHL_capita      PHL_capita      PHL_capita     PHL_capita      PHL_capita    PHL_capita
+               ln_supply                                   1.343***        1.382***        0.954***
+                                                           (0.215)         (0.222)         (0.272)
+               ln_food_sector              −0.0544*        0.560***        0.621***        0.621***       0.691***        0.771***      0.837***
+                                           (0.0309)        (0.0470)        (0.0465)        (0.0630)       (0.0526)        (0.0409)      (0.0318)
+               ln_road                     −0.00423        −0.158***       −0.211***       −0.155***      −0.158***       −0.193***     −0.106***
+                                           (0.0172)        (0.0249)        (0.0284)        (0.0252)       (0.0175)        (0.0286)      (0.0226)
+               ln_rail                     −0.0740***      0.199***        0.158***        0.154***       0.164***        0.136***      0.115***
+                                           (0.0200)        (0.0200)        (0.0262)        (0.0194)       (0.0182)        (0.0221)      (0.0226)
+               ln_income                                   4.800***                                       4.747***
+                                                           (0.258)                                        (0.280)
+               ln_square_income                            −0.287***                                      −0.279***
+                                                           (0.0143)                                       (0.0158)
+               ln_price                    0.0814***                                                                      0.0999***     0.0951***
+                                           (0.0171)                                                                       (0.0218)      (0.0188)
+               ln_trade                                                    −0.125***                                      −0.125***
+                                                                           (0.0258)                                       (0.0228)
+               ln_urban                                    −0.381***       −0.451***                      −0.374***       −0.239***
+                                                           (0.0869)        (0.0831)                       (0.0874)        (0.0884)
+               crisis                      0.292***        0.302***        0.168***        0.241***       0.319***        0.219***      0.279***
+                                           (0.0387)        (0.0375)        (0.0451)        (0.0459)       (0.0362)        (0.0521)      (0.0468)
+               low_income                  0.731***                        0.467***        0.479***                       0.438***      0.349***
+                                           (0.0769)                        (0.0908)        (0.0926)                       (0.0728)      (0.0706)
+               low_middle_income           0.706***                        0.587***        0.560***                       0.692***      0.575***
+                                           (0.0701)                        (0.0763)        (0.0816)                       (0.0652)      (0.0707)
+               upper_middle_income         0.534***                        0.366***        0.283***                       0.395***      0.306***
+                                           (0.0684)                        (0.0573)        (0.0621)                       (0.0525)      (0.0573)
+               low_trade                   0.239***                                        0.185***                                     0.296***
+                                           (0.0308)                                        (0.0359)                                     (0.0357)
+               low_urban                   0.299***                                        0.351***                                     0.343***
+                                           (0.0621)                                        (0.0805)                                     (0.0706)
+               middle_urban                0.236***                                        0.265***                                     0.245***
+                                           (0.0522)                                        (0.0640)                                     (0.0630)
+               constant                    −4.192***       −24.95***       −5.184***       −5.987***      −19.40***       −0.492        −2.963***
+                                           (0.207)         (1.383)         (1.009)         (1.227)        (1.083)         (0.360)       (0.189)
+               Group fixed effect          Yes             No              Yes             Yes            No              Yes           Yes
+               Time fixed effects          Yes             Yes             Yes             Yes            Yes             Yes           Yes
+               Wald χ 2 (p-value)          0.0000          0.0000          0.0000          0.0000         0.0000          0.0000        0.0000
+               Nr observations             534             546             546             546            546             534           534
+               Nr countries                68              69              69              69             69              68            68
+
+              Notes:
+              1. Results produced by feasible generalized least squares (FGLS); statistics robust to heteroskedasticity and serial correlation where
+              the correlation parameter is unique for each panel.
+              2. Standard errors of the estimated coefficients (in brackets).
+              3. P-value representations: ***p < 0.01, **p < 0.05, *p < 0.10.
+
+
+    The independent variable food surplus (variable ln supply),                        and globalization), respectively, were removed. When comparing
+added in (2), (3) and (4) of Tables 4 and 5, strongly generates                        the baseline PHL model to these specifications, the results show
+higher PHL, as expected. Communities facing food deficit may                           that it is robust to most changes in specification. The variable that
+lack infrastructure to deal with the surplus, while places where                       expresses the road density is the only variable that presents high
+food available is higher than food demand have low economic                            sensitivity to the sub-specification, although it was not significant
+incentives to prevent PHL (Hiç et al., 2016; Liu et al., 2013; Segrè                   in the baseline model. As other studies have not completely spec-
+et al., 2014).                                                                         ified these macroeconomic conditions in their empirical models
+    It is expected that the world population reach 9 billion people                    (KC et al., 2016; Rosegrant et al., 2015), it is concluded that any
+by 2050, which will require 70% more food (Hodges et al., 2011).                       sub-specification related to variables may cause relevant prob-
+The obtained results show that efforts focused on increasing food                      lems of inconsistent estimation and inference that can lead to
+production cannot be restricted to on-farm production, as it will                      unpleasant false negatives.
+lead to a food surplus and incur in much higher levels of PHL,
+shown by the high impact of the variable ln supply. Increase in                        5. Concluding remarks
+food production should be complemented by investments on
+post-harvest infrastructure, especially in food storage and food                          The results suggest that there is a difficult trade-off involved
+marketing, in order to achieve an advanced stage just as in                            when countries seek to increase the availability of basic foods
+high-income countries and counterbalancing this PHL increase                           to feed the increasing population. Without proper post-harvest
+(Flanagan et al., 2019; Segrè et al., 2014). The rapid rise of modern                  infrastructure, especially in food storage and food marketing, a
+FSC, with vertical integration and computer-based modeling and                         country’s efforts to increase food supply can lead to an increase
+monitoring systems, is associated with economic development                            in the level of PHL. There was also evidence that as a country
+and urbanization and can also reduce PHL rates (Flanagan et al.,                       develops economically there is concurrent, non-linear PHL reduc-
+2019; Sheahan and Barrett, 2017).                                                      tion in all analyzed dimensions. The construction of infrastructure
+    In specifications (2), (3) and (4) in Table 6, the set of variables                such as storage facilities in developing countries, along with
+representing food sector infrastructure and food price variation,                      the transfer of knowledge and technologies from industrialized
+logistics infrastructure, and economic development (urbanization                       countries, has led to the reduction in PHL.
+                                   W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238                                 237
+
+Table 6                                                                                 assumptions and that their PHL determinants are different. Al-
+Robustness checks: variables dropped off the empirical model.                           though the conclusions remarked in this work cannot be directly
+ Variables                 (1)           (2)            (3)           (4)               extrapolated to fruits and vegetables, it could lead to a future
+                           % PHL         % PHL          % PHL         % PHL
+                                                                                        work focusing in this food group.
+ ln_food_sector            −0.0544*                     −0.0961***    −0.0838**            To the best of our knowledge, there is not a publicly avail-
+                           (0.0309)                     (0.0327)      (0.0351)
+ ln_road                   −0.00423      −0.0291                      0.0295*
+                                                                                        able food storage variable with global level panel data, thus we
+                           (0.0172)      (0.0271)                     (0.0151)          used the road and rail lines density variables as a proxy for a
+ ln_rail                   −0.0740***    −0.0992***                   −0.123***         country’s infrastructure. Although obtained model using these
+                           (0.0200)      (0.0278)                     (0.0191)          proxy variables was robust, it would be important to pursue the
+ ln_price                  0.0814***                    0.0895***     0.0820***
+                                                                                        measurement of a more accurate food storage variable, which
+                           (0.0171)                     (0.0157)      (0.0174)
+ crisis                    0.292***                     0.180***      0.212***          would benefit future works.
+                           (0.0387)                     (0.0397)      (0.0407)             In this work, PHL does not consider food waste, which happens
+ low_income                0.731***      0.549***       0.649***      0.834***          in retail markets or after it reaches consumer and is generally
+                           (0.0769)      (0.105)        (0.0859)      (0.0773)          related to retailers and consumers’ behavior. Due to this defini-
+ low_middle_income         0.706***      0.562***       0.531***      0.814***
+                                                                                        tion of PHL, consumer behavior explanatory variables were not
+                           (0.0701)      (0.0956)       (0.0808)      (0.0727)
+ upper_middle_income       0.534***      0.370***       0.380***      0.564***          included in this model, although they should be considered in an
+                           (0.0684)      (0.0880)       (0.0755)      (0.0739)          empirical model studying food waste.
+ low_trade                 0.239***      0.182***       0.180***
+                           (0.0308)      (0.0329)       (0.0331)                        Declaration of competing interest
+ low_urban                 0.299***      0.335***       0.234***
+                           (0.0621)      (0.0689)       (0.0605)
+ middle_urban              0.236***      0.266***       0.197***                            The authors declare that they have no known competing finan-
+                           (0.0522)      (0.0560)       (0.0519)                        cial interests or personal relationships that could have appeared
+ constant                  −4.192***     −3.978***      −3.640***     −3.725***         to influence the work reported in this paper.
+                           (0.207)       (0.124)        (0.213)       (0.216)
+ Group fixed effect        Yes           Yes            Yes           Yes
+ Time fixed effects        Yes           Yes            Yes           Yes
+                                                                                        Acknowledgment
+ Wald χ 2 (p-value)        0.0000        0.0000         0.0000        0.0000
+ Nr observations           534           546            544           534               Funding
+ Nr countries              68            69             69            68
+
+Notes:                                                                                     This work was supported by the São Paulo Research Founda-
+1. Results produced by feasible generalized least squares (FGLS); statistics robust     tion (FAPESP) [grant number 2015/22097-1].
+to heteroskedasticity and serial correlation where the correlation parameter is
+unique for each panel.
+                                                                                        References
+2. Standard errors of the estimated coefficients (in brackets).
+3. P-value representations: ***p < 0.01, **p < 0.05, *p < 0.10.
+                                                                                        Affognon, H., Mutungi, C., Sanginga, P., Borgemeister, C., 2015. Unpacking
+                                                                                            postharvest losses in sub-Saharan Africa: A Meta-Analysis. World Dev. 66,
+                                                                                            49–68. http://dx.doi.org/10.1016/j.worlddev.2014.08.002.
+    Economic growth leads to increased urbanization and food                            Aldred, D., 2012. Urbanization: a major driver of infrastructure spending. Citi
+                                                                                            Perspect. 3, 6–39.
+diversification. Although urbanization may cause the contraction                        AMIS, 2018. AMIS - Agricultural Market Information System [WWW Document].
+of a country’s agricultural sector, the benefits derived from an                            URL http://www.amis-outlook.org/.
+improved infrastructure and a more efficiently operated supply                          Ashraf, Q., Galor, O., 2011. Dynamics and stagnation in the malthusian epoch.
+chain that result from urbanization bring about a reduction of                              Amer. Econ. Rev. 101, 2003–2041.
+                                                                                        Bennett, M.K., 1941. Wheat in national diets. Wheat Stud. Food Res. Inst. 18,
+PHL that more than counterbalances the migration of agricultural
+                                                                                            37–76.
+workers to growing urban centers. In the same vein, economic                            Cardoen, D., Joshi, P., Diels, L., Sarma, P.M., Pant, D., 2015a. Agriculture biomass
+development normally leads to an increase in foreign agricultural                           in India: Part 2. Post-harvest losses, cost and environmental impacts. Resour.
+commodity trade. In order to compete globally in the commodi-                               Conserv. Recycl. 101, 143–153. http://dx.doi.org/10.1016/j.resconrec.2015.06.
+ties market, packaging and operational procedures must meet                                 002.
+                                                                                        Cardoen, D., Joshi, P., Diels, L., Sarma, P.M., Pant, D., 2015b. Agriculture biomass
+international norms. The standards demanded when trading in                                 in India: Part 1. Estimation and characterization. Resour. Conserv. Recycl.
+the international market are often an improvement over local                                102, 39–48. http://dx.doi.org/10.1016/j.resconrec.2015.06.003.
+practices in developing countries and more appropriate to the                           Castells-Quintana, D., 2017. Malthus living in a slum: Urban concentration,
+maintenance of product attributes, both nutritionally and in ap-                            infrastructure and economic growth. J. Urban Econ. 98, 158–173. http://dx.
+                                                                                            doi.org/10.1016/j.jue.2016.02.003.
+pearance, thereby lowering PHL, advancing food security, and
+                                                                                        Chaboud, G., Daviron, B., 2017. Food losses and waste: Navigating the incon-
+securing food safety.                                                                       sistencies. Glob. Food Sec. 12, 1–7. http://dx.doi.org/10.1016/j.gfs.2016.11.
+    All used data come from reliable, internationally recognized                            004.
+sources, being the results robust to shocks; however, the impor-                        Choi, I., 2001. Unit root tests for panel data. J. Int. Money Financ. 20, 249–272.
+tance of further discussion regarding data standardization and                              http://dx.doi.org/10.1016/S0261-5606(00)00048-6.
+                                                                                        FAO, 2001. Food balance sheets - A handbook, Rome, Food and Agriculture
+improvements in the quality of PHL data should not be dimin-                                Organization of the United Nations.
+ished or overlooked. Quite the contrary, better quality data will                       FAO, 2018a. World Food and Agriculture - Statistical Pocketbook 2018. Food and
+reduce estimation bias and allow agents and governments to                                  Agriculture Organization of the United Nations, Rome.
+make more informed decisions and researchers to make more                               FAO, 2018b. INPhO - Information on post-harvest operations [WWW Document].
+                                                                                            Food Agric. Organ. United Nations. URL http://www.fao.org/in-action/inpho/
+accurate estimates.
+                                                                                            home/en/.
+    Unilateral analyzes should be avoided due to the problem of                         FAOSTAT, 2017. FAO database for food and agriculture [WWW Document]. Food
+model sub-specification. In the same sense, cross-section data                              Agric. Organ. United Nations. URL http://www.fao.org/faostat/en/#home.
+that lack adequate corrections and have a functional form without                       Flanagan, K., Robertson, K., Hanson, C., 2019. Reducing food loss and waste.
+error term raise the problem of inferring false negatives. Finally,                     Godfray, H.C.J., Beddington, J.R., Crute, I.R., Haddad, L., Lawrence, D., Muir, J.F.,
+                                                                                            Pretty, J., Robinson, S., Thomas, S.M., Toulmin, C., 2010. Food security: The
+as suggestions for future works, perishable food crops, such as                             challenge of feeding 9 billion people. Science (80-. ) 327, 812–818. http:
+fruits and vegetables, have different supply chain requirements                             //dx.doi.org/10.4337/9780857939388.
+than grains; hence, it is likely that they require a different set of                   Green, W., 2000. Econometric Analysis. Prentice-Hall, New York.
+238                                W.E. Bendinelli, C.T. Su, T.G. Péra et al. / Sustainable Production and Consumption 21 (2020) 228–238
+
+
+Gustavsson, J., Cederberg, C., Sonesson, U., Emanuelsson, A., 2013. The Methodol-       Parfitt, J., Barthel, M., Macnaughton, S., 2010. Food waste within food supply
+    ogy of the FAO Study : Global Food Losses and Food Waste - Extent, Causes               chains: quantification and potential for change to 2050. Phil. Trans. R. Soc.
+    and Prevention. FAO, 2011.                                                              B 365, 3065–3081. http://dx.doi.org/10.1098/rstb.2010.0126.
+Gustavsson, J., Cederberg, C., Sonesson, U., Van Otterdijk, R., Meybeck, A., 2011.      Porter, S.D., Reay, D.S., Higgins, P., Bomberg, E., 2016. A half-century of
+    Global Food Losses and Food Waste – Extent, Causes and Prevention. FAO,                 production-phase greenhouse gas emissions from food loss & waste in the
+    Rome.                                                                                   global food supply chain. Sci. Total Environ. 571, 721–729. http://dx.doi.org/
+Hiç, C., Pradhan, P., Rybski, D., Kropp, J.P., 2016. Food surplus and its climate           10.1016/j.scitotenv.2016.07.041.
+    burdens. Environ. Sci. Technol. 50, 4269–4277. http://dx.doi.org/10.1021/acs.       Rae, A.N., 1997. Changing food consumption patterns in east asia: Implications
+    est.5b05088.                                                                            of the trend towards livestock products. Agribus. Int. J. 13, 33–44.
+HLPE, 2014. Food losses and waste in the context of sustainable food systems,           Rosegrant, M.W., Magalhaes, E., Valmonte-Santos, R.A., Mason-D’Croz, D., 2015.
+    A report by the High Level Panel of Experts on Food Security and Nutrition              Returns to Investment in Reducing Postharvest Food Losses and Increasing
+    of the Committee on World Food Security, Rome.                                          Agricultural Productivity Growth, Food Security and Nutrition Assess-
+Hodges, R.J., Buzby, J.C., Bennett, B., 2011. Postharvest losses and waste in               ment Paper. http://www.copenhagenconsensus.com/sites/default/files/food_
+    developed and less developed countries: Opportunities to improve resource               security_nutrition_assessment_-_rosegrant_0.pdf.
+    use. J. Agric. Sci. 149, 37–45. http://dx.doi.org/10.1017/S0021859610000936.        Rutten, M.M., 2013. What economic theory tells us about the impacts of reducing
+Jedermann, R., Nicometo, M., Uysal, I., Lang, W., 2014. Reducing food losses                food losses and/or waste: implications for research, policy and practice.
+    by intelligent food logistics. Phil. Trans. R. Soc. A 372, 20130302. http:              Agric. Food Secur. 2, http://dx.doi.org/10.1186/2048-7010-2-13.
+    //dx.doi.org/10.1098/rsta.2013.0302.                                                Segrè, A., Falasconi, L., Politano, A., Vittuari, M., 2014. Background paper on the
+Kaminski, J., Christiaensen, L., 2014. Post-harvest loss in sub-Saharan Africa-what         economics of food loss and waste (unedited working paper). FAO.
+    do farmers say?. Glob. Food Sec. 3, 149–158. http://dx.doi.org/10.1016/j.gfs.       Shafiee-Jood, M., Cai, X., 2016. Reducing food loss and waste to enhance
+    2014.10.002.                                                                            food security and environmental sustainability. Environ. Sci. Technol. 50,
+KC, K.B., Haque, I., Legwegoh, A.F., Fraser, E.D.G., 2016. Strategies to reduce             8432–8443. http://dx.doi.org/10.1021/acs.est.6b01993.
+    food loss in the global south. Sustain. 8, 1–13. http://dx.doi.org/10.3390/         Shashi, Singh, R., Shabani, A., 2017. Value-adding practices in food supply chain:
+    su8070595.                                                                              Evidence from indian food industry. Agribus. Int. J. 33, 116–130.
+Kummu, M., de Moel, H., Porkka, M., Siebert, S., Varis, O., Ward, P.J., 2012. Lost      Sheahan, M., Barrett, C.B., 2017. Review: Food loss and waste in Sub-Saharan
+    food, wasted resources: Global food supply chain losses and their impacts               Africa. Food Policy 70, 1–12. http://dx.doi.org/10.1016/J.FOODPOL.2017.03.
+    on freshwater, cropland, and fertiliser use. Sci. Total Environ. 438, 477–489.          012.
+    http://dx.doi.org/10.1016/j.scitotenv.2012.08.092.                                  Thyberg, K.L., Tonjes, D.J., 2016. Drivers of food waste and their implications
+Liu, J., Lundqvist, J., Weinberg, J., Gustafsson, J., 2013. Food losses and waste in        for sustainable policy development. Resour. Conserv. Recycl. 106, 110–123.
+    china and their implication for water and land. Environ. Sci. Technol. 47,              http://dx.doi.org/10.1016/j.resconrec.2015.11.016.
+    10137–10144. http://dx.doi.org/10.1021/es401426b.                                   UNESCO, 2017. UNESCO Institute for Statistics data base.
+Madden, B., Florin, N., Mohr, S., Giurco, D., 2019. Using the waste Kuznet’s            Weil, D.N., Wilde, J., 2009. How relevant is malthus for economic development
+    curve to explore regional variation in the decoupling of waste generation               today?. Amer. Econ. Rev. 99, 255–260.
+    and socioeconomic indicators. Resour. Conserv. Recycl. 149, 674–686. http:          World Bank, 2011. Missing food: The case of postharvest grain losses in
+    //dx.doi.org/10.1016/j.resconrec.2019.06.025.                                           Sub-Saharan Africa. World Bank. https://doi.org/ReportNo.60371-AFR.
+Minten, B., Reardon, T., Singh, K.M.M., Sutradhar, R., 2014. The new and changing       World Bank, 2017. World Bank Open Data.
+    roles of cold storages in the potato supply chain in Bihar. Econ. Polit. Wkly.      World Resources Institute, 2016. Food Loss and Waste Accounting and Reporting
+    49, 98–108. http://dx.doi.org/10.1227/01.NEU.0000349921.14519.2A.                       Standard 160.
+Neethirajan, S., Karunakaran, C., Jayas, D.S., White, N.D.G., 2007. Detection
+    techniques for stored-product insects in grain. Food Control 18, 157–162.
+    http://dx.doi.org/10.1016/j.foodcont.2005.09.008.
+

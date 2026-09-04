@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "AIR-M01",
+    "paper": "airline",
+    "type": "method",
+    "status": "original",
+    "text": "Arcabouço unificador: testa em um ÚNICO modelo econométrico a hipótese de internalização do congestionamento aeroportuário e a de relação competição-qualidade no mercado, dispensando a hipótese de simetria de rotas da literatura de internalização.",
+    "quote": "We present a unifying framework to test both the airport congestion internalization hypothesis and the market competition-quality relationship hypothesis in a single econometric model.",
+    "section": "§1. Introduction",
+    "page": 40,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "unifying framework",
+      "congestion internalization",
+      "competition-quality",
+      "single econometric model",
+      "route symmetry"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-M02",
+    "paper": "airline",
+    "type": "method",
+    "status": "original",
+    "text": "O modelo não impõe a hipótese de simetria de rotas e admite internalização de congestionamento EM PARALELO à gestão de qualidade de serviço, o que permite pôr concentração de rota e de cidade na mesma equação.",
+    "quote": "We believe that an econometric model of flight delays does not need the symmetry assumption of the congestion internalization literature, and thus, we do not impose it in our model. Additionally, we assume the possibility of congestion internalization in parallel of service quality management by carriers, which is not assumed by the competition-quality literature.",
+    "section": "§2.3. A unifying framework: accounting for both the local and global effects of concentration",
+    "page": 41,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "route symmetry",
+      "local effects",
+      "global effects",
+      "concentration",
+      "model specification"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-M03",
+    "paper": "airline",
+    "type": "method",
+    "status": "original",
+    "text": "A endogeneidade do HHI de rota e do HHI máximo das cidades-extremo é tratada por variáveis instrumentais estimadas por GMM eficiente factível em dois passos (2SGMM), com erros-padrão robustos a heterocedasticidade e autocorrelação (Newey-West, kernel de Bartlett).",
+    "quote": "We therefore treat the endogeneity of both HHI and max city HHI by employing an instrumental variables estimator, the Two-Step Feasible Efficient Generalized Method of Moments (2SGMM) with standard errors robust and efficient to arbitrary heteroscedasticity and autocorrelation.",
+    "section": "§3.4. Estimation strategy",
+    "page": 47,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "endogeneity",
+      "instrumental variables",
+      "2SGMM",
+      "Newey-West",
+      "heteroscedasticity"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-M04",
+    "paper": "airline",
+    "type": "method",
+    "status": "original",
+    "text": "Identificação por instrumentos do tipo Hausman: a concentração de outras rotas instrumenta a concentração de uma dada rota, descartando cidades próximas segundo três limiares (150, 300 e 500 km); validade e relevância checadas por Hansen J e Kleibergen-Paap.",
+    "quote": "With Hausman-type instruments, we utilize concentration levels of other routes to instrument the concentration level of a given route.",
+    "section": "§3.4. Estimation strategy",
+    "page": 47,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "Hausman-type instruments",
+      "identification",
+      "distance cut-off",
+      "Hansen J",
+      "Kleibergen-Paap"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-M05",
+    "paper": "airline",
+    "type": "method",
+    "status": "original",
+    "text": "Duas famílias de regressandos: ODDS (log-odds da proporção de voos atrasados = PREVALÊNCIA) e MINS (diferença média em minutos entre chegada programada e efetiva = DURAÇÃO), além de versões truncadas (MINS>15, MINS>30) e de partida (ODDSD, MINSD).",
+    "quote": "MINSkt, the mean difference in minutes between scheduled arrival time and actual arrival time of FSCs on city-pair k and time t - a metric that may be negative. We also consider truncated versions of MINSkt, considering only positive values or figures above a certain threshold delay",
+    "section": "§3.3. Empirical model",
+    "page": 45,
+    "location": "Eq. (1)",
+    "relayed_from": null,
+    "keywords": [
+      "ODDS",
+      "MINS",
+      "dependent variable",
+      "prevalence",
+      "duration"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-D01",
+    "paper": "airline",
+    "type": "data",
+    "status": "original",
+    "text": "Painel de 209 rotas brasileiras de janeiro de 2002 a dezembro de 2013, agregado ao nível rota-mês, restrito a rotas entre capitais estaduais e Brasília; a rota é definida como par-de-cidades doméstico e direcional.",
+    "quote": "Our dataset consists of a panel of 209 routes in Brazil between January 2002 and December 2013. The dataset comprises only routes involving the Brazilian state capitals and the country’s capital. In our analysis, a route is defined as a domestic directional city-pair.",
+    "section": "§3.2. Data",
+    "page": 43,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "209 routes",
+      "Brazil",
+      "2002-2013",
+      "route-month panel",
+      "state capitals"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-D02",
+    "paper": "airline",
+    "type": "data",
+    "status": "original",
+    "text": "Fonte primária: o relatório Voo Regular Ativo (VRA) da ANAC, base online com dados no nível do voo — empresa, par-de-aeroportos, número do voo e horários programados e efetivos — desde 2000, com código de justificativa de cada atraso.",
+    "quote": "ANAC is responsible for monitoring punctuality and regularity of all domestic flights operated by scheduled airlines in Brazil. Detailed information of all scheduled flights in the country is available in an online database named Active Scheduled Flight Report (VRA). VRA contains flight level data of carrier, airport-pair, flight number, and scheduled and actual departure and landing times since 2000.",
+    "section": "§3.2. Data",
+    "page": 44,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "ANAC",
+      "VRA",
+      "Active Scheduled Flight Report",
+      "flight level data",
+      "data source"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-D03",
+    "paper": "airline",
+    "type": "data",
+    "status": "original",
+    "text": "A base bruta tem 10 milhões de voos do VRA. As incumbentes full-service analisadas são Tam, Varig, Transbrasil e Vasp; as low cost carriers da amostra são Gol e Azul.",
+    "quote": "The original dataset contains information of 10 million flights collected from ANAC’s VRA report. We restrict our attention to the subset of the scheduled full-service carriers (FSCs) of the database, namely Tam, Varig, Transbrasil and Vasp. Gol and Azul airlines are the low cost carriers (LCCs) in the sample.",
+    "section": "§3.2. Data",
+    "page": 44,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "10 million flights",
+      "FSC",
+      "LCC",
+      "Gol",
+      "Azul"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-D04",
+    "paper": "airline",
+    "type": "data",
+    "status": "original",
+    "text": "Aplicação a uma economia emergente: o Brasil é caso em que os atrasos são longamente debatidos e em que pedágios de congestionamento nunca foram implementados; a aviação comercial foi plenamente desregulamentada em 2001.",
+    "quote": "We develop an empirical model of flight delays for the Brazilian airline industry. Brazil constitutes a case in which airline delays have long been intensively discussed and for which congestion tolls have not been implemented so far.",
+    "section": "§3.1. Application",
+    "page": 42,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "Brazil",
+      "emerging economy",
+      "congestion tolls",
+      "deregulation",
+      "slot allocation"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-D05",
+    "paper": "airline",
+    "type": "data",
+    "status": "original",
+    "text": "Descritivo (Tabela 1): a proporção de voos atrasados caiu 33,5% de 2006-2010 para 2011-2013 e 5,3% frente a 2002-2005; no mesmo confronto o hubbing caiu 11,0%, o HHI de cidade subiu 4,3% e o de par-de-cidades caiu 0,4%.",
+    "quote": "When contrasted with the second half of the previous decade, which consists the 2006–2007 air blackout period, flight delays decreased by one-third (33.5%). When compared with a less abnormal period such as the 2002–2005 years (the bottom line of Table 1), the decrease in the proportion of delayed flights was 5.3% on average.",
+    "section": "§3.1. Application",
+    "page": 43,
+    "location": "Table 1",
+    "relayed_from": null,
+    "keywords": [
+      "descriptive statistics",
+      "air blackout",
+      "hubbing",
+      "HHI",
+      "delayed flights"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-DEF01",
+    "paper": "airline",
+    "type": "definition",
+    "status": "original",
+    "text": "Atraso é medido pelo padrão de 15 minutos do BTS/DOT norte-americano — e NÃO pelo padrão brasileiro de 30 minutos da ANAC — computado sobre a diferença entre a chegada programada e a efetiva.",
+    "quote": "For the Brazilian authority, a given flight is considered delayed when it arrived 30 or more minutes than the schedule. For our purposes in this paper, we use the 15 min standard of the U.S. Department of Transportation’s (DOT) Bureau of Transportation Statistics (BTS), also used by most of the literature.",
+    "section": "§3.2. Data",
+    "page": 44,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "15-minute standard",
+      "BTS",
+      "DOT",
+      "delay definition",
+      "30 minutes ANAC"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-DEF02",
+    "paper": "airline",
+    "type": "definition",
+    "status": "original",
+    "text": "'Hora congestionada' é a hora cheia em que o número de operações (pousos mais decolagens) supera a capacidade oficial declarada do aeroporto, conforme estudo de capacidade encomendado pelo governo brasileiro.",
+    "quote": "A ‘‘congested hour” is defined as a full clock hour characterized by operations of flights (arrivals plus departures) in a higher amount than official declared capacity.",
+    "section": "§3.3. Empirical model",
+    "page": 44,
+    "location": "Eq. (1)",
+    "relayed_from": null,
+    "keywords": [
+      "congested hour",
+      "declared capacity",
+      "peak",
+      "definition",
+      "airport capacity"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-F01",
+    "paper": "airline",
+    "type": "finding",
+    "status": "original",
+    "text": "Achado 1: a concentração no nível do AEROPORTO/CIDADE REDUZ os atrasos. O coeficiente de HHI max endpoint cities é negativo e significante em todas as especificações de ODDS e MINS — evidência de internalização do congestionamento (H1).",
+    "quote": "First, in all models we have clear evidence of airport congestion internalization - our first hypothesis, H1. Indeed, the results for the estimated coefficients of HHI max endpoint cities are negative and statistically significant in all ODDS and MINS specifications.",
+    "section": "§4. Results",
+    "page": 49,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "airport concentration",
+      "congestion internalization",
+      "negative coefficient",
+      "H1",
+      "HHI max endpoint cities"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-F02",
+    "paper": "airline",
+    "type": "finding",
+    "status": "original",
+    "text": "Achado 2: a concentração no nível da ROTA/MERCADO AUMENTA os atrasos. O coeficiente de HHI city-pair é positivo e significante ao menos a 5% em todos os casos — evidência da relação competição-qualidade (H2).",
+    "quote": "Second, with respect to the competition-quality hypothesis (H2), we also find evidence confirming the expected theoretical relationship between delays and route concentration of Mazzeo (2003) and Greenfield (2014). Indeed, in all cases the coefficients of HHI city-pairkt are positive and statistically significant at least at the 5% level.",
+    "section": "§4. Results",
+    "page": 49,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "route concentration",
+      "competition-quality",
+      "positive coefficient",
+      "H2",
+      "HHI city-pair"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-F03",
+    "paper": "airline",
+    "type": "finding",
+    "status": "original",
+    "text": "Achado 3: a presença de LCC nas CIDADES-EXTREMO reduz a PREVALÊNCIA dos atrasos (coeficiente negativo e significante em ODDS) mas NÃO a sua DURAÇÃO (não significante em MINS) — internalização extra induzida pela entrada.",
+    "quote": "However, we only find that LCC entry benefits consumers by lowering the prevalence of flight delays, with no evidence found of any impact on the duration of such delays.",
+    "section": "§6. Conclusion",
+    "page": 51,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "LCC presence",
+      "endpoint cities",
+      "prevalence",
+      "duration",
+      "extra internalization"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-F04",
+    "paper": "airline",
+    "type": "finding",
+    "status": "original",
+    "text": "Achado 4: NÃO há efeito robusto da presença de LCC na PRÓPRIA ROTA — as respostas locais à entrada são não significantes ou significantes só a 10%, sem apoio à hipótese de corte de custos/preços de Prince e Simon (2015).",
+    "quote": "Local (route) level responses to entry, inspected with LCC presence, are either not significant or only significant at the 10% level. We therefore do not find enough evidence supporting the cost/price cutting hypothesis of Prince and Simon (2015).",
+    "section": "§4. Results",
+    "page": 49,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "LCC presence city-pair",
+      "null result",
+      "cost cutting",
+      "route level",
+      "Prince and Simon"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-F05",
+    "paper": "airline",
+    "type": "finding",
+    "status": "original",
+    "text": "Achado 5 (título do artigo): spillover não-tarifário — a entrada de LCC em uma rota gera competição potencial nas demais rotas da cidade, com efeito positivo sobre a pontualidade das rotas NÃO entradas.",
+    "quote": "Entry on a route therefore generates potential competition on the other routes of a city, and thus results in a positive spillover effect that benefits non-entered routes toward better on-time performance.",
+    "section": "§4. Results",
+    "page": 49,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "non-price spillover",
+      "potential competition",
+      "non-entered routes",
+      "on-time performance"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-F06",
+    "paper": "airline",
+    "type": "finding",
+    "status": "original",
+    "text": "Omitir o HHI de cidade enviesa negativamente a estimativa do HHI de rota (correlação de 0,48 entre as duas): qualquer subespecificação das variáveis de concentração pode gerar estimação inconsistente e falso negativo.",
+    "quote": "As the previous literature has not completely specified the empirical models regarding both these local and global indicators of concentration, we conclude that any subspecification related to concentration variables may cause relevant problems of inconsistent estimation and inference towards an unpleasant false negative.",
+    "section": "§5. Robustness checks",
+    "page": 50,
+    "location": "Table 4",
+    "relayed_from": null,
+    "keywords": [
+      "omitted variable bias",
+      "subspecification",
+      "false negative",
+      "robustness",
+      "negative bias"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-F07",
+    "paper": "airline",
+    "type": "finding",
+    "status": "original",
+    "text": "Ignorar a endogeneidade inverte os sinais: sob OLS os sinais dos HHI mudam, o que sustenta a recomendação de estimação por variáveis instrumentais. Resultados estáveis sob LIML e com atrasos de partida.",
+    "quote": "The results are altered considerably, however, when employing the OLS estimator, as the estimated signs of HHI change. We therefore recommend employing instrumental variables estimation to address endogeneity and its associated problems, as noted by Greenfield (2014).",
+    "section": "§5. Robustness checks",
+    "page": 50,
+    "location": "Table 6",
+    "relayed_from": null,
+    "keywords": [
+      "OLS bias",
+      "sign reversal",
+      "instrumental variables",
+      "LIML",
+      "departure delays"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-I01",
+    "paper": "airline",
+    "type": "finding",
+    "status": "interpretation",
+    "text": "Interpretação dos autores: há um aparente paradoxo — as incumbentes auto-internalizam congestionamento quando sua dominância aeroportuária aumenta e TAMBÉM mantêm alguma internalização quando essa dominância é desafiada pela entrada de uma LCC.",
+    "quote": "In an apparent paradox, carriers tend to self-internalize congestion when their airport dominance is increased but also tend to maintain some self-internalization when this dominance is challenged by the entry of a LCC carrier.",
+    "section": "§6. Conclusion",
+    "page": 51,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "apparent paradox",
+      "self-internalization",
+      "airport dominance",
+      "strategic scheduling"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-I02",
+    "paper": "airline",
+    "type": "finding",
+    "status": "interpretation",
+    "text": "Mecanismo CONJECTURADO, não testado: depeaking, com voos realocados para horários fora de pico em que a LCC é mais atrativa a passageiros de lazer, permitiria manter a internalização mesmo com queda da concentração aeroportuária.",
+    "quote": "A depeaking strategy may be used as an attempt to keep internalizing congestion even with decreasing airport concentration, which may be accomplished by reducing the complexity of the hub and spoke operations when competing with the LCC. Flights may be allocated in off-peak hours in which the LCC is more attractive to leisure passengers – weekends, for example.",
+    "section": "§4. Results",
+    "page": 49,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "depeaking",
+      "off-peak",
+      "leisure passengers",
+      "hub and spoke",
+      "conjecture"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-P01",
+    "paper": "airline",
+    "type": "policy",
+    "status": "original",
+    "text": "Implicação de política: enquanto a competição por qualidade é observada localmente no mercado, a emergência e o crescimento das LCCs podem ser um fator adicional de melhoria da pontualidade do setor aéreo.",
+    "quote": "Our combined local and global effects therefore indicate that while quality competition regarding punctuality is observed locally in the market, there is evidence from our case study that the emergence and growth of LCCs may be an extra factor that enhances the on-time performance in the airline industry.",
+    "section": "§6. Conclusion",
+    "page": 51,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "policy implication",
+      "LCC growth",
+      "on-time performance",
+      "quality competition"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-L01",
+    "paper": "airline",
+    "type": "method",
+    "status": "limitation",
+    "text": "Limitação: os atrasos são medidos estritamente contra o horário programado, sem controlar o padding estratégico de malha; o recorte par-de-cidades também impede observar realocações estratégicas entre pares de aeroportos adjacentes.",
+    "quote": "A final caveat of our analysis is related to the measurement of flight delays. We are aware of the limitations of our procedure of measuring delays strictly relative to flight schedules. Particularly in the situation of congested airports and congested periods, carriers may engage in strategic movements related to the inclusion of padding of schedules.",
+    "section": "§3.3. Empirical model",
+    "page": 46,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "schedule padding",
+      "limitation",
+      "excess travel time",
+      "city-pair vs airport-pair"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-R01",
+    "paper": "airline",
+    "type": "finding",
+    "status": "relayed",
+    "text": "REPASSADO de Molnar (2013): a internalização depende dos incentivos estratégicos das empresas ao equilibrar benefícios de conexões e horários preferidos com custos de congestionamento, havendo evidência de que a DISSUASÃO ESTRATÉGICA DE ENTRADA PREVALECE NOS HUBS.",
+    "quote": "Finally, Molnar (2013) finds that internalization depends on the strategic incentives of carriers when balancing the benefits from connections and passenger preferred times with the congestion costs, with evidence that strategic entry deterrence prevails at hubs.",
+    "section": "§2.1. Airport level determinants of delays: congestion internalization",
+    "page": 41,
+    "location": null,
+    "relayed_from": "Molnar 2013",
+    "keywords": [
+      "entry deterrence",
+      "hubs",
+      "strategic incentives",
+      "relayed",
+      "Molnar"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-R02",
+    "paper": "airline",
+    "type": "finding",
+    "status": "relayed",
+    "text": "REPASSADO de Daniel (1995) e Brueckner (2002): a companhia dominante de um aeroporto teria incentivos mais fortes que as menores para enfrentar o congestionamento e internalizaria naturalmente os custos dos atrasos que ela própria impõe.",
+    "quote": "The literature has observed that an airport’s dominant airline could have stronger incentives to address congestion than smaller carriers and would therefore naturally internalize the costs associated with its self-imposed flight delays (Daniel, 1995; Brueckner, 2002).",
+    "section": "§2.1. Airport level determinants of delays: congestion internalization",
+    "page": 40,
+    "location": null,
+    "relayed_from": "Daniel 1995; Brueckner 2002",
+    "keywords": [
+      "congestion internalization hypothesis",
+      "dominant airline",
+      "relayed",
+      "Daniel",
+      "Brueckner"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-R03",
+    "paper": "airline",
+    "type": "finding",
+    "status": "relayed",
+    "text": "REPASSADO de relatório de 2014 do Office of Inspector General da FAA: a ausência de competição em muitas rotas pode ser fonte de aumento das taxas de atrasos e cancelamentos de voos.",
+    "quote": "In addition, in 2014, a report from the Federal Aviation Administration, noted that the absence of competition for many routes might be a source of increased rates of airline flight delays and cancelations.",
+    "section": "§1. Introduction",
+    "page": 40,
+    "location": null,
+    "relayed_from": "Office of Inspector General - Federal Aviation Administration 2014",
+    "keywords": [
+      "FAA",
+      "competition",
+      "delays",
+      "cancelations",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-R04",
+    "paper": "airline",
+    "type": "finding",
+    "status": "relayed",
+    "text": "REPASSADO de Rupp e Sayanak (2008) e Castillo-Manzano e Lopez-Valpuesta (2014): as LCCs apresentam melhor desempenho de pontualidade do que as full-service carriers. Não é resultado próprio deste artigo.",
+    "quote": "Rupp and Sayanak (2008) and Castillo-Manzano and Lopez-Valpuesta (2014) find that LCCs have better on-time performance than full-service carriers (FSC).",
+    "section": "§2.4. The impact of LCCs on internalization and service quality",
+    "page": 42,
+    "location": null,
+    "relayed_from": "Rupp and Sayanak 2008; Castillo-Manzano and Lopez-Valpuesta 2014",
+    "keywords": [
+      "LCC on-time performance",
+      "FSC",
+      "relayed",
+      "service quality"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-R05",
+    "paper": "airline",
+    "type": "finding",
+    "status": "relayed",
+    "text": "REPASSADO: Prince e Simon (2015) acham que a entrada de LCC AUMENTA os atrasos das incumbentes via corte de custos sob competição de preços; Bubalo e Gaggero (2015) acham o contrário. A literatura carece de consenso.",
+    "quote": "Prince and Simon (2015) find evidence that LCC entry increases flight delays of incumbent airlines, as it forces a vigorous price competition that induces carriers to cut costs – one of such costs being the costs associated with on-time performance management. Bubalo and Gaggero (2015) find evidence of the contrary, however.",
+    "section": "§2.4. The impact of LCCs on internalization and service quality",
+    "page": 42,
+    "location": null,
+    "relayed_from": "Prince and Simon 2015; Bubalo and Gaggero 2015",
+    "keywords": [
+      "LCC entry",
+      "conflicting evidence",
+      "cost cutting",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-R06",
+    "paper": "airline",
+    "type": "finding",
+    "status": "relayed",
+    "text": "REPASSADO de Daniel e Harback (2008), Rupp (2009) e, em certa medida, Bilotkach e Lakew (2014): há evidência de AUSÊNCIA de auto-internalização, o que sugeriria papel para a tarifação de congestionamento.",
+    "quote": "However, Daniel and Harback (2008), Rupp (2009) and, to some extent, Bilotkach and Lakew (2014), find evidence of no self-internalization and therefore suggest a role for congestion pricing in improving economic efficiency.",
+    "section": "§2.1. Airport level determinants of delays: congestion internalization",
+    "page": 41,
+    "location": null,
+    "relayed_from": "Daniel and Harback 2008; Rupp 2009; Bilotkach and Lakew 2014",
+    "keywords": [
+      "no internalization",
+      "congestion pricing",
+      "relayed",
+      "counter-evidence"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "AIR-R07",
+    "paper": "airline",
+    "type": "method",
+    "status": "relayed",
+    "text": "REPASSADO de Brueckner, Lee e Singer (2014): pares de CIDADES, e não pares de aeroportos, são a definição de mercado apropriada em muitas análises de transporte aéreo — justificativa do recorte adotado.",
+    "quote": "Brueckner et al. (2014), provide evidence that city-pairs, instead of airport-pair, are the appropriate market definition in many cases of air transportation analyses.",
+    "section": "§3.3. Empirical model",
+    "page": 45,
+    "location": null,
+    "relayed_from": "Brueckner, Lee and Singer 2014",
+    "keywords": [
+      "market definition",
+      "city-pair",
+      "airport-pair",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-DEF01",
+    "paper": "grains",
+    "type": "definition",
+    "status": "original",
+    "text": "PHL são definidas como a redução NÃO INTENCIONAL da quantidade de alimento produzido para consumo humano em todas as etapas da cadeia de suprimentos, independentemente de causa ou destino, EXCLUÍDAS as etapas de varejo e consumo final.",
+    "quote": "In this work, PHL are defined as the unintentional decrease in the quantity of food produced for human consumption at all stages of the food supply chain (FSC) regardless of the cause or destination, not including retail and final consumption stages.",
+    "section": "§1. Introduction",
+    "page": 228,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "PHL definition",
+      "post-harvest loss",
+      "food supply chain",
+      "scope",
+      "unintentional"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-DEF02",
+    "paper": "grains",
+    "type": "definition",
+    "status": "relayed",
+    "text": "REPASSADO da literatura: distingue-se food loss, que ocorre nas etapas iniciais da cadeia, de food waste, que ocorre no varejo ou depois de chegar ao consumidor e está ligado a comportamento — ato intencional de uma pessoa.",
+    "quote": "The literature usually distinguishes food loss, that occurs in the early stages of the FSC, from food waste, that happens in retail markets or after it reaches consumer and is generally related to behavior, i.e., the intentional act of a person",
+    "section": "§1. Introduction",
+    "page": 228,
+    "location": null,
+    "relayed_from": "Flanagan et al. 2019; Parfitt et al. 2010; Shafiee-Jood and Cai 2016",
+    "keywords": [
+      "food loss",
+      "food waste",
+      "FLW",
+      "definition",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-DEF03",
+    "paper": "grains",
+    "type": "definition",
+    "status": "relayed",
+    "text": "A variável dependente %PHL segue a fórmula de Gustavsson et al. (2013): perdas divididas pela oferta, sendo oferta = produção + importação + variação de estoques. A fórmula NÃO é dos autores.",
+    "quote": "In this current study, the dependent variable is the PHL percentage, calculated according to the formula utilized in Gustavsson et al. (2013)",
+    "section": "§3.1. Data",
+    "page": 231,
+    "location": "Eq. (1)",
+    "relayed_from": "Gustavsson et al. 2013",
+    "keywords": [
+      "%PHL formula",
+      "Food Balance Sheets",
+      "supply",
+      "stock variation",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-D01",
+    "paper": "grains",
+    "type": "data",
+    "status": "original",
+    "text": "Painel de 82 países entre 2000 e 2011, selecionados por deterem ao menos 1% da oferta doméstica de grãos de sua região geográfica; dados de oferta doméstica das Food Balance Sheets da FAO (FAOSTAT).",
+    "quote": "The dataset consists of panel data from 2000 through 2011 for 82 countries with at least one percent of their geographical region’s domestic supply of grains. The domestic supply data were obtained from the FAO Food Balance Sheets (FBS at FAOSTAT, 2017).",
+    "section": "§3.1. Data",
+    "page": 231,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "82 countries",
+      "2000-2011",
+      "FAOSTAT",
+      "Food Balance Sheets",
+      "panel data"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-D02",
+    "paper": "grains",
+    "type": "data",
+    "status": "original",
+    "text": "Os grãos analisados são arroz, milho, soja e trigo — principal fonte de alimento para humanos e animais; dados independentes vêm de FAOSTAT, Banco Mundial e UNESCO.",
+    "quote": "This paper seeks to understand how macroeconomic conditions influence PHL of grains (rice, maize, soybeans and wheat), which are the main source of food for humans and animals, through the construction of an econometric model using global level panel data from publicly available databases.",
+    "section": "abstract",
+    "page": 228,
+    "location": "abstract",
+    "relayed_from": null,
+    "keywords": [
+      "rice",
+      "maize",
+      "soybeans",
+      "wheat",
+      "World Bank",
+      "UNESCO"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-D03",
+    "paper": "grains",
+    "type": "data",
+    "status": "original",
+    "text": "ATENÇÃO: os 82 países são a base bruta. Após excluir dados faltantes e outliers (acima de 3 desvios-padrão), o painel desbalanceado efetivamente estimado tem 546 observações/69 países, e 534 observações/68 países nos modelos-base.",
+    "quote": "Observations with at least one missing data and/or outliers were excluded, because missing data would cause the matrix to be invertible and then the parameters could not be calculated. These exclusions resulted in an unbalanced dataset as countries may have a different number of observations.",
+    "section": "§3.1. Data",
+    "page": 232,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "unbalanced panel",
+      "534 observations",
+      "68 countries",
+      "outliers",
+      "missing data"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-M01",
+    "paper": "grains",
+    "type": "method",
+    "status": "original",
+    "text": "Especificação log-log (Eq. 2) da variável dependente e das explicativas, adotada para capturar as não-linearidades do problema e ler os parâmetros estimados diretamente como elasticidades, evitando uma etapa extra de estimação.",
+    "quote": "The natural logarithm of the dependent and the explanatory variables was used in order to capture the nonlinearities of the problem and to directly calculate the coefficients’ elasticities, since the estimated parameters would already represent them.",
+    "section": "§3.2. Econometric model",
+    "page": 232,
+    "location": "Eq. (2)",
+    "relayed_from": null,
+    "keywords": [
+      "log-log",
+      "elasticities",
+      "non-linearity",
+      "panel specification"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-M02",
+    "paper": "grains",
+    "type": "method",
+    "status": "original",
+    "text": "Estimação por mínimos quadrados generalizados factíveis (FGLS) em painel, com efeitos fixos de grupo e de tempo e estatísticas robustas a heterocedasticidade e correlação serial, com parâmetro de correlação único por painel.",
+    "quote": "Results produced by feasible generalized least squares (FGLS); statistics robust to heteroskedasticity and serial correlation where the correlation parameter is unique for each panel.",
+    "section": "§4.1. Results",
+    "page": 234,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "FGLS",
+      "fixed effects",
+      "two-way",
+      "robust standard errors",
+      "panel"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-M03",
+    "paper": "grains",
+    "type": "method",
+    "status": "original",
+    "text": "Diagnósticos: raiz unitária tipo Fisher (Choi, 2001) com médias transversais subtraídas, Wald modificado para heterocedasticidade entre grupos e teste de Wooldridge para autocorrelação de 1ª ordem, corrigida por Newey-West.",
+    "quote": "Following Green (2000), a modified Wald statistic to test for group-wise heteroskedasticity in the fixed effect regression model’s residuals was employed. The null hypothesis of homoscedastic disturbances was strongly rejected. A Wooldridge test for autocorrelation in panel data was also implemented.",
+    "section": "§3.3. Estimation strategy",
+    "page": 233,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "unit root",
+      "Fisher-type test",
+      "Wooldridge",
+      "Newey-West",
+      "diagnostics"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-M04",
+    "paper": "grains",
+    "type": "method",
+    "status": "original",
+    "text": "Tratamento da endogeneidade: ln_supply é excluído das especificações com %PHL e o PIB per capita é convertido em quatro dummies de faixa de renda, o que permite manter ln_price e ln_trade no modelo.",
+    "quote": "However, the GDP per capita information was transformed in four dummy variables indicating a country’s income level, and when using these dummy variables instead of the original variable, it is possible to tackle the endogeneity problem and consider the independent variables ln priceit and ln tradeit in the model",
+    "section": "§4.1. Results",
+    "page": 233,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "endogeneity",
+      "income dummies",
+      "ln_supply",
+      "ln_price",
+      "ln_trade"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-M05",
+    "paper": "grains",
+    "type": "method",
+    "status": "original",
+    "text": "Novidade declarada: é o PRIMEIRO trabalho a estimar determinantes de PHL com painel de dados mundial e correções para reduzir viés de parâmetros; os únicos dois antecedentes globais (KC et al., 2016; Rosegrant et al., 2015) teriam viés maior.",
+    "quote": "It is important to emphasize that, to the best of found knowledge, this study is a pioneer in that it takes into account a world data panel and corrections to reduce parameter bias. There were only two other works that attempted to quantify the determinants of PHL worldwide (KC et al., 2016; Rosegrant et al., 2015).",
+    "section": "§3.3. Estimation strategy",
+    "page": 233,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "novelty",
+      "pioneer",
+      "world panel",
+      "parameter bias",
+      "type-II error"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F01",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "Achado principal: o PIB per capita é o determinante de MAIOR impacto sobre as PHL nos modelos-base (colunas 4 e 6 da Tabela 3), reduzindo-as intensamente.",
+    "quote": "Considering the baseline models (columns (4) and (6) of Table 3), the highest impact on PHL are due to variation on GPD per capita.",
+    "section": "§4.2. Discussions",
+    "page": 233,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "income",
+      "GDP per capita",
+      "highest impact",
+      "economic development"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F02",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "A relação entre desenvolvimento econômico e PHL é NÃO-LINEAR e compatível com uma curva de Kuznets: ln_income entra positivo (2,017 e 2,899) e ln_square_income negativo (-0,135 e -0,184), ambos a 1%.",
+    "quote": "Thus it was found the relationship is indeed non-linear and it is compliant with the Kuznets’ curve, in which the environmental degradation increases with the income per capita, until the inflexion point, and then gradually decreases (Madden et al., 2019)",
+    "section": "§4.2. Discussions",
+    "page": 233,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "non-linear",
+      "Kuznets curve",
+      "ln_square_income",
+      "inflexion point",
+      "Madden"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F03",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "Lacunas por faixa de renda, com high_income como grupo-base (Tabela 3, col. 6): low_income +0,731; low_middle_income +0,706; upper_middle_income +0,534 em log de %PHL, todos significantes a 1%.",
+    "quote": "In specifications (3) and (4), one-way and two-way fixed effect correction are added, respectively, and the explanatory variable ln incomeit is replaced with its four dummy variables, using high_incomeit as the base group.",
+    "section": "§4.1. Results",
+    "page": 233,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "income groups",
+      "low income",
+      "upper middle income",
+      "base group",
+      "high income"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F04",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "A urbanização REDUZ as PHL com efeito moderado: países pouco urbanizados apresentam 29,9% mais PHL e os de urbanização média 23,6% mais PHL do que os altamente urbanizados.",
+    "quote": "When comparing countries that have high levels of urbanization with countries that have low (dummy variable low_urban) or medium (dummy variable middle_urban) levels of urbanization, one finds that the less urbanized countries show a 29.9 percent and 23.6 percent higher level of PHL, respectively.",
+    "section": "§4.2. Discussions",
+    "page": 233,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "urbanization",
+      "29.9 percent",
+      "23.6 percent",
+      "moderate effect",
+      "supply chain"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F05",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "A abertura ao comércio internacional REDUZ as PHL (ln_trade -0,204 a -0,216): países com baixo nível de comércio global têm 23,9% mais PHL do que os de alto nível, por padronização de operações e embalagens.",
+    "quote": "For example, countries with a low level of global trade (dummy variable low_trade) have 23.9 percent more PHL when compared to countries with high levels of global trade.",
+    "section": "§4.2. Discussions",
+    "page": 234,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "trade openness",
+      "globalization",
+      "23.9 percent",
+      "standardization",
+      "packaging"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F06",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "A crise de 2008-2011 AUMENTOU as PHL (dummy crisis positiva e significante a 1% nos modelos-base, +0,138 e +0,292), por afetar o poder de compra do consumidor e suspender investimentos, por exemplo em armazenagem fora da fazenda.",
+    "quote": "Lack of stability due to the 2008–2011 crisis (dummy variable crisis) increased PHL by affecting consumer purchasing power and by putting investments on hold, e.g. in off-farm storages.",
+    "section": "§4.2. Discussions",
+    "page": 233,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "2008-2011 crisis",
+      "food price spikes",
+      "purchasing power",
+      "off-farm storage"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F07",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "Efeitos de BAIXA magnitude para tamanho do setor de alimentos, volatilidade do preço de alimentos (positiva sobre PHL, +0,059 a +0,087) e densidade ferroviária (negativa); a densidade rodoviária NÃO é significante nos modelos-base.",
+    "quote": "The three remaining determinants [size of the food production sector (variable ln food_sector), food price volatility (variable ln price), and rail (variable ln rail)] influence PHL in a low level with its signs consistent with the literature, although the sign of the ln food_sector coefficient changed in specification (6).",
+    "section": "§4.2. Discussions",
+    "page": 234,
+    "location": "Table 3",
+    "relayed_from": null,
+    "keywords": [
+      "price volatility",
+      "food sector",
+      "rail density",
+      "road density",
+      "low effect"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F08",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "O excedente alimentar (ln_supply) AUMENTA fortemente as PHL (coeficientes de 0,95 a 1,56): onde a oferta supera a demanda há baixo incentivo econômico para evitar perdas e pode faltar infraestrutura para lidar com o excedente.",
+    "quote": "The independent variable food surplus (variable ln supply), added in (2), (3) and (4) of Tables 4 and 5, strongly generates higher PHL, as expected.",
+    "section": "§4.3. Robustness checks",
+    "page": 235,
+    "location": "Tables 4 and 5",
+    "relayed_from": null,
+    "keywords": [
+      "food surplus",
+      "ln_supply",
+      "storage",
+      "economic incentives"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F09",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "Achado-síntese: há um TRADE-OFF difícil entre ampliar a oferta de alimentos e o nível de PHL — sem infraestrutura pós-colheita adequada, sobretudo armazenagem e comercialização, o esforço para aumentar a oferta eleva as PHL.",
+    "quote": "The results suggest that there is a difficult trade-off involved when countries seek to increase the availability of basic foods to feed the increasing population. Without proper post-harvest infrastructure, especially in food storage and food marketing, a country’s efforts to increase food supply can lead to an increase in the level of PHL.",
+    "section": "§5. Concluding remarks",
+    "page": 236,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "trade-off",
+      "food supply",
+      "storage",
+      "food marketing",
+      "post-harvest infrastructure"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-F10",
+    "paper": "grains",
+    "type": "finding",
+    "status": "original",
+    "text": "Robustez: trocar a dependente de %PHL para toneladas inverte os sinais de rodovia, ferrovia e urbanização — esperado, pois a variável não é ponderada; ponderando pela população, só setor de alimentos e ferrovia trocam de sinal.",
+    "quote": "The alteration led the road, rail and urbanization variables’ coefficients to change sign. This behavior was expected since the dependent variable is not weighted",
+    "section": "§4.3. Robustness checks",
+    "page": 235,
+    "location": "Tables 4 and 5",
+    "relayed_from": null,
+    "keywords": [
+      "robustness",
+      "sign change",
+      "PHL in tons",
+      "PHL per capita",
+      "weighting"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-P01",
+    "paper": "grains",
+    "type": "policy",
+    "status": "original",
+    "text": "Política: esforços para aumentar a produção de alimentos não podem se restringir à produção na fazenda, pois geram excedente e PHL muito maiores; devem ser complementados por investimentos em infraestrutura pós-colheita, em especial armazenagem e comercialização.",
+    "quote": "The obtained results show that efforts focused on increasing food production cannot be restricted to on-farm production, as it will lead to a food surplus and incur in much higher levels of PHL, shown by the high impact of the variable ln supply.",
+    "section": "§4.3. Robustness checks",
+    "page": 236,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "policy",
+      "on-farm production",
+      "post-harvest infrastructure",
+      "food storage",
+      "food marketing"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-P02",
+    "paper": "grains",
+    "type": "policy",
+    "status": "original",
+    "text": "Política: a construção de infraestrutura como instalações de armazenagem em países em desenvolvimento, somada à transferência de conhecimento e tecnologias de países industrializados, tem levado à redução das PHL.",
+    "quote": "The construction of infrastructure such as storage facilities in developing countries, along with the transfer of knowledge and technologies from industrialized countries, has led to the reduction in PHL.",
+    "section": "§5. Concluding remarks",
+    "page": 236,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "storage facilities",
+      "developing countries",
+      "knowledge transfer",
+      "technology transfer",
+      "policy"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-R01",
+    "paper": "grains",
+    "type": "data",
+    "status": "relayed",
+    "text": "REPASSADO de Gustavsson et al. (2011): estima-se que as PHL de grãos variem de 20% a 35% entre as diferentes regiões geográficas do mundo. NÃO é estimativa dos autores deste artigo.",
+    "quote": "It is estimated that grains’ PHL vary from 20% to 35% across the world’s different geographical regions (Gustavsson et al., 2011).",
+    "section": "§1. Introduction",
+    "page": 229,
+    "location": null,
+    "relayed_from": "Gustavsson et al. 2011",
+    "keywords": [
+      "20-35 percent",
+      "grains PHL",
+      "relayed",
+      "Gustavsson",
+      "FAO"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-R02",
+    "paper": "grains",
+    "type": "data",
+    "status": "relayed",
+    "text": "REPASSADO de Gustavsson et al. (2011): quase um terço da produção global de alimentos, em peso, é perdido. NÃO é estimativa dos autores deste artigo.",
+    "quote": "Gustavsson et al. (2011) estimated that almost one-third of global food production in terms of weight is lost.",
+    "section": "§1. Introduction",
+    "page": 228,
+    "location": null,
+    "relayed_from": "Gustavsson et al. 2011",
+    "keywords": [
+      "one-third",
+      "global food production",
+      "relayed",
+      "Gustavsson"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-R03",
+    "paper": "grains",
+    "type": "data",
+    "status": "relayed",
+    "text": "REPASSADO de Kummu et al. (2012): cerca de um quarto da água, terra agricultável e fertilizante consumidos para produzir alimentos é desperdiçado.",
+    "quote": "Kummu et al. (2012) found that around one-quarter of the consumed water, cropland, and fertilizer used to produce food have been wasted.",
+    "section": "§1. Introduction",
+    "page": 229,
+    "location": null,
+    "relayed_from": "Kummu et al. 2012",
+    "keywords": [
+      "one-quarter",
+      "water",
+      "cropland",
+      "fertilizer",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-R04",
+    "paper": "grains",
+    "type": "data",
+    "status": "relayed",
+    "text": "REPASSADO de Hodges et al. (2011): espera-se que a população mundial alcance 9 bilhões de pessoas até 2050, o que exigirá 70% mais alimentos.",
+    "quote": "It is expected that the world population reach 9 billion people by 2050, which will require 70% more food (Hodges et al., 2011).",
+    "section": "§4.3. Robustness checks",
+    "page": 236,
+    "location": null,
+    "relayed_from": "Hodges et al. 2011",
+    "keywords": [
+      "9 billion",
+      "2050",
+      "70 percent more food",
+      "relayed",
+      "Hodges"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-R05",
+    "paper": "grains",
+    "type": "finding",
+    "status": "relayed",
+    "text": "REPASSADO de Cardoen et al. (2015a) e Gustavsson et al. (2011): em países em desenvolvimento e em transição a perda nas etapas iniciais da cadeia supera o desperdício; em países desenvolvidos e industrializados ocorre o inverso.",
+    "quote": "In developing and transitional countries, early stage FSC loss is generally greater than food waste, while food waste is greater than food loss in developed and industrialized countries (Cardoen et al., 2015a; Gustavsson et al., 2011).",
+    "section": "§1. Introduction",
+    "page": 228,
+    "location": "Fig. 1",
+    "relayed_from": "Cardoen et al. 2015a; Gustavsson et al. 2011",
+    "keywords": [
+      "developing countries",
+      "developed countries",
+      "food loss vs waste",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-R06",
+    "paper": "grains",
+    "type": "data",
+    "status": "relayed",
+    "text": "REPASSADO: a Tabela 1, que caracteriza as PHL por estágio de desenvolvimento tecnológico/econômico do país, é ADAPTADA de Parfitt et al. (2010) e Hodges et al. (2011), não construída pelos autores.",
+    "quote": "Characteristics of PHL according to a country’s stage of technological/economic development. Source: Adapted from Parfitt et al. (2010) and Hodges et al. (2011).",
+    "section": "§2.1. Infrastructure",
+    "page": 231,
+    "location": "Table 1",
+    "relayed_from": "Parfitt et al. 2010; Hodges et al. 2011",
+    "keywords": [
+      "Table 1",
+      "development stage",
+      "adapted",
+      "relayed",
+      "bottleneck"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-R07",
+    "paper": "grains",
+    "type": "data",
+    "status": "relayed",
+    "text": "REPASSADO: dados sobre PHL são escassos, antigos, majoritariamente pouco confiáveis e frequentemente não comparáveis — justificativa dos autores para recorrer a bases secundárias globais.",
+    "quote": "Data on PHL are scarce, old, mostly unreliable, and often not comparable (Affognon et al., 2015; Chaboud and Daviron, 2017; Gustavsson et al., 2011).",
+    "section": "§1. Introduction",
+    "page": 228,
+    "location": null,
+    "relayed_from": "Affognon et al. 2015; Chaboud and Daviron 2017; Gustavsson et al. 2011",
+    "keywords": [
+      "data quality",
+      "unreliable",
+      "not comparable",
+      "relayed"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-L01",
+    "paper": "grains",
+    "type": "method",
+    "status": "limitation",
+    "text": "Limitação: não existe variável de armazenagem de alimentos publicamente disponível em painel global; densidade de rodovias e de ferrovias foram usadas como PROXY da infraestrutura do país.",
+    "quote": "To the best of our knowledge, there is not a publicly available food storage variable with global level panel data, thus we used the road and rail lines density variables as a proxy for a country’s infrastructure.",
+    "section": "§5. Concluding remarks",
+    "page": 237,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "limitation",
+      "storage variable",
+      "proxy",
+      "road density",
+      "rail density"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-L02",
+    "paper": "grains",
+    "type": "definition",
+    "status": "limitation",
+    "text": "Limitação de escopo: como PHL aqui NÃO inclui food waste (varejo e consumidor), variáveis explicativas de comportamento do consumidor não entraram no modelo, embora devessem entrar num modelo de desperdício.",
+    "quote": "In this work, PHL does not consider food waste, which happens in retail markets or after it reaches consumer and is generally related to retailers and consumers’ behavior. Due to this definition of PHL, consumer behavior explanatory variables were not included in this model",
+    "section": "§5. Concluding remarks",
+    "page": 237,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "scope limitation",
+      "food waste excluded",
+      "consumer behavior",
+      "retail"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  },
+  {
+    "id": "GR-L03",
+    "paper": "grains",
+    "type": "finding",
+    "status": "limitation",
+    "text": "Limitação de generalização: culturas perecíveis como frutas e hortaliças têm requisitos de cadeia distintos dos grãos, de modo que as conclusões deste trabalho não podem ser extrapoladas diretamente para esse grupo.",
+    "quote": "Although the conclusions remarked in this work cannot be directly extrapolated to fruits and vegetables, it could lead to a future work focusing in this food group.",
+    "section": "§5. Concluding remarks",
+    "page": 237,
+    "location": null,
+    "relayed_from": null,
+    "keywords": [
+      "generalization",
+      "fruits and vegetables",
+      "perishable",
+      "future work"
+    ],
+    "validated_by_author": false,
+    "prov": {
+      "extracted_by": "claude-opus",
+      "extracted_at": "2026-09-04"
+    }
+  }
+]
