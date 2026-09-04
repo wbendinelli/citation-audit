@@ -71,6 +71,87 @@ for key in ("airline","grains"):
  <div class="bar">{bars}</div><div class="legend">{leg}</div>
  <div class="entries">{"".join(ents)}</div></section>''')
 
+# ---------------- funil e quebra por revista ----------------
+import html as _h, unicodedata as _u
+GRANDES={"10.1016":"Elsevier","10.1007":"Springer","10.1002":"Wiley","10.1111":"Wiley",
+ "10.1155":"Wiley","10.1080":"Taylor & Francis","10.1108":"Emerald","10.3390":"MDPI",
+ "10.1177":"SAGE","10.1017":"Cambridge","10.1093":"Oxford UP","10.1515":"De Gruyter",
+ "10.1038":"Nature Portfolio","10.1371":"PLOS","10.1186":"BMC","10.1057":"Palgrave"}
+SCHOLAR={"airline":95,"grains":76}
+def _livro(d):
+    suf=d.split("/",1)[1] if "/" in d else ""
+    return suf.startswith("978") or "9781" in suf or "9780" in suf or d.startswith("10.1007/978")
+def venue_norm(v):
+    v=_h.unescape(v or "?").strip()
+    v=re.sub(r"\s+"," ",v)
+    v=re.sub(r"(Transportation Research Part [A-F])\s*:?\s*", r"\1: ", v)
+    v=re.sub(r"\s*[:,]\s*$","",v)
+    fix={"Journal of business research":"Journal of Business Research",
+         "Journal of plant diseases and protection":"Journal of Plant Diseases and Protection",
+         "Handbook of agricultural economics":"Handbook of Agricultural Economics",
+         "Transportation Research Part E: Logistics and Transportation Review":"Transportation Research Part E",
+         "Transportation Research Part E: Logistics and T":"Transportation Research Part E",
+         "Transportation Research Part A: Policy and Practice":"Transportation Research Part A",
+         "Transportation Research Part C Emerging Technologies":"Transportation Research Part C",
+         "Transportation Research Part B: Methodological":"Transportation Research Part B"}
+    for a,b in fix.items():
+        if v.lower().startswith(a.lower()[:40]): return b
+    return v
+
+def funil(key):
+    rs=M[key]["citing"]
+    doi=[r for r in rs if r.get("doi")]
+    gr=[r for r in doi if r["doi"].split("/")[0] in GRANDES]
+    per=[r for r in gr if not _livro(r["doi"])]
+    cf=[r for r in per if CL.get(r["doi"].lower())]
+    return [("Google Scholar reporta",SCHOLAR[key],None),
+            ("Invent\u00e1rio ap\u00f3s dedup e ru\u00eddo",len(rs),len(rs)-SCHOLAR[key]),
+            ("Com DOI depositado",len(doi),-(len(rs)-len(doi))),
+            ("Editora estabelecida",len(gr),-(len(doi)-len(gr))),
+            ("Peri\u00f3dico (sem cap\u00edtulo, anais, preprint)",len(per),-(len(gr)-len(per))),
+            ("Com evid\u00eancia verificada",len(cf),-(len(per)-len(cf)))]
+
+def render_funil(key):
+    f=funil(key); topo=f[0][1]
+    li=[]
+    for i,(rot,val,delta) in enumerate(f):
+        w=100*val/topo
+        d=("<span class='delta'>%+d</span>"%delta) if delta not in (None,0) else ""
+        cls_="step final" if i==len(f)-1 else ("step base" if i==0 else "step")
+        li.append(f"<li class='{cls_}'><span class='rot'>{rot}</span>"
+                  f"<span class='track'><i style='width:{w:.1f}%'></i></span>"
+                  f"<span class='val'>{val}</span>{d}</li>")
+    return "<ol class='funil'>"+"".join(li)+"</ol>"
+
+def render_revistas(key):
+    rows=[]
+    for r in M[key]["citing"]:
+        d=r.get("doi") or ""
+        if not d or d.split("/")[0] not in GRANDES or _livro(d): continue
+        c=CL.get(d.lower())
+        if c: rows.append((venue_norm(r.get("venue")),c))
+    agg=collections.defaultdict(list)
+    for v,c in rows: agg[v].append(c)
+    ordem=["foundational","supporting","real_mention","brief_mention","drive_by","bibliography_only","wrongly_interpreted"]
+    out=[]
+    for v,cs in sorted(agg.items(),key=lambda x:(-len(x[1]),x[0])):
+        dist=collections.Counter(c["role"] for c in cs)
+        chips="".join(f"<i class='q s-{ROLE[r][1]}' title='{PT[r]}: {dist[r]}'>{dist[r]}</i>"
+                      for r in ordem if dist.get(r))
+        reuse=sum(len(c.get("reuse") or []) for c in cs)
+        rtag=(f"<b>{reuse}</b>" if reuse else "<span class='off'>\u2013</span>")
+        out.append(f"<tr><td class='v'>{esc(v)}</td><td class='n'>{len(cs)}</td>"
+                   f"<td class='qs'>{chips}</td><td class='n'>{rtag}</td></tr>")
+    return ("<div class='scroll'><table class='tbl rev'><tr><th>Peri\u00f3dico</th><th class='n'>Cita\u00e7\u00f5es</th>"
+            "<th>Distribui\u00e7\u00e3o de papel</th><th class='n'>Reuso</th></tr>"+"".join(out)+"</table></div>")
+
+FUNIS="".join(
+  f"<div class='fcol'><h3>{'Aviação' if k=='airline' else 'Grãos'}</h3>{render_funil(k)}</div>"
+  for k in ("airline","grains"))
+REVISTAS="".join(
+  f"<div class='rcol'><h3>{'Aviação' if k=='airline' else 'Grãos'}</h3>{render_revistas(k)}</div>"
+  for k in ("airline","grains"))
+
 TOT=sum(len(b["citing"]) for b in M.values())
 NCL=sum(1 for k,b in M.items() for r in b["citing"] if CL.get((r.get("doi") or "").lower()))
 NDOI=sum(1 for k,b in M.items() for r in b["citing"] if r.get("doi"))
@@ -168,6 +249,33 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
 .note{font-size:.85rem;color:var(--ink2);margin:14px 0 0;max-width:72ch}
 .note::before{content:"→ ";color:var(--ink3)}
 
+.funnel{margin-top:56px;border-top:2px solid var(--ink);padding-top:26px}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:36px;margin-top:22px}
+.fcol h3,.rcol h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;
+ font-family:"IBM Plex Sans",sans-serif;color:var(--ink3);margin-bottom:14px}
+.funil{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:3px;
+ counter-reset:none}
+.funil .step{display:grid;grid-template-columns:1fr 84px 34px 42px;align-items:center;
+ gap:10px;padding:7px 0;border-bottom:1px solid var(--rule)}
+.funil .rot{font-size:.79rem;color:var(--ink2)}
+.funil .track{display:block;height:9px;background:var(--rule)}
+.funil .track i{display:block;height:100%;background:var(--ink3)}
+.funil .base .track i{background:var(--accent)}
+.funil .final .track i{background:var(--good)}
+.funil .final .rot{color:var(--ink);font-weight:600}
+.funil .val{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;
+ font-size:.86rem;text-align:right;font-weight:600}
+.funil .final .val{color:var(--good)}
+.funil .delta{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--bad);
+ text-align:right;font-variant-numeric:tabular-nums}
+.rgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:32px;margin-top:30px}
+.tbl.rev td.v{font-size:.8rem;color:var(--ink2);max-width:250px}
+.tbl.rev td.qs{white-space:nowrap}
+.q{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;
+ font-style:normal;font-size:.64rem;font-weight:600;color:#fff;margin-right:2px;
+ font-family:"IBM Plex Mono",monospace}
+.tbl .off{color:var(--ink3)}
+
 .method{margin-top:72px;border-top:2px solid var(--ink);padding-top:28px}
 .method h2{margin-bottom:18px}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
@@ -205,6 +313,21 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
   <div class="kpi hl"><b>{kpi["ghost"]}</b><span>cita\u00e7\u00f5es-fantasma</span></div>
  </div>
 </header>
+<section class="funnel">
+ <h2>De 171 cita\u00e7\u00f5es no Scholar at\u00e9 as que d\u00e3o para ler</h2>
+ <p style="font-size:.9rem;color:var(--ink2);max-width:70ch;margin:14px 0 0">
+ Cada degrau retira um grupo pelo motivo declarado. A popula\u00e7\u00e3o do estudo \u00e9 o
+ pen\u00faltimo degrau: artigo de peri\u00f3dico, de editora estabelecida, com DOI. O \u00faltimo
+ mostra quanto dessa popula\u00e7\u00e3o j\u00e1 tem a passagem citante em m\u00e3os.</p>
+ <div class="fgrid">{FUNIS}</div>
+ <h2 style="margin-top:54px">Onde as cita\u00e7\u00f5es est\u00e3o, e como cada revista cita</h2>
+ <p style="font-size:.9rem;color:var(--ink2);max-width:70ch;margin:14px 0 18px">
+ Cada quadrado \u00e9 uma cita\u00e7\u00e3o, colorida pelo papel: verde escuro fundacional,
+ verde sustenta, azul men\u00e7\u00e3o real, cinza men\u00e7\u00e3o breve ou de passagem,
+ cinza-claro s\u00f3 na bibliografia, vermelho interpretado errado. A \u00faltima coluna conta
+ quantas adotaram m\u00e9todo, dado ou resultado.</p>
+ <div class="rgrid">{REVISTAS}</div>
+</section>
 {"".join(sections)}
 <section class="method">
  <h2>M\u00e9todo e limites</h2>
