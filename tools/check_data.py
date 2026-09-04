@@ -30,7 +30,7 @@ recs = list(auditlib.iter_records(master))
 # -- só Regra 1, de texto_incorreto, desvincula). Sem a folga, 11 registros
 # legítimos (10 texto_parcial + 1 evidencia_insuficiente) apareceriam como
 # violação; com ela, a checagem bate 100% com o desenho real dos dados.
-COM_ARQUIVO = {"tem_texto", "texto_parcial", "evidencia_insuficiente"}
+COM_ARQUIVO = {"tem_texto", "texto_parcial", "evidencia_insuficiente", "aresta_falsa"}  # aresta_falsa: texto completo verificado que NÃO cita o artigo
 for key, r in recs:
     tem_texto, tem_path = r["status"] == "tem_texto", bool(r.get("text_path"))
     if tem_texto and not tem_path:
