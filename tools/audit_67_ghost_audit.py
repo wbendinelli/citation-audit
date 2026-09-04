@@ -592,7 +592,9 @@ def main():
 
             # marcador numérico: localiza a entrada de bibliografia com o
             # sobrenome DENTRO da seção de referências e tenta extrair o [n]
-            surname_in_refs = list(re.finditer(re.escape(surname), refs_txt, re.IGNORECASE))
+            surname_in_refs = list(
+                re.finditer(re.escape(surname), refs_txt, re.IGNORECASE)
+            )
             if surname_in_refs:
                 bend_pos = surname_in_refs[0].start()
                 marker_n, marker_kind = extract_ref_marker_number(
@@ -724,14 +726,14 @@ def main():
             **rate_block(len(genuine_dois), n_read_all),
         ),
         "D_body": dict(
-            denominator_label="D_body (das 13, com corpo real comprovado em disco)",
+            denominator_label=f"D_body (das {len(out_entries)} só-bibliografia, com corpo real comprovado em disco)",
             **rate_block(
                 len([d for d in genuine_dois if d in body_real_dois]),
                 len(body_real_dois),
             ),
         ),
         "D_pop": dict(
-            denominator_label="D_pop (das 13, dentro da população METHOD.md §9: DOI + editora "
+            denominator_label=f"D_pop (das {len(out_entries)} só-bibliografia, dentro da população METHOD.md §9: DOI + editora "
             "estabelecida + artigo de periódico, sem capítulo/anais/preprint)",
             **rate_block(len(genuine_in_pop), len(pop_dois)),
         ),

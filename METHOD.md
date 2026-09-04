@@ -269,15 +269,15 @@ constar na edição 2025 — ausência por idade, não por qualidade.
 Dos 98 registros com DOI e quartil Scimago (ver §12 para a definição exata desta
 população):
 
-| Quartil | Total | Com trecho literal | Fantasma verificado | Aresta falsa | Falta | % com trecho |
+| Quartil | Total | Com trecho literal | Só na bibliografia | Aresta falsa | Falta | % com trecho |
 |---|---|---|---|---|---|---|
-| Q1 | 69 | 57 | 6 | 0 | 6 | 83% |
-| Q2 | 16 | 10 | 0 | 1 | 5 | 62% |
-| Q3 | 8 | 5 | 1 | 0 | 2 | 62% |
+| Q1 | 69 | 58 | 5 | 0 | 6 | 84% |
+| Q2 | 16 | 10 | 0 | 1 | 5 | 63% |
+| Q3 | 8 | 5 | 1 | 0 | 2 | 63% |
 | Q4 | 5 | 1 | 0 | 0 | 4 | 20% |
-| **Total** | **98** | **73** | **7** | **1** | **17** | **74%** |
+| **Total** | **98** | **74** | **6** | **1** | **17** | **76%** |
 
-A conta fecha como 73 trecho + 7 fantasma + 1 aresta falsa + 17 pendentes = 98. A
+A conta fecha como 74 trecho + 6 fantasma + 1 aresta falsa + 17 pendentes = 98 (a versão anterior desta tabela dizia 73 + 7: a auditoria de fantasmas, `audit_67`, achou o marcador sobrescrito do `grains_024` e ele migrou de fantasma para trecho). A
 aresta falsa (`grains_s001`, *Journal of Horticultural Science and Biotechnology*) não
 é pendência: o PDF foi obtido e verificado, e o artigo não cita o trabalho em lugar
 nenhum. Contá-la como "falta evidência" seria erro — a evidência existe e é negativa.
@@ -285,8 +285,7 @@ Por isso ganha coluna própria em vez de ficar embutida em "Falta", como em uma 
 anterior desta tabela.
 
 Somando trecho literal e fantasma verificado — os dois são evidência, apenas de tipos
-diferentes — a cobertura é de **80 em 98, 82%** (73 + 7 = 80; 80/98 arredonda para
-82%). Por artigo: aviação 43 de 50 com trecho (86%), grãos 30 de 48 (62%) — o registro
+diferentes — a cobertura é de **80 em 98, 82%** (74 + 6 = 80). Por artigo: aviação 43 de 50 com trecho (86%), grãos 30 de 48 (62%) — o registro
 de Q1 que moveu de trecho para fantasma na tabela acima é de grãos, e o registro de Q2
 que moveu de pendente para trecho é de aviação.
 
@@ -297,12 +296,13 @@ análise — a evidência é mais densa onde o impacto importa mais — mas prec
 declarado, porque significa que as estatísticas de Q4 se apoiam em 1 observação e não
 sustentam comparação entre quartis.
 
-Os 18 que faltam: 11 vêm da lista de editoras grandes que o autor tentou baixar sem
-sucesso (Emerald 4, Wiley 4, Hindawi 2, Springer 1), e 7 entraram por terem quartil
-sem serem de editora grande (Inderscience 3, e um cada de ASABE, Springer, o
-brasileiro *Journal of Aerospace Technology and Management* e o tcheco *Agricultural
-Economics*). Bloqueio de acesso, não falha de método — com a exceção dos dois últimos,
-que são de acesso relativamente aberto e merecem nova tentativa.
+Os 17 que faltam: 12 vêm de editoras estabelecidas que o autor tentou baixar sem
+sucesso (Emerald 4, Wiley 3, Hindawi 2, Springer 2, De Gruyter 1), e 5 entraram por terem quartil
+sem serem de editora estabelecida (Inderscience 3, a Academia Tcheca de Ciências Agrárias 1, ASABE 1). Bloqueio de acesso, não falha de
+método. A versão anterior deste parágrafo dizia 18 (11 + 7): somava a aresta falsa
+`grains_s001`, que `data/derived/pendencias.csv` lista de propósito com a instrução
+"nada a baixar, só registrar"; a contagem agora sai de `audit_70` (§cobertura,
+lista `pendentes`), não de uma lista à mão.
 
 ## §14 — Deduplicação pode esconder achado
 
@@ -683,7 +683,7 @@ colegiado.
 Pré-adjudicação, entre pares independentes: c2×c3 profundidade α 0,77, postura κ 0,75,
 acurácia κ 0,60, presença κ 1,00. Pós-adjudicação, contra o rótulo final (inflado por
 construção para c2 e c3, que formam a maioria): c1 acurácia κ 0,24, c2 0,74, c3 0,85.
-Adjudicação: 19 decisões do colegiado em 19 itens (acurácia 8, profundidade 5, distorção 5,
-presença 1); todo o resto por unanimidade, maioria ou derivação. Efeito nos totais: má
-atribuição de 4 para 16 em 91 em-texto (4% → 18%), imprecisão de 7 para 18, `foundational`
+Adjudicação: 20 decisões do colegiado em 19 itens (acurácia 8, profundidade 5, distorção 6,
+presença 1; `IRR-81e6` recebeu decisão em três eixos, por isso 20 decisões em 19 itens — a versão anterior deste parágrafo dizia 19/19, distorção 5, 91 em-texto, 18% e imprecisão 18, corrigidos por `audit_63`/`audit_70`); todo o resto por unanimidade, maioria ou derivação. Efeito nos totais: má
+atribuição de 4 para 16 em 92 em-texto (4% → 17%), imprecisão de 7 para 19, `foundational`
 de 7 para 4, `supporting` de 11 para 5, `method_adoption` de 9 para 5.

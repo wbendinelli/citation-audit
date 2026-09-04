@@ -584,6 +584,7 @@
      "method": 7,
      "policy": 1
     },
+    "sustentadas": 22,
     "total": 30
    },
    "grains": {
@@ -599,6 +600,7 @@
      "method": 6,
      "policy": 2
     },
+    "sustentadas": 13,
     "total": 33
    }
   },
@@ -615,6 +617,8 @@
    "method": 13,
    "policy": 3
   },
+  "sem_citacao": 28,
+  "sustentadas": 35,
   "total": 63
  },
  "anomalias": {
@@ -1383,6 +1387,127 @@
    "total": 5,
    "trecho": 1
   },
+  "pendentes": [
+   {
+    "doi": "10.1108/ejm-01-2023-0014",
+    "editora": "Emerald Publishing Limited",
+    "id": "airline_006",
+    "quartil": "Q1",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1108/ejm-02-2021-0087",
+    "editora": "Emerald Publishing Limited",
+    "id": "airline_021",
+    "quartil": "Q1",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1515/rne-2021-0016",
+    "editora": "De Gruyter",
+    "id": "airline_060",
+    "quartil": "Q4",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1504/ijsa.2016.080244",
+    "editora": "Inderscience Publishers",
+    "id": "airline_s004",
+    "quartil": "Q3",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1108/dta-08-2024-0806",
+    "editora": "Emerald Publishing Limited",
+    "id": "grains_003",
+    "quartil": "Q2",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1155/aia/5730172",
+    "editora": "Hindawi Publishing Corporation",
+    "id": "grains_006",
+    "quartil": "Q1",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.1155/aia/3910210",
+    "editora": "Hindawi Publishing Corporation",
+    "id": "grains_007",
+    "quartil": "Q1",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.1002/fes3.70086",
+    "editora": "Wiley",
+    "id": "grains_014",
+    "quartil": "Q1",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.17221/221/2023-agricecon",
+    "editora": "Czech Academy of Agricultural Sciences",
+    "id": "grains_020",
+    "quartil": "Q2",
+    "status": "tem_texto"
+   },
+   {
+    "doi": "10.1111/jfpe.14456",
+    "editora": "Wiley",
+    "id": "grains_027",
+    "quartil": "Q2",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1002/est2.461",
+    "editora": "Wiley",
+    "id": "grains_029",
+    "quartil": "Q2",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.1108/afr-06-2022-0076",
+    "editora": "Emerald Publishing Limited",
+    "id": "grains_030",
+    "quartil": "Q2",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1007/978-981-16-3791-9_8",
+    "editora": "Springer Nature",
+    "id": "grains_050",
+    "quartil": "Q4",
+    "status": "evidencia_insuficiente"
+   },
+   {
+    "doi": "10.1007/s43621-026-04167-9",
+    "editora": "Springer Nature",
+    "id": "grains_s003",
+    "quartil": "Q1",
+    "status": "texto_parcial"
+   },
+   {
+    "doi": "10.1504/ijvcm.2023.10053852",
+    "editora": "Inderscience Publishers",
+    "id": "grains_s006",
+    "quartil": "Q4",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1504/ijpti.2025.10075141",
+    "editora": "Inderscience Publishers",
+    "id": "grains_s010",
+    "quartil": "Q4",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.13031/aea.16468",
+    "editora": "American Society of Agricultural and Biological Engineers",
+    "id": "grains_s011",
+    "quartil": "Q3",
+    "status": "fechado"
+   }
+  ],
   "por_artigo": {
    "airline": {
     "Q1": {
@@ -1592,6 +1717,7 @@
    5,
    10
   ],
+  "janela_passagem_auto_chars": 700,
   "krippendorff_cutoffs": {
    "confiavel": 0.8,
    "tentativo": 0.667
@@ -3588,7 +3714,7 @@
       1.0
      ],
      "denominator": 1,
-     "denominator_label": "D_body (das 13, com corpo real comprovado em disco)",
+     "denominator_label": "D_body (das 12 só-bibliografia, com corpo real comprovado em disco)",
      "numerator": 1,
      "rate": 1.0
     },
@@ -3598,7 +3724,7 @@
       0.390334
      ],
      "denominator": 6,
-     "denominator_label": "D_pop (das 13, dentro da população METHOD.md §9: DOI + editora estabelecida + artigo de periódico, sem capítulo/anais/preprint)",
+     "denominator_label": "D_pop (das 12 só-bibliografia, dentro da população METHOD.md §9: DOI + editora estabelecida + artigo de periódico, sem capítulo/anais/preprint)",
      "numerator": 0,
      "rate": 0.0
     },
@@ -3738,6 +3864,7 @@
   ]
  },
  "inventario": {
+  "classificados": 104,
   "com_doi": {
    "airline": 74,
    "grains": 73,
@@ -5316,6 +5443,92 @@
     "stance:maioria": 19,
     "stance:unanime": 85
    }
+  },
+  "colegiado": {
+   "n_decisoes": 20,
+   "n_itens": 19,
+   "por_eixo": {
+    "accuracy": 8,
+    "depth": 5,
+    "distortion": 6,
+    "presence": 1
+   }
+  },
+  "efeito_adjudicacao": {
+   "accuracy": {
+    "c1": {
+     "accurate": 80,
+     "imprecise": 7,
+     "misrepresented": 4,
+     "sem_valor": 13
+    },
+    "final": {
+     "accurate": 57,
+     "imprecise": 19,
+     "misrepresented": 16,
+     "sem_valor": 12
+    },
+    "n_itens": 104
+   },
+   "depth": {
+    "c1": {
+     "brief_mention": 38,
+     "drive_by": 17,
+     "foundational": 7,
+     "real_mention": 18,
+     "sem_valor": 13,
+     "supporting": 11
+    },
+    "final": {
+     "brief_mention": 53,
+     "drive_by": 15,
+     "foundational": 4,
+     "real_mention": 15,
+     "sem_valor": 12,
+     "supporting": 5
+    },
+    "n_itens": 104
+   },
+   "distortion": {
+    "c1": {
+     "sem_valor": 104
+    },
+    "final": {
+     "dead_end": 11,
+     "diversion": 16,
+     "relayed_attribution": 5,
+     "sem_valor": 69,
+     "transmutation": 3
+    },
+    "n_itens": 104
+   },
+   "presence": {
+    "c1": {
+     "in_text": 91,
+     "reference_list_only": 13
+    },
+    "final": {
+     "in_text": 92,
+     "reference_list_only": 12
+    },
+    "n_itens": 104
+   },
+   "stance": {
+    "c1": {
+     "contradictory": 2,
+     "none": 26,
+     "supporting": 76
+    },
+    "final": {
+     "contradictory": 2,
+     "none": 21,
+     "supporting": 81
+    },
+    "n_itens": 104
+   }
+  },
+  "pacote_cego": {
+   "n_itens": 4
   },
   "post": {
    "c1": {
@@ -10603,6 +10816,17 @@
   }
  },
  "periodicos": {
+  "fontes_journals_json": {
+   "por_quartil": {
+    "Q1": 39,
+    "Q2": 15,
+    "Q3": 8,
+    "Q4": 5
+   },
+   "scimago_casados": 67,
+   "sem_quartil": 26,
+   "total_fontes": 93
+  },
   "pooled": [
    {
     "n": 10,
@@ -12296,6 +12520,9 @@
     "indicator": "ghost_D_read",
     "n_published": "~5 milhões de artigos de texto completo (subconjunto Elsevier citado aqui)",
     "published": "1.4%",
+    "published_txt": [
+     "1,4%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [
@@ -12339,6 +12566,9 @@
     "indicator": "ghost_D_body",
     "n_published": "~5 milhões de artigos de texto completo (subconjunto Elsevier citado aqui)",
     "published": "1.4%",
+    "published_txt": [
+     "1,4%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [
@@ -12382,6 +12612,9 @@
     "indicator": "ghost_D_pop",
     "n_published": "~5 milhões de artigos de texto completo (subconjunto Elsevier citado aqui)",
     "published": "1.4%",
+    "published_txt": [
+     "1,4%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [
@@ -12466,6 +12699,13 @@
     "indicator": "misrepresented_plus_imprecise_total",
     "n_published": 2648,
     "published": "25.4% (Jergas & Baethge); 13.1-20.4% (Wakeling et al., implícito 16.6%); 13.6% (ortopedia, PMC8386904)",
+    "published_txt": [
+     "25,4%",
+     "13,1%",
+     "20,4%",
+     "16,6%",
+     "13,6%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [
@@ -12508,6 +12748,10 @@
     "indicator": "contradictory",
     "n_published": 15000,
     "published": "2.40% (2.44% na subamostra)",
+    "published_txt": [
+     "2,40%",
+     "2,44%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [
@@ -12550,6 +12794,9 @@
     "indicator": "perfunctory",
     "n_published": null,
     "published": "41%",
+    "published_txt": [
+     "41%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [
@@ -12592,6 +12839,9 @@
     "indicator": "important",
     "n_published": 465,
     "published": "14.6%",
+    "published_txt": [
+     "14,6%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [
@@ -12634,6 +12884,10 @@
     "indicator": "background_like",
     "n_published": 11020,
     "published": "58% (SciCite, Background); >60% (Teufel 2006, Neut)",
+    "published_txt": [
+     "58%",
+     "60%"
+    ],
     "results": {
      "airline": {
       "ci95_wilson": [

@@ -34,6 +34,7 @@ gravação cai sempre ao lado do próprio tools/audit_70_numbers.py.
 import argparse
 import html
 import json
+import os
 import re
 import sys
 from decimal import ROUND_HALF_UP, Decimal
@@ -565,6 +566,7 @@ def build_inventario(ctx):
     sem_doi = [r for r in todos if not r.get("doi")]
     out = {
         "total": len(todos),
+        "classificados": len(ctx.classified),
         "por_artigo": {p: len(ctx.citing(p)) for p in PAPERS},
         "com_doi": {
             "total": len(com_doi),
@@ -686,6 +688,8 @@ def build_cobertura_quartil(ctx):
     validada em 4 categorias mutuamente exclusivas e exaustivas -- ver
     verify_cobertura_partition()."""
 
+    pendentes = []
+
     def bucket(paper_filter):
         rows = {
             q: {
@@ -718,6 +722,18 @@ def build_cobertura_quartil(ctx):
                     row["trecho"] += 1
                 elif not entry:
                     row["pendente"] += 1
+                    if paper_filter is None:
+                        pendentes.append(
+                            {
+                                "id": r["id"],
+                                "doi": d,
+                                "quartil": q,
+                                "editora": (
+                                    ctx.sources.get(r.get("source_id")) or {}
+                                ).get("editora"),
+                                "status": r.get("status"),
+                            }
+                        )
                 else:
                     row["pendente"] += (
                         1  # rede de segurança; não deveria acontecer (ver verificação)
@@ -754,7 +770,8 @@ def build_cobertura_quartil(ctx):
 
     pooled = finalize(bucket(None))
     por_artigo = {p: finalize(bucket(p)) for p in PAPERS}
-    return {**pooled, "por_artigo": por_artigo}
+    pendentes.sort(key=lambda x: x["id"])
+    return {**pooled, "por_artigo": por_artigo, "pendentes": pendentes}
 
 
 def build_quartil(ctx):
@@ -804,6 +821,21 @@ def build_editoras(ctx):
     out = {p: bucket(ctx.citing(p)) for p in PAPERS}
     out["pooled"] = bucket(ctx.citing())
     return out
+
+
+def _journals_json_resumo(ctx):
+    """Recorte de data/journals.json: TODAS as fontes dos citantes (README §2 fala
+    deste recorte), não só as dos classificados -- os dois números convivem."""
+    jj = read_optional_json(ctx.root / "data" / "journals.json") or {}
+    src = jj.get("sources") or {}
+    vals = list(src.values()) if isinstance(src, dict) else list(src)
+    quart = [(v.get("scimago") or {}).get("quartil") for v in vals]
+    return {
+        "total_fontes": len(vals),
+        "scimago_casados": sum(1 for q in quart if q in ("Q1", "Q2", "Q3", "Q4")),
+        "por_quartil": _counter_dict(q for q in quart if q in ("Q1", "Q2", "Q3", "Q4")),
+        "sem_quartil": sum(1 for q in quart if q not in ("Q1", "Q2", "Q3", "Q4")),
+    }
 
 
 def build_periodicos(ctx):
@@ -868,6 +900,7 @@ def build_periodicos(ctx):
     quartis = _counter_dict(j["quartil"] for j in casados)
 
     return {
+        "fontes_journals_json": _journals_json_resumo(ctx),
         "total": total,
         "scimago_casados": len(casados),
         "quartis": quartis,
@@ -1086,8 +1119,15 @@ def build_alegacoes(ctx):
             "por_status": _counter_dict(c["status"] for c in claims_p),
         }
 
+    sustentadas = [cid for cid, v in claims_out.items() if v["n_citations"] >= 1]
+    for paper in PAPERS:
+        por_artigo[paper]["sustentadas"] = sum(
+            1 for cid in sustentadas if claims_out[cid]["paper"] == paper
+        )
     return {
         "total": len(ctx.claims),
+        "sustentadas": len(sustentadas),
+        "sem_citacao": len(claims_out) - len(sustentadas),
         "por_type": _counter_dict(c["type"] for c in ctx.claims),
         "por_status": _counter_dict(c["status"] for c in ctx.claims),
         "por_artigo": por_artigo,
@@ -1273,11 +1313,24 @@ def build_cocitacao(ctx):
     }
 
 
+def _published_txt(published):
+    """'25.4% (Jergas…); 13.1-20.4%' -> ['25,4%', '13,1%', '20,4%']: o walker só
+    imprime número, e a prosa cita esses valores da literatura."""
+    if not isinstance(published, str):
+        return None
+    nums = re.findall(r"\d+(?:\.\d+)?(?=\s*%|-\d)", published)
+    return [n.replace(".", ",") + "%" for n in nums] or None
+
+
 def build_taxa_base(ctx):
     path = ctx.root / "data" / "base_rates.json"
     data = read_optional_json(path)
     if data is None:
         return PENDENTE("data/base_rates.json não existe")
+    for row in data.get("rows") or []:
+        txt = _published_txt(row.get("published"))
+        if txt:
+            row["published_txt"] = txt
     return data
 
 
@@ -1376,7 +1429,51 @@ def build_irr(ctx):
     else:
         adjud_out = PENDENTE("data/irr/adjudication.json não existe")
 
-    return {"pre": pre_out, "post": post_out, "adjudication": adjud_out}
+    # Efeito da adjudicação: distribuição de c1 (rótulo original, prov.labels_c1)
+    # contra o rótulo final, por eixo -- é o "de 4 para 16" de METHOD §18.
+    efeito = {}
+    for axis in ("presence", "depth", "stance", "accuracy", "distortion"):
+        c1_vals, fin_vals = [], []
+        for paper, rec, doi, entry in ctx.classified:
+            l1 = (entry.get("prov") or {}).get("labels_c1")
+            if not isinstance(l1, dict):
+                continue
+            c1_vals.append(l1.get(axis))
+            fin_vals.append(entry.get(axis))
+        if c1_vals:
+            efeito[axis] = {
+                "c1": _counter_dict(c1_vals),
+                "final": _counter_dict(fin_vals),
+                "n_itens": len(c1_vals),
+            }
+    pack = read_optional_json(ctx.root / "data" / "irr" / "pack_blind.json")
+    n_pack = None
+    if isinstance(pack, dict):
+        itens = pack.get("items") or pack.get("itens") or pack
+        n_pack = len(itens)
+    elif isinstance(pack, list):
+        n_pack = len(pack)
+    panel = read_optional_json(ctx.root / "data" / "irr" / "panel.json")
+    if isinstance(panel, dict) and panel:
+        colegiado = {
+            "n_itens": len(panel),
+            "n_decisoes": sum(1 for v in panel.values() for k in v if k != "rationale"),
+            "por_eixo": _counter_dict(
+                k for v in panel.values() for k in v if k != "rationale"
+            ),
+        }
+    else:
+        colegiado = PENDENTE("data/irr/panel.json ausente")
+    return {
+        "pre": pre_out,
+        "post": post_out,
+        "adjudication": adjud_out,
+        "colegiado": colegiado,
+        "efeito_adjudicacao": efeito or PENDENTE("prov.labels_c1 ausente"),
+        "pacote_cego": {"n_itens": n_pack}
+        if n_pack
+        else PENDENTE("data/irr/pack_blind.json ausente"),
+    }
 
 
 LANDIS_KOCH = {
@@ -1395,6 +1492,7 @@ def build_constantes(ctx):
         "B": int_leaf(2000),
         "seed": int_leaf(20260904),
         "janela_cd": [1, 3, 5, 10],
+        "janela_passagem_auto_chars": int_leaf(700),
         "landis_koch": LANDIS_KOCH,
         "krippendorff_cutoffs": KRIPPENDORFF_CUTOFFS,
         "scimago_edition": ctx.config.get("scimago", {}).get("edition"),
@@ -1734,8 +1832,11 @@ def main(argv=None):
         return 1
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    OUT_DADOS.write_text(dados_json, encoding="utf-8")
-    OUT_NUMEROS.write_text(numeros_txt, encoding="utf-8")
+    # Escrita atômica: quem lê dados.json (figuras, HTML) nunca vê arquivo pela metade.
+    for out, txt in ((OUT_DADOS, dados_json), (OUT_NUMEROS, numeros_txt)):
+        tmp = out.with_suffix(out.suffix + ".tmp")
+        tmp.write_text(txt, encoding="utf-8")
+        os.replace(tmp, out)
     print(
         f"ok: {OUT_DADOS} ({len(dados_json)} chars) | {OUT_NUMEROS} ({len(numeros_txt)} chars)"
     )

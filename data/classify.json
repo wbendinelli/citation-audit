@@ -1506,7 +1506,7 @@
    "depth": "brief_mention",
    "distortion": "relayed_attribution",
    "highlight": "none",
-   "note": "Food Chemistry. Atribui corretamente a estimativa quantitativa do artigo: perdas de 25% a 30% da oferta total, incluindo produção, importação e variação de estoque.",
+   "note": "Food Chemistry. Adjudicado misrepresented + relayed_attribution (regra A2 do codebook v2.1): a estimativa de 25% a 30% de perda é transmitida de outra fonte pelo artigo, não medida por ele; o citante a atribui ao artigo. Nota original de c1, corrigida: 'atribui corretamente a estimativa quantitativa do artigo'.",
    "passages": [
     "Bendinelli et al. (2020) reported that estimates of post-harvest losses for food grains range from 25 % to 30 % of the total supply, which includes production, imports, and stock variations."
    ],

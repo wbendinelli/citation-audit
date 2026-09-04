@@ -1158,7 +1158,7 @@
      1.0
     ],
     "denominator": 1,
-    "denominator_label": "D_body (das 13, com corpo real comprovado em disco)",
+    "denominator_label": "D_body (das 12 só-bibliografia, com corpo real comprovado em disco)",
     "numerator": 1,
     "rate": 1.0
    },
@@ -1168,7 +1168,7 @@
      0.390334
     ],
     "denominator": 6,
-    "denominator_label": "D_pop (das 13, dentro da população METHOD.md §9: DOI + editora estabelecida + artigo de periódico, sem capítulo/anais/preprint)",
+    "denominator_label": "D_pop (das 12 só-bibliografia, dentro da população METHOD.md §9: DOI + editora estabelecida + artigo de periódico, sem capítulo/anais/preprint)",
     "numerator": 0,
     "rate": 0.0
    },

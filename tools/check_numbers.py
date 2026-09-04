@@ -518,6 +518,7 @@ def match_pointed(
 # --------------------------------------------------------------------------
 
 _TYP_NOISE = [
+    re.compile(r"#line\([^)]*\)"),  # filetes: length: 100% não é número de prosa
     re.compile(r"^\s*#(let|set|show|import|include)\b.*$", re.MULTILINE),
     re.compile(r'image\(\s*"[^"]*"[^)]*\)'),
     # json("...") — chamadas de carregamento de dados (numeros.typ:
