@@ -1,0 +1,1189 @@
+{
+ "entries": {
+  "10.1007/978-3-030-71704-9_45": {
+   "body_chars_before_refs": 3935,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=3935 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Corpo do capítulo obtido e verificado via SSO (46.663 caracteres antes das referências, com seção de método e tabelas). Nenhuma menção no texto.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-1c51",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "auto",
+    "source": "springer via SSO USP · https://doi.org/10.1007/978-3-030-71704-9_45"
+   },
+   "doi": "10.1007/978-3-030-71704-9_45",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "airline_066",
+   "in_population_87": false,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "44 referenced_works; foco presente"
+   },
+   "paper": "airline",
+   "quartil_scimago": null,
+   "refs_boundary_method": "loose-first",
+   "status_master": "tem_texto",
+   "text_exists": true,
+   "text_path": "text/airline_066.txt",
+   "venue": "Transactions on computational science and computational intelligence",
+   "work_type": "book-chapter",
+   "year": 2021
+  },
+  "10.1007/978-3-030-98067-2_172-1": {
+   "body_chars_before_refs": 2996,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=2996 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biotecnologia e mitigação de perdas pós-colheita (2025).",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-e1b7",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "html:https://link.springer.com/rwe/10.1007/978-3-030-98067-2_172-1?error=cookies_not_supported&code=6e5ce4e0-28e3-42a9-8731-447ad7689648"
+   },
+   "doi": "10.1007/978-3-030-98067-2_172-1",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "grains_059",
+   "in_population_87": false,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "150 referenced_works; foco presente"
+   },
+   "paper": "grains",
+   "quartil_scimago": null,
+   "refs_boundary_method": "loose-first",
+   "status_master": "tem_texto",
+   "text_exists": true,
+   "text_path": "text/grains_059.txt",
+   "venue": null,
+   "work_type": "book-chapter",
+   "year": 2025
+  },
+  "10.1007/978-3-031-06562-0_11": {
+   "body_chars_before_refs": 4626,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=4626 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biorrefinarias de resíduo alimentar (2022).",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-87ab",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "html:https://link.springer.com/chapter/10.1007/978-3-031-06562-0_11?error=cookies_not_supported&code=46bea422-bd11-463e-94ab-e45c9aa7f329"
+   },
+   "doi": "10.1007/978-3-031-06562-0_11",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "grains_060",
+   "in_population_87": false,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "77 referenced_works; foco presente"
+   },
+   "paper": "grains",
+   "quartil_scimago": null,
+   "refs_boundary_method": "loose-first",
+   "status_master": "tem_texto",
+   "text_exists": true,
+   "text_path": "text/grains_060.txt",
+   "venue": null,
+   "work_type": "book-chapter",
+   "year": 2022
+  },
+  "10.1007/978-981-97-2795-7_12": {
+   "body_chars_before_refs": 4110,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=4110 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Corpo do capítulo obtido e verificado (56.804 caracteres antes das referências, com seções sobre dose de irradiação). Nenhuma menção no texto.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-29fd",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "springer via SSO USP · https://doi.org/10.1007/978-981-97-2795-7_12"
+   },
+   "doi": "10.1007/978-981-97-2795-7_12",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "grains_056",
+   "in_population_87": false,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "18 referenced_works; foco presente"
+   },
+   "paper": "grains",
+   "quartil_scimago": null,
+   "refs_boundary_method": "loose-first",
+   "status_master": "evidencia_insuficiente",
+   "text_exists": true,
+   "text_path": "text/grains_056.txt",
+   "venue": null,
+   "work_type": "book-chapter",
+   "year": 2024
+  },
+  "10.1007/s00217-026-05237-y": {
+   "body_chars_before_refs": 4596,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=4596 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. European Food Research and Technology (2026) — revisão sobre IA em perdas pós-colheita.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-0252",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "html:https://link.springer.com/article/10.1007/s00217-026-05237-y?error=cookies_not_supported&code=f6a04ab1-736c-47a3-ab4b-ce80543d3c1f"
+   },
+   "doi": "10.1007/s00217-026-05237-y",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "grains_001",
+   "in_population_87": true,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": false,
+    "confirmed": null,
+    "detail": "sem openalex id do citante ou do foco"
+   },
+   "paper": "grains",
+   "quartil_scimago": "Q1",
+   "refs_boundary_method": "loose-first",
+   "status_master": "tem_texto",
+   "text_exists": true,
+   "text_path": "text/grains_001.txt",
+   "venue": "European Food Research and Technology",
+   "work_type": "article",
+   "year": 2026
+  },
+  "10.1007/s42690-025-01511-w": {
+   "body_chars_before_refs": 5148,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=5148 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Corpo obtido e verificado (26.541 caracteres antes das referências, com resultados de mortalidade de insetos). Nenhuma menção no texto.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-3978",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "springer via SSO USP · https://doi.org/10.1007/s42690-025-01511-w"
+   },
+   "doi": "10.1007/s42690-025-01511-w",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "grains_011",
+   "in_population_87": true,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "34 referenced_works; foco presente"
+   },
+   "paper": "grains",
+   "quartil_scimago": "Q3",
+   "refs_boundary_method": "loose-first",
+   "status_master": "evidencia_insuficiente",
+   "text_exists": true,
+   "text_path": "text/grains_011.txt",
+   "venue": "International Journal of Tropical Insect Science",
+   "work_type": "article",
+   "year": 2025
+  },
+  "10.1016/j.jatrs.2026.100103": {
+   "body_chars_before_refs": null,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "sem text_path/arquivo local; veredito depende da leitura documentada do codificador.",
+   "coder_note": "Journal of the Air Transport Research Society (2026). Corpo obtido pelo SSO e verificado: 54.229 caracteres de corpo antes das referências, com estimação de modelo espacial (SDM). Nenhuma menção no texto.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-a5c7",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.jatrs.2026.100103"
+   },
+   "doi": "10.1016/j.jatrs.2026.100103",
+   "edge_confirmed": true,
+   "edge_verification": "coder_note_only",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "airline_002",
+   "in_population_87": true,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": false,
+    "confirmed": null,
+    "detail": "sem openalex id do citante ou do foco"
+   },
+   "paper": "airline",
+   "quartil_scimago": "Q1",
+   "refs_boundary_method": "no_text",
+   "status_master": "fechado",
+   "text_exists": false,
+   "text_path": null,
+   "venue": "Journal of the Air Transport Research Society",
+   "work_type": "article",
+   "year": 2026
+  },
+  "10.1016/j.jtrangeo.2020.102749": {
+   "body_chars_before_refs": 1527,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=1527 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Journal of Transport Geography (2020). Corpo obtido pelo SSO e verificado: 36.028 caracteres de corpo, com discussão sobre aeronave narrow-body e hub-bypassing. Nenhuma menção no texto.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-8cba",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.jtrangeo.2020.102749"
+   },
+   "doi": "10.1016/j.jtrangeo.2020.102749",
+   "edge_confirmed": true,
+   "edge_verification": "openalex",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "airline_050",
+   "in_population_87": true,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "34 referenced_works; foco presente"
+   },
+   "paper": "airline",
+   "quartil_scimago": "Q1",
+   "refs_boundary_method": "loose-first",
+   "status_master": "texto_parcial",
+   "text_exists": true,
+   "text_path": "text/airline_050.txt",
+   "venue": "Journal of Transport Geography",
+   "work_type": "article",
+   "year": 2020
+  },
+  "10.1016/j.susoc.2023.04.003": {
+   "body_chars_before_refs": null,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "sem text_path/arquivo local; veredito depende da leitura documentada do codificador.",
+   "coder_note": "Sustainable Operations and Computers (2023). Corpo obtido pelo SSO e verificado: 60.383 caracteres de corpo, com os fatores F3, F4 e F6 do próprio modelo. Nenhuma menção no texto.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-6cdf",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.susoc.2023.04.003"
+   },
+   "doi": "10.1016/j.susoc.2023.04.003",
+   "edge_confirmed": true,
+   "edge_verification": "openalex",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "grains_028",
+   "in_population_87": true,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "100 referenced_works; foco presente"
+   },
+   "paper": "grains",
+   "quartil_scimago": "Q1",
+   "refs_boundary_method": "no_text",
+   "status_master": "fechado",
+   "text_exists": false,
+   "text_path": null,
+   "venue": "Sustainable Operations and Computers",
+   "work_type": "article",
+   "year": 2023
+  },
+  "10.1016/j.tre.2016.12.010": {
+   "body_chars_before_refs": null,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "sem text_path/arquivo local; veredito depende da leitura documentada do codificador.",
+   "coder_note": "Transportation Research Part E (2016). Corpo obtido pelo SSO e verificado: 76.968 caracteres de corpo, com especificação econométrica e variáveis de booking. Nenhuma menção no texto.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-c162",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "sciencedirect via SSO USP · https://doi.org/10.1016/j.tre.2016.12.010"
+   },
+   "doi": "10.1016/j.tre.2016.12.010",
+   "edge_confirmed": true,
+   "edge_verification": "openalex",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "airline_051",
+   "in_population_87": true,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "51 referenced_works; foco presente"
+   },
+   "paper": "airline",
+   "quartil_scimago": "Q1",
+   "refs_boundary_method": "no_text",
+   "status_master": "fechado",
+   "text_exists": false,
+   "text_path": null,
+   "venue": "Transportation Research Part E Logistics and Transportation Review",
+   "work_type": "article",
+   "year": 2017
+  },
+  "10.26898/0370-8799-2020-4-11": {
+   "body_chars_before_refs": 1531,
+   "body_is_real": false,
+   "category": "body_unavailable",
+   "category_reason": "corpo local não é real pela régua desta auditoria (refs_start=1531 via loose-first, heading_intro_metodo=False); veredito depende da leitura documentada do codificador.",
+   "coder_note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Siberian Herald of Agricultural Science (2020) — artigo russo sobre transporte e pré-tratamento de grão.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "corpo completo sem menção no texto",
+    "evidence_sha256_16": null,
+    "irr_item_id": "IRR-a050",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "rodada-1 (re-arquivado por DOI)"
+   },
+   "doi": "10.26898/0370-8799-2020-4-11",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": false,
+   "hits": [],
+   "id": "grains_044",
+   "in_population_87": false,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": "dot_or_paren",
+    "n": "4",
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "5 referenced_works; foco presente"
+   },
+   "paper": "grains",
+   "quartil_scimago": null,
+   "refs_boundary_method": "loose-first",
+   "status_master": "tem_texto",
+   "text_exists": true,
+   "text_path": "text/grains_044.txt",
+   "venue": "Siberian Herald of Agricultural Science",
+   "work_type": "article",
+   "year": 2020
+  },
+  "10.46632/rmc/2/4/29": {
+   "body_chars_before_refs": 20845,
+   "body_is_real": true,
+   "category": "genuine",
+   "category_reason": "corpo real comprovado no disco (20845 caracteres antes das referências), sem menção no texto.",
+   "coder_note": "Consta apenas na bibliografia. Zero menções no corpo.",
+   "coder_prov": {
+    "adjudicated": true,
+    "adjudicated_at": "2026-09-04",
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-09-04",
+    "coded_by": "claude-opus-5 (passagem lida, classificação manual em sessão)",
+    "coders": {
+     "c1": "claude-opus-5 · codificação original em sessão, texto completo, sem registro de afirmações",
+     "c2": "claude-opus · cego, janela do pacote, com registro de afirmações",
+     "c3": "claude-sonnet · cego, janela do pacote, com registro de afirmações"
+    },
+    "decision": {
+     "accuracy": "unanime",
+     "claim_ids": "unanime",
+     "depth": "unanime",
+     "distortion": "derivado_de_accuracy",
+     "presence": "unanime",
+     "reuse": "unanime",
+     "stance": "unanime"
+    },
+    "evidence_kind": "passagem literal",
+    "evidence_sha256_16": "d1ad8f460a2eb39b",
+    "irr_item_id": "IRR-d073",
+    "labels_c1": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c2": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "labels_c3": {
+     "accuracy": null,
+     "depth": null,
+     "distortion": null,
+     "presence": "reference_list_only",
+     "reuse": [],
+     "stance": "none"
+    },
+    "migrated_from_v1": {
+     "flag": "ghost",
+     "role": "bibliography_only"
+    },
+    "migration_rules": [
+     "R1"
+    ],
+    "passage_source_in_pack": "curated",
+    "source": "reverificacao:https://restpublisher.com/wp-content/uploads/2023/01/5-Post-harvest-losses-in-Indian-maize-amid-increasing-food-insecurity-Analysis-using-TOPSIS-method.pdf"
+   },
+   "doi": "10.46632/rmc/2/4/29",
+   "edge_confirmed": true,
+   "edge_verification": "local",
+   "has_intro_or_metodo_heading": true,
+   "hits": [],
+   "id": "grains_061",
+   "in_population_87": false,
+   "numeric_marker": {
+    "bracket_hits": 0,
+    "kind": null,
+    "n": null,
+    "superscript_hits": 0
+   },
+   "openalex_check": {
+    "attempted": true,
+    "confirmed": true,
+    "detail": "23 referenced_works; foco presente"
+   },
+   "paper": "grains",
+   "quartil_scimago": null,
+   "refs_boundary_method": "loose-first",
+   "status_master": "tem_texto",
+   "text_exists": true,
+   "text_path": "text/grains_061.txt",
+   "venue": null,
+   "work_type": "article",
+   "year": 2021
+  }
+ },
+ "false_edges_outside_classify": [
+  {
+   "doi": "10.1108/s2212-160920170000006006",
+   "id": "airline_s008",
+   "nota_integridade": "PDF completo obtido e verificado (passou no portão de título); o sobrenome não aparece nenhuma vez no texto nem na bibliografia. A aresta de citação do índice é falsa.",
+   "paper": "airline",
+   "venue": "The Economics of Airport Operations"
+  },
+  {
+   "doi": "10.1080/14620316.2022.2091488",
+   "id": "grains_s001",
+   "nota_integridade": "PDF completo obtido e verificado (passou no portão de título); o sobrenome não aparece nenhuma vez no texto nem na bibliografia. A aresta de citação do índice é falsa.",
+   "paper": "grains",
+   "venue": "The Journal of Horticultural Science and Biotechnology"
+  }
+ ],
+ "meta": {
+  "classify_source": {
+   "fallback_used": false,
+   "path": "/Users/wbendinelli/Documents/citation-audit/data/classify.json",
+   "warning": null
+  },
+  "root_insumos": "/Users/wbendinelli/Documents/citation-audit",
+  "script": "audit_67_ghost_audit.py"
+ },
+ "summary": {
+  "counts_by_category": {
+   "body_unavailable": 11,
+   "extraction_failure": 0,
+   "false_edge": 0,
+   "genuine": 1
+  },
+  "cross_check_method_md_S13": {
+   "genuine_among_quartile_98": 0,
+   "matches_method_md": false,
+   "method_md_fantasma_count_S13": 7,
+   "note": "METHOD.md §13 já soma estas 7 entradas (6 Q1 + 1 Q3) como 'fantasma verificado' no total 98. Esta auditoria reexamina cada uma independentemente: 0 sobrevivem como 'genuine' sob a régua desta auditoria (corpo real comprovado NO DISCO, não apenas leitura do codificador via SSO); as demais viram body_unavailable e não devem ser lidas como refutação do achado original -- são um pedido de reverificação, não uma correção.",
+   "quartile_98_population_dois": [
+    "10.1007/s00217-026-05237-y",
+    "10.1007/s42690-025-01511-w",
+    "10.1016/j.jatrs.2026.100103",
+    "10.1016/j.jtrangeo.2020.102749",
+    "10.1016/j.susoc.2023.04.003",
+    "10.1016/j.tre.2016.12.010"
+   ],
+   "quartile_98_population_intersect_13": 6
+  },
+  "false_edges_outside_classify_check": {
+   "expected_ids": [
+    "airline_s008",
+    "grains_s001"
+   ],
+   "found_ids": [
+    "airline_s008",
+    "grains_s001"
+   ],
+   "match": true
+  },
+  "ghost_rate": {
+   "D_body": {
+    "ci95_wilson": [
+     0.206549,
+     1.0
+    ],
+    "denominator": 1,
+    "denominator_label": "D_body (das 13, com corpo real comprovado em disco)",
+    "numerator": 1,
+    "rate": 1.0
+   },
+   "D_pop": {
+    "ci95_wilson": [
+     0.0,
+     0.390334
+    ],
+    "denominator": 6,
+    "denominator_label": "D_pop (das 13, dentro da população METHOD.md §9: DOI + editora estabelecida + artigo de periódico, sem capítulo/anais/preprint)",
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "D_read": {
+    "ci95_wilson": [
+     0.001699,
+     0.052468
+    ],
+    "denominator": 104,
+    "denominator_label": "D_read (todas as 104 classificadas)",
+    "numerator": 1,
+    "rate": 0.009615
+   }
+  },
+  "n_ghost_entries": 12,
+  "n_read_all_classified": 104
+ }
+}

@@ -1,0 +1,544 @@
+{
+ "denominators": {
+  "D_ind": 88,
+  "D_pop": 74,
+  "D_read": 104,
+  "D_text": 92
+ },
+ "meta": {
+  "classify_source": {
+   "fallback_used": false,
+   "path": "/Users/wbendinelli/Documents/citation-audit/data/classify.json",
+   "warning": null
+  },
+  "ghost_audit_source": "/Users/wbendinelli/Documents/citation-audit/data/ghost_audit.json",
+  "root_insumos": "/Users/wbendinelli/Documents/citation-audit",
+  "script": "audit_68_base_rates.py"
+ },
+ "reconciliation_counts": {
+  "n_background_like": 83,
+  "n_classify_entries": 104,
+  "n_contradictory": 2,
+  "n_duplicate_publication": 3,
+  "n_ghost_genuine_per_audit_67": 1,
+  "n_important_supporting_or_foundational": 9,
+  "n_in_text": 92,
+  "n_in_text_independent": 88,
+  "n_method_reuse_any_tag": 5,
+  "n_misrepresented": 16,
+  "n_misrepresented_or_imprecise": 35,
+  "n_perfunctory_drive_by_or_brief_mention": 68,
+  "n_population_87_intersect_classified": 74,
+  "n_reference_list_only": 12,
+  "n_self_or_coauthor": 4
+ },
+ "rows": [
+  {
+   "comparability_note": "descompasso de unidade: Boyack mede % de REFERÊNCIAS não mencionadas no corpo, sobre XML estruturado do publisher com casamento referência<->marcador confiável; aqui o numerador é 'genuine' (presence==reference_list_only sobrevivendo à decomposição de audit_67) sobre entradas classificadas (D_read), sobre o subconjunto com corpo real comprovado em disco (D_body), ou sobre a população METHOD.md (D_pop) -- populações e método de deteção diferentes. docs/revisao-literatura.md nota que nossa taxa bruta 13/104=12,5% é ~9x a de Boyack e recomenda reportar separadamente genuine/extraction_failure/body_unavailable antes de comparar -- exatamente o que audit_67_ghost_audit.py faz.",
+   "denominator_label": "D_read",
+   "denominator_note": "D_read = todas as 104 classificadas.",
+   "description": "citação 'fantasma' (só na lista de referências) -- numerador = categoria 'genuine' de audit_67_ghost_audit.py.",
+   "field": "multidisciplinar (corpus PMC-OA + Elsevier de texto completo)",
+   "indicator": "ghost_D_read",
+   "n_published": "~5 milhões de artigos de texto completo (subconjunto Elsevier citado aqui)",
+   "published": "1.4%",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.0,
+      0.064194
+     ],
+     "denominator": 56,
+     "numerator": 0,
+     "rate": 0.0
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.003687,
+      0.108992
+     ],
+     "denominator": 48,
+     "numerator": 1,
+     "rate": 0.020833
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.001699,
+      0.052468
+     ],
+     "denominator": 104,
+     "numerator": 1,
+     "rate": 0.009615
+    }
+   },
+   "review_flag": "não verificado: número vem de um único trecho de busca, não do texto completo do preprint arXiv:1710.03094; também checar se referências não casadas foram excluídas a montante em vez de contadas.",
+   "source": "Boyack, van Eck, Colavizza & Waltman (2018), Journal of Informetrics 12(1), 59-73 (DOI 10.1016/j.joi.2017.11.005)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "descompasso de unidade: Boyack mede % de REFERÊNCIAS não mencionadas no corpo, sobre XML estruturado do publisher com casamento referência<->marcador confiável; aqui o numerador é 'genuine' (presence==reference_list_only sobrevivendo à decomposição de audit_67) sobre entradas classificadas (D_read), sobre o subconjunto com corpo real comprovado em disco (D_body), ou sobre a população METHOD.md (D_pop) -- populações e método de deteção diferentes. docs/revisao-literatura.md nota que nossa taxa bruta 13/104=12,5% é ~9x a de Boyack e recomenda reportar separadamente genuine/extraction_failure/body_unavailable antes de comparar -- exatamente o que audit_67_ghost_audit.py faz.",
+   "denominator_label": "D_body",
+   "denominator_note": "D_body = só as 13 reference_list_only com corpo real comprovado em disco (ver audit_67_ghost_audit.py); n pequeno, IC largo por desenho.",
+   "description": "citação 'fantasma' (só na lista de referências) -- numerador = categoria 'genuine' de audit_67_ghost_audit.py.",
+   "field": "multidisciplinar (corpus PMC-OA + Elsevier de texto completo)",
+   "indicator": "ghost_D_body",
+   "n_published": "~5 milhões de artigos de texto completo (subconjunto Elsevier citado aqui)",
+   "published": "1.4%",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.0,
+      0.0
+     ],
+     "denominator": 0,
+     "numerator": 0,
+     "rate": null
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.206549,
+      1.0
+     ],
+     "denominator": 1,
+     "numerator": 1,
+     "rate": 1.0
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.206549,
+      1.0
+     ],
+     "denominator": 1,
+     "numerator": 1,
+     "rate": 1.0
+    }
+   },
+   "review_flag": "não verificado: número vem de um único trecho de busca, não do texto completo do preprint arXiv:1710.03094; também checar se referências não casadas foram excluídas a montante em vez de contadas.",
+   "source": "Boyack, van Eck, Colavizza & Waltman (2018), Journal of Informetrics 12(1), 59-73 (DOI 10.1016/j.joi.2017.11.005)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "descompasso de unidade: Boyack mede % de REFERÊNCIAS não mencionadas no corpo, sobre XML estruturado do publisher com casamento referência<->marcador confiável; aqui o numerador é 'genuine' (presence==reference_list_only sobrevivendo à decomposição de audit_67) sobre entradas classificadas (D_read), sobre o subconjunto com corpo real comprovado em disco (D_body), ou sobre a população METHOD.md (D_pop) -- populações e método de deteção diferentes. docs/revisao-literatura.md nota que nossa taxa bruta 13/104=12,5% é ~9x a de Boyack e recomenda reportar separadamente genuine/extraction_failure/body_unavailable antes de comparar -- exatamente o que audit_67_ghost_audit.py faz.",
+   "denominator_label": "D_pop",
+   "denominator_note": "D_pop aqui É A INTERSEÇÃO ESPECÍFICA 'população 87 ∩ os 13 fantasma candidatos' (7 entradas), NÃO o D_pop geral deste script (população ∩ todas as 104 = 74). Terceira linha de taxa-fantasma acrescentada por decisão do agente: a tarefa definiu D_pop como denominador disponível mas não o atribuiu explicitamente a nenhuma linha da lista de indicadores -- replicar aqui o terceiro denominador que audit_67 já calcula pareceu a leitura mais defensável, em vez de deixar D_pop sem uso. Ver relatório final do agente.",
+   "description": "citação 'fantasma' (só na lista de referências) -- numerador = categoria 'genuine' de audit_67_ghost_audit.py.",
+   "field": "multidisciplinar (corpus PMC-OA + Elsevier de texto completo)",
+   "indicator": "ghost_D_pop",
+   "n_published": "~5 milhões de artigos de texto completo (subconjunto Elsevier citado aqui)",
+   "published": "1.4%",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.0,
+      0.561497
+     ],
+     "denominator": 3,
+     "numerator": 0,
+     "rate": 0.0
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.0,
+      0.561497
+     ],
+     "denominator": 3,
+     "numerator": 0,
+     "rate": 0.0
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.0,
+      0.390334
+     ],
+     "denominator": 6,
+     "numerator": 0,
+     "rate": 0.0
+    }
+   },
+   "review_flag": "não verificado: número vem de um único trecho de busca, não do texto completo do preprint arXiv:1710.03094; também checar se referências não casadas foram excluídas a montante em vez de contadas.",
+   "source": "Boyack, van Eck, Colavizza & Waltman (2018), Journal of Informetrics 12(1), 59-73 (DOI 10.1016/j.joi.2017.11.005)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "nosso 'misrepresented' é a categoria MAIOR (leitura substancialmente errada do que o artigo diz); estudos de erro de citação em geral contam qualquer proposição não sustentada, incluindo erros menores (Jergas & Baethge: total 25,4%, dos quais 8,5% 'minor' isolado -- a fração 'major' não é dada e NÃO deve ser inferida por subtração, por instrução explícita da revisão). O comparador mais direto para a categoria maior isolada é o 'completamente infundada' de PMC8386904 (2021): 2,8%.",
+   "denominator_label": "D_text",
+   "description": "accuracy == misrepresented (categoria MAIOR de erro de citação) sobre D_text.",
+   "field": "medicina / ortopedia e medicina esportiva",
+   "indicator": "misrepresented_major",
+   "n_published": null,
+   "published": "sem equivalente direto de 'erro maior' isolado na literatura consultada",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.066769,
+      0.252733
+     ],
+     "denominator": 52,
+     "numerator": 7,
+     "rate": 0.134615
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.123161,
+      0.375031
+     ],
+     "denominator": 40,
+     "numerator": 9,
+     "rate": 0.225
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.109982,
+      0.263984
+     ],
+     "denominator": 92,
+     "numerator": 16,
+     "rate": 0.173913
+    }
+   },
+   "review_flag": "taxa de erro maior de Jergas & Baethge não confirmada -- só total 25,4% e menor 8,5% o são; não inferir por subtração (ver docs/revisao-literatura.md §6).",
+   "source": "Jergas & Baethge (2015), PeerJ 3:e1364; PMC8386904 (2021, ortopedia)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "análogo ao 'total' de Jergas & Baethge: aqui somamos accuracy in {misrepresented, imprecise} sobre D_text, o mais próximo do critério 'qualquer proposição não sustentada' usado nesses estudos. Wakeling et al. é o único que pergunta aos PRÓPRIOS autores como creem que sua obra é citada -- comparador mais direto se o interesse é a perspectiva do autor citado, que é exatamente o desenho deste estudo.",
+   "denominator_label": "D_text",
+   "description": "accuracy in {misrepresented, imprecise} sobre D_text -- análogo ao 'total' dos estudos de erro de citação.",
+   "field": "medicina (meta-análise 28 estudos); survey multidisciplinar (2648 respostas); ortopedia/medicina esportiva",
+   "indicator": "misrepresented_plus_imprecise_total",
+   "n_published": 2648,
+   "published": "25.4% (Jergas & Baethge); 13.1-20.4% (Wakeling et al., implícito 16.6%); 13.6% (ortopedia, PMC8386904)",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.1833,
+      0.422728
+     ],
+     "denominator": 52,
+     "numerator": 15,
+     "rate": 0.288462
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.351995,
+      0.648005
+     ],
+     "denominator": 40,
+     "numerator": 20,
+     "rate": 0.5
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.287912,
+      0.482543
+     ],
+     "denominator": 92,
+     "numerator": 35,
+     "rate": 0.380435
+    }
+   },
+   "review_flag": null,
+   "source": "Jergas & Baethge (2015) PeerJ 3:e1364; Wakeling et al. (2025) JASIST; PMC8386904 (2021)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "'contradictory' aqui usa a regra deliberadamente liberal do codebook (METHOD.md §6): qualquer contraponto conta, mesmo sem linguagem hostil e mesmo quando o citante também usa o artigo como baseline -- provavelmente mais inclusiva que o critério de Catalini et al. (incapacidade de replicar, discordância ou inconsistência com resultado/teoria prévios).",
+   "denominator_label": "D_text",
+   "description": "stance == contradictory sobre D_text.",
+   "field": "imunologia (Catalini et al.); PLN/ciência da computação, corpus ACL (Athar)",
+   "indicator": "contradictory",
+   "n_published": 15000,
+   "published": "2.40% (2.44% na subamostra)",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.003403,
+      0.101205
+     ],
+     "denominator": 52,
+     "numerator": 1,
+     "rate": 0.019231
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.004427,
+      0.128814
+     ],
+     "denominator": 40,
+     "numerator": 1,
+     "rate": 0.025
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.005982,
+      0.075835
+     ],
+     "denominator": 92,
+     "numerator": 2,
+     "rate": 0.021739
+    }
+   },
+   "review_flag": null,
+   "source": "Catalini, Lacetera & Oettl (2015), PNAS 112(45), 13823-13826 (DOI 10.1073/pnas.1502280112); comparável a Athar (2011), ACL 2011 Student Session, ~2.8% negativo",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "'perfunctory' de Moravcsik é a citação em bloco/afirmação genérica que qualquer fonte da área sustentaria -- mapeamento direto para drive_by + brief_mention no codebook (ver crosswalk em data/taxonomy_v2.json). docs/revisao-literatura.md também lista SciCite 58% background e Teufel >60% Neut como comparadores adicionais para este nível; se a taxa medida cair entre 40-60%, está alinhada à literatura.",
+   "denominator_label": "D_text",
+   "description": "depth in {drive_by, brief_mention} sobre D_text.",
+   "field": "sociologia da ciência / ciência da ciência",
+   "indicator": "perfunctory",
+   "n_published": null,
+   "published": "41%",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.518036,
+      0.76849
+     ],
+     "denominator": 52,
+     "numerator": 34,
+     "rate": 0.653846
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.709277,
+      0.929388
+     ],
+     "denominator": 40,
+     "numerator": 34,
+     "rate": 0.85
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.641114,
+      0.817978
+     ],
+     "denominator": 92,
+     "numerator": 68,
+     "rate": 0.73913
+    }
+   },
+   "review_flag": "verificado só via fontes secundárias (Teufel et al. 2006 e a literatura de citation-function); o original de 1975 é pago e não foi lido diretamente (ver docs/revisao-literatura.md §6).",
+   "source": "Moravcsik & Murugesan (1975), Social Studies of Science 5(1), 86-92 (DOI 10.1177/030631277500500106)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "'important' de Valenzuela é binário (important/incidental), com a regra uses/extends=important e related-work/comparison=incidental -- mapeamento razoável para supporting+foundational no nosso eixo ordinal depth.",
+   "denominator_label": "D_text",
+   "description": "depth in {supporting, foundational} sobre D_text.",
+   "field": "ciência da computação (Semantic Scholar / AAAI)",
+   "indicator": "important",
+   "n_published": 465,
+   "published": "14.6%",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.066769,
+      0.252733
+     ],
+     "denominator": 52,
+     "numerator": 7,
+     "rate": 0.134615
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.013821,
+      0.165039
+     ],
+     "denominator": 40,
+     "numerator": 2,
+     "rate": 0.05
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.052324,
+      0.175568
+     ],
+     "denominator": 92,
+     "numerator": 9,
+     "rate": 0.097826
+    }
+   },
+   "review_flag": "o valor 14,6% e o n=465 pares estão confirmados; só os RÓTULOS dos quatro níveis ordinais de importância não estão confirmados (ver docs/revisao-literatura.md §6).",
+   "source": "Valenzuela, Ha & Etzioni (2015), AAAI-15 Workshop on Scholarly Big Data",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "construção composta local (drive_by+brief_mention+real_mention sem reuso) não tem equivalente de rótulo único: SciCite e Teufel são esquemas de rótulo ÚNICO por citação, enquanto aqui depth e reuse são eixos ortogonais -- a comparação é aproximada, não uma identidade de definição.",
+   "denominator_label": "D_text",
+   "description": "depth in {drive_by, brief_mention, real_mention} E reuse vazio, sobre D_text.",
+   "field": "ciência da computação + medicina (SciCite, corpus Semantic Scholar); PLN (Teufel, anotação de função de citação)",
+   "indicator": "background_like",
+   "n_published": 11020,
+   "published": "58% (SciCite, Background); >60% (Teufel 2006, Neut)",
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.747267,
+      0.933231
+     ],
+     "denominator": 52,
+     "numerator": 45,
+     "rate": 0.865385
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.834961,
+      0.986179
+     ],
+     "denominator": 40,
+     "numerator": 38,
+     "rate": 0.95
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.824432,
+      0.947676
+     ],
+     "denominator": 92,
+     "numerator": 83,
+     "rate": 0.902174
+    }
+   },
+   "review_flag": "SciCite: tamanho (11.020) e distribuição 58/29/13% vêm de fonte secundária, não verificados diretamente. Teufel: tamanho do corpus além de '116 documentos' e a cifra '2.829 citações' não confirmados; kappa=0,72 e '>60% Neut' vêm de fontes secundárias; o PDF original retornou binário na tentativa de extração (ver docs/revisao-literatura.md §6).",
+   "source": "Cohan et al. (2019) SciCite (11.020 instâncias); Teufel, Siddharthan & Tidhar (2006), Proc. 7th SIGdial",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "sem comparador publicado localizado para taxa de reuso metodológico efetivo sobre citações independentes.",
+   "denominator_label": "D_ind",
+   "description": "qualquer tag de reuse não vazia, sobre D_ind (in_text E relation==independent).",
+   "field": null,
+   "indicator": "method_reuse",
+   "n_published": null,
+   "published": null,
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.021483,
+      0.168354
+     ],
+     "denominator": 48,
+     "numerator": 3,
+     "rate": 0.0625
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.013821,
+      0.165039
+     ],
+     "denominator": 40,
+     "numerator": 2,
+     "rate": 0.05
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.024511,
+      0.126199
+     ],
+     "denominator": 88,
+     "numerator": 5,
+     "rate": 0.056818
+    }
+   },
+   "review_flag": null,
+   "source": null,
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "sem comparador numérico publicado para a fração de autocitação/citação de coautor. Bornmann & Leibel dão o VOCABULÁRIO conceitual (accuracy/bias/noise) em que autocitação e duplicata se encaixam na célula de 'citation bias' (distorção direcional sistemática) -- não um número a comparar.",
+   "denominator_label": "D_read",
+   "description": "relation in {self, coauthor} sobre D_read.",
+   "field": "metaciência / bibliometria",
+   "indicator": "self_or_coauthor",
+   "n_published": null,
+   "published": null,
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.028126,
+      0.169754
+     ],
+     "denominator": 56,
+     "numerator": 4,
+     "rate": 0.071429
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.0,
+      0.0741
+     ],
+     "denominator": 48,
+     "numerator": 0,
+     "rate": 0.0
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.015057,
+      0.094748
+     ],
+     "denominator": 104,
+     "numerator": 4,
+     "rate": 0.038462
+    }
+   },
+   "review_flag": null,
+   "source": "Bornmann & Leibel (2025/2026), arXiv:2508.12735 (também em MetaROR)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  },
+  {
+   "comparability_note": "sem comparador publicado; mesmo enquadramento conceitual de 'citation bias' que a linha self/coauthor.",
+   "denominator_label": "D_read",
+   "description": "'duplicate_publication' in record_flags, sobre D_read.",
+   "field": "metaciência / bibliometria",
+   "indicator": "duplicate_publication",
+   "n_published": null,
+   "published": null,
+   "results": {
+    "airline": {
+     "ci95_wilson": [
+      0.0,
+      0.064194
+     ],
+     "denominator": 56,
+     "numerator": 0,
+     "rate": 0.0
+    },
+    "grains": {
+     "ci95_wilson": [
+      0.021483,
+      0.168354
+     ],
+     "denominator": 48,
+     "numerator": 3,
+     "rate": 0.0625
+    },
+    "pooled": {
+     "ci95_wilson": [
+      0.009858,
+      0.0814
+     ],
+     "denominator": 104,
+     "numerator": 3,
+     "rate": 0.028846
+    }
+   },
+   "review_flag": null,
+   "source": "Bornmann & Leibel (2025/2026), arXiv:2508.12735 (também em MetaROR)",
+   "verificado_em": null,
+   "verification_status": "pendente"
+  }
+ ]
+}
