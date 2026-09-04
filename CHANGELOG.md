@@ -79,11 +79,11 @@ citado aqui ficaria órfão no dia seguinte.
 
 ## 2026-09-04 — teste cego, adjudicação e análises
 
-- `data/classify.json` adjudicado por três codificadores (c1 original; c2 Opus e c3 Sonnet, cegos) e colegiado de três painéis para 19 contestações; codebook v2.1 em METHOD §18 (`91167d1`).
+- `data/classify.json` adjudicado por três codificadores (c1 original; c2 Opus e c3 Sonnet, cegos) e colegiado de três painéis para 19 contestações; codebook v2.1 em METHOD §18.
 - `grains_024` reclassificado de fantasma para em-texto: marcador sobrescrito localizado pela auditoria de fantasmas.
 - `tools/audit_63_adjudicate.py` (maioria de três, derivação de `distortion`, união de `claim_ids`, colegiado).
-- `tools/audit_67_ghost_audit.py` e `tools/audit_68_base_rates.py` com `data/ghost_audit.json` e `data/base_rates.json` (`9f00ffc`).
-- Ferramental do relatório: `check_numbers.py`, `sapians.py` standalone, fontes vendorizadas, `reports/01-impacto/{figuras,numeros}.typ`, `referencias.bib` (`b49b206`).
+- `tools/audit_67_ghost_audit.py` e `tools/audit_68_base_rates.py` com `data/ghost_audit.json` e `data/base_rates.json`.
+- Ferramental do relatório: `check_numbers.py`, `sapians.py` standalone, fontes vendorizadas, `reports/01-impacto/{figuras,numeros}.typ`, `referencias.bib`.
 - Relatório técnico `reports/01-impacto/main.typ` (Resumo, §1–§9, Anexo A; 103 números com ponteiro `audit_70 §chave`, zero sem fonte) e `relatorio-impacto.pdf`.
 - `tools/audit_81_figures.py` (14 figuras) e `tools/audit_82_readme_svgs.py` (4 SVGs em `docs/assets/`).
 - `tools/sapians.py`: `_ausente()` deixa de exigir pandas (fase 81 roda só com matplotlib e numpy).
