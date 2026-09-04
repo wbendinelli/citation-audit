@@ -140,3 +140,25 @@ sistemática de obtê-los.
 Toda taxa de cobertura neste estudo lê-se, portanto, sobre as **147 citações
 com DOI**. Reportar sobre as 176 subestimaria a cobertura por incluir material
 que nenhum método alcançaria.
+
+## População do estudo: periódico de editora estabelecida
+
+O objeto do estudo é **impacto em periódico relevante**. A população é definida por
+três critérios cumulativos:
+
+1. tem DOI depositado;
+2. o prefixo do DOI é de editora estabelecida (Elsevier, Springer, Wiley, Taylor &
+   Francis, Emerald, MDPI, SAGE, Cambridge, Oxford, De Gruyter, Nature Portfolio,
+   PLOS, BMC, Palgrave);
+3. é artigo de periódico — capítulo de livro, anais de conferência e repositório de
+   preprint (SSRN, Zenodo) ficam fora.
+
+Isso dá **87 citações**: 49 do artigo de aviação e 38 do de grãos.
+
+Os demais registros permanecem no inventário e continuam classificados quando houve
+evidência, mas não entram nas taxas do estudo. Duas consequências que precisam ser
+declaradas ao reportar: as citações de passagem e as citações-fantasma concentram-se
+justamente nos veículos menores, então **as taxas sob esta população são mais
+favoráveis do que sob o inventário completo**; e "editora estabelecida" é proxy grosso
+para relevância — um critério mais defensável seria indexação em Scopus ou Web of
+Science com quartil, se a análise final exigir.
