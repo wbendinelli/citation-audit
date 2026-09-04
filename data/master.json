@@ -1286,7 +1286,7 @@
     "text_source": "rodada-1 (re-arquivado por DOI)",
     "passage_how": [],
     "citation_status": null,
-    "nota_integridade": "apenas página de rosto/abstract (8837 chars)"
+    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
    },
    {
     "doi": "10.1016/j.tre.2016.12.010",
@@ -1306,7 +1306,8 @@
     ],
     "id": "airline_051",
     "status": "fechado",
-    "classificado": false
+    "classificado": false,
+    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
    },
    {
     "doi": "10.1016/j.ijindorg.2021.102742",
@@ -2877,7 +2878,8 @@
     "has_fulltext": false,
     "id": "grains_028",
     "status": "oa_bloqueado",
-    "classificado": false
+    "classificado": false,
+    "nota_integridade": "corpo carregado, nenhuma menção fora da bibliografia — reconferir"
    },
    {
     "doi": "10.1002/est2.461",

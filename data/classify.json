@@ -590,5 +590,316 @@
   "passages": [
    "As leisure travel demand is more price-sensitive, LCCs target markets with a high percentage of leisure passengers (Bendinelli, Bettini, & Oliveira, 2016). We identified leisure routes using Gerardi and Shapiro's (2009) list of the U.S. leisure destinations."
   ]
+ },
+ "10.1016/j.ecotra.2022.100252": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Economics of Transportation. Citado no bloco canônico de determinantes de pontualidade que justifica as variáveis de controle de congestionamento e concorrência.",
+  "passages": [
+   "we include three control variables that attempt to control for potential congestion and competition effects, which are studied determinants of on-time flight performance (Brueckner 2002a, 2002b, Mayer and Sinai 2003, Mazzeo 2003, Greenfield 2014, Bubalo and Gaggero 2015, Bendinelli et al. 2016, Fageda and Flores-Fillol 2016)."
+  ]
+ },
+ "10.1016/j.tranpol.2021.10.015": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Transport Policy. Bloco sobre precificação por internalização de congestionamento, ao lado de Brueckner e Miranda & Oliveira.",
+  "passages": [
+   "Finally, airport congestion internalization pricing behavior by carriers may arise (Brueckner, 2002; Wan et al., 2015; Bendinelli et al., 2016; Guo et al., 2018; Miranda and Oliveira, 2018)."
+  ]
+ },
+ "10.1016/j.jairtraman.2021.102064": {
+  "role": "foundational",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Doze menções no corpo do texto — o citante que mais se apoia no artigo. Estrutura a revisão em torno das perspectivas de aeroporto e rota que o artigo articula, e o identifica como o único estudo de voos domésticos no Brasil.",
+  "passages": [
+   "previous studies explored the hypotheses of congestion internalization and hubness effect from an airport perspective and competition and quality from a route perspective (Bendinelli et al., 2016; Brueckner, 2002; Greenfield, 2014; Mayer and Sinai, 2003).",
+   "Only few studies are based on intra-European flights (Santos and Robin, 2010) and domestic flights in Brazil (Bendinelli et al., 2016)."
+  ]
+ },
+ "10.1016/j.trip.2020.100189": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Usa o artigo como fonte documental da base VRA da ANAC — a citação sustenta a descrição do dado que o próprio estudo emprega.",
+  "passages": [
+   "All the information used in the VRA is provided by the airlines and aggregated by ANAC (Bendinelli et al., 2016)."
+  ]
+ },
+ "10.1016/j.trc.2020.102686": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Transportation Research Part C. Aloca o artigo no campo dos que sustentam a predição teórica de internalização, contra o campo dos que a refutam.",
+  "passages": [
+   "Empirical studies on this topic are less conclusive though, as some supporting the theoretical prediction (e.g., Brueckner 2002, Mayer and Sinai 2003, Rupp 2009, Ater 2012, Bilotkach et al. 2013, Bendinelli et al. 2016) while others providing evidences against it."
+  ]
+ },
+ "10.1016/j.jairtraman.2019.101690": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Emparelhado com Brueckner como evidência de que companhia dominante tem incentivo a internalizar congestionamento.",
+  "passages": [
+   "According to some analytical inferences and empirical evidences (e.g. Brueckner, 2002; Bendinelli et al., 2016), dominant airlines have an incentive in internalizing congestion."
+  ]
+ },
+ "10.1016/j.jairtraman.2019.05.001": {
+  "role": "wrongly_interpreted",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "misattribution",
+  "note": "Afirma que o artigo investiga o impacto do desempenho operacional sobre a ESTRUTURA DE CUSTO da companhia. O artigo não trata de custo: trata de atraso, internalização de congestionamento e entrada de LCC.",
+  "passages": [
+   "Bendinelli, Bettini and Oliveira (2016) investigate the impact of operational performance on airline cost structure and show that flight activity outside schedule windows, delay and schedule buffers impact airline costs substantially."
+  ]
+ },
+ "10.1016/j.jairtraman.2019.03.001": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "method_adoption"
+  ],
+  "flag": "",
+  "note": "Justifica a inclusão da participação operacional da companhia no aeroporto (índice de Herfindahl) como variável de controle do próprio modelo.",
+  "passages": [
+   "The operational share of an airline at an airport impacts on on-time performance of flight activities (Brueckner, 2002; Bendinelli et al., 2016). Consequently, we include this variable to control for its impact on ground times."
+  ]
+ },
+ "10.1016/j.tranpol.2018.12.012": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "weak",
+  "note": "Diz que o artigo reporta resultado SEMELHANTE ao de Bubalo & Gaggero, isto é, que a presença de LCC melhora a operação. Mas airline_015 lê o mesmo artigo como tendo achado pouca evidência em qualquer direção. Dois citantes leem o resultado sobre LCC em sentidos opostos.",
+  "passages": [
+   "Bubalo and Gaggero (2015) showed that the presence of the LCC even could positively impact airport operations and foster improvement in service quality. A similar result has been reported by Bendinelli et al., (2016)."
+  ]
+ },
+ "10.1016/j.jspr.2025.102547": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Journal of Stored Products Research. Citação definicional sobre a variabilidade do conceito de perda.",
+  "passages": [
+   "The definition of losses can vary depending on factors such as the type of product, storage conditions, handling practices, and market dynamics (Bendinelli et al., 2020)."
+  ]
+ },
+ "10.1016/j.foodchem.2024.142637": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Food Chemistry. Atribui corretamente a estimativa quantitativa do artigo: perdas de 25% a 30% da oferta total, incluindo produção, importação e variação de estoque.",
+  "passages": [
+   "Bendinelli et al. (2020) reported that estimates of post-harvest losses for food grains range from 25 % to 30 % of the total supply, which includes production, imports, and stock variations."
+  ]
+ },
+ "10.1016/j.jspr.2024.102288": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Ecoa o achado central: o nível da estrutura pós-colheita como determinante das perdas.",
+  "passages": [
+   "One of the main factors that determine postharvest losses of grains is the postharvest level of structure (Bendinelli et al., 2020)."
+  ]
+ },
+ "10.1016/j.compag.2022.106936": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Computers and Electronics in Agriculture. Descrição precisa: nomeia as quatro culturas (arroz, milho, soja, trigo) e o achado sobre infraestrutura de armazenagem e comercialização.",
+  "passages": [
+   "Bendinelli et al. (2020) discussed the influence of macroeconomic conditions on the PHL of grains (rice, maize, soybeans, and wheat). The results revealed that the lack of post-harvest infrastructure, especially in food storage and food marketing, was the significant cause of PHL."
+  ]
+ },
+ "10.1016/j.spc.2021.08.004": {
+  "role": "drive_by",
+  "stance": "none",
+  "reuse": [],
+  "flag": "",
+  "note": "Mesmo periódico do artigo citado. Citação em bloco para a estatística genérica de um terço da produção global.",
+  "passages": [
+   "Food loss and waste (FLW) sums one-third of the total food produced globally for human consumption, about 1.3 billion tons of food (Priefer et al., 2016; Bendinelli et al., 2020)."
+  ]
+ },
+ "10.1016/j.jspr.2022.101941": {
+  "role": "drive_by",
+  "stance": "none",
+  "reuse": [],
+  "flag": "",
+  "note": "Frase de abertura genérica sobre cereais serem componentes vitais da alimentação.",
+  "passages": [
+   "Cereals, oilseeds and legumes are vital components of human food and animal feeds (Bendinelli et al., 2020)."
+  ]
+ },
+ "10.1016/j.tra.2018.10.005": {
+  "role": "brief_mention",
+  "stance": "contradictory",
+  "reuse": [],
+  "flag": "critical",
+  "note": "Agrupa o artigo entre os estudos que só tratam de atraso de chegada e se posiciona explicitamente contra: “In contrast to these studies, this work investigates delays resulting from handling not only passengers but also cargo.” É delimitação de escopo, não crítica hostil — mas conta como contraposição pela regra liberal.",
+  "passages": [
+   "Most studies on airline delays address arrival delay instead of departure delay (e.g. Mayer and Sinai, 2003, Deshpande and Arikan, 2012, Bubalo and Gaggero, 2015, Prince and Simon, 2015, Bendinelli et al., 2016). In contrast to these studies, this work investigates delays resulting from handling not only passengers but also cargo."
+  ]
+ },
+ "10.1016/j.tra.2018.10.012": {
+  "role": "foundational",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Transportation Research Part A. Explica o mecanismo do artigo com precisão: separar concentração de mercado e de aeroporto, atribuindo internalização de congestionamento à concentração aeroportuária e efeito qualidade à concentração de mercado.",
+  "passages": [
+   "To conciliate these two strands of literature, Bendinelli et al. (2016) differentiate the market concentrations at the market level and at the airport level. They propose that airport concentration is more relevant to airport congestion self-internalization while market concentration is more relevant to the competition in the quality aspect of delay."
+  ]
+ },
+ "10.1016/j.tre.2016.12.012": {
+  "role": "foundational",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Transportation Research Part E. Reproduz corretamente a direção dupla do achado, o que a maioria dos citantes não faz.",
+  "passages": [
+   "Bendinelli et al. (2016) address airline delays by separating the market-based level of competition and the airport-based dominance of an airline. They equally find a decrease in delays as competition on an origin-destination-market increases, whereas delays decrease as competition at an airport decreases."
+  ]
+ },
+ "10.1016/j.ijindorg.2021.102742": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "International Journal of Industrial Organization. Aloca o artigo no campo dos que acham que concentração melhora pontualidade.",
+  "passages": [
+   "Some papers have found that airport and route concentration lead to better OTP levels (Mayer and Sinai, 2003; Rupp et al., 2006; Bendinelli et al., 2016; Prince and Simon, 2015), while others have found that more concentration in routes and airports is associated with worse OTP levels."
+  ]
+ },
+ "10.1016/j.jtrangeo.2021.103260": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Journal of Transport Geography. Bloco sobre adaptação de tarifa de congestionamento quando a companhia dominante internaliza custos.",
+  "passages": [
+   "Several studies argue that if dominant carriers internalise such costs, congestion pricing for Full Service Network Carriers should be adapted to account for internalised costs (Bendinelli et al., 2016; Brueckner and Van Dender, 2008; Miranda and Oliveira, 2018; Pels and Verhoef, 2004; Rupp, 2009)."
+  ]
+ },
+ "10.1016/j.tre.2020.102186": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "method_adoption"
+  ],
+  "flag": "good",
+  "note": "Transportation Research Part E. Adota o tratamento de endogeneidade do artigo: assume correlação entre componentes não observados do atraso e o estado da concorrência, e por isso instrumenta HHI e participação de LCC.",
+  "passages": [
+   "motivated by the previous literature—Greenfield (2014) and Bendinelli, Bettini, and Oliveira (2016)—we assume that the unobserved components of the flight delays on city-pair market k at time t are correlated with the status of competition in that market. As a result, we must treat the market concentration and LCC share of flights—namely, HHI and LCCS—as endogenous."
+  ]
+ },
+ "10.1016/j.tra.2018.06.008": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "work_extended"
+  ],
+  "flag": "coautor",
+  "note": "Transportation Research Part A. Declara estender a literatura de internalização de congestionamento para o efeito de slots aeroportuários. Assinado por Miranda e Oliveira — Oliveira é coautor do artigo citado.",
+  "passages": [
+   "We extend the literature on the congestion internalization behaviors of major airlines to examine the possible impact of airport slots (Daniel, 1995, Brueckner, 2002, Mayer and Sinai, 2003a, Santos and Robin, 2010, Ater, 2012, Bendinelli et al., 2016)."
+  ]
+ },
+ "10.1016/j.tranpol.2017.12.021": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Transport Policy. Bloco de literatura sobre associação estatisticamente significativa entre atraso e concentração em aeroporto e rota.",
+  "passages": [
+   "the literature has investigated and found a statistically significant association between airline delays and concentration at the airport and route levels - Mayer and Sinai, 2003, Mazzeo, 2003, Ater, 2012, and Bendinelli et al. (2016)."
+  ]
+ },
+ "10.1016/j.tranpol.2018.07.006": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Transport Policy. Descreve o objeto e a geografia corretamente, e vai ao detalhe de um resultado de controle: o efeito não significativo de code-sharing.",
+  "passages": [
+   "Bendinelli et al. (2016) investigated the impact and behavior of low-cost carriers (LCCs) in airline markets. They are particularly interested in how the entry of LCCs affects airline flight delays in the Brazilian industry. In their analysis, they control for the effects of code-sharing and found no statistically significant effect."
+  ]
+ },
+ "10.1016/j.jairtraman.2021.102044": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "method_adoption"
+  ],
+  "flag": "good",
+  "note": "Journal of Air Transport Management. Replica o procedimento de identificação do artigo: instrumentos estruturais como deslocadores de demanda, explorando a estrutura de painel.",
+  "passages": [
+   "The procedure is similar to the one presented in, e.g., Bendinelli et al. (2016). The structural instruments consist of demand shifters, commonly used to identify variables in price models, which are expected to influence market concentration, number of passengers, and/or the extent of financial distress."
+  ]
+ },
+ "10.1016/j.clfs.2026.100028": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Cleaner Food Systems. Bloco sobre produtores com mais escolaridade e ativos adotarem melhores práticas de armazenagem.",
+  "passages": [
+   "Educated farmers with more assets tend to use better storage and handling practices, which helps lower physical and economic losses (Debebe, 2022; Bendinelli et al., 2020; Kikulwe et al., 2018)."
+  ]
+ },
+ "10.1016/j.biocontrol.2021.104568": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Biological Control. Atribui ao artigo os fatores de processamento, armazenagem, embalagem e comercialização.",
+  "passages": [
+   "In addition, improper processing, storage, packaging or marketing are the other important factors (Bendinelli et al., 2020)."
+  ]
+ },
+ "10.1016/j.igd.2023.100108": {
+  "role": "supporting",
+  "stance": "supporting",
+  "reuse": [
+   "method_adoption"
+  ],
+  "flag": "good",
+  "note": "Innovation and Green Development. Usa o artigo para justificar a escolha da variável de abertura comercial num modelo de crescimento verde para a UEMOA — alcance para fora da agronomia, em macroeconomia do desenvolvimento.",
+  "passages": [
+   "The trade openness is measured as the exports and imports of goods and services sum divided by GDP. The variable choice is supported by Bendinelli et al. (2020) and the expected sign is mixed."
+  ]
+ },
+ "10.1016/j.compag.2021.106405": {
+  "role": "drive_by",
+  "stance": "none",
+  "reuse": [],
+  "flag": "",
+  "note": "Computers and Electronics in Agriculture. Citação em bloco sobre mau uso de tecnologia na cadeia produtiva.",
+  "passages": [
+   "A part of the waste in agriculture is related to the incidence of bad weather, increased tolerance of pests, and misuse of technologies (Baributsa and Njoroge, 2020, Bendinelli et al., 2020) in the agricultural production chain."
+  ]
+ },
+ "10.1016/bs.hesagr.2022.03.001": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "good",
+  "note": "Handbook of Agricultural Economics (Elsevier). Colocação de prestígio: o artigo é a referência do handbook para o caso de commodities estocáveis. A generalização para países de renda alta é um pequeno alargamento — o artigo é sobre o Brasil.",
+  "passages": [
+   "whereas higher-income countries typically face few systematic challenges in limiting waste for storable commodities (e.g., grains, see Bendinelli, Su, Péra, & Caixeta Filho, 2020), lower-income countries often face gaps in the quantity and quality of farm-level storage and infrastructure."
+  ]
  }
 }
