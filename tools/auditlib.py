@@ -77,8 +77,26 @@ def save_classify(classify):
 
 
 def classify_entries(classify):
-    """`classify["entries"]` — o dict `doi minúsculo -> classificação`."""
+    """`classify["entries"]` — o dict `doi minúsculo -> classificação`.
+    Serve tanto `load_classify()` quanto `load_classify_orfas()` — as duas
+    guardam o mesmo formato de entrada."""
     return classify["entries"]
+
+
+def load_classify_orfas():
+    """data/classify_orfas.json: classificações órfãs, cujo DOI foi
+    absorvido por deduplicação e não resolve mais a nenhum registro de
+    master.json. Mesmo formato de load_classify(); use classify_entries()
+    para pegar o dict."""
+    return _load_versioned("classify_orfas.json", "entries")
+
+
+def load_decisoes_scimago():
+    """data/decisoes_scimago.json: vereditos manuais (dict `id -> {veredito,
+    razao}`) para os registros com DOI cujo periódico não tem quartil
+    Scimago. Sem envelope meta -- é um dict plano por design."""
+    with open(DATA / "decisoes_scimago.json", encoding="utf-8") as f:
+        return json.load(f)
 
 
 # ---------------- data/journals.json ----------------
@@ -110,6 +128,47 @@ def quartil_scimago(rec, sources):
         return None
     q = sc.get("quartil")
     return q if q in ("Q1", "Q2", "Q3", "Q4") else None
+
+
+# Regra de tier de periódico (audit_41_scimago). Vive aqui, não em
+# audit_41_scimago.py, para que check_data possa validar journals.json
+# contra a MESMA função em vez de reimplementar a regra por conta própria.
+TIER_CORTES = [(6.0, "T1"), (3.5, "T2"), (2.0, "T3"), (0.0, "T4")]
+
+
+def tier_proxy_de(citedness):
+    if citedness is None:
+        return None
+    for lim, t in TIER_CORTES:
+        if citedness >= lim:
+            return t
+    return "T4"
+
+
+def tier_e_base(tier_proxy, scimago):
+    """tier/tier_base de um periódico: casou ISSN com o Scimago -> quartil
+    oficial prevalece (mesmo quando o Scimago não atribui quartil, valor
+    "-"); senão, o proxy de citedness do OpenAlex, marcado como tal."""
+    if scimago is not None:
+        return scimago.get("quartil"), "Scimago SJR Best Quartile"
+    return tier_proxy, "proxy OpenAlex (sem correspondência no Scimago)"
+
+
+def tier_erros(sources):
+    """Confere `tier_proxy`/`tier`/`tier_base` de cada periódico contra a
+    regra acima; devolve a lista de mensagens de erro (vazia se ok).
+    Usado por `audit_41_scimago.py --check` e por `check_data.py`."""
+    erros = []
+    for sid, m in sources.items():
+        tp = tier_proxy_de(m.get("citedness_2a"))
+        tier, base = tier_e_base(tp, m.get("scimago"))
+        if m.get("tier_proxy") != tp:
+            erros.append(f"{sid} ({m.get('nome')}): tier_proxy={m.get('tier_proxy')!r}, esperado {tp!r}")
+        if m.get("tier") != tier:
+            erros.append(f"{sid} ({m.get('nome')}): tier={m.get('tier')!r}, esperado {tier!r}")
+        if m.get("tier_base") != base:
+            erros.append(f"{sid} ({m.get('nome')}): tier_base={m.get('tier_base')!r}, esperado {base!r}")
+    return erros
 
 
 # ---------------- v1/v2 genérico ----------------

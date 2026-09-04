@@ -22,40 +22,9 @@ import re
 import sys
 
 import auditlib
+from auditlib import tier_e_base, tier_erros, tier_proxy_de
 
-CORTES = [(6.0, "T1"), (3.5, "T2"), (2.0, "T3"), (0.0, "T4")]
 SCIMAGO_CSV = auditlib.DATA / "scimago" / "scimagojr_2025.csv"
-
-
-def tier_proxy_de(citedness):
-    if citedness is None:
-        return None
-    for lim, t in CORTES:
-        if citedness >= lim:
-            return t
-    return "T4"
-
-
-def tier_e_base(tier_proxy, scimago):
-    """A regra única de tier — mesma função usada para gravar e para
-    conferir, de modo que as duas nunca possam divergir."""
-    if scimago is not None:
-        return scimago.get("quartil"), "Scimago SJR Best Quartile"
-    return tier_proxy, "proxy OpenAlex (sem correspondência no Scimago)"
-
-
-def checar(sources):
-    erros = []
-    for sid, m in sources.items():
-        tp = tier_proxy_de(m.get("citedness_2a"))
-        tier, base = tier_e_base(tp, m.get("scimago"))
-        if m.get("tier_proxy") != tp:
-            erros.append(f"{sid} ({m.get('nome')}): tier_proxy={m.get('tier_proxy')!r}, esperado {tp!r}")
-        if m.get("tier") != tier:
-            erros.append(f"{sid} ({m.get('nome')}): tier={m.get('tier')!r}, esperado {tier!r}")
-        if m.get("tier_base") != base:
-            erros.append(f"{sid} ({m.get('nome')}): tier_base={m.get('tier_base')!r}, esperado {base!r}")
-    return erros
 
 
 # ---------------- só usado no modo de gravação (lê o CSV) ----------------
@@ -106,7 +75,7 @@ journals = auditlib.load_journals()
 sources = auditlib.journal_sources(journals)
 
 if CHECK:
-    erros = checar(sources)
+    erros = tier_erros(sources)
     if erros:
         print(f"VIOLAÇÕES DA REGRA DE TIER: {len(erros)}")
         for e in erros: print(f"  {e}")
@@ -137,5 +106,5 @@ else:
     print(f"\nsem correspondência ({len(falt)}) — conferir se são repositório ou periódico novo:")
     for n in falt[:20]: print(f"   {n}")
 
-    erros = checar(sources)
+    erros = tier_erros(sources)
     assert not erros, f"regra de tier inconsistente logo após gravar: {erros}"

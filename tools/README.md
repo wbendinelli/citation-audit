@@ -45,6 +45,16 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 `--check` nunca escreve: renderiza/computa em memória e compara com o que já
 está commitado, saindo com código 1 se houver diferença.
 
+`tools/check_data.py` não segue a numeração de fase — não deriva nada, só
+valida. Lê `data/master.json`, `data/classify.json`, `data/classify_orfas.json`,
+`data/journals.json` e `data/decisoes_scimago.json`; sem `--local` roda em
+segundos (só `data/*.json`); com `--local` também confere `text/*.txt` contra
+`text_path` (mais lento). Sai com código 1 e uma mensagem por violação; código
+0 com um resumo de uma linha. Órfãos de `text/` e grupos de arquivo
+byte-idênticos são avisos, não violação — só falha se um `text_path`
+referenciado não existir em disco ou o arquivo não contiver o título do
+registro. Ver o cabeçalho do script para a lista completa das 8 invariantes.
+
 ## Como rodar
 
 **A — nova edição do inventário (toca rede: OpenAlex, Semantic Scholar,
@@ -72,6 +82,9 @@ python3 tools/audit_41_scimago.py
 python3 tools/audit_50_pending.py
 python3 tools/audit_80_report_html.py
 ```
+
+Depois de A ou B, valide os dados com `python3 tools/check_data.py` (e
+`--local` se `text/` também mudou).
 
 ## Por que os portões de integridade existem
 
