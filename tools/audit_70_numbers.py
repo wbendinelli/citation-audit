@@ -829,12 +829,16 @@ def _journals_json_resumo(ctx):
     jj = read_optional_json(ctx.root / "data" / "journals.json") or {}
     src = jj.get("sources") or {}
     vals = list(src.values()) if isinstance(src, dict) else list(src)
-    quart = [(v.get("scimago") or {}).get("quartil") for v in vals]
+    casados = [v for v in vals if v.get("scimago")]
+    quart = [(v.get("scimago") or {}).get("quartil") for v in casados]
+    com_q = [q for q in quart if q in ("Q1", "Q2", "Q3", "Q4")]
     return {
         "total_fontes": len(vals),
-        "scimago_casados": sum(1 for q in quart if q in ("Q1", "Q2", "Q3", "Q4")),
-        "por_quartil": _counter_dict(q for q in quart if q in ("Q1", "Q2", "Q3", "Q4")),
-        "sem_quartil": sum(1 for q in quart if q not in ("Q1", "Q2", "Q3", "Q4")),
+        "scimago_casados": len(casados),
+        "scimago_casados_com_quartil": len(com_q),
+        "scimago_casados_sem_quartil": len(casados) - len(com_q),
+        "nao_casados": len(vals) - len(casados),
+        "por_quartil": _counter_dict(com_q),
     }
 
 

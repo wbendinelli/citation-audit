@@ -247,12 +247,14 @@ quartil / todas_citacoes / pooled / fora_do_scimago: 35
 quartil / todas_citacoes / pooled / sem_metrica: 43
 
 == audit_70 §periodicos ==
+periodicos / fontes_journals_json / nao_casados: 23
 periodicos / fontes_journals_json / por_quartil / Q1: 39
 periodicos / fontes_journals_json / por_quartil / Q2: 15
 periodicos / fontes_journals_json / por_quartil / Q3: 8
 periodicos / fontes_journals_json / por_quartil / Q4: 5
-periodicos / fontes_journals_json / scimago_casados: 67
-periodicos / fontes_journals_json / sem_quartil: 26
+periodicos / fontes_journals_json / scimago_casados: 70
+periodicos / fontes_journals_json / scimago_casados_com_quartil: 67
+periodicos / fontes_journals_json / scimago_casados_sem_quartil: 3
 periodicos / fontes_journals_json / total_fontes: 93
 periodicos / pooled / 0 / n: 10
 periodicos / pooled / 0 / overton: 1

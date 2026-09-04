@@ -10817,14 +10817,16 @@
  },
  "periodicos": {
   "fontes_journals_json": {
+   "nao_casados": 23,
    "por_quartil": {
     "Q1": 39,
     "Q2": 15,
     "Q3": 8,
     "Q4": 5
    },
-   "scimago_casados": 67,
-   "sem_quartil": 26,
+   "scimago_casados": 70,
+   "scimago_casados_com_quartil": 67,
+   "scimago_casados_sem_quartil": 3,
    "total_fontes": 93
   },
   "pooled": [
