@@ -69,6 +69,7 @@ citado aqui ficaria órfão no dia seguinte.
 - `tools/audit_63_adjudicate.py` (maioria de três, derivação de `distortion`, união de `claim_ids`, colegiado).
 - `tools/audit_67_ghost_audit.py` e `tools/audit_68_base_rates.py` com `data/ghost_audit.json` e `data/base_rates.json` (`9f00ffc`).
 - Ferramental do relatório: `check_numbers.py`, `sapians.py` standalone, fontes vendorizadas, `reports/01-impacto/{figuras,numeros}.typ`, `referencias.bib` (`b49b206`).
+- `tools/audit_70_numbers.py`: única fonte de todo número da prosa (`reports/01-impacto/dados.json` + `numeros.txt`, 18 seções); reproduz 87/74 (população) e 98 (cobertura) do METHOD; blocos CD/co-citação `PENDENTE` até a cota de API.
 - `data/cd/refs_audit_*.json`: listas de referência auditadas; 4 referências falsas no OpenAlex para grãos.
 
 ## 2026-09-04 — reorganização SAPIANS

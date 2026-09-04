@@ -47,6 +47,7 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | `audit_61_irr_pack.py` | 60 | `data/classify.json` (v2), `data/master.json`, `data/claims/claims.json`, `METHOD.md`, `config.json`, `data/claims/source_text/*.txt` | `data/irr/pack_blind.json`, `pack_key.json`, `instructions.md`, `irr_c1_from_v2.json` | não² |
 | `audit_62_irr_stats.py` | 60 | JSON de codificador (`--c1`/`--c2`/`--c3`/`--human`), `data/irr/pack_key.json` | `--out` (estatísticas de concordância) | não³ |
 | `audit_80_report_html.py` | 80 | `data/master.json`, `data/classify.json`, `data/journals.json`, `config.json`, `data/scholar/*.txt` | `report/index.html` | sim |
+| `audit_70_numbers.py` | 70 | Única fonte de todo número do relatório: lê `data/*.json` e escreve `reports/01-impacto/dados.json` + `numeros.txt` (seções `== audit_70 §chave ==`); `--check` exige byte-igualdade; blocos opcionais saem `PENDENTE: motivo` |
 
 `--check` nunca escreve: renderiza/computa em memória e compara com o que já
 está commitado, saindo com código 1 se houver diferença.
