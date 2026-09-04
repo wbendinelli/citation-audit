@@ -1,0 +1,432 @@
+{
+ "duplicates_of_matched": [
+  {
+   "id": "W1547506455",
+   "pdf_n": 2,
+   "sim": 0.8452,
+   "status": "duplicate_of_matched",
+   "title": "Enhanced Routines for Instrumental Variables/Generalized Method of Moments Estimation and Testing",
+   "year": 2007
+  }
+ ],
+ "false_references": [],
+ "focal": {
+  "cited_by_count": 53,
+  "doi": "10.1016/j.tra.2016.01.001",
+  "openalex_id": "W3124922190",
+  "year": 2016
+ },
+ "n_openalex_raw": 30,
+ "n_pdf": 26,
+ "n_valid": 26,
+ "openalex_refs": [
+  {
+   "id": "W1487607581",
+   "pdf_n": 2,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Enhanced routines for instrumental variables/GMM estimation and testing",
+   "year": 2007
+  },
+  {
+   "id": "W1547506455",
+   "pdf_n": 2,
+   "sim": 0.8452,
+   "status": "duplicate_of_matched",
+   "title": "Enhanced Routines for Instrumental Variables/Generalized Method of Moments Estimation and Testing",
+   "year": 2007
+  },
+  {
+   "id": "W1681321672",
+   "pdf_n": 21,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Do Low Cost Carriers Provide Low Quality Service",
+   "year": 2008
+  },
+  {
+   "id": "W1971154727",
+   "pdf_n": 24,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "The relationship between on-time performance and airline market share: a new approach",
+   "year": 2000
+  },
+  {
+   "id": "W1971695812",
+   "pdf_n": 26,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Airport capacity and congestion when carriers have market power",
+   "year": 2006
+  },
+  {
+   "id": "W1971944009",
+   "pdf_n": 8,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Can LCCs’ economic efficiency create negative externalities for air transport? An analysis of passenger waiting time",
+   "year": 2014
+  },
+  {
+   "id": "W1972785961",
+   "pdf_n": 5,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Airport Congestion When Carriers Have Market Power",
+   "year": 2002
+  },
+  {
+   "id": "W1977760729",
+   "pdf_n": 20,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Do carriers internalize congestion costs? Empirical evidence on the internalization question",
+   "year": 2008
+  },
+  {
+   "id": "W2013153027",
+   "pdf_n": 9,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Congestion Pricing and Capacity of Large Hub Airports: A Bottleneck Model with Stochastic Queues",
+   "year": 1995
+  },
+  {
+   "id": "W2022752352",
+   "pdf_n": 17,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Estimating flight-level price elasticities using online airline data: A first step toward integrating pricing, demand, and revenue optimization",
+   "year": 2014
+  },
+  {
+   "id": "W2022885785",
+   "pdf_n": 11,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Competition and service quality: New evidence from the airline industry",
+   "year": 2014
+  },
+  {
+   "id": "W2029577960",
+   "pdf_n": 4,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Entry Patterns in the Southwest Airlines Route System",
+   "year": 2004
+  },
+  {
+   "id": "W2050263712",
+   "pdf_n": 10,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "(When) Do hub airlines internalize their self-imposed congestion delays?",
+   "year": 2007
+  },
+  {
+   "id": "W2080204438",
+   "pdf_n": 6,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "City-Pairs Versus Airport-Pairs: A Market-Definition Methodology for the Airline Industry",
+   "year": 2012
+  },
+  {
+   "id": "W2113214536",
+   "pdf_n": 23,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Determinants of delays at European airports",
+   "year": 2009
+  },
+  {
+   "id": "W2146186607",
+   "pdf_n": 15,
+   "sim": 0.9915,
+   "status": "matched",
+   "title": "Competition and Service Quality in the U.S. Airline Industry",
+   "year": 2003
+  },
+  {
+   "id": "W2163234206",
+   "pdf_n": 7,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Low-cost carrier competition and airline service quality in Europe",
+   "year": 2015
+  },
+  {
+   "id": "W2167803083",
+   "pdf_n": 22,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Does competition influence airline on-time performance?",
+   "year": 2006
+  },
+  {
+   "id": "W2183738200",
+   "pdf_n": 16,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Congesting the commons: A test for strategic congestion externalities in the airline industry",
+   "year": 2013
+  },
+  {
+   "id": "W3121785085",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W3123562621",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W3125554796",
+   "pdf_n": 13,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Does product differentiation soften price reactions to entry? Evidence from the airline Industry",
+   "year": 2012
+  },
+  {
+   "id": "W3125600493",
+   "pdf_n": 14,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Network Effects, Congestion Externalities, and Air Traffic Delays: Or Why Not All Delays Are Evil",
+   "year": 2003
+  },
+  {
+   "id": "W3126074226",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W330570307",
+   "pdf_n": 18,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Hub premium, airport dominance and market power in the European airline industry",
+   "year": 2019
+  },
+  {
+   "id": "W6611479867",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W6632141673",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W6635428773",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W6655984428",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W6684650671",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  }
+ ],
+ "pdf_refs": [
+  {
+   "n": 1,
+   "openalex_id": "W2007397651",
+   "status": "repaired"
+  },
+  {
+   "n": 2,
+   "openalex_id": "W1487607581",
+   "status": "matched"
+  },
+  {
+   "n": 3,
+   "openalex_id": "W7131634583",
+   "status": "repaired"
+  },
+  {
+   "n": 4,
+   "openalex_id": "W2029577960",
+   "status": "matched"
+  },
+  {
+   "n": 5,
+   "openalex_id": "W1972785961",
+   "status": "matched"
+  },
+  {
+   "n": 6,
+   "openalex_id": "W2080204438",
+   "status": "matched"
+  },
+  {
+   "n": 7,
+   "openalex_id": "W2163234206",
+   "status": "matched"
+  },
+  {
+   "n": 8,
+   "openalex_id": "W1971944009",
+   "status": "matched"
+  },
+  {
+   "n": 9,
+   "openalex_id": "W2013153027",
+   "status": "matched"
+  },
+  {
+   "n": 10,
+   "openalex_id": "W2050263712",
+   "status": "matched"
+  },
+  {
+   "n": 11,
+   "openalex_id": "W2022885785",
+   "status": "matched"
+  },
+  {
+   "n": 12,
+   "openalex_id": "W1592051488",
+   "status": "repaired"
+  },
+  {
+   "n": 13,
+   "openalex_id": "W3125554796",
+   "status": "matched"
+  },
+  {
+   "n": 14,
+   "openalex_id": "W3125600493",
+   "status": "matched"
+  },
+  {
+   "n": 15,
+   "openalex_id": "W2146186607",
+   "status": "matched"
+  },
+  {
+   "n": 16,
+   "openalex_id": "W2183738200",
+   "status": "matched"
+  },
+  {
+   "n": 17,
+   "openalex_id": "W2022752352",
+   "status": "matched"
+  },
+  {
+   "n": 18,
+   "openalex_id": "W330570307",
+   "status": "matched"
+  },
+  {
+   "n": 19,
+   "openalex_id": "W3121743323",
+   "status": "repaired"
+  },
+  {
+   "n": 20,
+   "openalex_id": "W1977760729",
+   "status": "matched"
+  },
+  {
+   "n": 21,
+   "openalex_id": "W1681321672",
+   "status": "matched"
+  },
+  {
+   "n": 22,
+   "openalex_id": "W2167803083",
+   "status": "matched"
+  },
+  {
+   "n": 23,
+   "openalex_id": "W2113214536",
+   "status": "matched"
+  },
+  {
+   "n": 24,
+   "openalex_id": "W1971154727",
+   "status": "matched"
+  },
+  {
+   "n": 25,
+   "openalex_id": "W3124692878",
+   "status": "repaired"
+  },
+  {
+   "n": 26,
+   "openalex_id": "W1971695812",
+   "status": "matched"
+  }
+ ],
+ "r_valid": [
+  "W1487607581",
+  "W1592051488",
+  "W1681321672",
+  "W1971154727",
+  "W1971695812",
+  "W1971944009",
+  "W1972785961",
+  "W1977760729",
+  "W2007397651",
+  "W2013153027",
+  "W2022752352",
+  "W2022885785",
+  "W2029577960",
+  "W2050263712",
+  "W2080204438",
+  "W2113214536",
+  "W2146186607",
+  "W2163234206",
+  "W2167803083",
+  "W2183738200",
+  "W3121743323",
+  "W3124692878",
+  "W3125554796",
+  "W3125600493",
+  "W330570307",
+  "W7131634583"
+ ],
+ "requests": {
+  "cache_hits": 7,
+  "network": 0,
+  "none_responses": 0,
+  "total": 7
+ },
+ "snapshot_date": "2026-09-04",
+ "unresolvable": []
+}

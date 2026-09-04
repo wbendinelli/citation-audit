@@ -1,0 +1,768 @@
+{
+ "duplicates_of_matched": [
+  {
+   "id": "W2000798388",
+   "pdf_n": 42,
+   "sim": 1.0,
+   "status": "duplicate_of_matched",
+   "title": "How Relevant Is Malthus for Economic Development Today?",
+   "year": 2010
+  },
+  {
+   "id": "W2148333466",
+   "pdf_n": 16,
+   "sim": 1.0,
+   "status": "duplicate_of_matched",
+   "title": "Food Security: The Challenge of Feeding 9 Billion People",
+   "year": 2010
+  }
+ ],
+ "false_references": [
+  {
+   "id": "W1988530576",
+   "pdf_n": 29,
+   "sim": 0.45,
+   "status": "false_reference",
+   "title": "A NEUROSURGEON'S GUIDE TO STEM CELLS, CANCER STEM CELLS, AND BRAIN TUMOR STEM CELLS",
+   "year": 2009
+  },
+  {
+   "id": "W2154236522",
+   "pdf_n": 35,
+   "sim": 0.4795,
+   "status": "false_reference",
+   "title": "FAO Plant Production and Protection Paper, Pesticide Residues in Food; Evaluations 1979, 560 Seiten. Food and Agriculture Organization of the United Nations, Rome 1980.",
+   "year": 1982
+  },
+  {
+   "id": "W2220779474",
+   "pdf_n": 9,
+   "sim": 0.4564,
+   "status": "false_reference",
+   "title": "Comparative Influences of Precipitation and River Stage on Groundwater Levels in Near-River Areas",
+   "year": 2015
+  },
+  {
+   "id": "W3127473765",
+   "pdf_n": 36,
+   "sim": 0.8296,
+   "status": "false_reference",
+   "title": "Background paper on the economics of food loss and waste",
+   "year": 2014
+  }
+ ],
+ "focal": {
+  "cited_by_count": 60,
+  "doi": "10.1016/j.spc.2019.09.002",
+  "openalex_id": "W2979112534",
+  "year": 2019
+ },
+ "n_openalex_raw": 45,
+ "n_pdf": 45,
+ "n_valid": 35,
+ "openalex_refs": [
+  {
+   "id": "W1593746558",
+   "pdf_n": 8,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Malthus living in a slum: Urban concentration, infrastructure and economic growth",
+   "year": 2016
+  },
+  {
+   "id": "W1887601576",
+   "pdf_n": 29,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "The New and Changing Roles of Cold Storages in the Potato Supply Chain in Bihar",
+   "year": 2015
+  },
+  {
+   "id": "W1976386631",
+   "pdf_n": 10,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Unit root tests for panel data",
+   "year": 2001
+  },
+  {
+   "id": "W1983259037",
+   "pdf_n": 24,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Post-harvest loss in sub-Saharan Africa—what do farmers say?",
+   "year": 2014
+  },
+  {
+   "id": "W1988530576",
+   "pdf_n": 29,
+   "sim": 0.45,
+   "status": "false_reference",
+   "title": "A NEUROSURGEON'S GUIDE TO STEM CELLS, CANCER STEM CELLS, AND BRAIN TUMOR STEM CELLS",
+   "year": 2009
+  },
+  {
+   "id": "W2000798388",
+   "pdf_n": 42,
+   "sim": 1.0,
+   "status": "duplicate_of_matched",
+   "title": "How Relevant Is Malthus for Economic Development Today?",
+   "year": 2010
+  },
+  {
+   "id": "W2004244248",
+   "pdf_n": 33,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Changing food consumption patterns in East Asia: Implications of the trend towards livestock products",
+   "year": 1997
+  },
+  {
+   "id": "W2021202145",
+   "pdf_n": 4,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Dynamics and Stagnation in the Malthusian Epoch",
+   "year": 2011
+  },
+  {
+   "id": "W2037349743",
+   "pdf_n": 22,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Postharvest losses and waste in developed and less developed countries: opportunities to improve resource use",
+   "year": 2010
+  },
+  {
+   "id": "W2072377819",
+   "pdf_n": 26,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Lost food, wasted resources: Global food supply chain losses and their impacts on freshwater, cropland, and fertiliser use",
+   "year": 2012
+  },
+  {
+   "id": "W2129920143",
+   "pdf_n": 1,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Unpacking Postharvest Losses in Sub-Saharan Africa: A Meta-Analysis",
+   "year": 2014
+  },
+  {
+   "id": "W2133852638",
+   "pdf_n": 23,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Reducing food losses by intelligent food logistics",
+   "year": 2014
+  },
+  {
+   "id": "W2138803696",
+   "pdf_n": 31,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Food waste within food supply chains: quantification and potential for change to 2050",
+   "year": 2010
+  },
+  {
+   "id": "W2143517703",
+   "pdf_n": 30,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Detection techniques for stored-product insects in grain",
+   "year": 2005
+  },
+  {
+   "id": "W2148333466",
+   "pdf_n": 16,
+   "sim": 1.0,
+   "status": "duplicate_of_matched",
+   "title": "Food Security: The Challenge of Feeding 9 Billion People",
+   "year": 2010
+  },
+  {
+   "id": "W2152086049",
+   "pdf_n": 43,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Missing food : the case of postharvest grain losses in Sub-Saharan Africa",
+   "year": 2011
+  },
+  {
+   "id": "W2154236522",
+   "pdf_n": 35,
+   "sim": 0.4795,
+   "status": "false_reference",
+   "title": "FAO Plant Production and Protection Paper, Pesticide Residues in Food; Evaluations 1979, 560 Seiten. Food and Agriculture Organization of the United Nations, Rome 1980.",
+   "year": 1982
+  },
+  {
+   "id": "W2165200372",
+   "pdf_n": 35,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "What economic theory tells us about the impacts of reducing food losses and/or waste: implications for research, policy and practice",
+   "year": 2013
+  },
+  {
+   "id": "W2192017595",
+   "pdf_n": 40,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Drivers of food waste and their implications for sustainable policy development",
+   "year": 2015
+  },
+  {
+   "id": "W2220779474",
+   "pdf_n": 9,
+   "sim": 0.4564,
+   "status": "false_reference",
+   "title": "Comparative Influences of Precipitation and River Stage on Groundwater Levels in Near-River Areas",
+   "year": 2015
+  },
+  {
+   "id": "W2283883233",
+   "pdf_n": 5,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Wheat in National Diets",
+   "year": 1941
+  },
+  {
+   "id": "W2328751657",
+   "pdf_n": 27,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Food Losses and Waste in China and Their Implication for Water and Land",
+   "year": 2013
+  },
+  {
+   "id": "W2334347049",
+   "pdf_n": 20,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Food Surplus and Its Climate Burdens",
+   "year": 2016
+  },
+  {
+   "id": "W2399146901",
+   "pdf_n": 19,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Global food losses and food waste: extent, causes and prevention.",
+   "year": 2011
+  },
+  {
+   "id": "W2468533502",
+   "pdf_n": 18,
+   "sim": 0.9548,
+   "status": "matched",
+   "title": "The methodology of the FAO study: Global Food Losses and Food Waste - extent, causes and prevention”- FAO, 2011",
+   "year": 2013
+  },
+  {
+   "id": "W2471902605",
+   "pdf_n": 25,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Strategies to Reduce Food Loss in the Global South",
+   "year": 2016
+  },
+  {
+   "id": "W2477432668",
+   "pdf_n": 32,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "A half-century of production-phase greenhouse gas emissions from food loss & waste in the global food supply chain",
+   "year": 2016
+  },
+  {
+   "id": "W2477707054",
+   "pdf_n": 16,
+   "sim": 0.7059,
+   "status": "matched",
+   "title": "The Challenge of Food Security",
+   "year": 2012
+  },
+  {
+   "id": "W2502317260",
+   "pdf_n": 37,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Reducing Food Loss and Waste to Enhance Food Security and Environmental Sustainability",
+   "year": 2016
+  },
+  {
+   "id": "W2553929651",
+   "pdf_n": 38,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Value‐Adding Practices in Food Supply Chain: Evidence from Indian Food Industry",
+   "year": 2016
+  },
+  {
+   "id": "W2563596701",
+   "pdf_n": 9,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Food losses and waste: Navigating the inconsistencies",
+   "year": 2016
+  },
+  {
+   "id": "W2608295428",
+   "pdf_n": 39,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Review: Food loss and waste in Sub-Saharan Africa",
+   "year": 2017
+  },
+  {
+   "id": "W2962083712",
+   "pdf_n": 28,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Using the waste Kuznet's curve to explore regional variation in the decoupling of waste generation and socioeconomic indicators",
+   "year": 2019
+  },
+  {
+   "id": "W3012084716",
+   "pdf_n": 45,
+   "sim": 0.9636,
+   "status": "matched",
+   "title": "Food Loss and Waste Accounting and Reporting Standard",
+   "year": 2016
+  },
+  {
+   "id": "W3013687609",
+   "pdf_n": 15,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Reducing Food Loss and Waste",
+   "year": 2013
+  },
+  {
+   "id": "W3124620120",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W3127473765",
+   "pdf_n": 36,
+   "sim": 0.8296,
+   "status": "false_reference",
+   "title": "Background paper on the economics of food loss and waste",
+   "year": 2014
+  },
+  {
+   "id": "W3144944579",
+   "pdf_n": 34,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Returns to Investment in Reducing Postharvest Food Losses and Increasing Agricultural Productivity Growth",
+   "year": 2016
+  },
+  {
+   "id": "W4200078537",
+   "pdf_n": 12,
+   "sim": 0.9815,
+   "status": "matched",
+   "title": "World Food and Agriculture - Statistical Pocketbook 2021",
+   "year": 2021
+  },
+  {
+   "id": "W4328001292",
+   "pdf_n": 42,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "How Relevant Is Malthus for Economic Development Today?",
+   "year": 2009
+  },
+  {
+   "id": "W608138743",
+   "pdf_n": 6,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Agriculture biomass in India: Part 2. Post-harvest losses, cost and environmental impacts",
+   "year": 2015
+  },
+  {
+   "id": "W6639376858",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W6695927482",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W6720278522",
+   "pdf_n": null,
+   "sim": null,
+   "status": "stub",
+   "title": null,
+   "year": null
+  },
+  {
+   "id": "W862881128",
+   "pdf_n": 7,
+   "sim": 1.0,
+   "status": "matched",
+   "title": "Agriculture biomass in India: Part 1. Estimation and characterization",
+   "year": 2015
+  }
+ ],
+ "pdf_refs": [
+  {
+   "n": 1,
+   "openalex_id": "W2129920143",
+   "status": "matched"
+  },
+  {
+   "n": 2,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 3,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 4,
+   "openalex_id": "W2021202145",
+   "status": "matched"
+  },
+  {
+   "n": 5,
+   "openalex_id": "W2283883233",
+   "status": "matched"
+  },
+  {
+   "n": 6,
+   "openalex_id": "W608138743",
+   "status": "matched"
+  },
+  {
+   "n": 7,
+   "openalex_id": "W862881128",
+   "status": "matched"
+  },
+  {
+   "n": 8,
+   "openalex_id": "W1593746558",
+   "status": "matched"
+  },
+  {
+   "n": 9,
+   "openalex_id": "W2563596701",
+   "status": "matched"
+  },
+  {
+   "n": 10,
+   "openalex_id": "W1976386631",
+   "status": "matched"
+  },
+  {
+   "n": 11,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 12,
+   "openalex_id": "W4200078537",
+   "status": "matched"
+  },
+  {
+   "n": 13,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 14,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 15,
+   "openalex_id": "W3013687609",
+   "status": "matched"
+  },
+  {
+   "n": 16,
+   "openalex_id": "W2477707054",
+   "status": "matched"
+  },
+  {
+   "n": 17,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 18,
+   "openalex_id": "W2468533502",
+   "status": "matched"
+  },
+  {
+   "n": 19,
+   "openalex_id": "W2399146901",
+   "status": "matched"
+  },
+  {
+   "n": 20,
+   "openalex_id": "W2334347049",
+   "status": "matched"
+  },
+  {
+   "n": 21,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 22,
+   "openalex_id": "W2037349743",
+   "status": "matched"
+  },
+  {
+   "n": 23,
+   "openalex_id": "W2133852638",
+   "status": "matched"
+  },
+  {
+   "n": 24,
+   "openalex_id": "W1983259037",
+   "status": "matched"
+  },
+  {
+   "n": 25,
+   "openalex_id": "W2471902605",
+   "status": "matched"
+  },
+  {
+   "n": 26,
+   "openalex_id": "W2072377819",
+   "status": "matched"
+  },
+  {
+   "n": 27,
+   "openalex_id": "W2328751657",
+   "status": "matched"
+  },
+  {
+   "n": 28,
+   "openalex_id": "W2962083712",
+   "status": "matched"
+  },
+  {
+   "n": 29,
+   "openalex_id": "W1887601576",
+   "status": "matched"
+  },
+  {
+   "n": 30,
+   "openalex_id": "W2143517703",
+   "status": "matched"
+  },
+  {
+   "n": 31,
+   "openalex_id": "W2138803696",
+   "status": "matched"
+  },
+  {
+   "n": 32,
+   "openalex_id": "W2477432668",
+   "status": "matched"
+  },
+  {
+   "n": 33,
+   "openalex_id": "W2004244248",
+   "status": "matched"
+  },
+  {
+   "n": 34,
+   "openalex_id": "W3144944579",
+   "status": "matched"
+  },
+  {
+   "n": 35,
+   "openalex_id": "W2165200372",
+   "status": "matched"
+  },
+  {
+   "n": 36,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 37,
+   "openalex_id": "W2502317260",
+   "status": "matched"
+  },
+  {
+   "n": 38,
+   "openalex_id": "W2553929651",
+   "status": "matched"
+  },
+  {
+   "n": 39,
+   "openalex_id": "W2608295428",
+   "status": "matched"
+  },
+  {
+   "n": 40,
+   "openalex_id": "W2192017595",
+   "status": "matched"
+  },
+  {
+   "n": 41,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 42,
+   "openalex_id": "W4328001292",
+   "status": "matched"
+  },
+  {
+   "n": 43,
+   "openalex_id": "W2152086049",
+   "status": "matched"
+  },
+  {
+   "n": 44,
+   "openalex_id": null,
+   "status": "unresolvable"
+  },
+  {
+   "n": 45,
+   "openalex_id": "W3012084716",
+   "status": "matched"
+  }
+ ],
+ "r_valid": [
+  "W1593746558",
+  "W1887601576",
+  "W1976386631",
+  "W1983259037",
+  "W2004244248",
+  "W2021202145",
+  "W2037349743",
+  "W2072377819",
+  "W2129920143",
+  "W2133852638",
+  "W2138803696",
+  "W2143517703",
+  "W2152086049",
+  "W2165200372",
+  "W2192017595",
+  "W2283883233",
+  "W2328751657",
+  "W2334347049",
+  "W2399146901",
+  "W2468533502",
+  "W2471902605",
+  "W2477432668",
+  "W2477707054",
+  "W2502317260",
+  "W2553929651",
+  "W2563596701",
+  "W2608295428",
+  "W2962083712",
+  "W3012084716",
+  "W3013687609",
+  "W3144944579",
+  "W4200078537",
+  "W4328001292",
+  "W608138743",
+  "W862881128"
+ ],
+ "requests": {
+  "cache_hits": 15,
+  "network": 4,
+  "none_responses": 4,
+  "total": 19
+ },
+ "snapshot_date": "2026-09-04",
+ "unresolvable": [
+  {
+   "authors": "Aldred, D.",
+   "doi": null,
+   "n": 2,
+   "title": "Urbanization: a major driver of infrastructure spending",
+   "year": 2012
+  },
+  {
+   "authors": "AMIS",
+   "doi": null,
+   "n": 3,
+   "title": "AMIS - Agricultural Market Information System [WWW Document]",
+   "year": 2018
+  },
+  {
+   "authors": "FAO",
+   "doi": null,
+   "n": 11,
+   "title": "Food balance sheets - A handbook",
+   "year": 2001
+  },
+  {
+   "authors": "FAO",
+   "doi": null,
+   "n": 13,
+   "title": "INPhO - Information on post-harvest operations [WWW Document]",
+   "year": 2018
+  },
+  {
+   "authors": "FAOSTAT",
+   "doi": null,
+   "n": 14,
+   "title": "FAO database for food and agriculture [WWW Document]",
+   "year": 2017
+  },
+  {
+   "authors": "Green, W.",
+   "doi": null,
+   "n": 17,
+   "title": "Econometric Analysis",
+   "year": 2000
+  },
+  {
+   "authors": "HLPE",
+   "doi": null,
+   "n": 21,
+   "title": "Food losses and waste in the context of sustainable food systems, A report by the High Level Panel of Experts on Food Security and Nutrition of the Committee on World Food Security",
+   "year": 2014
+  },
+  {
+   "authors": "Segrè, A., Falasconi, L., Politano, A., Vittuari, M.",
+   "doi": null,
+   "n": 36,
+   "title": "Background paper on the economics of food loss and waste (unedited working paper)",
+   "year": 2014
+  },
+  {
+   "authors": "UNESCO",
+   "doi": null,
+   "n": 41,
+   "title": "UNESCO Institute for Statistics data base",
+   "year": 2017
+  },
+  {
+   "authors": "World Bank",
+   "doi": null,
+   "n": 44,
+   "title": "World Bank Open Data",
+   "year": 2017
+  }
+ ]
+}
