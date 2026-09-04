@@ -234,3 +234,30 @@ Removidos os 32, o denominador de artigos de periódico é **115**, dos quais **
 têm quartil**. Duas exceções merecem nota: `Cleaner Food Systems` e `Journal of the Air
 Transport Research Society` são periódicos lançados recentemente demais para constar na
 edição 2025 — ausência por idade, não por qualidade.
+
+## Cobertura de evidência dentro da população com quartil
+
+Dos 98 artigos de periódico com quartil Scimago:
+
+| Quartil | Total | Com trecho literal | Fantasma verificado | Falta | % com trecho |
+|---|---|---|---|---|---|
+| Q1 | 69 | 58 | 5 | 6 | 84% |
+| Q2 | 16 | 9 | 0 | 6 | 56% |
+| Q3 | 8 | 5 | 1 | 2 | 62% |
+| Q4 | 5 | 1 | 0 | 4 | 20% |
+| **Total** | **98** | **73** | **6** | **19** | **74%** |
+
+Somando trecho literal e fantasma verificado — os dois são evidência, apenas de tipos
+diferentes — a cobertura é de **79 em 98, 81%**. Por artigo: aviação 42 de 50 com
+trecho (84%), grãos 31 de 48 (65%).
+
+**A cobertura é maior justamente em Q1.** Isso não foi desenho: é efeito colateral de o
+Elsevier, que concentra os Q1 das duas áreas, ter liberado texto completo pelo acesso
+institucional, enquanto Emerald e Wiley não liberaram. O viés resultante é favorável à
+análise — a evidência é mais densa onde o impacto importa mais — mas precisa ser
+declarado, porque significa que as estatísticas de Q4 se apoiam em 1 observação e não
+sustentam comparação entre quartis.
+
+Os 19 que faltam concentram-se em Emerald (4), Wiley (4), Inderscience (3), Springer
+(2) e um em cada de Taylor & Francis, De Gruyter, Hindawi e outros — todos bloqueados
+por assinatura ausente ou verificação anti-bot, não por falha de método.
