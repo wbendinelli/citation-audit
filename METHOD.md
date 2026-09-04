@@ -1,12 +1,13 @@
 # Método de auditoria de citações
 
 Codebook v1 — 2026-09-04
+Codebook v2 — 2026-09-04
 
 Avaliar **a qualidade de cada citação recebida**, não a contagem. A pergunta não é
 "quantos me citaram", é "quem me usou de verdade, quem me citou de passagem, e quem
 me citou errado".
 
-As seções abaixo são numeradas `§1`…`§15`, em ordem fixa. **O número de uma seção é
+As seções abaixo são numeradas `§1`…`§17`, em ordem fixa. **O número de uma seção é
 contrato** — README.md e outros documentos apontam para ele — e nunca muda depois de
 publicado; renomear o título de uma seção é livre, renumerar não é.
 
@@ -338,3 +339,281 @@ artigo de grãos).
 `1.4772***` — os sinais são o ponto do artigo, e um script que rode `pdftotext` direto
 sobre esse PDF, sem a correção de glifo já aplicada em `source_text/airline.txt`, lê os
 coeficientes ao contrário.
+
+## §16 — Taxonomia v2: três eixos ortogonais
+
+**Por quê.** O `role` de sete valores do §1 funcionou, mas misturava três perguntas
+diferentes num único rótulo: *o artigo aparece no corpo?*, *quanto ele importou?* e
+*o citante disse a verdade sobre ele?* — `wrongly_interpreted`, por exemplo, é o
+mesmo nível de menção que `brief_mention` mais um erro de exatidão, só que sem
+maneira de separar as duas coisas depois de classificado. A literatura de *citation
+function analysis* trata essas perguntas como eixos independentes (Moravcsik &
+Murugesan, 1975; Teufel, Siddharthan & Tidhar, 2006; Jurgens et al., 2018; Cohan et
+al., 2019 — SciCite) e as mede com estatísticas diferentes porque são constructos
+diferentes: profundidade é uma escala com ordem, e a literatura de concordância entre
+codificadores recomenda o α ordinal de Krippendorff para ela (Krippendorff, 2011);
+postura e exatidão são nominais, e usam κ de Cohen (1960) acompanhado de PABAK (Byrt,
+Bishop & Carlin, 1993) e da prevalência por categoria, porque κ é sensível a
+prevalência e viés — o "paradoxo do kappa" (Feinstein & Cicchetti, 1990). Um único
+`role` misto tornava qualquer uma dessas estatísticas mal-definida. O v2 separa os
+eixos para que cada um seja julgado, e medido, sozinho — ver §17.
+
+A migração de v1 para v2 é `audit_60_taxonomy_v2.py` (fase 60); a taxonomia completa,
+o crosswalk e as regras de migração vivem também em `data/taxonomy_v2.json`, gerado
+pelo mesmo script — as tabelas abaixo são a renderização em prosa desse arquivo.
+
+### Eixo 1 — PRESENCE: onde o artigo aparece no citante
+
+| Valor | Significado |
+|---|---|
+| `in_text` | O artigo é mencionado no corpo do texto — inclusive dentro de um bloco de citações numéricas como `[5,21,22,23]` ou de um parêntese com várias fontes |
+| `reference_list_only` | Consta na lista de referências, sem nenhuma menção no corpo. Exige corpo completo verificado (portão 3, §4) |
+| `not_cited` | Não aparece nem no corpo nem na lista de referências — aresta falsa do grafo de citações |
+
+### Eixo 2 — DEPTH: quanto o artigo importou para quem citou (ordinal)
+
+Só se aplica quando `presence = in_text`; caso contrário fica `null`.
+
+| Nível | Valor | Significado |
+|---|---|---|
+| 1 | `drive_by` | Citação em bloco, afirmação genérica, sem uso próprio |
+| 2 | `brief_mention` | Uma afirmação específica é atribuída ao artigo |
+| 3 | `real_mention` | O artigo é descrito com seu conteúdo real |
+| 4 | `supporting` | O artigo sustenta parte do argumento ou do desenho do citante |
+| 5 | `foundational` | O citante constrói sobre o artigo, ou o identifica como referência única |
+
+A profundidade é julgada pelo que o citante FAZ com o artigo, não pela exatidão do que
+diz dele. Uma citação que atribui ao artigo uma afirmação específica errada continua
+sendo `brief_mention` (nível 2) neste eixo e recebe o erro no eixo de exatidão — no v1
+esse caso era o `role` `wrongly_interpreted`, que misturava os dois eixos (ver R3
+abaixo).
+
+### Eixo 3 — STANCE: postura do citante
+
+`supporting` · `contradictory` · `none` — inalterado em relação ao §1.
+
+### Eixo 4 — ACCURACY: o citante diz o que o artigo diz?
+
+Só se aplica quando `presence = in_text`; caso contrário fica `null`. Compare o que a
+passagem atribui ao artigo com o resumo original e com o registro de afirmações
+(§15).
+
+| Valor | Significado |
+|---|---|
+| `accurate` | O que é atribuído ao artigo corresponde ao que ele diz |
+| `imprecise` | Leitura discutível, frouxa ou ampliada, mas não demonstravelmente falsa — um dado de outro país, uma generalização além do escopo, um achado lido numa direção que o artigo não afirma com clareza (no v1: flag `weak`) |
+| `misrepresented` | O artigo é citado para algo que ele não diz — objeto, método ou achado errado (no v1: `wrongly_interpreted` / `misattribution`) |
+
+**Sub-código DISTORTION** (Greenberg, 2009, *BMJ* 339:b2680), obrigatório quando
+`accuracy != accurate` e `null` quando `accurate`:
+
+| Valor | Significado |
+|---|---|
+| `dead_end` | O artigo é usado para sustentar uma afirmação sobre a qual ele não tem conteúdo relevante |
+| `diversion` | O conteúdo do artigo é citado, mas com significado diferente do original |
+| `transmutation` | Uma hipótese, conjectura ou limitação do artigo vira fato estabelecido na citação |
+| `relayed_attribution` | O citante atribui ao artigo, como achado próprio, algo que o artigo apenas repassa de terceiros (afirmações marcadas REPASSADO em `data/claims/claims.json`, §15) |
+
+Na migração v1 → v2, `distortion` nasce sempre `null` (rule R0) — é atribuído depois,
+no mapeamento de passagens contra `data/claims/claims.json` (`audit_63_claim_map.py`,
+ROADMAP.md), não pela migração automática.
+
+### Eixo 5 — REUSE: reuso efetivo (multi-rótulo)
+
+`method_adoption` · `result_validated` · `dataset_reuse` · `benchmarking` ·
+`work_extended` — inalterado em relação ao §1, exceto que agora convive com `depth`
+em vez de substituí-lo: um `method_adoption` normalmente implica `depth >= supporting`
+(o citante mudaria de desenho se o artigo não existisse), mas os dois eixos são
+julgados em separado.
+
+### Campos auxiliares (fora das estatísticas primárias)
+
+Três campos não são eixos de função de citação — são metadados de registro ou
+decisão editorial:
+
+| Campo | Valores | O que é |
+|---|---|---|
+| `relation` | `independent` · `coauthor` · `self` | Vínculo de autoria entre citante e citado — ver §5. `coauthor`/`self` ficam fora do indicador de reuso metodológico externo |
+| `record_flags` | lista ⊆ `{duplicate_publication}` | Sinal do **registro** (mesma obra publicada duas vezes — ver §14), não da citação em si |
+| `highlight` | `none` · `good` · `best` | Realce editorial (citação notável para a prosa do relatório) — não entra em nenhuma estatística de concordância ou cobertura |
+
+### Regras de migração (v1 → v2)
+
+`audit_60_taxonomy_v2.py` aplica estas regras, na ordem R1–R9 (R0 é o caso-padrão,
+aplicado depois das que casarem); a coluna "Então" descreve só o que a regra muda —
+os demais campos seguem R0:
+
+| Regra | Quando (v1) | Então (v2) |
+|---|---|---|
+| R1 | role == bibliography_only (flag ghost é absorvida) | presence = reference_list_only; depth = null; accuracy = null |
+| R2 | role não é bibliography_only nem wrongly_interpreted | presence = in_text; depth = role |
+| R3 | role == wrongly_interpreted | presence = in_text; accuracy = misrepresented; depth = brief_mention com prov.depth_basis = migration_rule_R3 |
+| R4 | flag == weak | accuracy = imprecise |
+| R5 | flag == misattribution | accuracy = misrepresented (conjunto R5 tem de ser igual ao conjunto R3) |
+| R6 | flag in {coautor, autocitacao} | relation = coauthor \| self |
+| R7 | flag == duplicate | record_flags = [duplicate_publication] |
+| R8 | flag in {good, best} | highlight = flag |
+| R9 | flag == critical | descartada — 100% redundante com stance == contradictory (verificado na migração) |
+| R0 | padrão | accuracy = accurate para in_text não tocado por R3/R4/R5; relation = independent; record_flags = []; highlight = none; distortion = null; claims = [] |
+
+### Garantia de round-trip (sem perda)
+
+A migração só é aceita se for reversível. Para cada entrada, a projeção inversa
+`auditlib.role_flag_v1()` reconstrói o par `(role, flag)` do v1 a partir dos eixos v2,
+com a mesma prioridade de flag observada nos dados originais quando mais de um eixo
+poderia gerar uma flag: `ghost` > `misattribution` > `weak` > `duplicate` >
+`coautor`/`autocitacao` > `best` > `good` > `critical` > nenhuma. O script confere essa
+reconstrução para todas as entradas — vivas e órfãs — e **aborta antes de gravar** se
+qualquer uma divergir. Na migração de 2026-09-04: round-trip OK em 105/105 entradas
+(104 vivas de `data/classify.json` + 1 órfã de `data/classify_orfas.json`); duas
+verificações de redundância adicionais também bateram 100%: `flag = ghost` ⟺
+`role = bibliography_only` (regra R1), e `flag = critical` ⟺ `stance = contradictory`
+(regra R9 — por isso `critical` não vira campo v2 próprio, é só a projeção de
+`stance` de volta ao v1).
+
+### Crosswalk contra os esquemas publicados
+
+Cada valor de eixo, contra os esquemas de função de citação mais citados na
+literatura. "—" é ausência de equivalente (o esquema não distingue esse caso, ou o
+eixo é específico desta auditoria — presença, exatidão e vínculo de autoria não
+aparecem nos esquemas de função clássicos, que assumem que toda citação está no
+corpo e é fiel ao que cita).
+
+| Eixo | Valor | Moravcsik & Murugesan 1975 | Teufel 2006 | Jurgens et al. 2018 | SciCite (Cohan et al. 2019) | Valenzuela et al. 2015 | CiTO | Nota |
+|---|---|---|---|---|---|---|---|---|
+| `presence` | `in_text` | — | — | — | — | — | — | fora dos esquemas de função; base de comparação: Boyack et al. 2018 (menções no corpo) |
+| `presence` | `reference_list_only` | — | — | — | — | — | — | Boyack et al. 2018: referência não mencionada no corpo (1,4% no corpus Elsevier) |
+| `presence` | `not_cited` | — | — | — | — | — | — | aresta falsa do grafo de citações; sem equivalente |
+| `depth` | `drive_by` | `perfunctory` | `Neut` | `Background` | `background` | `incidental` | `citesForInformation` |  |
+| `depth` | `brief_mention` | `perfunctory` | `Neut` · `PMot` | `Background` | `background` | `incidental` | `citesAsAuthority` |  |
+| `depth` | `real_mention` | `organic` | `PMot` · `PSim` | `Background` · `Motivation` | `background` | `incidental` | `describes` |  |
+| `depth` | `supporting` | `organic` | `PBas` · `PUse` · `PSup` | `Uses` · `Motivation` | `method` · `background` | `important` | `usesMethodIn` · `citesAsEvidence` | SciCite: method quando há reuso metodológico, background quando só sustenta argumento |
+| `depth` | `foundational` | `organic` · `evolutionary` | `PBas` · `PModi` | `Extends` · `Uses` | `method` · `result` | `important` | `extends` |  |
+| `stance` | `supporting` | `confirmative` | `PSup` | — | `result` | — | `supports` |  |
+| `stance` | `contradictory` | `negational` | `CoCo-` · `Weak` | `CompareOrContrast` | `result` | — | `disagreesWith` |  |
+| `stance` | `none` | — | `Neut` | — | — | — | — | sem postura declarada; equivale ao Neut de Teufel quando não há PMot/PSup |
+| `accuracy` | `accurate` | — | — | — | — | — | — | eixo de veridicidade — fora dos esquemas de função (Jergas & Baethge 2015) |
+| `accuracy` | `imprecise` | — | — | — | — | — | — | erro menor de citação (Jergas & Baethge 2015, categoria minor) |
+| `accuracy` | `misrepresented` | — | — | — | — | — | — | erro maior de citação; sub-códigos de Greenberg 2009 em `distortion` |
+| `distortion` | `dead_end` | — | — | — | — | — | — | Greenberg 2009: dead-end citation — a fonte não tem conteúdo relevante para a afirmação |
+| `distortion` | `diversion` | — | — | — | — | — | — | Greenberg 2009: citation diversion — conteúdo citado com significado diferente |
+| `distortion` | `transmutation` | — | — | — | — | — | — | Greenberg 2009: citation transmutation — hipótese vira fato pela citação |
+| `distortion` | `relayed_attribution` | — | — | — | — | — | — | extensão local: atribui ao artigo, como achado próprio, o que ele repassa de terceiros |
+| `reuse` | `method_adoption` | `organic` | `PUse` | `Uses` | `method` | `important` | `usesMethodIn` |  |
+| `reuse` | `result_validated` | `organic` · `confirmative` | `PSup` · `CoCoR0` | `CompareOrContrast` | `result` | `important` | `confirms` |  |
+| `reuse` | `dataset_reuse` | `organic` | `PUse` | `Uses` | `method` | `important` | `usesDataFrom` |  |
+| `reuse` | `benchmarking` | `organic` | `CoCoR0` | `CompareOrContrast` | `result` | `important` | `citesAsRelated` |  |
+| `reuse` | `work_extended` | `organic` · `evolutionary` | `PBas` · `PModi` | `Extends` | `method` | `important` | `extends` |  |
+| `relation` | `coauthor` | — | — | — | — | — | — | citação de coautor — literatura de autocitação, fora dos esquemas de função |
+| `relation` | `self` | — | — | — | — | — | — | autocitação |
+
+Fontes: Moravcsik, M. J. & Murugesan, P. (1975), "Some Results on the Function and
+Quality of Citations", *Social Studies of Science* 5(1); Teufel, S., Siddharthan, A. &
+Tidhar, D. (2006), "Automatic Classification of Citation Function", *EMNLP*; Jurgens,
+D., Kumar, S., Hoover, R., McFarland, D. & Jurafsky, D. (2018), "Measuring the
+Evolution of a Scientific Field through Citation Frames", *TACL* 6; Cohan, A., Ammar,
+W., van Zuylen, M. & Cady, F. (2019), "Structural Scaffolds for Citation Intent
+Classification in Scientific Publications" (SciCite), *NAACL*; Valenzuela, M., Ha, V.
+& Etzioni, O. (2015), "Identifying Meaningful Citations", *AAAI Workshop on Scholarly
+Big Data*; CiTO — Peroni, S. & Shotton, D. (2012), "FaBiO and CiTO: ontologies for
+describing bibliographic resources and citations", *Journal of Web Semantics* 17;
+Greenberg, S. A. (2009), "How citation distortions create unfounded authority:
+analysis of a citation network", *BMJ* 339:b2680; Jergas, H. & Baethge, C. (2015),
+"Quotation accuracy in medical journal articles — a systematic review and
+meta-analysis", *PeerJ* 3:e1364; Boyack, K. W. et al. (2018), "Characterizing in-text
+citations in scientific articles: A large-scale analysis", *Journal of Informetrics*
+12(1).
+
+## §17 — Confiabilidade entre codificadores (protocolo)
+
+O codebook v2 (§16) só serve se codificadores independentes chegarem perto do mesmo
+veredito a partir da mesma passagem. Este protocolo descreve o desenho do teste cego;
+a seção de resultados abaixo é preenchida por `audit_62_irr_stats.py` depois que a
+coleta terminar — nada aqui é resultado, é o desenho do experimento.
+
+### Desenho do pacote cego
+
+`audit_61_irr_pack.py` (fase 60) monta o pacote a partir do `data/classify.json` já
+migrado para v2:
+
+- **Cobertura total.** As 104 entradas vivas — não uma amostra — mais 10 delas
+  duplicadas sob um segundo `item_id`, como sonda de consistência intra-codificador
+  (mesmo item, dois ids diferentes; o codificador não sabe que é repetido).
+  114 itens no total.
+- **4 lotes**, embaralhados com semente fixa (`20260904`); a duplicata de um item
+  cai sempre num lote diferente do original.
+- **Identidade apagada.** `item_id` é opaco (`IRR-xxxx`, 4 hex de
+  `sha256(semente+doi[+sufixo])`); cada item carrega só `paper` (`airline`/`grains`),
+  `citing_title`, as `passages` (com o DOI e o veículo do próprio citante apagados de
+  dentro do texto) e o estilo de citação inferido (`numeric`/`author_year`). DOI,
+  veículo, ano, nota, e qualquer rótulo v1 ou v2 (`role`, `flag`, `presence` … até
+  `highlight`) ficam de fora — a lista completa de campos proibidos é conferida por
+  `audit_61_irr_pack.py --audit`, que sai com código 1 se achar padrão de DOI, o
+  veículo do próprio citante, ano colado a "et al." no título, ou palavra de rótulo
+  (`ghost`, `fantasma`, `misattribution`, `foundational`, `drive_by`) fora das
+  passagens.
+- **`relation`, `record_flags` e `highlight` não entram no teste cego** — exigem
+  metadados de autoria ou são editoriais (§16), não julgamento sobre a passagem.
+
+### Codificadores
+
+- **Codificador 1** é a classificação original já em `data/classify.json`
+  (`prov.coded_by`), projetada para o formato de rótulo do pacote — não um novo
+  julgamento.
+- **Codificador 2** (Claude Opus) e **codificador 3** (Claude Sonnet) codificam cada
+  um, cada um em um contexto novo que lê só `data/irr/instructions.md` e o lote — sem
+  acesso a este METHOD.md além do que `instructions.md` reproduz, sem a classificação
+  original, sem o PDF nem o texto completo do citante, e sem os outros lotes. A
+  cegueira é auditada a partir das transcrições dos codificadores (confirma que
+  nenhum leu além do que o pacote entrega) e do próprio pacote
+  (`audit_61_irr_pack.py --audit`).
+
+### Estatísticas por eixo
+
+`audit_62_irr_stats.py` (fase 60, `numpy`) calcula, por par de codificadores e depois
+para os três juntos:
+
+| Eixo | Estatística primária | Leitura secundária |
+|---|---|---|
+| `presence` | concordância bruta | — (determinado pela construção do pacote nos itens sem passagem, não é julgamento independente — ver `data/irr/instructions.md`) |
+| `depth` | α ordinal de Krippendorff | κ quadrático de Cohen; concordância exata; concordância "±1 nível" |
+| `depth_substantive` (`supporting`/`foundational` vs. resto — visão binária) | κ de Cohen | PABAK; AC1 de Gwet; concordância bruta |
+| `stance` | κ de Cohen | PABAK; AC1 de Gwet; concordância bruta |
+| `accuracy` | κ de Cohen | PABAK; AC1 de Gwet; concordância bruta |
+| `accuracy_misrepresented` (visão binária) | κ de Cohen | PABAK; AC1 de Gwet; concordância bruta |
+| `reuse` (multi-rótulo) | Jaccard médio | κ por tag (`method_adoption`, …) |
+
+IC95% por bootstrap percentílico sobre os itens (B = 2000, semente fixa). Com os três
+codificadores presentes, α de Krippendorff multi-codificador é calculado também para
+`presence`/`depth`/`stance`/`accuracy` juntos, não só par a par. A concordância
+intra-codificador usa os 10 pares duplicados: proporção idêntica em todos os eixos, e
+concordância eixo a eixo.
+
+### Exclusão dos exemplares do codebook
+
+Os 7 casos de fronteira nomeados no §6 (e marcados `codebook_exemplar: true` em
+`data/classify.json` pela migração) são o material de treino do próprio codebook —
+um codificador que já leu o §6 tem vantagem neles que não tem no resto do pacote.
+Por isso ficam de fora das estatísticas **primárias** e entram só num bloco
+`sensitivity_with_exemplars` à parte, para checar se incluí-los muda o quadro.
+
+### Inferência com poder de predição (PPI)
+
+`audit_62_irr_stats.py` também implementa PPI (Angelopoulos, Bates, Fannjiang, Jordan
+& Zrnic, 2023, "Prediction-Powered Inference") para estimar taxas do estudo inteiro
+(por exemplo, a proporção de citações `foundational`/`supporting`, ou a proporção
+`misrepresented`) combinando um rótulo barato disponível em **todos** os itens
+(`f(Ŷ)` — `--c1`, a classificação já existente) com um rótulo independente só num
+subconjunto (`--human`), produzindo um intervalo de confiança mais eficiente que
+confiar só no subconjunto pequeno e mais válido que confiar ingenuamente no rótulo
+barato sobre tudo. O λ de *power tuning* do PPI++ (Angelopoulos, Duchi & Zrnic, 2023)
+ajusta o peso do rótulo barato conforme a correlação observada com o independente,
+recortado a `[0, 1]`. É recurso geral do script, para quando a relabelagem
+independente cobrir menos que o pacote inteiro — nesta rodada, `c2`/`c3` recodificam
+os 114 itens completos, então a leitura principal são as estatísticas par a par
+acima; o PPI fica disponível para rodadas futuras com cobertura parcial.
+
+### Resultados
+
+*(preenchido por `audit_62_irr_stats.py` quando a coleta dos três codificadores
+terminar — ver ROADMAP.md.)*

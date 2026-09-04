@@ -36,6 +36,20 @@ citado aqui ficaria órfão no dia seguinte.
   (já pinado em `requirements.txt`, antes reservado só à fase 81) para as
   estatísticas de concordância entre codificadores — fases 10–50 e 70–80
   continuam stdlib + `pdftotext`.
+- **METHOD.md §16–§17.** §16 documenta os cinco eixos do codebook v2, os
+  campos auxiliares (`relation`/`record_flags`/`highlight`), as regras de
+  migração R1–R9, a garantia de round-trip (105/105) e o crosswalk contra
+  Moravcsik & Murugesan 1975, Teufel 2006, Jurgens et al. 2018, SciCite 2019,
+  Valenzuela et al. 2015 e CiTO. §17 registra o protocolo do teste cego de
+  confiabilidade entre codificadores: pacote com as 104 entradas vivas + 10
+  duplicadas como sonda intra-codificador, 4 lotes, identidade apagada
+  (`audit_61_irr_pack.py`), segundo codificador (Opus) e terceiro (Sonnet)
+  cada um em contexto novo lendo só o pacote, estatística por eixo (α
+  ordinal de Krippendorff para `depth`; κ de Cohen + PABAK + AC1 de Gwet
+  para os eixos nominais; Jaccard para `reuse`), exclusão dos 7 exemplares
+  do codebook das estatísticas primárias, e inferência com poder de
+  predição (PPI/PPI++). Resultados ainda pendentes — preenchidos por
+  `audit_62_irr_stats.py` quando a coleta terminar.
 
 ## 2026-09-04 — reorganização SAPIANS
 
