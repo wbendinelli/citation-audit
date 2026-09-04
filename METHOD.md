@@ -60,3 +60,26 @@ Isso torna as métricas honestas: elas são sempre "entre as citações que deu 
 | Metadados | OpenAlex, Crossref |
 
 Todas gratuitas e sem autenticação.
+
+## Portões de integridade
+
+Três verificações automáticas impedem que a auditoria produza conclusões falsas.
+Todas foram acrescentadas depois de detectarem erro real nos dados.
+
+**1. O texto tem de ser do artigo certo.** O arquivo baixado precisa conter o próprio
+título do registro. Cinco arquivos falharam nesse teste — eram de outro artigo, por
+colisão de nome durante o re-arquivamento. Teriam contaminado a classificação.
+
+**2. Página de rosto não é texto completo.** Documento curto sem o sobrenome citado é
+abstract, não artigo. Marcado como parcial e fora de toda contagem.
+
+**3. "Só na bibliografia" exige o corpo do artigo.** Páginas de rosto de publisher
+(Springer, Wiley) exibem a lista de referências inteira sem o corpo. Encontrar o
+sobrenome só na bibliografia desses documentos **não** prova citação-fantasma — prova
+apenas que o corpo não foi obtido. O veredito de fantasma só vale com corpo comprovado.
+Esse portão derrubou 8 falsos positivos e confirmou 6 fantasmas legítimos.
+
+## Autocitação e citação de coautor
+
+Marcadas explicitamente e excluídas do indicador de reuso metodológico externo.
+Uma citação assinada por coautor do artigo citado não mede alcance independente.

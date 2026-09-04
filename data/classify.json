@@ -351,5 +351,140 @@
   "passages": [
    "From the airport's point of view, the main study object is how delays are propagated in the airport network [1,10,11,12,13]."
   ]
+ },
+ "10.5281/zenodo.17506763": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "coautor",
+  "note": "Resume corretamente o achado de internalização de custo de atraso pela presença de LCC. Assinado por Alessandro V. M. Oliveira, coautor do artigo citado. É o gêmeo em inglês de airline_010.",
+  "passages": [
+   "assic literature on the effects of LCCs on fares. In addition to price impacts, as highlighted by Porter (2008), the presence of a competitor can compel existing companies to modify their operations or even their business strategies—a hypothesis that has also been tested in recent aviation research. Sun (2015) found that the presence of LCCs on a route increases the differentiation of aircraft departure times as airlines seek to avoid direct competition or peak hours while offering a more differentiated product to passengers. Along similar lines, Mohammadian et al. (2019) reported that competing airlines also adjust the type of aircraft used and the frequency of flights operated on a route. Bendinelli et al. (2016) presented results suggesting that the presence of an LCC may lead incumbent airlines to internalize delay costs. Regarding the impacts on the operations and strategies of incumbent airlines, Pearson et al. (2015) conducted an exploratory study in the Asian market to assess the strategic capacity of traditional airlines to compete with the growing number of LCCs in the region. They concluded that Northeast Asia is the area where airlines are least prepared to face competition from low-cost carriers, and therefore network carriers in this region should strengthen their strategic capacity @ 2024 Center for Airline Economics, Brazil. 2 both to improve responsiveness to LCCs an"
+  ]
+ },
+ "10.5281/zenodo.10671654": {
+  "role": "foundational",
+  "stance": "supporting",
+  "reuse": [
+   "work_extended"
+  ],
+  "flag": "autocitacao",
+  "note": "Autocitação: o trabalho é assinado por você e Oliveira, e estende diretamente o artigo de 2016.",
+  "passages": [
+   "Determinantes concorrenciais dos atrasos dos voos no aeroporto e na rota William Eduardo Bendinelli Alessandro V. M. Oliveira Instituto Tecnológico de Aeronáutica, São José dos Campos, Brasil  Autor correspondente. Instituto Tecnológico de Aeronáutica. Praça Marechal Eduardo Gomes, 50. 12.280-250 - São José dos Campos, SP - Brasil. E-mail: alessandro@ita.br. Resumo: Atrasos de voos são uma realidade na indústria aérea moderna no mundo todo. Entretanto, os estudos da literatura têm investigado os determinantes concorrenciais dos atrasos advindos de fatores originários no aeroporto e na rota de forma separada. Este trabalho tem como objetivo apresentar um estudo nacional que utilizou uma abordagem unificadora da literatura, considerando os efeitos locais e globais da concorrência sobre o",
+   "potencial para congestionamento em alguns períodos, mas é passível de resolução por meio de cooperação voluntária entre as companhias aéreas (sinal amarelo). Um schedules facilitator é designado para auxiliar nesse processo. Finalmente, o aeroporto Nível 3 (ou Coordinated Airport) apresenta elevado nível de congestionamento, tal que a demanda pela infraestrutura do aeroporto excede a capacidade nos períodos relevantes, mas as tentativas de solução de problemas operacionais (atrasos, cancelamentos) por cooperação voluntária, no Nível 2, falharam, sendo designado um Slot Coordinator independente. III. CASO DOS AEROPORTOS BRASILEIROS Para aplicação da teoria e das hipóteses acima discutidas, Bendinelli, Bettini e Oliveira (2016) investigam o problema com o objetivo de melhor entender o atrasos de voos na indústria aérea brasileira. Outro estudo que trata do tema, mas considerando o papel dos slots aeroportuários, é Miranda e Oliveira (2018) No Brasil, atrasos de empresas aéreas têm sido discutidos há tempos, mas nenhuma tarifa de congestionamento foi implementada até o momento. Em 2008, três dos aeroportos mais importantes do país estavam entre os mais atrasados do mundo (Aeroporto Internacional de Brasília (BSB), Aeroporto de Congonhas (CGH) e o Aeroporto Internacional de Guarulhos (GRU)) . Para reverter essa situação, o país se envolveu em um grande esforço na supervisão de voos durante"
+  ]
+ },
+ "10.5281/zenodo.10671650": {
+  "role": "real_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "coautor",
+  "note": "Versão em português de airline_003, mesmos autores. Citação de coautor.",
+  "passages": [
+   "Além do impacto no preço, como foi levantada na frase de Porter (2008), a presença de um concorrente pode forçar as companhias existentes a mudarem suas operações ou mesmo estratégias de negócio, e essa hipótese também foi testada nos últimos anos pela literatura da aviação. Sun (2015) diz que a presença de LCCs numa rota aumenta a diferenciação dos tempos de partida das aeronaves numa tentativa de evitar a concorrência direta ou o horário de pico, além de oferecer um produto diferenciado aos passageiros. Seguindo nessa linha, Mohammadian et al. (2019) dizem que as companhias aéreas concorrentes chegam a mudar o tipo de aeronave utilizada e até a frequência de voos servidos em uma rota. Já Bendinelli et al. (2016) encontraram resultados sugerindo que a presença de uma LCC pode ser responsável pela internalização dos custos dos atrasos pelas suas companhias aéreas. Ainda sobre impactos nas operações e estratégias das companhias aéreas incumbentes, Pearson et al. (2015) fizeram uma pesquisa investigativa no mercado asiático para avaliar a capacidade estratégica das companhias aéreas tradicionais para competir com o crescente número de LCCs naquele mercado; eles concluem que o nordeste asiático é a região em que as companhias aéreas estão menos preparada para a concorrência com as low costs, e que portanto as network carriers dessa região devem fortalecer a sua capacidade estratégica tanto"
+  ]
+ },
+ "10.33119/sip.2025.201.2": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Citado para sustentar que greves de controle de tráfego repercutem na operação de linhas e aeroportos.",
+  "passages": [
+   "wewnętrznych (z perspektywy przedsiębiorstw) można przede wszystkim wymienić operacyjne i finansowe. Natomiast z perspektywy sektora również konkurencja między podmiotami oraz konieczność współpracy mogą być źródłem wystąpienia ryzyka czy stanów niepewności co do dalszego rozwoju sytuacji w sektorze. Przykładami zdarzeń, które mogą się zrealizować w obszarze operacyjnym, są np. opóźnienia wynikające z przyczyn technicznych lub czynników pogodowych [Borsky, Unterberger, 2019], strajki, których skutki mogą być odczuwane nie tylko przez podmioty, w których występują, np. strajk kontrolerów ruchu lotniczego będzie mieć również konsekwencje dla działalności operacyjnej linii i portów lotniczych [Bendinelli, Bettini, Oliveira, 2016]. Większość czynników ryzyka operacyjnego jest stosunkowo niewielkim zagrożeniem z perspektywy całego sektora czy też w ujęciu długoterminowym ze względu na ich zwykle lokalny (odnoszący się do danego rynku lub nawet podmiotu) i ograniczony w czasie charakter, a także wypracowane na przestrzeni wielu lat działalności sposoby zarządzania nimi i ich mitygacji, na przykład poprzez odpowiednie planowanie siatki lotów [Şimşek, Aktürk, 2022]. Ryzyko finansowe związane jest nie tylko z działalnością finansową przedsiębiorstw funkcjonujących na rynku lotniczym, polegającą na przykład na wykorzystywaniu instrumentów finansowych do zabezpieczenia przed wahaniami cen paliwa lo"
+  ]
+ },
+ "10.18805/ag.d-6397": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Citação definicional de perda pós-colheita, em bloco com uma outra fonte.",
+  "passages": [
+   "s significant financial hardship for farmers and supply chain participants globally. In India, post-harvest loss (PHL) in rice is a serious problem that affects farmer earnings, food security and overall economic effectiveness. Key words: Disease, Pest, Post harvest losses, Rice. In rice, post-harvest losses (PHL) are the quantitative and qualitative decreases in rice grain that occur in between the harvest and human consumption (Qu et al., 2021). This encompasses any reduction in the quantity of consumable rice grain that is the result of factors that impede its utilization by humans, such as a decrease in nutritional value, a decrease in its marketability, or a decrease in its edibility (Bendinelli et al., 2020 and Mahendran et al., 2024). PHL should be distinguished from intentional reductions, such as the removal of bran or husk during milling, which are essential processing stages (Muller et al., 2022). Globally, post-harvest losses in rice can range from 10% to 40% of total production, depending on the region and the techniques employed. In developing countries, losses are generally higher due to traditional methods and less advanced infrastructure. The post-harvest losses for grains, including rice, are typically estimated to be between 10% and 20% at the pre-processing stage (Nath et al., 2024). The quantitative harvest and post-harvest losses for cereals, which encompass paddy/"
+  ]
+ },
+ "10.51470/plantarchives.2024.v24.sp-gabels.029": {
+  "role": "drive_by",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Afirmação genérica sobre dependência de pequenos produtores e beneficiadoras.",
+  "passages": [
+   "the insects that infest grains that have been stored, and the genera Sitophilus and Tribolium are the most destructive species of storage insects (Khan and Selman 1988). The rice weevil, Sitophilus oryzae (L.), is one of the most destructive pests of cereal grains and their products. (Yan et al., 2014; Rita Devi et al., 2017). It is a major pest that feeds on whole grain kernels. Significant loss in grain weight, secondary pest infestation, and contamination due to growth of fungus are all results of adult feeding and larval activity inside kernels (Athanassiou et al., 2017). Grain production in many developing nations mainly depends on Small-scale farmers and postharvest processing mills (Bendinelli et al., 2020). When grains are stored, synthetic insecticides are used to control rice weevil pest. Chemical insecticides and fumigants were frequently used to treat insect storage pests, but this practice led to serious issues like the emergence of insect species that are resistant to insecticides (Zettler and Cuperus, 1990; Ribeiro et al., 2003; Lorini et al., 2007; Mehta and Kumar, 2020) and also recent laboratory studies indicated that many cultivars have developed some resistance to S. oryzae (Swamynarayana et al., 2014).Although inexpensive and feasible, fumigation has many drawbacks when compared to other methods of pest control. Insect populations are becoming more and more resistan"
+  ]
+ },
+ "10.47278/journal.ijab/2025.070": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Atribui ao artigo o vínculo entre secagem tradicional ao sol e perdas pós-colheita.",
+  "passages": [
+   "classified into three quality levels: Premium, Medium I, and Medium II (BSN, 2020). Generally, farmers employ conventional farming practices, particularly in crop management aspects such as shelling, drying, and storage (Cecil et al., 2023). Corn shelling is typically done using locally produced sheller machines that are often unstandardized and untested. The drying process involves spreading the corn on tarps and leaving it to dry in the sun for two to three days. Consequently, the moisture content of the corn is highly dependent on weather conditions during drying. This traditional drying and storage method can lead to significant contamination of the corn kernels and postharvest losses (Bendinelli et al., 2020). Feed mills must carefully adjust the quality of lowgrade corn to meet factory feed formulation standards. A key factor affecting feed quality is moisture content, which recommends maintaining moisture levels between 14% and 16% (Cabañas-Ojeda et al., 2023). Corn with moisture levels exceeding 16% is prone to quality degradation, storage damage, and increased risk of fungal contamination. Damaged kernels, including moldy or cracked seeds, are particularly vulnerable to contamination by destructive microorganisms such as fungi (Islam et al., 2018). These contaminants can lead to mycotoxins, such as deoxynivalenol and zearalenone, negatively affecting feed safety. No significant"
+  ]
+ },
+ "10.47278/journal.ijab/2025.105": {
+  "role": "brief_mention",
+  "stance": "supporting",
+  "reuse": [],
+  "flag": "",
+  "note": "Mecanização subótima como causa de grão quebrado. Mesmo grupo e periódico de grains_s002.",
+  "passages": [
+   "through mediated relationships. Thus, improving corn kernel quality remains challenging at the farm level, particularly in areas such as harvest and postharvest mechanization, moisture management, and contamination control during storage. Corn batches are procured from smallholder farmers across multiple regions both within and beyond South Sulawesi Province, resulting in considerable variability in conditions and quality. In general, farmers rely on traditional farming practices, particularly in postharvest processes such as shelling, drying, and storage (Cecil et al., 2023). Suboptimal mechanization often results in increased damaged and broken kernels, which subsequently degrade quality (Bendinelli et al., 2020). Moreover, many farmers still rely on uncontrolled natural drying methods (Arslan & Alibaş, 2024), resulting in inconsistent moisture levels that increase the risk of mold growth, particularly under poor storage ventilation and high humidity conditions (Dagnas & Membré, 2013). Contamination with foreign materials remains a common issue at the farm level due to uneven sorting and cleaning processes (Hagen et al., 2020). Limited access to improved postharvest technology contributes to higher levels of soil residue, stalk fragments, and other particulates mixed with corn (Mutungi et al., 2022). Foreign materials not only directly lower quality but also serve as carriers of pathog"
+  ]
+ },
+ "10.4314/tjs.v49i3.16": {
+  "role": "drive_by",
+  "stance": "none",
+  "reuse": [],
+  "flag": "duplicate",
+  "note": "Citação em bloco com Ambuko e Bustos & Moors. Par com grains_s016: artigo de periódico e a dissertação que o originou, mesmo autor.",
+  "passages": [
+   "onditions (Gall and Benkeblia 2022, Freimoser et al. (Arah et al. 2016, Dhakulkar et al. 2018, 2019, Pétriacq et al. 2018). The challenge in Sibomana et al. 2016). Perishability of fruits minimizing fruits and vegetables post-harvest and vegetables is directly linked to rapid losses is largely hinged on how to come up quality losses immediately after harvest when with reliable and sustainable storage systems subjected to poor handling and storage for perishable produce at the minimum initial 741 http://tjs.udsm.ac.tz/index.php/tjs www.ajol.info/index.php/tjs/ Gunda et al. - Design of a Cooling System Integrated with Ultraviolet Light for Preservation and running costs (Ambuko et al. 2017, Bendinelli et al. 2020, Bustos and Moors 2018). Evaporative cooling systems are one of the options for horticultural post-harvest storage because of their environmental friendliness and energy-saving features (Verploegen et al. 2018, Elik et al. 2019, Rajapaksha et al. 2021). Evaporative cooling systems enable lowcost high-quality preservation of perishable products. These systems use less energy and have the potential to reduce post-harvest losses for small-scale farmers who do not have the means to invest in expensive systems that also demand a large amount of energy (Chopra and Kumar 2017, Lal Basediya et al. 2013, Zakari et al. 2016, AlZubaydi and Dartnall 2014). Chopra and Kumar proposed a semici"
+  ]
+ },
+ "10.58694/20.500.12479/2737": {
+  "role": "drive_by",
+  "stance": "none",
+  "reuse": [],
+  "flag": "duplicate",
+  "note": "Dissertação de mestrado que deu origem a grains_s015. Mesma passagem.",
+  "passages": [
+   "et al., 2016). Perishability of fruits and vegetables is directly linked to rapid quality losses immediately after harvest when subjected to poor handling and storage conditions (Heidari et al., 2019; Oyedepo et al., 2019; Panchabikesan et al., 2018). In tropical areas, spoilage of produce is caused not only by high temperatures but also by bacteria, yeast, mold, and attack by viruses (Gall & Benkeblia, 2022; Freimoser et al., 2019; Pétriacq et al., 2018). The challenge in minimizing fruits and vegetables' post-harvest losses is largely hinged on how to come up with reliable and sustainable storage systems for perishable produce at the minimum initial and running costs (Ambuko et al., 2017; Bendinelli et al., 2020; Bustos & Moors, 2018). Evaporative cooling systems are one of the options for horticultural post-harvest storage because of their environmental friendliness and energy-saving features (Verploegen et al., 2018; Elik et al., 2019; Rajapaksha et al., 2021). Evaporative cooling systems enable low-cost, high-quality preservation of perishable products. These systems use less energy and have the potential to reduce post-harvest losses for smallscale farmers who do not have the means to invest in expensive systems that also demand a large amount of energy (Chopra & Kumar, 2017; Lal-Basediya et al., 2013; Zakari et al., 2016; Dartnall, 2014). Ultraviolet light is a kind of electromagn"
+  ]
+ },
+ "10.1007/s00217-026-05237-y": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. European Food Research and Technology (2026) — revisão sobre IA em perdas pós-colheita.",
+  "passages": []
+ },
+ "10.26898/0370-8799-2020-4-11": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Siberian Herald of Agricultural Science (2020) — artigo russo sobre transporte e pré-tratamento de grão.",
+  "passages": []
+ },
+ "10.1007/978-3-030-98067-2_172-1": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biotecnologia e mitigação de perdas pós-colheita (2025).",
+  "passages": []
+ },
+ "10.1007/978-3-031-06562-0_11": {
+  "role": "bibliography_only",
+  "stance": "none",
+  "reuse": [],
+  "flag": "ghost",
+  "note": "Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biorrefinarias de resíduo alimentar (2022).",
+  "passages": []
  }
 }

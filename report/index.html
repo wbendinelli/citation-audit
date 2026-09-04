@@ -36,9 +36,9 @@ h3{font-size:1.03rem;font-weight:600;line-height:1.35}
 header.top{border-bottom:2px solid var(--ink);padding-bottom:26px;margin-bottom:34px}
 header.top .lede{font-family:Spectral,Georgia,serif;font-size:1.16rem;color:var(--ink2);
  max-width:64ch;margin:16px 0 0}
-.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
  background:var(--rule);border:1px solid var(--rule);margin:30px 0 0}
-@media (max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}.kpis .kpi:last-child{grid-column:1/-1}}
+@media (max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}}
 .kpi{background:var(--surface);padding:16px 18px}
 .kpi b{display:block;font-family:Spectral,Georgia,serif;font-size:1.85rem;font-weight:600;
  line-height:1.1;font-variant-numeric:tabular-nums}
@@ -117,21 +117,27 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  que o <span class="mono">citation-explorer</span> do Paperclip aplica, extraída do código-fonte da ferramenta.</p>
  <div class="kpis">
   <div class="kpi"><b>176</b><span>citações mapeadas</span></div>
-  <div class="kpi"><b>33</b><span>com passagem recuperada</span></div>
-  <div class="kpi"><b>3</b><span>com reuso metodológico</span></div>
+  <div class="kpi"><b>47</b><span>com evidência verificada</span></div>
+  <div class="kpi"><b>3</b><span>com reuso metodológico externo</span></div>
+  <div class="kpi"><b>3</b><span>autocitação ou coautor</span></div>
   <div class="kpi hl"><b>2</b><span>atribuições incorretas</span></div>
-  <div class="kpi hl"><b>2</b><span>citações-fantasma</span></div>
+  <div class="kpi hl"><b>6</b><span>citações-fantasma</span></div>
  </div>
 </header>
 <section class="paper" id="airline">
  <div class="p-head"><p class="eyebrow mono">Transportation Research Part A · 2016</p><h2>Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry</h2>
- <p class="doi mono">10.1016/j.tra.2016.01.001 — 93 citações na união de quatro fontes, <b>13 com passagem recuperada</b></p></div>
- <div class="bar"><span class="seg s-good-deep" style="flex:2" title="fundacional: 2"><b>2</b></span><span class="seg s-accent" style="flex:4" title="menção real: 4"><b>4</b></span><span class="seg s-dim" style="flex:4" title="menção breve: 4"><b>4</b></span><span class="seg s-dim" style="flex:2" title="de passagem: 2"><b>2</b></span><span class="seg s-bad" style="flex:1" title="interpretado errado: 1"><b>1</b></span></div><div class="legend"><span class="lg"><i class="sw s-good-deep"></i>fundacional <b>2</b></span><span class="lg"><i class="sw s-accent"></i>menção real <b>4</b></span><span class="lg"><i class="sw s-dim"></i>menção breve <b>4</b></span><span class="lg"><i class="sw s-dim"></i>de passagem <b>2</b></span><span class="lg"><i class="sw s-bad"></i>interpretado errado <b>1</b></span></div>
+ <p class="doi mono">10.1016/j.tra.2016.01.001 — 93 citações na união de quatro fontes, <b>17 com passagem recuperada</b></p></div>
+ <div class="bar"><span class="seg s-good-deep" style="flex:3" title="fundacional: 3"><b>3</b></span><span class="seg s-accent" style="flex:6" title="menção real: 6"><b>6</b></span><span class="seg s-dim" style="flex:5" title="menção breve: 5"><b>5</b></span><span class="seg s-dim" style="flex:2" title="de passagem: 2"><b>2</b></span><span class="seg s-bad" style="flex:1" title="interpretado errado: 1"><b>1</b></span></div><div class="legend"><span class="lg"><i class="sw s-good-deep"></i>fundacional <b>3</b></span><span class="lg"><i class="sw s-accent"></i>menção real <b>6</b></span><span class="lg"><i class="sw s-dim"></i>menção breve <b>5</b></span><span class="lg"><i class="sw s-dim"></i>de passagem <b>2</b></span><span class="lg"><i class="sw s-bad"></i>interpretado errado <b>1</b></span></div>
  <div class="entries"><article class="entry flagged f-good">
  <header class="e-head"><h3>An empirical analysis of delays in the Turkish Airlines network</h3><span class="flag f-good">Uso substantivo</span></header>
  <p class="meta"><span class="venue">Journal of Air Transport Management</span><span class="dot">·</span>2017<span class="dot">·</span><span class="mono">closed</span></p>
  <div class="chips"><span class="chip r-good-deep">fundacional</span><span class="chip s-good">apoia</span><span class="chip reuse">valida resultado</span></div>
  <blockquote>Mayer and Sinai (2003), Brueckner (2002), Santos and Robin (2010), and Bendinelli et al. (2016) show that delays are lower at concentrated airports, providing evidence for the internalization hypothesis.</blockquote><blockquote>The only study looking at an emerging economy is Bendinelli et al. (2016).</blockquote><p class="note">Duas passagens: agrupa o artigo com a literatura canônica de internalização e o identifica como o único estudo sobre uma economia emergente.</p>
+</article><article class="entry flagged f-ghost">
+ <header class="e-head"><h3>Determinantes concorrenciais dos atrasos dos voos no aeroporto e na rota</h3><span class="flag f-ghost">Autocitação</span></header>
+ <p class="meta"><span class="venue">RePEc: Research Papers in Economics</span><span class="dot">·</span>2024<span class="dot">·</span><span class="mono">green</span></p>
+ <div class="chips"><span class="chip r-good-deep">fundacional</span><span class="chip s-good">apoia</span><span class="chip reuse">estende</span></div>
+ <blockquote>Determinantes concorrenciais dos atrasos dos voos no aeroporto e na rota William Eduardo Bendinelli Alessandro V. M. Oliveira Instituto Tecnológico de Aeronáutica, São José dos Campos, Brasil  Autor correspondente. Instituto Tecnológico de Aeronáutica. Praça Marechal Eduardo Gomes, 50. 12.280-250 - Sã…</blockquote><blockquote>…sos, cancelamentos) por cooperação voluntária, no Nível 2, falharam, sendo designado um Slot Coordinator independente. III. CASO DOS AEROPORTOS BRASILEIROS Para aplicação da teoria e das hipóteses acima discutidas, Bendinelli, Bettini e Oliveira (2016) investigam o problema com o objetivo de melhor entender o atrasos de voos na indústria aérea brasileira. Outro estudo que trata do tema, mas considerando o papel dos slots aerop…</blockquote><p class="note">Autocitação: o trabalho é assinado por você e Oliveira, e estende diretamente o artigo de 2016.</p>
 </article><article class="entry flagged f-good">
  <header class="e-head"><h3>Network development and excess travel time</h3><span class="flag f-good">Melhor citação</span></header>
  <p class="meta"><span class="venue">Transport Policy</span><span class="dot">·</span>2020<span class="dot">·</span><span class="mono">green</span></p>
@@ -157,6 +163,16 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <p class="meta"><span class="venue">Transportes</span><span class="dot">·</span>2021<span class="dot">·</span><span class="mono">diamond</span></p>
  <div class="chips"><span class="chip r-accent">menção real</span><span class="chip s-good">apoia</span></div>
  <blockquote>…RU. A combinaçã o de abordagens de modelagem que se baseiam em diferentes premissas permitiu gerar um modelo com maior ;lexibilidade e trouxe melhorias na precisã o das previsõ es. Por uma concepçã o diferente, Bendinelli et al. (2016) analisaram se a ausê ncia de concorrê ncia favorecia o aumento das taxas de atrasos e cancelamento de voos, relaçã o que foi con;irmada pelos autores. Na literatura, há a criaçã o de mo…</blockquote><p class="note">Resume corretamente a pergunta de pesquisa e o achado confirmado.</p>
+</article><article class="entry flagged f-warn">
+ <header class="e-head"><h3>Low costs na aviacao: importancia e desdobramentos</h3><span class="flag f-warn">Citação de coautor</span></header>
+ <p class="meta"><span class="venue">arXiv (Cornell University)</span><span class="dot">·</span>2024<span class="dot">·</span><span class="mono">green</span></p>
+ <div class="chips"><span class="chip r-accent">menção real</span><span class="chip s-good">apoia</span></div>
+ <blockquote>…erenciado aos passageiros. Seguindo nessa linha, Mohammadian et al. (2019) dizem que as companhias aéreas concorrentes chegam a mudar o tipo de aeronave utilizada e até a frequência de voos servidos em uma rota. Já Bendinelli et al. (2016) encontraram resultados sugerindo que a presença de uma LCC pode ser responsável pela internalização dos custos dos atrasos pelas suas companhias aéreas. Ainda sobre impactos nas operações e…</blockquote><p class="note">Versão em português de airline_003, mesmos autores. Citação de coautor.</p>
+</article><article class="entry flagged f-warn">
+ <header class="e-head"><h3>Low-Cost Carriers in Aviation: Significance and Developments</h3><span class="flag f-warn">Citação de coautor</span></header>
+ <p class="meta"><span class="venue">arXiv.org</span><span class="dot">·</span>2025<span class="dot">·</span><span class="mono">green</span></p>
+ <div class="chips"><span class="chip r-accent">menção real</span><span class="chip s-good">apoia</span></div>
+ <blockquote>…g a more differentiated product to passengers. Along similar lines, Mohammadian et al. (2019) reported that competing airlines also adjust the type of aircraft used and the frequency of flights operated on a route. Bendinelli et al. (2016) presented results suggesting that the presence of an LCC may lead incumbent airlines to internalize delay costs. Regarding the impacts on the operations and strategies of incumbent airlines,…</blockquote><p class="note">Resume corretamente o achado de internalização de custo de atraso pela presença de LCC. Assinado por Alessandro V. M. Oliveira, coautor do artigo citado. É o gêmeo em inglês de airline_010.</p>
 </article><article class="entry">
  <header class="e-head"><h3>Bad weather and flight delays: The impact of sudden and slow onset weather events</h3></header>
  <p class="meta"><span class="venue">Economics of Transportation</span><span class="dot">·</span>2019<span class="dot">·</span><span class="mono">hybrid</span></p>
@@ -172,6 +188,11 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <p class="meta"><span class="venue">Journal of Marketing Theory and Practice</span><span class="dot">·</span>2022<span class="dot">·</span><span class="mono">closed</span></p>
  <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
  <blockquote>LCCs target markets for leisure travel, because leisure travelers are more price-sensitive than non-leisure travelers (Bendinelli et al., 2016).</blockquote>
+</article><article class="entry">
+ <header class="e-head"><h3>Ryzyko biznesowe w pasażerskim lotnictwie cywilnym – w poszukiwaniu źródeł niestabilności sektora</h3></header>
+ <p class="meta"><span class="venue">Studia i Prace Kolegium Zarządzania i Finansów</span><span class="dot">·</span>2025<span class="dot">·</span><span class="mono">?</span></p>
+ <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
+ <blockquote>…jki, których skutki mogą być odczuwane nie tylko przez podmioty, w których występują, np. strajk kontrolerów ruchu lotniczego będzie mieć również konsekwencje dla działalności operacyjnej linii i portów lotniczych [Bendinelli, Bettini, Oliveira, 2016]. Większość czynników ryzyka operacyjnego jest stosunkowo niewielkim zagrożeniem z perspektywy całego sektora czy też w ujęciu długoterminowym ze względu na ich zwykle lokalny (od…</blockquote><p class="note">Citado para sustentar que greves de controle de tráfego repercutem na operação de linhas e aeroportos.</p>
 </article><article class="entry">
  <header class="e-head"><h3>Schedule creep – In search of an uncongested baseline block time by examining scheduled flight block times worldwide 1986–2016</h3></header>
  <p class="meta"><span class="venue">Transportation Research Part A: Policy and Practice</span><span class="dot">·</span>2019<span class="dot">·</span><span class="mono">closed</span></p>
@@ -194,8 +215,8 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <blockquote>…venue dropped by around $380 billion compared to 2019. Due to the pandemic, travel restrictions grounded global aircraft by 64% in April 2020. Several studies have focused on factors impacting the airline industry. Bendinelli et al. (2016), Kalemba and Campa-Planas (2019), Fardnia et al. (2021), Chang et al. (2018) examine the relationship between accident records or safety and financial performance. Kiracı (2019) and Goh and…</blockquote><p class="note">Afirma que o artigo examina a relação entre registros de acidentes ou segurança e desempenho financeiro. O artigo trata de atrasos, internalização de congestionamento e entrada de low cost carriers.</p>
 </article></div></section><section class="paper" id="grains">
  <div class="p-head"><p class="eyebrow mono">Sustainable Production and Consumption · 2019</p><h2>What are the main factors that determine post-harvest losses of grains?</h2>
- <p class="doi mono">10.1016/j.spc.2019.09.002 — 83 citações na união de quatro fontes, <b>20 com passagem recuperada</b></p></div>
- <div class="bar"><span class="seg s-good" style="flex:2" title="sustenta: 2"><b>2</b></span><span class="seg s-accent" style="flex:2" title="menção real: 2"><b>2</b></span><span class="seg s-dim" style="flex:5" title="menção breve: 5"><b>5</b></span><span class="seg s-dim" style="flex:8" title="de passagem: 8"><b>8</b></span><span class="seg s-ghost" style="flex:2" title="só na bibliografia: 2"><b>2</b></span><span class="seg s-bad" style="flex:1" title="interpretado errado: 1"><b>1</b></span></div><div class="legend"><span class="lg"><i class="sw s-good"></i>sustenta <b>2</b></span><span class="lg"><i class="sw s-accent"></i>menção real <b>2</b></span><span class="lg"><i class="sw s-dim"></i>menção breve <b>5</b></span><span class="lg"><i class="sw s-dim"></i>de passagem <b>8</b></span><span class="lg"><i class="sw s-ghost"></i>só na bibliografia <b>2</b></span><span class="lg"><i class="sw s-bad"></i>interpretado errado <b>1</b></span></div>
+ <p class="doi mono">10.1016/j.spc.2019.09.002 — 83 citações na união de quatro fontes, <b>30 com passagem recuperada</b></p></div>
+ <div class="bar"><span class="seg s-good" style="flex:2" title="sustenta: 2"><b>2</b></span><span class="seg s-accent" style="flex:2" title="menção real: 2"><b>2</b></span><span class="seg s-dim" style="flex:8" title="menção breve: 8"><b>8</b></span><span class="seg s-dim" style="flex:11" title="de passagem: 11"><b>11</b></span><span class="seg s-ghost" style="flex:6" title="só na bibliografia: 6"><b>6</b></span><span class="seg s-bad" style="flex:1" title="interpretado errado: 1"><b>1</b></span></div><div class="legend"><span class="lg"><i class="sw s-good"></i>sustenta <b>2</b></span><span class="lg"><i class="sw s-accent"></i>menção real <b>2</b></span><span class="lg"><i class="sw s-dim"></i>menção breve <b>8</b></span><span class="lg"><i class="sw s-dim"></i>de passagem <b>11</b></span><span class="lg"><i class="sw s-ghost"></i>só na bibliografia <b>6</b></span><span class="lg"><i class="sw s-bad"></i>interpretado errado <b>1</b></span></div>
  <div class="entries"><article class="entry flagged f-good">
  <header class="e-head"><h3>Estratégias para reduzir o desperdício de frutas e hortaliças: a busca por sistemas atacadistas sustentáveis</h3><span class="flag f-good">Uso substantivo</span></header>
  <p class="meta"><span class="venue">Horticultura Brasileira</span><span class="dot">·</span>2022<span class="dot">·</span><span class="mono">diamond</span></p>
@@ -217,6 +238,11 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <div class="chips"><span class="chip r-accent">menção real</span><span class="chip s-good">apoia</span></div>
  <blockquote>…o be stored is not more than six months (see Table 1). Furthermore, moving grain out of small farms to large, well monitored consolidated storage facilities is an effective approach of reducing PHL. As described by Bendinelli et al. [14], post-harvest grain losses refer to all the losses incurred after the grain has been harvested until the grain is eventually used either to be utilized as food or otherwise. The productivity o…</blockquote><blockquote>…. Baributsa, “Sorghum seed storage in Purdue Improved Crop Storage (PICS) bags and improvised containers,” Journal of Stored Products Research, vol. 72, pp. 138–142, May 2017, doi: 10.1016/j.jspr.2017.04.004. W. E. Bendinelli, C. T. Su, T. G. Péra, and J. V. C. Filho, “What are the main factors that determine post-harvest losses of grains?,” Sustainable Production and Consumption, vol. 21, pp. 228–238, Oct. 2019, doi: 10.1016/…</blockquote><p class="note">Adota a definição de perdas pós-colheita do artigo, com atribuição explícita e correta.</p>
 </article><article class="entry">
+ <header class="e-head"><h3>Pest and Disease Related Post-Harvest Losses in Rice: A Review</h3></header>
+ <p class="meta"><span class="venue">Agricultural Science Digest - A Research Journal</span><span class="dot">·</span>2025<span class="dot">·</span><span class="mono">diamond</span></p>
+ <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
+ <blockquote>…n the quantity of consumable rice grain that is the result of factors that impede its utilization by humans, such as a decrease in nutritional value, a decrease in its marketability, or a decrease in its edibility (Bendinelli et al., 2020 and Mahendran et al., 2024). PHL should be distinguished from intentional reductions, such as the removal of bran or husk during milling, which are essential processing stages (Muller et al.,…</blockquote><p class="note">Citação definicional de perda pós-colheita, em bloco com uma outra fonte.</p>
+</article><article class="entry">
  <header class="e-head"><h3>Revealing a Significant Latent Loss of Dry Matter in Rice Based on Accurate Measurement of Grain Growth Curve</h3></header>
  <p class="meta"><span class="venue">Agriculture</span><span class="dot">·</span>2022<span class="dot">·</span><span class="mono">gold</span></p>
  <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
@@ -232,6 +258,16 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
  <blockquote>Ghana has one of the highest incidences of PHL in the world, significantly higher than other middle income countries (Bendinelli et al., 2020).</blockquote><p class="note">Atribui ao artigo um dado específico sobre Gana. O artigo trata de determinantes de PHL com base brasileira.</p>
 </article><article class="entry">
+ <header class="e-head"><h3>Evaluating Physical and Chemical Quality of Corn Kernel as Poultry Feed Ingredient in the Procurement of Feed Mill Raw Material</h3></header>
+ <p class="meta"><span class="venue">International Journal of Agriculture and Biosciences</span><span class="dot">·</span>2025<span class="dot">·</span><span class="mono">?</span></p>
+ <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
+ <blockquote>…the moisture content of the corn is highly dependent on weather conditions during drying. This traditional drying and storage method can lead to significant contamination of the corn kernels and postharvest losses (Bendinelli et al., 2020). Feed mills must carefully adjust the quality of lowgrade corn to meet factory feed formulation standards. A key factor affecting feed quality is moisture content, which recommends maintaini…</blockquote><p class="note">Atribui ao artigo o vínculo entre secagem tradicional ao sol e perdas pós-colheita.</p>
+</article><article class="entry">
+ <header class="e-head"><h3>Path Analysis of Corn Kernel Physical Properties as Quality Indicators of Poultry Feed Ingredients</h3></header>
+ <p class="meta"><span class="venue">International Journal of Agriculture and Biosciences</span><span class="dot">·</span>2025<span class="dot">·</span><span class="mono">?</span></p>
+ <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
+ <blockquote>…particularly in postharvest processes such as shelling, drying, and storage (Cecil et al., 2023). Suboptimal mechanization often results in increased damaged and broken kernels, which subsequently degrade quality (Bendinelli et al., 2020). Moreover, many farmers still rely on uncontrolled natural drying methods (Arslan &amp; Alibaş, 2024), resulting in inconsistent moisture levels that increase the risk of mold growth, particular…</blockquote><p class="note">Mecanização subótima como causa de grão quebrado. Mesmo grupo e periódico de grains_s002.</p>
+</article><article class="entry">
  <header class="e-head"><h3>Post-harvest Management Strategies for Quality Preservation in Crops</h3></header>
  <p class="meta"><span class="venue">International Journal of Vegetable Science</span><span class="dot">·</span>2024<span class="dot">·</span><span class="mono">closed</span></p>
  <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
@@ -241,6 +277,11 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <p class="meta"><span class="venue">Journal of Biosystems Engineering</span><span class="dot">·</span>2022<span class="dot">·</span><span class="mono">closed</span></p>
  <div class="chips"><span class="chip r-dim">menção breve</span><span class="chip s-good">apoia</span></div>
  <blockquote>HS of grains also contributes to improved food price stability due to an increase in the amount of stored food, even during the crop off-seasons(Bendinelli et al., 2020).</blockquote>
+</article><article class="entry flagged f-warn">
+ <header class="e-head"><h3>Design of an evaporative cooling system integrated with ultraviolet light for preservation of fruits and vegetables at variable tropical weather conditions: a case study of Arusha, Tanzania</h3><span class="flag f-warn">Publicação duplicada</span></header>
+ <p class="meta"><span class="venue">sem veículo indexado</span><span class="dot">·</span>2024<span class="dot">·</span><span class="mono">?</span></p>
+ <div class="chips"><span class="chip r-dim">de passagem</span><span class="chip s-dim">neutra</span></div>
+ <blockquote>…ing fruits and vegetables&#x27; post-harvest losses is largely hinged on how to come up with reliable and sustainable storage systems for perishable produce at the minimum initial and running costs (Ambuko et al., 2017; Bendinelli et al., 2020; Bustos &amp; Moors, 2018). Evaporative cooling systems are one of the options for horticultural post-harvest storage because of their environmental friendliness and energy-saving features (Verpl…</blockquote><p class="note">Dissertação de mestrado que deu origem a grains_s015. Mesma passagem.</p>
 </article><article class="entry">
  <header class="e-head"><h3>Grain Hermetic Storage Adoption in Northern Uganda: Awareness, Use, and the Constraints to Technology Adoption</h3></header>
  <p class="meta"><span class="venue">Agricultural Science</span><span class="dot">·</span>2022<span class="dot">·</span><span class="mono">diamond</span></p>
@@ -271,6 +312,11 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <p class="meta"><span class="venue">Journal of plant diseases and protection</span><span class="dot">·</span>2026<span class="dot">·</span><span class="mono">closed</span></p>
  <div class="chips"><span class="chip r-dim">de passagem</span><span class="chip s-good">apoia</span></div>
  <blockquote>Addressing postharvest losses is essential for enhancing food security and reducing waste (Bendinelli et al. 2020).</blockquote>
+</article><article class="entry">
+ <header class="e-head"><h3>TESTING THE EFFECT OF HERBAL POWDERS ON GRAIN PARAMETERS IN STORED WHEAT IN THE PRESENCE OF SITOPHILUS ORYZAE UNDER FREE CHOICE</h3></header>
+ <p class="meta"><span class="venue">Plant Archives</span><span class="dot">·</span>2024<span class="dot">·</span><span class="mono">bronze</span></p>
+ <div class="chips"><span class="chip r-dim">de passagem</span><span class="chip s-good">apoia</span></div>
+ <blockquote>…us are all results of adult feeding and larval activity inside kernels (Athanassiou et al., 2017). Grain production in many developing nations mainly depends on Small-scale farmers and postharvest processing mills (Bendinelli et al., 2020). When grains are stored, synthetic insecticides are used to control rice weevil pest. Chemical insecticides and fumigants were frequently used to treat insect storage pests, but this practic…</blockquote><p class="note">Afirmação genérica sobre dependência de pequenos produtores e beneficiadoras.</p>
 </article><article class="entry flagged f-warn">
  <header class="e-head"><h3>Grain Trade: A Literature Review and Research Outlook</h3><span class="flag f-warn">Atribuição frágil</span></header>
  <p class="meta"><span class="venue">Review of Economic Assessment</span><span class="dot">·</span>2024<span class="dot">·</span><span class="mono">hybrid</span></p>
@@ -281,6 +327,21 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <p class="meta"><span class="venue">SHS Web of Conferences</span><span class="dot">·</span>2025<span class="dot">·</span><span class="mono">diamond</span></p>
  <div class="chips"><span class="chip r-dim">de passagem</span><span class="chip s-dim">neutra</span></div>
  <blockquote>These losses are caused by poor handling, poor storage facilities, or lack of proper logistics [2].</blockquote><p class="note">Ver par com a entrada 053.</p>
+</article><article class="entry flagged f-warn">
+ <header class="e-head"><h3>Design of a Cooling System Integrated with Ultraviolet Light for Preservation of Fruits and Vegetables at Variable Tropical Weather Conditions: A Case Study of Arusha, Tanzania</h3><span class="flag f-warn">Publicação duplicada</span></header>
+ <p class="meta"><span class="venue">Tanzania Journal of Science</span><span class="dot">·</span>2023<span class="dot">·</span><span class="mono">?</span></p>
+ <div class="chips"><span class="chip r-dim">de passagem</span><span class="chip s-dim">neutra</span></div>
+ <blockquote>…nimum initial 741 http://tjs.udsm.ac.tz/index.php/tjs www.ajol.info/index.php/tjs/ Gunda et al. - Design of a Cooling System Integrated with Ultraviolet Light for Preservation and running costs (Ambuko et al. 2017, Bendinelli et al. 2020, Bustos and Moors 2018). Evaporative cooling systems are one of the options for horticultural post-harvest storage because of their environmental friendliness and energy-saving features (Verpl…</blockquote><p class="note">Citação em bloco com Ambuko e Bustos &amp; Moors. Par com grains_s016: artigo de periódico e a dissertação que o originou, mesmo autor.</p>
+</article><article class="entry flagged f-ghost">
+ <header class="e-head"><h3>The Role of Biotechnology in Climate Change Adaptation and Postharvest Loss Mitigation in Blueberries</h3><span class="flag f-ghost">Citação-fantasma</span></header>
+ <p class="meta"><span class="venue">sem veículo indexado</span><span class="dot">·</span>2025<span class="dot">·</span><span class="mono">closed</span></p>
+ <div class="chips"><span class="chip r-ghost">só na bibliografia</span><span class="chip s-dim">neutra</span></div>
+ <p class="note">Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biotecnologia e mitigação de perdas pós-colheita (2025).</p>
+</article><article class="entry flagged f-ghost">
+ <header class="e-head"><h3>Food Waste Biorefineries: Developments, Current Advances and Future Outlook</h3><span class="flag f-ghost">Citação-fantasma</span></header>
+ <p class="meta"><span class="venue">sem veículo indexado</span><span class="dot">·</span>2022<span class="dot">·</span><span class="mono">closed</span></p>
+ <div class="chips"><span class="chip r-ghost">só na bibliografia</span><span class="chip s-dim">neutra</span></div>
+ <p class="note">Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Capítulo sobre biorrefinarias de resíduo alimentar (2022).</p>
 </article><article class="entry flagged f-ghost">
  <header class="e-head"><h3>Post-harvest losses in Indian maize amid increasing food insecurity Analysis using TOPSIS method</h3><span class="flag f-ghost">Citação-fantasma</span></header>
  <p class="meta"><span class="venue">sem veículo indexado</span><span class="dot">·</span>2021<span class="dot">·</span><span class="mono">gold</span></p>
@@ -291,6 +352,16 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
  <p class="meta"><span class="venue">Communications Earth &amp;amp; Environment</span><span class="dot">·</span>2023<span class="dot">·</span><span class="mono">gold</span></p>
  <div class="chips"><span class="chip r-ghost">só na bibliografia</span><span class="chip s-dim">neutra</span></div>
  <blockquote>…mina, M. &amp; Gallego-Schmid, A. A review of business models for access to affordable and clean energy in Africa: Do they deliver social, economic, and environmental value? Energy Res. Soc. Sci. 88, 102530 (2022). 51. Bendinelli, W. E., Su, C. T., Péra, T. G. &amp; Caixeta Filho, J. V. What are the main factors that determine post-harvest losses of grains? Sustain. Prod. Consum. 21, 228–238 (2020). 52. Irungu, K. R. G., Mbugua, D. &amp;…</blockquote><p class="note">Consta apenas na lista de referências (ref. 51). Zero menções no corpo do texto.</p>
+</article><article class="entry flagged f-ghost">
+ <header class="e-head"><h3>Use of Artificial Intelligence in post-harvest losses management: a current insight</h3><span class="flag f-ghost">Citação-fantasma</span></header>
+ <p class="meta"><span class="venue">European Food Research and Technology</span><span class="dot">·</span>2026<span class="dot">·</span><span class="mono">closed</span></p>
+ <div class="chips"><span class="chip r-ghost">só na bibliografia</span><span class="chip s-dim">neutra</span></div>
+ <p class="note">Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. European Food Research and Technology (2026) — revisão sobre IA em perdas pós-colheita.</p>
+</article><article class="entry flagged f-ghost">
+ <header class="e-head"><h3>Interaction of vehicles with the grain pre-treatment point</h3><span class="flag f-ghost">Citação-fantasma</span></header>
+ <p class="meta"><span class="venue">Siberian Herald of Agricultural Science</span><span class="dot">·</span>2020<span class="dot">·</span><span class="mono">diamond</span></p>
+ <div class="chips"><span class="chip r-ghost">só na bibliografia</span><span class="chip s-dim">neutra</span></div>
+ <p class="note">Corpo do artigo obtido e verificado: nenhuma menção no texto, só a entrada na lista de referências. Siberian Herald of Agricultural Science (2020) — artigo russo sobre transporte e pré-tratamento de grão.</p>
 </article><article class="entry flagged f-bad">
  <header class="e-head"><h3>FOOD LOSSES IN PRIMARY CEREAL PRODUCTION. A REVIEW</h3><span class="flag f-bad">Atribuição incorreta</span></header>
  <p class="meta"><span class="venue">INMATEH Agricultural Engineering</span><span class="dot">·</span>2020<span class="dot">·</span><span class="mono">diamond</span></p>
@@ -309,7 +380,9 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
     <li><b>Reuso</b> — adoção de método, validação de resultado, reuso de dado, benchmark ou extensão.</li>
     <li><b>Status</b> — presente no corpo do texto ou apenas na lista de referências.</li>
    </ul>
-   <p><b>Regra de evidência:</b> nenhuma classificação sem a passagem literal em mãos. Citação não lida fica fora de toda contagem — nunca vira “citação ruim”.</p>
+   <p><b>Regra de evidência:</b> nenhuma classificação sem o documento em mãos — a passagem literal, ou o
+   texto completo comprovando que a menção só existe na bibliografia. Página de rosto de publisher, que
+   exibe as referências sem o corpo, não serve de prova e não entra em contagem alguma.</p>
   </div>
   <div>
    <h3>Onde está o resto</h3>
@@ -318,10 +391,11 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
    repositórios institucionais.</p>
    <div class="scroll"><table class="tbl">
     <tr><th>Situação</th><th class="n">Citações</th></tr>
-    <tr><td>Texto completo obtido</td><td class="n">37</td></tr>
+    <tr><td>Texto completo validado</td><td class="n">26</td></tr>
+    <tr><td>Só página de rosto</td><td class="n">26</td></tr>
     <tr><td>OA com verificação anti-bot</td><td class="n">11</td></tr>
-    <tr><td>OA não recuperado</td><td class="n">24</td></tr>
-    <tr><td>Fechado</td><td class="n">75</td></tr>
+    <tr><td>OA não recuperado</td><td class="n">29</td></tr>
+    <tr><td>Fechado</td><td class="n">55</td></tr>
     <tr><td>Só no Scholar, sem DOI</td><td class="n">29</td></tr>
    </table></div>
   </div>

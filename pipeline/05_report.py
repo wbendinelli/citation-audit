@@ -16,7 +16,8 @@ REUSE={"method_adoption":"adota método","result_validated":"valida resultado",
 FLAG={"best":("Melhor citação","good"),"good":("Uso substantivo","good"),
       "critical":("Crítica ao artigo","bad"),"misattribution":("Atribuição incorreta","bad"),
       "ghost":("Citação-fantasma","ghost"),"weak":("Atribuição frágil","warn"),
-      "duplicate":("Publicação duplicada","warn")}
+      "duplicate":("Publicação duplicada","warn"),
+      "autocitacao":("Autocitação","ghost"),"coautor":("Citação de coautor","warn")}
 TITLES={"airline":("Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry","Transportation Research Part A","2016","10.1016/j.tra.2016.01.001"),
         "grains":("What are the main factors that determine post-harvest losses of grains?","Sustainable Production and Consumption","2019","10.1016/j.spc.2019.09.002")}
 
@@ -39,7 +40,9 @@ for key in ("airline","grains"):
     rows.sort(key=lambda rc:(-ROLE[rc[1]["role"]][2], rc[0].get("venue") or ""))
     for r,c in rows:
         dist[c["role"]]+=1
-        for t in c.get("reuse",[]): kpi["reuse"]+=1
+        if c.get("flag") in ("autocitacao","coautor"): kpi["self"]+=1
+        for t in c.get("reuse",[]):
+            if c.get("flag") not in ("autocitacao","coautor"): kpi["reuse"]+=1
         if c.get("flag")=="misattribution": kpi["mis"]+=1
         if c.get("role")=="bibliography_only": kpi["ghost"]+=1
         rl,rc_,_=ROLE[c["role"]]; sl,sc=STANCE[c["stance"]]
@@ -106,9 +109,9 @@ h3{font-size:1.03rem;font-weight:600;line-height:1.35}
 header.top{border-bottom:2px solid var(--ink);padding-bottom:26px;margin-bottom:34px}
 header.top .lede{font-family:Spectral,Georgia,serif;font-size:1.16rem;color:var(--ink2);
  max-width:64ch;margin:16px 0 0}
-.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
  background:var(--rule);border:1px solid var(--rule);margin:30px 0 0}
-@media (max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}.kpis .kpi:last-child{grid-column:1/-1}}
+@media (max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}}
 .kpi{background:var(--surface);padding:16px 18px}
 .kpi b{display:block;font-family:Spectral,Georgia,serif;font-size:1.85rem;font-weight:600;
  line-height:1.1;font-variant-numeric:tabular-nums}
@@ -194,8 +197,9 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
  que o <span class="mono">citation-explorer</span> do Paperclip aplica, extra\u00edda do c\u00f3digo-fonte da ferramenta.</p>
  <div class="kpis">
   <div class="kpi"><b>{TOT}</b><span>cita\u00e7\u00f5es mapeadas</span></div>
-  <div class="kpi"><b>{NCL}</b><span>com passagem recuperada</span></div>
-  <div class="kpi"><b>{kpi["reuse"]}</b><span>com reuso metodol\u00f3gico</span></div>
+  <div class="kpi"><b>{NCL}</b><span>com evid\u00eancia verificada</span></div>
+  <div class="kpi"><b>{kpi["reuse"]}</b><span>com reuso metodol\u00f3gico externo</span></div>
+  <div class="kpi"><b>{kpi["self"]}</b><span>autocita\u00e7\u00e3o ou coautor</span></div>
   <div class="kpi hl"><b>{kpi["mis"]}</b><span>atribui\u00e7\u00f5es incorretas</span></div>
   <div class="kpi hl"><b>{kpi["ghost"]}</b><span>cita\u00e7\u00f5es-fantasma</span></div>
  </div>
@@ -213,7 +217,9 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
     <li><b>Reuso</b> \u2014 ado\u00e7\u00e3o de m\u00e9todo, valida\u00e7\u00e3o de resultado, reuso de dado, benchmark ou extens\u00e3o.</li>
     <li><b>Status</b> \u2014 presente no corpo do texto ou apenas na lista de refer\u00eancias.</li>
    </ul>
-   <p><b>Regra de evid\u00eancia:</b> nenhuma classifica\u00e7\u00e3o sem a passagem literal em m\u00e3os. Cita\u00e7\u00e3o n\u00e3o lida fica fora de toda contagem \u2014 nunca vira \u201ccita\u00e7\u00e3o ruim\u201d.</p>
+   <p><b>Regra de evid\u00eancia:</b> nenhuma classifica\u00e7\u00e3o sem o documento em m\u00e3os \u2014 a passagem literal, ou o
+   texto completo comprovando que a men\u00e7\u00e3o s\u00f3 existe na bibliografia. P\u00e1gina de rosto de publisher, que
+   exibe as refer\u00eancias sem o corpo, n\u00e3o serve de prova e n\u00e3o entra em contagem alguma.</p>
   </div>
   <div>
    <h3>Onde est\u00e1 o resto</h3>
@@ -222,7 +228,8 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
    reposit\u00f3rios institucionais.</p>
    <div class="scroll"><table class="tbl">
     <tr><th>Situa\u00e7\u00e3o</th><th class="n">Cita\u00e7\u00f5es</th></tr>
-    <tr><td>Texto completo obtido</td><td class="n">{st("tem_texto")}</td></tr>
+    <tr><td>Texto completo validado</td><td class="n">{st("tem_texto")}</td></tr>
+    <tr><td>S\u00f3 p\u00e1gina de rosto</td><td class="n">{st("texto_parcial")+st("evidencia_insuficiente")+st("texto_incorreto")}</td></tr>
     <tr><td>OA com verifica\u00e7\u00e3o anti-bot</td><td class="n">{st("oa_antibot")}</td></tr>
     <tr><td>OA n\u00e3o recuperado</td><td class="n">{st("oa_bloqueado")+st("oa_baixavel")}</td></tr>
     <tr><td>Fechado</td><td class="n">{st("fechado")}</td></tr>
