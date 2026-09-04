@@ -69,6 +69,36 @@ python3 tools/audit_30_validate_texts.py && python3 tools/audit_31_passages.py
 python3 tools/check_data.py --local
 ```
 
+## O relatório e os números
+
+O relatório técnico vive em `reports/01-impacto/` e obedece à mesma régua do
+resto do repositório: **nenhum número entra na prosa sem um script que o
+imprima**. A cadeia é esta:
+
+1. `python3 tools/audit_70_numbers.py` lê `data/*.json` e escreve
+   `reports/01-impacto/dados.json` (folhas com valor bruto e texto em pt-BR) e
+   `numeros.txt` (o mesmo conteúdo em texto, por seção `== audit_70 §chave ==`).
+2. A prosa de `main.typ` cita o número e aponta, na mesma linha ou na nota de
+   rodapé, `audit_70 §chave`. `python3 tools/check_numbers.py --prose
+   reports/01-impacto/main.typ --exempt reports/01-impacto/check_numbers_exempt.txt`
+   confere que cada número existe na seção apontada; o resultado tem de terminar
+   em `MISS/SEM-PONTEIRO 0`, e o arquivo de exceções vazio é resultado, não omissão.
+3. Figuras de medida saem de `tools/audit_81_figures.py`, que lê só `dados.json`
+   e roda no venv pinado (`uv venv --python 3.12 .venv && uv pip install
+   --python .venv/bin/python -r requirements.txt`; `matplotlib` e `numpy`
+   fixados para os PNGs saírem byte-idênticos). Diagramas de mecanismo são
+   Typst nativo em `figuras.typ`, sem dígito dentro. Os SVGs do README saem de
+   `tools/audit_82_readme_svgs.py`.
+4. Compilação: `typst compile --root . --font-path tools/fonts
+   reports/01-impacto/main.typ reports/01-impacto/relatorio-impacto.pdf`. As
+   fontes vendorizadas em `tools/fonts/` são obrigatórias.
+
+Os hooks `numbers-generated`, `svgs-generated`, `report-generated` e
+`report-numbers` do pre-commit e o job `report` do CI refazem 70, 80, 81 e 82
+em modo `--check` e rodam o verificador de prosa. Se um `--check` falhar depois
+de uma mudança em `data/`, regenere e commite a saída junto: é a checagem
+funcionando, não o CI quebrado.
+
 ## Estilo de commit
 
 `tipo(escopo): resumo`, escopos `tools` `data` `method` `readme` `report`

@@ -1217,8 +1217,244 @@
  "cd": {
   "airline": {
    "cd_index": {
-    "motivo": "data/cd/cd_airline.json: Corrida de teste (audit_65_cd_index.py --paper airline --cap-per-ref 50) interrompida pelo orcamento diario da API do OpenAlex, que zerou no meio da execucao (ver relatorio da sessao que gravou este arquivo). 22 das 26 chamadas de citantes-por-referencia devolveram None por causa de HTTP 429 'Insufficient budget', nao porque essas referencias tem 0 citantes reais -- os indicadores computados a partir desses dados (n_i, n_j, n_k, CD, etc.) sao invalidos e foram removidos deste arquivo de proposito para nao ser confundidos com um resultado real.",
-    "pendente": true
+    "backend": "semanticscholar",
+    "crosstab": null,
+    "fisher_p": null,
+    "loo": null,
+    "windows": {
+     "1": {
+      "CD": -0.002824858757062147,
+      "CD_nok": -0.3333333333333333,
+      "DI2": {
+       "n_i": 1,
+       "n_j": 2,
+       "n_k": 60,
+       "value": -0.015873015873015872
+      },
+      "DI5": {
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 2,
+       "value": 0.6
+      },
+      "checks": {
+       "ni_plus_nj": 3,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 3
+      },
+      "ci_95": {
+       "CD": [
+        -0.011299435028248588,
+        0.005649717514124294
+       ],
+       "CD_nok": [
+        -1.0,
+        1.0
+       ],
+       "DI2": [
+        -0.06899576527525711,
+        0.03636363636363636
+       ],
+       "DI5": [
+        0.0,
+        1.0
+       ],
+       "holst_CD": [
+        -0.011299435028248588,
+        0.005649717514124294
+       ]
+      },
+      "holst": {
+       "CD": -0.002824858757062147,
+       "n_i": 1,
+       "n_j": 2,
+       "n_k": 351
+      },
+      "n_i": 1,
+      "n_j": 2,
+      "n_k": 351,
+      "n_window": 354,
+      "t": 1,
+      "t_nominal": 1,
+      "truncated": false
+     },
+     "10": {
+      "CD": -0.011651816312542838,
+      "CD_nok": -0.3469387755102041,
+      "DI2": {
+       "n_i": 23,
+       "n_j": 26,
+       "n_k": 220,
+       "value": -0.011152416356877323
+      },
+      "DI5": {
+       "n_i": 45,
+       "n_j": 4,
+       "n_k": 13,
+       "value": 0.6612903225806451
+      },
+      "checks": {
+       "ni_plus_nj": 49,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 49
+      },
+      "ci_95": {
+       "CD": [
+        -0.021247429746401644,
+        -0.00205620287868403
+       ],
+       "CD_nok": [
+        -0.6,
+        -0.06976744186046512
+       ],
+       "DI2": [
+        -0.06072314612868048,
+        0.039870431893687684
+       ],
+       "DI5": [
+        0.5087719298245614,
+        0.8035801820728291
+       ],
+       "holst_CD": [
+        -0.021247429746401644,
+        -0.00205620287868403
+       ]
+      },
+      "holst": {
+       "CD": -0.011651816312542838,
+       "n_i": 16,
+       "n_j": 33,
+       "n_k": 1410
+      },
+      "n_i": 16,
+      "n_j": 33,
+      "n_k": 1410,
+      "n_window": 1459,
+      "t": 10,
+      "t_nominal": 10,
+      "truncated": false
+     },
+     "3": {
+      "CD": -0.006675567423230975,
+      "CD_nok": -0.3333333333333333,
+      "DI2": {
+       "n_i": 7,
+       "n_j": 8,
+       "n_k": 101,
+       "value": -0.008620689655172414
+      },
+      "DI5": {
+       "n_i": 14,
+       "n_j": 1,
+       "n_k": 8,
+       "value": 0.5652173913043478
+      },
+      "checks": {
+       "ni_plus_nj": 15,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 15
+      },
+      "ci_95": {
+       "CD": [
+        -0.017356475300400534,
+        0.0026702269692923898
+       ],
+       "CD_nok": [
+        -0.8004545454545454,
+        0.17705882352940858
+       ],
+       "DI2": [
+        -0.07620879120879122,
+        0.05834558823529405
+       ],
+       "DI5": [
+        0.31995454545454544,
+        0.7894736842105263
+       ],
+       "holst_CD": [
+        -0.017356475300400534,
+        0.0026702269692923898
+       ]
+      },
+      "holst": {
+       "CD": -0.006675567423230975,
+       "n_i": 5,
+       "n_j": 10,
+       "n_k": 734
+      },
+      "n_i": 5,
+      "n_j": 10,
+      "n_k": 734,
+      "n_window": 749,
+      "t": 3,
+      "t_nominal": 3,
+      "truncated": false
+     },
+     "5": {
+      "CD": -0.010566762728146013,
+      "CD_nok": -0.44,
+      "DI2": {
+       "n_i": 10,
+       "n_j": 15,
+       "n_k": 153,
+       "value": -0.028089887640449437
+      },
+      "DI5": {
+       "n_i": 23,
+       "n_j": 2,
+       "n_k": 10,
+       "value": 0.6
+      },
+      "checks": {
+       "ni_plus_nj": 25,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 25
+      },
+      "ci_95": {
+       "CD": [
+        -0.020172910662824207,
+        -0.0009606147934678194
+       ],
+       "CD_nok": [
+        -0.7692857142857144,
+        -0.06647058823529518
+       ],
+       "DI2": [
+        -0.08333333333333333,
+        0.024845493031735725
+       ],
+       "DI5": [
+        0.3947169059011164,
+        0.78125
+       ],
+       "holst_CD": [
+        -0.020172910662824207,
+        -0.0009606147934678194
+       ]
+      },
+      "holst": {
+       "CD": -0.010566762728146013,
+       "n_i": 7,
+       "n_j": 18,
+       "n_k": 1016
+      },
+      "n_i": 7,
+      "n_j": 18,
+      "n_k": 1016,
+      "n_window": 1041,
+      "t": 5,
+      "t_nominal": 5,
+      "truncated": false
+     }
+    }
    },
    "refs_audit": {
     "false_references": [],
@@ -1232,8 +1468,244 @@
   },
   "grains": {
    "cd_index": {
-    "motivo": "data/cd/cd_grains.json não existe",
-    "pendente": true
+    "backend": "semanticscholar",
+    "crosstab": null,
+    "fisher_p": null,
+    "loo": null,
+    "windows": {
+     "1": {
+      "CD": 0.00104675505931612,
+      "CD_nok": 1.0,
+      "DI2": {
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 519,
+       "value": 0.005747126436781609
+      },
+      "DI5": {
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 28,
+       "value": 0.0967741935483871
+      },
+      "checks": {
+       "ni_plus_nj": 3,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 3
+      },
+      "ci_95": {
+       "CD": [
+        0.0,
+        0.0024424284717376133
+       ],
+       "CD_nok": [
+        1.0,
+        1.0
+       ],
+       "DI2": [
+        0.0,
+        0.013060924311029117
+       ],
+       "DI5": [
+        0.0,
+        0.21742527173913023
+       ],
+       "holst_CD": [
+        0.0,
+        0.0024424284717376133
+       ]
+      },
+      "holst": {
+       "CD": 0.00104675505931612,
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 2863
+      },
+      "n_i": 3,
+      "n_j": 0,
+      "n_k": 2863,
+      "n_window": 2866,
+      "t": 1,
+      "t_nominal": 1,
+      "truncated": false
+     },
+     "10": {
+      "CD": 0.0008201523140011716,
+      "CD_nok": 0.1320754716981132,
+      "DI2": {
+       "n_i": 39,
+       "n_j": 14,
+       "n_k": 1306,
+       "value": 0.01839587932303164
+      },
+      "DI5": {
+       "n_i": 50,
+       "n_j": 3,
+       "n_k": 64,
+       "value": 0.4017094017094017
+      },
+      "checks": {
+       "ni_plus_nj": 53,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 53
+      },
+      "ci_95": {
+       "CD": [
+        -0.0008201523140011716,
+        0.002460456942003515
+       ],
+       "CD_nok": [
+        -0.12121212121212122,
+        0.4043762088974848
+       ],
+       "DI2": [
+        0.00866087304580758,
+        0.02850925799631725
+       ],
+       "DI5": [
+        0.30172071702244113,
+        0.49549941245593415
+       ],
+       "holst_CD": [
+        -0.0008201523140011716,
+        0.002460456942003515
+       ]
+      },
+      "holst": {
+       "CD": 0.0008201523140011716,
+       "n_i": 30,
+       "n_j": 23,
+       "n_k": 8482
+      },
+      "n_i": 30,
+      "n_j": 23,
+      "n_k": 8482,
+      "n_window": 8535,
+      "t": 7,
+      "t_nominal": 10,
+      "truncated": true
+     },
+     "3": {
+      "CD": -0.0003726476616359232,
+      "CD_nok": -0.09090909090909091,
+      "DI2": {
+       "n_i": 13,
+       "n_j": 9,
+       "n_k": 904,
+       "value": 0.004319654427645789
+      },
+      "DI5": {
+       "n_i": 20,
+       "n_j": 2,
+       "n_k": 48,
+       "value": 0.2571428571428571
+      },
+      "checks": {
+       "ni_plus_nj": 22,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 22
+      },
+      "ci_95": {
+       "CD": [
+        -0.0020495621389975778,
+        0.0013042668157257314
+       ],
+       "CD_nok": [
+        -0.5004310344827586,
+        0.3333333333333333
+       ],
+       "DI2": [
+        -0.00535920055752591,
+        0.014444530443756449
+       ],
+       "DI5": [
+        0.14492276887871855,
+        0.37808031959629923
+       ],
+       "holst_CD": [
+        -0.0020495621389975778,
+        0.0013042668157257314
+       ]
+      },
+      "holst": {
+       "CD": -0.0003726476616359232,
+       "n_i": 10,
+       "n_j": 12,
+       "n_k": 5345
+      },
+      "n_i": 10,
+      "n_j": 12,
+      "n_k": 5345,
+      "n_window": 5367,
+      "t": 3,
+      "t_nominal": 3,
+      "truncated": false
+     },
+     "5": {
+      "CD": 0.0008391608391608392,
+      "CD_nok": 0.16666666666666666,
+      "DI2": {
+       "n_i": 25,
+       "n_j": 11,
+       "n_k": 1139,
+       "value": 0.011914893617021277
+      },
+      "DI5": {
+       "n_i": 33,
+       "n_j": 3,
+       "n_k": 62,
+       "value": 0.30612244897959184
+      },
+      "checks": {
+       "ni_plus_nj": 36,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 36
+      },
+      "ci_95": {
+       "CD": [
+        -0.0007027972027972025,
+        0.0025174825174825175
+       ],
+       "CD_nok": [
+        -0.1668103448275862,
+        0.4706656346749222
+       ],
+       "DI2": [
+        0.0017270784623156464,
+        0.022103788161606103
+       ],
+       "DI5": [
+        0.20688718140929535,
+        0.41178308823529397
+       ],
+       "holst_CD": [
+        -0.0007027972027972025,
+        0.0025174825174825175
+       ]
+      },
+      "holst": {
+       "CD": 0.0008391608391608392,
+       "n_i": 21,
+       "n_j": 15,
+       "n_k": 7114
+      },
+      "n_i": 21,
+      "n_j": 15,
+      "n_k": 7114,
+      "n_window": 7150,
+      "t": 5,
+      "t_nominal": 5,
+      "truncated": false
+     }
+    }
    },
    "refs_audit": {
     "false_references": [
@@ -1703,8 +2175,234 @@
   }
  },
  "cocitacao": {
-  "motivo": "data/cocit/cocit_airline.json não existe (só data/cocit/seeds_airline.json, que é insumo, não resultado)",
-  "pendente": true
+  "brokerage": {
+   "AB": {
+    "k_cites_focal": 14,
+    "n": 48,
+    "rate": 0.2916666666666667
+   },
+   "A_only": {
+    "k_cites_focal": 8,
+    "n": 247,
+    "rate": 0.032388663967611336
+   },
+   "B_only": {
+    "k_cites_focal": 10,
+    "n": 270,
+    "rate": 0.037037037037037035
+   },
+   "binom_test_AB_vs_single_p0": {
+    "k": 14,
+    "n": 48,
+    "p0": 0.03481624758220503,
+    "p_two_sided": 6.05015889941978e-10
+   },
+   "brokerage_share": 0.2916666666666667,
+   "checks": {
+    "k_ab_le_focal_citers_in_window": true
+   },
+   "n_focal_citers_in_window": 49,
+   "odds_ratio_AB_vs_A_only": 12.301470588235297,
+   "odds_ratio_AB_vs_B_only": 10.705882352941181,
+   "odds_ratio_AB_vs_single": 11.415032679738564,
+   "post_window": [
+    2016,
+    2026
+   ],
+   "single_strand": {
+    "k_cites_focal": 18,
+    "n": 517,
+    "rate": 0.03481624758220503
+   }
+  },
+  "passage_confirmation": {
+   "hits": [
+    {
+     "doi": "10.1016/j.tra.2018.10.012",
+     "note": "Transportation Research Part A. Explica o mecanismo do artigo com precisão: separar concentração de mercado e de aeroporto, atribuindo internalização de congestionamento à concentração aeroportuária e efeito qualidade à concentração de mercado.",
+     "role": "foundational",
+     "stance": "supporting"
+    },
+    {
+     "doi": "10.1016/j.tre.2022.103000",
+     "note": "Transportation Research Part E. A descrição mais precisa que qualquer citante fez do artigo: identifica que ele concilia duas vertentes da literatura num único modelo econométrico, testando efeito de internalização e efeito concorrência-qualidade.",
+     "role": "real_mention",
+     "stance": "supporting"
+    }
+   ],
+   "keywords": [
+    "strand",
+    "conciliat",
+    "reconcil",
+    "two strands",
+    "duas vertentes"
+   ],
+   "n_hits": 2
+  },
+  "periods": {
+   "main": {
+    "delta_share_AB": 0.03154875405401,
+    "post": {
+     "N_A": 295,
+     "N_AB": 48,
+     "N_B": 318,
+     "N_union": 565,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.08495575221238938,
+     "salton_cosine": 0.15671720205481998,
+     "share_AB": 0.08495575221238938
+    },
+    "post_range": [
+     2016,
+     2026
+    ],
+    "pre": {
+     "N_A": 354,
+     "N_AB": 29,
+     "N_B": 218,
+     "N_union": 543,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.053406998158379376,
+     "salton_cosine": 0.10439221680646156,
+     "share_AB": 0.053406998158379376
+    },
+    "pre_range": [
+     2003,
+     2015
+    ]
+   },
+   "placebo_2011": {
+    "delta_share_AB": -0.0014205916833321813,
+    "post": {
+     "N_A": 462,
+     "N_AB": 59,
+     "N_B": 450,
+     "N_union": 853,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.06916764361078546,
+     "salton_cosine": 0.12939716667542123,
+     "share_AB": 0.06916764361078546
+    },
+    "post_range": [
+     2011,
+     2026
+    ],
+    "pre": {
+     "N_A": 187,
+     "N_AB": 18,
+     "N_B": 86,
+     "N_union": 255,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.07058823529411765,
+     "salton_cosine": 0.1419392402294931,
+     "share_AB": 0.07058823529411765
+    },
+    "pre_range": [
+     2003,
+     2010
+    ]
+   },
+   "placebo_2020": {
+    "delta_share_AB": 0.011157342588393057,
+    "post": {
+     "N_A": 168,
+     "N_AB": 25,
+     "N_B": 180,
+     "N_union": 323,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.07739938080495357,
+     "salton_cosine": 0.1437636581963238,
+     "share_AB": 0.07739938080495357
+    },
+    "post_range": [
+     2020,
+     2026
+    ],
+    "pre": {
+     "N_A": 481,
+     "N_AB": 52,
+     "N_B": 356,
+     "N_union": 785,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.06624203821656051,
+     "salton_cosine": 0.12566253208831682,
+     "share_AB": 0.06624203821656051
+    },
+    "pre_range": [
+     2003,
+     2019
+    ]
+   },
+   "sensitivity": {
+    "delta_share_AB": 0.029126591093060164,
+    "post": {
+     "N_A": 272,
+     "N_AB": 43,
+     "N_B": 292,
+     "N_union": 521,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.08253358925143954,
+     "salton_cosine": 0.15257823187223352,
+     "share_AB": 0.08253358925143954
+    },
+    "post_range": [
+     2017,
+     2026
+    ],
+    "pre": {
+     "N_A": 354,
+     "N_AB": 29,
+     "N_B": 218,
+     "N_union": 543,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.053406998158379376,
+     "salton_cosine": 0.10439221680646156,
+     "share_AB": 0.053406998158379376
+    },
+    "pre_range": [
+     2003,
+     2015
+    ]
+   }
+  },
+  "tests": {
+   "fisher_period_x_cocites_both": {
+    "p_two_sided": 0.04436030730478797,
+    "table_rows_pre_post__cols_AB_single": [
+     [
+      29,
+      514
+     ],
+     [
+      48,
+      517
+     ]
+    ]
+   },
+   "permutation_delta_share_AB_main": {
+    "delta_observed": 0.03154875405401,
+    "n_perm": 10000,
+    "p_value": 0.043495650434956505,
+    "share_post_observed": 0.08495575221238938,
+    "share_pre_observed": 0.053406998158379376
+   }
+  }
  },
  "constantes": {
   "B": {
@@ -2013,6 +2711,15 @@
      "valor": 0.0
     }
    },
+   "reuse_externo": {
+    "D_ind": 48,
+    "n": 3,
+    "pct": {
+     "pct": "6%",
+     "ratio": "3/48",
+     "valor": 0.0625
+    }
+   },
    "stance": {
     "contradictory": {
      "D": 52,
@@ -2267,6 +2974,15 @@
      "valor": 0.0
     }
    },
+   "reuse_externo": {
+    "D_ind": 40,
+    "n": 2,
+    "pct": {
+     "pct": "5%",
+     "ratio": "2/40",
+     "valor": 0.05
+    }
+   },
    "stance": {
     "contradictory": {
      "D": 40,
@@ -2519,6 +3235,15 @@
      "pct": "0%",
      "ratio": "0/92",
      "valor": 0.0
+    }
+   },
+   "reuse_externo": {
+    "D_ind": 88,
+    "n": 5,
+    "pct": {
+     "pct": "6%",
+     "ratio": "5/88",
+     "valor": 0.0568
     }
    },
    "stance": {
@@ -4652,7 +5377,7 @@
    "relation": "independent",
    "reuse": [],
    "stance": "supporting",
-   "veiculo_norm": "?"
+   "veiculo_norm": ""
   },
   {
    "accuracy": "accurate",
@@ -4710,7 +5435,7 @@
    "relation": "independent",
    "reuse": [],
    "stance": "supporting",
-   "veiculo_norm": "?"
+   "veiculo_norm": ""
   },
   {
    "accuracy": "misrepresented",
@@ -5302,7 +6027,7 @@
    "relation": "independent",
    "reuse": [],
    "stance": "none",
-   "veiculo_norm": "?"
+   "veiculo_norm": ""
   },
   {
    "accuracy": "accurate",
@@ -5330,7 +6055,7 @@
    "relation": "independent",
    "reuse": [],
    "stance": "none",
-   "veiculo_norm": "?"
+   "veiculo_norm": ""
   },
   {
    "accuracy": null,
@@ -5344,7 +6069,7 @@
    "relation": "independent",
    "reuse": [],
    "stance": "none",
-   "veiculo_norm": "?"
+   "veiculo_norm": ""
   },
   {
    "accuracy": null,
@@ -5358,7 +6083,7 @@
    "relation": "independent",
    "reuse": [],
    "stance": "none",
-   "veiculo_norm": "?"
+   "veiculo_norm": ""
   },
   {
    "accuracy": "accurate",
@@ -5414,7 +6139,7 @@
    "relation": "independent",
    "reuse": [],
    "stance": "none",
-   "veiculo_norm": "?"
+   "veiculo_norm": ""
   }
  ],
  "irr": {
@@ -10591,8 +11316,8 @@
  },
  "meta": {
   "backend_cd": {
-   "airline": null,
-   "grains": null
+   "airline": "semanticscholar",
+   "grains": "semanticscholar"
   },
   "codebook": "METHOD.md@v2.1",
   "fontes": {
@@ -11014,17 +11739,6 @@
      "txt": "1,393",
      "valor": 1.393
     }
-   },
-   {
-    "n": 1,
-    "nome_norm": "?",
-    "overton": null,
-    "papeis": {
-     "drive_by": 1
-    },
-    "quartil": null,
-    "reuso_n": 0,
-    "sjr": null
    },
    {
     "n": 1,
@@ -11745,17 +12459,6 @@
     },
     {
      "n": 1,
-     "nome_norm": "?",
-     "overton": null,
-     "papeis": {
-      "drive_by": 1
-     },
-     "quartil": null,
-     "reuso_n": 0,
-     "sjr": null
-    },
-    {
-     "n": 1,
      "nome_norm": "Applied Sciences",
      "overton": {
       "txt": "9",
@@ -12401,7 +13104,7 @@
    "Q3": 2
   },
   "scimago_casados": 43,
-  "total": 46
+  "total": 45
  },
  "populacao": {
   "airline": 49,

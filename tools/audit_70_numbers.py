@@ -55,7 +55,7 @@ OUT_NUMEROS = OUT_DIR / "numeros.txt"
 
 PAPERS = ("airline", "grains")
 
-_JSON_KW = dict(ensure_ascii=False, indent=1, sort_keys=True)
+_JSON_KW = {"ensure_ascii": False, "indent": 1, "sort_keys": True}
 
 
 # --------------------------------------------------------------------------
@@ -391,7 +391,7 @@ def venue_norm(v):
     """Porte literal de audit_80_report_html.venue_norm: desescapa HTML,
     colapsa "Transportation Research Part X: ..." e corrige a grafia de
     alguns veículos recorrentes."""
-    v = html.unescape(v or "?").strip()
+    v = html.unescape(v or "").strip()  # ausente vira "", nunca "?"
     v = re.sub(r"\s+", " ", v)
     v = re.sub(r"(Transportation Research Part [A-F])\s*:?\s*", r"\1: ", v)
     v = re.sub(r"\s*[:,]\s*$", "", v)
@@ -867,7 +867,10 @@ def build_periodicos(ctx):
 
         groups = defaultdict(list)
         for r, entry in rows:
-            groups[venue_norm(r.get("venue"))].append((r, entry))
+            vn = venue_norm(r.get("venue"))
+            if not vn:  # registro sem veículo não é um periódico a ranquear
+                continue
+            groups[vn].append((r, entry))
         lista = []
         for nome, items in groups.items():
             rep = ctx.sources.get(items[0][0].get("source_id") or "")
@@ -962,7 +965,17 @@ def build_eixos(ctx):
             and not e.get("reuse")
         )
 
+        # Reuso com vínculo independente: a semântica do KPI do relatório HTML
+        # (exclui autocitação e coautoria do numerador e do denominador).
+        ind_rows = [e for e in in_text_rows if e.get("relation") == "independent"]
+        reuse_externo = {
+            "n": sum(1 for e in ind_rows if e.get("reuse")),
+            "D_ind": len(ind_rows),
+            "pct": pct_leaf(sum(1 for e in ind_rows if e.get("reuse")), len(ind_rows)),
+        }
+
         return {
+            "reuse_externo": reuse_externo,
             "presence": _axis_tally(
                 (e["presence"] for e in rows), PRESENCE_VALUES, D_all
             ),
@@ -1781,7 +1794,9 @@ def main(argv=None):
 
     args = parse_args(argv)
     root = args.root.resolve()
-    hoje = args.date or datetime.date.today().isoformat()
+    hoje = (
+        args.date or datetime.datetime.now(tz=datetime.timezone.utc).date().isoformat()
+    )
 
     ctx = Ctx(root, args.classify.resolve() if args.classify else None)
     dados = build_dados(ctx, hoje)

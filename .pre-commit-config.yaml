@@ -14,7 +14,7 @@ repos:
         # Markdown (ver .editorconfig) — não "corrigir".
         exclude: '\.md$'
       - id: check-added-large-files
-        args: ["--maxkb=1024"]
+        args: ["--maxkb=2048"]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.16.4
@@ -52,14 +52,32 @@ repos:
         files: ^(tools/(audit_50_pending|auditlib)\.py|data/(master|classify|journals|decisoes_scimago)\.json|data/derived/(pendencias|sem_quartil)\.csv)$
         pass_filenames: false
       - id: report-generated
-        name: report/index.html bate com master+classify+journals+config
+        name: reports/01-impacto/index.html bate com dados.json+master+classify
         entry: python3 tools/audit_80_report_html.py --check
         language: system
-        files: ^(tools/(audit_80_report_html|auditlib)\.py|data/(master|classify|journals)\.json|config\.json|report/index\.html)$
+        files: ^(tools/(audit_80_report_html|auditlib)\.py|data/(master|classify)\.json|reports/01-impacto/(dados\.json|index\.html))$
         pass_filenames: false
       - id: tier-rule
         name: journals.json satisfaz a regra de tier (audit_41_scimago)
         entry: python3 tools/audit_41_scimago.py --check
         language: system
         files: ^(tools/(audit_41_scimago|auditlib)\.py|data/journals\.json)$
+        pass_filenames: false
+      - id: numbers-generated
+        name: reports/01-impacto/{dados.json,numeros.txt} batem com data/ (audit_70)
+        entry: python3 tools/audit_70_numbers.py --check
+        language: system
+        files: ^(tools/audit_70_numbers\.py|config\.json|data/.*\.json|reports/01-impacto/(dados\.json|numeros\.txt))$
+        pass_filenames: false
+      - id: svgs-generated
+        name: docs/assets/*.svg batem com dados.json e tools/README.md (audit_82)
+        entry: python3 tools/audit_82_readme_svgs.py --check
+        language: system
+        files: ^(tools/(audit_82_readme_svgs\.py|README\.md)|ROADMAP\.md|reports/01-impacto/dados\.json|docs/assets/.*\.svg)$
+        pass_filenames: false
+      - id: report-numbers
+        name: todo número da prosa do relatório aponta para numeros.txt (check_numbers)
+        entry: python3 tools/check_numbers.py --prose reports/01-impacto/main.typ --exempt reports/01-impacto/check_numbers_exempt.txt
+        language: system
+        files: ^(tools/check_numbers\.py|reports/01-impacto/(main\.typ|numeros\.txt|check_numbers_exempt\.txt))$
         pass_filenames: false

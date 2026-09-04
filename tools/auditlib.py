@@ -4,6 +4,7 @@ Reúne caminhos, carregadores/gravadores de `data/*.json`, helpers de rede e
 texto, e as constantes de taxonomia usadas por todo `tools/`. Nenhuma
 dependência fora da stdlib.
 """
+
 import hashlib
 import json
 import re
@@ -20,7 +21,7 @@ TEXT = ROOT / "text"
 PDF = ROOT / "pdf"
 REPORTS = ROOT / "report"
 
-_JSON_KW = dict(ensure_ascii=False, indent=1, sort_keys=True)
+_JSON_KW = {"ensure_ascii": False, "indent": 1, "sort_keys": True}
 
 
 def _dump(obj, path):
@@ -35,6 +36,7 @@ def load_config():
 
 
 # ---------------- data/master.json ----------------
+
 
 def load_master():
     """Carrega data/master.json.
@@ -68,6 +70,7 @@ def iter_records(master):
 
 # ---------------- data/classify.json ----------------
 
+
 def load_classify():
     return _load_versioned("classify.json", "entries")
 
@@ -100,6 +103,7 @@ def load_decisoes_scimago():
 
 
 # ---------------- data/journals.json ----------------
+
 
 def load_journals():
     return _load_versioned("journals.json", "sources")
@@ -163,15 +167,22 @@ def tier_erros(sources):
         tp = tier_proxy_de(m.get("citedness_2a"))
         tier, base = tier_e_base(tp, m.get("scimago"))
         if m.get("tier_proxy") != tp:
-            erros.append(f"{sid} ({m.get('nome')}): tier_proxy={m.get('tier_proxy')!r}, esperado {tp!r}")
+            erros.append(
+                f"{sid} ({m.get('nome')}): tier_proxy={m.get('tier_proxy')!r}, esperado {tp!r}"
+            )
         if m.get("tier") != tier:
-            erros.append(f"{sid} ({m.get('nome')}): tier={m.get('tier')!r}, esperado {tier!r}")
+            erros.append(
+                f"{sid} ({m.get('nome')}): tier={m.get('tier')!r}, esperado {tier!r}"
+            )
         if m.get("tier_base") != base:
-            erros.append(f"{sid} ({m.get('nome')}): tier_base={m.get('tier_base')!r}, esperado {base!r}")
+            erros.append(
+                f"{sid} ({m.get('nome')}): tier_base={m.get('tier_base')!r}, esperado {base!r}"
+            )
     return erros
 
 
 # ---------------- v1/v2 genérico ----------------
+
 
 def _load_versioned(filename, key):
     """Carrega `data/<filename>`. Aceita o v1 plano (o próprio dict de
@@ -194,12 +205,16 @@ def _save_versioned(filename, obj, key):
 
 # ---------------- rede ----------------
 
+
 def jget(url, tries=5, timeout=90, headers=None):
     """GET JSON com retry e backoff exponencial (máx. 25s). HTTP 404 é
     tratado como resposta definitiva — devolve None sem tentar de novo."""
     cfg = load_config()
     mail = cfg.get("mailto") or cfg.get("contact_email", "")
-    h = {"Accept": "application/json", "User-Agent": f"citation-audit/1.0 (mailto:{mail})"}
+    h = {
+        "Accept": "application/json",
+        "User-Agent": f"citation-audit/1.0 (mailto:{mail})",
+    }
     if headers:
         h.update(headers)
     for attempt in range(tries):
@@ -210,13 +225,14 @@ def jget(url, tries=5, timeout=90, headers=None):
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None
-            time.sleep(min(25, 2 ** attempt))
+            time.sleep(min(25, 2**attempt))
         except Exception:
-            time.sleep(min(25, 2 ** attempt))
+            time.sleep(min(25, 2**attempt))
     return None
 
 
 # ---------------- texto ----------------
+
 
 def norm_doi(d):
     if not d:
@@ -240,8 +256,14 @@ def strip_html(b):
     s = b.decode("utf-8", "ignore")
     s = re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", s)
     s = re.sub(r"(?s)<[^>]+>", " ", s)
-    for a, c in [("&nbsp;", " "), ("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
-                 ("&quot;", '"'), ("&#39;", "'")]:
+    for a, c in [
+        ("&nbsp;", " "),
+        ("&amp;", "&"),
+        ("&lt;", "<"),
+        ("&gt;", ">"),
+        ("&quot;", '"'),
+        ("&#39;", "'"),
+    ]:
         s = s.replace(a, c)
     return re.sub(r"[ \t]+", " ", s)
 
@@ -251,8 +273,12 @@ def pdftext(path, min_len=2500):
     texto extraído for curto demais para ser corpo de artigo (heurística:
     é só página de rosto/abstract, não o texto completo)."""
     try:
-        o = subprocess.run(["pdftotext", "-q", "-enc", "UTF-8", str(path), "-"],
-                            capture_output=True, timeout=150)
+        o = subprocess.run(
+            ["pdftotext", "-q", "-enc", "UTF-8", str(path), "-"],
+            capture_output=True,
+            timeout=150,
+            check=False,
+        )
         t = o.stdout.decode("utf-8", "ignore")
         return t if len(t) > min_len else None
     except Exception:
@@ -280,12 +306,28 @@ def evidence_sha256_16(passages):
 # esquema v1 isso era "", no v2 é `null` — os dois ficam fora desta lista de
 # propósito, e são tratados como "sem flag" por quem valida.
 TAXONOMIA = {
-    "role": ["bibliography_only", "brief_mention", "drive_by", "real_mention",
-             "supporting", "foundational", "wrongly_interpreted"],
+    "role": [
+        "bibliography_only",
+        "brief_mention",
+        "drive_by",
+        "real_mention",
+        "supporting",
+        "foundational",
+        "wrongly_interpreted",
+    ],
     "stance": ["none", "supporting", "contradictory"],
     "reuse": ["method_adoption", "result_validated", "work_extended"],
-    "flag": ["ghost", "critical", "weak", "good", "misattribution", "duplicate",
-             "best", "coautor", "autocitacao"],
+    "flag": [
+        "ghost",
+        "critical",
+        "weak",
+        "good",
+        "misattribution",
+        "duplicate",
+        "best",
+        "coautor",
+        "autocitacao",
+    ],
 }
 
 
@@ -339,16 +381,42 @@ def role_flag_v1(entry):
 # `load_taxonomy_v2_json()` abaixo lê o arquivo por baixo, e
 # `check_data.py` confere que os dois nunca divergem.
 TAXONOMIA_V2 = {
-    "presence": {"values": ["in_text", "reference_list_only", "not_cited"], "ranks": None},
-    "depth": {"values": ["drive_by", "brief_mention", "real_mention", "supporting", "foundational"],
-              "ranks": {"drive_by": 1, "brief_mention": 2, "real_mention": 3,
-                        "supporting": 4, "foundational": 5}},
+    "presence": {
+        "values": ["in_text", "reference_list_only", "not_cited"],
+        "ranks": None,
+    },
+    "depth": {
+        "values": [
+            "drive_by",
+            "brief_mention",
+            "real_mention",
+            "supporting",
+            "foundational",
+        ],
+        "ranks": {
+            "drive_by": 1,
+            "brief_mention": 2,
+            "real_mention": 3,
+            "supporting": 4,
+            "foundational": 5,
+        },
+    },
     "accuracy": {"values": ["accurate", "imprecise", "misrepresented"], "ranks": None},
-    "distortion": {"values": ["dead_end", "diversion", "transmutation", "relayed_attribution"],
-                   "ranks": None},
+    "distortion": {
+        "values": ["dead_end", "diversion", "transmutation", "relayed_attribution"],
+        "ranks": None,
+    },
     "stance": {"values": ["none", "supporting", "contradictory"], "ranks": None},
-    "reuse": {"values": ["method_adoption", "result_validated", "dataset_reuse",
-                         "benchmarking", "work_extended"], "ranks": None},
+    "reuse": {
+        "values": [
+            "method_adoption",
+            "result_validated",
+            "dataset_reuse",
+            "benchmarking",
+            "work_extended",
+        ],
+        "ranks": None,
+    },
     "relation": {"values": ["independent", "coauthor", "self"], "ranks": None},
     "record_flags": {"values": ["duplicate_publication"], "ranks": None},
     "highlight": {"values": ["none", "good", "best"], "ranks": None},
@@ -368,7 +436,17 @@ def load_taxonomy_v2_json():
 
 # Vocabulário fechado de master[*].citing[*].status.
 STATUS = (
-    "fechado", "oa_baixavel", "oa_sem_pdf_direto", "oa_bloqueado", "oa_antibot",
-    "tem_texto", "texto_parcial", "texto_incorreto", "evidencia_insuficiente",
-    "aresta_falsa", "sem_doi", "so_scholar", "so_scholar_sem_doi",
+    "fechado",
+    "oa_baixavel",
+    "oa_sem_pdf_direto",
+    "oa_bloqueado",
+    "oa_antibot",
+    "tem_texto",
+    "texto_parcial",
+    "texto_incorreto",
+    "evidencia_insuficiente",
+    "aresta_falsa",
+    "sem_doi",
+    "so_scholar",
+    "so_scholar_sem_doi",
 )

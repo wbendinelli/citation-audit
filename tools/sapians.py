@@ -42,6 +42,7 @@ Smoke test:
 
 from __future__ import annotations
 
+import math
 import pathlib
 
 import matplotlib
@@ -314,6 +315,11 @@ def _ausente(x) -> bool:
     """True para None, NaN e o `pd.NA` das colunas nullable — tudo vira 'NA'."""
     if x is None:
         return True
+    if pd is None:  # sem pandas (fase 81): só None e NaN contam como ausente
+        try:
+            return math.isnan(float(x))
+        except (TypeError, ValueError):
+            return False
     try:
         return bool(pd.isna(x))
     except (TypeError, ValueError):

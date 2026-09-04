@@ -1,7 +1,7 @@
 # Content license — CC BY-SA 4.0
 
 O conteúdo deste repositório — a prosa do README, METHOD.md, ROADMAP.md, as
-notas em `data/classify.json` e a prosa de `report/index.html` — é licenciado
+notas em `data/classify.json` e a prosa de `reports/01-impacto/index.html` — é licenciado
 sob a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA
 4.0). Em resumo: você pode compartilhar e adaptar, desde que dê crédito (BY)
 e distribua adaptações sob a mesma licença (SA). Este resumo não substitui o

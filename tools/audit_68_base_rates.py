@@ -36,7 +36,7 @@ SELF_ROOT = Path(__file__).resolve().parents[1]
 OUT_DATA = SELF_ROOT / "data"
 STAGE_C_CLASSIFY_FALLBACK = SELF_ROOT.parent / "stage_c" / "data" / "classify.json"
 
-_JSON_KW = dict(ensure_ascii=False, indent=1, sort_keys=True)
+_JSON_KW = {"ensure_ascii": False, "indent": 1, "sort_keys": True}
 
 
 def dump_json(obj, path):
@@ -450,11 +450,13 @@ def main():
         (
             "ghost_D_pop",
             ghost_pop_dois,
-            "D_pop aqui É A INTERSEÇÃO ESPECÍFICA 'população 87 ∩ os 13 fantasma candidatos' (7 entradas), NÃO o D_pop geral "
-            f"deste script (população ∩ todas as 104 = {len(D_pop)}). Terceira linha de taxa-fantasma acrescentada por "
-            "decisão do agente: a tarefa definiu D_pop como denominador disponível mas não o atribuiu explicitamente a "
-            "nenhuma linha da lista de indicadores -- replicar aqui o terceiro denominador que audit_67 já calcula "
-            "pareceu a leitura mais defensável, em vez de deixar D_pop sem uso. Ver relatório final do agente.",
+            (
+                "D_pop aqui É A INTERSEÇÃO ESPECÍFICA 'população 87 ∩ os 13 fantasma candidatos' (7 entradas), NÃO o D_pop geral "
+                f"deste script (população ∩ todas as 104 = {len(D_pop)}). Terceira linha de taxa-fantasma acrescentada por "
+                "decisão do agente: a tarefa definiu D_pop como denominador disponível mas não o atribuiu explicitamente a "
+                "nenhuma linha da lista de indicadores -- replicar aqui o terceiro denominador que audit_67 já calcula "
+                "pareceu a leitura mais defensável, em vez de deixar D_pop sem uso. Ver relatório final do agente."
+            ),
         ),
     ):
         rows.append(

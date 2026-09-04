@@ -47,7 +47,7 @@ checagem:
    toque `data/*.json` (ver [`tools/README.md`](tools/README.md#como-rodar)):
    `audit_12_merge_scholar.py`, `audit_30_validate_texts.py`,
    `audit_31_passages.py`, `audit_32_gate_bibonly.py`, `audit_41_scimago.py`,
-   `audit_50_pending.py`, `audit_80_report_html.py`, depois
+   `audit_50_pending.py`, `audit_70_numbers.py`, `audit_80_report_html.py`, depois
    `check_data.py --local`. É a única forma de saber se a mudança bate com
    os dados reais antes do CI dizer.
 3. **Nunca reintroduza `text/` ou `pdf/` no git.** Saíram do controle de

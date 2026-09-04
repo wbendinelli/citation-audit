@@ -340,7 +340,7 @@ artigo de grãos).
 sobre esse PDF, sem a correção de glifo já aplicada em `source_text/airline.txt`, lê os
 coeficientes ao contrário.
 
-## §16 — Taxonomia v2: três eixos ortogonais
+## §16 — Taxonomia v2: eixos ortogonais
 
 **Por quê.** O `role` de sete valores do §1 funcionou, mas misturava três perguntas
 diferentes num único rótulo: *o artigo aparece no corpo?*, *quanto ele importou?* e

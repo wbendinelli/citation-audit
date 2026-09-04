@@ -15,6 +15,12 @@ import glob
 import json
 import os
 
+
+def _load_json(path):
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
 AXES = ["presence", "depth", "stance", "accuracy", "distortion"]
 SETS = ["reuse", "claim_ids"]
 
@@ -23,7 +29,7 @@ def load_coder(pattern):
     """Aceita lista de objetos com item_id ou dicionário {item_id: rótulos}."""
     out = {}
     for p in sorted(glob.glob(pattern)):
-        data = json.load(open(p))
+        data = _load_json(p)
         items = (
             [dict(v, item_id=k) for k, v in data.items()]
             if isinstance(data, dict)
@@ -54,11 +60,11 @@ def main():
     )
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
-    key = json.load(open(os.path.join(a.dir, "pack_key.json")))
+    key = _load_json(os.path.join(a.dir, "pack_key.json"))
     c1 = load_coder(os.path.join(a.dir, "irr_c1_from_v2.json"))
     c2 = load_coder(os.path.join(a.dir, "coder_c2_opus_batch*.json"))
     c3 = load_coder(os.path.join(a.dir, "coder_c3_sonnet_batch*.json"))
-    panel = json.load(open(a.panel)) if a.panel and os.path.exists(a.panel) else {}
+    panel = _load_json(a.panel) if a.panel and os.path.exists(a.panel) else {}
     print(f"c1={len(c1)} c2={len(c2)} c3={len(c3)} painel={len(panel)}")
 
     result, contested, stats = {}, [], collections.Counter()
@@ -171,13 +177,14 @@ def main():
                 n: {ax: v.get(ax) for ax in AXES + SETS} for n, v in present.items()
             },
         }
-    json.dump(
-        {"items": result, "contested": contested, "stats": dict(stats)},
-        open(a.out, "w"),
-        ensure_ascii=False,
-        indent=1,
-        sort_keys=True,
-    )
+    with open(a.out, "w", encoding="utf-8") as fh:
+        json.dump(
+            {"items": result, "contested": contested, "stats": dict(stats)},
+            fh,
+            ensure_ascii=False,
+            indent=1,
+            sort_keys=True,
+        )
     print("por eixo:", {k: v for k, v in sorted(stats.items())})
     print(
         f"contestados (vão ao colegiado): {len(contested)} em {len({c['item_id'] for c in contested})} itens"

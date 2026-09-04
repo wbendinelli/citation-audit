@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="title desc">
+<title>Pipeline de auditoria: das APIs ao README</title>
+<desc>Oito fases de scripts tools/audit_NN_*.py, da colheita do grafo de citações às saídas finais. Cada nome de script mostrado existe de fato no repositório; os marcados 'reservado' têm nome reservado no ROADMAP.md mas o arquivo ainda não foi escrito.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#6D675F"/>
+  </marker>
+  <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#315B86"/>
+  </marker>
+  <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#D9822B"/>
+  </marker>
+  <marker id="arrowTerra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#C96F3F"/>
+  </marker>
+  <marker id="arrowSage" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#4E8752"/>
+  </marker>
+  <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#161311" flood-opacity="0.10"/>
+  </filter>
+</defs>
+<rect width="1600" height="980" fill="#FBF9F6"/>
+<text x="48.0" y="54.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#6D675F" text-anchor="start" letter-spacing="1.6">CITATION-AUDIT · PIPELINE</text>
+<text x="48.0" y="96.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#161311" text-anchor="start">Pipeline de auditoria: das APIs ao README</text>
+<text x="48.0" y="128.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Um script por fase, biblioteca compartilhada em auditlib.py — nomes reais de tools/README.md.</text>
+<rect x="48.0" y="180.0" width="361.0" height="290.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="70.0" y="220.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 10 · COLHEITA</text>
+<text x="70.0" y="248.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Monta e funde o grafo de</text>
+<text x="70.0" y="273.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">citações</text>
+<rect x="70.0" y="310.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="86.0" y="328.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_10_harvest.py</text>
+<rect x="70.0" y="337.6" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="86.0" y="355.1" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_11_triage.py</text>
+<rect x="70.0" y="364.8" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="86.0" y="382.2" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_12_merge_scholar.py</text>
+<rect x="70.0" y="391.9" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="86.0" y="409.4" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_13_resolve_scholar.py</text>
+<rect x="429.0" y="180.0" width="361.0" height="290.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="451.0" y="220.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 20 · TEXTO</text>
+<text x="451.0" y="248.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Baixa e extrai o texto de</text>
+<text x="451.0" y="273.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">cada citante</text>
+<rect x="451.0" y="310.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="467.0" y="328.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_20_download.py</text>
+<rect x="451.0" y="337.6" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="467.0" y="355.1" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_21_download_deep.py</text>
+<rect x="451.0" y="364.8" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="467.0" y="382.2" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_22_retry_all.py</text>
+<text x="451.0" y="436.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#6D675F" text-anchor="start">Unpaywall · download direto · leitura</text>
+<text x="451.0" y="454.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#6D675F" text-anchor="start">por SSO manual</text>
+<rect x="810.0" y="180.0" width="361.0" height="290.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="832.0" y="220.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 30</text>
+<text x="832.0" y="254.2" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">INTEGRIDADE</text>
+<text x="832.0" y="282.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Três portões validam texto e</text>
+<text x="832.0" y="307.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">passagem</text>
+<rect x="832.0" y="344.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="848.0" y="362.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_30_validate_texts.py</text>
+<rect x="832.0" y="371.6" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="848.0" y="389.1" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_31_passages.py</text>
+<rect x="832.0" y="398.8" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="848.0" y="416.2" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_32_gate_bibonly.py</text>
+<rect x="1191.0" y="180.0" width="361.0" height="290.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="1213.0" y="220.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 40 · PERIÓDICOS</text>
+<text x="1213.0" y="248.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Metadados do veículo citante</text>
+<text x="1213.0" y="273.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">e o tier</text>
+<rect x="1213.0" y="310.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="1229.0" y="328.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_40_journals.py</text>
+<rect x="1213.0" y="337.6" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="1229.0" y="355.1" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_41_scimago.py</text>
+<text x="1213.0" y="452.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#6D675F" text-anchor="start">tier = quartil Scimago oficial</text>
+<path d="M413.0 325.0 L425.0 325.0" stroke="#315B86" stroke-width="2.5" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M794.0 325.0 L806.0 325.0" stroke="#315B86" stroke-width="2.5" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M1175.0 325.0 L1187.0 325.0" stroke="#315B86" stroke-width="2.5" fill="none" marker-end="url(#arrowBlue)"/>
+<rect x="48.0" y="516.0" width="250.0" height="310.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="70.0" y="556.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 50</text>
+<text x="70.0" y="590.2" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">PENDÊNCIAS</text>
+<text x="70.0" y="618.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Deriva CSVs de</text>
+<text x="70.0" y="643.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">trabalho do estado</text>
+<text x="70.0" y="668.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">atual</text>
+<rect x="70.0" y="705.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="86.0" y="723.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_50_</text>
+<text x="86.0" y="741.4" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">pending.py</text>
+<rect x="318.0" y="516.0" width="604.0" height="310.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="340.0" y="556.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 60 · ANÁLISES</text>
+<text x="340.0" y="584.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Taxonomia, confiabilidade, fantasmas, taxas-base</text>
+<text x="340.0" y="627.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4E8752" text-anchor="start" letter-spacing="1.3">ENTREGUES</text>
+<text x="634.0" y="627.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#6D675F" text-anchor="start" letter-spacing="1.1">RESERVADOS · ROADMAP.md</text>
+<rect x="340.0" y="637.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="356.0" y="655.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_60_taxonomy_v2.py</text>
+<rect x="340.0" y="661.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="356.0" y="679.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_61_irr_pack.py</text>
+<rect x="340.0" y="685.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="356.0" y="703.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_62_irr_stats.py</text>
+<rect x="340.0" y="709.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="356.0" y="727.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_63_adjudicate.py</text>
+<rect x="340.0" y="733.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="356.0" y="751.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_67_ghost_audit.py</text>
+<rect x="340.0" y="757.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="356.0" y="775.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_68_base_rates.py</text>
+<rect x="634.0" y="637.5" width="7" height="7" rx="2" fill="none" stroke="#6D675F" stroke-width="1.6" stroke-dasharray="3 3"/>
+<text x="650.0" y="655.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#6D675F" text-anchor="start">audit_63_claim_map.py</text>
+<text x="650.0" y="677.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#6D675F" text-anchor="start">(reservado)</text>
+<rect x="634.0" y="678.5" width="7" height="7" rx="2" fill="none" stroke="#6D675F" stroke-width="1.6" stroke-dasharray="3 3"/>
+<text x="650.0" y="696.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#6D675F" text-anchor="start">audit_64_refs_audit.py</text>
+<text x="650.0" y="718.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#6D675F" text-anchor="start">(reservado)</text>
+<rect x="634.0" y="719.5" width="7" height="7" rx="2" fill="none" stroke="#6D675F" stroke-width="1.6" stroke-dasharray="3 3"/>
+<text x="650.0" y="737.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#6D675F" text-anchor="start">audit_65_cd_index.py</text>
+<text x="650.0" y="759.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#6D675F" text-anchor="start">(reservado)</text>
+<rect x="634.0" y="760.5" width="7" height="7" rx="2" fill="none" stroke="#6D675F" stroke-width="1.6" stroke-dasharray="3 3"/>
+<text x="650.0" y="778.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#6D675F" text-anchor="start">audit_66_cocitation.py</text>
+<text x="650.0" y="800.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#6D675F" text-anchor="start">(reservado)</text>
+<rect x="942.0" y="516.0" width="250.0" height="310.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="964.0" y="556.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 70</text>
+<text x="964.0" y="590.2" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">NÚMEROS</text>
+<text x="964.0" y="618.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Única fonte de todo</text>
+<text x="964.0" y="643.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">número em prosa</text>
+<rect x="964.0" y="680.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="980.0" y="698.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_70_</text>
+<text x="980.0" y="716.4" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">numbers.py</text>
+<text x="964.0" y="808.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#6D675F" text-anchor="start">dados.json · numeros.txt</text>
+<rect x="1212.0" y="516.0" width="340.0" height="310.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="1234.0" y="556.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#161311" text-anchor="start">FASE 80 · SAÍDAS</text>
+<text x="1234.0" y="584.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Relatório HTML, figuras,</text>
+<text x="1234.0" y="609.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">SVGs, Typst</text>
+<rect x="1234.0" y="646.5" width="7" height="7" rx="2" fill="none" stroke="#161311" stroke-width="1.6"/>
+<text x="1250.0" y="664.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#161311" text-anchor="start">audit_80_report_html.py</text>
+<rect x="1234.0" y="673.6" width="7" height="7" rx="2" fill="none" stroke="#6D675F" stroke-width="1.6" stroke-dasharray="3 3"/>
+<text x="1250.0" y="691.1" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#6D675F" text-anchor="start">audit_81_figures.py</text>
+<text x="1250.0" y="716.2" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#6D675F" text-anchor="start">(reservado)</text>
+<rect x="1234.0" y="717.8" width="7" height="7" rx="2" fill="none" stroke="#315B86" stroke-width="1.6"/>
+<text x="1250.0" y="735.2" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="17.5" font-weight="500" fill="#315B86" text-anchor="start">audit_82_readme_svgs.py</text>
+<text x="1250.0" y="760.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#6D675F" text-anchor="start">(este script)</text>
+<text x="1234.0" y="792.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#6D675F" text-anchor="start">+ typst compile → relatorio-</text>
+<text x="1234.0" y="810.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#6D675F" text-anchor="start">impacto.pdf</text>
+<path d="M302.0 671.0 L314.0 671.0" stroke="#315B86" stroke-width="2.5" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M926.0 671.0 L938.0 671.0" stroke="#315B86" stroke-width="2.5" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M1196.0 671.0 L1208.0 671.0" stroke="#315B86" stroke-width="2.5" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M1371.5 470.0 L1371.5 493.0 L173.0 493.0 L173.0 514.0" stroke="#6D675F" stroke-width="2.5" fill="none" marker-end="url(#arrow)" stroke-dasharray="1 0"/>
+<text x="772.2" y="483.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#6D675F" text-anchor="middle">continua</text>
+<circle cx="54.5" cy="860.0" r="6.5" fill="#161311"/>
+<text x="71.0" y="865.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">script commitado, em uso</text>
+<circle cx="308.7" cy="860.0" r="6.5" fill="#6D675F"/>
+<text x="325.2" y="865.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">reservado — nome existe no ROADMAP.md, arquivo ainda não escrito</text>
+<circle cx="891.4" cy="860.0" r="6.5" fill="#315B86"/>
+<text x="907.9" y="865.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">este script (audit_82), gerando os quatro SVGs agora</text>
+<rect x="48.0" y="890.0" width="1504.0" height="52.0" rx="14" fill="#315B86" />
+<text x="800.0" y="922.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FBF9F6" text-anchor="middle">Todo número quantitativo em prosa é impresso por um script versionado commitado.</text>
+</svg>

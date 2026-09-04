@@ -23,8 +23,8 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | 40 | periódicos | metadados de cada veículo citante e o tier (proxy OpenAlex / quartil Scimago) |
 | 50 | pendências | deriva CSVs de trabalho a partir do estado atual (o que falta, por quê) |
 | 60 | análises | taxonomia v2 (`audit_60`), pacote cego e estatísticas de confiabilidade entre codificadores (`audit_61`/`audit_62`); demais análises de ROADMAP.md ainda reservadas |
-| 70 | números | *(reservado — nenhum script ainda)* |
-| 80 | saídas | gera `report/index.html` |
+| 70 | números | fonte única de todo número do relatório (`audit_70_numbers.py`) |
+| 80 | saídas | gera `reports/01-impacto/index.html` a partir de `dados.json` |
 
 ## Scripts
 
@@ -46,8 +46,15 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | `audit_60_taxonomy_v2.py` | 60 | `data/classify.json`, `data/classify_orfas.json`, `data/master.json`, `METHOD.md` | `data/classify.json`, `data/classify_orfas.json`, `data/taxonomy_v2.json` | não¹ |
 | `audit_61_irr_pack.py` | 60 | `data/classify.json` (v2), `data/master.json`, `data/claims/claims.json`, `METHOD.md`, `config.json`, `data/claims/source_text/*.txt` | `data/irr/pack_blind.json`, `pack_key.json`, `instructions.md`, `irr_c1_from_v2.json` | não² |
 | `audit_62_irr_stats.py` | 60 | JSON de codificador (`--c1`/`--c2`/`--c3`/`--human`), `data/irr/pack_key.json` | `--out` (estatísticas de concordância) | não³ |
-| `audit_80_report_html.py` | 80 | `data/master.json`, `data/classify.json`, `data/journals.json`, `config.json`, `data/scholar/*.txt` | `report/index.html` | sim |
-| `audit_70_numbers.py` | 70 | Única fonte de todo número do relatório: lê `data/*.json` e escreve `reports/01-impacto/dados.json` + `numeros.txt` (seções `== audit_70 §chave ==`); `--check` exige byte-igualdade; blocos opcionais saem `PENDENTE: motivo` |
+| `openalex_client.py` | 60 | Cliente OpenAlex com cache em `data/cache/openalex/`, `mailto`, paginação por cursor e contagem de requisições; sem `None` em cache |
+| `s2_client.py` | 60 | Cliente Semantic Scholar (backend alternativo quando a cota de lista do OpenAlex zera): cache em `data/cache/s2/`, ritmo 1,1 s, recuo em 429, mapa OpenAlex→S2 por DOI/título com piso de similaridade |
+| `audit_64_refs_audit.py` | 64 | Casa as referências do OpenAlex com a lista do PDF (`data/cd/refs_pdf_*.json`) e escreve `data/cd/refs_audit_*.json` com `matched / repaired / false_reference / unresolvable` — pré-requisito do CD |
+| `audit_65_cd_index.py` | 65 | Índice CD (t = 1, 3, 5, 10), CD_nok, DI2, DI5, variante Holst, bootstrap, *leave-one-reference-out* e cruzamento n_i/n_j × profundidade; `--backend {openalex,s2}`; escreve `data/cd/cd_*.json` |
+| `audit_66_cocitation.py` | 66 | Co-citação antes/depois das duas vertentes do artigo de aviação (seeds em `data/cocit/seeds_airline.json`): share A–B, Jaccard, Salton, *brokerage share*, Fisher, permutação, placebos; escreve `data/cocit/{cocit,universe}_airline.json` |
+| `audit_70_numbers.py` | 70 | `config.json`, `data/*.json` — única fonte de todo número que o relatório pode citar | `reports/01-impacto/dados.json`, `numeros.txt` (seções `== audit_70 §chave ==`) | sim⁴ |
+| `audit_80_report_html.py` | 80 | `data/master.json`, `data/classify.json`, `reports/01-impacto/dados.json` | `reports/01-impacto/index.html` | sim⁵ |
+| `audit_81_figures.py` | 81 | Catorze figuras de medida em `reports/01-impacto/figuras/` lendo só `dados.json`, via `sapians.mplstyle` e fontes vendorizadas; `--check` compara bytes e afirma regras da casa (barras do zero, sem `twinx`, ≤5 cores). Roda no venv pinado (`.venv/bin/python`) |
+| `audit_82_readme_svgs.py` | 82 | Quatro SVGs didáticos em `docs/assets/` (pipeline, funil, taxonomia, portões); só o funil lê números, do `dados.json`; `--check` compara bytes |
 
 `--check` nunca escreve: renderiza/computa em memória e compara com o que já
 está commitado, saindo com código 1 se houver diferença.
@@ -65,6 +72,20 @@ passagens) — sai com código 1 se achar algum.
 de referência publicados (Krippendorff 2011, κ de Cohen de livro-texto,
 identidades de PABAK/AC1/PPI) e, se o pacote já existir em `data/irr/`,
 codificador-1 contra si mesmo — sem argumento nenhum sobre dado real.
+⁴ `audit_70_numbers.py` também aceita `--root PATH` (raiz onde lê
+`config.json`/`data/`; a saída cai sempre em
+`<pasta do script>/../reports/01-impacto/`, independente de `--root`) e
+`--classify PATH` (override de `data/classify.json`). Bloco opcional cujo
+arquivo-fonte falta (ou está auto-invalidado) não vira erro: sai como
+`{"pendente": true, "motivo": ...}` em `dados.json` e uma linha `PENDENTE:
+motivo` em `numeros.txt` — `--check` continua exigindo byte-igualdade com o
+que está commitado, PENDENTE incluso.
+⁵ `audit_80_report_html.py` também aceita `--root PATH` (raiz do
+repositório; padrão inferido de `__file__`, como `auditlib.ROOT`) — governa
+de onde `data/master.json`, `data/classify.json` e
+`reports/01-impacto/dados.json` são lidos e onde
+`reports/01-impacto/index.html` é gravado, todos juntos (diferente do
+`--root` de `audit_70_numbers.py`, que não afeta onde a saída cai).
 
 Fase 60 (`audit_60`/`audit_61`/`audit_62`) é a única exceção ao stdlib-puro:
 `audit_62_irr_stats.py` importa `numpy` (pin em `requirements.txt`, já usada
@@ -106,6 +127,7 @@ python3 tools/audit_31_passages.py
 python3 tools/audit_32_gate_bibonly.py
 python3 tools/audit_41_scimago.py
 python3 tools/audit_50_pending.py
+python3 tools/audit_70_numbers.py
 python3 tools/audit_80_report_html.py
 ```
 

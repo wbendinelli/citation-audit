@@ -6,7 +6,7 @@ authors:
   - family-names: "Bendinelli"
     given-names: "William Eduardo"
     affiliation: "Universidade de São Paulo"
-date-released: "2026-09-04"
+date-released: '2026-09-04'
 url: "https://github.com/wbendinelli/citation-audit"
 repository-code: "https://github.com/wbendinelli/citation-audit"
 license: MIT

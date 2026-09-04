@@ -76,6 +76,21 @@ jobs:
           git status --porcelain
           test -z "$(git status --porcelain)"
 
+  report:
+    name: relatório (números, figuras, SVGs)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - run: pip install --require-hashes -r requirements.lock
+      - run: python3 tools/audit_70_numbers.py --check
+      - run: python3 tools/audit_82_readme_svgs.py --check
+      - name: Figuras byte-idênticas (matplotlib e numpy pinados, fontes vendorizadas)
+        run: python3 tools/audit_81_figures.py --check
+      - run: python3 tools/check_numbers.py --prose reports/01-impacto/main.typ --exempt reports/01-impacto/check_numbers_exempt.txt
+
   citation:
     runs-on: ubuntu-latest
     timeout-minutes: 5

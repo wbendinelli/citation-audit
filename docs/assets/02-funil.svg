@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="title desc">
+<title>Do que o Scholar reporta à evidência verificada</title>
+<desc>Funil de seis passos para os dois artigos auditados. O passo 'periódico' é a população do estudo; 'com evidência verificada' é o que entrou em data/classify.json. Valores lidos de reports/01-impacto/dados.json (blocos funil e populacao), gerados por audit_70_numbers.py -- nenhum dígito deste diagrama foi digitado à mão.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#6D675F"/>
+  </marker>
+  <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#315B86"/>
+  </marker>
+  <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#D9822B"/>
+  </marker>
+  <marker id="arrowTerra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#C96F3F"/>
+  </marker>
+  <marker id="arrowSage" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#4E8752"/>
+  </marker>
+  <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#161311" flood-opacity="0.10"/>
+  </filter>
+</defs>
+<rect width="1600" height="980" fill="#FBF9F6"/>
+<text x="48.0" y="54.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#6D675F" text-anchor="start" letter-spacing="1.6">CITATION-AUDIT · FUNIL DE POPULAÇÃO</text>
+<text x="48.0" y="96.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#161311" text-anchor="start">Do que o Scholar reporta à evidência verificada</text>
+<text x="48.0" y="128.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">Mesmos seis passos para os dois artigos — a população do estudo é o passo “periódico”.</text>
+<text x="48.0" y="158.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#6D675F" text-anchor="start" letter-spacing="1.6">AIRLINE</text>
+<text x="48.0" y="181.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#161311" text-anchor="start">Airline delays, congestion internalization and non-price spillover effects</text>
+<text x="48.0" y="203.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#161311" text-anchor="start">of low cost carrier entry</text>
+<text x="48.0" y="240.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#6D675F" text-anchor="start">Transportation Research Part A: Policy and Practice · 2016</text>
+<line x1="633.6" y1="256.0" x2="633.6" y2="706.0" stroke="#6D675F" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<text x="633.6" y="249.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6D675F" text-anchor="middle">100% do passo 0</text>
+<text x="48.0" y="264.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Google Scholar reporta</text>
+<text x="780.0" y="264.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">95</text>
+<rect x="48.0" y="273.0" width="585.6" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="48.0" y="273.0" width="585.6" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="48.0" y="341.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Inventário após dedup e ruído</text>
+<text x="780.0" y="341.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">93 (-2)</text>
+<rect x="48.0" y="350.0" width="573.3" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="48.0" y="350.0" width="573.3" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="48.0" y="418.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Com DOI depositado</text>
+<text x="780.0" y="418.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">74 (-19)</text>
+<rect x="48.0" y="427.0" width="456.2" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="48.0" y="427.0" width="456.2" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="48.0" y="495.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Editora estabelecida</text>
+<text x="780.0" y="495.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">51 (-23)</text>
+<rect x="48.0" y="504.0" width="314.4" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="48.0" y="504.0" width="314.4" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="48.0" y="572.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Periódico (sem capítulo, anais, preprint)</text>
+<text x="780.0" y="572.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#315B86" text-anchor="end">49 (-2)</text>
+<rect x="48.0" y="581.0" width="302.0" height="24.0" rx="6" fill="#315B86" />
+<text x="48.0" y="649.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Com evidência verificada</text>
+<text x="780.0" y="649.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#4E8752" text-anchor="end">45 (-4)</text>
+<rect x="48.0" y="658.0" width="277.4" height="24.0" rx="6" fill="#4E8752" />
+<text x="820.0" y="158.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#6D675F" text-anchor="start" letter-spacing="1.6">GRAINS</text>
+<text x="820.0" y="181.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#161311" text-anchor="start">What are the main factors that determine post-harvest losses of grains?</text>
+<text x="820.0" y="218.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#6D675F" text-anchor="start">Sustainable Production and Consumption · 2019</text>
+<line x1="1405.6" y1="234.0" x2="1405.6" y2="684.0" stroke="#6D675F" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<text x="1405.6" y="227.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6D675F" text-anchor="middle">100% do passo 0</text>
+<text x="820.0" y="242.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Google Scholar reporta</text>
+<text x="1552.0" y="242.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">76</text>
+<rect x="820.0" y="251.0" width="585.6" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="820.0" y="251.0" width="585.6" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="820.0" y="319.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Inventário após dedup e ruído</text>
+<text x="1552.0" y="319.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">83 (+7)</text>
+<rect x="820.0" y="328.0" width="639.5" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="820.0" y="328.0" width="639.5" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="820.0" y="396.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Com DOI depositado</text>
+<text x="1552.0" y="396.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">73 (-10)</text>
+<rect x="820.0" y="405.0" width="562.5" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="820.0" y="405.0" width="562.5" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="820.0" y="473.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Editora estabelecida</text>
+<text x="1552.0" y="473.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#6D675F" text-anchor="end">42 (-31)</text>
+<rect x="820.0" y="482.0" width="323.6" height="24.0" rx="6" fill="#EDE9E2" />
+<rect x="820.0" y="482.0" width="323.6" height="24.0" rx="6" fill="none" stroke="#6D675F" stroke-width="1.2" />
+<text x="820.0" y="550.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Periódico (sem capítulo, anais, preprint)</text>
+<text x="1552.0" y="550.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#315B86" text-anchor="end">38 (-4)</text>
+<rect x="820.0" y="559.0" width="292.8" height="24.0" rx="6" fill="#315B86" />
+<text x="820.0" y="627.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#161311" text-anchor="start">Com evidência verificada</text>
+<text x="1552.0" y="627.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#4E8752" text-anchor="end">29 (-9)</text>
+<rect x="820.0" y="636.0" width="223.5" height="24.0" rx="6" fill="#4E8752" />
+<text x="820.0" y="710.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#6D675F" text-anchor="start">O inventário (passo 2) supera o Scholar: a união de fontes acha mais — não é erro.</text>
+<rect x="48.0" y="754.0" width="1504.0" height="70.0" rx="16" fill="#FFFFFF" stroke="#315B86" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="74.0" y="786.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#161311" text-anchor="start">População do estudo (METHOD.md §9): DOI + editora estabelecida + artigo de periódico</text>
+<text x="74.0" y="812.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" fill="#6D675F" text-anchor="start">87 citações — 49 do artigo de aviação + 38 do de grãos (populacao.total/airline/grains, dados.json)</text>
+<circle cx="54.5" cy="858.0" r="6.5" fill="#6D675F"/>
+<text x="71.0" y="863.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">passos intermediários</text>
+<circle cx="284.0" cy="858.0" r="6.5" fill="#315B86"/>
+<text x="300.5" y="863.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">periódico — a população do estudo</text>
+<circle cx="612.1" cy="858.0" r="6.5" fill="#4E8752"/>
+<text x="628.6" y="863.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">com evidência verificada</text>
+<rect x="48.0" y="888.0" width="1504.0" height="52.0" rx="14" fill="#315B86" />
+<text x="800.0" y="920.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FBF9F6" text-anchor="middle">Todo número deste funil vem de reports/01-impacto/dados.json — nenhum dígito digitado à mão.</text>
+</svg>

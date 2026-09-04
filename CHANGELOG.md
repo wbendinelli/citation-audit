@@ -29,7 +29,7 @@ citado aqui ficaria órfão no dia seguinte.
   `distortion` não-nulo só quando `accuracy != accurate`, e as chaves novas
   de `prov` (`migrated_from_v1`, `migration_rules`, `adjudicated`).
 - **`audit_80_report_html.py` lê role/flag via `auditlib.role_flag_v1()`**
-  em vez de campo direto no topo da entrada — `report/index.html` sai
+  em vez de campo direto no topo da entrada — o HTML gerado sai
   byte-idêntico ao commitado (a mudança é de onde o dado vem, não do que é
   mostrado).
 - **Fase 60 deixa de ser stdlib-pura.** `audit_62_irr_stats.py` usa `numpy`
@@ -61,6 +61,21 @@ citado aqui ficaria órfão no dia seguinte.
   PABAK/AC1/PPI, e ponta a ponta c1 vs. c1). Rótulos do codificador 2
   (Opus) e do codificador 3 (Sonnet) ainda não chegaram — `data/irr/README.md`
   documenta os arquivos e o que falta.
+- **`audit_80_report_html.py` lê agregados de `reports/01-impacto/dados.json`**
+  (fonte única gerada por `audit_70_numbers.py`) em vez de recomputar funil,
+  cobertura, quartis, distribuições e listas a partir de `data/*.json`; o
+  texto por registro (título, DOI, veículo, trechos citantes) continua vindo
+  de `data/master.json`/`data/classify.json` — não é número agregado. A
+  saída passa a `reports/01-impacto/index.html`; o antigo diretório
+  `report/` (sem "s") é removido e toda referência (README.md,
+  `tools/README.md`, ROADMAP.md, LICENSE-CC-BY-SA-4.0.md,
+  `.pre-commit-config.yaml`, `.gitattributes`) segue o novo caminho. Quatro
+  seções novas, todas com tabela simples: confiabilidade entre codificadores
+  (`irr`), taxas-base contra a literatura (`taxa_base`), fantasmas auditados
+  (`fantasmas_auditados` + `cd`/`cocitacao`) e afirmações citadas
+  (`alegacoes`); mais um anexo com as 104 citações classificadas
+  (`inventario_classificados`). Ambos os scripts aceitam `--check` e
+  `--root`.
 
 ## 2026-09-04 — teste cego, adjudicação e análises
 
@@ -69,6 +84,11 @@ citado aqui ficaria órfão no dia seguinte.
 - `tools/audit_63_adjudicate.py` (maioria de três, derivação de `distortion`, união de `claim_ids`, colegiado).
 - `tools/audit_67_ghost_audit.py` e `tools/audit_68_base_rates.py` com `data/ghost_audit.json` e `data/base_rates.json` (`9f00ffc`).
 - Ferramental do relatório: `check_numbers.py`, `sapians.py` standalone, fontes vendorizadas, `reports/01-impacto/{figuras,numeros}.typ`, `referencias.bib` (`b49b206`).
+- Relatório técnico `reports/01-impacto/main.typ` (Resumo, §1–§9, Anexo A; 103 números com ponteiro `audit_70 §chave`, zero sem fonte) e `relatorio-impacto.pdf`.
+- `tools/audit_81_figures.py` (14 figuras) e `tools/audit_82_readme_svgs.py` (4 SVGs em `docs/assets/`).
+- `tools/sapians.py`: `_ausente()` deixa de exigir pandas (fase 81 roda só com matplotlib e numpy).
+- METHOD §16: título sem o número de eixos (o corpo documenta cinco eixos e três campos auxiliares).
+- `tools/audit_64_refs_audit.py`, `audit_65_cd_index.py`, `audit_66_cocitation.py` com `openalex_client.py` e `s2_client.py` (backend Semantic Scholar, adotado porque o OpenAlex passou a cobrar consultas de lista); `data/cd/cd_{airline,grains}.json`, `data/cd/id_map_*.json`, `data/cocit/{cocit,universe}_airline.json`. Aviação: CD5 −0,011, DI5 0,60; co-citação A–B 5,3% → 8,5% (Fisher p 0,044), brokerage 0,29 (OR 11,4). Grãos: CD5 0,001 (sem sinal).
 - `tools/audit_70_numbers.py`: única fonte de todo número da prosa (`reports/01-impacto/dados.json` + `numeros.txt`, 18 seções); reproduz 87/74 (população) e 98 (cobertura) do METHOD; blocos CD/co-citação `PENDENTE` até a cota de API.
 - `data/cd/refs_audit_*.json`: listas de referência auditadas; 4 referências falsas no OpenAlex para grãos.
 

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="title desc">
+<title>Seis dimensões da leitura de uma citação</title>
+<desc>Os eixos ortogonais da taxonomia v2 (METHOD.md §16): presence, depth, stance, accuracy com os subcódigos de distorção de Greenberg, reuse e o campo auxiliar relation. Cada eixo é codificado à parte; o veredito de uma citação é a tupla dos valores, combinada por regra -- não uma média numa escala única.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#6D675F"/>
+  </marker>
+  <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#315B86"/>
+  </marker>
+  <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#D9822B"/>
+  </marker>
+  <marker id="arrowTerra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#C96F3F"/>
+  </marker>
+  <marker id="arrowSage" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#4E8752"/>
+  </marker>
+  <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#161311" flood-opacity="0.10"/>
+  </filter>
+</defs>
+<rect width="1600" height="980" fill="#FBF9F6"/>
+<text x="48.0" y="54.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#6D675F" text-anchor="start" letter-spacing="1.6">CITATION-AUDIT · TAXONOMIA V2</text>
+<text x="48.0" y="96.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#161311" text-anchor="start">Seis dimensões da leitura de uma citação</text>
+<text x="48.0" y="128.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">METHOD.md §16 — cada eixo é lido separado; o veredito final combina os seis por regra, não por média.</text>
+<rect x="48.0" y="176.0" width="1504.0" height="108.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="70.0" y="208.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#161311" text-anchor="start">EIXO 1 · PRESENCE</text>
+<text x="70.0" y="232.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#6D675F" text-anchor="start">onde o artigo aparece no citante</text>
+<rect x="378.0" y="195.0" width="372.0" height="70.0" rx="12" fill="#FFFFFF" stroke="#4E8752" stroke-width="2" />
+<text x="394.0" y="222.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" fill="#4E8752" text-anchor="start">in_text</text>
+<text x="394.0" y="245.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#6D675F" text-anchor="start">no corpo do texto</text>
+<rect x="768.0" y="195.0" width="372.0" height="70.0" rx="12" fill="#FFFFFF" stroke="#D9822B" stroke-width="2" />
+<text x="784.0" y="222.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" fill="#D9822B" text-anchor="start">reference_list_only</text>
+<text x="784.0" y="245.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#6D675F" text-anchor="start">só na lista de referências</text>
+<rect x="1158.0" y="195.0" width="372.0" height="70.0" rx="12" fill="#FFFFFF" stroke="#6D675F" stroke-width="2" />
+<text x="1174.0" y="222.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" fill="#6D675F" text-anchor="start">not_cited</text>
+<text x="1174.0" y="245.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#6D675F" text-anchor="start">não aparece em lugar nenhum</text>
+<rect x="48.0" y="310.0" width="1504.0" height="168.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="70.0" y="342.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#161311" text-anchor="start">EIXO 2 · DEPTH</text>
+<text x="70.0" y="366.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#6D675F" text-anchor="start">quanto o artigo importou para quem citou — escala ordinal, só quando presence = in_text</text>
+<path d="M564.0 288.0 L209.6 306.0" stroke="#4E8752" stroke-width="2.5" fill="none" marker-end="url(#arrowSage)"/>
+<rect x="70.0" y="411.1" width="279.2" height="40.9" rx="10" fill="#c3d4e2" />
+<text x="209.6" y="438.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#161311" text-anchor="middle">drive_by</text>
+<path d="M351.2 458.0 L363.2 458.0" stroke="#6D675F" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="365.2" y="404.8" width="279.2" height="47.2" rx="10" fill="#9fb8d0" />
+<text x="504.8" y="438.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#161311" text-anchor="middle">brief_mention</text>
+<path d="M646.4 458.0 L658.4 458.0" stroke="#6D675F" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="660.4" y="398.5" width="279.2" height="53.5" rx="10" fill="#6f93b8" />
+<text x="800.0" y="438.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">real_mention</text>
+<path d="M941.6 458.0 L953.6 458.0" stroke="#6D675F" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="955.6" y="392.3" width="279.2" height="59.7" rx="10" fill="#45719c" />
+<text x="1095.2" y="438.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">supporting</text>
+<path d="M1236.8 458.0 L1248.8 458.0" stroke="#6D675F" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="1250.8" y="386.0" width="279.2" height="66.0" rx="10" fill="#315B86" />
+<text x="1390.4" y="438.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">foundational</text>
+<text x="70.0" y="486.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#6D675F" text-anchor="start">drive_by → foundational: quanto mais escuro, mais fundo o uso.</text>
+<rect x="48.0" y="504.0" width="488.0" height="224.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="70.0" y="536.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#161311" text-anchor="start">EIXO 3 · STANCE</text>
+<text x="70.0" y="558.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#6D675F" text-anchor="start">postura do citante</text>
+<rect x="70.0" y="582.0" width="8.0" height="8.0" rx="2" fill="none" stroke="#315B86" stroke-width="1.6" />
+<text x="88.0" y="590.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#161311" text-anchor="start">none</text>
+<text x="88.0" y="609.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="start">sem postura declarada</text>
+<rect x="70.0" y="626.0" width="8.0" height="8.0" rx="2" fill="none" stroke="#315B86" stroke-width="1.6" />
+<text x="88.0" y="634.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#161311" text-anchor="start">supporting</text>
+<text x="88.0" y="653.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="start">a favor do citado</text>
+<rect x="70.0" y="670.0" width="8.0" height="8.0" rx="2" fill="none" stroke="#315B86" stroke-width="1.6" />
+<text x="88.0" y="678.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#161311" text-anchor="start">contradictory</text>
+<text x="88.0" y="697.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="start">contesta o citado</text>
+<rect x="556.0" y="504.0" width="488.0" height="224.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="578.0" y="536.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#161311" text-anchor="start">EIXO 4 · ACCURACY</text>
+<text x="578.0" y="558.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#6D675F" text-anchor="start">o citante diz o que o artigo diz?</text>
+<rect x="578.0" y="582.0" width="8.0" height="8.0" rx="2" fill="#4E8752" />
+<text x="596.0" y="590.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#4E8752" text-anchor="start">accurate</text>
+<text x="596.0" y="609.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="start">corresponde ao artigo</text>
+<rect x="578.0" y="626.0" width="8.0" height="8.0" rx="2" fill="#D9822B" />
+<text x="596.0" y="634.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#D9822B" text-anchor="start">imprecise</text>
+<text x="596.0" y="653.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="start">leitura frouxa, ampliada</text>
+<rect x="578.0" y="670.0" width="8.0" height="8.0" rx="2" fill="#C96F3F" />
+<text x="596.0" y="678.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#C96F3F" text-anchor="start">misrepresented</text>
+<text x="596.0" y="697.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="start">o artigo não diz isso</text>
+<rect x="1064.0" y="504.0" width="488.0" height="224.0" rx="20" fill="#FFFFFF" stroke="#C96F3F" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="1086.0" y="536.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#C96F3F" text-anchor="start">DISTORTION</text>
+<text x="1086.0" y="558.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#6D675F" text-anchor="start">mecanismo do erro (Greenberg 2009), quando accuracy ≠ accurate</text>
+<rect x="1086.0" y="578.0" width="216.0" height="46.0" rx="9" fill="none" stroke="#C96F3F" stroke-width="1.4" />
+<text x="1194.0" y="606.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#C96F3F" text-anchor="middle">dead_end</text>
+<rect x="1314.0" y="578.0" width="216.0" height="46.0" rx="9" fill="none" stroke="#C96F3F" stroke-width="1.4" />
+<text x="1422.0" y="606.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#C96F3F" text-anchor="middle">diversion</text>
+<rect x="1086.0" y="636.0" width="216.0" height="46.0" rx="9" fill="none" stroke="#C96F3F" stroke-width="1.4" />
+<text x="1194.0" y="664.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#C96F3F" text-anchor="middle">transmutation</text>
+<rect x="1314.0" y="636.0" width="216.0" height="46.0" rx="9" fill="none" stroke="#C96F3F" stroke-width="1.4" />
+<text x="1422.0" y="664.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#C96F3F" text-anchor="middle">relayed_attribution</text>
+<path d="M1040.0 628.0 L1070.0 616.0" stroke="#D9822B" stroke-width="1.8" fill="none" marker-end="url(#arrowAmber)" stroke-dasharray="3 3"/>
+<path d="M1040.0 672.0 L1070.0 674.0" stroke="#C96F3F" stroke-width="1.8" fill="none" marker-end="url(#arrowTerra)" stroke-dasharray="3 3"/>
+<rect x="48.0" y="754.0" width="892.4" height="150.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="70.0" y="786.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#161311" text-anchor="start">EIXO 5 · REUSE</text>
+<text x="70.0" y="808.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#6D675F" text-anchor="start">reuso efetivo — multi-rótulo, um citante pode ter mais de um</text>
+<rect x="70.0" y="826.0" width="158.5" height="56.0" rx="10" fill="#4E8752" />
+<text x="149.2" y="859.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">method_adoption</text>
+<rect x="242.5" y="826.0" width="158.5" height="56.0" rx="10" fill="#4E8752" />
+<text x="321.7" y="859.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">result_validated</text>
+<rect x="415.0" y="826.0" width="158.5" height="56.0" rx="10" fill="#4E8752" />
+<text x="494.2" y="859.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">dataset_reuse</text>
+<rect x="587.4" y="826.0" width="158.5" height="56.0" rx="10" fill="#4E8752" />
+<text x="666.7" y="859.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">benchmarking</text>
+<rect x="759.9" y="826.0" width="158.5" height="56.0" rx="10" fill="#4E8752" />
+<text x="839.2" y="859.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">work_extended</text>
+<rect x="960.4" y="754.0" width="591.6" height="150.0" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="982.4" y="786.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#161311" text-anchor="start">RELATION</text>
+<text x="982.4" y="808.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#6D675F" text-anchor="start">campo auxiliar — vínculo de autoria, não eixo de função</text>
+<rect x="982.4" y="826.0" width="173.2" height="56.0" rx="10" fill="none" stroke="#6D675F" stroke-width="1.4" />
+<text x="1069.0" y="860.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="14.5" font-weight="700" fill="#161311" text-anchor="middle">independent</text>
+<rect x="1169.6" y="826.0" width="173.2" height="56.0" rx="10" fill="none" stroke="#6D675F" stroke-width="1.4" />
+<text x="1256.2" y="860.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="14.5" font-weight="700" fill="#161311" text-anchor="middle">coauthor</text>
+<rect x="1356.8" y="826.0" width="173.2" height="56.0" rx="10" fill="none" stroke="#6D675F" stroke-width="1.4" />
+<text x="1443.4" y="860.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="14.5" font-weight="700" fill="#161311" text-anchor="middle">self</text>
+<rect x="48.0" y="922.0" width="1504.0" height="52.0" rx="14" fill="#315B86" />
+<text x="800.0" y="954.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FBF9F6" text-anchor="middle">Seis valores, seis eixos independentes — o veredito de uma citação é a tupla, combinada por regra, nunca uma média.</text>
+</svg>

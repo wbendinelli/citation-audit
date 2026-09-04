@@ -50,7 +50,7 @@ CACHE_DIR = OUT_DATA / "cache" / "openalex"
 # stage_c/stage_e do scratchpad se mantenha.
 STAGE_C_CLASSIFY_FALLBACK = SELF_ROOT.parent / "stage_c" / "data" / "classify.json"
 
-_JSON_KW = dict(ensure_ascii=False, indent=1, sort_keys=True)
+_JSON_KW = {"ensure_ascii": False, "indent": 1, "sort_keys": True}
 
 
 def dump_json(obj, path):

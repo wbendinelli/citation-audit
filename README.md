@@ -79,8 +79,7 @@ também mudou). Detalhe de cada script — o que lê, o que escreve, se tem
 | [`config.json`](config.json) | os dois artigos, a lista de editoras estabelecidas, os metadados do Scimago |
 | `data/` | `master.json` (o grafo de citações), `classify.json` (as classificações com evidência), `journals.json` (periódicos + tier), `decisoes_scimago.json`, `data/claims/` (afirmações dos dois artigos), `data/derived/` (CSVs de trabalho gerados) |
 | [`text/`](text/), [`pdf/`](pdf/) | texto e PDF completos dos citantes, extraídos localmente — fora do git, não redistribuível (ver os READMEs de cada um) |
-| [`report/index.html`](report/index.html) | dashboard HTML gerado por `audit_80_report_html.py` |
-| `reports/01-impacto/` | *(planejado — ver ROADMAP.md)* o relatório Typst |
+| [`reports/01-impacto/`](reports/01-impacto/) | `dados.json`/`numeros.txt` (fonte única de números, `audit_70_numbers.py`) e [`index.html`](reports/01-impacto/index.html) (dashboard HTML, `audit_80_report_html.py`); o relatório Typst em PDF segue *(planejado — ver ROADMAP.md)* |
 | [`METHOD.md`](METHOD.md) | taxonomia, regra de evidência, portões de integridade, definições de escopo |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | régua de evidência, setup, estilo de commit |
 | [`CLAUDE.md`](CLAUDE.md) | manual de operação para agentes de código |
@@ -121,7 +120,7 @@ repository" a partir dele.
 **MIT** para código — `tools/`, `config.json`, `.github/` (ver
 [LICENSE](LICENSE)). **CC BY-SA 4.0** para prosa — este README, METHOD.md,
 ROADMAP.md, as notas em `data/classify.json` e o texto de
-`report/index.html` (ver [LICENSE-CC-BY-SA-4.0.md](LICENSE-CC-BY-SA-4.0.md)).
+`reports/01-impacto/index.html` (ver [LICENSE-CC-BY-SA-4.0.md](LICENSE-CC-BY-SA-4.0.md)).
 
 Três ressalvas: as passagens citadas em `data/classify.json` pertencem aos
 seus próprios autores — são citação de escopo limitado (direito de citação),

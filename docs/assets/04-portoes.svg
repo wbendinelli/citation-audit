@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="title desc">
+<title>Três portões automáticos, mais um veredito manual terminal</title>
+<desc>Fluxo dos portões de integridade (METHOD.md §4): texto baixado, portão 1 (título bate), portão 2 (corpo completo), portão 3 (só-bibliografia exige corpo), e os estados de saída tem_texto, texto_parcial, texto_incorreto, evidencia_insuficiente e o veredito manual terminal aresta_falsa, que nenhum portão sobrescreve.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#6D675F"/>
+  </marker>
+  <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#315B86"/>
+  </marker>
+  <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#D9822B"/>
+  </marker>
+  <marker id="arrowTerra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#C96F3F"/>
+  </marker>
+  <marker id="arrowSage" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#4E8752"/>
+  </marker>
+  <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#161311" flood-opacity="0.10"/>
+  </filter>
+</defs>
+<rect width="1600" height="980" fill="#FBF9F6"/>
+<text x="48.0" y="54.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#6D675F" text-anchor="start" letter-spacing="1.6">CITATION-AUDIT · PORTÕES DE INTEGRIDADE</text>
+<text x="48.0" y="96.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#161311" text-anchor="start">Três portões automáticos, mais um veredito manual terminal</text>
+<text x="48.0" y="128.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6D675F" text-anchor="start">METHOD.md §4 — cada portão nasceu de um erro real encontrado nos dados.</text>
+<rect x="46.0" y="210.0" width="176.0" height="128.0" rx="20" fill="#FFFFFF" stroke="#6D675F" stroke-width="1.5" filter="url(#cardShadow)"/>
+<text x="134.0" y="260.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#161311" text-anchor="middle">texto</text>
+<text x="134.0" y="286.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#161311" text-anchor="middle">baixado</text>
+<text x="134.0" y="310.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="middle">text/*.txt</text>
+<rect x="248.0" y="210.0" width="336.0" height="128.0" rx="20" fill="#FFFFFF" stroke="#315B86" stroke-width="1.5" filter="url(#cardShadow)"/>
+<circle cx="278.0" cy="240.0" r="16" fill="#315B86"/>
+<text x="278.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="306.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#315B86" text-anchor="start">PORTÃO 1</text>
+<text x="270.0" y="276.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" fill="#161311" text-anchor="start">o texto contém o próprio título</text>
+<text x="270.0" y="298.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" fill="#161311" text-anchor="start">do registro?</text>
+<rect x="610.0" y="210.0" width="336.0" height="128.0" rx="20" fill="#FFFFFF" stroke="#315B86" stroke-width="1.5" filter="url(#cardShadow)"/>
+<circle cx="640.0" cy="240.0" r="16" fill="#315B86"/>
+<text x="640.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="668.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#315B86" text-anchor="start">PORTÃO 2</text>
+<text x="632.0" y="276.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" fill="#161311" text-anchor="start">não é só página de rosto/abstract</text>
+<text x="632.0" y="298.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" fill="#161311" text-anchor="start">— corpo completo?</text>
+<rect x="972.0" y="210.0" width="336.0" height="128.0" rx="20" fill="#FFFFFF" stroke="#315B86" stroke-width="1.5" filter="url(#cardShadow)"/>
+<circle cx="1002.0" cy="240.0" r="16" fill="#315B86"/>
+<text x="1002.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="1030.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#315B86" text-anchor="start">PORTÃO 3</text>
+<text x="994.0" y="276.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" fill="#161311" text-anchor="start">“só na bibliografia”: o corpo foi</text>
+<text x="994.0" y="298.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" fill="#161311" text-anchor="start">comprovado?</text>
+<rect x="1334.0" y="210.0" width="220.0" height="128.0" rx="20" fill="#4E8752" />
+<text x="1444.0" y="256.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">tem_texto</text>
+<text x="1444.0" y="280.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#eaf3ec" text-anchor="middle">passou nos três portões</text>
+<path d="M226.0 274.0 L244.0 274.0" stroke="#315B86" stroke-width="2.6" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M588.0 274.0 L606.0 274.0" stroke="#315B86" stroke-width="2.6" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M950.0 274.0 L968.0 274.0" stroke="#315B86" stroke-width="2.6" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M1312.0 274.0 L1330.0 274.0" stroke="#315B86" stroke-width="2.6" fill="none" marker-end="url(#arrowBlue)"/>
+<path d="M426.0 342.0 L426.0 484.0" stroke="#D9822B" stroke-width="2.3" fill="none" marker-end="url(#arrowAmber)"/>
+<rect x="258.0" y="488.0" width="336.0" height="118.0" rx="14" fill="#FFFFFF" stroke="#D9822B" stroke-width="2" />
+<text x="426.0" y="518.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" fill="#D9822B" text-anchor="middle">texto_incorreto</text>
+<text x="426.0" y="546.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="middle">arquivo é de outro artigo — desvincula</text>
+<path d="M788.0 342.0 L788.0 484.0" stroke="#D9822B" stroke-width="2.3" fill="none" marker-end="url(#arrowAmber)"/>
+<rect x="620.0" y="488.0" width="336.0" height="118.0" rx="14" fill="#FFFFFF" stroke="#D9822B" stroke-width="2" />
+<text x="788.0" y="518.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" fill="#D9822B" text-anchor="middle">texto_parcial</text>
+<text x="788.0" y="546.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="middle">página de rosto — não conta como lido</text>
+<path d="M1150.0 342.0 L1150.0 484.0" stroke="#D9822B" stroke-width="2.3" fill="none" marker-end="url(#arrowAmber)"/>
+<rect x="982.0" y="488.0" width="336.0" height="118.0" rx="14" fill="#FFFFFF" stroke="#D9822B" stroke-width="2" />
+<text x="1150.0" y="518.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" fill="#D9822B" text-anchor="middle">evidencia_insuficiente</text>
+<text x="1150.0" y="546.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#6D675F" text-anchor="middle">rosto de publisher, sem corpo comprovado</text>
+<rect x="1334.0" y="488.0" width="220.0" height="150.0" rx="14" fill="#C96F3F" />
+<text x="1444.0" y="518.0" font-family="'JetBrains Mono', SFMono-Regular, Menlo, monospace" font-size="16.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">aresta_falsa</text>
+<text x="1444.0" y="546.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#f7e6dc" text-anchor="middle">PDF obtido e verificado — o</text>
+<text x="1444.0" y="563.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#f7e6dc" text-anchor="middle">citante não cita em lugar</text>
+<text x="1444.0" y="580.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#f7e6dc" text-anchor="middle">nenhum</text>
+<text x="1444.0" y="658.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#C96F3F" text-anchor="middle">manual — não deriva dos portões acima</text>
+<text x="48.0" y="718.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#6D675F" text-anchor="start">Os portões recalculam status a cada nova coleta — exceto quando já é veredito terminal. Uma rodada antiga sobrescrevia aresta_falsa de volta para tem_texto; os</text>
+<text x="48.0" y="741.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#6D675F" text-anchor="start">portões agora pulam todo status terminal.</text>
+<circle cx="54.5" cy="814.0" r="6.5" fill="#315B86"/>
+<text x="71.0" y="819.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">portão automático</text>
+<circle cx="251.2" cy="814.0" r="6.5" fill="#D9822B"/>
+<text x="267.7" y="819.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">saída incompleta — recalculada a cada coleta</text>
+<circle cx="669.6" cy="814.0" r="6.5" fill="#4E8752"/>
+<text x="686.1" y="819.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">corpo comprovado, passou nos três portões</text>
+<circle cx="1063.4" cy="814.0" r="6.5" fill="#C96F3F"/>
+<text x="1079.9" y="819.4" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#6D675F" text-anchor="start">veredito manual terminal</text>
+<rect x="48.0" y="854.0" width="1504.0" height="52.0" rx="14" fill="#315B86" />
+<text x="800.0" y="886.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FBF9F6" text-anchor="middle">aresta_falsa é o único veredito que nenhum portão automático recalcula.</text>
+</svg>

@@ -8,7 +8,7 @@
 # conteúdo escrito à mão — GitHub não deve computar linguagem nem diff
 # "humano" sobre eles.
 data/derived/** linguist-generated
-report/index.html linguist-generated
+reports/01-impacto/index.html linguist-generated
 
 # data/classify.json NÃO é marcado linguist-generated, de propósito: é
 # gerado por edição humana assistida (a passagem literal + o julgamento do

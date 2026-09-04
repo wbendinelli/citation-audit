@@ -322,179 +322,176 @@ periodicos / pooled / 9 / papeis / reference_list_only: 1
 periodicos / pooled / 9 / reuso_n: 0
 periodicos / pooled / 9 / sjr: 1,393
 periodicos / pooled / 10 / n: 1
+periodicos / pooled / 10 / overton: 9
 periodicos / pooled / 10 / papeis / drive_by: 1
 periodicos / pooled / 10 / reuso_n: 0
+periodicos / pooled / 10 / sjr: 0,555
 periodicos / pooled / 11 / n: 1
-periodicos / pooled / 11 / overton: 9
-periodicos / pooled / 11 / papeis / drive_by: 1
+periodicos / pooled / 11 / overton: 2
+periodicos / pooled / 11 / papeis / brief_mention: 1
 periodicos / pooled / 11 / reuso_n: 0
-periodicos / pooled / 11 / sjr: 0,555
+periodicos / pooled / 11 / sjr: 0,829
 periodicos / pooled / 12 / n: 1
-periodicos / pooled / 12 / overton: 2
-periodicos / pooled / 12 / papeis / brief_mention: 1
+periodicos / pooled / 12 / overton: 11
+periodicos / pooled / 12 / papeis / drive_by: 1
 periodicos / pooled / 12 / reuso_n: 0
-periodicos / pooled / 12 / sjr: 0,829
+periodicos / pooled / 12 / sjr: 3,678
 periodicos / pooled / 13 / n: 1
-periodicos / pooled / 13 / overton: 11
-periodicos / pooled / 13 / papeis / drive_by: 1
+periodicos / pooled / 13 / papeis / brief_mention: 1
 periodicos / pooled / 13 / reuso_n: 0
-periodicos / pooled / 13 / sjr: 3,678
 periodicos / pooled / 14 / n: 1
+periodicos / pooled / 14 / overton: 3
 periodicos / pooled / 14 / papeis / brief_mention: 1
 periodicos / pooled / 14 / reuso_n: 0
+periodicos / pooled / 14 / sjr: 0,555
 periodicos / pooled / 15 / n: 1
-periodicos / pooled / 15 / overton: 3
+periodicos / pooled / 15 / overton: 38
 periodicos / pooled / 15 / papeis / brief_mention: 1
 periodicos / pooled / 15 / reuso_n: 0
-periodicos / pooled / 15 / sjr: 0,555
+periodicos / pooled / 15 / sjr: 3,168
 periodicos / pooled / 16 / n: 1
-periodicos / pooled / 16 / overton: 38
-periodicos / pooled / 16 / papeis / brief_mention: 1
+periodicos / pooled / 16 / overton: 0
+periodicos / pooled / 16 / papeis / real_mention: 1
 periodicos / pooled / 16 / reuso_n: 0
-periodicos / pooled / 16 / sjr: 3,168
+periodicos / pooled / 16 / sjr: 0,396
 periodicos / pooled / 17 / n: 1
-periodicos / pooled / 17 / overton: 0
-periodicos / pooled / 17 / papeis / real_mention: 1
+periodicos / pooled / 17 / overton: 31
+periodicos / pooled / 17 / papeis / brief_mention: 1
 periodicos / pooled / 17 / reuso_n: 0
-periodicos / pooled / 17 / sjr: 0,396
+periodicos / pooled / 17 / sjr: 0,972
 periodicos / pooled / 18 / n: 1
-periodicos / pooled / 18 / overton: 31
-periodicos / pooled / 18 / papeis / brief_mention: 1
+periodicos / pooled / 18 / overton: 1
+periodicos / pooled / 18 / papeis / reference_list_only: 1
 periodicos / pooled / 18 / reuso_n: 0
-periodicos / pooled / 18 / sjr: 0,972
+periodicos / pooled / 18 / sjr: 0,692
 periodicos / pooled / 19 / n: 1
-periodicos / pooled / 19 / overton: 1
-periodicos / pooled / 19 / papeis / reference_list_only: 1
+periodicos / pooled / 19 / overton: 3
+periodicos / pooled / 19 / papeis / misrepresented: 1
 periodicos / pooled / 19 / reuso_n: 0
-periodicos / pooled / 19 / sjr: 0,692
+periodicos / pooled / 19 / sjr: 1,865
 periodicos / pooled / 20 / n: 1
-periodicos / pooled / 20 / overton: 3
+periodicos / pooled / 20 / overton: 13
 periodicos / pooled / 20 / papeis / misrepresented: 1
 periodicos / pooled / 20 / reuso_n: 0
-periodicos / pooled / 20 / sjr: 1,865
+periodicos / pooled / 20 / sjr: 1,503
 periodicos / pooled / 21 / n: 1
-periodicos / pooled / 21 / overton: 13
+periodicos / pooled / 21 / overton: 0
 periodicos / pooled / 21 / papeis / misrepresented: 1
 periodicos / pooled / 21 / reuso_n: 0
-periodicos / pooled / 21 / sjr: 1,503
+periodicos / pooled / 21 / sjr: 0,513
 periodicos / pooled / 22 / n: 1
-periodicos / pooled / 22 / overton: 0
-periodicos / pooled / 22 / papeis / misrepresented: 1
+periodicos / pooled / 22 / papeis / real_mention: 1
 periodicos / pooled / 22 / reuso_n: 0
-periodicos / pooled / 22 / sjr: 0,513
 periodicos / pooled / 23 / n: 1
-periodicos / pooled / 23 / papeis / real_mention: 1
+periodicos / pooled / 23 / overton: 0
+periodicos / pooled / 23 / papeis / brief_mention: 1
 periodicos / pooled / 23 / reuso_n: 0
+periodicos / pooled / 23 / sjr: 2,851
 periodicos / pooled / 24 / n: 1
 periodicos / pooled / 24 / overton: 0
-periodicos / pooled / 24 / papeis / brief_mention: 1
-periodicos / pooled / 24 / reuso_n: 0
-periodicos / pooled / 24 / sjr: 2,851
+periodicos / pooled / 24 / papeis / supporting: 1
+periodicos / pooled / 24 / reuso_n: 1
+periodicos / pooled / 24 / sjr: 2,355
 periodicos / pooled / 25 / n: 1
-periodicos / pooled / 25 / overton: 0
-periodicos / pooled / 25 / papeis / supporting: 1
-periodicos / pooled / 25 / reuso_n: 1
-periodicos / pooled / 25 / sjr: 2,355
+periodicos / pooled / 25 / overton: 19
+periodicos / pooled / 25 / papeis / drive_by: 1
+periodicos / pooled / 25 / reuso_n: 0
+periodicos / pooled / 25 / sjr: 0,927
 periodicos / pooled / 26 / n: 1
-periodicos / pooled / 26 / overton: 19
+periodicos / pooled / 26 / overton: 2
 periodicos / pooled / 26 / papeis / drive_by: 1
 periodicos / pooled / 26 / reuso_n: 0
-periodicos / pooled / 26 / sjr: 0,927
+periodicos / pooled / 26 / sjr: 0,767
 periodicos / pooled / 27 / n: 1
-periodicos / pooled / 27 / overton: 2
-periodicos / pooled / 27 / papeis / drive_by: 1
+periodicos / pooled / 27 / overton: 9
+periodicos / pooled / 27 / papeis / misrepresented: 1
 periodicos / pooled / 27 / reuso_n: 0
-periodicos / pooled / 27 / sjr: 0,767
+periodicos / pooled / 27 / sjr: 1,449
 periodicos / pooled / 28 / n: 1
-periodicos / pooled / 28 / overton: 9
-periodicos / pooled / 28 / papeis / misrepresented: 1
+periodicos / pooled / 28 / overton: 0
+periodicos / pooled / 28 / papeis / reference_list_only: 1
 periodicos / pooled / 28 / reuso_n: 0
-periodicos / pooled / 28 / sjr: 1,449
+periodicos / pooled / 28 / sjr: 0,362
 periodicos / pooled / 29 / n: 1
 periodicos / pooled / 29 / overton: 0
-periodicos / pooled / 29 / papeis / reference_list_only: 1
+periodicos / pooled / 29 / papeis / brief_mention: 1
 periodicos / pooled / 29 / reuso_n: 0
-periodicos / pooled / 29 / sjr: 0,362
+periodicos / pooled / 29 / sjr: 0,318
 periodicos / pooled / 30 / n: 1
 periodicos / pooled / 30 / overton: 0
 periodicos / pooled / 30 / papeis / brief_mention: 1
 periodicos / pooled / 30 / reuso_n: 0
-periodicos / pooled / 30 / sjr: 0,318
+periodicos / pooled / 30 / sjr: 0,466
 periodicos / pooled / 31 / n: 1
-periodicos / pooled / 31 / overton: 0
+periodicos / pooled / 31 / overton: 1
 periodicos / pooled / 31 / papeis / brief_mention: 1
 periodicos / pooled / 31 / reuso_n: 0
-periodicos / pooled / 31 / sjr: 0,466
+periodicos / pooled / 31 / sjr: 1,202
 periodicos / pooled / 32 / n: 1
-periodicos / pooled / 32 / overton: 1
+periodicos / pooled / 32 / overton: 9
 periodicos / pooled / 32 / papeis / brief_mention: 1
 periodicos / pooled / 32 / reuso_n: 0
-periodicos / pooled / 32 / sjr: 1,202
+periodicos / pooled / 32 / sjr: 3,498
 periodicos / pooled / 33 / n: 1
-periodicos / pooled / 33 / overton: 9
-periodicos / pooled / 33 / papeis / brief_mention: 1
+periodicos / pooled / 33 / overton: 1
+periodicos / pooled / 33 / papeis / drive_by: 1
 periodicos / pooled / 33 / reuso_n: 0
-periodicos / pooled / 33 / sjr: 3,498
+periodicos / pooled / 33 / sjr: 0,559
 periodicos / pooled / 34 / n: 1
-periodicos / pooled / 34 / overton: 1
-periodicos / pooled / 34 / papeis / drive_by: 1
+periodicos / pooled / 34 / overton: 0
+periodicos / pooled / 34 / papeis / real_mention: 1
 periodicos / pooled / 34 / reuso_n: 0
-periodicos / pooled / 34 / sjr: 0,559
+periodicos / pooled / 34 / sjr: 0,421
 periodicos / pooled / 35 / n: 1
-periodicos / pooled / 35 / overton: 0
-periodicos / pooled / 35 / papeis / real_mention: 1
+periodicos / pooled / 35 / overton: 1
+periodicos / pooled / 35 / papeis / brief_mention: 1
 periodicos / pooled / 35 / reuso_n: 0
-periodicos / pooled / 35 / sjr: 0,421
+periodicos / pooled / 35 / sjr: 1,014
 periodicos / pooled / 36 / n: 1
-periodicos / pooled / 36 / overton: 1
+periodicos / pooled / 36 / overton: 122
 periodicos / pooled / 36 / papeis / brief_mention: 1
 periodicos / pooled / 36 / reuso_n: 0
-periodicos / pooled / 36 / sjr: 1,014
+periodicos / pooled / 36 / sjr: 0,893
 periodicos / pooled / 37 / n: 1
-periodicos / pooled / 37 / overton: 122
-periodicos / pooled / 37 / papeis / brief_mention: 1
+periodicos / pooled / 37 / overton: 53
+periodicos / pooled / 37 / papeis / real_mention: 1
 periodicos / pooled / 37 / reuso_n: 0
-periodicos / pooled / 37 / sjr: 0,893
+periodicos / pooled / 37 / sjr: 0,750
 periodicos / pooled / 38 / n: 1
-periodicos / pooled / 38 / overton: 53
-periodicos / pooled / 38 / papeis / real_mention: 1
+periodicos / pooled / 38 / overton: 0
+periodicos / pooled / 38 / papeis / reference_list_only: 1
 periodicos / pooled / 38 / reuso_n: 0
-periodicos / pooled / 38 / sjr: 0,750
+periodicos / pooled / 38 / sjr: 2,470
 periodicos / pooled / 39 / n: 1
-periodicos / pooled / 39 / overton: 0
-periodicos / pooled / 39 / papeis / reference_list_only: 1
+periodicos / pooled / 39 / overton: 4
+periodicos / pooled / 39 / papeis / misrepresented: 1
 periodicos / pooled / 39 / reuso_n: 0
-periodicos / pooled / 39 / sjr: 2,470
+periodicos / pooled / 39 / sjr: 2,359
 periodicos / pooled / 40 / n: 1
-periodicos / pooled / 40 / overton: 4
-periodicos / pooled / 40 / papeis / misrepresented: 1
+periodicos / pooled / 40 / overton: 0
+periodicos / pooled / 40 / papeis / brief_mention: 1
 periodicos / pooled / 40 / reuso_n: 0
-periodicos / pooled / 40 / sjr: 2,359
+periodicos / pooled / 40 / sjr: 1,743
 periodicos / pooled / 41 / n: 1
-periodicos / pooled / 41 / overton: 0
-periodicos / pooled / 41 / papeis / brief_mention: 1
+periodicos / pooled / 41 / overton: 2
+periodicos / pooled / 41 / papeis / misrepresented: 1
 periodicos / pooled / 41 / reuso_n: 0
-periodicos / pooled / 41 / sjr: 1,743
+periodicos / pooled / 41 / sjr: 0,508
 periodicos / pooled / 42 / n: 1
-periodicos / pooled / 42 / overton: 2
-periodicos / pooled / 42 / papeis / misrepresented: 1
+periodicos / pooled / 42 / overton: 3
+periodicos / pooled / 42 / papeis / brief_mention: 1
 periodicos / pooled / 42 / reuso_n: 0
-periodicos / pooled / 42 / sjr: 0,508
+periodicos / pooled / 42 / sjr: 1,039
 periodicos / pooled / 43 / n: 1
-periodicos / pooled / 43 / overton: 3
+periodicos / pooled / 43 / overton: 0
 periodicos / pooled / 43 / papeis / brief_mention: 1
 periodicos / pooled / 43 / reuso_n: 0
-periodicos / pooled / 43 / sjr: 1,039
+periodicos / pooled / 43 / sjr: 2,070
 periodicos / pooled / 44 / n: 1
-periodicos / pooled / 44 / overton: 0
+periodicos / pooled / 44 / overton: 1
 periodicos / pooled / 44 / papeis / brief_mention: 1
 periodicos / pooled / 44 / reuso_n: 0
-periodicos / pooled / 44 / sjr: 2,070
-periodicos / pooled / 45 / n: 1
-periodicos / pooled / 45 / overton: 1
-periodicos / pooled / 45 / papeis / brief_mention: 1
-periodicos / pooled / 45 / reuso_n: 0
-periodicos / pooled / 45 / sjr: 2,396
+periodicos / pooled / 44 / sjr: 2,396
 periodicos / por_artigo / airline / 0 / n: 10
 periodicos / por_artigo / airline / 0 / overton: 1
 periodicos / por_artigo / airline / 0 / papeis / brief_mention: 3
@@ -543,83 +540,80 @@ periodicos / por_artigo / airline / 6 / papeis / reference_list_only: 1
 periodicos / por_artigo / airline / 6 / reuso_n: 0
 periodicos / por_artigo / airline / 6 / sjr: 1,393
 periodicos / por_artigo / airline / 7 / n: 1
+periodicos / por_artigo / airline / 7 / overton: 9
 periodicos / por_artigo / airline / 7 / papeis / drive_by: 1
 periodicos / por_artigo / airline / 7 / reuso_n: 0
+periodicos / por_artigo / airline / 7 / sjr: 0,555
 periodicos / por_artigo / airline / 8 / n: 1
-periodicos / por_artigo / airline / 8 / overton: 9
-periodicos / por_artigo / airline / 8 / papeis / drive_by: 1
+periodicos / por_artigo / airline / 8 / overton: 0
+periodicos / por_artigo / airline / 8 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 8 / reuso_n: 0
-periodicos / por_artigo / airline / 8 / sjr: 0,555
+periodicos / por_artigo / airline / 8 / sjr: 2,851
 periodicos / por_artigo / airline / 9 / n: 1
-periodicos / por_artigo / airline / 9 / overton: 0
-periodicos / por_artigo / airline / 9 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 9 / overton: 19
+periodicos / por_artigo / airline / 9 / papeis / drive_by: 1
 periodicos / por_artigo / airline / 9 / reuso_n: 0
-periodicos / por_artigo / airline / 9 / sjr: 2,851
+periodicos / por_artigo / airline / 9 / sjr: 0,927
 periodicos / por_artigo / airline / 10 / n: 1
-periodicos / por_artigo / airline / 10 / overton: 19
+periodicos / por_artigo / airline / 10 / overton: 2
 periodicos / por_artigo / airline / 10 / papeis / drive_by: 1
 periodicos / por_artigo / airline / 10 / reuso_n: 0
-periodicos / por_artigo / airline / 10 / sjr: 0,927
+periodicos / por_artigo / airline / 10 / sjr: 0,767
 periodicos / por_artigo / airline / 11 / n: 1
-periodicos / por_artigo / airline / 11 / overton: 2
-periodicos / por_artigo / airline / 11 / papeis / drive_by: 1
+periodicos / por_artigo / airline / 11 / overton: 9
+periodicos / por_artigo / airline / 11 / papeis / misrepresented: 1
 periodicos / por_artigo / airline / 11 / reuso_n: 0
-periodicos / por_artigo / airline / 11 / sjr: 0,767
+periodicos / por_artigo / airline / 11 / sjr: 1,449
 periodicos / por_artigo / airline / 12 / n: 1
-periodicos / por_artigo / airline / 12 / overton: 9
-periodicos / por_artigo / airline / 12 / papeis / misrepresented: 1
+periodicos / por_artigo / airline / 12 / overton: 1
+periodicos / por_artigo / airline / 12 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 12 / reuso_n: 0
-periodicos / por_artigo / airline / 12 / sjr: 1,449
+periodicos / por_artigo / airline / 12 / sjr: 1,202
 periodicos / por_artigo / airline / 13 / n: 1
-periodicos / por_artigo / airline / 13 / overton: 1
+periodicos / por_artigo / airline / 13 / overton: 9
 periodicos / por_artigo / airline / 13 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 13 / reuso_n: 0
-periodicos / por_artigo / airline / 13 / sjr: 1,202
+periodicos / por_artigo / airline / 13 / sjr: 3,498
 periodicos / por_artigo / airline / 14 / n: 1
-periodicos / por_artigo / airline / 14 / overton: 9
-periodicos / por_artigo / airline / 14 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 14 / overton: 0
+periodicos / por_artigo / airline / 14 / papeis / real_mention: 1
 periodicos / por_artigo / airline / 14 / reuso_n: 0
-periodicos / por_artigo / airline / 14 / sjr: 3,498
+periodicos / por_artigo / airline / 14 / sjr: 0,421
 periodicos / por_artigo / airline / 15 / n: 1
-periodicos / por_artigo / airline / 15 / overton: 0
-periodicos / por_artigo / airline / 15 / papeis / real_mention: 1
+periodicos / por_artigo / airline / 15 / overton: 1
+periodicos / por_artigo / airline / 15 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 15 / reuso_n: 0
-periodicos / por_artigo / airline / 15 / sjr: 0,421
+periodicos / por_artigo / airline / 15 / sjr: 1,014
 periodicos / por_artigo / airline / 16 / n: 1
-periodicos / por_artigo / airline / 16 / overton: 1
+periodicos / por_artigo / airline / 16 / overton: 122
 periodicos / por_artigo / airline / 16 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 16 / reuso_n: 0
-periodicos / por_artigo / airline / 16 / sjr: 1,014
+periodicos / por_artigo / airline / 16 / sjr: 0,893
 periodicos / por_artigo / airline / 17 / n: 1
-periodicos / por_artigo / airline / 17 / overton: 122
+periodicos / por_artigo / airline / 17 / overton: 0
 periodicos / por_artigo / airline / 17 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 17 / reuso_n: 0
-periodicos / por_artigo / airline / 17 / sjr: 0,893
+periodicos / por_artigo / airline / 17 / sjr: 1,743
 periodicos / por_artigo / airline / 18 / n: 1
-periodicos / por_artigo / airline / 18 / overton: 0
-periodicos / por_artigo / airline / 18 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 18 / overton: 2
+periodicos / por_artigo / airline / 18 / papeis / misrepresented: 1
 periodicos / por_artigo / airline / 18 / reuso_n: 0
-periodicos / por_artigo / airline / 18 / sjr: 1,743
+periodicos / por_artigo / airline / 18 / sjr: 0,508
 periodicos / por_artigo / airline / 19 / n: 1
-periodicos / por_artigo / airline / 19 / overton: 2
-periodicos / por_artigo / airline / 19 / papeis / misrepresented: 1
+periodicos / por_artigo / airline / 19 / overton: 3
+periodicos / por_artigo / airline / 19 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 19 / reuso_n: 0
-periodicos / por_artigo / airline / 19 / sjr: 0,508
+periodicos / por_artigo / airline / 19 / sjr: 1,039
 periodicos / por_artigo / airline / 20 / n: 1
-periodicos / por_artigo / airline / 20 / overton: 3
+periodicos / por_artigo / airline / 20 / overton: 0
 periodicos / por_artigo / airline / 20 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 20 / reuso_n: 0
-periodicos / por_artigo / airline / 20 / sjr: 1,039
+periodicos / por_artigo / airline / 20 / sjr: 2,070
 periodicos / por_artigo / airline / 21 / n: 1
-periodicos / por_artigo / airline / 21 / overton: 0
+periodicos / por_artigo / airline / 21 / overton: 1
 periodicos / por_artigo / airline / 21 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 21 / reuso_n: 0
-periodicos / por_artigo / airline / 21 / sjr: 2,070
-periodicos / por_artigo / airline / 22 / n: 1
-periodicos / por_artigo / airline / 22 / overton: 1
-periodicos / por_artigo / airline / 22 / papeis / brief_mention: 1
-periodicos / por_artigo / airline / 22 / reuso_n: 0
-periodicos / por_artigo / airline / 22 / sjr: 2,396
+periodicos / por_artigo / airline / 21 / sjr: 2,396
 periodicos / por_artigo / grains / 0 / n: 4
 periodicos / por_artigo / grains / 0 / overton: 3
 periodicos / por_artigo / grains / 0 / papeis / brief_mention: 3
@@ -738,7 +732,7 @@ periodicos / quartis / Q1: 34
 periodicos / quartis / Q2: 7
 periodicos / quartis / Q3: 2
 periodicos / scimago_casados: 43
-periodicos / total: 46
+periodicos / total: 45
 
 == audit_70 §editoras ==
 editoras / airline / De Gruyter: 1
@@ -858,6 +852,9 @@ eixos / airline / reuse / result_validated / valor: 0,000
 eixos / airline / reuse / work_extended / D: 52
 eixos / airline / reuse / work_extended / n: 0
 eixos / airline / reuse / work_extended / valor: 0,000
+eixos / airline / reuse_externo / D_ind: 48
+eixos / airline / reuse_externo / n: 3
+eixos / airline / reuse_externo / pct: 6% (3/48)
 eixos / airline / stance / contradictory / D: 52
 eixos / airline / stance / contradictory / n: 1
 eixos / airline / stance / contradictory / valor: 0,019
@@ -957,6 +954,9 @@ eixos / grains / reuse / result_validated / valor: 0,000
 eixos / grains / reuse / work_extended / D: 40
 eixos / grains / reuse / work_extended / n: 0
 eixos / grains / reuse / work_extended / valor: 0,000
+eixos / grains / reuse_externo / D_ind: 40
+eixos / grains / reuse_externo / n: 2
+eixos / grains / reuse_externo / pct: 5% (2/40)
 eixos / grains / stance / contradictory / D: 40
 eixos / grains / stance / contradictory / n: 1
 eixos / grains / stance / contradictory / valor: 0,025
@@ -1056,6 +1056,9 @@ eixos / pooled / reuse / result_validated / valor: 0,000
 eixos / pooled / reuse / work_extended / D: 92
 eixos / pooled / reuse / work_extended / n: 0
 eixos / pooled / reuse / work_extended / valor: 0,000
+eixos / pooled / reuse_externo / D_ind: 88
+eixos / pooled / reuse_externo / n: 5
+eixos / pooled / reuse_externo / pct: 6% (5/88)
 eixos / pooled / stance / contradictory / D: 92
 eixos / pooled / stance / contradictory / n: 2
 eixos / pooled / stance / contradictory / valor: 0,022
@@ -4187,13 +4190,267 @@ irr / pre / n_items: 97
 irr / pre / seed: 20.260.904
 
 == audit_70 §cd ==
-cd / airline / cd_index: PENDENTE (data/cd/cd_airline.json: Corrida de teste (audit_65_cd_index.py --paper airline --cap-per-ref 50) interrompida pelo orcamento diario da API do OpenAlex, que zerou no meio da execucao (ver relatorio da sessao que gravou este arquivo). 22 das 26 chamadas de citantes-por-referencia devolveram None por causa de HTTP 429 'Insufficient budget', nao porque essas referencias tem 0 citantes reais -- os indicadores computados a partir desses dados (n_i, n_j, n_k, CD, etc.) sao invalidos e foram removidos deste arquivo de proposito para nao ser confundidos com um resultado real.)
+cd / airline / cd_index / windows / 1 / CD: -0,003
+cd / airline / cd_index / windows / 1 / CD_nok: -0,333
+cd / airline / cd_index / windows / 1 / DI2 / n_i: 1
+cd / airline / cd_index / windows / 1 / DI2 / n_j: 2
+cd / airline / cd_index / windows / 1 / DI2 / n_k: 60
+cd / airline / cd_index / windows / 1 / DI2 / value: -0,016
+cd / airline / cd_index / windows / 1 / DI5 / n_i: 3
+cd / airline / cd_index / windows / 1 / DI5 / n_j: 0
+cd / airline / cd_index / windows / 1 / DI5 / n_k: 2
+cd / airline / cd_index / windows / 1 / DI5 / value: 0,600
+cd / airline / cd_index / windows / 1 / checks / ni_plus_nj: 3
+cd / airline / cd_index / windows / 1 / checks / p_citers_in_window: 3
+cd / airline / cd_index / windows / 1 / ci_95 / CD / 0: -0,011
+cd / airline / cd_index / windows / 1 / ci_95 / CD / 1: 0,006
+cd / airline / cd_index / windows / 1 / ci_95 / CD_nok / 0: -1,000
+cd / airline / cd_index / windows / 1 / ci_95 / CD_nok / 1: 1,000
+cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 0: -0,069
+cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 1: 0,036
+cd / airline / cd_index / windows / 1 / ci_95 / DI5 / 0: 0,000
+cd / airline / cd_index / windows / 1 / ci_95 / DI5 / 1: 1,000
+cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 0: -0,011
+cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 1: 0,006
+cd / airline / cd_index / windows / 1 / holst / CD: -0,003
+cd / airline / cd_index / windows / 1 / holst / n_i: 1
+cd / airline / cd_index / windows / 1 / holst / n_j: 2
+cd / airline / cd_index / windows / 1 / holst / n_k: 351
+cd / airline / cd_index / windows / 1 / n_i: 1
+cd / airline / cd_index / windows / 1 / n_j: 2
+cd / airline / cd_index / windows / 1 / n_k: 351
+cd / airline / cd_index / windows / 1 / n_window: 354
+cd / airline / cd_index / windows / 1 / t: 1
+cd / airline / cd_index / windows / 1 / t_nominal: 1
+cd / airline / cd_index / windows / 10 / CD: -0,012
+cd / airline / cd_index / windows / 10 / CD_nok: -0,347
+cd / airline / cd_index / windows / 10 / DI2 / n_i: 23
+cd / airline / cd_index / windows / 10 / DI2 / n_j: 26
+cd / airline / cd_index / windows / 10 / DI2 / n_k: 220
+cd / airline / cd_index / windows / 10 / DI2 / value: -0,011
+cd / airline / cd_index / windows / 10 / DI5 / n_i: 45
+cd / airline / cd_index / windows / 10 / DI5 / n_j: 4
+cd / airline / cd_index / windows / 10 / DI5 / n_k: 13
+cd / airline / cd_index / windows / 10 / DI5 / value: 0,661
+cd / airline / cd_index / windows / 10 / checks / ni_plus_nj: 49
+cd / airline / cd_index / windows / 10 / checks / p_citers_in_window: 49
+cd / airline / cd_index / windows / 10 / ci_95 / CD / 0: -0,021
+cd / airline / cd_index / windows / 10 / ci_95 / CD / 1: -0,002
+cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,600
+cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 1: -0,070
+cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 0: -0,061
+cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,040
+cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,509
+cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,804
+cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 0: -0,021
+cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 1: -0,002
+cd / airline / cd_index / windows / 10 / holst / CD: -0,012
+cd / airline / cd_index / windows / 10 / holst / n_i: 16
+cd / airline / cd_index / windows / 10 / holst / n_j: 33
+cd / airline / cd_index / windows / 10 / holst / n_k: 1.410
+cd / airline / cd_index / windows / 10 / n_i: 16
+cd / airline / cd_index / windows / 10 / n_j: 33
+cd / airline / cd_index / windows / 10 / n_k: 1.410
+cd / airline / cd_index / windows / 10 / n_window: 1.459
+cd / airline / cd_index / windows / 10 / t: 10
+cd / airline / cd_index / windows / 10 / t_nominal: 10
+cd / airline / cd_index / windows / 3 / CD: -0,007
+cd / airline / cd_index / windows / 3 / CD_nok: -0,333
+cd / airline / cd_index / windows / 3 / DI2 / n_i: 7
+cd / airline / cd_index / windows / 3 / DI2 / n_j: 8
+cd / airline / cd_index / windows / 3 / DI2 / n_k: 101
+cd / airline / cd_index / windows / 3 / DI2 / value: -0,009
+cd / airline / cd_index / windows / 3 / DI5 / n_i: 14
+cd / airline / cd_index / windows / 3 / DI5 / n_j: 1
+cd / airline / cd_index / windows / 3 / DI5 / n_k: 8
+cd / airline / cd_index / windows / 3 / DI5 / value: 0,565
+cd / airline / cd_index / windows / 3 / checks / ni_plus_nj: 15
+cd / airline / cd_index / windows / 3 / checks / p_citers_in_window: 15
+cd / airline / cd_index / windows / 3 / ci_95 / CD / 0: -0,017
+cd / airline / cd_index / windows / 3 / ci_95 / CD / 1: 0,003
+cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,800
+cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,177
+cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 0: -0,076
+cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 1: 0,058
+cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,320
+cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,789
+cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 0: -0,017
+cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 1: 0,003
+cd / airline / cd_index / windows / 3 / holst / CD: -0,007
+cd / airline / cd_index / windows / 3 / holst / n_i: 5
+cd / airline / cd_index / windows / 3 / holst / n_j: 10
+cd / airline / cd_index / windows / 3 / holst / n_k: 734
+cd / airline / cd_index / windows / 3 / n_i: 5
+cd / airline / cd_index / windows / 3 / n_j: 10
+cd / airline / cd_index / windows / 3 / n_k: 734
+cd / airline / cd_index / windows / 3 / n_window: 749
+cd / airline / cd_index / windows / 3 / t: 3
+cd / airline / cd_index / windows / 3 / t_nominal: 3
+cd / airline / cd_index / windows / 5 / CD: -0,011
+cd / airline / cd_index / windows / 5 / CD_nok: -0,440
+cd / airline / cd_index / windows / 5 / DI2 / n_i: 10
+cd / airline / cd_index / windows / 5 / DI2 / n_j: 15
+cd / airline / cd_index / windows / 5 / DI2 / n_k: 153
+cd / airline / cd_index / windows / 5 / DI2 / value: -0,028
+cd / airline / cd_index / windows / 5 / DI5 / n_i: 23
+cd / airline / cd_index / windows / 5 / DI5 / n_j: 2
+cd / airline / cd_index / windows / 5 / DI5 / n_k: 10
+cd / airline / cd_index / windows / 5 / DI5 / value: 0,600
+cd / airline / cd_index / windows / 5 / checks / ni_plus_nj: 25
+cd / airline / cd_index / windows / 5 / checks / p_citers_in_window: 25
+cd / airline / cd_index / windows / 5 / ci_95 / CD / 0: -0,020
+cd / airline / cd_index / windows / 5 / ci_95 / CD / 1: -0,001
+cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,769
+cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 1: -0,066
+cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 0: -0,083
+cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 1: 0,025
+cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,395
+cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,781
+cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 0: -0,020
+cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 1: -0,001
+cd / airline / cd_index / windows / 5 / holst / CD: -0,011
+cd / airline / cd_index / windows / 5 / holst / n_i: 7
+cd / airline / cd_index / windows / 5 / holst / n_j: 18
+cd / airline / cd_index / windows / 5 / holst / n_k: 1.016
+cd / airline / cd_index / windows / 5 / n_i: 7
+cd / airline / cd_index / windows / 5 / n_j: 18
+cd / airline / cd_index / windows / 5 / n_k: 1.016
+cd / airline / cd_index / windows / 5 / n_window: 1.041
+cd / airline / cd_index / windows / 5 / t: 5
+cd / airline / cd_index / windows / 5 / t_nominal: 5
 cd / airline / refs_audit / n_false_references: 0
 cd / airline / refs_audit / n_openalex_raw: 30
 cd / airline / refs_audit / n_pdf: 26
 cd / airline / refs_audit / n_unresolvable: 0
 cd / airline / refs_audit / n_valid: 26
-cd / grains / cd_index: PENDENTE (data/cd/cd_grains.json não existe)
+cd / grains / cd_index / windows / 1 / CD: 0,001
+cd / grains / cd_index / windows / 1 / CD_nok: 1,000
+cd / grains / cd_index / windows / 1 / DI2 / n_i: 3
+cd / grains / cd_index / windows / 1 / DI2 / n_j: 0
+cd / grains / cd_index / windows / 1 / DI2 / n_k: 519
+cd / grains / cd_index / windows / 1 / DI2 / value: 0,006
+cd / grains / cd_index / windows / 1 / DI5 / n_i: 3
+cd / grains / cd_index / windows / 1 / DI5 / n_j: 0
+cd / grains / cd_index / windows / 1 / DI5 / n_k: 28
+cd / grains / cd_index / windows / 1 / DI5 / value: 0,097
+cd / grains / cd_index / windows / 1 / checks / ni_plus_nj: 3
+cd / grains / cd_index / windows / 1 / checks / p_citers_in_window: 3
+cd / grains / cd_index / windows / 1 / ci_95 / CD / 0: 0,000
+cd / grains / cd_index / windows / 1 / ci_95 / CD / 1: 0,002
+cd / grains / cd_index / windows / 1 / ci_95 / CD_nok / 0: 1,000
+cd / grains / cd_index / windows / 1 / ci_95 / CD_nok / 1: 1,000
+cd / grains / cd_index / windows / 1 / ci_95 / DI2 / 0: 0,000
+cd / grains / cd_index / windows / 1 / ci_95 / DI2 / 1: 0,013
+cd / grains / cd_index / windows / 1 / ci_95 / DI5 / 0: 0,000
+cd / grains / cd_index / windows / 1 / ci_95 / DI5 / 1: 0,217
+cd / grains / cd_index / windows / 1 / ci_95 / holst_CD / 0: 0,000
+cd / grains / cd_index / windows / 1 / ci_95 / holst_CD / 1: 0,002
+cd / grains / cd_index / windows / 1 / holst / CD: 0,001
+cd / grains / cd_index / windows / 1 / holst / n_i: 3
+cd / grains / cd_index / windows / 1 / holst / n_j: 0
+cd / grains / cd_index / windows / 1 / holst / n_k: 2.863
+cd / grains / cd_index / windows / 1 / n_i: 3
+cd / grains / cd_index / windows / 1 / n_j: 0
+cd / grains / cd_index / windows / 1 / n_k: 2.863
+cd / grains / cd_index / windows / 1 / n_window: 2.866
+cd / grains / cd_index / windows / 1 / t: 1
+cd / grains / cd_index / windows / 1 / t_nominal: 1
+cd / grains / cd_index / windows / 10 / CD: 0,001
+cd / grains / cd_index / windows / 10 / CD_nok: 0,132
+cd / grains / cd_index / windows / 10 / DI2 / n_i: 39
+cd / grains / cd_index / windows / 10 / DI2 / n_j: 14
+cd / grains / cd_index / windows / 10 / DI2 / n_k: 1.306
+cd / grains / cd_index / windows / 10 / DI2 / value: 0,018
+cd / grains / cd_index / windows / 10 / DI5 / n_i: 50
+cd / grains / cd_index / windows / 10 / DI5 / n_j: 3
+cd / grains / cd_index / windows / 10 / DI5 / n_k: 64
+cd / grains / cd_index / windows / 10 / DI5 / value: 0,402
+cd / grains / cd_index / windows / 10 / checks / ni_plus_nj: 53
+cd / grains / cd_index / windows / 10 / checks / p_citers_in_window: 53
+cd / grains / cd_index / windows / 10 / ci_95 / CD / 0: -0,001
+cd / grains / cd_index / windows / 10 / ci_95 / CD / 1: 0,002
+cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,121
+cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 1: 0,404
+cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 0: 0,009
+cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,029
+cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,302
+cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,495
+cd / grains / cd_index / windows / 10 / ci_95 / holst_CD / 0: -0,001
+cd / grains / cd_index / windows / 10 / ci_95 / holst_CD / 1: 0,002
+cd / grains / cd_index / windows / 10 / holst / CD: 0,001
+cd / grains / cd_index / windows / 10 / holst / n_i: 30
+cd / grains / cd_index / windows / 10 / holst / n_j: 23
+cd / grains / cd_index / windows / 10 / holst / n_k: 8.482
+cd / grains / cd_index / windows / 10 / n_i: 30
+cd / grains / cd_index / windows / 10 / n_j: 23
+cd / grains / cd_index / windows / 10 / n_k: 8.482
+cd / grains / cd_index / windows / 10 / n_window: 8.535
+cd / grains / cd_index / windows / 10 / t: 7
+cd / grains / cd_index / windows / 10 / t_nominal: 10
+cd / grains / cd_index / windows / 3 / CD: 0,000
+cd / grains / cd_index / windows / 3 / CD_nok: -0,091
+cd / grains / cd_index / windows / 3 / DI2 / n_i: 13
+cd / grains / cd_index / windows / 3 / DI2 / n_j: 9
+cd / grains / cd_index / windows / 3 / DI2 / n_k: 904
+cd / grains / cd_index / windows / 3 / DI2 / value: 0,004
+cd / grains / cd_index / windows / 3 / DI5 / n_i: 20
+cd / grains / cd_index / windows / 3 / DI5 / n_j: 2
+cd / grains / cd_index / windows / 3 / DI5 / n_k: 48
+cd / grains / cd_index / windows / 3 / DI5 / value: 0,257
+cd / grains / cd_index / windows / 3 / checks / ni_plus_nj: 22
+cd / grains / cd_index / windows / 3 / checks / p_citers_in_window: 22
+cd / grains / cd_index / windows / 3 / ci_95 / CD / 0: -0,002
+cd / grains / cd_index / windows / 3 / ci_95 / CD / 1: 0,001
+cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,500
+cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,333
+cd / grains / cd_index / windows / 3 / ci_95 / DI2 / 0: -0,005
+cd / grains / cd_index / windows / 3 / ci_95 / DI2 / 1: 0,014
+cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,145
+cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,378
+cd / grains / cd_index / windows / 3 / ci_95 / holst_CD / 0: -0,002
+cd / grains / cd_index / windows / 3 / ci_95 / holst_CD / 1: 0,001
+cd / grains / cd_index / windows / 3 / holst / CD: 0,000
+cd / grains / cd_index / windows / 3 / holst / n_i: 10
+cd / grains / cd_index / windows / 3 / holst / n_j: 12
+cd / grains / cd_index / windows / 3 / holst / n_k: 5.345
+cd / grains / cd_index / windows / 3 / n_i: 10
+cd / grains / cd_index / windows / 3 / n_j: 12
+cd / grains / cd_index / windows / 3 / n_k: 5.345
+cd / grains / cd_index / windows / 3 / n_window: 5.367
+cd / grains / cd_index / windows / 3 / t: 3
+cd / grains / cd_index / windows / 3 / t_nominal: 3
+cd / grains / cd_index / windows / 5 / CD: 0,001
+cd / grains / cd_index / windows / 5 / CD_nok: 0,167
+cd / grains / cd_index / windows / 5 / DI2 / n_i: 25
+cd / grains / cd_index / windows / 5 / DI2 / n_j: 11
+cd / grains / cd_index / windows / 5 / DI2 / n_k: 1.139
+cd / grains / cd_index / windows / 5 / DI2 / value: 0,012
+cd / grains / cd_index / windows / 5 / DI5 / n_i: 33
+cd / grains / cd_index / windows / 5 / DI5 / n_j: 3
+cd / grains / cd_index / windows / 5 / DI5 / n_k: 62
+cd / grains / cd_index / windows / 5 / DI5 / value: 0,306
+cd / grains / cd_index / windows / 5 / checks / ni_plus_nj: 36
+cd / grains / cd_index / windows / 5 / checks / p_citers_in_window: 36
+cd / grains / cd_index / windows / 5 / ci_95 / CD / 0: -0,001
+cd / grains / cd_index / windows / 5 / ci_95 / CD / 1: 0,003
+cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,167
+cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 1: 0,471
+cd / grains / cd_index / windows / 5 / ci_95 / DI2 / 0: 0,002
+cd / grains / cd_index / windows / 5 / ci_95 / DI2 / 1: 0,022
+cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,207
+cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,412
+cd / grains / cd_index / windows / 5 / ci_95 / holst_CD / 0: -0,001
+cd / grains / cd_index / windows / 5 / ci_95 / holst_CD / 1: 0,003
+cd / grains / cd_index / windows / 5 / holst / CD: 0,001
+cd / grains / cd_index / windows / 5 / holst / n_i: 21
+cd / grains / cd_index / windows / 5 / holst / n_j: 15
+cd / grains / cd_index / windows / 5 / holst / n_k: 7.114
+cd / grains / cd_index / windows / 5 / n_i: 21
+cd / grains / cd_index / windows / 5 / n_j: 15
+cd / grains / cd_index / windows / 5 / n_k: 7.114
+cd / grains / cd_index / windows / 5 / n_window: 7.150
+cd / grains / cd_index / windows / 5 / t: 5
+cd / grains / cd_index / windows / 5 / t_nominal: 5
 cd / grains / refs_audit / false_references / 0 / ano: 2.009
 cd / grains / refs_audit / false_references / 1 / ano: 1.982
 cd / grains / refs_audit / false_references / 2 / ano: 2.015
@@ -4225,7 +4482,116 @@ cd / grains / refs_audit / unresolvable / 9 / ano: 2.017
 cd / grains / refs_audit / unresolvable / 9 / n_no_pdf: 44
 
 == audit_70 §cocitacao ==
-cocitacao: PENDENTE (data/cocit/cocit_airline.json não existe (só data/cocit/seeds_airline.json, que é insumo, não resultado))
+cocitacao / brokerage / AB / k_cites_focal: 14
+cocitacao / brokerage / AB / n: 48
+cocitacao / brokerage / AB / rate: 0,292
+cocitacao / brokerage / A_only / k_cites_focal: 8
+cocitacao / brokerage / A_only / n: 247
+cocitacao / brokerage / A_only / rate: 0,032
+cocitacao / brokerage / B_only / k_cites_focal: 10
+cocitacao / brokerage / B_only / n: 270
+cocitacao / brokerage / B_only / rate: 0,037
+cocitacao / brokerage / binom_test_AB_vs_single_p0 / k: 14
+cocitacao / brokerage / binom_test_AB_vs_single_p0 / n: 48
+cocitacao / brokerage / binom_test_AB_vs_single_p0 / p0: 0,035
+cocitacao / brokerage / binom_test_AB_vs_single_p0 / p_two_sided: 0,000
+cocitacao / brokerage / brokerage_share: 0,292
+cocitacao / brokerage / n_focal_citers_in_window: 49
+cocitacao / brokerage / odds_ratio_AB_vs_A_only: 12,301
+cocitacao / brokerage / odds_ratio_AB_vs_B_only: 10,706
+cocitacao / brokerage / odds_ratio_AB_vs_single: 11,415
+cocitacao / brokerage / post_window / 0: 2.016
+cocitacao / brokerage / post_window / 1: 2.026
+cocitacao / brokerage / single_strand / k_cites_focal: 18
+cocitacao / brokerage / single_strand / n: 517
+cocitacao / brokerage / single_strand / rate: 0,035
+cocitacao / passage_confirmation / n_hits: 2
+cocitacao / periods / main / delta_share_AB: 0,032
+cocitacao / periods / main / post / N_A: 295
+cocitacao / periods / main / post / N_AB: 48
+cocitacao / periods / main / post / N_B: 318
+cocitacao / periods / main / post / N_union: 565
+cocitacao / periods / main / post / jaccard: 0,085
+cocitacao / periods / main / post / salton_cosine: 0,157
+cocitacao / periods / main / post / share_AB: 0,085
+cocitacao / periods / main / post_range / 0: 2.016
+cocitacao / periods / main / post_range / 1: 2.026
+cocitacao / periods / main / pre / N_A: 354
+cocitacao / periods / main / pre / N_AB: 29
+cocitacao / periods / main / pre / N_B: 218
+cocitacao / periods / main / pre / N_union: 543
+cocitacao / periods / main / pre / jaccard: 0,053
+cocitacao / periods / main / pre / salton_cosine: 0,104
+cocitacao / periods / main / pre / share_AB: 0,053
+cocitacao / periods / main / pre_range / 0: 2.003
+cocitacao / periods / main / pre_range / 1: 2.015
+cocitacao / periods / placebo_2011 / delta_share_AB: -0,001
+cocitacao / periods / placebo_2011 / post / N_A: 462
+cocitacao / periods / placebo_2011 / post / N_AB: 59
+cocitacao / periods / placebo_2011 / post / N_B: 450
+cocitacao / periods / placebo_2011 / post / N_union: 853
+cocitacao / periods / placebo_2011 / post / jaccard: 0,069
+cocitacao / periods / placebo_2011 / post / salton_cosine: 0,129
+cocitacao / periods / placebo_2011 / post / share_AB: 0,069
+cocitacao / periods / placebo_2011 / post_range / 0: 2.011
+cocitacao / periods / placebo_2011 / post_range / 1: 2.026
+cocitacao / periods / placebo_2011 / pre / N_A: 187
+cocitacao / periods / placebo_2011 / pre / N_AB: 18
+cocitacao / periods / placebo_2011 / pre / N_B: 86
+cocitacao / periods / placebo_2011 / pre / N_union: 255
+cocitacao / periods / placebo_2011 / pre / jaccard: 0,071
+cocitacao / periods / placebo_2011 / pre / salton_cosine: 0,142
+cocitacao / periods / placebo_2011 / pre / share_AB: 0,071
+cocitacao / periods / placebo_2011 / pre_range / 0: 2.003
+cocitacao / periods / placebo_2011 / pre_range / 1: 2.010
+cocitacao / periods / placebo_2020 / delta_share_AB: 0,011
+cocitacao / periods / placebo_2020 / post / N_A: 168
+cocitacao / periods / placebo_2020 / post / N_AB: 25
+cocitacao / periods / placebo_2020 / post / N_B: 180
+cocitacao / periods / placebo_2020 / post / N_union: 323
+cocitacao / periods / placebo_2020 / post / jaccard: 0,077
+cocitacao / periods / placebo_2020 / post / salton_cosine: 0,144
+cocitacao / periods / placebo_2020 / post / share_AB: 0,077
+cocitacao / periods / placebo_2020 / post_range / 0: 2.020
+cocitacao / periods / placebo_2020 / post_range / 1: 2.026
+cocitacao / periods / placebo_2020 / pre / N_A: 481
+cocitacao / periods / placebo_2020 / pre / N_AB: 52
+cocitacao / periods / placebo_2020 / pre / N_B: 356
+cocitacao / periods / placebo_2020 / pre / N_union: 785
+cocitacao / periods / placebo_2020 / pre / jaccard: 0,066
+cocitacao / periods / placebo_2020 / pre / salton_cosine: 0,126
+cocitacao / periods / placebo_2020 / pre / share_AB: 0,066
+cocitacao / periods / placebo_2020 / pre_range / 0: 2.003
+cocitacao / periods / placebo_2020 / pre_range / 1: 2.019
+cocitacao / periods / sensitivity / delta_share_AB: 0,029
+cocitacao / periods / sensitivity / post / N_A: 272
+cocitacao / periods / sensitivity / post / N_AB: 43
+cocitacao / periods / sensitivity / post / N_B: 292
+cocitacao / periods / sensitivity / post / N_union: 521
+cocitacao / periods / sensitivity / post / jaccard: 0,083
+cocitacao / periods / sensitivity / post / salton_cosine: 0,153
+cocitacao / periods / sensitivity / post / share_AB: 0,083
+cocitacao / periods / sensitivity / post_range / 0: 2.017
+cocitacao / periods / sensitivity / post_range / 1: 2.026
+cocitacao / periods / sensitivity / pre / N_A: 354
+cocitacao / periods / sensitivity / pre / N_AB: 29
+cocitacao / periods / sensitivity / pre / N_B: 218
+cocitacao / periods / sensitivity / pre / N_union: 543
+cocitacao / periods / sensitivity / pre / jaccard: 0,053
+cocitacao / periods / sensitivity / pre / salton_cosine: 0,104
+cocitacao / periods / sensitivity / pre / share_AB: 0,053
+cocitacao / periods / sensitivity / pre_range / 0: 2.003
+cocitacao / periods / sensitivity / pre_range / 1: 2.015
+cocitacao / tests / fisher_period_x_cocites_both / p_two_sided: 0,044
+cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 0 / 0: 29
+cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 0 / 1: 514
+cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 1 / 0: 48
+cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 1 / 1: 517
+cocitacao / tests / permutation_delta_share_AB_main / delta_observed: 0,032
+cocitacao / tests / permutation_delta_share_AB_main / n_perm: 10.000
+cocitacao / tests / permutation_delta_share_AB_main / p_value: 0,043
+cocitacao / tests / permutation_delta_share_AB_main / share_post_observed: 0,085
+cocitacao / tests / permutation_delta_share_AB_main / share_pre_observed: 0,053
 
 == audit_70 §taxa-base ==
 taxa_base / denominators / D_ind: 88
