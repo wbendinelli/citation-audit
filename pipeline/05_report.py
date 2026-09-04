@@ -67,12 +67,13 @@ for key in ("airline","grains"):
     leg="".join(f'<span class="lg"><i class="sw s-{ROLE[r][1]}"></i>{PT[r]} <b>{dist[r]}</b></span>' for r in order if dist.get(r))
     sections.append(f'''<section class="paper" id="{key}">
  <div class="p-head"><p class="eyebrow mono">{esc(venue)} \u00b7 {yr}</p><h2>{esc(title)}</h2>
- <p class="doi mono">{doi} \u2014 {total} cita\u00e7\u00f5es na uni\u00e3o de quatro fontes, <b>{n} com passagem recuperada</b></p></div>
+ <p class="doi mono">{doi} \u2014 {total} cita\u00e7\u00f5es na uni\u00e3o de quatro fontes, <b>{n} com evid\u00eancia verificada</b></p></div>
  <div class="bar">{bars}</div><div class="legend">{leg}</div>
  <div class="entries">{"".join(ents)}</div></section>''')
 
 TOT=sum(len(b["citing"]) for b in M.values())
 NCL=sum(1 for k,b in M.items() for r in b["citing"] if CL.get((r.get("doi") or "").lower()))
+NDOI=sum(1 for k,b in M.items() for r in b["citing"] if r.get("doi"))
 st=lambda k: status_tot.get(k,0)
 
 CSS = """
@@ -197,7 +198,7 @@ HTML=f"""<title>Quem Cita Bendinelli</title>
  que o <span class="mono">citation-explorer</span> do Paperclip aplica, extra\u00edda do c\u00f3digo-fonte da ferramenta.</p>
  <div class="kpis">
   <div class="kpi"><b>{TOT}</b><span>cita\u00e7\u00f5es mapeadas</span></div>
-  <div class="kpi"><b>{NCL}</b><span>com evid\u00eancia verificada</span></div>
+  <div class="kpi"><b>{100*NCL/NDOI:.0f}%</b><span>das {NDOI} com DOI, verificadas</span></div>
   <div class="kpi"><b>{kpi["reuse"]}</b><span>com reuso metodol\u00f3gico externo</span></div>
   <div class="kpi"><b>{kpi["self"]}</b><span>autocita\u00e7\u00e3o ou coautor</span></div>
   <div class="kpi hl"><b>{kpi["mis"]}</b><span>atribui\u00e7\u00f5es incorretas</span></div>

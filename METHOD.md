@@ -127,3 +127,16 @@ falha: são impacto que não mede alcance independente.
 Cada classificação em `data/classify.json` carrega um bloco `prov` com data, quem
 codificou, o hash SHA-256 da evidência, o tipo de evidência (passagem literal ou corpo
 completo sem menção), a URL ou arquivo de origem, e a versão do codebook.
+
+## Decisão de escopo: o denominador é "citações com DOI"
+
+O inventário tem 176 registros, mas 29 não têm DOI depositado — são teses,
+capítulos de livro, working papers e periódicos não indexados que só o Google
+Scholar lista. Eles ficam **no inventário** (documentam alcance, e vários são
+substantivos) mas **fora do denominador** das taxas de cobertura, porque não
+são necessariamente publicação revisada por pares e porque não há via
+sistemática de obtê-los.
+
+Toda taxa de cobertura neste estudo lê-se, portanto, sobre as **147 citações
+com DOI**. Reportar sobre as 176 subestimaria a cobertura por incluir material
+que nenhum método alcançaria.
