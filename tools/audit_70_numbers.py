@@ -26,7 +26,7 @@ Uso:
 
 Os arquivos de saída vivem sempre em <pasta do próprio script>/../reports/01-impacto/
 -- independente de --root. Isso deixa ler dados de um lugar (ex.: um repositório
-só de leitura) e gravar em outro (ex.: um scratchpad), o que é exatamente o caso
+só de leitura) e gravar em outro (ex.: um diretório de stage), o que é exatamente o caso
 de uso da fase de testes deste script: --root aponta pro repositório real, mas a
 gravação cai sempre ao lado do próprio tools/audit_70_numbers.py.
 """

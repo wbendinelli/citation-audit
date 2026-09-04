@@ -33,7 +33,7 @@ Uso:
 
 Os arquivos de saída vivem sempre em <pasta do próprio script>/../docs/assets/
 -- independente de --root. Isso deixa ler dados de um lugar (ex.: um
-repositório só de leitura) e gravar em outro (ex.: um scratchpad) -- mesma
+repositório só de leitura) e gravar em outro (ex.: um diretório de stage) -- mesma
 convenção de `tools/audit_70_numbers.py` (ver o cabeçalho de lá).
 """
 

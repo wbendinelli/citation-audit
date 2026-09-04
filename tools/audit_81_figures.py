@@ -31,14 +31,14 @@ Uso:
 Caminhos -- mesmo desenho de `tools/audit_70_numbers.py`: os arquivos de
 saída vivem sempre em `<pasta do próprio script>/../reports/01-impacto/
 figuras/`, independente de `--root`. Isso deixa ler dados de um repositório
-só-leitura (`--root` aponta pra lá) e gravar num scratchpad -- exatamente o
+só-leitura (`--root` aponta pra lá) e gravar num diretório de stage -- exatamente o
 caso de uso da fase de testes deste script. Quando ele for copiado para
 `tools/` do repositório real, `--root` default e a saída passam a resolver
 para o mesmo lugar sozinhos.
 
 `tools/sapians.py` é importado por caminho: primeiro tenta ao lado deste
 script (repo real, onde `sapians.py` mora em `tools/` junto dele); se não
-achar (rodando do scratchpad, onde só este arquivo foi copiado), cai para
+achar (rodando do diretório de stage, onde só este arquivo foi copiado), cai para
 `<root>/tools` -- `--root` aponta pro repositório real, que tem o módulo de
 verdade. Nenhum outro import do repositório (`auditlib.py` etc.):
 vocabulário fechado (ordens de categoria) é duplicado aqui, mesma razão que
@@ -102,7 +102,7 @@ def _carregar_sapians(root: Path):
     """Garante `SP` importado e aplicado (fontes + `sapians.mplstyle`).
 
     Primeiro tenta o import que já rodou no topo do módulo (repo real);
-    se falhou (rodando do scratchpad), insere `<root>/tools` em
+    se falhou (rodando do diretório de stage), insere `<root>/tools` em
     `sys.path` e tenta de novo -- `root` só é conhecido depois do
     argparse, por isso este passo não pode viver no topo do arquivo.
     """

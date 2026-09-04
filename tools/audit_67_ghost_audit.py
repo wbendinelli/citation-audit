@@ -45,9 +45,9 @@ CACHE_DIR = OUT_DATA / "cache" / "openalex"
 # Fallback documentado de --classify: data/classify.json do repositório real
 # ainda está no esquema v1 (role/flag) enquanto outro agente o migra para v2
 # nesta mesma sessão. O stage_c é uma pasta IRMà de stage_e (mesmo
-# scratchpad), então referenciamos por caminho relativo ao invés de um
+# diretório de stage), então referenciamos por caminho relativo ao invés de um
 # absoluto fixo — sobrevive a uma mudança de sessão, desde que a estrutura
-# stage_c/stage_e do scratchpad se mantenha.
+# stage_c/stage_e do diretório de stage se mantenha.
 STAGE_C_CLASSIFY_FALLBACK = SELF_ROOT.parent / "stage_c" / "data" / "classify.json"
 
 _JSON_KW = {"ensure_ascii": False, "indent": 1, "sort_keys": True}
