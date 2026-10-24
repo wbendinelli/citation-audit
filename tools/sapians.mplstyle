@@ -33,7 +33,8 @@ axes.spines.top: False
 axes.spines.right: False
 axes.spines.left: True
 axes.spines.bottom: True
-axes.prop_cycle: cycler('color', ['212322', '606060', '808080', 'B8B8B8', 'E5E5E5'])
+# A extensão analítica de vita_tokens.json colore apenas os dados.
+axes.prop_cycle: cycler('color', ['315B86', '2A817E', 'DBAD5B', 'A33F68', 'C7CDD1'])
 
 # Grid
 grid.color: F2F3F3
@@ -68,6 +69,7 @@ lines.linewidth: 1.6
 lines.solid_capstyle: round
 lines.markersize: 5
 scatter.edgecolors: none
+hatch.linewidth: 0.45
 
 # Typography
 font.family: sans-serif

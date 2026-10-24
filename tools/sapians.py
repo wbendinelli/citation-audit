@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Tema das figuras de citation-audit, alinhado ao design global VITA.
 
-Cores canônicas em tools/vita_tokens.json; Inter e JetBrains Mono são
+Tokens e extensão analítica local em tools/vita_tokens.json; Inter e JetBrains Mono são
 alternativas OFL para a publicação aberta. Optimistic VF não é redistribuída.
 As funções de formatação e dimensões preservam o contrato dos geradores.
 """
@@ -37,29 +37,30 @@ FONTES = [
 ]
 
 # ---------------------------------------------------------------------------
-# Tokens neutros do design global VITA, fotografados em vita_tokens.json.
-# Os nomes antigos são mantidos para compatibilidade com as figuras;
-# não representam mais cores cromáticas. Rótulos e marcadores carregam categoria.
+# Fundação neutra VITA e extensão cromática local para distinguir dados.
+# A paleta analítica não altera a paleta canônica da interface.
 # ---------------------------------------------------------------------------
 VITA = json.loads((AQUI / "vita_tokens.json").read_text(encoding="utf-8"))
 P = VITA["palette"]
+PD = VITA["data_visualization"]["categorical"]
 PAPEL = P["canvas"]
 ESCURO = P["ink"]
 CARTAO = P["composition"]
-TERRACOTA = P["ink"]  # destaque de dado é neutro; terracota só em ações reais
-AZUL = "#454545"
-AMBAR = P["control"]
-SAGE = "#909090"
+TERRACOTA = P["ink"]  # nome legado de destaque editorial; não codifica dado
+AZUL = PD["blue"]
+AMBAR = PD["ochre"]
+SAGE = PD["teal"]
+CRITICO = PD["critical"]
 CINZA = P["muted"]
-CINZA_CLARO = "#B8B8B8"
+CINZA_CLARO = PD["neutral"]
 LINHA = P["line"]
 GRADE = P["composition"]
 CODIGO = P["subtle"]
-CATEGORICA = [ESCURO, CINZA, AMBAR, CINZA_CLARO, P["selected"]]
-BINARIA = [CINZA, ESCURO]
+CATEGORICA = [AZUL, SAGE, AMBAR, CRITICO, CINZA_CLARO]
+BINARIA = [AZUL, AMBAR]
 SEQ_AZUL = VITA["data_series"]
 SEQ_TERRACOTA = SEQ_AZUL
-DIVERGENTE = [ESCURO, CINZA_CLARO, PAPEL, CINZA_CLARO, ESCURO]
+DIVERGENTE = [AZUL, PAPEL, CRITICO]
 CMAP_INTENSIDADE = LinearSegmentedColormap.from_list("vita_intensidade", SEQ_AZUL)
 CMAP_DIVERGENTE = LinearSegmentedColormap.from_list("vita_divergente", DIVERGENTE)
 
@@ -385,6 +386,7 @@ __all__ = [
     "CMAP_INTENSIDADE",
     "CODIGO",
     "CORES_ANO",
+    "CRITICO",
     "DIVERGENTE",
     "DPI",
     "ESCURO",

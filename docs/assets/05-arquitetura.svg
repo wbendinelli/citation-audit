@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc">
+<title id="title">Arquitetura da auditoria</title><desc id="desc">Fontes e textos alimentam a leitura e as análises. As medidas versionadas alimentam PDF, painel e README. Classificação e validação humana são etapas distintas.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#606060" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="1440" height="1040" rx="28" fill="#F2F3F3"/>
+<text x="56" y="56" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#606060" text-anchor="start" letter-spacing="2">ARQUITETURA DO REPOSITÓRIO</text>
+<text x="56" y="111" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="500" fill="#212322" text-anchor="start">Da fonte à publicação auditável</text>
+<text x="56" y="210" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">Aquisição</text>
+<rect x="56" y="240" width="416" height="300" rx="16" fill="#FFFFFF"/>
+<text x="80" y="284" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Fontes e inventário</text>
+<text x="80" y="332" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">OpenAlex · Semantic Scholar</text>
+<text x="80" y="365" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">OpenCitations · Europe PMC</text>
+<text x="80" y="398" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Scholar: listas manuais</text>
+<text x="80" y="431" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">União e deduplicação</text>
+<text x="80" y="470" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#212322" text-anchor="start">data/master.json</text>
+<text x="80" y="503" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start">Coleta e triagem · fase 10</text>
+<path d="M264.0,546 L264.0,562" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="56" y="570" width="416" height="300" rx="16" fill="#FFFFFF"/>
+<text x="80" y="614" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Evidência e contexto</text>
+<text x="80" y="662" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">PDF / HTML / XML → texto</text>
+<text x="80" y="695" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Portões de integridade</text>
+<text x="80" y="728" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Passagem literal localizada</text>
+<text x="80" y="761" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Periódico e quartil Scimago</text>
+<text x="80" y="800" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#212322" text-anchor="start">text/ · journals.json</text>
+<text x="80" y="833" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start">Fases 20–50 · fila de pendências</text>
+<path d="M477,720 H492 V390 H503" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="512" y="210" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">Interpretação</text>
+<rect x="512" y="240" width="416" height="300" rx="16" fill="#FFFFFF"/>
+<text x="536" y="284" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Leitura e classificação</text>
+<text x="536" y="332" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Passagem × artigo original</text>
+<text x="536" y="365" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Afirmações próprias e repasses</text>
+<text x="536" y="398" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Pacote cego → codificação</text>
+<text x="536" y="431" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Adjudicação documentada</text>
+<text x="536" y="470" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#212322" text-anchor="start">classify.json · claims/ · irr/</text>
+<text x="536" y="503" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start">Leitura e proveniência registradas</text>
+<path d="M720.0,546 L720.0,562" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="512" y="570" width="416" height="300" rx="16" fill="#FFFFFF"/>
+<text x="536" y="614" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Análises complementares</text>
+<text x="536" y="662" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Concordância entre leitores</text>
+<text x="536" y="695" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Referências auditadas → CD</text>
+<text x="536" y="728" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Co-citação antes e depois</text>
+<text x="536" y="761" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Fantasmas e taxas-base</text>
+<text x="536" y="800" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#212322" text-anchor="start">data/irr/ · cd/ · cocit/</text>
+<text x="536" y="833" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start">Scripts da fase 60</text>
+<path d="M933,720 H948 V390 H959" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="968" y="210" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">Publicação</text>
+<rect x="968" y="240" width="416" height="300" rx="16" fill="#FFFFFF"/>
+<text x="992" y="284" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Números com origem</text>
+<text x="992" y="332" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Contagens e estimativas</text>
+<text x="992" y="365" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Denominadores explícitos</text>
+<text x="992" y="398" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">audit_70_numbers.py</text>
+<text x="992" y="431" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">dados.json · numeros.txt</text>
+<text x="992" y="470" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#212322" text-anchor="start">reports/01-impacto/</text>
+<text x="992" y="503" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start">Fonte comum das entregas</text>
+<path d="M1176.0,546 L1176.0,562" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="968" y="570" width="416" height="300" rx="16" fill="#FFFFFF"/>
+<text x="992" y="614" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Publicação e consulta</text>
+<text x="992" y="662" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Relatório PDF · Typst</text>
+<text x="992" y="695" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Painel HTML · audit_80</text>
+<text x="992" y="728" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Figuras · audit_81</text>
+<text x="992" y="761" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">README · audit_82 / audit_83</text>
+<text x="992" y="800" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#212322" text-anchor="start">reports/ · docs/assets/</text>
+<text x="992" y="833" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start">Saídas geradas, sem totais manuais</text>
+<text x="56" y="950" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Etapas automáticas organizam a evidência. A classificação registra uma leitura;</text>
+<text x="56" y="982" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">a validação humana segue pendente. Invariantes, números e saídas são conferidos em CI.</text>
+</svg>

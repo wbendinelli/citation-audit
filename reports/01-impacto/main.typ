@@ -372,7 +372,7 @@ formação, porque o grafo de citações leva meses para registrar publicação 
 
 #figure(
   image("/reports/01-impacto/figuras/fig09_linha_do_tempo.png", width: 100%),
-  caption: [Citação de passagem domina os dois artigos em todos os anos; a citação de conteúdo aparece tarde no artigo de aviação e é rara no de grãos.#footnote[audit_70 §linha-do-tempo: `linha_do_tempo / airline` e `linha_do_tempo / grains`, séries `passagem`, `conteudo`, `fundo` e `fantasma`.]],
+  caption: [Citações breves ou de passagem predominam no conjunto da série. Categorias em faixas separadas, com a mesma escala, permitem reconhecer menções de conteúdo e registros só na bibliografia sem depender da cor.#footnote[audit_70 §linha-do-tempo: `linha_do_tempo / airline` e `linha_do_tempo / grains`, séries `passagem`, `conteudo`, `fundo` e `fantasma`.]],
 ) <fig-linha-do-tempo>
 
 = 4. Como cada artigo é citado

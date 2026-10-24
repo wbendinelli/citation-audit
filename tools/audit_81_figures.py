@@ -50,10 +50,11 @@ Regras de desenho (aplicadas nas 14 funções abaixo, conferidas por
 achado -- um `ax.set_title` neutro só com o nome do artigo, pra distinguir
 painéis sem cor, não conta como título); sem eixo twin; barras sempre do
 zero; sem grade vertical; no máximo 5 cores distintas por figura; os dois
-artigos (`airline`, `grains`) são separados por PAINEL, nunca por cor. O design VITA usa apenas neutros nos dados: intensidade ordinal, posição,
-rótulos diretos e marcadores distinguem categorias. Terracota é reservado
-a botões de ação e não aparece em figuras estáticas. O tema está em
-`vita_tokens.json`; a tipografia de distribuição aberta é Inter OFL.
+artigos (`airline`, `grains`) são separados por PAINEL, nunca por cor.
+A fundação VITA permanece neutra; a extensão analítica local usa cores,
+padrões, rótulos e formas para distinguir dados. Rampas codificam ordem
+ou magnitude, nunca categorias nominais. Terracota continua reservado
+a botões de ação. Tokens em `vita_tokens.json`; tipografia Inter OFL.
 """
 
 from __future__ import annotations
@@ -184,10 +185,10 @@ ROLE_V2_LABEL = {
 QUARTIL_ORDER = ["Q1", "Q2", "Q3", "Q4"]
 QUARTIL_ORDER_COMPLETO = ["Q1", "Q2", "Q3", "Q4", "fora_do_scimago", "sem_metrica"]
 TIMELINE_LABEL = {
-    "fundo": "fundo (sustenta/fundacional)",
-    "conteudo": "conteúdo (menção real)",
-    "passagem": "de passagem (breve/drive-by)",
-    "fantasma": "fantasma (só bibliografia)",
+    "fundo": "Sustenta / fundacional",
+    "conteudo": "Menção real",
+    "passagem": "Breve / de passagem",
+    "fantasma": "Só bibliografia",
 }
 SEG_LABEL_COBERTURA = {
     "trecho": "trecho localizado",
@@ -260,26 +261,30 @@ def _saida(nome):
 def _escada_azul(fracas_para_fortes):
     """dict {categoria: cor} numa rampa de azul, clara=fraca, escura=forte.
 
-    Mesma técnica em fig03 (quartil), fig05 (profundidade) e fig09 (classe
-    de tempo) -- três escadas ordinais DIFERENTES, nunca a mesma cor
-    concreta carregando dois significados (cada figura tem sua própria
-    rampa, calculada aqui a partir do próprio conjunto de categorias).
+    Reservada a quartil e profundidade, cujas categorias têm ordem.
+    Classes da linha do tempo e variantes do CD usam cores qualitativas.
     """
     tons = SP.rampa(len(fracas_para_fortes))
     return dict(zip(fracas_para_fortes, tons))
 
 
-def _texto_contraste(cor_hex, *, continuo=False):
-    """PAPEL (texto claro) ou ESCURO (texto escuro) pra contrastar com
-    `cor_hex`. A paleta fixa das barras empilhadas (fig02/fig06) usa uma
-    tabela cega -- terracota fica bem no meio da luminância perceptual e
-    uma fórmula genérica erraria o lado; `continuo=True` (células do
-    heatmap de fig08, cores fora da paleta fixa) cai pra luminância, que é
-    a escolha certa quando o valor não é um dos 5 tons fixos do relatório.
-    """
-    r, g, b = mcolors.to_rgb(cor_hex)
-    luminancia = 0.299 * r + 0.587 * g + 0.114 * b
-    return SP.ESCURO if luminancia >= 0.5 else SP.PAPEL
+def _texto_contraste(cor_hex):
+    """Escolhe tinta ou papel pela maior razão de contraste em sRGB linear."""
+
+    def luminancia(cor):
+        canais = [
+            c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4
+            for c in mcolors.to_rgb(cor)
+        ]
+        return sum(c * peso for c, peso in zip(canais, (0.2126, 0.7152, 0.0722)))
+
+    fundo = luminancia(cor_hex)
+
+    def contraste(texto):
+        frente = luminancia(texto)
+        return (max(fundo, frente) + 0.05) / (min(fundo, frente) + 0.05)
+
+    return max((SP.ESCURO, SP.PAPEL), key=contraste)
 
 
 def _rotulo_painel(ax, texto):
@@ -559,19 +564,22 @@ def fig02_cobertura_quartil(D):
     fig, ax = plt.subplots(figsize=SP.FAIXA)
     y = np.arange(len(linhas))
     segmentos = [
-        ("trecho", SP.AZUL),
-        ("fantasma", SP.CINZA),
-        ("aresta_falsa", SP.TERRACOTA),
-        ("pendente", SP.CINZA_CLARO),
+        ("trecho", SP.AZUL, ""),
+        ("fantasma", SP.CINZA_CLARO, "///"),
+        ("aresta_falsa", SP.CRITICO, "//"),
+        ("pendente", SP.PAPEL, ".."),
     ]
     esquerda = np.zeros(len(linhas))
-    for chave, cor in segmentos:
+    for chave, cor, padrao in segmentos:
         valores = np.array([cq[linha][chave] for linha in linhas], dtype=float)
         ax.barh(
             y,
             valores,
             left=esquerda,
             color=cor,
+            hatch=padrao,
+            edgecolor=SP.PAPEL if chave in ("trecho", "aresta_falsa") else SP.CINZA,
+            linewidth=0.4,
             height=0.6,
             label=SEG_LABEL_COBERTURA[chave],
         )
@@ -586,6 +594,7 @@ def fig02_cobertura_quartil(D):
                     va="center",
                     fontsize=7.4,
                     color=cor_texto,
+                    bbox={"facecolor": cor, "edgecolor": "none", "pad": 0.4},
                 )
         esquerda += valores
     for yi, linha in zip(y, linhas):
@@ -713,23 +722,19 @@ def fig06_postura_acuracia(D):
     acurácia por artigo (accurate / imprecise / misrepresented). Bloco
     `eixos.{airline,grains}.{stance,accuracy}` (`audit_70 §eixos`).
 
-    Dentro de cada eixo as categorias são ordenadas por "normalidade":
-    cinza-escuro para a maioria esperada (apoia / precisa), cinza-claro
-    para a intermediária (neutra / imprecisa), terracota só para a
-    categoria adversa isolada (contrapõe / interpretada errado) -- mesmo
-    princípio de destaque único que `aresta_falsa` usa em fig02, agora
-    aplicado à postura contraditória além do "misrepresented" que a
-    tarefa deu como exemplo.
+    Azul para apoio/precisão; neutro para ausência de postura, ocre para
+    imprecisão e magenta para contraposição/erro. Padrões e percentuais
+    permitem reconhecer segmentos também sem cor.
     """
     cor_stance = {
-        "supporting": SP.CINZA,
+        "supporting": SP.AZUL,
         "none": SP.CINZA_CLARO,
-        "contradictory": SP.TERRACOTA,
+        "contradictory": SP.CRITICO,
     }
     cor_accuracy = {
-        "accurate": SP.CINZA,
-        "imprecise": SP.CINZA_CLARO,
-        "misrepresented": SP.TERRACOTA,
+        "accurate": SP.AZUL,
+        "imprecise": SP.AMBAR,
+        "misrepresented": SP.CRITICO,
     }
     fig, (ax_postura, ax_acuracia) = plt.subplots(1, 2, figsize=(12.0, 5.0))
     especificacao = (
@@ -746,7 +751,7 @@ def fig06_postura_acuracia(D):
     y = np.arange(len(PAPERS))
     for ax, eixo, ordem, cores, rotulos, nome_eixo in especificacao:
         esquerda = np.zeros(len(PAPERS))
-        for chave in ordem:
+        for chave, padrao in zip(ordem, ("", ".", "//")):
             fracoes = np.array(
                 [D["eixos"][paper][eixo][chave]["valor"] for paper in PAPERS]
             )
@@ -755,6 +760,9 @@ def fig06_postura_acuracia(D):
                 fracoes * 100,
                 left=esquerda * 100,
                 color=cores[chave],
+                hatch=padrao,
+                edgecolor=SP.CINZA if chave == "none" else SP.PAPEL,
+                linewidth=0.4,
                 height=0.5,
                 label=rotulos[chave],
             )
@@ -769,6 +777,11 @@ def fig06_postura_acuracia(D):
                         va="center",
                         fontsize=7.6,
                         color=cor_texto,
+                        bbox={
+                            "facecolor": cores[chave],
+                            "edgecolor": "none",
+                            "pad": 0.4,
+                        },
                     )
             esquerda += fracoes
         ax.set_yticks(y)
@@ -845,12 +858,18 @@ def fig08_profundidade_quartil(D):
         [ROLE_V2_LABEL[c] for c in colunas], rotation=28, ha="right", fontsize=7.6
     )
     ax.set_yticks(range(len(linhas)))
-    ax.set_yticklabels(linhas, fontsize=8.5)
+    ax.set_yticklabels(
+        [
+            {"fora_do_scimago": "Fora do Scimago", "sem_metrica": "Sem métrica"}.get(
+                q, q
+            )
+            for q in linhas
+        ],
+        fontsize=8.5,
+    )
     for i in range(len(linhas)):
         for j in range(len(colunas)):
             v = dados_m[i, j]
-            if v <= 0:
-                continue
             cor_cel = mcolors.to_hex(SP.CMAP_INTENSIDADE(v / vmax if vmax else 0.0))
             ax.text(
                 j,
@@ -859,7 +878,7 @@ def fig08_profundidade_quartil(D):
                 ha="center",
                 va="center",
                 fontsize=7.8,
-                color=_texto_contraste(cor_cel, continuo=True),
+                color=_texto_contraste(cor_cel),
             )
     SP.sem_grade(ax)
     ax.set_xticks(np.arange(-0.5, len(colunas), 1), minor=True)
@@ -874,45 +893,80 @@ def fig08_profundidade_quartil(D):
 
 @_saida("fig09_linha_do_tempo.png")
 def fig09_linha_do_tempo(D):
-    """Citações por ano por artigo, dois painéis empilhados, barras
-    empilhadas por classe de tempo. Bloco `linha_do_tempo` (`audit_70
-    §linha-do-tempo`): `fundo` = supporting+foundational, `conteudo` =
-    real_mention, `passagem` = drive_by+brief_mention (mesma escada de
-    profundidade de fig05, agora em 3 baldes), `fantasma` =
-    reference_list_only -- mesmo cinza-médio de "fantasma" em fig02
-    (uma cor, um significado, no relatório inteiro).
+    """Categorias em faixas alinhadas, artigos em colunas, escala comum.
+
+    Bloco `linha_do_tempo` (`audit_70 §linha-do-tempo`): `fundo` =
+    supporting+foundational; `conteudo` = real_mention; `passagem` =
+    drive_by+brief_mention; `fantasma` = reference_list_only. A posição e
+    o rótulo direto identificam a categoria mesmo em impressão monocromática.
     """
-    cores = _escada_azul(["passagem", "conteudo", "fundo"])
-    cores["fantasma"] = SP.CINZA
-    ordem_pilha = ["fundo", "conteudo", "passagem", "fantasma"]
-    fig, eixos = plt.subplots(2, 1, figsize=SP.PAINEL)
-    for idx, (ax, paper) in enumerate(zip(eixos, PAPERS)):
+    cores = {
+        "fundo": SP.AZUL,
+        "conteudo": SP.SAGE,
+        "passagem": SP.AMBAR,
+        "fantasma": SP.CINZA_CLARO,
+    }
+    ordem = ["fundo", "conteudo", "passagem", "fantasma"]
+    maximo = max(
+        ano.get(classe, 0)
+        for paper in PAPERS
+        for ano in D["linha_do_tempo"][paper].values()
+        for classe in ordem
+    )
+    fig, eixos = plt.subplots(4, 2, figsize=SP.PAINEL, sharex="col", sharey=True)
+    for coluna, paper in enumerate(PAPERS):
         bloco = D["linha_do_tempo"][paper]
-        anos = sorted(bloco.keys())
+        anos = sorted(bloco)
         x = np.arange(len(anos))
-        esquerda = np.zeros(len(anos))
-        for classe in ordem_pilha:
-            valores = np.array([bloco[a].get(classe, 0) for a in anos], dtype=float)
+        for linha, classe in enumerate(ordem):
+            ax = eixos[linha, coluna]
+            valores = [bloco[a].get(classe, 0) for a in anos]
             ax.bar(
                 x,
                 valores,
-                bottom=esquerda,
                 color=cores[classe],
-                width=0.66,
-                label=TIMELINE_LABEL[classe],
+                width=0.6,
+                edgecolor=SP.CINZA if classe == "fantasma" else cores[classe],
+                linewidth=0.4,
             )
-            esquerda += valores
-        ax.set_xticks(x)
-        ax.set_xticklabels(anos, fontsize=7.6)
-        # o painel de cima carrega a legenda (só uma vez, vale pros dois);
-        # 1.45 (contra 1.18 no painel sem legenda) abre uma faixa de teto
-        # que nenhuma barra alcança, pra legenda nunca poder cobrir dado.
-        teto = 1.45 if idx == 0 else 1.18
-        ax.set_ylim(0, esquerda.max() * teto if len(esquerda) else 1)
-        ax.set_ylabel("citações (n)")
-        _rotulo_painel(ax, PAPER_LABEL[paper])
-        if idx == 0:
-            ax.legend(loc="upper left", ncol=4, fontsize=7.2, frameon=False)
+            ax.text(
+                0,
+                0.94,
+                TIMELINE_LABEL[classe],
+                transform=ax.transAxes,
+                ha="left",
+                va="top",
+                fontsize=10.5,
+                fontweight="medium",
+                color=SP.ESCURO,
+            )
+            for xi, valor in zip(x, valores):
+                if valor:
+                    ax.text(
+                        xi,
+                        valor + maximo * 0.025,
+                        SP.pt_int(valor),
+                        ha="center",
+                        va="bottom",
+                        fontsize=9,
+                        color=SP.ESCURO,
+                    )
+            ax.set_ylim(0, maximo * 1.6 if maximo else 1)
+            ax.set_yticks([0, maximo / 2, maximo])
+            ax.set_xticks(x)
+            ax.set_xticklabels(anos, fontsize=8.5)
+            ax.spines["left"].set_visible(False)
+            ax.tick_params(axis="y", length=0, labelleft=True)
+            if linha == 0:
+                ax.set_title(
+                    "Aviação · airline" if paper == "airline" else "Grãos · grains",
+                    loc="left",
+                    fontsize=11,
+                    fontweight="medium",
+                )
+            if linha == len(ordem) - 1:
+                ax.set_xlabel("ano da citação")
+    fig.supylabel("citações por ano (n)", fontsize=9)
     return fig
 
 
@@ -954,6 +1008,9 @@ def fig10_alegacoes(D):
                 y[relayed],
                 valores[relayed],
                 color=SP.AMBAR,
+                hatch="//",
+                edgecolor=SP.PAPEL,
+                linewidth=0.4,
                 height=0.62,
                 label="relayed (repassada de outra fonte)",
             )
@@ -1159,7 +1216,7 @@ CD_SERIE_LABEL = {
     "DI5": "DI5",
     "holst": "holst",
 }
-CD_SERIE_MARCADOR = {"CD": "o", "CD_nok": "o", "DI5": "o", "holst": "^"}
+CD_SERIE_MARCADOR = {"CD": "o", "CD_nok": "s", "DI5": "D", "holst": "^"}
 CD_SERIE_OFFSET = {"DI5": -0.27, "CD_nok": -0.09, "CD": 0.09, "holst": 0.27}
 
 
@@ -1205,10 +1262,7 @@ def _painel_cd_real(ax, bloco_paper, *, mostrar_legenda=True):
     janelas = cd_index["windows"]
     ts = sorted(janelas.keys(), key=int)
     x = np.arange(len(ts))
-    cores = _escada_azul(["DI5", "CD_nok", "CD"])  # claro=DI5 -> escuro=CD
-    cores["holst"] = (
-        SP.CINZA
-    )  # variante de robustez, não anomalia -- ver docstring do módulo
+    cores = {"DI5": SP.AMBAR, "CD_nok": SP.SAGE, "CD": SP.AZUL, "holst": SP.CINZA}
 
     ax.axhline(0, color=SP.LINHA, linestyle=(0, (4, 3)), linewidth=1.0, zorder=1)
 
@@ -1536,7 +1590,7 @@ def _cores_da_figura(fig):
     (`ax.collections`). `ax.images` (o heatmap de fig08, `imshow`) fica de
     fora de propósito -- é uma rampa contínua, não uma escolha categórica
     de cor, e a regra "no máximo 5 cores" é sobre codificação categórica
-    (a mesma razão pela qual a rampa de azul de fig03/fig05/fig09 conta
+    (a mesma razão pela qual a rampa de azul de fig03/fig05 conta
     como N cores discretas, não como "1 rampa" -- aqui o heatmap é
     exatamente o caso oposto: cor contínua codificando magnitude, não
     categoria). Eixos/grade/texto/legenda também ficam de fora: são

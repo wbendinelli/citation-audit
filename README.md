@@ -14,7 +14,7 @@ registra a evidência de cada julgamento.
 [Relatório completo](reports/01-impacto/relatorio-impacto.pdf) ·
 [Painel de consulta](reports/01-impacto/index.html) ·
 [Revisão da atualização](reports/01-impacto/revisao-atualizacao.md) ·
-[Método](METHOD.md) · [Reproduzir](#5--reproduzir)
+[Método](METHOD.md) · [Arquitetura e reprodução](#5--arquitetura-e-reprodução)
 
 ## §1 — O que este repositório mede
 
@@ -113,12 +113,13 @@ registra o contexto dos indicadores e suas ressalvas.
 | [Fila de pendências](data/derived/pendencias.csv) | Ver quais citações ainda precisam de acesso ou classificação |
 
 A apresentação segue a base global **VITA**: branco, superfícies cinza, preto
-SAPIANS, hierarquia simples e números legíveis. Rótulos e marcadores distinguem
-séries; terracota fica reservado às ações reais. As fontes locais sob OFL mantêm
-a reprodução aberta. A adaptação está documentada em
+SAPIANS, hierarquia simples e números legíveis. Nas figuras de medida, uma paleta
+analítica distingue categorias; padrões, contagens e formas de marcador
+permitem acompanhar a leitura também em cinza. Terracota fica reservado às ações
+reais. As fontes locais sob OFL mantêm a reprodução aberta. A adaptação está documentada em
 [Design VITA](docs/design-vita.md).
 
-## §5 — Reproduzir
+## §5 — Arquitetura e reprodução
 
 A cadeia de geração é explícita. Uma mudança nos dados percorre as mesmas fases
 até chegar à figura e ao número impresso.
@@ -128,6 +129,45 @@ até chegar à figura e ao número impresso.
   <source media="(max-width: 600px)" srcset="docs/assets/01-pipeline-mobile.svg">
   <img src="docs/assets/01-pipeline.svg" alt="Pipeline implementado: coleta, texto, integridade, periódicos, pendências, análises, números e saídas.">
 </picture>
+
+### Como as partes se conectam
+
+A implementação separa aquisição de evidência, leitura e publicação. O inventário
+registra de onde veio cada citação e se seu texto está disponível; a classificação
+preserva o julgamento e a passagem que o sustenta. Análises complementares
+produzem seus próprios artefatos, e a consolidação gera uma fonte comum de medidas.
+
+<!-- Layout: audit_70 §constantes, readme_mobile_breakpoint_px. -->
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/05-arquitetura-mobile.svg">
+  <img src="docs/assets/05-arquitetura.svg" alt="Arquitetura implementada: fontes e inventário, evidência e periódicos, leitura e teste cego, análises, consolidação dos números e geração das entregas.">
+</picture>
+
+| Camada | Implementação e artefatos |
+|---|---|
+| Fontes e identidade | `audit_10` reúne OpenAlex, Semantic Scholar, OpenCitations e Europe PMC; `audit_12` incorpora as listas manuais do Scholar. Triagem e resolução completam metadados. O inventário é [master.json](data/master.json), com IDs e proveniência preservados. |
+| Evidência e contexto | `audit_20`–`audit_22` recuperam textos; `audit_30`–`audit_32` verificam o documento e a passagem. `audit_40`/`audit_41` enriquecem periódicos e quartis; `audit_50` gera as filas. Texto incompleto continua pendente. |
+| Leitura e afirmações | A passagem citante é confrontada com o artigo-fonte e o [registro de afirmações](data/claims/README.md). O julgamento fica em [classify.json](data/classify.json), com eixos, origem e evidência; recuperar texto não produz uma classificação automaticamente. |
+| Teste cego e decisão | `audit_61` monta o pacote sem identidade nem rótulos; codificadores trabalham em contextos separados. `audit_62` mede concordância, e `audit_63_adjudicate` registra a adjudicação. Pacotes, rótulos e decisões ficam em [data/irr/](data/irr/README.md). |
+| Análises complementares | `audit_64` audita referências; `audit_65` calcula disrupção; `audit_66` mede co-citação; `audit_67` verifica fantasmas; `audit_68` organiza taxas-base. Os clientes de grafo preservam snapshots e a cobertura é explicitada. |
+| Consolidação e entregas | `audit_70` gera `dados.json` e `numeros.txt`. `audit_80` produz o painel; `audit_81`, as figuras; `audit_82`, os SVGs; `audit_83`, a revisão e os achados do README. Typst compila o relatório com as mesmas medidas e figuras. |
+
+**Como a leitura foi feita.** A classificação original foi confrontada com
+codificações de Claude Opus e Claude Sonnet sobre o pacote cego. Discordâncias
+foram adjudicadas, com justificativas registradas. Isso mede concordância entre
+modelos; a validação das afirmações pelo autor e a codificação humana continuam
+pendentes. O desenho, as decisões e seus limites estão em
+[METHOD.md](METHOD.md); a leitura adicional da atualização fica separada da
+coorte original do teste cego.
+
+**O que é gerado e o que é julgamento.** Inventários, filas, agregados e saídas
+são derivados por scripts. Passagens, classificações e decisões de leitura são
+evidência versionada, não totais recalculados. `check_data` verifica as
+invariantes; `check_numbers` confere a prosa; os modos `--check` detectam saídas
+desatualizadas. O CI exige consistência entre essas camadas.
+
+O [guia dos scripts](tools/README.md#scripts) detalha entradas, saídas e ordem
+de execução de cada etapa.
 
 ### Preparar o ambiente
 

@@ -14,6 +14,8 @@ citado aqui ficaria órfão no dia seguinte.
 - Auditorias de fantasmas, taxas-base, disrupção e co-citação refeitas; números e saídas regenerados. Rótulos de denominador passam a usar o tamanho real da coorte.
 - Corrigida exportação dos blocos de sensibilidade e cruzamento do CD; data de relatório acompanha o snapshot, evitando deriva diária no CI.
 - Figuras de medida, diagramas do README, painel HTML e composição do PDF atualizados para os tokens neutros do design global VITA. Fontes OFL locais preservam a reprodução aberta.
+- Figuras de medida recebem extensão cromática analítica documentada: séries nominais deixam de usar cinzas próximos, linha do tempo separa categorias em faixas com nomes diretos e escala comum, barras empilhadas ganham padrões, variantes do CD têm formas distintas e o mapa de calor explicita zeros. Fundação visual VITA e dados preservados.
+- README recupera a arquitetura implementada, com mapa responsivo das camadas, vínculo entre scripts e artefatos e explicação da leitura, teste cego, adjudicação e limites da validação humana.
 - Diagramas do README refeitos para ensinar uma ideia por figura, com perguntas em português e versões para celular. O funil começa no inventário reunido e separa descoberta de cortes aninhados; campos auxiliares deixam de parecer eixos da taxonomia.
 - README reescrito integralmente com capa editorial VITA, navegação para entregas, método em tabela e reprodução organizada; capa e medidas são geradas por script.
 - Casamento Scimago passa a priorizar ISSN-L e ordenar os demais ISSNs, eliminando oscilação de quartil causada pela ordem aleatória de um conjunto.
