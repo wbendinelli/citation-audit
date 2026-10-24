@@ -55,7 +55,7 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | `audit_80_report_html.py` | 80 | `data/master.json`, `data/classify.json`, `reports/01-impacto/dados.json` | `reports/01-impacto/index.html` | sim⁵ |
 | `audit_81_figures.py` | 81 | Catorze figuras de medida em `reports/01-impacto/figuras/` lendo só `dados.json`, via `sapians.mplstyle` e fontes vendorizadas; `--check` compara bytes e afirma regras da casa (barras do zero, sem `twinx`, ≤5 cores). Roda no venv pinado (`.venv/bin/python`) |
 | `audit_83_review.py` | 83 | `dados.json` e snapshots de grafo | revisão da atualização + achados do README | sim |
-| `audit_82_readme_svgs.py` | 82 | Capa VITA e capa VITA e diagramas didáticos em `docs/assets/` (pipeline, funil, taxonomia, portões); só o funil lê números, do `dados.json`; `--check` compara bytes |
+| `audit_82_readme_svgs.py` | 82 | Capa VITA, diagramas didáticos e arquitetura implementada em `docs/assets/`, com versões para celular; capa e funil leem números de `dados.json`; `--check` compara bytes |
 
 `--check` nunca escreve: renderiza/computa em memória e compara com o que já
 está commitado, saindo com código 1 se houver diferença.

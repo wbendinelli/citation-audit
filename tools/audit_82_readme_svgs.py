@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Capa VITA e diagramas didáticos do README, com versões para celular.
 
-Cada diagrama explica uma ideia. Detalhes de implementação ficam em tools/README.md.
+Cada diagrama explica uma ideia. A arquitetura liga etapas, artefatos e saídas;
+o contrato operacional completo fica em tools/README.md.
 Somente capa e funil exibem medidas; todas vêm de dados.json, gerado por audit_70.
 --check regenera em memória e compara as saídas sem escrever.
 """
@@ -519,6 +520,159 @@ def build_portoes_svg(mobile=False):
     return finish(out)
 
 
+def build_arquitetura_svg(mobile=False):
+    """Mapa da implementação, complementar ao percurso conceitual do pipeline."""
+    out = start(
+        "Arquitetura da auditoria",
+        "Fontes e textos alimentam a leitura e as análises. As medidas versionadas alimentam PDF, painel e README. Classificação e validação humana são etapas distintas.",
+        640 if mobile else 1440,
+        2460 if mobile else 1040,
+    )
+    heading(
+        out,
+        "ARQUITETURA DO REPOSITÓRIO",
+        ["Da fonte à", "publicação auditável"]
+        if mobile
+        else ["Da fonte à publicação auditável"],
+        mobile,
+    )
+    grupos = [
+        (
+            "Aquisição",
+            [
+                (
+                    "Fontes e inventário",
+                    [
+                        "OpenAlex · Semantic Scholar",
+                        "OpenCitations · Europe PMC",
+                        "Scholar: listas manuais",
+                        "União e deduplicação",
+                    ],
+                    "data/master.json",
+                    "Coleta e triagem · fase 10",
+                ),
+                (
+                    "Evidência e contexto",
+                    [
+                        "PDF / HTML / XML → texto",
+                        "Portões de integridade",
+                        "Passagem literal localizada",
+                        "Periódico e quartil Scimago",
+                    ],
+                    "text/ · journals.json",
+                    "Fases 20–50 · fila de pendências",
+                ),
+            ],
+        ),
+        (
+            "Interpretação",
+            [
+                (
+                    "Leitura e classificação",
+                    [
+                        "Passagem × artigo original",
+                        "Afirmações próprias e repasses",
+                        "Pacote cego → codificação",
+                        "Adjudicação documentada",
+                    ],
+                    "classify.json · claims/ · irr/",
+                    "Leitura e proveniência registradas",
+                ),
+                (
+                    "Análises complementares",
+                    [
+                        "Concordância entre leitores",
+                        "Referências auditadas → CD",
+                        "Co-citação antes e depois",
+                        "Fantasmas e taxas-base",
+                    ],
+                    "data/irr/ · cd/ · cocit/",
+                    "Scripts da fase 60",
+                ),
+            ],
+        ),
+        (
+            "Publicação",
+            [
+                (
+                    "Números com origem",
+                    [
+                        "Contagens e estimativas",
+                        "Denominadores explícitos",
+                        "audit_70_numbers.py",
+                        "dados.json · numeros.txt",
+                    ],
+                    "reports/01-impacto/",
+                    "Fonte comum das entregas",
+                ),
+                (
+                    "Publicação e consulta",
+                    [
+                        "Relatório PDF · Typst",
+                        "Painel HTML · audit_80",
+                        "Figuras · audit_81",
+                        "README · audit_82 / audit_83",
+                    ],
+                    "reports/ · docs/assets/",
+                    "Saídas geradas, sem totais manuais",
+                ),
+            ],
+        ),
+    ]
+    for i, (nome, cards) in enumerate(grupos):
+        x, base, largura = (
+            (40, 234 + i * 690, 560) if mobile else (56 + i * 456, 210, 416)
+        )
+        out.append(T(x, base, nome, size=29, weight=500))
+        for j, (titulo, corpo, arquivo, rodape) in enumerate(cards):
+            y = base + 30 + j * (310 if mobile else 330)
+            out.extend(
+                [
+                    rect(x, y, largura, 280 if mobile else 300, CARD, rx=16),
+                    T(x + 24, y + 44, titulo, size=25, weight=500),
+                    lines(x + 24, y + 92, corpo, size=22, leading=33),
+                    T(x + 24, y + 230, arquivo, size=19, weight=500),
+                    T(x + 24, y + 263, rodape, size=18, fill=GRAY),
+                ]
+            )
+            if j == 0:
+                out.append(
+                    arrow(
+                        x + largura / 2,
+                        y + (286 if mobile else 306),
+                        x + largura / 2,
+                        y + (302 if mobile else 322),
+                    )
+                )
+        if i < len(grupos) - 1:
+            out.append(
+                arrow(320, base + 624, 320, base + 654)
+                if mobile
+                else f'<path d="M{x + largura + 5},{base + 510} '
+                f'H{x + largura + 20} V{base + 180} H{x + largura + 31}" '
+                f'fill="none" stroke="{GRAY}" stroke-width="2" marker-end="url(#arrow)"/>'
+            )
+    out.append(
+        lines(
+            40 if mobile else 56,
+            2340 if mobile else 950,
+            [
+                "Etapas automáticas organizam a evidência.",
+                "A classificação registra uma leitura;",
+                "a validação humana segue pendente.",
+            ]
+            if mobile
+            else [
+                "Etapas automáticas organizam a evidência. A classificação registra uma leitura;",
+                "a validação humana segue pendente. Invariantes, números e saídas são conferidos em CI.",
+            ],
+            size=22,
+            leading=32,
+        )
+    )
+    return finish(out)
+
+
 def render_all(dados):
     outputs = {
         "00-capa.svg": build_capa_svg(dados),
@@ -529,6 +683,7 @@ def render_all(dados):
         "02-funil": lambda mobile: build_funil_svg(dados, mobile),
         "03-taxonomia": build_taxonomia_svg,
         "04-portoes": build_portoes_svg,
+        "05-arquitetura": build_arquitetura_svg,
     }
     for name, fn in builders.items():
         outputs[f"{name}.svg"] = fn(False)

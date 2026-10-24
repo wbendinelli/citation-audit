@@ -22,12 +22,23 @@
     "reason": "Optimistic VF não é redistribuída neste repositório aberto; Inter OFL permanece vendorizada."
   },
   "data_series": [
-    "#E5E5E5",
-    "#B8B8B8",
-    "#909090",
-    "#606060",
-    "#212322"
+    "#EFF5FA",
+    "#C3DBEB",
+    "#82B2D2",
+    "#427FA9",
+    "#234D70"
   ],
+  "data_visualization": {
+    "scope": "Extensão analítica local; não integra a paleta canônica da interface VITA. Cor codifica dados, mantendo superfícies e tipografia neutras.",
+    "categorical": {
+      "blue": "#315B86",
+      "teal": "#2A817E",
+      "ochre": "#DBAD5B",
+      "critical": "#A33F68",
+      "neutral": "#C7CDD1"
+    },
+    "redundancy": "A linha do tempo separa categorias em faixas com rótulos diretos e escala comum. Barras empilhadas recebem padrões e contagens ou percentuais; séries pontuais recebem formas distintas. Rampas são reservadas a magnitude ou ordem."
+  },
   "rules": {
     "accent": "Terracota only on button backgrounds and their borders; white foreground. Neutral links, tables, badges, numbers, focus and decorative icons. Character copper is an independent material palette.",
     "material": "Flat surfaces, no glow or glossy controls.",
