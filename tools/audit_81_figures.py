@@ -50,16 +50,10 @@ Regras de desenho (aplicadas nas 14 funções abaixo, conferidas por
 achado -- um `ax.set_title` neutro só com o nome do artigo, pra distinguir
 painéis sem cor, não conta como título); sem eixo twin; barras sempre do
 zero; sem grade vertical; no máximo 5 cores distintas por figura; os dois
-artigos (`airline`, `grains`) são separados por PAINEL, nunca por cor. Cor
-carrega UM significado no relatório inteiro: rampa de azul = escada
-ordinal (profundidade em fig05/fig09; quartil em fig03 -- é a mesma
-TÉCNICA -- claro fraco, escuro forte -- aplicada a duas escadas diferentes,
-nunca a mesma cor concreta com dois significados); terracota = anomalia ou
-destaque único (`misrepresented`, `aresta_falsa`, e por extensão do mesmo
-princípio `contradictory` em fig06 -- a única categoria adversa dentro de
-um eixo por outro lado normal); âmbar = valor da LITERATURA (taxa
-publicada); sage não é usado neste lote de figuras (reservado para reuso/
-adoção de método -- nenhuma das 14 é sobre isso); cinza = o resto.
+artigos (`airline`, `grains`) são separados por PAINEL, nunca por cor. O design VITA usa apenas neutros nos dados: intensidade ordinal, posição,
+rótulos diretos e marcadores distinguem categorias. Terracota é reservado
+a botões de ação e não aparece em figuras estáticas. O tema está em
+`vita_tokens.json`; a tipografia de distribuição aberta é Inter OFL.
 """
 
 from __future__ import annotations
@@ -83,6 +77,7 @@ import matplotlib.colors as mcolors
 import matplotlib.container as mcontainer
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.text import Text
 
 # --------------------------------------------------------------------------
 # Caminhos -- ver docstring do módulo.
@@ -282,15 +277,6 @@ def _texto_contraste(cor_hex, *, continuo=False):
     heatmap de fig08, cores fora da paleta fixa) cai pra luminância, que é
     a escolha certa quando o valor não é um dos 5 tons fixos do relatório.
     """
-    fixa = {
-        SP.AZUL: SP.PAPEL,
-        SP.CINZA: SP.PAPEL,
-        SP.TERRACOTA: SP.PAPEL,
-        SP.CINZA_CLARO: SP.ESCURO,
-        SP.AMBAR: SP.ESCURO,
-    }
-    if not continuo and cor_hex in fixa:
-        return fixa[cor_hex]
     r, g, b = mcolors.to_rgb(cor_hex)
     luminancia = 0.299 * r + 0.587 * g + 0.114 * b
     return SP.ESCURO if luminancia >= 0.5 else SP.PAPEL
@@ -643,7 +629,7 @@ def fig03_quartis(D):
     cores_q = dict(zip(["Q4", "Q3", "Q2", "Q1"], SP.rampa(4)))
     cores_q["sem quartil"] = SP.CINZA_CLARO
     cats = ["Q1", "Q2", "Q3", "Q4", "sem quartil"]
-    fig, eixos = plt.subplots(1, 2, figsize=SP.PAINEL)
+    fig, eixos = plt.subplots(1, 2, figsize=(12.0, 5.0))
     for ax, paper in zip(eixos, PAPERS):
         bloco = D["quartil"]["classificadas"][paper]
         valores = [bloco.get(q, 0) for q in QUARTIL_ORDER]
@@ -745,7 +731,7 @@ def fig06_postura_acuracia(D):
         "imprecise": SP.CINZA_CLARO,
         "misrepresented": SP.TERRACOTA,
     }
-    fig, (ax_postura, ax_acuracia) = plt.subplots(1, 2, figsize=SP.PAINEL)
+    fig, (ax_postura, ax_acuracia) = plt.subplots(1, 2, figsize=(12.0, 5.0))
     especificacao = (
         (ax_postura, "stance", STANCE_ORDER, cor_stance, STANCE_LABEL, "postura"),
         (
@@ -1528,7 +1514,10 @@ def _renderizar_bytes(fig) -> bytes:
     instalada do matplotlib. É esse byte que `--check` compara.
     """
     SP.eixos_pt(fig)
-    fig.tight_layout(rect=(0.0, 0.0, 1.0, 0.98))
+    # A figura é reduzida ao tamanho da página: reforça legibilidade de rótulos.
+    for label in fig.findobj(Text):
+        label.set_fontsize(max(8.2, label.get_fontsize() * 1.12))
+    fig.tight_layout(pad=1.6, rect=(0.0, 0.0, 1.0, 0.98))
     buf = io.BytesIO()
     fig.savefig(
         buf,

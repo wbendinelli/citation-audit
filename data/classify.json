@@ -5595,6 +5595,34 @@
    "reuse": [],
    "stance": "supporting"
   },
+  "10.1155/aia/3910210": {
+   "accuracy": "misrepresented",
+   "claims": [],
+   "codebook_exemplar": false,
+   "depth": "supporting",
+   "distortion": "dead_end",
+   "highlight": "none",
+   "note": "Leitura nova da tabela de perdas qualitativas na página integral da editora. A linha atribuída ao artigo-fonte está no grupo Vegetable e o descreve como estudo de dano e sistema de preços. O original analisa determinantes macroeconômicos de perdas quantitativas de grãos; não estima desconto de preço por dano nem mede carotenoides na secagem. O objeto e o resultado atribuídos não pertencem ao estudo. O código de profundidade registra o uso como evidência na síntese; reuso fica vazio porque a mera inclusão na tabela não comprova adoção de método ou base de dados. Codificação adicional ainda sem dupla leitura independente; não pertence ao pacote cego original.",
+   "passages": [
+    "Bendinelli et al. [27] | Handling | Damage and price system | About 10% price reduction due to damage"
+   ],
+   "presence": "in_text",
+   "prov": {
+    "adjudicated": false,
+    "codebook": "METHOD.md@v2.1",
+    "coded_at": "2026-10-24",
+    "coded_by": "Codex (leitura manual da página da editora e confronto com o artigo-fonte)",
+    "evidence_kind": "passagem literal de tabela HTML da editora",
+    "evidence_sha256_16": "aa97c369710a85b2",
+    "migrated_from_v1": null,
+    "migration_rules": [],
+    "source": "https://onlinelibrary.wiley.com/doi/10.1155/aia/3910210 (Table 8; referência 27 conferida na bibliografia)"
+   },
+   "record_flags": [],
+   "relation": "independent",
+   "reuse": [],
+   "stance": "supporting"
+  },
   "10.11606/d.12.2021.tde-19012022-204119": {
    "accuracy": "accurate",
    "claims": [

@@ -13,31 +13,31 @@
   },
   "B_only": {
    "k_cites_focal": 10,
-   "n": 270,
-   "rate": 0.037037037037037035
+   "n": 271,
+   "rate": 0.03690036900369004
   },
   "binom_test_AB_vs_single_p0": {
    "k": 14,
    "n": 48,
-   "p0": 0.03481624758220503,
-   "p_two_sided": 6.05015889941978e-10
+   "p0": 0.03474903474903475,
+   "p_two_sided": 5.901602282767263e-10
   },
   "brokerage_share": 0.2916666666666667,
   "checks": {
    "k_ab_le_focal_citers_in_window": true
   },
-  "n_focal_citers_in_window": 49,
+  "n_focal_citers_in_window": 48,
   "odds_ratio_AB_vs_A_only": 12.301470588235297,
-  "odds_ratio_AB_vs_B_only": 10.705882352941181,
-  "odds_ratio_AB_vs_single": 11.415032679738564,
+  "odds_ratio_AB_vs_B_only": 10.747058823529414,
+  "odds_ratio_AB_vs_single": 11.437908496732028,
   "post_window": [
    2016,
    2026
   ],
   "single_strand": {
    "k_cites_focal": 18,
-   "n": 517,
-   "rate": 0.03481624758220503
+   "n": 518,
+   "rate": 0.03474903474903475
   }
  },
  "cocitation_matrix_main_post": {
@@ -165,7 +165,7 @@
     9,
     3,
     33,
-    164,
+    163,
     45,
     7,
     18
@@ -180,7 +180,7 @@
     3,
     26,
     45,
-    122,
+    123,
     7,
     9
    ],
@@ -210,7 +210,7 @@
     18,
     9,
     2,
-    60
+    61
    ]
   ],
   "seed_order": [
@@ -251,7 +251,7 @@
    [
     9,
     271,
-    106,
+    107,
     0,
     1,
     83,
@@ -264,11 +264,11 @@
    ],
    [
     8,
-    106,
-    163,
+    107,
+    164,
     0,
     1,
-    49,
+    50,
     0,
     0,
     9,
@@ -307,7 +307,7 @@
    [
     5,
     83,
-    49,
+    50,
     0,
     0,
     109,
@@ -417,7 +417,7 @@
    21,
    24
   ],
-  "within_strand_mean": 10.066666666666666,
+  "within_strand_mean": 10.133333333333333,
   "within_strand_n_pairs": 30
  },
  "focal": {
@@ -455,18 +455,18 @@
  },
  "periods": {
   "main": {
-   "delta_share_AB": 0.03154875405401,
+   "delta_share_AB": 0.03139865555186798,
    "post": {
     "N_A": 295,
     "N_AB": 48,
-    "N_B": 318,
-    "N_union": 565,
+    "N_B": 319,
+    "N_union": 566,
     "checks": {
      "N_AB_le_min_NA_NB": true
     },
-    "jaccard": 0.08495575221238938,
-    "salton_cosine": 0.15671720205481998,
-    "share_AB": 0.08495575221238938
+    "jaccard": 0.08480565371024736,
+    "salton_cosine": 0.15647137099829464,
+    "share_AB": 0.08480565371024736
    },
    "post_range": [
     2016,
@@ -490,7 +490,7 @@
    ]
   },
   "placebo_2011": {
-   "delta_share_AB": -0.0014205916833321813,
+   "delta_share_AB": -0.0011448563892145353,
    "post": {
     "N_A": 462,
     "N_AB": 59,
@@ -510,14 +510,14 @@
    "pre": {
     "N_A": 187,
     "N_AB": 18,
-    "N_B": 86,
-    "N_union": 255,
+    "N_B": 87,
+    "N_union": 256,
     "checks": {
      "N_AB_le_min_NA_NB": true
     },
-    "jaccard": 0.07058823529411765,
-    "salton_cosine": 0.1419392402294931,
-    "share_AB": 0.07058823529411765
+    "jaccard": 0.0703125,
+    "salton_cosine": 0.14112113981182506,
+    "share_AB": 0.0703125
    },
    "pre_range": [
     2003,
@@ -525,18 +525,18 @@
    ]
   },
   "placebo_2020": {
-   "delta_share_AB": 0.011157342588393057,
+   "delta_share_AB": 0.010596546310832025,
    "post": {
     "N_A": 168,
     "N_AB": 25,
-    "N_B": 180,
-    "N_union": 323,
+    "N_B": 182,
+    "N_union": 325,
     "checks": {
      "N_AB_le_min_NA_NB": true
     },
-    "jaccard": 0.07739938080495357,
-    "salton_cosine": 0.1437636581963238,
-    "share_AB": 0.07739938080495357
+    "jaccard": 0.07692307692307693,
+    "salton_cosine": 0.1429715658973992,
+    "share_AB": 0.07692307692307693
    },
    "post_range": [
     2020,
@@ -545,14 +545,14 @@
    "pre": {
     "N_A": 481,
     "N_AB": 52,
-    "N_B": 356,
-    "N_union": 785,
+    "N_B": 355,
+    "N_union": 784,
     "checks": {
      "N_AB_le_min_NA_NB": true
     },
-    "jaccard": 0.06624203821656051,
-    "salton_cosine": 0.12566253208831682,
-    "share_AB": 0.06624203821656051
+    "jaccard": 0.0663265306122449,
+    "salton_cosine": 0.1258393971048927,
+    "share_AB": 0.0663265306122449
    },
    "pre_range": [
     2003,
@@ -560,18 +560,18 @@
    ]
   },
   "sensitivity": {
-   "delta_share_AB": 0.029126591093060164,
+   "delta_share_AB": 0.02896848076882369,
    "post": {
     "N_A": 272,
     "N_AB": 43,
-    "N_B": 292,
-    "N_union": 521,
+    "N_B": 293,
+    "N_union": 522,
     "checks": {
      "N_AB_le_min_NA_NB": true
     },
-    "jaccard": 0.08253358925143954,
-    "salton_cosine": 0.15257823187223352,
-    "share_AB": 0.08253358925143954
+    "jaccard": 0.08237547892720307,
+    "salton_cosine": 0.15231763692221184,
+    "share_AB": 0.08237547892720307
    },
    "post_range": [
     2017,
@@ -596,21 +596,21 @@
   }
  },
  "requests": {
-  "cache_hits": 62,
-  "network": 0,
+  "cache_hits": 0,
+  "network": 61,
   "none_responses": 0,
-  "total": 62
+  "total": 61
  },
  "reverse_view": {
   "all_time": {
    "n_citing_both_strands": 14,
-   "n_focal_citers": 49,
-   "share": 0.2857142857142857
+   "n_focal_citers": 48,
+   "share": 0.2916666666666667
   },
   "post_main": {
    "n_citing_both_strands": 14,
-   "n_focal_citers": 49,
-   "share": 0.2857142857142857
+   "n_focal_citers": 48,
+   "share": 0.2916666666666667
   }
  },
  "s2_pagination_caps_hit": [],
@@ -672,10 +672,10 @@
    "9": "4d8ed5d867248482729c6b13dac0a16786a8affb"
   }
  },
- "snapshot_date": "2026-09-04",
+ "snapshot_date": "2026-10-24",
  "tests": {
   "fisher_period_x_cocites_both": {
-   "p_two_sided": 0.04436030730478797,
+   "p_two_sided": 0.044476723545840084,
    "table_rows_pre_post__cols_AB_single": [
     [
      29,
@@ -683,19 +683,19 @@
     ],
     [
      48,
-     517
+     518
     ]
    ]
   },
   "permutation_delta_share_AB_main": {
-   "delta_observed": 0.03154875405401,
+   "delta_observed": 0.03139865555186798,
    "n_perm": 10000,
-   "p_value": 0.043495650434956505,
-   "share_post_observed": 0.08495575221238938,
+   "p_value": 0.04329567043295671,
+   "share_post_observed": 0.08480565371024736,
    "share_pre_observed": 0.053406998158379376
   }
  },
- "universe_size": 1108,
+ "universe_size": 1109,
  "universe_year_range": [
   2003,
   2026
@@ -738,17 +738,17 @@
   {
    "N_A": 21,
    "N_AB": 3,
-   "N_B": 10,
-   "N_union": 28,
+   "N_B": 11,
+   "N_union": 29,
    "checks": {
     "N_AB_le_min_NA_NB": true
    },
-   "jaccard": 0.10714285714285714,
-   "salton_cosine": 0.20701966780270628,
-   "share_AB": 0.10714285714285714,
+   "jaccard": 0.10344827586206896,
+   "salton_cosine": 0.19738550848793068,
+   "share_AB": 0.10344827586206896,
    "share_AB_wilson_ci_95": [
-    0.03711836682929999,
-    0.27195851548672156
+    0.03581489135067707,
+    0.26385081090773804
    ],
    "year": 2005
   },
@@ -857,17 +857,17 @@
   {
    "N_A": 42,
    "N_AB": 2,
-   "N_B": 25,
-   "N_union": 65,
+   "N_B": 24,
+   "N_union": 64,
    "checks": {
     "N_AB_le_min_NA_NB": true
    },
-   "jaccard": 0.03076923076923077,
-   "salton_cosine": 0.06172133998483677,
-   "share_AB": 0.03076923076923077,
+   "jaccard": 0.03125,
+   "salton_cosine": 0.0629940788348712,
+   "share_AB": 0.03125,
    "share_AB_wilson_ci_95": [
-    0.008478997236440126,
-    0.10542705523577942
+    0.008612138346171874,
+    0.10697291770958313
    ],
    "year": 2012
   },
@@ -942,17 +942,17 @@
   {
    "N_A": 46,
    "N_AB": 6,
-   "N_B": 34,
-   "N_union": 74,
+   "N_B": 33,
+   "N_union": 73,
    "checks": {
     "N_AB_le_min_NA_NB": true
    },
-   "jaccard": 0.08108108108108109,
-   "salton_cosine": 0.15171652122725207,
-   "share_AB": 0.08108108108108109,
+   "jaccard": 0.0821917808219178,
+   "salton_cosine": 0.15399810070180361,
+   "share_AB": 0.0821917808219178,
    "share_AB_wilson_ci_95": [
-    0.03768985019382638,
-    0.16581942443557818
+    0.038213750478704914,
+    0.16794395479937174
    ],
    "year": 2017
   },
@@ -1078,25 +1078,25 @@
   {
    "N_A": 24,
    "N_AB": 1,
-   "N_B": 24,
-   "N_union": 47,
+   "N_B": 25,
+   "N_union": 48,
    "checks": {
     "N_AB_le_min_NA_NB": true
    },
-   "jaccard": 0.02127659574468085,
-   "salton_cosine": 0.041666666666666664,
-   "share_AB": 0.02127659574468085,
+   "jaccard": 0.020833333333333332,
+   "salton_cosine": 0.040824829046386304,
+   "share_AB": 0.020833333333333332,
    "share_AB_wilson_ci_95": [
-    0.0037657680385967812,
-    0.11112981041629329
+    0.003687110977510649,
+    0.10899217995251861
    ],
    "year": 2025
   },
   {
    "N_A": 13,
    "N_AB": 0,
-   "N_B": 13,
-   "N_union": 26,
+   "N_B": 14,
+   "N_union": 27,
    "checks": {
     "N_AB_le_min_NA_NB": true
    },
@@ -1105,7 +1105,7 @@
    "share_AB": 0.0,
    "share_AB_wilson_ci_95": [
     0.0,
-    0.1287289218592153
+    0.12455502974186705
    ],
    "year": 2026
   }

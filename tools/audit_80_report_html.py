@@ -877,47 +877,40 @@ _scholar_so_sem_doi = st("so_scholar_sem_doi")
 _scholar_resolvidos = _scholar_novos - _scholar_so_sem_doi
 
 
+# O CSS usa a mesma fotografia dos tokens das figuras e do Typst.
+VITA = json.loads(
+    (Path(__file__).parent / "vita_tokens.json").read_text(encoding="utf-8")
+)
+PALETTE = VITA["palette"]
 CSS = """
 :root{
- --paper:#F5F6F3; --surface:#FCFDFB; --raise:#EFF1EC;
- --ink:#15181B; --ink2:#454E55; --ink3:#767F87; --rule:#DBDFD8;
- --accent:#33506E; --good:#1F6F5C; --good-d:#14513F; --warn:#8E6018; --bad:#A8432C; --ghost:#8B9199;
- --tint-good:#E7F1ED; --tint-bad:#F8E9E4; --tint-warn:#F7EFDF; --tint-ghost:#ECEEEA;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
- --paper:#131719; --surface:#191E21; --raise:#1F252A;
- --ink:#E9EBE6; --ink2:#B3BBC0; --ink3:#828B93; --rule:#2B3237;
- --accent:#93B3D8; --good:#5EC0A3; --good-d:#8FD8C0; --warn:#D9A85C; --bad:#E58C70; --ghost:#7C848B;
- --tint-good:#16302A; --tint-bad:#33201A; --tint-warn:#2F2618; --tint-ghost:#20252A;
-}}
-:root[data-theme="dark"]{
- --paper:#131719; --surface:#191E21; --raise:#1F252A;
- --ink:#E9EBE6; --ink2:#B3BBC0; --ink3:#828B93; --rule:#2B3237;
- --accent:#93B3D8; --good:#5EC0A3; --good-d:#8FD8C0; --warn:#D9A85C; --bad:#E58C70; --ghost:#7C848B;
- --tint-good:#16302A; --tint-bad:#33201A; --tint-warn:#2F2618; --tint-ghost:#20252A;
+ --paper:CANVAS; --surface:CANVAS; --raise:COMPOSITION;
+ --ink:INK; --ink2:MUTED; --ink3:MUTED; --rule:LINE;
+ --accent:INK; --good:MUTED; --good-d:INK; --warn:MUTED; --bad:INK; --ghost:CONTROL;
+ --tint-good:COMPOSITION; --tint-bad:COMPOSITION; --tint-warn:COMPOSITION; --tint-ghost:SUBTLE;
 }
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);
- font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
  line-height:1.6;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1060px;margin:0 auto;padding:56px 28px 96px}
-.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace}
-h1,h2,h3{font-family:Spectral,Georgia,serif;text-wrap:balance;margin:0}
+.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,monospace}
+h1,h2,h3{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;text-wrap:balance;margin:0}
 h1{font-size:clamp(2rem,4.4vw,3rem);font-weight:600;line-height:1.12;letter-spacing:-.015em}
 h2{font-size:clamp(1.4rem,2.6vw,1.9rem);font-weight:600;line-height:1.22}
 h3{font-size:1.03rem;font-weight:600;line-height:1.35}
 h3.sub{margin-top:34px;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;
- font-family:"IBM Plex Sans",sans-serif;color:var(--ink3)}
+ font-family:Inter,sans-serif;color:var(--ink3)}
 .eyebrow{font-size:.7rem;text-transform:uppercase;letter-spacing:.14em;color:var(--ink3);margin:0 0 10px}
 
 header.top{border-bottom:2px solid var(--ink);padding-bottom:26px;margin-bottom:34px}
-header.top .lede{font-family:Spectral,Georgia,serif;font-size:1.16rem;color:var(--ink2);
+header.top .lede{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;font-size:1.16rem;color:var(--ink2);
  max-width:64ch;margin:16px 0 0}
 .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
  background:var(--rule);border:1px solid var(--rule);margin:30px 0 0}
 @media (max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}}
 .kpi{background:var(--surface);padding:16px 18px}
-.kpi b{display:block;font-family:Spectral,Georgia,serif;font-size:1.85rem;font-weight:600;
+.kpi b{display:block;font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;font-size:1.85rem;font-weight:600;
  line-height:1.1;font-variant-numeric:tabular-nums}
 .kpi span{font-size:.74rem;color:var(--ink3);letter-spacing:.03em}
 .kpi.hl b{color:var(--bad)}
@@ -927,7 +920,7 @@ header.top .lede{font-family:Spectral,Georgia,serif;font-size:1.16rem;color:var(
 .doi{font-size:.78rem;color:var(--ink3);margin:12px 0 0}
 .bar{display:flex;height:30px;margin:26px 0 12px;border:1px solid var(--rule);overflow:hidden}
 .seg{display:flex;align-items:center;justify-content:center;min-width:26px;
- font-size:.72rem;font-weight:600;color:#fff;font-family:"IBM Plex Mono",monospace}
+ font-size:.72rem;font-weight:600;color:#fff;font-family:"JetBrains Mono",monospace}
 .legend{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:.76rem;color:var(--ink2);margin-bottom:30px}
 .lg{display:flex;align-items:center;gap:7px}
 .sw{width:11px;height:11px;display:inline-block;flex:none}
@@ -947,7 +940,7 @@ header.top .lede{font-family:Spectral,Georgia,serif;font-size:1.16rem;color:var(
 .entry.f-ghost{border-left-color:var(--ghost);background:var(--tint-ghost)}
 .e-head{display:flex;gap:14px;align-items:flex-start;justify-content:space-between}
 .flag{flex:none;font-size:.66rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
- padding:4px 9px;font-family:"IBM Plex Mono",monospace;white-space:nowrap}
+ padding:4px 9px;font-family:"JetBrains Mono",monospace;white-space:nowrap}
 .flag.f-good{background:var(--good);color:#fff}
 .flag.f-bad{background:var(--bad);color:#fff}
 .flag.f-warn{background:var(--warn);color:#fff}
@@ -956,7 +949,7 @@ header.top .lede{font-family:Spectral,Georgia,serif;font-size:1.16rem;color:var(
 .venue{color:var(--ink2)}
 .dot{margin:0 8px;opacity:.55}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:13px 0 0}
-.chip{font-size:.7rem;font-family:"IBM Plex Mono",monospace;padding:3px 9px;
+.chip{font-size:.7rem;font-family:"JetBrains Mono",monospace;padding:3px 9px;
  border:1px solid var(--rule);color:var(--ink2);background:var(--paper)}
 .chip.r-good{border-color:var(--good);color:var(--good)}
 .chip.r-good-deep{border-color:var(--good-d);color:var(--good-d);font-weight:600}
@@ -966,7 +959,7 @@ header.top .lede{font-family:Spectral,Georgia,serif;font-size:1.16rem;color:var(
 .chip.s-good{color:var(--good)}.chip.s-bad{color:var(--bad);font-weight:600}
 .chip.reuse{background:var(--good);color:#fff;border-color:var(--good);font-weight:600}
 .chip.infl{background:var(--accent);color:#fff;border-color:var(--accent)}
-blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;color:var(--ink);
+blockquote{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;font-size:1rem;line-height:1.62;color:var(--ink);
  margin:16px 0 0;padding-left:16px;border-left:2px solid var(--rule);max-width:74ch}
 .note{font-size:.85rem;color:var(--ink2);margin:14px 0 0;max-width:72ch}
 .note::before{content:"→ ";color:var(--ink3)}
@@ -974,7 +967,7 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
 .funnel{margin-top:56px;border-top:2px solid var(--ink);padding-top:26px}
 .fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:36px;margin-top:22px}
 .fcol h3,.rcol h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;
- font-family:"IBM Plex Sans",sans-serif;color:var(--ink3);margin-bottom:14px}
+ font-family:Inter,sans-serif;color:var(--ink3);margin-bottom:14px}
 .funil{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:3px;
  counter-reset:none}
 .funil .step{display:grid;grid-template-columns:1fr 84px 34px 42px;align-items:center;
@@ -985,22 +978,22 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
 .funil .base .track i{background:var(--accent)}
 .funil .final .track i{background:var(--good)}
 .funil .final .rot{color:var(--ink);font-weight:600}
-.funil .val{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;
+.funil .val{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;
  font-size:.86rem;text-align:right;font-weight:600}
 .funil .final .val{color:var(--good)}
-.funil .delta{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--bad);
+.funil .delta{font-family:"JetBrains Mono",monospace;font-size:.72rem;color:var(--bad);
  text-align:right;font-variant-numeric:tabular-nums}
 .rgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:32px;margin-top:30px}
 .tbl.rev td.v{font-size:.8rem;color:var(--ink2);max-width:250px}
 .tbl.rev td.qs{white-space:nowrap}
 .q{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;
  font-style:normal;font-size:.64rem;font-weight:600;color:#fff;margin-right:2px;
- font-family:"IBM Plex Mono",monospace}
+ font-family:"JetBrains Mono",monospace}
 .tbl .off{color:var(--ink3)}
 
 .qbar{display:flex;height:26px;border:1px solid var(--rule);overflow:hidden;margin-bottom:10px}
 .qseg{display:flex;align-items:center;justify-content:center;min-width:22px;color:#fff;
- font-size:.7rem;font-weight:600;font-family:"IBM Plex Mono",monospace}
+ font-size:.7rem;font-weight:600;font-family:"JetBrains Mono",monospace}
 .q1,.sw.q1{background:var(--good-d)} .q2,.sw.q2{background:var(--good)}
 .q3,.sw.q3{background:var(--warn)}  .q4,.sw.q4{background:var(--bad)}
 .qx,.sw.qx{background:var(--ink3)}  .qn,.sw.qn{background:var(--ghost)}
@@ -1022,33 +1015,48 @@ blockquote{font-family:Spectral,Georgia,serif;font-size:1rem;line-height:1.62;co
 .tbl{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:12px}
 .tbl th,.tbl td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule)}
 .tbl th{font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;color:var(--ink3);font-weight:600}
-.tbl td.n{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;text-align:right}
-.tbl td.v.mono{font-family:"IBM Plex Mono",monospace;font-size:.76rem}
+.tbl td.n{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;text-align:right}
+.tbl td.v.mono{font-family:"JetBrains Mono",monospace;font-size:.76rem}
 .scroll{overflow-x:auto}
 @media (max-width:640px){.wrap{padding:34px 18px 70px}.e-head{flex-direction:column;gap:9px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 """
 
 
+for token in ("canvas", "composition", "ink", "muted", "line", "control", "subtle"):
+    CSS = CSS.replace(token.upper(), PALETTE[token])
+CSS += """
+body{margin:0} .wrap{max-width:1080px;padding:64px 32px 96px}
+h1{font-weight:500;letter-spacing:-.035em} h2{font-weight:500;letter-spacing:-.025em}
+.kpis{border-radius:20px;overflow:hidden;background:var(--rule)}
+.kpi{padding:24px;background:var(--raise)}
+.theme-btn{display:none} .entry{border-radius:12px}
+.fgrid{grid-template-columns:repeat(auto-fit,minmax(min(330px,100%),1fr))}
+.rgrid{grid-template-columns:repeat(auto-fit,minmax(min(400px,100%),1fr))}
+.fgrid>*,.rgrid>*{min-width:0;overflow-x:auto}
+@media(max-width:640px){.wrap{padding:32px 20px 64px}}
+@media print{.wrap{padding:0}.scroll{overflow:visible}.entry{break-inside:avoid}}
+"""
+
 HTML = f"""<title>Quem Cita Bendinelli</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fontes.css">
 <style>{CSS}</style>
 <div class="wrap">
 <header class="top">
- <p class="eyebrow mono">Auditoria de citações · taxonomia Paperclip · setembro de 2026</p>
+ <p class="eyebrow mono">SAPIANS · Auditoria de citações · {esc(DADOS["meta"]["gerado_em"])}</p>
  <h1>Quem cita, e como</h1>
- <p class="lede">Cada citação recebida pelos dois artigos foi rastreada até a passagem exata onde
- o trabalho é mencionado, e classificada por papel, postura e reuso efetivo — a mesma taxonomia
- que o <span class="mono">citation-explorer</span> do Paperclip aplica, extraída do código-fonte da ferramenta.</p>
+ <p class="lede">O inventário reúne citações recebidas pelos dois artigos. As leituras com evidência
+ disponível são classificadas por presença, profundidade, postura, exatidão e reuso.
+ Registros sem passagem recuperada permanecem pendentes.</p>
  <div class="kpis">
   <div class="kpi"><b>{TOT}</b><span>citações mapeadas</span></div>
   <div class="kpi"><b>{PCT_CL}%</b><span>das {NDOI} com DOI, verificadas</span></div>
   <div class="kpi"><b>{N_REUSE}</b><span>com reuso metodológico externo</span></div>
   <div class="kpi"><b>{N_SELF_COAUTOR}</b><span>autocitação ou coautor</span></div>
   <div class="kpi hl"><b>{N_MIS}</b><span>atribuições incorretas</span></div>
-  <div class="kpi hl"><b>{N_GHOST}</b><span>citações-fantasma</span></div>
+  <div class="kpi hl"><b>{N_GHOST}</b><span>só na bibliografia (classificação)</span></div>
  </div>
 </header>
 <section class="funnel">
@@ -1060,9 +1068,8 @@ HTML = f"""<title>Quem Cita Bendinelli</title>
  <div class="fgrid">{FUNIS}</div>
  <h2 style="margin-top:54px">Onde as citações estão, e como cada revista cita</h2>
  <p style="font-size:.9rem;color:var(--ink2);max-width:70ch;margin:14px 0 18px">
- Cada quadrado é uma citação, colorida pelo papel: verde escuro fundacional,
- verde sustenta, azul menção real, cinza menção breve ou de passagem,
- cinza-claro só na bibliografia, vermelho interpretado errado. A última coluna conta
+ Cada quadrado é uma citação. Tons neutros, rótulos e legendas indicam o papel;
+ os cartões detalham presença, profundidade e exatidão separadamente. A última coluna conta
  quantas adotaram método, dado ou resultado.</p>
  <div class="rgrid">{REVISTAS}</div>
  <h3 class="sub">E ao longo do tempo, desde a publicação de cada artigo</h3>

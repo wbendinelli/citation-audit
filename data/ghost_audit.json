@@ -178,7 +178,7 @@
    "status_master": "tem_texto",
    "text_exists": true,
    "text_path": "text/grains_059.txt",
-   "venue": null,
+   "venue": "Springer eBooks",
    "work_type": "book-chapter",
    "year": 2025
   },
@@ -269,7 +269,7 @@
    "status_master": "tem_texto",
    "text_exists": true,
    "text_path": "text/grains_060.txt",
-   "venue": null,
+   "venue": "Springer eBooks",
    "work_type": "book-chapter",
    "year": 2022
   },
@@ -360,7 +360,7 @@
    "status_master": "evidencia_insuficiente",
    "text_exists": true,
    "text_path": "text/grains_056.txt",
-   "venue": null,
+   "venue": "Springer eBooks",
    "work_type": "book-chapter",
    "year": 2024
   },
@@ -1174,16 +1174,16 @@
    },
    "D_read": {
     "ci95_wilson": [
-     0.001699,
-     0.052468
+     0.001683,
+     0.051986
     ],
-    "denominator": 104,
-    "denominator_label": "D_read (todas as 104 classificadas)",
+    "denominator": 105,
+    "denominator_label": "D_read (todas as 105 classificadas)",
     "numerator": 1,
-    "rate": 0.009615
+    "rate": 0.009524
    }
   },
   "n_ghost_entries": 12,
-  "n_read_all_classified": 104
+  "n_read_all_classified": 105
  }
 }

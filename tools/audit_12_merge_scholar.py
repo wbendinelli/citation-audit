@@ -36,6 +36,11 @@ for key, fname in (("airline", "airline.txt"), ("grains", "grains.txt")):
         (auditlib.norm_title(r.get("title") or ""), r)
         for r in master["papers"][key]["citing"]
     ]
+    have.extend(
+        (auditlib.norm_title(r["scholar_title"]), r)
+        for r in master["papers"][key]["citing"]
+        if r.get("scholar_title")
+    )
     matched, novos, junk = 0, [], 0
     for s in scholar:
         if s["n"] in JUNK or len(s["n"]) < 12:
@@ -59,9 +64,19 @@ for key, fname in (("airline", "airline.txt"), ("grains", "grains.txt")):
             hit["src"] = sorted(set(hit.get("src", [])) | {"scholar"})
         else:
             novos.append(s)
+            have.append((s["n"], s))
 
     base = len(master["papers"][key]["citing"])
-    for i, s in enumerate(novos, 1):
+    last = max(
+        (
+            int(r["id"].split("_s")[1])
+            for r in master["papers"][key]["citing"]
+            if r.get("id", "").startswith(f"{key}_s")
+            and r["id"].split("_s")[1].isdigit()
+        ),
+        default=0,
+    )
+    for i, s in enumerate(novos, last + 1):
         master["papers"][key]["citing"].append(
             {
                 "id": f"{key}_s{i:03d}",

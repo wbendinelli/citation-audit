@@ -13,6 +13,13 @@ CFG = auditlib.load_config()
 MAIL = CFG.get("mailto") or CFG.get("contact_email")
 
 
+def titulo_compativel(want, candidate):
+    """Prefixo vazio ou curto não constitui evidência de identidade."""
+    return min(len(want), len(candidate)) >= 20 and (
+        candidate.startswith(want[:45]) or want.startswith(candidate[:45])
+    )
+
+
 def resolve(rec):
     q = urllib.parse.quote(rec["title"][:120])
     want = auditlib.norm_title(rec["title"])[:55]
@@ -23,9 +30,10 @@ def resolve(rec):
     for it in ((d or {}).get("message") or {}).get("items", []):
         t = (it.get("title") or [""])[0]
         n = auditlib.norm_title(t)
-        if n.startswith(want[:45]) or want.startswith(n[:45]):
+        if titulo_compativel(want, n) and it.get("DOI"):
             rec["doi"] = (it.get("DOI") or "").lower()
             rec["venue"] = rec.get("venue") or (it.get("container-title") or [None])[0]
+            rec["scholar_title"] = rec.get("scholar_title") or rec["title"]
             rec["title"] = t
             rec["type"] = it.get("type")
             rec["resolved_by"] = "crossref"
@@ -37,12 +45,13 @@ def resolve(rec):
     for w in (d or {}).get("results", []):
         t = w.get("title") or ""
         n = auditlib.norm_title(t)
-        if n.startswith(want[:45]) or want.startswith(n[:45]):
+        if titulo_compativel(want, n) and w.get("doi"):
             oa = w.get("open_access") or {}
             src = (w.get("primary_location") or {}).get("source") or {}
             rec["doi"] = (w.get("doi") or "").replace(
                 "https://doi.org/", ""
             ).lower() or None
+            rec["scholar_title"] = rec.get("scholar_title") or rec["title"]
             rec["title"] = t
             rec["venue"] = rec.get("venue") or src.get("display_name")
             rec["year"] = rec.get("year") or w.get("publication_year")
@@ -62,28 +71,37 @@ def resolve(rec):
     return rec
 
 
-master = auditlib.load_master()
-todo = [r for k, r in auditlib.iter_records(master) if r["status"] == "so_scholar"]
-print(f"resolvendo {len(todo)} registros exclusivos do Scholar...")
-with ThreadPoolExecutor(max_workers=4) as ex:
-    list(as_completed([ex.submit(resolve, r) for r in todo]))
+def main():
 
-ok = 0
-for r in todo:
-    if r.get("doi"):
-        ok += 1
-        r["status"] = (
-            "oa_baixavel"
-            if r.get("pdf")
-            else ("oa_sem_pdf_direto" if r.get("is_oa") else "fechado")
-        )
-    else:
-        r["status"] = "so_scholar_sem_doi"
-auditlib.save_master(master)
+    master = auditlib.load_master()
+    todo = [r for k, r in auditlib.iter_records(master) if r["status"] == "so_scholar"]
+    print(f"resolvendo {len(todo)} registros exclusivos do Scholar...")
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        for future in as_completed([ex.submit(resolve, r) for r in todo]):
+            future.result()
 
-print(f"DOI resolvido: {ok}/{len(todo)}")
-print("  por fonte:", dict(collections.Counter(r.get("resolved_by") for r in todo)))
-tot = collections.Counter(r["status"] for k, r in auditlib.iter_records(master))
-print(f"\ninventario total: {sum(len(b['citing']) for b in master['papers'].values())}")
-for k, v in sorted(tot.items(), key=lambda x: -x[1]):
-    print(f"  {k:>22}: {v:>3}")
+    ok = 0
+    for r in todo:
+        if r.get("doi"):
+            ok += 1
+            r["status"] = (
+                "oa_baixavel"
+                if r.get("pdf")
+                else ("oa_sem_pdf_direto" if r.get("is_oa") else "fechado")
+            )
+        else:
+            r["status"] = "so_scholar_sem_doi"
+    auditlib.save_master(master)
+
+    print(f"DOI resolvido: {ok}/{len(todo)}")
+    print("  por fonte:", dict(collections.Counter(r.get("resolved_by") for r in todo)))
+    tot = collections.Counter(r["status"] for k, r in auditlib.iter_records(master))
+    print(
+        f"\ninventario total: {sum(len(b['citing']) for b in master['papers'].values())}"
+    )
+    for k, v in sorted(tot.items(), key=lambda x: -x[1]):
+        print(f"  {k:>22}: {v:>3}")
+
+
+if __name__ == "__main__":
+    main()

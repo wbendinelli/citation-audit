@@ -15,7 +15,7 @@
 //   typst compile --root . --font-path tools/fonts \
 //       reports/01-impacto/main.typ reports/01-impacto/relatorio.pdf
 
-#import "@preview/sapians:0.3.2": *
+#import "vita.typ": *
 #import "numeros.typ": *
 #import "figuras.typ": *
 
@@ -25,12 +25,12 @@
 // nota de rodapé (testado em Typst 0.15).
 #show raw: set text(font: "JetBrains Mono")
 
-#show: sapians-report.with(
+#show: vita-report.with(
   title: "Quem citou, e como",
   subtitle: "Inventário da qualidade das citações recebidas por dois artigos",
   author: "William Bendinelli",
-  date: "04/09/2026",
-  version: "1.0",
+  date: "24/10/2026",
+  version: "1.1",
   lang: "pt",
   kicker: "SAPIANS · RELATÓRIO TÉCNICO",
   org: "SAPIANS · Pesquisa e Desenvolvimento",
@@ -43,11 +43,19 @@
 
 // Corpo com respiro e parágrafo à moda de periódico, como em
 // reports/01-metodos-locais/main.typ (interpretable-ml-lectures).
-#set text(size: 9pt)
+#set text(size: 10pt)
 #set par(leading: 0.62em, spacing: 0.62em, first-line-indent: (amount: 1.1em, all: false))
 
 // Auxiliares de formatação: ficam em uma linha só porque check_numbers.py
 // descarta a linha inteira de um #let, não o bloco que ela abre.
+#let dec(v) = if v == none { [—] } else { text(str(calc.round(v, digits: 3)).replace(".", ",")) }
+#let A5 = D.cd.airline.cd_index.windows.at("5")
+#let A10 = D.cd.airline.cd_index.windows.at("10")
+#let G5 = D.cd.grains.cd_index.windows.at("5")
+#let CM = D.cocitacao.periods.main
+#let CB = D.cocitacao.brokerage
+#let E = D.eixos.pooled
+#let C = D.cobertura_quartil
 #let pct(v) = if v == none { [—] } else { text({ let r = calc.round(v * 100.0, digits: 1); let i = calc.floor(r); str(i) + "," + str(calc.round((r - i) * 10.0)) + "%" }) }
 #let num(v) = if v == none { [—] } else { text(str(v)) }
 #let txt(v) = if v == none { [—] } else { text(v) }
@@ -89,10 +97,21 @@
   discordam de sinal sobre o mesmo grafo, e o sinal que se sustenta é o de
   co-citação: as duas vertentes que o artigo de aviação declara conciliar
   passaram a ser citadas juntas com mais frequência depois dele, e quem faz
-  essa ponte cita o artigo dez vezes mais que quem fica de um lado só. Todo
+  essa ponte cita o artigo com maior frequência que quem fica de um lado só. Todo
   número em prosa é impresso
   por um script versionado, e a nota de rodapé que o acompanha diz qual seção
   de `numeros.txt` o imprime.
+]
+
+#block(fill: sapians-card-bg, inset: 3mm, radius: radius-sm)[
+  *Atualização da coleta e da evidência.* Os dados refletem a coleta indicada
+  na capa. A revisão de perdas pós-colheita em `grains_007` recebeu leitura
+  adicional da tabela na página da editora: atribui ao artigo de grãos um
+  achado sobre preço por dano, que o original não estima. A passagem e a
+  justificativa estão em `data/classify.json`, com codificação ainda sem
+  segunda leitura independente. O teste cego mantém sua coorte original;
+  seus coeficientes não validam automaticamente a classificação adicional.
+  As contagens anteriores corrigidas estão em `revisao-atualizacao.md`.
 ]
 
 = 1. Como cada citação foi lida
@@ -179,7 +198,7 @@ por ruído: a matriz de confusão pré-adjudicação não tem nenhuma célula em
 ele marque erro onde os cegos veem acerto.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig11_irr.png", width: 92%),
+  image("/reports/01-impacto/figuras/fig11_irr.png", width: 100%),
   caption: [A exatidão é o único eixo que não se sustenta entre o codificador original e os cegos: κ 0,14 e 0,15 contra 0,60 entre os dois cegos, enquanto presença, postura e profundidade ficam acima de 0,74 em todos os pares.#footnote[audit_70 §irr: `irr / pre / eixos`, pares `c1_vs_c2`, `c1_vs_c3` e `c2_vs_c3`.]],
 ) <fig-irr>
 
@@ -187,9 +206,9 @@ ele marque erro onde os cegos veem acerto.
 
 O achado desta seção é que o funil perde mais da metade do caminho entre a
 contagem do Google Scholar e a citação lida, e perde por motivos declarados, um
-por etapa. O Scholar lista 95 citações ao artigo de aviação e 76 ao de grãos; a
-união de quatro APIs, deduplicada por DOI e por título normalizado, deixa 93 e
-83.#footnote[audit_70 §funil: `funil / airline / steps / 0` e `1`, `funil / grains / steps / 0` e `1`.]
+por etapa. O Scholar lista 95 citações ao artigo de aviação e 76 ao de grãos; o
+inventário das APIs e das listas locais do Scholar, deduplicado por DOI e por título normalizado, deixa #D.inventario.por_artigo.airline e
+#D.inventario.por_artigo.grains.#footnote[audit_70 §funil: `funil / airline / steps / 0` e `1`, `funil / grains / steps / 0` e `1`.]
 O inventário completo soma #D.inventario.total registros, dos quais
 #D.inventario.com_doi.total têm DOI e #D.inventario.sem_doi.total não têm. Os
 sem DOI ficam no inventário, porque documentam alcance, e fora do denominador
@@ -228,8 +247,8 @@ grosso para relevância. Um critério mais defensável seria indexação em Scop
 com quartil, e a análise final deveria migrar para ele.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig01_funil.png", width: 88%),
-  caption: [Do que o Scholar lista ao que foi lido com passagem literal: o artigo de aviação retém 45 dos 95 registros iniciais e o de grãos 29 dos 76.#footnote[audit_70 §funil: `funil / airline / steps` e `funil / grains / steps`, primeiro e último passo.] À direita, quem saiu no corte de editora, por editora, e o quartil Scimago de quem ficou com evidência; a linha tracejada marca a população do estudo.],
+  image("/reports/01-impacto/figuras/fig01_funil.png", width: 100%),
+  caption: [Do que o Scholar lista ao que foi lido com passagem literal: o artigo de aviação retém #D.populacao.classificados_dentro_da_populacao.airline dos #D.funil.airline.steps.at(0).valor registros iniciais e o de grãos #D.populacao.classificados_dentro_da_populacao.grains dos #D.funil.grains.steps.at(0).valor.#footnote[audit_70 §funil: `funil / airline / steps` e `funil / grains / steps`, primeiro e último passo.] À direita, quem saiu no corte de editora, por editora, e o quartil Scimago de quem ficou com evidência; a linha tracejada marca a população do estudo.],
 ) <fig-funil>
 
 == Os três portões de integridade
@@ -261,35 +280,34 @@ em vez de recalculá-lo.
 == Cobertura por quartil, e o viés que ela carrega
 
 Dentro dos registros com DOI cujo periódico tem quartil Scimago oficial, a
-cobertura de evidência é desigual, e a desigualdade tem direção. São 98
-registros ao todo: 69 em Q1, 16 em Q2, 8 em Q3 e 5 em
+cobertura de evidência é desigual, e a desigualdade tem direção. São #C.total.total
+registros ao todo: #C.Q1.total em Q1, #C.Q2.total em Q2, #C.Q3.total em Q3 e #C.Q4.total em
 Q4.#footnote[audit_70 §cobertura: `cobertura_quartil / Q1`…`Q4 / total` e `cobertura_quartil / total / total`.]
-Em Q1, 58 têm trecho literal recuperado, ou 84%; em Q4, apenas 1 de 5, ou
-20%.#footnote[audit_70 §cobertura: `cobertura_quartil / Q1 / pct_trecho` e `cobertura_quartil / Q4 / pct_trecho`.]
+Em Q1, #C.Q1.trecho têm trecho literal recuperado, ou #C.Q1.pct_trecho.pct; em Q4, #C.Q4.trecho de #C.Q4.total, ou
+#C.Q4.pct_trecho.pct.#footnote[audit_70 §cobertura: `cobertura_quartil / Q1 / pct_trecho` e `cobertura_quartil / Q4 / pct_trecho`.]
 Somando trecho literal e fantasma verificado, que são dois tipos de evidência e
-não um tipo de falta, a cobertura total é de 80 em 98, ou
-82%.#footnote[audit_70 §cobertura: `cobertura_quartil / total / pct_evidencia`.]
-Restam 17 registros sem evidência.#footnote[audit_70 §cobertura: `cobertura_quartil / total / pendente`.]
+não um tipo de falta, a cobertura total é de #C.total.pct_evidencia.ratio, ou
+#C.total.pct_evidencia.pct.#footnote[audit_70 §cobertura: `cobertura_quartil / total / pct_evidencia`.]
+Restam #C.total.pendente registros sem evidência.#footnote[audit_70 §cobertura: `cobertura_quartil / total / pendente`.]
 
 Isso não foi desenho. É efeito colateral de a Elsevier, que concentra os Q1 das
 duas áreas, ter liberado texto completo pelo acesso institucional, enquanto
-Emerald e Wiley não liberaram. O viés é favorável à análise, porque a evidência
-é mais densa onde o impacto importa mais, mas precisa ser declarado por uma
+Emerald e Wiley não liberaram. Essa seleção de acesso limita a análise e precisa ser declarada por uma
 razão prática: a estatística de Q4 se apoia em uma observação e não sustenta
 comparação entre quartis. Por artigo, o desequilíbrio é o mesmo em outra
-escala: aviação tem 43 de 50 com trecho, ou 86%, e grãos 31 de 48, ou
-65%.#footnote[audit_70 §cobertura: `cobertura_quartil / por_artigo / airline / total / pct_trecho` e o mesmo para `grains`.]
+escala: aviação tem 43 de 50 com trecho, ou 86%, e grãos #C.por_artigo.grains.total.pct_trecho.ratio, ou
+#C.por_artigo.grains.total.pct_trecho.pct.#footnote[audit_70 §cobertura: `cobertura_quartil / por_artigo / airline / total / pct_trecho` e o mesmo para `grains`.]
 
 #figure(
-  image("/reports/01-impacto/figuras/fig02_cobertura_quartil.png", width: 88%),
-  caption: [A cobertura de evidência cai monotonicamente do Q1 ao Q4, de 84% a 20% de trechos literais, por bloqueio de acesso de editora e não por desenho amostral.#footnote[audit_70 §cobertura: `cobertura_quartil / Q1 / pct_trecho` e `cobertura_quartil / Q4 / pct_trecho`.]],
+  image("/reports/01-impacto/figuras/fig02_cobertura_quartil.png", width: 100%),
+  caption: [Trechos literais cobrem #C.Q1.pct_trecho.pct do Q1 e #C.Q4.pct_trecho.pct do Q4. A diferença de acesso limita a comparação entre quartis.#footnote[audit_70 §cobertura: `cobertura_quartil / Q1 / pct_trecho` e `cobertura_quartil / Q4 / pct_trecho`.]],
 ) <fig-cobertura>
 
 = 3. Onde as citações caem
 
 O achado desta seção é que os dois artigos são citados em veículos de topo, e
 que o topo é mais concentrado do que a contagem bruta sugere. Entre as citações
-com DOI e quartil atribuído, 69 estão em Q1, contra 16 em Q2, 8 em Q3 e 5 em
+com DOI e quartil atribuído, #C.Q1.total estão em Q1, contra #C.Q2.total em Q2, #C.Q3.total em Q3 e #C.Q4.total em
 Q4.#footnote[audit_70 §quartil: `quartil / todas_citacoes / pooled`.]
 Outros 35 registros ficam fora do Scimago e 43 não têm métrica
 alguma.#footnote[audit_70 §quartil: `quartil / todas_citacoes / pooled / fora_do_scimago` e `sem_metrica`.]
@@ -300,8 +318,8 @@ Tratar os dois grupos como um só seria erro: o primeiro é comportamento corret
 da base, o segundo é limitação de cobertura geográfica.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig03_quartis.png", width: 84%),
-  caption: [A citação está majoritariamente em Q1: 69 dos 98 registros com quartil atribuído, contra 5 em Q4.#footnote[audit_70 §quartil: `quartil / todas_citacoes / pooled / Q1` e `Q4`; audit_70 §cobertura: `cobertura_quartil / total / total` para o denominador.]],
+  image("/reports/01-impacto/figuras/fig03_quartis.png", width: 100%),
+  caption: [A citação está majoritariamente em Q1: #C.Q1.total dos #C.total.total registros com quartil atribuído, contra #C.Q4.total em Q4.#footnote[audit_70 §quartil: `quartil / todas_citacoes / pooled / Q1` e `Q4`; audit_70 §cobertura: `cobertura_quartil / total / total` para o denominador.]],
 ) <fig-quartis>
 
 == Periódicos e editoras
@@ -339,7 +357,7 @@ por isso a evidência é boa justamente onde interessa e ruim onde não se
 conseguiu entrar.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig04_periodicos.png", width: 88%),
+  image("/reports/01-impacto/figuras/fig04_periodicos.png", width: 100%),
   caption: [Cauda longa com cabeça curta: o periódico mais citante concentra 10 das citações lidas e o segundo, 5; do quarto em diante o veículo aparece uma ou duas vezes.#footnote[audit_70 §periodicos: `periodicos / pooled`, campos `n`.]],
 ) <fig-periodicos>
 
@@ -353,7 +371,7 @@ nenhum dos dois há sinal de queda: os dois anos mais recentes ainda estão em
 formação, porque o grafo de citações leva meses para registrar publicação nova.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig09_linha_do_tempo.png", width: 88%),
+  image("/reports/01-impacto/figuras/fig09_linha_do_tempo.png", width: 100%),
   caption: [Citação de passagem domina os dois artigos em todos os anos; a citação de conteúdo aparece tarde no artigo de aviação e é rara no de grãos.#footnote[audit_70 §linha-do-tempo: `linha_do_tempo / airline` e `linha_do_tempo / grains`, séries `passagem`, `conteudo`, `fundo` e `fantasma`.]],
 ) <fig-linha-do-tempo>
 
@@ -361,23 +379,20 @@ formação, porque o grafo de citações leva meses para registrar publicação 
 
 O achado desta seção é o mais direto do relatório: a citação típica é rasa e
 elogiosa, e o erro, quando aparece, quase nunca é hostil. Dos
-#D.meta.n_classificados registros lidos, 92 mencionam o artigo no corpo do
+#D.meta.n_classificados registros lidos, #E.presence.in_text.n mencionam o artigo no corpo do
 texto e 12 constam só na lista de referências.#footnote[audit_70 §eixos: `eixos / pooled / presence / in_text / n` e `reference_list_only / n`.]
-Tudo o que segue nesta seção se lê sobre as 92 menções no corpo, porque
+Tudo o que segue nesta seção se lê sobre as #E.presence.in_text.n menções no corpo, porque
 profundidade, postura e exatidão só se aplicam quando há texto para julgar.
 
 == Profundidade
 
-A escala ordinal de cinco níveis se concentra no segundo degrau. São 53
-citações de menção breve, ou 57,6% do total, mais 15 de passagem em bloco, ou
-16,3%.#footnote[audit_70 §eixos: `eixos / pooled / depth / brief_mention` e `drive_by`.]
-Somados, os dois níveis rasos dão 68 citações, ou
-73,9%.#footnote[audit_70 §eixos: `eixos / pooled / perfunctorio`.]
-No outro extremo, 5 citações sustentam parte do argumento do citante e 4 o
-tomam como fundacional, ou 9,8% dos casos ao
-todo.#footnote[audit_70 §eixos: `eixos / pooled / depth / supporting`, `foundational` e `eixos / pooled / substantivo`.]
-A distância entre os dois patamares é o resultado central do eixo: nove
-citações em cada dez são pano de fundo.
+A escala ordinal de cinco níveis se concentra no segundo degrau. São
+#E.depth.brief_mention.n citações de menção breve (#E.depth.brief_mention.pct)
+e #E.depth.drive_by.n de passagem em bloco (#E.depth.drive_by.pct).
+Somados, os níveis rasos dão #E.perfunctorio.n citações, ou #E.perfunctorio.pct.
+No outro extremo, #E.depth.supporting.n citações sustentam parte do argumento
+e #E.depth.foundational.n tomam o artigo como fundacional: #E.substantivo.pct
+das menções no corpo.#footnote[audit_70 §eixos: `eixos / pooled / depth`, `perfunctorio` e `substantivo`.]
 
 Um exemplo de citação em bloco, do `grains_057`, no
 _Journal of Stored Products Research_:
@@ -403,14 +418,14 @@ existisse? Nesse caso mudaria, e a classificação vem acompanhada da marca de
 reuso `method_adoption`.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig05_profundidade.png", width: 88%),
-  caption: [A profundidade se concentra no segundo degrau da escala: 53 menções breves contra 4 citações fundacionais, num total de 92 menções no corpo.#footnote[audit_70 §eixos: `eixos / pooled / depth`, todos os níveis.]],
+  image("/reports/01-impacto/figuras/fig05_profundidade.png", width: 100%),
+  caption: [A profundidade se concentra no segundo degrau da escala: #E.depth.brief_mention.n menções breves contra #E.depth.foundational.n citações fundacionais, num total de #E.presence.in_text.n menções no corpo.#footnote[audit_70 §eixos: `eixos / pooled / depth`, todos os níveis.]],
 ) <fig-profundidade>
 
 == Postura e exatidão
 
-A postura é quase sempre de apoio: 81 citações, ou 88,0%, com 9 sem postura
-declarada e apenas 2 contrapondo.#footnote[audit_70 §eixos: `eixos / pooled / stance / supporting`, `none` e `contradictory`.]
+A postura é quase sempre de apoio: #E.stance.supporting.n citações, ou #E.stance.supporting.pct, com #E.stance.none.n sem postura
+declarada e #E.stance.contradictory.n contrapondo.#footnote[audit_70 §eixos: `eixos / pooled / stance / supporting`, `none` e `contradictory`.]
 Vale lembrar que a regra de postura é deliberadamente liberal: qualquer
 contraponto conta, mesmo sem linguagem hostil, mesmo quando o citante também
 usa o artigo como referência de comparação. Sob uma régua tão frouxa, duas
@@ -418,18 +433,21 @@ contraposições em #D.eixos.pooled.presence.in_text.n citações são um númer
 muito baixo, e a leitura correta
 não é que os artigos são incontestáveis, e sim que quase ninguém os discute.
 
-A exatidão conta outra história. São 57 citações fiéis, ou 62,0%; 19 imprecisas,
-ou 20,7%; e 16 com má atribuição, ou 17,4%.#footnote[audit_70 §eixos: `eixos / pooled / accuracy / accurate`, `imprecise` e `misrepresented`.]
-Os dois artigos se comportam de modo diferente. No de aviação, 71,2% das
-citações são fiéis e 13,5% são má atribuição; no de grãos, 50,0% e
-22,5%.#footnote[audit_70 §eixos: `eixos / airline / accuracy` e `eixos / grains / accuracy`.]
+A exatidão conta outra história. São #E.accuracy.accurate.n citações fiéis
+(#E.accuracy.accurate.pct), #E.accuracy.imprecise.n imprecisas
+(#E.accuracy.imprecise.pct) e #E.accuracy.misrepresented.n com má atribuição
+(#E.accuracy.misrepresented.pct).#footnote[audit_70 §eixos: `eixos / pooled / accuracy`.]
+No de aviação, #D.eixos.airline.accuracy.accurate.pct são fiéis e
+#D.eixos.airline.accuracy.misrepresented.pct são má atribuição; no de grãos,
+#D.eixos.grains.accuracy.accurate.pct e #D.eixos.grains.accuracy.misrepresented.pct,
+respectivamente.#footnote[audit_70 §eixos: `eixos / airline / accuracy` e `eixos / grains / accuracy`.]
 A explicação não é misteriosa: o artigo de grãos abre com definições e
 estimativas repassadas de terceiros, e é exatamente esse material que os
 citantes creditam aos autores.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig06_postura_acuracia.png", width: 88%),
-  caption: [Postura e exatidão andam em direções opostas: 88,0% das citações apoiam, mas só 62,0% dizem o que o artigo de fato diz.#footnote[audit_70 §eixos: `eixos / pooled / stance / supporting` e `eixos / pooled / accuracy / accurate`.]],
+  image("/reports/01-impacto/figuras/fig06_postura_acuracia.png", width: 100%),
+  caption: [Postura e exatidão andam em direções opostas: #E.stance.supporting.pct das citações apoiam, mas #E.accuracy.accurate.pct dizem o que o artigo de fato diz.#footnote[audit_70 §eixos: `eixos / pooled / stance / supporting` e `eixos / pooled / accuracy / accurate`.]],
 ) <fig-postura>
 
 == Distorção
@@ -457,8 +475,8 @@ o erro se propaga: quem lê essa frase e cita a partir dela cita um artigo que
 não existe.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig07_distorcao.png", width: 84%),
-  caption: [Entre as citações inexatas, o desvio de significado domina com 16 casos, seguido pelo uso do artigo para afirmação sobre a qual ele nada diz, com 11.#footnote[audit_70 §eixos: `eixos / pooled / distortion / diversion` e `dead_end`.]],
+  image("/reports/01-impacto/figuras/fig07_distorcao.png", width: 100%),
+  caption: [Entre as citações inexatas, o desvio de significado domina com 16 casos, seguido pelo uso do artigo para afirmação sobre a qual ele nada diz, com #E.distortion.dead_end.n.#footnote[audit_70 §eixos: `eixos / pooled / distortion / diversion` e `dead_end`.]],
 ) <fig-distorcao>
 
 == Profundidade cruzada com quartil
@@ -471,7 +489,7 @@ A proporção de citação rasa em Q1 é praticamente a mesma do resto. O que mu
 com o quartil não é a profundidade da citação, é a chance de conseguir lê-la.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig08_profundidade_quartil.png", width: 88%),
+  image("/reports/01-impacto/figuras/fig08_profundidade_quartil.png", width: 100%),
   caption: [O quartil do periódico citante não prevê profundidade: o Q1 tem 29 menções breves para 3 citações fundacionais, a mesma proporção rasa dos demais quartis.#footnote[audit_70 §papel-quartil: `papel_quartil / pooled / matriz`.]],
 ) <fig-profundidade-quartil>
 
@@ -568,7 +586,7 @@ A régua aqui é estrita, e ficou mais estrita depois do teste cego: declarar
 o tratamento de endogeneidade, o instrumento ou a construção de variável é.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig10_alegacoes.png", width: 88%),
+  image("/reports/01-impacto/figuras/fig10_alegacoes.png", width: 100%),
   caption: [Poucas afirmações concentram quase todas as citações: o achado de internalização de congestionamento aparece em 18 citações e o trade-off entre oferta e perda em 11, enquanto a maioria das afirmações nunca é citada.#footnote[audit_70 §alegacoes: `alegacoes / claims / AIR-F01` e `GR-F09`.]],
 ) <fig-alegacoes>
 
@@ -577,11 +595,11 @@ o tratamento de endogeneidade, o instrumento ou a construção de variável é.
 O achado desta seção vem antes de qualquer leitura substantiva, e é sobre a
 régua. Dois índices de disrupção calculados sobre o mesmo grafo, com os mesmos
 dados e na mesma janela, apontam em direções opostas para o artigo de aviação.
-O índice CD padrão fica praticamente em zero, com CD5 de −0,011 e IC95% de
-−0,020 a −0,001.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `CD` e `ci_95 / CD`.]
+O índice CD padrão fica praticamente em zero, com CD5 de #dec(A5.CD) e IC95% de
+#dec(A5.ci_95.CD.at(0)) a #dec(A5.ci_95.CD.at(1)).#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `CD` e `ci_95 / CD`.]
 O DI5, que só conta como antecessor compartilhado o citante que traz cinco
-referências em comum, lê o mesmo artigo como deslocador, com 0,600 e IC95% de
-0,395 a 0,781.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `DI5 / value` e `ci_95 / DI5`.]
+referências em comum, lê o mesmo artigo como deslocador, com #dec(A5.DI5.value) e IC95% de
+#dec(A5.ci_95.DI5.at(0)) a #dec(A5.ci_95.DI5.at(1)).#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `DI5 / value` e `ci_95 / DI5`.]
 Não é erro de cálculo. É a dependência de variante que @leibel2024 descrevem
 como um multiverso de indicadores, e que @bornmann2020 já haviam exposto ao
 testar DI1 contra DI5 diante de avaliação por pares.
@@ -600,29 +618,29 @@ ignora os antecessores.
 ) <fig-cd-mecanismo>
 
 O terceiro grupo é o problema. Na janela de cinco anos do artigo de aviação
-existem 7 citantes do primeiro tipo e 18 do segundo, contra 1.016 do
+existem #A5.n_i citantes do primeiro tipo e #A5.n_j do segundo, contra #A5.n_k do
 terceiro.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5`, campos `n_i`, `n_j` e `n_k`.]
 O numerador tem dezenas, o denominador tem milhares, e o resultado é
 aritmeticamente obrigado a ficar perto de zero, qualquer que seja o conteúdo
 das citações. É a compressão que @wu2019b apontaram, e a variante que descarta
-o terceiro grupo devolve, para os mesmos dados, um valor de −0,440, isto é, o
+o terceiro grupo devolve, para os mesmos dados, um valor de #dec(A5.CD_nok), isto é, o
 lado consolidador da escala.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5 / CD_nok`.]
 
 O DI5 responde a outra pergunta. Ele só admite no grupo dos absorvidos o
 citante que compartilha cinco ou mais referências com o artigo, e joga fora do
-universo inteiro quem compartilha entre uma e quatro. Sobram 23 citantes do
-primeiro tipo, 2 do segundo e 10 do
+universo inteiro quem compartilha entre uma e quatro. Sobram #A5.DI5.n_i citantes do
+primeiro tipo, #A5.DI5.n_j do segundo e #A5.DI5.n_k do
 terceiro.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5 / DI5`, campos `n_i`, `n_j` e `n_k`.]
-O índice sobe para 0,600 na janela de cinco anos e 0,661 na de dez, com IC95%
-de 0,509 a 0,804.#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5 / DI5` e `windows / 10 / DI5`, com `ci_95 / DI5`.]
-Lido como está, o DI5 diz que quem cita o artigo de aviação em profundidade
-raramente cita junto o bloco de antecessores dele. Lido com cuidado, diz que
+O índice sobe para #dec(A5.DI5.value) na janela de cinco anos e #dec(A10.DI5.value) na de dez, com IC95%
+de #dec(A10.ci_95.DI5.at(0)) a #dec(A10.ci_95.DI5.at(1)).#footnote[audit_70 §cd: `cd / airline / cd_index / windows / 5 / DI5` e `windows / 10 / DI5`, com `ci_95 / DI5`.]
+Lido como está, o DI5 diz que poucos citantes do artigo de aviação
+compartilham o limiar exigido de antecessores; isso não mede profundidade de leitura. Lido com cuidado, diz que
 sobraram poucos casos para julgar.
 
-O artigo de grãos não produz sinal em nenhuma das duas leituras. O CD5 é 0,001,
-com IC95% de −0,001 a 0,003, e o DI5 é 0,306, com IC95% de 0,207 a
-0,412.#footnote[audit_70 §cd: `cd / grains / cd_index / windows / 5`, campos `CD`, `DI5 / value` e `ci_95`.]
-A compressão é ainda mais severa que na aviação, com 7.114 obras no terceiro
+No artigo de grãos, CD e DI5 também precisam ser interpretados separadamente. O CD5 é #dec(G5.CD),
+com IC95% de #dec(G5.ci_95.CD.at(0)) a #dec(G5.ci_95.CD.at(1)), e o DI5 é #dec(G5.DI5.value), com IC95% de #dec(G5.ci_95.DI5.at(0)) a
+#dec(G5.ci_95.DI5.at(1)).#footnote[audit_70 §cd: `cd / grains / cd_index / windows / 5`, campos `CD`, `DI5 / value` e `ci_95`.]
+A compressão é ainda mais severa que na aviação, com #G5.n_k obras no terceiro
 grupo, e a janela de dez anos não existe: o artigo é de 2019, e o script
 trunca o slot em sete anos e marca a
 truncagem.#footnote[audit_70 §cd: `cd / grains / cd_index / windows / 5 / n_k` e `windows / 10 / t` contra `t_nominal`.]
@@ -632,7 +650,7 @@ trabalho.
 
 #figure(
   image("/reports/01-impacto/figuras/fig13_cd.png", width: 100%),
-  caption: [O índice CD do artigo de aviação fica colado em zero nas quatro janelas enquanto o DI5 o lê como deslocador: −0,011 contra 0,600 na janela de cinco anos, sobre exatamente o mesmo grafo.#footnote[audit_70 §cd: `cd / airline / cd_index / windows`, campos `CD` e `DI5 / value` em cada janela.]],
+  caption: [O índice CD do artigo de aviação fica colado em zero nas quatro janelas enquanto o DI5 o lê como deslocador: #dec(A5.CD) contra #dec(A5.DI5.value) na janela de cinco anos, sobre exatamente o mesmo grafo.#footnote[audit_70 §cd: `cd / airline / cd_index / windows`, campos `CD` e `DI5 / value` em cada janela.]],
 ) <fig-cd>
 
 == O que a leitura de passagem acrescenta ao índice
@@ -644,7 +662,7 @@ profundidade, o artigo de aviação tem cinco citantes classificados no grupo qu
 o cita sem citar os antecessores, e nenhum deles é substantivo; as citações
 fundacionais e as que sustentam o desenho do citante estão todas no grupo que
 cita os dois lados. O teste exato de Fisher sobre essa tabela não rejeita
-independência.#footnote[`data/cd/cd_airline.json`, bloco `crosstab_t5`, campos `n_classified`, `role` e `fisher_substantive`. O bloco ainda não é exportado para `numeros.txt`.]
+independência.#footnote[`data/cd/cd_airline.json`, bloco `crosstab_t5`, campos `n_classified`, `role` e `fisher_substantive`. O bloco é exportado por audit_70 §cd em `cd / airline / cd_index / crosstab_t5`.]
 
 O resultado é pequeno, e por isso mesmo instrutivo. A crítica corrente ao
 índice, resumida por @leibel2024, é que ele mede prática de citação e não
@@ -657,12 +675,12 @@ que fazem as citações rasas.
 
 A outra maneira de sondar a fragilidade do índice é removê-lo peça por peça. O
 procedimento recalcula o CD5 tirando uma referência do conjunto de cada vez.
-Nenhuma remoção move o resultado além da terceira casa decimal, nos dois
-artigos. As duas que mais pesam no artigo de aviação puxam para lados opostos:
+O efeito de cada remoção está preservado no bloco de sensibilidade
+exportado; as mudanças são pequenas na escala completa do índice. As duas que mais pesam no artigo de aviação puxam para lados opostos:
 tirar a referência metodológica sobre valoração de bens novos empurra o CD5
 para baixo, e tirar o estudo sobre congestionamento aeroportuário com poder de
 mercado o empurra para
-cima.#footnote[`data/cd/cd_airline.json` e `cd_grains.json`, bloco `loo_cd5`, campo `top5_abs_delta`. O bloco ainda não é exportado para `numeros.txt`.]
+cima.#footnote[`data/cd/cd_airline.json` e `cd_grains.json`, bloco `loo_cd5`, campo `top5_abs_delta`. O bloco é exportado por audit_70 §cd em `cd / airline / cd_index / loo_cd5`.]
 No artigo de grãos, todas as cinco remoções mais influentes movem o valor na
 mesma direção, o que é coerente com um índice já colado em zero. A conclusão
 prática é que a instabilidade do CD aqui não vem de uma referência específica.
@@ -681,36 +699,36 @@ Só a co-citação dá um antes e um depois genuínos, porque é definida pelo
 comportamento posterior da comunidade e não pela lista de referências do
 próprio artigo, que é o que o acoplamento bibliográfico de @kessler1963 mede.
 
-A fração de obras que citam as duas vertentes sobe de 0,053, ou 29 de 543 antes
-de 2016, para 0,085, ou 48 de 565 depois, uma diferença de
-0,032.#footnote[audit_70 §cocitacao: `cocitacao / periods / main`, campos `pre` e `post`, `share_AB` e `N_union`, e `delta_share_AB`.]
-O cosseno de Salton acompanha, de 0,104 para 0,157. O teste exato de Fisher
-sobre período contra citar as duas vertentes dá p de 0,044, e uma permutação
+A fração de obras que citam as duas vertentes passa de #dec(CM.pre.share_AB), ou #CM.pre.N_AB de #CM.pre.N_union antes
+de 2016, para #dec(CM.post.share_AB), ou #CM.post.N_AB de #CM.post.N_union depois, uma diferença de
+#dec(CM.delta_share_AB).#footnote[audit_70 §cocitacao: `cocitacao / periods / main`, campos `pre` e `post`, `share_AB` e `N_union`, e `delta_share_AB`.]
+O cosseno de Salton acompanha, de #dec(CM.pre.salton_cosine) para #dec(CM.post.salton_cosine). O teste exato de Fisher
+sobre período contra citar as duas vertentes dá p de #dec(D.cocitacao.tests.fisher_period_x_cocites_both.p_two_sided), e uma permutação
 com 10.000 embaralhamentos do ano dentro do universo dá p de
 0,043.#footnote[audit_70 §cocitacao: `cocitacao / tests`, blocos `fisher_period_x_cocites_both` e `permutation_delta_share_AB_main`.]
 
 Os placebos ajudam a localizar o salto no tempo. Movendo o corte para 2011, a
-diferença some e fica em −0,001; movendo para 2020, ela cai para 0,011; e a
-variante que trata 2016 como zona de exclusão preserva o efeito, com
-0,029.#footnote[audit_70 §cocitacao: `cocitacao / periods`, blocos `placebo_2011`, `placebo_2020` e `sensitivity`, campo `delta_share_AB`.]
+diferença some e fica em #dec(D.cocitacao.periods.placebo_2011.delta_share_AB); movendo para 2020, ela fica em #dec(D.cocitacao.periods.placebo_2020.delta_share_AB); e a
+variante que trata 2016 como zona de exclusão produz diferença de
+#dec(D.cocitacao.periods.sensitivity.delta_share_AB).#footnote[audit_70 §cocitacao: `cocitacao / periods`, blocos `placebo_2011`, `placebo_2020` e `sensitivity`, campo `delta_share_AB`.]
 O deslocamento está no ano do artigo, e não em qualquer corte arbitrário da
 série.
 
 #figure(
   image("/reports/01-impacto/figuras/fig14_cocitacao.png", width: 100%),
-  caption: [A fração de obras que co-citam as duas vertentes sobe de 0,053 para 0,085 no corte de 2016, e nenhum dos dois placebos reproduz o salto.#footnote[audit_70 §cocitacao: `cocitacao / periods / main` e os blocos `placebo_2011` e `placebo_2020`.]],
+  caption: [A fração de obras que co-citam as duas vertentes passa de #dec(CM.pre.share_AB) para #dec(CM.post.share_AB) no corte de 2016, e nenhum dos dois placebos reproduz o salto.#footnote[audit_70 §cocitacao: `cocitacao / periods / main` e os blocos `placebo_2011` e `placebo_2020`.]],
 ) <fig-cocit>
 
 == Quem faz a ponte
 
 A pergunta seguinte é se o artigo está no caminho. Entre as obras que citam as
-duas vertentes depois de 2016, a fração que também cita o artigo é de 0,292, ou
-14 de 48; entre as que citam uma vertente só, é de 0,035, ou 18 de
-517.#footnote[audit_70 §cocitacao: `cocitacao / brokerage`, blocos `AB` e `single_strand`, campos `rate`, `k_cites_focal` e `n`.]
-A razão de chances é de 11,4, e o teste binomial exato contra a taxa de
+duas vertentes depois de 2016, a fração que também cita o artigo é de #dec(CB.AB.rate), ou
+#CB.AB.k_cites_focal de #CB.AB.n; entre as que citam uma vertente só, é de #dec(CB.single_strand.rate), ou #CB.single_strand.k_cites_focal de
+#CB.single_strand.n.#footnote[audit_70 §cocitacao: `cocitacao / brokerage`, blocos `AB` e `single_strand`, campos `rate`, `k_cites_focal` e `n`.]
+A razão de chances é de #dec(CB.odds_ratio_AB_vs_single), e o teste binomial exato contra a taxa de
 vertente única rejeita a igualdade com p abaixo de
 0,001.#footnote[audit_70 §cocitacao: `cocitacao / brokerage`, campos `odds_ratio_AB_vs_single` e `binom_test_AB_vs_single_p0`.]
-Visto do outro lado, dos 49 citantes do artigo na janela, 14 citam as duas
+Visto do outro lado, dos #CB.n_focal_citers_in_window citantes do artigo na janela, #CB.AB.k_cites_focal citam as duas
 vertentes.#footnote[audit_70 §cocitacao: `cocitacao / brokerage`, campos `n_focal_citers_in_window` e `AB / k_cites_focal`.]
 
 A confirmação mais direta não é estatística, é textual. Dois citantes dizem
@@ -742,7 +760,7 @@ Os dois cálculos rodaram com o Semantic Scholar como backend, porque a cota
 diária do OpenAlex tinha zerado. A troca deixa marca. O `s2_citation_count` do
 artigo de aviação e o do de grãos ficam abaixo do `cited_by_count` do OpenAlex,
 entre 8% e 10% menos citantes nos dois
-casos.#footnote[`data/cd/cd_airline.json` e `cd_grains.json`, bloco `checks_global`, campos `cited_by_count`, `s2_citation_count` e `n_p_citers_all_time`. O bloco ainda não é exportado para `numeros.txt`.]
+casos.#footnote[`data/cd/cd_airline.json` e `cd_grains.json`, bloco `checks_global`, campos `cited_by_count`, `s2_citation_count` e `n_p_citers_all_time`. O bloco é exportado por audit_70 §cd em `cd / airline / cd_index / crosstab_t5`.]
 O mapeamento de identificadores também perde peças: 6 das 26 referências
 válidas do artigo de aviação e 5 das 35 do de grãos não encontraram par no
 Semantic Scholar.#footnote[audit_70 §cd: `cd / airline / refs_audit / n_valid` e `cd / grains / refs_audit / n_valid`; o detalhe do que não mapeou está em `data/cd/id_map_airline.json` e `id_map_grains.json`.]
@@ -845,15 +863,15 @@ menções no corpo, `D_ind` são as menções no corpo com vínculo independente
 )
 
 Três leituras merecem destaque, e as três dependem de o denominador estar
-certo. A primeira: a citação-fantasma deste estudo é 1 em 104 sob a régua
+certo. A primeira: a citação-fantasma deste estudo é #D.fantasmas_auditados.summary.ghost_rate.D_read.numerator em #D.fantasmas_auditados.summary.ghost_rate.D_read.denominator sob a régua
 dura.#footnote[audit_70 §fantasmas: `fantasmas_auditados / summary / ghost_rate / D_read`.]
 É praticamente a taxa-base publicada, e não as várias vezes ela que a contagem
 bruta sugeria antes da auditoria da §7. A segunda: a citação perfunctória bate
-68 em 92, bem acima dos comparadores de função de
+#E.perfunctorio.n em #E.presence.in_text.n, bem acima dos comparadores de função de
 citação.#footnote[audit_70 §taxa-base: `taxa_base / rows`, linha `perfunctory`, `results / pooled`.]
 Isso é esperado num corpus de dois artigos de método aplicado. A terceira: a má
-atribuição, na categoria maior, é 16 em
-92.#footnote[audit_70 §taxa-base: `taxa_base / rows`, linha `misrepresented_major`, `results / pooled`.]
+atribuição, na categoria maior, é #E.accuracy.misrepresented.n em
+#E.presence.in_text.n.#footnote[audit_70 §taxa-base: `taxa_base / rows`, linha `misrepresented_major`, `results / pooled`.]
 O comparador direto para essa categoria isolada não existe na literatura
 consultada, porque os estudos de erro de citação em geral somam erro menor e
 erro maior num total só.
@@ -865,7 +883,7 @@ texto original de cada fonte. Enquanto isso não acontecer, a coluna da
 literatura é orientação, não resultado.
 
 #figure(
-  image("/reports/01-impacto/figuras/fig12_taxa_base.png", width: 88%),
+  image("/reports/01-impacto/figuras/fig12_taxa_base.png", width: 100%),
   caption: [Cada indicador com seu IC95% de Wilson contra o valor publicado. A citação perfunctória fica acima do comparador; a citação-fantasma, sob a régua dura da auditoria, fica na mesma ordem de grandeza dele.#footnote[audit_70 §taxa-base: `taxa_base / rows`, campos `results / pooled / rate` e `ci95_wilson`.]],
 ) <fig-taxa-base>
 

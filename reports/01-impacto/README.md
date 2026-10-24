@@ -21,3 +21,12 @@ vazio é resultado, não omissão.
 
 Diagramas de mecanismo (`figuras.typ`) são Typst nativo, sem número dentro; figuras de
 medida (`figuras/*.png`) saem de `tools/audit_81_figures.py` lendo só `dados.json`.
+
+A edição atual usa a composição local `vita.typ` e os tokens em
+[`tools/vita_tokens.json`](../../tools/vita_tokens.json). Inter e JetBrains Mono
+são as fontes OFL portáteis; Optimistic VF não é redistribuída.
+O painel HTML usa as mesmas fontes locais, sem downloads externos.
+
+A [revisão da atualização](revisao-atualizacao.md) preserva as contagens anteriores,
+explica a leitura adicional e registra os limites dos grafos. Para regenerá-la,
+rode `python3 tools/audit_83_review.py`; `--check` também confere os achados do README.

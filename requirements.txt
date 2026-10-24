@@ -6,7 +6,7 @@
 #
 # numpy já serve à fase 60 (audit_62_irr_stats.py — estatística de
 # concordância entre codificadores). As duas pins servem também à fase 81
-# (audit_81_figures.py, reservada em ROADMAP.md, ainda não escrita) — os
+# (audit_81_figures.py, implementada) — os
 # gráficos do relatório precisam de versão fixa para reproduzir byte a byte.
 matplotlib==3.11.1
 numpy==2.4.6

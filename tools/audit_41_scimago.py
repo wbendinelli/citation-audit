@@ -108,7 +108,11 @@ else:
         issns = norm_issn(m.get("issn_l") or "") | norm_issn(
             " ".join(m.get("issn") or [])
         )
-        row = next((idx[i] for i in issns if i in idx), None)
+        # ISSN-L tem prioridade; o resto é ordenado. Iterar um set fazia
+        # o quartil oscilar entre execuções quando os ISSNs casavam linhas distintas.
+        principais = sorted(norm_issn(m.get("issn_l") or ""))
+        ordem = principais + sorted(issns - set(principais))
+        row = next((idx[i] for i in ordem if i in idx), None)
         sc = scimago_de(row)
         if sc is not None:
             casou += 1

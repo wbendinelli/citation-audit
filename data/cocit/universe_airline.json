@@ -1,5 +1,5 @@
 {
- "n": 1108,
+ "n": 1109,
  "paper": "airline",
  "records": [
   {
@@ -809,15 +809,6 @@
    ],
    "seeds_B_cited": [],
    "year": 2020
-  },
-  {
-   "cites_focal": false,
-   "id": "1231c062e9e6b7e63d0d9266766db4a5fabef7d6",
-   "seeds_A_cited": [],
-   "seeds_B_cited": [
-    15
-   ],
-   "year": 2017
   },
   {
    "cites_focal": false,
@@ -2342,6 +2333,15 @@
   },
   {
    "cites_focal": false,
+   "id": "33fdf0010a6030bc707c13741d2acd63bd6a1172",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    19
+   ],
+   "year": 2025
+  },
+  {
+   "cites_focal": false,
    "id": "3554d7058f2ef08b994bb6a8a35cf9b5e17fe982",
    "seeds_A_cited": [],
    "seeds_B_cited": [
@@ -3252,6 +3252,15 @@
     15
    ],
    "year": 2014
+  },
+  {
+   "cites_focal": false,
+   "id": "4b7d1a14b4e89a8fc04693c78fdcf06e4fd485af",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    24
+   ],
+   "year": 2026
   },
   {
    "cites_focal": false,
@@ -4787,6 +4796,15 @@
   },
   {
    "cites_focal": false,
+   "id": "73822e3127ae585459122f23442e0f15d231a951",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2014
+  },
+  {
+   "cites_focal": false,
    "id": "74078526e37b0de3f752281a7ffab048b2da4cca",
    "seeds_A_cited": [],
    "seeds_B_cited": [
@@ -6266,6 +6284,15 @@
    ],
    "seeds_B_cited": [],
    "year": 2013
+  },
+  {
+   "cites_focal": false,
+   "id": "95fde36933ea9fb5f82072da3e833ed1b36b8640",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
   },
   {
    "cites_focal": false,
@@ -9080,15 +9107,6 @@
   },
   {
    "cites_focal": false,
-   "id": "d75737706178a85848f3d19a8f1be681f7cb4a1e",
-   "seeds_A_cited": [],
-   "seeds_B_cited": [
-    15
-   ],
-   "year": 2005
-  },
-  {
-   "cites_focal": false,
    "id": "d758453fdca78d55f05b75a4befefff23e2d8c00",
    "seeds_A_cited": [
     9
@@ -9526,6 +9544,15 @@
   },
   {
    "cites_focal": false,
+   "id": "e468b0c01ee4c9986614ab63189979510b044a04",
+   "seeds_A_cited": [],
+   "seeds_B_cited": [
+    15
+   ],
+   "year": 2005
+  },
+  {
+   "cites_focal": false,
    "id": "e47e642db58da6b577e7a210f1f0689a5f01a950",
    "seeds_A_cited": [
     5
@@ -9808,15 +9835,6 @@
   },
   {
    "cites_focal": false,
-   "id": "ec1c2e26853c13273b997499d338c68e8c5379f3",
-   "seeds_A_cited": [],
-   "seeds_B_cited": [
-    15
-   ],
-   "year": 2014
-  },
-  {
-   "cites_focal": false,
    "id": "ec39fdb4b171af8dce70675dab6f7616988476dc",
    "seeds_A_cited": [],
    "seeds_B_cited": [
@@ -9880,15 +9898,6 @@
     15
    ],
    "year": 2014
-  },
-  {
-   "cites_focal": false,
-   "id": "eceff881b6f24c2e6a400cbdaa778de073452b1b",
-   "seeds_A_cited": [],
-   "seeds_B_cited": [
-    15
-   ],
-   "year": 2012
   },
   {
    "cites_focal": false,
@@ -10591,6 +10600,7 @@
    "id": "fd81a425fefb714ec8851081e90b19729c21de62",
    "seeds_A_cited": [
     5,
+    9,
     26
    ],
    "seeds_B_cited": [],
@@ -10701,5 +10711,5 @@
    "year": 2021
   }
  ],
- "snapshot_date": "2026-09-04"
+ "snapshot_date": "2026-10-24"
 }

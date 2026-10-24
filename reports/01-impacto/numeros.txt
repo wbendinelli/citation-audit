@@ -1,9 +1,922 @@
+== audit_70 §atualizacao ==
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / CD: -0,003
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / CD_nok: -0,333
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI2 / n_i: 1
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI2 / n_j: 2
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI2 / n_k: 60
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI2 / value: -0,016
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI5 / n_i: 3
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI5 / n_j: 0
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI5 / n_k: 2
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / DI5 / value: 0,600
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / checks / ni_plus_nj: 3
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / checks / p_citers_in_window: 3
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / CD / 0: -0,011
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / CD / 1: 0,006
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / CD_nok / 0: -1,000
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / CD_nok / 1: 1,000
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 0: -0,069
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 1: 0,036
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / DI5 / 0: 0,000
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / DI5 / 1: 1,000
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 0: -0,011
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 1: 0,006
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / holst / CD: -0,003
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / holst / n_i: 1
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / holst / n_j: 2
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / holst / n_k: 351
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / n_i: 1
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / n_j: 2
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / n_k: 351
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / n_window: 354
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / t: 1
+atualizacao / anterior / cd / airline / cd_index / windows / 1 / t_nominal: 1
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / CD: -0,012
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / CD_nok: -0,347
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI2 / n_i: 23
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI2 / n_j: 26
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI2 / n_k: 220
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI2 / value: -0,011
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI5 / n_i: 45
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI5 / n_j: 4
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI5 / n_k: 13
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / DI5 / value: 0,661
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / checks / ni_plus_nj: 49
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / checks / p_citers_in_window: 49
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / CD / 0: -0,021
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / CD / 1: -0,002
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,600
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 1: -0,070
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 0: -0,061
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,040
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,509
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,804
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 0: -0,021
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 1: -0,002
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / holst / CD: -0,012
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / holst / n_i: 16
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / holst / n_j: 33
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / holst / n_k: 1.410
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / n_i: 16
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / n_j: 33
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / n_k: 1.410
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / n_window: 1.459
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / t: 10
+atualizacao / anterior / cd / airline / cd_index / windows / 10 / t_nominal: 10
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / CD: -0,007
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / CD_nok: -0,333
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI2 / n_i: 7
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI2 / n_j: 8
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI2 / n_k: 101
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI2 / value: -0,009
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI5 / n_i: 14
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI5 / n_j: 1
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI5 / n_k: 8
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / DI5 / value: 0,565
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / checks / ni_plus_nj: 15
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / checks / p_citers_in_window: 15
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / CD / 0: -0,017
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / CD / 1: 0,003
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,800
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,177
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 0: -0,076
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 1: 0,058
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,320
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,789
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 0: -0,017
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 1: 0,003
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / holst / CD: -0,007
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / holst / n_i: 5
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / holst / n_j: 10
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / holst / n_k: 734
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / n_i: 5
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / n_j: 10
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / n_k: 734
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / n_window: 749
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / t: 3
+atualizacao / anterior / cd / airline / cd_index / windows / 3 / t_nominal: 3
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / CD: -0,011
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / CD_nok: -0,440
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI2 / n_i: 10
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI2 / n_j: 15
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI2 / n_k: 153
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI2 / value: -0,028
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI5 / n_i: 23
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI5 / n_j: 2
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI5 / n_k: 10
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / DI5 / value: 0,600
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / checks / ni_plus_nj: 25
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / checks / p_citers_in_window: 25
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / CD / 0: -0,020
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / CD / 1: -0,001
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,769
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 1: -0,066
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 0: -0,083
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 1: 0,025
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,395
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,781
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 0: -0,020
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 1: -0,001
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / holst / CD: -0,011
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / holst / n_i: 7
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / holst / n_j: 18
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / holst / n_k: 1.016
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / n_i: 7
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / n_j: 18
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / n_k: 1.016
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / n_window: 1.041
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / t: 5
+atualizacao / anterior / cd / airline / cd_index / windows / 5 / t_nominal: 5
+atualizacao / anterior / cd / airline / refs_audit / n_false_references: 0
+atualizacao / anterior / cd / airline / refs_audit / n_openalex_raw: 30
+atualizacao / anterior / cd / airline / refs_audit / n_pdf: 26
+atualizacao / anterior / cd / airline / refs_audit / n_unresolvable: 0
+atualizacao / anterior / cd / airline / refs_audit / n_valid: 26
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / CD: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / CD_nok: 1,000
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI2 / n_i: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI2 / n_j: 0
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI2 / n_k: 519
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI2 / value: 0,006
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI5 / n_i: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI5 / n_j: 0
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI5 / n_k: 28
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / DI5 / value: 0,097
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / checks / ni_plus_nj: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / checks / p_citers_in_window: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / CD / 0: 0,000
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / CD / 1: 0,002
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / CD_nok / 0: 1,000
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / CD_nok / 1: 1,000
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / DI2 / 0: 0,000
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / DI2 / 1: 0,013
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / DI5 / 0: 0,000
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / DI5 / 1: 0,217
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / holst_CD / 0: 0,000
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / ci_95 / holst_CD / 1: 0,002
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / holst / CD: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / holst / n_i: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / holst / n_j: 0
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / holst / n_k: 2.863
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / n_i: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / n_j: 0
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / n_k: 2.863
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / n_window: 2.866
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / t: 1
+atualizacao / anterior / cd / grains / cd_index / windows / 1 / t_nominal: 1
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / CD: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / CD_nok: 0,132
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI2 / n_i: 39
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI2 / n_j: 14
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI2 / n_k: 1.306
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI2 / value: 0,018
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI5 / n_i: 50
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI5 / n_j: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI5 / n_k: 64
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / DI5 / value: 0,402
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / checks / ni_plus_nj: 53
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / checks / p_citers_in_window: 53
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / CD / 0: -0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / CD / 1: 0,002
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,121
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 1: 0,404
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 0: 0,009
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,029
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,302
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,495
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / holst_CD / 0: -0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / ci_95 / holst_CD / 1: 0,002
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / holst / CD: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / holst / n_i: 30
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / holst / n_j: 23
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / holst / n_k: 8.482
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / n_i: 30
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / n_j: 23
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / n_k: 8.482
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / n_window: 8.535
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / t: 7
+atualizacao / anterior / cd / grains / cd_index / windows / 10 / t_nominal: 10
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / CD: 0,000
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / CD_nok: -0,091
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI2 / n_i: 13
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI2 / n_j: 9
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI2 / n_k: 904
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI2 / value: 0,004
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI5 / n_i: 20
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI5 / n_j: 2
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI5 / n_k: 48
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / DI5 / value: 0,257
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / checks / ni_plus_nj: 22
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / checks / p_citers_in_window: 22
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / CD / 0: -0,002
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / CD / 1: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,500
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,333
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / DI2 / 0: -0,005
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / DI2 / 1: 0,014
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,145
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,378
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / holst_CD / 0: -0,002
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / ci_95 / holst_CD / 1: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / holst / CD: 0,000
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / holst / n_i: 10
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / holst / n_j: 12
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / holst / n_k: 5.345
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / n_i: 10
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / n_j: 12
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / n_k: 5.345
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / n_window: 5.367
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / t: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 3 / t_nominal: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / CD: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / CD_nok: 0,167
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI2 / n_i: 25
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI2 / n_j: 11
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI2 / n_k: 1.139
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI2 / value: 0,012
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI5 / n_i: 33
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI5 / n_j: 3
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI5 / n_k: 62
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / DI5 / value: 0,306
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / checks / ni_plus_nj: 36
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / checks / p_citers_in_window: 36
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / CD / 0: -0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / CD / 1: 0,003
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,167
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 1: 0,471
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / DI2 / 0: 0,002
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / DI2 / 1: 0,022
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,207
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,412
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / holst_CD / 0: -0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / ci_95 / holst_CD / 1: 0,003
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / holst / CD: 0,001
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / holst / n_i: 21
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / holst / n_j: 15
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / holst / n_k: 7.114
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / n_i: 21
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / n_j: 15
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / n_k: 7.114
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / n_window: 7.150
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / t: 5
+atualizacao / anterior / cd / grains / cd_index / windows / 5 / t_nominal: 5
+atualizacao / anterior / cd / grains / refs_audit / false_references / 0 / ano: 2.009
+atualizacao / anterior / cd / grains / refs_audit / false_references / 1 / ano: 1.982
+atualizacao / anterior / cd / grains / refs_audit / false_references / 2 / ano: 2.015
+atualizacao / anterior / cd / grains / refs_audit / false_references / 3 / ano: 2.014
+atualizacao / anterior / cd / grains / refs_audit / n_false_references: 4
+atualizacao / anterior / cd / grains / refs_audit / n_openalex_raw: 45
+atualizacao / anterior / cd / grains / refs_audit / n_pdf: 45
+atualizacao / anterior / cd / grains / refs_audit / n_unresolvable: 10
+atualizacao / anterior / cd / grains / refs_audit / n_valid: 35
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 0 / ano: 2.012
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 0 / n_no_pdf: 2
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 1 / ano: 2.018
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 1 / n_no_pdf: 3
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 2 / ano: 2.001
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 2 / n_no_pdf: 11
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 3 / ano: 2.018
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 3 / n_no_pdf: 13
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 4 / ano: 2.017
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 4 / n_no_pdf: 14
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 5 / ano: 2.000
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 5 / n_no_pdf: 17
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 6 / ano: 2.014
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 6 / n_no_pdf: 21
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 7 / ano: 2.014
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 7 / n_no_pdf: 36
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 8 / ano: 2.017
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 8 / n_no_pdf: 41
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 9 / ano: 2.017
+atualizacao / anterior / cd / grains / refs_audit / unresolvable / 9 / n_no_pdf: 44
+atualizacao / anterior / cobertura_quartil / Q1 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / Q1 / fantasma: 5
+atualizacao / anterior / cobertura_quartil / Q1 / pct_evidencia: 91% (63/69)
+atualizacao / anterior / cobertura_quartil / Q1 / pct_trecho: 84% (58/69)
+atualizacao / anterior / cobertura_quartil / Q1 / pendente: 6
+atualizacao / anterior / cobertura_quartil / Q1 / total: 69
+atualizacao / anterior / cobertura_quartil / Q1 / trecho: 58
+atualizacao / anterior / cobertura_quartil / Q2 / aresta_falsa: 1
+atualizacao / anterior / cobertura_quartil / Q2 / fantasma: 0
+atualizacao / anterior / cobertura_quartil / Q2 / pct_evidencia: 63% (10/16)
+atualizacao / anterior / cobertura_quartil / Q2 / pct_trecho: 63% (10/16)
+atualizacao / anterior / cobertura_quartil / Q2 / pendente: 5
+atualizacao / anterior / cobertura_quartil / Q2 / total: 16
+atualizacao / anterior / cobertura_quartil / Q2 / trecho: 10
+atualizacao / anterior / cobertura_quartil / Q3 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / Q3 / fantasma: 1
+atualizacao / anterior / cobertura_quartil / Q3 / pct_evidencia: 75% (6/8)
+atualizacao / anterior / cobertura_quartil / Q3 / pct_trecho: 63% (5/8)
+atualizacao / anterior / cobertura_quartil / Q3 / pendente: 2
+atualizacao / anterior / cobertura_quartil / Q3 / total: 8
+atualizacao / anterior / cobertura_quartil / Q3 / trecho: 5
+atualizacao / anterior / cobertura_quartil / Q4 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / Q4 / fantasma: 0
+atualizacao / anterior / cobertura_quartil / Q4 / pct_evidencia: 20% (1/5)
+atualizacao / anterior / cobertura_quartil / Q4 / pct_trecho: 20% (1/5)
+atualizacao / anterior / cobertura_quartil / Q4 / pendente: 4
+atualizacao / anterior / cobertura_quartil / Q4 / total: 5
+atualizacao / anterior / cobertura_quartil / Q4 / trecho: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q1 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q1 / fantasma: 3
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q1 / pct_evidencia: 95% (41/43)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q1 / pct_trecho: 88% (38/43)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q1 / pendente: 2
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q1 / total: 43
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q1 / trecho: 38
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q2 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q2 / fantasma: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q2 / pct_evidencia: 100% (4/4)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q2 / pct_trecho: 100% (4/4)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q2 / pendente: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q2 / total: 4
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q2 / trecho: 4
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q3 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q3 / fantasma: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q3 / pct_evidencia: 0% (0/1)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q3 / pct_trecho: 0% (0/1)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q3 / pendente: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q3 / total: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q3 / trecho: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q4 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q4 / fantasma: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q4 / pct_evidencia: 50% (1/2)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q4 / pct_trecho: 50% (1/2)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q4 / pendente: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q4 / total: 2
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / Q4 / trecho: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / total / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / total / fantasma: 3
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / total / pct_evidencia: 92% (46/50)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / total / pct_trecho: 86% (43/50)
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / total / pendente: 4
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / total / total: 50
+atualizacao / anterior / cobertura_quartil / por_artigo / airline / total / trecho: 43
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q1 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q1 / fantasma: 2
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q1 / pct_evidencia: 85% (22/26)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q1 / pct_trecho: 77% (20/26)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q1 / pendente: 4
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q1 / total: 26
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q1 / trecho: 20
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q2 / aresta_falsa: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q2 / fantasma: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q2 / pct_evidencia: 50% (6/12)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q2 / pct_trecho: 50% (6/12)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q2 / pendente: 5
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q2 / total: 12
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q2 / trecho: 6
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q3 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q3 / fantasma: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q3 / pct_evidencia: 86% (6/7)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q3 / pct_trecho: 71% (5/7)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q3 / pendente: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q3 / total: 7
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q3 / trecho: 5
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q4 / aresta_falsa: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q4 / fantasma: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q4 / pct_evidencia: 0% (0/3)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q4 / pct_trecho: 0% (0/3)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q4 / pendente: 3
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q4 / total: 3
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / Q4 / trecho: 0
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / total / aresta_falsa: 1
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / total / fantasma: 3
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / total / pct_evidencia: 71% (34/48)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / total / pct_trecho: 65% (31/48)
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / total / pendente: 13
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / total / total: 48
+atualizacao / anterior / cobertura_quartil / por_artigo / grains / total / trecho: 31
+atualizacao / anterior / cobertura_quartil / total / aresta_falsa: 1
+atualizacao / anterior / cobertura_quartil / total / fantasma: 6
+atualizacao / anterior / cobertura_quartil / total / pct_evidencia: 82% (80/98)
+atualizacao / anterior / cobertura_quartil / total / pct_trecho: 76% (74/98)
+atualizacao / anterior / cobertura_quartil / total / pendente: 17
+atualizacao / anterior / cobertura_quartil / total / total: 98
+atualizacao / anterior / cobertura_quartil / total / trecho: 74
+atualizacao / anterior / cocitacao / brokerage / AB / k_cites_focal: 14
+atualizacao / anterior / cocitacao / brokerage / AB / n: 48
+atualizacao / anterior / cocitacao / brokerage / AB / rate: 0,292
+atualizacao / anterior / cocitacao / brokerage / A_only / k_cites_focal: 8
+atualizacao / anterior / cocitacao / brokerage / A_only / n: 247
+atualizacao / anterior / cocitacao / brokerage / A_only / rate: 0,032
+atualizacao / anterior / cocitacao / brokerage / B_only / k_cites_focal: 10
+atualizacao / anterior / cocitacao / brokerage / B_only / n: 270
+atualizacao / anterior / cocitacao / brokerage / B_only / rate: 0,037
+atualizacao / anterior / cocitacao / brokerage / binom_test_AB_vs_single_p0 / k: 14
+atualizacao / anterior / cocitacao / brokerage / binom_test_AB_vs_single_p0 / n: 48
+atualizacao / anterior / cocitacao / brokerage / binom_test_AB_vs_single_p0 / p0: 0,035
+atualizacao / anterior / cocitacao / brokerage / binom_test_AB_vs_single_p0 / p_two_sided: 0,000
+atualizacao / anterior / cocitacao / brokerage / brokerage_share: 0,292
+atualizacao / anterior / cocitacao / brokerage / n_focal_citers_in_window: 49
+atualizacao / anterior / cocitacao / brokerage / odds_ratio_AB_vs_A_only: 12,301
+atualizacao / anterior / cocitacao / brokerage / odds_ratio_AB_vs_B_only: 10,706
+atualizacao / anterior / cocitacao / brokerage / odds_ratio_AB_vs_single: 11,415
+atualizacao / anterior / cocitacao / brokerage / post_window / 0: 2.016
+atualizacao / anterior / cocitacao / brokerage / post_window / 1: 2.026
+atualizacao / anterior / cocitacao / brokerage / single_strand / k_cites_focal: 18
+atualizacao / anterior / cocitacao / brokerage / single_strand / n: 517
+atualizacao / anterior / cocitacao / brokerage / single_strand / rate: 0,035
+atualizacao / anterior / cocitacao / passage_confirmation / n_hits: 2
+atualizacao / anterior / cocitacao / periods / main / delta_share_AB: 0,032
+atualizacao / anterior / cocitacao / periods / main / post / N_A: 295
+atualizacao / anterior / cocitacao / periods / main / post / N_AB: 48
+atualizacao / anterior / cocitacao / periods / main / post / N_B: 318
+atualizacao / anterior / cocitacao / periods / main / post / N_union: 565
+atualizacao / anterior / cocitacao / periods / main / post / jaccard: 0,085
+atualizacao / anterior / cocitacao / periods / main / post / salton_cosine: 0,157
+atualizacao / anterior / cocitacao / periods / main / post / share_AB: 0,085
+atualizacao / anterior / cocitacao / periods / main / post_range / 0: 2.016
+atualizacao / anterior / cocitacao / periods / main / post_range / 1: 2.026
+atualizacao / anterior / cocitacao / periods / main / pre / N_A: 354
+atualizacao / anterior / cocitacao / periods / main / pre / N_AB: 29
+atualizacao / anterior / cocitacao / periods / main / pre / N_B: 218
+atualizacao / anterior / cocitacao / periods / main / pre / N_union: 543
+atualizacao / anterior / cocitacao / periods / main / pre / jaccard: 0,053
+atualizacao / anterior / cocitacao / periods / main / pre / salton_cosine: 0,104
+atualizacao / anterior / cocitacao / periods / main / pre / share_AB: 0,053
+atualizacao / anterior / cocitacao / periods / main / pre_range / 0: 2.003
+atualizacao / anterior / cocitacao / periods / main / pre_range / 1: 2.015
+atualizacao / anterior / cocitacao / periods / placebo_2011 / delta_share_AB: -0,001
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post / N_A: 462
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post / N_AB: 59
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post / N_B: 450
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post / N_union: 853
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post / jaccard: 0,069
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post / salton_cosine: 0,129
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post / share_AB: 0,069
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post_range / 0: 2.011
+atualizacao / anterior / cocitacao / periods / placebo_2011 / post_range / 1: 2.026
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre / N_A: 187
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre / N_AB: 18
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre / N_B: 86
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre / N_union: 255
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre / jaccard: 0,071
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre / salton_cosine: 0,142
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre / share_AB: 0,071
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre_range / 0: 2.003
+atualizacao / anterior / cocitacao / periods / placebo_2011 / pre_range / 1: 2.010
+atualizacao / anterior / cocitacao / periods / placebo_2020 / delta_share_AB: 0,011
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post / N_A: 168
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post / N_AB: 25
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post / N_B: 180
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post / N_union: 323
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post / jaccard: 0,077
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post / salton_cosine: 0,144
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post / share_AB: 0,077
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post_range / 0: 2.020
+atualizacao / anterior / cocitacao / periods / placebo_2020 / post_range / 1: 2.026
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre / N_A: 481
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre / N_AB: 52
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre / N_B: 356
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre / N_union: 785
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre / jaccard: 0,066
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre / salton_cosine: 0,126
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre / share_AB: 0,066
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre_range / 0: 2.003
+atualizacao / anterior / cocitacao / periods / placebo_2020 / pre_range / 1: 2.019
+atualizacao / anterior / cocitacao / periods / sensitivity / delta_share_AB: 0,029
+atualizacao / anterior / cocitacao / periods / sensitivity / post / N_A: 272
+atualizacao / anterior / cocitacao / periods / sensitivity / post / N_AB: 43
+atualizacao / anterior / cocitacao / periods / sensitivity / post / N_B: 292
+atualizacao / anterior / cocitacao / periods / sensitivity / post / N_union: 521
+atualizacao / anterior / cocitacao / periods / sensitivity / post / jaccard: 0,083
+atualizacao / anterior / cocitacao / periods / sensitivity / post / salton_cosine: 0,153
+atualizacao / anterior / cocitacao / periods / sensitivity / post / share_AB: 0,083
+atualizacao / anterior / cocitacao / periods / sensitivity / post_range / 0: 2.017
+atualizacao / anterior / cocitacao / periods / sensitivity / post_range / 1: 2.026
+atualizacao / anterior / cocitacao / periods / sensitivity / pre / N_A: 354
+atualizacao / anterior / cocitacao / periods / sensitivity / pre / N_AB: 29
+atualizacao / anterior / cocitacao / periods / sensitivity / pre / N_B: 218
+atualizacao / anterior / cocitacao / periods / sensitivity / pre / N_union: 543
+atualizacao / anterior / cocitacao / periods / sensitivity / pre / jaccard: 0,053
+atualizacao / anterior / cocitacao / periods / sensitivity / pre / salton_cosine: 0,104
+atualizacao / anterior / cocitacao / periods / sensitivity / pre / share_AB: 0,053
+atualizacao / anterior / cocitacao / periods / sensitivity / pre_range / 0: 2.003
+atualizacao / anterior / cocitacao / periods / sensitivity / pre_range / 1: 2.015
+atualizacao / anterior / cocitacao / tests / fisher_period_x_cocites_both / p_two_sided: 0,044
+atualizacao / anterior / cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 0 / 0: 29
+atualizacao / anterior / cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 0 / 1: 514
+atualizacao / anterior / cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 1 / 0: 48
+atualizacao / anterior / cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 1 / 1: 517
+atualizacao / anterior / cocitacao / tests / permutation_delta_share_AB_main / delta_observed: 0,032
+atualizacao / anterior / cocitacao / tests / permutation_delta_share_AB_main / n_perm: 10.000
+atualizacao / anterior / cocitacao / tests / permutation_delta_share_AB_main / p_value: 0,043
+atualizacao / anterior / cocitacao / tests / permutation_delta_share_AB_main / share_post_observed: 0,085
+atualizacao / anterior / cocitacao / tests / permutation_delta_share_AB_main / share_pre_observed: 0,053
+atualizacao / anterior / eixos / airline / accuracy / accurate / D: 52
+atualizacao / anterior / eixos / airline / accuracy / accurate / n: 37
+atualizacao / anterior / eixos / airline / accuracy / accurate / valor: 0,712
+atualizacao / anterior / eixos / airline / accuracy / imprecise / D: 52
+atualizacao / anterior / eixos / airline / accuracy / imprecise / n: 8
+atualizacao / anterior / eixos / airline / accuracy / imprecise / valor: 0,154
+atualizacao / anterior / eixos / airline / accuracy / misrepresented / D: 52
+atualizacao / anterior / eixos / airline / accuracy / misrepresented / n: 7
+atualizacao / anterior / eixos / airline / accuracy / misrepresented / valor: 0,135
+atualizacao / anterior / eixos / airline / background_like / D: 52
+atualizacao / anterior / eixos / airline / background_like / n: 45
+atualizacao / anterior / eixos / airline / background_like / valor: 0,865
+atualizacao / anterior / eixos / airline / depth / brief_mention / D: 52
+atualizacao / anterior / eixos / airline / depth / brief_mention / n: 29
+atualizacao / anterior / eixos / airline / depth / brief_mention / valor: 0,558
+atualizacao / anterior / eixos / airline / depth / drive_by / D: 52
+atualizacao / anterior / eixos / airline / depth / drive_by / n: 5
+atualizacao / anterior / eixos / airline / depth / drive_by / valor: 0,096
+atualizacao / anterior / eixos / airline / depth / foundational / D: 52
+atualizacao / anterior / eixos / airline / depth / foundational / n: 4
+atualizacao / anterior / eixos / airline / depth / foundational / valor: 0,077
+atualizacao / anterior / eixos / airline / depth / real_mention / D: 52
+atualizacao / anterior / eixos / airline / depth / real_mention / n: 11
+atualizacao / anterior / eixos / airline / depth / real_mention / valor: 0,212
+atualizacao / anterior / eixos / airline / depth / supporting / D: 52
+atualizacao / anterior / eixos / airline / depth / supporting / n: 3
+atualizacao / anterior / eixos / airline / depth / supporting / valor: 0,058
+atualizacao / anterior / eixos / airline / distortion / dead_end / D: 52
+atualizacao / anterior / eixos / airline / distortion / dead_end / n: 4
+atualizacao / anterior / eixos / airline / distortion / dead_end / valor: 0,077
+atualizacao / anterior / eixos / airline / distortion / diversion / D: 52
+atualizacao / anterior / eixos / airline / distortion / diversion / n: 6
+atualizacao / anterior / eixos / airline / distortion / diversion / valor: 0,115
+atualizacao / anterior / eixos / airline / distortion / relayed_attribution / D: 52
+atualizacao / anterior / eixos / airline / distortion / relayed_attribution / n: 2
+atualizacao / anterior / eixos / airline / distortion / relayed_attribution / valor: 0,039
+atualizacao / anterior / eixos / airline / distortion / transmutation / D: 52
+atualizacao / anterior / eixos / airline / distortion / transmutation / n: 3
+atualizacao / anterior / eixos / airline / distortion / transmutation / valor: 0,058
+atualizacao / anterior / eixos / airline / highlight / best / D: 52
+atualizacao / anterior / eixos / airline / highlight / best / n: 2
+atualizacao / anterior / eixos / airline / highlight / best / valor: 0,039
+atualizacao / anterior / eixos / airline / highlight / good / D: 52
+atualizacao / anterior / eixos / airline / highlight / good / n: 10
+atualizacao / anterior / eixos / airline / highlight / good / valor: 0,192
+atualizacao / anterior / eixos / airline / highlight / none / D: 52
+atualizacao / anterior / eixos / airline / highlight / none / n: 40
+atualizacao / anterior / eixos / airline / highlight / none / valor: 0,769
+atualizacao / anterior / eixos / airline / perfunctorio / D: 52
+atualizacao / anterior / eixos / airline / perfunctorio / n: 34
+atualizacao / anterior / eixos / airline / perfunctorio / valor: 0,654
+atualizacao / anterior / eixos / airline / presence / in_text / D: 56
+atualizacao / anterior / eixos / airline / presence / in_text / n: 52
+atualizacao / anterior / eixos / airline / presence / in_text / valor: 0,929
+atualizacao / anterior / eixos / airline / presence / not_cited / D: 56
+atualizacao / anterior / eixos / airline / presence / not_cited / n: 0
+atualizacao / anterior / eixos / airline / presence / not_cited / valor: 0,000
+atualizacao / anterior / eixos / airline / presence / reference_list_only / D: 56
+atualizacao / anterior / eixos / airline / presence / reference_list_only / n: 4
+atualizacao / anterior / eixos / airline / presence / reference_list_only / valor: 0,071
+atualizacao / anterior / eixos / airline / record_flags / duplicate_publication / D: 56
+atualizacao / anterior / eixos / airline / record_flags / duplicate_publication / n: 0
+atualizacao / anterior / eixos / airline / record_flags / duplicate_publication / valor: 0,000
+atualizacao / anterior / eixos / airline / relation / coauthor / D: 56
+atualizacao / anterior / eixos / airline / relation / coauthor / n: 3
+atualizacao / anterior / eixos / airline / relation / coauthor / valor: 0,054
+atualizacao / anterior / eixos / airline / relation / independent / D: 56
+atualizacao / anterior / eixos / airline / relation / independent / n: 52
+atualizacao / anterior / eixos / airline / relation / independent / valor: 0,929
+atualizacao / anterior / eixos / airline / relation / self / D: 56
+atualizacao / anterior / eixos / airline / relation / self / n: 1
+atualizacao / anterior / eixos / airline / relation / self / valor: 0,018
+atualizacao / anterior / eixos / airline / reuse / benchmarking / D: 52
+atualizacao / anterior / eixos / airline / reuse / benchmarking / n: 0
+atualizacao / anterior / eixos / airline / reuse / benchmarking / valor: 0,000
+atualizacao / anterior / eixos / airline / reuse / dataset_reuse / D: 52
+atualizacao / anterior / eixos / airline / reuse / dataset_reuse / n: 0
+atualizacao / anterior / eixos / airline / reuse / dataset_reuse / valor: 0,000
+atualizacao / anterior / eixos / airline / reuse / method_adoption / D: 52
+atualizacao / anterior / eixos / airline / reuse / method_adoption / n: 3
+atualizacao / anterior / eixos / airline / reuse / method_adoption / valor: 0,058
+atualizacao / anterior / eixos / airline / reuse / result_validated / D: 52
+atualizacao / anterior / eixos / airline / reuse / result_validated / n: 0
+atualizacao / anterior / eixos / airline / reuse / result_validated / valor: 0,000
+atualizacao / anterior / eixos / airline / reuse / work_extended / D: 52
+atualizacao / anterior / eixos / airline / reuse / work_extended / n: 0
+atualizacao / anterior / eixos / airline / reuse / work_extended / valor: 0,000
+atualizacao / anterior / eixos / airline / reuse_externo / D_ind: 48
+atualizacao / anterior / eixos / airline / reuse_externo / n: 3
+atualizacao / anterior / eixos / airline / reuse_externo / pct: 6% (3/48)
+atualizacao / anterior / eixos / airline / stance / contradictory / D: 52
+atualizacao / anterior / eixos / airline / stance / contradictory / n: 1
+atualizacao / anterior / eixos / airline / stance / contradictory / valor: 0,019
+atualizacao / anterior / eixos / airline / stance / none / D: 52
+atualizacao / anterior / eixos / airline / stance / none / n: 3
+atualizacao / anterior / eixos / airline / stance / none / valor: 0,058
+atualizacao / anterior / eixos / airline / stance / supporting / D: 52
+atualizacao / anterior / eixos / airline / stance / supporting / n: 48
+atualizacao / anterior / eixos / airline / stance / supporting / valor: 0,923
+atualizacao / anterior / eixos / airline / substantivo / D: 52
+atualizacao / anterior / eixos / airline / substantivo / n: 7
+atualizacao / anterior / eixos / airline / substantivo / valor: 0,135
+atualizacao / anterior / eixos / grains / accuracy / accurate / D: 40
+atualizacao / anterior / eixos / grains / accuracy / accurate / n: 20
+atualizacao / anterior / eixos / grains / accuracy / accurate / valor: 0,500
+atualizacao / anterior / eixos / grains / accuracy / imprecise / D: 40
+atualizacao / anterior / eixos / grains / accuracy / imprecise / n: 11
+atualizacao / anterior / eixos / grains / accuracy / imprecise / valor: 0,275
+atualizacao / anterior / eixos / grains / accuracy / misrepresented / D: 40
+atualizacao / anterior / eixos / grains / accuracy / misrepresented / n: 9
+atualizacao / anterior / eixos / grains / accuracy / misrepresented / valor: 0,225
+atualizacao / anterior / eixos / grains / background_like / D: 40
+atualizacao / anterior / eixos / grains / background_like / n: 38
+atualizacao / anterior / eixos / grains / background_like / valor: 0,950
+atualizacao / anterior / eixos / grains / depth / brief_mention / D: 40
+atualizacao / anterior / eixos / grains / depth / brief_mention / n: 24
+atualizacao / anterior / eixos / grains / depth / brief_mention / valor: 0,600
+atualizacao / anterior / eixos / grains / depth / drive_by / D: 40
+atualizacao / anterior / eixos / grains / depth / drive_by / n: 10
+atualizacao / anterior / eixos / grains / depth / drive_by / valor: 0,250
+atualizacao / anterior / eixos / grains / depth / foundational / D: 40
+atualizacao / anterior / eixos / grains / depth / foundational / n: 0
+atualizacao / anterior / eixos / grains / depth / foundational / valor: 0,000
+atualizacao / anterior / eixos / grains / depth / real_mention / D: 40
+atualizacao / anterior / eixos / grains / depth / real_mention / n: 4
+atualizacao / anterior / eixos / grains / depth / real_mention / valor: 0,100
+atualizacao / anterior / eixos / grains / depth / supporting / D: 40
+atualizacao / anterior / eixos / grains / depth / supporting / n: 2
+atualizacao / anterior / eixos / grains / depth / supporting / valor: 0,050
+atualizacao / anterior / eixos / grains / distortion / dead_end / D: 40
+atualizacao / anterior / eixos / grains / distortion / dead_end / n: 7
+atualizacao / anterior / eixos / grains / distortion / dead_end / valor: 0,175
+atualizacao / anterior / eixos / grains / distortion / diversion / D: 40
+atualizacao / anterior / eixos / grains / distortion / diversion / n: 10
+atualizacao / anterior / eixos / grains / distortion / diversion / valor: 0,250
+atualizacao / anterior / eixos / grains / distortion / relayed_attribution / D: 40
+atualizacao / anterior / eixos / grains / distortion / relayed_attribution / n: 3
+atualizacao / anterior / eixos / grains / distortion / relayed_attribution / valor: 0,075
+atualizacao / anterior / eixos / grains / distortion / transmutation / D: 40
+atualizacao / anterior / eixos / grains / distortion / transmutation / n: 0
+atualizacao / anterior / eixos / grains / distortion / transmutation / valor: 0,000
+atualizacao / anterior / eixos / grains / highlight / best / D: 40
+atualizacao / anterior / eixos / grains / highlight / best / n: 0
+atualizacao / anterior / eixos / grains / highlight / best / valor: 0,000
+atualizacao / anterior / eixos / grains / highlight / good / D: 40
+atualizacao / anterior / eixos / grains / highlight / good / n: 5
+atualizacao / anterior / eixos / grains / highlight / good / valor: 0,125
+atualizacao / anterior / eixos / grains / highlight / none / D: 40
+atualizacao / anterior / eixos / grains / highlight / none / n: 35
+atualizacao / anterior / eixos / grains / highlight / none / valor: 0,875
+atualizacao / anterior / eixos / grains / perfunctorio / D: 40
+atualizacao / anterior / eixos / grains / perfunctorio / n: 34
+atualizacao / anterior / eixos / grains / perfunctorio / valor: 0,850
+atualizacao / anterior / eixos / grains / presence / in_text / D: 48
+atualizacao / anterior / eixos / grains / presence / in_text / n: 40
+atualizacao / anterior / eixos / grains / presence / in_text / valor: 0,833
+atualizacao / anterior / eixos / grains / presence / not_cited / D: 48
+atualizacao / anterior / eixos / grains / presence / not_cited / n: 0
+atualizacao / anterior / eixos / grains / presence / not_cited / valor: 0,000
+atualizacao / anterior / eixos / grains / presence / reference_list_only / D: 48
+atualizacao / anterior / eixos / grains / presence / reference_list_only / n: 8
+atualizacao / anterior / eixos / grains / presence / reference_list_only / valor: 0,167
+atualizacao / anterior / eixos / grains / record_flags / duplicate_publication / D: 48
+atualizacao / anterior / eixos / grains / record_flags / duplicate_publication / n: 3
+atualizacao / anterior / eixos / grains / record_flags / duplicate_publication / valor: 0,063
+atualizacao / anterior / eixos / grains / relation / coauthor / D: 48
+atualizacao / anterior / eixos / grains / relation / coauthor / n: 0
+atualizacao / anterior / eixos / grains / relation / coauthor / valor: 0,000
+atualizacao / anterior / eixos / grains / relation / independent / D: 48
+atualizacao / anterior / eixos / grains / relation / independent / n: 48
+atualizacao / anterior / eixos / grains / relation / independent / valor: 1,000
+atualizacao / anterior / eixos / grains / relation / self / D: 48
+atualizacao / anterior / eixos / grains / relation / self / n: 0
+atualizacao / anterior / eixos / grains / relation / self / valor: 0,000
+atualizacao / anterior / eixos / grains / reuse / benchmarking / D: 40
+atualizacao / anterior / eixos / grains / reuse / benchmarking / n: 0
+atualizacao / anterior / eixos / grains / reuse / benchmarking / valor: 0,000
+atualizacao / anterior / eixos / grains / reuse / dataset_reuse / D: 40
+atualizacao / anterior / eixos / grains / reuse / dataset_reuse / n: 0
+atualizacao / anterior / eixos / grains / reuse / dataset_reuse / valor: 0,000
+atualizacao / anterior / eixos / grains / reuse / method_adoption / D: 40
+atualizacao / anterior / eixos / grains / reuse / method_adoption / n: 2
+atualizacao / anterior / eixos / grains / reuse / method_adoption / valor: 0,050
+atualizacao / anterior / eixos / grains / reuse / result_validated / D: 40
+atualizacao / anterior / eixos / grains / reuse / result_validated / n: 0
+atualizacao / anterior / eixos / grains / reuse / result_validated / valor: 0,000
+atualizacao / anterior / eixos / grains / reuse / work_extended / D: 40
+atualizacao / anterior / eixos / grains / reuse / work_extended / n: 0
+atualizacao / anterior / eixos / grains / reuse / work_extended / valor: 0,000
+atualizacao / anterior / eixos / grains / reuse_externo / D_ind: 40
+atualizacao / anterior / eixos / grains / reuse_externo / n: 2
+atualizacao / anterior / eixos / grains / reuse_externo / pct: 5% (2/40)
+atualizacao / anterior / eixos / grains / stance / contradictory / D: 40
+atualizacao / anterior / eixos / grains / stance / contradictory / n: 1
+atualizacao / anterior / eixos / grains / stance / contradictory / valor: 0,025
+atualizacao / anterior / eixos / grains / stance / none / D: 40
+atualizacao / anterior / eixos / grains / stance / none / n: 6
+atualizacao / anterior / eixos / grains / stance / none / valor: 0,150
+atualizacao / anterior / eixos / grains / stance / supporting / D: 40
+atualizacao / anterior / eixos / grains / stance / supporting / n: 33
+atualizacao / anterior / eixos / grains / stance / supporting / valor: 0,825
+atualizacao / anterior / eixos / grains / substantivo / D: 40
+atualizacao / anterior / eixos / grains / substantivo / n: 2
+atualizacao / anterior / eixos / grains / substantivo / valor: 0,050
+atualizacao / anterior / eixos / pooled / accuracy / accurate / D: 92
+atualizacao / anterior / eixos / pooled / accuracy / accurate / n: 57
+atualizacao / anterior / eixos / pooled / accuracy / accurate / valor: 0,620
+atualizacao / anterior / eixos / pooled / accuracy / imprecise / D: 92
+atualizacao / anterior / eixos / pooled / accuracy / imprecise / n: 19
+atualizacao / anterior / eixos / pooled / accuracy / imprecise / valor: 0,207
+atualizacao / anterior / eixos / pooled / accuracy / misrepresented / D: 92
+atualizacao / anterior / eixos / pooled / accuracy / misrepresented / n: 16
+atualizacao / anterior / eixos / pooled / accuracy / misrepresented / valor: 0,174
+atualizacao / anterior / eixos / pooled / background_like / D: 92
+atualizacao / anterior / eixos / pooled / background_like / n: 83
+atualizacao / anterior / eixos / pooled / background_like / valor: 0,902
+atualizacao / anterior / eixos / pooled / depth / brief_mention / D: 92
+atualizacao / anterior / eixos / pooled / depth / brief_mention / n: 53
+atualizacao / anterior / eixos / pooled / depth / brief_mention / valor: 0,576
+atualizacao / anterior / eixos / pooled / depth / drive_by / D: 92
+atualizacao / anterior / eixos / pooled / depth / drive_by / n: 15
+atualizacao / anterior / eixos / pooled / depth / drive_by / valor: 0,163
+atualizacao / anterior / eixos / pooled / depth / foundational / D: 92
+atualizacao / anterior / eixos / pooled / depth / foundational / n: 4
+atualizacao / anterior / eixos / pooled / depth / foundational / valor: 0,044
+atualizacao / anterior / eixos / pooled / depth / real_mention / D: 92
+atualizacao / anterior / eixos / pooled / depth / real_mention / n: 15
+atualizacao / anterior / eixos / pooled / depth / real_mention / valor: 0,163
+atualizacao / anterior / eixos / pooled / depth / supporting / D: 92
+atualizacao / anterior / eixos / pooled / depth / supporting / n: 5
+atualizacao / anterior / eixos / pooled / depth / supporting / valor: 0,054
+atualizacao / anterior / eixos / pooled / distortion / dead_end / D: 92
+atualizacao / anterior / eixos / pooled / distortion / dead_end / n: 11
+atualizacao / anterior / eixos / pooled / distortion / dead_end / valor: 0,120
+atualizacao / anterior / eixos / pooled / distortion / diversion / D: 92
+atualizacao / anterior / eixos / pooled / distortion / diversion / n: 16
+atualizacao / anterior / eixos / pooled / distortion / diversion / valor: 0,174
+atualizacao / anterior / eixos / pooled / distortion / relayed_attribution / D: 92
+atualizacao / anterior / eixos / pooled / distortion / relayed_attribution / n: 5
+atualizacao / anterior / eixos / pooled / distortion / relayed_attribution / valor: 0,054
+atualizacao / anterior / eixos / pooled / distortion / transmutation / D: 92
+atualizacao / anterior / eixos / pooled / distortion / transmutation / n: 3
+atualizacao / anterior / eixos / pooled / distortion / transmutation / valor: 0,033
+atualizacao / anterior / eixos / pooled / highlight / best / D: 92
+atualizacao / anterior / eixos / pooled / highlight / best / n: 2
+atualizacao / anterior / eixos / pooled / highlight / best / valor: 0,022
+atualizacao / anterior / eixos / pooled / highlight / good / D: 92
+atualizacao / anterior / eixos / pooled / highlight / good / n: 15
+atualizacao / anterior / eixos / pooled / highlight / good / valor: 0,163
+atualizacao / anterior / eixos / pooled / highlight / none / D: 92
+atualizacao / anterior / eixos / pooled / highlight / none / n: 75
+atualizacao / anterior / eixos / pooled / highlight / none / valor: 0,815
+atualizacao / anterior / eixos / pooled / perfunctorio / D: 92
+atualizacao / anterior / eixos / pooled / perfunctorio / n: 68
+atualizacao / anterior / eixos / pooled / perfunctorio / valor: 0,739
+atualizacao / anterior / eixos / pooled / presence / in_text / D: 104
+atualizacao / anterior / eixos / pooled / presence / in_text / n: 92
+atualizacao / anterior / eixos / pooled / presence / in_text / valor: 0,885
+atualizacao / anterior / eixos / pooled / presence / not_cited / D: 104
+atualizacao / anterior / eixos / pooled / presence / not_cited / n: 0
+atualizacao / anterior / eixos / pooled / presence / not_cited / valor: 0,000
+atualizacao / anterior / eixos / pooled / presence / reference_list_only / D: 104
+atualizacao / anterior / eixos / pooled / presence / reference_list_only / n: 12
+atualizacao / anterior / eixos / pooled / presence / reference_list_only / valor: 0,115
+atualizacao / anterior / eixos / pooled / record_flags / duplicate_publication / D: 104
+atualizacao / anterior / eixos / pooled / record_flags / duplicate_publication / n: 3
+atualizacao / anterior / eixos / pooled / record_flags / duplicate_publication / valor: 0,029
+atualizacao / anterior / eixos / pooled / relation / coauthor / D: 104
+atualizacao / anterior / eixos / pooled / relation / coauthor / n: 3
+atualizacao / anterior / eixos / pooled / relation / coauthor / valor: 0,029
+atualizacao / anterior / eixos / pooled / relation / independent / D: 104
+atualizacao / anterior / eixos / pooled / relation / independent / n: 100
+atualizacao / anterior / eixos / pooled / relation / independent / valor: 0,962
+atualizacao / anterior / eixos / pooled / relation / self / D: 104
+atualizacao / anterior / eixos / pooled / relation / self / n: 1
+atualizacao / anterior / eixos / pooled / relation / self / valor: 0,010
+atualizacao / anterior / eixos / pooled / reuse / benchmarking / D: 92
+atualizacao / anterior / eixos / pooled / reuse / benchmarking / n: 0
+atualizacao / anterior / eixos / pooled / reuse / benchmarking / valor: 0,000
+atualizacao / anterior / eixos / pooled / reuse / dataset_reuse / D: 92
+atualizacao / anterior / eixos / pooled / reuse / dataset_reuse / n: 0
+atualizacao / anterior / eixos / pooled / reuse / dataset_reuse / valor: 0,000
+atualizacao / anterior / eixos / pooled / reuse / method_adoption / D: 92
+atualizacao / anterior / eixos / pooled / reuse / method_adoption / n: 5
+atualizacao / anterior / eixos / pooled / reuse / method_adoption / valor: 0,054
+atualizacao / anterior / eixos / pooled / reuse / result_validated / D: 92
+atualizacao / anterior / eixos / pooled / reuse / result_validated / n: 0
+atualizacao / anterior / eixos / pooled / reuse / result_validated / valor: 0,000
+atualizacao / anterior / eixos / pooled / reuse / work_extended / D: 92
+atualizacao / anterior / eixos / pooled / reuse / work_extended / n: 0
+atualizacao / anterior / eixos / pooled / reuse / work_extended / valor: 0,000
+atualizacao / anterior / eixos / pooled / reuse_externo / D_ind: 88
+atualizacao / anterior / eixos / pooled / reuse_externo / n: 5
+atualizacao / anterior / eixos / pooled / reuse_externo / pct: 6% (5/88)
+atualizacao / anterior / eixos / pooled / stance / contradictory / D: 92
+atualizacao / anterior / eixos / pooled / stance / contradictory / n: 2
+atualizacao / anterior / eixos / pooled / stance / contradictory / valor: 0,022
+atualizacao / anterior / eixos / pooled / stance / none / D: 92
+atualizacao / anterior / eixos / pooled / stance / none / n: 9
+atualizacao / anterior / eixos / pooled / stance / none / valor: 0,098
+atualizacao / anterior / eixos / pooled / stance / supporting / D: 92
+atualizacao / anterior / eixos / pooled / stance / supporting / n: 81
+atualizacao / anterior / eixos / pooled / stance / supporting / valor: 0,880
+atualizacao / anterior / eixos / pooled / substantivo / D: 92
+atualizacao / anterior / eixos / pooled / substantivo / n: 9
+atualizacao / anterior / eixos / pooled / substantivo / valor: 0,098
+atualizacao / anterior / inventario / classificados: 104
+atualizacao / anterior / inventario / com_doi / airline: 74
+atualizacao / anterior / inventario / com_doi / grains: 73
+atualizacao / anterior / inventario / com_doi / total: 147
+atualizacao / anterior / inventario / por_artigo / airline: 93
+atualizacao / anterior / inventario / por_artigo / grains: 83
+atualizacao / anterior / inventario / por_status / aresta_falsa: 2
+atualizacao / anterior / inventario / por_status / evidencia_insuficiente: 7
+atualizacao / anterior / inventario / por_status / fechado: 53
+atualizacao / anterior / inventario / por_status / oa_antibot: 10
+atualizacao / anterior / inventario / por_status / oa_bloqueado: 25
+atualizacao / anterior / inventario / por_status / sem_doi: 5
+atualizacao / anterior / inventario / por_status / so_scholar_sem_doi: 24
+atualizacao / anterior / inventario / por_status / tem_texto: 34
+atualizacao / anterior / inventario / por_status / texto_incorreto: 5
+atualizacao / anterior / inventario / por_status / texto_parcial: 11
+atualizacao / anterior / inventario / por_status_por_artigo / airline / aresta_falsa: 1
+atualizacao / anterior / inventario / por_status_por_artigo / airline / evidencia_insuficiente: 1
+atualizacao / anterior / inventario / por_status_por_artigo / airline / fechado: 34
+atualizacao / anterior / inventario / por_status_por_artigo / airline / oa_antibot: 4
+atualizacao / anterior / inventario / por_status_por_artigo / airline / oa_bloqueado: 10
+atualizacao / anterior / inventario / por_status_por_artigo / airline / sem_doi: 4
+atualizacao / anterior / inventario / por_status_por_artigo / airline / so_scholar_sem_doi: 15
+atualizacao / anterior / inventario / por_status_por_artigo / airline / tem_texto: 14
+atualizacao / anterior / inventario / por_status_por_artigo / airline / texto_incorreto: 4
+atualizacao / anterior / inventario / por_status_por_artigo / airline / texto_parcial: 6
+atualizacao / anterior / inventario / por_status_por_artigo / grains / aresta_falsa: 1
+atualizacao / anterior / inventario / por_status_por_artigo / grains / evidencia_insuficiente: 6
+atualizacao / anterior / inventario / por_status_por_artigo / grains / fechado: 19
+atualizacao / anterior / inventario / por_status_por_artigo / grains / oa_antibot: 6
+atualizacao / anterior / inventario / por_status_por_artigo / grains / oa_bloqueado: 15
+atualizacao / anterior / inventario / por_status_por_artigo / grains / sem_doi: 1
+atualizacao / anterior / inventario / por_status_por_artigo / grains / so_scholar_sem_doi: 9
+atualizacao / anterior / inventario / por_status_por_artigo / grains / tem_texto: 20
+atualizacao / anterior / inventario / por_status_por_artigo / grains / texto_incorreto: 1
+atualizacao / anterior / inventario / por_status_por_artigo / grains / texto_parcial: 5
+atualizacao / anterior / inventario / por_work_type / article: 112
+atualizacao / anterior / inventario / por_work_type / book: 1
+atualizacao / anterior / inventario / por_work_type / book-chapter: 11
+atualizacao / anterior / inventario / por_work_type / conference-paper: 6
+atualizacao / anterior / inventario / por_work_type / dissertation: 4
+atualizacao / anterior / inventario / por_work_type / preprint: 10
+atualizacao / anterior / inventario / por_work_type / review: 2
+atualizacao / anterior / inventario / por_work_type / sem_valor: 30
+atualizacao / anterior / inventario / por_work_type_por_artigo / airline / article: 55
+atualizacao / anterior / inventario / por_work_type_por_artigo / airline / book: 1
+atualizacao / anterior / inventario / por_work_type_por_artigo / airline / book-chapter: 4
+atualizacao / anterior / inventario / por_work_type_por_artigo / airline / conference-paper: 2
+atualizacao / anterior / inventario / por_work_type_por_artigo / airline / dissertation: 2
+atualizacao / anterior / inventario / por_work_type_por_artigo / airline / preprint: 9
+atualizacao / anterior / inventario / por_work_type_por_artigo / airline / sem_valor: 20
+atualizacao / anterior / inventario / por_work_type_por_artigo / grains / article: 57
+atualizacao / anterior / inventario / por_work_type_por_artigo / grains / book-chapter: 7
+atualizacao / anterior / inventario / por_work_type_por_artigo / grains / conference-paper: 4
+atualizacao / anterior / inventario / por_work_type_por_artigo / grains / dissertation: 2
+atualizacao / anterior / inventario / por_work_type_por_artigo / grains / preprint: 1
+atualizacao / anterior / inventario / por_work_type_por_artigo / grains / review: 2
+atualizacao / anterior / inventario / por_work_type_por_artigo / grains / sem_valor: 10
+atualizacao / anterior / inventario / sem_doi / airline: 19
+atualizacao / anterior / inventario / sem_doi / grains: 10
+atualizacao / anterior / inventario / sem_doi / total: 29
+atualizacao / anterior / inventario / total: 176
+atualizacao / anterior / meta / fontes / airline / europepmc: 0
+atualizacao / anterior / meta / fontes / airline / openalex: 53
+atualizacao / anterior / meta / fontes / airline / opencitations: 39
+atualizacao / anterior / meta / fontes / airline / s2: 49
+atualizacao / anterior / meta / fontes / airline / uniao: 69
+atualizacao / anterior / meta / fontes / grains / europepmc: 0
+atualizacao / anterior / meta / fontes / grains / openalex: 60
+atualizacao / anterior / meta / fontes / grains / opencitations: 50
+atualizacao / anterior / meta / fontes / grains / s2: 54
+atualizacao / anterior / meta / fontes / grains / uniao: 62
+atualizacao / anterior / meta / n_classificados: 104
+atualizacao / anterior / meta / n_registros: 176
+atualizacao / anterior / meta / scholar / airline / casados: 66
+atualizacao / anterior / meta / scholar / airline / listadas: 95
+atualizacao / anterior / meta / scholar / airline / novos: 24
+atualizacao / anterior / meta / scholar / airline / ruido: 5
+atualizacao / anterior / meta / scholar / grains / casados: 52
+atualizacao / anterior / meta / scholar / grains / listadas: 76
+atualizacao / anterior / meta / scholar / grains / novos: 21
+atualizacao / anterior / meta / scholar / grains / ruido: 3
+atualizacao / anterior / populacao / airline: 49
+atualizacao / anterior / populacao / classificados_dentro_da_populacao / airline: 45
+atualizacao / anterior / populacao / classificados_dentro_da_populacao / grains: 29
+atualizacao / anterior / populacao / classificados_dentro_da_populacao / total: 74
+atualizacao / anterior / populacao / grains: 38
+atualizacao / anterior / populacao / total: 87
+atualizacao / coleta / papers / airline / after: 93
+atualizacao / coleta / papers / airline / before: 93
+atualizacao / coleta / papers / airline / sources / europepmc / records: 0
+atualizacao / coleta / papers / airline / sources / openalex / records: 57
+atualizacao / coleta / papers / airline / sources / opencitations / records: 39
+atualizacao / coleta / papers / airline / sources / s2 / records: 48
+atualizacao / coleta / papers / grains / after: 83
+atualizacao / coleta / papers / grains / before: 83
+atualizacao / coleta / papers / grains / sources / europepmc / records: 0
+atualizacao / coleta / papers / grains / sources / openalex / records: 60
+atualizacao / coleta / papers / grains / sources / opencitations / records: 50
+atualizacao / coleta / papers / grains / sources / s2 / records: 54
+
 == audit_70 §inventario ==
-inventario / classificados: 104
+inventario / classificados: 105
 inventario / com_doi / airline: 74
 inventario / com_doi / grains: 73
 inventario / com_doi / total: 147
-inventario / por_artigo / airline: 93
+inventario / por_artigo / airline: 94
 inventario / por_artigo / grains: 83
 inventario / por_status / aresta_falsa: 2
 inventario / por_status / evidencia_insuficiente: 7
@@ -11,7 +924,7 @@ inventario / por_status / fechado: 53
 inventario / por_status / oa_antibot: 10
 inventario / por_status / oa_bloqueado: 25
 inventario / por_status / sem_doi: 5
-inventario / por_status / so_scholar_sem_doi: 24
+inventario / por_status / so_scholar_sem_doi: 25
 inventario / por_status / tem_texto: 34
 inventario / por_status / texto_incorreto: 5
 inventario / por_status / texto_parcial: 11
@@ -21,7 +934,7 @@ inventario / por_status_por_artigo / airline / fechado: 34
 inventario / por_status_por_artigo / airline / oa_antibot: 4
 inventario / por_status_por_artigo / airline / oa_bloqueado: 10
 inventario / por_status_por_artigo / airline / sem_doi: 4
-inventario / por_status_por_artigo / airline / so_scholar_sem_doi: 15
+inventario / por_status_por_artigo / airline / so_scholar_sem_doi: 16
 inventario / por_status_por_artigo / airline / tem_texto: 14
 inventario / por_status_por_artigo / airline / texto_incorreto: 4
 inventario / por_status_por_artigo / airline / texto_parcial: 6
@@ -42,14 +955,14 @@ inventario / por_work_type / conference-paper: 6
 inventario / por_work_type / dissertation: 4
 inventario / por_work_type / preprint: 10
 inventario / por_work_type / review: 2
-inventario / por_work_type / sem_valor: 30
+inventario / por_work_type / sem_valor: 31
 inventario / por_work_type_por_artigo / airline / article: 55
 inventario / por_work_type_por_artigo / airline / book: 1
 inventario / por_work_type_por_artigo / airline / book-chapter: 4
 inventario / por_work_type_por_artigo / airline / conference-paper: 2
 inventario / por_work_type_por_artigo / airline / dissertation: 2
 inventario / por_work_type_por_artigo / airline / preprint: 9
-inventario / por_work_type_por_artigo / airline / sem_valor: 20
+inventario / por_work_type_por_artigo / airline / sem_valor: 21
 inventario / por_work_type_por_artigo / grains / article: 57
 inventario / por_work_type_por_artigo / grains / book-chapter: 7
 inventario / por_work_type_por_artigo / grains / conference-paper: 4
@@ -57,10 +970,10 @@ inventario / por_work_type_por_artigo / grains / dissertation: 2
 inventario / por_work_type_por_artigo / grains / preprint: 1
 inventario / por_work_type_por_artigo / grains / review: 2
 inventario / por_work_type_por_artigo / grains / sem_valor: 10
-inventario / sem_doi / airline: 19
+inventario / sem_doi / airline: 20
 inventario / sem_doi / grains: 10
-inventario / sem_doi / total: 29
-inventario / total: 176
+inventario / sem_doi / total: 30
+inventario / total: 177
 
 == audit_70 §funil ==
 funil / airline / desagregacao / evidencia_por_quartil / Q1: 41
@@ -77,9 +990,9 @@ funil / airline / desagregacao / sem_evidencia_por_editora / De Gruyter: 1
 funil / airline / desagregacao / sem_evidencia_por_editora / Emerald Publishing Limited: 2
 funil / airline / desagregacao / sem_evidencia_por_editora / prefixo 10.1108: 1
 funil / airline / steps / 0 / valor: 95
-funil / airline / steps / 1 / delta: -2
-funil / airline / steps / 1 / valor: 93
-funil / airline / steps / 2 / delta: -19
+funil / airline / steps / 1 / delta: -1
+funil / airline / steps / 1 / valor: 94
+funil / airline / steps / 2 / delta: -20
 funil / airline / steps / 2 / valor: 74
 funil / airline / steps / 3 / delta: -23
 funil / airline / steps / 3 / valor: 51
@@ -87,7 +1000,7 @@ funil / airline / steps / 4 / delta: -2
 funil / airline / steps / 4 / valor: 49
 funil / airline / steps / 5 / delta: -4
 funil / airline / steps / 5 / valor: 45
-funil / grains / desagregacao / evidencia_por_quartil / Q1: 21
+funil / grains / desagregacao / evidencia_por_quartil / Q1: 22
 funil / grains / desagregacao / evidencia_por_quartil / Q2: 4
 funil / grains / desagregacao / evidencia_por_quartil / Q3: 2
 funil / grains / desagregacao / evidencia_por_quartil / sem quartil: 2
@@ -99,7 +1012,7 @@ funil / grains / desagregacao / fora_editora_por_editora / outras: 20
 funil / grains / desagregacao / fora_editora_por_editora / prefixo 10.1201: 2
 funil / grains / desagregacao / fora_editora_por_editora / prefixo 10.47278: 2
 funil / grains / desagregacao / sem_evidencia_por_editora / Emerald Publishing Limited: 2
-funil / grains / desagregacao / sem_evidencia_por_editora / Hindawi Publishing Corporation: 2
+funil / grains / desagregacao / sem_evidencia_por_editora / Hindawi Publishing Corporation: 1
 funil / grains / desagregacao / sem_evidencia_por_editora / Springer Nature: 1
 funil / grains / desagregacao / sem_evidencia_por_editora / Taylor & Francis: 1
 funil / grains / desagregacao / sem_evidencia_por_editora / Wiley: 3
@@ -112,25 +1025,25 @@ funil / grains / steps / 3 / delta: -31
 funil / grains / steps / 3 / valor: 42
 funil / grains / steps / 4 / delta: -4
 funil / grains / steps / 4 / valor: 38
-funil / grains / steps / 5 / delta: -9
-funil / grains / steps / 5 / valor: 29
+funil / grains / steps / 5 / delta: -8
+funil / grains / steps / 5 / valor: 30
 
 == audit_70 §populacao ==
 populacao / airline: 49
 populacao / classificados_dentro_da_populacao / airline: 45
-populacao / classificados_dentro_da_populacao / grains: 29
-populacao / classificados_dentro_da_populacao / total: 74
+populacao / classificados_dentro_da_populacao / grains: 30
+populacao / classificados_dentro_da_populacao / total: 75
 populacao / grains: 38
 populacao / total: 87
 
 == audit_70 §cobertura ==
 cobertura_quartil / Q1 / aresta_falsa: 0
 cobertura_quartil / Q1 / fantasma: 5
-cobertura_quartil / Q1 / pct_evidencia: 91% (63/69)
-cobertura_quartil / Q1 / pct_trecho: 84% (58/69)
-cobertura_quartil / Q1 / pendente: 6
+cobertura_quartil / Q1 / pct_evidencia: 93% (64/69)
+cobertura_quartil / Q1 / pct_trecho: 86% (59/69)
+cobertura_quartil / Q1 / pendente: 5
 cobertura_quartil / Q1 / total: 69
-cobertura_quartil / Q1 / trecho: 58
+cobertura_quartil / Q1 / trecho: 59
 cobertura_quartil / Q2 / aresta_falsa: 1
 cobertura_quartil / Q2 / fantasma: 0
 cobertura_quartil / Q2 / pct_evidencia: 63% (10/16)
@@ -189,11 +1102,11 @@ cobertura_quartil / por_artigo / airline / total / total: 50
 cobertura_quartil / por_artigo / airline / total / trecho: 43
 cobertura_quartil / por_artigo / grains / Q1 / aresta_falsa: 0
 cobertura_quartil / por_artigo / grains / Q1 / fantasma: 2
-cobertura_quartil / por_artigo / grains / Q1 / pct_evidencia: 85% (22/26)
-cobertura_quartil / por_artigo / grains / Q1 / pct_trecho: 77% (20/26)
-cobertura_quartil / por_artigo / grains / Q1 / pendente: 4
+cobertura_quartil / por_artigo / grains / Q1 / pct_evidencia: 88% (23/26)
+cobertura_quartil / por_artigo / grains / Q1 / pct_trecho: 81% (21/26)
+cobertura_quartil / por_artigo / grains / Q1 / pendente: 3
 cobertura_quartil / por_artigo / grains / Q1 / total: 26
-cobertura_quartil / por_artigo / grains / Q1 / trecho: 20
+cobertura_quartil / por_artigo / grains / Q1 / trecho: 21
 cobertura_quartil / por_artigo / grains / Q2 / aresta_falsa: 1
 cobertura_quartil / por_artigo / grains / Q2 / fantasma: 0
 cobertura_quartil / por_artigo / grains / Q2 / pct_evidencia: 50% (6/12)
@@ -217,18 +1130,18 @@ cobertura_quartil / por_artigo / grains / Q4 / total: 3
 cobertura_quartil / por_artigo / grains / Q4 / trecho: 0
 cobertura_quartil / por_artigo / grains / total / aresta_falsa: 1
 cobertura_quartil / por_artigo / grains / total / fantasma: 3
-cobertura_quartil / por_artigo / grains / total / pct_evidencia: 71% (34/48)
-cobertura_quartil / por_artigo / grains / total / pct_trecho: 65% (31/48)
-cobertura_quartil / por_artigo / grains / total / pendente: 13
+cobertura_quartil / por_artigo / grains / total / pct_evidencia: 73% (35/48)
+cobertura_quartil / por_artigo / grains / total / pct_trecho: 67% (32/48)
+cobertura_quartil / por_artigo / grains / total / pendente: 12
 cobertura_quartil / por_artigo / grains / total / total: 48
-cobertura_quartil / por_artigo / grains / total / trecho: 31
+cobertura_quartil / por_artigo / grains / total / trecho: 32
 cobertura_quartil / total / aresta_falsa: 1
 cobertura_quartil / total / fantasma: 6
-cobertura_quartil / total / pct_evidencia: 82% (80/98)
-cobertura_quartil / total / pct_trecho: 76% (74/98)
-cobertura_quartil / total / pendente: 17
+cobertura_quartil / total / pct_evidencia: 83% (81/98)
+cobertura_quartil / total / pct_trecho: 77% (75/98)
+cobertura_quartil / total / pendente: 16
 cobertura_quartil / total / total: 98
-cobertura_quartil / total / trecho: 74
+cobertura_quartil / total / trecho: 75
 
 == audit_70 §quartil ==
 quartil / ausencia / correto: 32
@@ -245,12 +1158,12 @@ quartil / classificadas / airline / Q2: 4
 quartil / classificadas / airline / Q4: 1
 quartil / classificadas / airline / fora_do_scimago: 8
 quartil / classificadas / airline / sem_metrica: 2
-quartil / classificadas / grains / Q1: 22
+quartil / classificadas / grains / Q1: 23
 quartil / classificadas / grains / Q2: 6
 quartil / classificadas / grains / Q3: 6
 quartil / classificadas / grains / fora_do_scimago: 9
 quartil / classificadas / grains / sem_metrica: 5
-quartil / classificadas / pooled / Q1: 63
+quartil / classificadas / pooled / Q1: 64
 quartil / classificadas / pooled / Q2: 10
 quartil / classificadas / pooled / Q3: 6
 quartil / classificadas / pooled / Q4: 1
@@ -261,7 +1174,7 @@ quartil / todas_citacoes / airline / Q2: 4
 quartil / todas_citacoes / airline / Q3: 1
 quartil / todas_citacoes / airline / Q4: 2
 quartil / todas_citacoes / airline / fora_do_scimago: 18
-quartil / todas_citacoes / airline / sem_metrica: 25
+quartil / todas_citacoes / airline / sem_metrica: 26
 quartil / todas_citacoes / grains / Q1: 26
 quartil / todas_citacoes / grains / Q2: 12
 quartil / todas_citacoes / grains / Q3: 7
@@ -273,18 +1186,18 @@ quartil / todas_citacoes / pooled / Q2: 16
 quartil / todas_citacoes / pooled / Q3: 8
 quartil / todas_citacoes / pooled / Q4: 5
 quartil / todas_citacoes / pooled / fora_do_scimago: 35
-quartil / todas_citacoes / pooled / sem_metrica: 43
+quartil / todas_citacoes / pooled / sem_metrica: 44
 
 == audit_70 §periodicos ==
-periodicos / fontes_journals_json / nao_casados: 23
-periodicos / fontes_journals_json / por_quartil / Q1: 39
+periodicos / fontes_journals_json / nao_casados: 26
+periodicos / fontes_journals_json / por_quartil / Q1: 40
 periodicos / fontes_journals_json / por_quartil / Q2: 15
 periodicos / fontes_journals_json / por_quartil / Q3: 8
 periodicos / fontes_journals_json / por_quartil / Q4: 5
-periodicos / fontes_journals_json / scimago_casados: 70
-periodicos / fontes_journals_json / scimago_casados_com_quartil: 67
+periodicos / fontes_journals_json / scimago_casados: 71
+periodicos / fontes_journals_json / scimago_casados_com_quartil: 68
 periodicos / fontes_journals_json / scimago_casados_sem_quartil: 3
-periodicos / fontes_journals_json / total_fontes: 93
+periodicos / fontes_journals_json / total_fontes: 97
 periodicos / pooled / 0 / n: 10
 periodicos / pooled / 0 / overton: 1
 periodicos / pooled / 0 / papeis / brief_mention: 3
@@ -351,176 +1264,184 @@ periodicos / pooled / 9 / papeis / reference_list_only: 1
 periodicos / pooled / 9 / reuso_n: 0
 periodicos / pooled / 9 / sjr: 1,393
 periodicos / pooled / 10 / n: 1
-periodicos / pooled / 10 / overton: 9
-periodicos / pooled / 10 / papeis / drive_by: 1
+periodicos / pooled / 10 / overton: 2
+periodicos / pooled / 10 / papeis / misrepresented: 1
 periodicos / pooled / 10 / reuso_n: 0
-periodicos / pooled / 10 / sjr: 0,555
+periodicos / pooled / 10 / sjr: 0,558
 periodicos / pooled / 11 / n: 1
-periodicos / pooled / 11 / overton: 2
-periodicos / pooled / 11 / papeis / brief_mention: 1
+periodicos / pooled / 11 / overton: 9
+periodicos / pooled / 11 / papeis / drive_by: 1
 periodicos / pooled / 11 / reuso_n: 0
-periodicos / pooled / 11 / sjr: 0,829
+periodicos / pooled / 11 / sjr: 0,555
 periodicos / pooled / 12 / n: 1
-periodicos / pooled / 12 / overton: 11
-periodicos / pooled / 12 / papeis / drive_by: 1
+periodicos / pooled / 12 / overton: 2
+periodicos / pooled / 12 / papeis / brief_mention: 1
 periodicos / pooled / 12 / reuso_n: 0
-periodicos / pooled / 12 / sjr: 3,678
+periodicos / pooled / 12 / sjr: 0,829
 periodicos / pooled / 13 / n: 1
-periodicos / pooled / 13 / papeis / brief_mention: 1
+periodicos / pooled / 13 / overton: 11
+periodicos / pooled / 13 / papeis / drive_by: 1
 periodicos / pooled / 13 / reuso_n: 0
+periodicos / pooled / 13 / sjr: 3,678
 periodicos / pooled / 14 / n: 1
-periodicos / pooled / 14 / overton: 3
 periodicos / pooled / 14 / papeis / brief_mention: 1
 periodicos / pooled / 14 / reuso_n: 0
-periodicos / pooled / 14 / sjr: 0,555
 periodicos / pooled / 15 / n: 1
-periodicos / pooled / 15 / overton: 38
+periodicos / pooled / 15 / overton: 3
 periodicos / pooled / 15 / papeis / brief_mention: 1
 periodicos / pooled / 15 / reuso_n: 0
-periodicos / pooled / 15 / sjr: 3,168
+periodicos / pooled / 15 / sjr: 0,555
 periodicos / pooled / 16 / n: 1
-periodicos / pooled / 16 / overton: 0
-periodicos / pooled / 16 / papeis / real_mention: 1
+periodicos / pooled / 16 / overton: 38
+periodicos / pooled / 16 / papeis / brief_mention: 1
 periodicos / pooled / 16 / reuso_n: 0
-periodicos / pooled / 16 / sjr: 0,396
+periodicos / pooled / 16 / sjr: 3,168
 periodicos / pooled / 17 / n: 1
-periodicos / pooled / 17 / overton: 31
-periodicos / pooled / 17 / papeis / brief_mention: 1
+periodicos / pooled / 17 / overton: 0
+periodicos / pooled / 17 / papeis / real_mention: 1
 periodicos / pooled / 17 / reuso_n: 0
-periodicos / pooled / 17 / sjr: 0,972
+periodicos / pooled / 17 / sjr: 0,396
 periodicos / pooled / 18 / n: 1
-periodicos / pooled / 18 / overton: 1
-periodicos / pooled / 18 / papeis / reference_list_only: 1
+periodicos / pooled / 18 / papeis / drive_by: 1
 periodicos / pooled / 18 / reuso_n: 0
-periodicos / pooled / 18 / sjr: 0,692
 periodicos / pooled / 19 / n: 1
-periodicos / pooled / 19 / overton: 3
-periodicos / pooled / 19 / papeis / misrepresented: 1
+periodicos / pooled / 19 / overton: 31
+periodicos / pooled / 19 / papeis / brief_mention: 1
 periodicos / pooled / 19 / reuso_n: 0
-periodicos / pooled / 19 / sjr: 1,865
+periodicos / pooled / 19 / sjr: 0,972
 periodicos / pooled / 20 / n: 1
-periodicos / pooled / 20 / overton: 13
-periodicos / pooled / 20 / papeis / misrepresented: 1
+periodicos / pooled / 20 / overton: 1
+periodicos / pooled / 20 / papeis / reference_list_only: 1
 periodicos / pooled / 20 / reuso_n: 0
-periodicos / pooled / 20 / sjr: 1,503
+periodicos / pooled / 20 / sjr: 0,692
 periodicos / pooled / 21 / n: 1
-periodicos / pooled / 21 / overton: 0
+periodicos / pooled / 21 / overton: 3
 periodicos / pooled / 21 / papeis / misrepresented: 1
 periodicos / pooled / 21 / reuso_n: 0
-periodicos / pooled / 21 / sjr: 0,513
+periodicos / pooled / 21 / sjr: 1,865
 periodicos / pooled / 22 / n: 1
-periodicos / pooled / 22 / papeis / real_mention: 1
+periodicos / pooled / 22 / overton: 13
+periodicos / pooled / 22 / papeis / misrepresented: 1
 periodicos / pooled / 22 / reuso_n: 0
+periodicos / pooled / 22 / sjr: 1,503
 periodicos / pooled / 23 / n: 1
 periodicos / pooled / 23 / overton: 0
-periodicos / pooled / 23 / papeis / brief_mention: 1
+periodicos / pooled / 23 / papeis / misrepresented: 1
 periodicos / pooled / 23 / reuso_n: 0
-periodicos / pooled / 23 / sjr: 2,851
+periodicos / pooled / 23 / sjr: 0,513
 periodicos / pooled / 24 / n: 1
-periodicos / pooled / 24 / overton: 0
-periodicos / pooled / 24 / papeis / supporting: 1
-periodicos / pooled / 24 / reuso_n: 1
-periodicos / pooled / 24 / sjr: 2,355
+periodicos / pooled / 24 / papeis / real_mention: 1
+periodicos / pooled / 24 / reuso_n: 0
 periodicos / pooled / 25 / n: 1
-periodicos / pooled / 25 / overton: 19
-periodicos / pooled / 25 / papeis / drive_by: 1
+periodicos / pooled / 25 / overton: 0
+periodicos / pooled / 25 / papeis / brief_mention: 1
 periodicos / pooled / 25 / reuso_n: 0
-periodicos / pooled / 25 / sjr: 0,927
+periodicos / pooled / 25 / sjr: 2,851
 periodicos / pooled / 26 / n: 1
-periodicos / pooled / 26 / overton: 2
-periodicos / pooled / 26 / papeis / drive_by: 1
-periodicos / pooled / 26 / reuso_n: 0
-periodicos / pooled / 26 / sjr: 0,767
+periodicos / pooled / 26 / overton: 0
+periodicos / pooled / 26 / papeis / supporting: 1
+periodicos / pooled / 26 / reuso_n: 1
+periodicos / pooled / 26 / sjr: 2,355
 periodicos / pooled / 27 / n: 1
-periodicos / pooled / 27 / overton: 9
-periodicos / pooled / 27 / papeis / misrepresented: 1
+periodicos / pooled / 27 / overton: 19
+periodicos / pooled / 27 / papeis / drive_by: 1
 periodicos / pooled / 27 / reuso_n: 0
-periodicos / pooled / 27 / sjr: 1,449
+periodicos / pooled / 27 / sjr: 0,927
 periodicos / pooled / 28 / n: 1
-periodicos / pooled / 28 / overton: 0
-periodicos / pooled / 28 / papeis / reference_list_only: 1
+periodicos / pooled / 28 / overton: 2
+periodicos / pooled / 28 / papeis / drive_by: 1
 periodicos / pooled / 28 / reuso_n: 0
-periodicos / pooled / 28 / sjr: 0,362
+periodicos / pooled / 28 / sjr: 0,767
 periodicos / pooled / 29 / n: 1
-periodicos / pooled / 29 / overton: 0
-periodicos / pooled / 29 / papeis / brief_mention: 1
+periodicos / pooled / 29 / overton: 9
+periodicos / pooled / 29 / papeis / misrepresented: 1
 periodicos / pooled / 29 / reuso_n: 0
-periodicos / pooled / 29 / sjr: 0,318
+periodicos / pooled / 29 / sjr: 1,449
 periodicos / pooled / 30 / n: 1
 periodicos / pooled / 30 / overton: 0
-periodicos / pooled / 30 / papeis / brief_mention: 1
+periodicos / pooled / 30 / papeis / reference_list_only: 1
 periodicos / pooled / 30 / reuso_n: 0
-periodicos / pooled / 30 / sjr: 0,466
+periodicos / pooled / 30 / sjr: 0,362
 periodicos / pooled / 31 / n: 1
-periodicos / pooled / 31 / overton: 1
+periodicos / pooled / 31 / overton: 0
 periodicos / pooled / 31 / papeis / brief_mention: 1
 periodicos / pooled / 31 / reuso_n: 0
-periodicos / pooled / 31 / sjr: 1,202
+periodicos / pooled / 31 / sjr: 0,318
 periodicos / pooled / 32 / n: 1
-periodicos / pooled / 32 / overton: 9
+periodicos / pooled / 32 / overton: 0
 periodicos / pooled / 32 / papeis / brief_mention: 1
 periodicos / pooled / 32 / reuso_n: 0
-periodicos / pooled / 32 / sjr: 3,498
+periodicos / pooled / 32 / sjr: 0,466
 periodicos / pooled / 33 / n: 1
 periodicos / pooled / 33 / overton: 1
-periodicos / pooled / 33 / papeis / drive_by: 1
+periodicos / pooled / 33 / papeis / brief_mention: 1
 periodicos / pooled / 33 / reuso_n: 0
-periodicos / pooled / 33 / sjr: 0,559
+periodicos / pooled / 33 / sjr: 1,202
 periodicos / pooled / 34 / n: 1
-periodicos / pooled / 34 / overton: 0
-periodicos / pooled / 34 / papeis / real_mention: 1
+periodicos / pooled / 34 / overton: 9
+periodicos / pooled / 34 / papeis / brief_mention: 1
 periodicos / pooled / 34 / reuso_n: 0
-periodicos / pooled / 34 / sjr: 0,421
+periodicos / pooled / 34 / sjr: 3,498
 periodicos / pooled / 35 / n: 1
 periodicos / pooled / 35 / overton: 1
-periodicos / pooled / 35 / papeis / brief_mention: 1
+periodicos / pooled / 35 / papeis / drive_by: 1
 periodicos / pooled / 35 / reuso_n: 0
-periodicos / pooled / 35 / sjr: 1,014
+periodicos / pooled / 35 / sjr: 0,559
 periodicos / pooled / 36 / n: 1
-periodicos / pooled / 36 / overton: 122
-periodicos / pooled / 36 / papeis / brief_mention: 1
+periodicos / pooled / 36 / overton: 0
+periodicos / pooled / 36 / papeis / real_mention: 1
 periodicos / pooled / 36 / reuso_n: 0
-periodicos / pooled / 36 / sjr: 0,893
+periodicos / pooled / 36 / sjr: 0,421
 periodicos / pooled / 37 / n: 1
-periodicos / pooled / 37 / overton: 53
-periodicos / pooled / 37 / papeis / real_mention: 1
+periodicos / pooled / 37 / overton: 1
+periodicos / pooled / 37 / papeis / brief_mention: 1
 periodicos / pooled / 37 / reuso_n: 0
-periodicos / pooled / 37 / sjr: 0,750
+periodicos / pooled / 37 / sjr: 1,014
 periodicos / pooled / 38 / n: 1
-periodicos / pooled / 38 / overton: 0
-periodicos / pooled / 38 / papeis / reference_list_only: 1
+periodicos / pooled / 38 / overton: 122
+periodicos / pooled / 38 / papeis / brief_mention: 1
 periodicos / pooled / 38 / reuso_n: 0
-periodicos / pooled / 38 / sjr: 2,470
+periodicos / pooled / 38 / sjr: 0,893
 periodicos / pooled / 39 / n: 1
-periodicos / pooled / 39 / overton: 4
-periodicos / pooled / 39 / papeis / misrepresented: 1
+periodicos / pooled / 39 / overton: 53
+periodicos / pooled / 39 / papeis / real_mention: 1
 periodicos / pooled / 39 / reuso_n: 0
-periodicos / pooled / 39 / sjr: 2,359
+periodicos / pooled / 39 / sjr: 0,750
 periodicos / pooled / 40 / n: 1
 periodicos / pooled / 40 / overton: 0
-periodicos / pooled / 40 / papeis / brief_mention: 1
+periodicos / pooled / 40 / papeis / reference_list_only: 1
 periodicos / pooled / 40 / reuso_n: 0
-periodicos / pooled / 40 / sjr: 1,743
+periodicos / pooled / 40 / sjr: 2,470
 periodicos / pooled / 41 / n: 1
-periodicos / pooled / 41 / overton: 2
+periodicos / pooled / 41 / overton: 4
 periodicos / pooled / 41 / papeis / misrepresented: 1
 periodicos / pooled / 41 / reuso_n: 0
-periodicos / pooled / 41 / sjr: 0,508
+periodicos / pooled / 41 / sjr: 2,359
 periodicos / pooled / 42 / n: 1
-periodicos / pooled / 42 / overton: 3
+periodicos / pooled / 42 / overton: 0
 periodicos / pooled / 42 / papeis / brief_mention: 1
 periodicos / pooled / 42 / reuso_n: 0
-periodicos / pooled / 42 / sjr: 1,039
+periodicos / pooled / 42 / sjr: 1,743
 periodicos / pooled / 43 / n: 1
-periodicos / pooled / 43 / overton: 0
-periodicos / pooled / 43 / papeis / brief_mention: 1
+periodicos / pooled / 43 / overton: 2
+periodicos / pooled / 43 / papeis / misrepresented: 1
 periodicos / pooled / 43 / reuso_n: 0
-periodicos / pooled / 43 / sjr: 2,070
+periodicos / pooled / 43 / sjr: 0,508
 periodicos / pooled / 44 / n: 1
-periodicos / pooled / 44 / overton: 1
+periodicos / pooled / 44 / overton: 3
 periodicos / pooled / 44 / papeis / brief_mention: 1
 periodicos / pooled / 44 / reuso_n: 0
-periodicos / pooled / 44 / sjr: 2,396
+periodicos / pooled / 44 / sjr: 1,039
+periodicos / pooled / 45 / n: 1
+periodicos / pooled / 45 / overton: 0
+periodicos / pooled / 45 / papeis / brief_mention: 1
+periodicos / pooled / 45 / reuso_n: 0
+periodicos / pooled / 45 / sjr: 2,070
+periodicos / pooled / 46 / n: 1
+periodicos / pooled / 46 / overton: 1
+periodicos / pooled / 46 / papeis / brief_mention: 1
+periodicos / pooled / 46 / reuso_n: 0
+periodicos / pooled / 46 / sjr: 2,396
 periodicos / por_artigo / airline / 0 / n: 10
 periodicos / por_artigo / airline / 0 / overton: 1
 periodicos / por_artigo / airline / 0 / papeis / brief_mention: 3
@@ -574,75 +1495,78 @@ periodicos / por_artigo / airline / 7 / papeis / drive_by: 1
 periodicos / por_artigo / airline / 7 / reuso_n: 0
 periodicos / por_artigo / airline / 7 / sjr: 0,555
 periodicos / por_artigo / airline / 8 / n: 1
-periodicos / por_artigo / airline / 8 / overton: 0
-periodicos / por_artigo / airline / 8 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 8 / papeis / drive_by: 1
 periodicos / por_artigo / airline / 8 / reuso_n: 0
-periodicos / por_artigo / airline / 8 / sjr: 2,851
 periodicos / por_artigo / airline / 9 / n: 1
-periodicos / por_artigo / airline / 9 / overton: 19
-periodicos / por_artigo / airline / 9 / papeis / drive_by: 1
+periodicos / por_artigo / airline / 9 / overton: 0
+periodicos / por_artigo / airline / 9 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 9 / reuso_n: 0
-periodicos / por_artigo / airline / 9 / sjr: 0,927
+periodicos / por_artigo / airline / 9 / sjr: 2,851
 periodicos / por_artigo / airline / 10 / n: 1
-periodicos / por_artigo / airline / 10 / overton: 2
+periodicos / por_artigo / airline / 10 / overton: 19
 periodicos / por_artigo / airline / 10 / papeis / drive_by: 1
 periodicos / por_artigo / airline / 10 / reuso_n: 0
-periodicos / por_artigo / airline / 10 / sjr: 0,767
+periodicos / por_artigo / airline / 10 / sjr: 0,927
 periodicos / por_artigo / airline / 11 / n: 1
-periodicos / por_artigo / airline / 11 / overton: 9
-periodicos / por_artigo / airline / 11 / papeis / misrepresented: 1
+periodicos / por_artigo / airline / 11 / overton: 2
+periodicos / por_artigo / airline / 11 / papeis / drive_by: 1
 periodicos / por_artigo / airline / 11 / reuso_n: 0
-periodicos / por_artigo / airline / 11 / sjr: 1,449
+periodicos / por_artigo / airline / 11 / sjr: 0,767
 periodicos / por_artigo / airline / 12 / n: 1
-periodicos / por_artigo / airline / 12 / overton: 1
-periodicos / por_artigo / airline / 12 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 12 / overton: 9
+periodicos / por_artigo / airline / 12 / papeis / misrepresented: 1
 periodicos / por_artigo / airline / 12 / reuso_n: 0
-periodicos / por_artigo / airline / 12 / sjr: 1,202
+periodicos / por_artigo / airline / 12 / sjr: 1,449
 periodicos / por_artigo / airline / 13 / n: 1
-periodicos / por_artigo / airline / 13 / overton: 9
+periodicos / por_artigo / airline / 13 / overton: 1
 periodicos / por_artigo / airline / 13 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 13 / reuso_n: 0
-periodicos / por_artigo / airline / 13 / sjr: 3,498
+periodicos / por_artigo / airline / 13 / sjr: 1,202
 periodicos / por_artigo / airline / 14 / n: 1
-periodicos / por_artigo / airline / 14 / overton: 0
-periodicos / por_artigo / airline / 14 / papeis / real_mention: 1
+periodicos / por_artigo / airline / 14 / overton: 9
+periodicos / por_artigo / airline / 14 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 14 / reuso_n: 0
-periodicos / por_artigo / airline / 14 / sjr: 0,421
+periodicos / por_artigo / airline / 14 / sjr: 3,498
 periodicos / por_artigo / airline / 15 / n: 1
-periodicos / por_artigo / airline / 15 / overton: 1
-periodicos / por_artigo / airline / 15 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 15 / overton: 0
+periodicos / por_artigo / airline / 15 / papeis / real_mention: 1
 periodicos / por_artigo / airline / 15 / reuso_n: 0
-periodicos / por_artigo / airline / 15 / sjr: 1,014
+periodicos / por_artigo / airline / 15 / sjr: 0,421
 periodicos / por_artigo / airline / 16 / n: 1
-periodicos / por_artigo / airline / 16 / overton: 122
+periodicos / por_artigo / airline / 16 / overton: 1
 periodicos / por_artigo / airline / 16 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 16 / reuso_n: 0
-periodicos / por_artigo / airline / 16 / sjr: 0,893
+periodicos / por_artigo / airline / 16 / sjr: 1,014
 periodicos / por_artigo / airline / 17 / n: 1
-periodicos / por_artigo / airline / 17 / overton: 0
+periodicos / por_artigo / airline / 17 / overton: 122
 periodicos / por_artigo / airline / 17 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 17 / reuso_n: 0
-periodicos / por_artigo / airline / 17 / sjr: 1,743
+periodicos / por_artigo / airline / 17 / sjr: 0,893
 periodicos / por_artigo / airline / 18 / n: 1
-periodicos / por_artigo / airline / 18 / overton: 2
-periodicos / por_artigo / airline / 18 / papeis / misrepresented: 1
+periodicos / por_artigo / airline / 18 / overton: 0
+periodicos / por_artigo / airline / 18 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 18 / reuso_n: 0
-periodicos / por_artigo / airline / 18 / sjr: 0,508
+periodicos / por_artigo / airline / 18 / sjr: 1,743
 periodicos / por_artigo / airline / 19 / n: 1
-periodicos / por_artigo / airline / 19 / overton: 3
-periodicos / por_artigo / airline / 19 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 19 / overton: 2
+periodicos / por_artigo / airline / 19 / papeis / misrepresented: 1
 periodicos / por_artigo / airline / 19 / reuso_n: 0
-periodicos / por_artigo / airline / 19 / sjr: 1,039
+periodicos / por_artigo / airline / 19 / sjr: 0,508
 periodicos / por_artigo / airline / 20 / n: 1
-periodicos / por_artigo / airline / 20 / overton: 0
+periodicos / por_artigo / airline / 20 / overton: 3
 periodicos / por_artigo / airline / 20 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 20 / reuso_n: 0
-periodicos / por_artigo / airline / 20 / sjr: 2,070
+periodicos / por_artigo / airline / 20 / sjr: 1,039
 periodicos / por_artigo / airline / 21 / n: 1
-periodicos / por_artigo / airline / 21 / overton: 1
+periodicos / por_artigo / airline / 21 / overton: 0
 periodicos / por_artigo / airline / 21 / papeis / brief_mention: 1
 periodicos / por_artigo / airline / 21 / reuso_n: 0
-periodicos / por_artigo / airline / 21 / sjr: 2,396
+periodicos / por_artigo / airline / 21 / sjr: 2,070
+periodicos / por_artigo / airline / 22 / n: 1
+periodicos / por_artigo / airline / 22 / overton: 1
+periodicos / por_artigo / airline / 22 / papeis / brief_mention: 1
+periodicos / por_artigo / airline / 22 / reuso_n: 0
+periodicos / por_artigo / airline / 22 / sjr: 2,396
 periodicos / por_artigo / grains / 0 / n: 4
 periodicos / por_artigo / grains / 0 / overton: 3
 periodicos / por_artigo / grains / 0 / papeis / brief_mention: 3
@@ -663,105 +1587,110 @@ periodicos / por_artigo / grains / 2 / reuso_n: 0
 periodicos / por_artigo / grains / 2 / sjr: 2,165
 periodicos / por_artigo / grains / 3 / n: 1
 periodicos / por_artigo / grains / 3 / overton: 2
-periodicos / por_artigo / grains / 3 / papeis / brief_mention: 1
+periodicos / por_artigo / grains / 3 / papeis / misrepresented: 1
 periodicos / por_artigo / grains / 3 / reuso_n: 0
-periodicos / por_artigo / grains / 3 / sjr: 0,829
+periodicos / por_artigo / grains / 3 / sjr: 0,558
 periodicos / por_artigo / grains / 4 / n: 1
-periodicos / por_artigo / grains / 4 / overton: 11
-periodicos / por_artigo / grains / 4 / papeis / drive_by: 1
+periodicos / por_artigo / grains / 4 / overton: 2
+periodicos / por_artigo / grains / 4 / papeis / brief_mention: 1
 periodicos / por_artigo / grains / 4 / reuso_n: 0
-periodicos / por_artigo / grains / 4 / sjr: 3,678
+periodicos / por_artigo / grains / 4 / sjr: 0,829
 periodicos / por_artigo / grains / 5 / n: 1
-periodicos / por_artigo / grains / 5 / papeis / brief_mention: 1
+periodicos / por_artigo / grains / 5 / overton: 11
+periodicos / por_artigo / grains / 5 / papeis / drive_by: 1
 periodicos / por_artigo / grains / 5 / reuso_n: 0
+periodicos / por_artigo / grains / 5 / sjr: 3,678
 periodicos / por_artigo / grains / 6 / n: 1
-periodicos / por_artigo / grains / 6 / overton: 3
 periodicos / por_artigo / grains / 6 / papeis / brief_mention: 1
 periodicos / por_artigo / grains / 6 / reuso_n: 0
-periodicos / por_artigo / grains / 6 / sjr: 0,555
 periodicos / por_artigo / grains / 7 / n: 1
-periodicos / por_artigo / grains / 7 / overton: 38
+periodicos / por_artigo / grains / 7 / overton: 3
 periodicos / por_artigo / grains / 7 / papeis / brief_mention: 1
 periodicos / por_artigo / grains / 7 / reuso_n: 0
-periodicos / por_artigo / grains / 7 / sjr: 3,168
+periodicos / por_artigo / grains / 7 / sjr: 0,555
 periodicos / por_artigo / grains / 8 / n: 1
-periodicos / por_artigo / grains / 8 / overton: 0
-periodicos / por_artigo / grains / 8 / papeis / real_mention: 1
+periodicos / por_artigo / grains / 8 / overton: 38
+periodicos / por_artigo / grains / 8 / papeis / brief_mention: 1
 periodicos / por_artigo / grains / 8 / reuso_n: 0
-periodicos / por_artigo / grains / 8 / sjr: 0,396
+periodicos / por_artigo / grains / 8 / sjr: 3,168
 periodicos / por_artigo / grains / 9 / n: 1
-periodicos / por_artigo / grains / 9 / overton: 31
-periodicos / por_artigo / grains / 9 / papeis / brief_mention: 1
+periodicos / por_artigo / grains / 9 / overton: 0
+periodicos / por_artigo / grains / 9 / papeis / real_mention: 1
 periodicos / por_artigo / grains / 9 / reuso_n: 0
-periodicos / por_artigo / grains / 9 / sjr: 0,972
+periodicos / por_artigo / grains / 9 / sjr: 0,396
 periodicos / por_artigo / grains / 10 / n: 1
-periodicos / por_artigo / grains / 10 / overton: 1
-periodicos / por_artigo / grains / 10 / papeis / reference_list_only: 1
+periodicos / por_artigo / grains / 10 / overton: 31
+periodicos / por_artigo / grains / 10 / papeis / brief_mention: 1
 periodicos / por_artigo / grains / 10 / reuso_n: 0
-periodicos / por_artigo / grains / 10 / sjr: 0,692
+periodicos / por_artigo / grains / 10 / sjr: 0,972
 periodicos / por_artigo / grains / 11 / n: 1
-periodicos / por_artigo / grains / 11 / overton: 3
-periodicos / por_artigo / grains / 11 / papeis / misrepresented: 1
+periodicos / por_artigo / grains / 11 / overton: 1
+periodicos / por_artigo / grains / 11 / papeis / reference_list_only: 1
 periodicos / por_artigo / grains / 11 / reuso_n: 0
-periodicos / por_artigo / grains / 11 / sjr: 1,865
+periodicos / por_artigo / grains / 11 / sjr: 0,692
 periodicos / por_artigo / grains / 12 / n: 1
-periodicos / por_artigo / grains / 12 / overton: 13
+periodicos / por_artigo / grains / 12 / overton: 3
 periodicos / por_artigo / grains / 12 / papeis / misrepresented: 1
 periodicos / por_artigo / grains / 12 / reuso_n: 0
-periodicos / por_artigo / grains / 12 / sjr: 1,503
+periodicos / por_artigo / grains / 12 / sjr: 1,865
 periodicos / por_artigo / grains / 13 / n: 1
-periodicos / por_artigo / grains / 13 / overton: 0
+periodicos / por_artigo / grains / 13 / overton: 13
 periodicos / por_artigo / grains / 13 / papeis / misrepresented: 1
 periodicos / por_artigo / grains / 13 / reuso_n: 0
-periodicos / por_artigo / grains / 13 / sjr: 0,513
+periodicos / por_artigo / grains / 13 / sjr: 1,503
 periodicos / por_artigo / grains / 14 / n: 1
-periodicos / por_artigo / grains / 14 / papeis / real_mention: 1
+periodicos / por_artigo / grains / 14 / overton: 0
+periodicos / por_artigo / grains / 14 / papeis / misrepresented: 1
 periodicos / por_artigo / grains / 14 / reuso_n: 0
+periodicos / por_artigo / grains / 14 / sjr: 0,513
 periodicos / por_artigo / grains / 15 / n: 1
-periodicos / por_artigo / grains / 15 / overton: 0
-periodicos / por_artigo / grains / 15 / papeis / supporting: 1
-periodicos / por_artigo / grains / 15 / reuso_n: 1
-periodicos / por_artigo / grains / 15 / sjr: 2,355
+periodicos / por_artigo / grains / 15 / papeis / real_mention: 1
+periodicos / por_artigo / grains / 15 / reuso_n: 0
 periodicos / por_artigo / grains / 16 / n: 1
 periodicos / por_artigo / grains / 16 / overton: 0
-periodicos / por_artigo / grains / 16 / papeis / reference_list_only: 1
-periodicos / por_artigo / grains / 16 / reuso_n: 0
-periodicos / por_artigo / grains / 16 / sjr: 0,362
+periodicos / por_artigo / grains / 16 / papeis / supporting: 1
+periodicos / por_artigo / grains / 16 / reuso_n: 1
+periodicos / por_artigo / grains / 16 / sjr: 2,355
 periodicos / por_artigo / grains / 17 / n: 1
 periodicos / por_artigo / grains / 17 / overton: 0
-periodicos / por_artigo / grains / 17 / papeis / brief_mention: 1
+periodicos / por_artigo / grains / 17 / papeis / reference_list_only: 1
 periodicos / por_artigo / grains / 17 / reuso_n: 0
-periodicos / por_artigo / grains / 17 / sjr: 0,318
+periodicos / por_artigo / grains / 17 / sjr: 0,362
 periodicos / por_artigo / grains / 18 / n: 1
 periodicos / por_artigo / grains / 18 / overton: 0
 periodicos / por_artigo / grains / 18 / papeis / brief_mention: 1
 periodicos / por_artigo / grains / 18 / reuso_n: 0
-periodicos / por_artigo / grains / 18 / sjr: 0,466
+periodicos / por_artigo / grains / 18 / sjr: 0,318
 periodicos / por_artigo / grains / 19 / n: 1
-periodicos / por_artigo / grains / 19 / overton: 1
-periodicos / por_artigo / grains / 19 / papeis / drive_by: 1
+periodicos / por_artigo / grains / 19 / overton: 0
+periodicos / por_artigo / grains / 19 / papeis / brief_mention: 1
 periodicos / por_artigo / grains / 19 / reuso_n: 0
-periodicos / por_artigo / grains / 19 / sjr: 0,559
+periodicos / por_artigo / grains / 19 / sjr: 0,466
 periodicos / por_artigo / grains / 20 / n: 1
-periodicos / por_artigo / grains / 20 / overton: 53
-periodicos / por_artigo / grains / 20 / papeis / real_mention: 1
+periodicos / por_artigo / grains / 20 / overton: 1
+periodicos / por_artigo / grains / 20 / papeis / drive_by: 1
 periodicos / por_artigo / grains / 20 / reuso_n: 0
-periodicos / por_artigo / grains / 20 / sjr: 0,750
+periodicos / por_artigo / grains / 20 / sjr: 0,559
 periodicos / por_artigo / grains / 21 / n: 1
-periodicos / por_artigo / grains / 21 / overton: 0
-periodicos / por_artigo / grains / 21 / papeis / reference_list_only: 1
+periodicos / por_artigo / grains / 21 / overton: 53
+periodicos / por_artigo / grains / 21 / papeis / real_mention: 1
 periodicos / por_artigo / grains / 21 / reuso_n: 0
-periodicos / por_artigo / grains / 21 / sjr: 2,470
+periodicos / por_artigo / grains / 21 / sjr: 0,750
 periodicos / por_artigo / grains / 22 / n: 1
-periodicos / por_artigo / grains / 22 / overton: 4
-periodicos / por_artigo / grains / 22 / papeis / misrepresented: 1
+periodicos / por_artigo / grains / 22 / overton: 0
+periodicos / por_artigo / grains / 22 / papeis / reference_list_only: 1
 periodicos / por_artigo / grains / 22 / reuso_n: 0
-periodicos / por_artigo / grains / 22 / sjr: 2,359
-periodicos / quartis / Q1: 34
+periodicos / por_artigo / grains / 22 / sjr: 2,470
+periodicos / por_artigo / grains / 23 / n: 1
+periodicos / por_artigo / grains / 23 / overton: 4
+periodicos / por_artigo / grains / 23 / papeis / misrepresented: 1
+periodicos / por_artigo / grains / 23 / reuso_n: 0
+periodicos / por_artigo / grains / 23 / sjr: 2,359
+periodicos / quartis / Q1: 35
 periodicos / quartis / Q2: 7
 periodicos / quartis / Q3: 2
-periodicos / scimago_casados: 43
-periodicos / total: 45
+periodicos / scimago_casados: 44
+periodicos / total: 47
 
 == audit_70 §editoras ==
 editoras / airline / De Gruyter: 1
@@ -896,210 +1825,210 @@ eixos / airline / stance / supporting / valor: 0,923
 eixos / airline / substantivo / D: 52
 eixos / airline / substantivo / n: 7
 eixos / airline / substantivo / valor: 0,135
-eixos / grains / accuracy / accurate / D: 40
+eixos / grains / accuracy / accurate / D: 41
 eixos / grains / accuracy / accurate / n: 20
-eixos / grains / accuracy / accurate / valor: 0,500
-eixos / grains / accuracy / imprecise / D: 40
+eixos / grains / accuracy / accurate / valor: 0,488
+eixos / grains / accuracy / imprecise / D: 41
 eixos / grains / accuracy / imprecise / n: 11
-eixos / grains / accuracy / imprecise / valor: 0,275
-eixos / grains / accuracy / misrepresented / D: 40
-eixos / grains / accuracy / misrepresented / n: 9
-eixos / grains / accuracy / misrepresented / valor: 0,225
-eixos / grains / background_like / D: 40
+eixos / grains / accuracy / imprecise / valor: 0,268
+eixos / grains / accuracy / misrepresented / D: 41
+eixos / grains / accuracy / misrepresented / n: 10
+eixos / grains / accuracy / misrepresented / valor: 0,244
+eixos / grains / background_like / D: 41
 eixos / grains / background_like / n: 38
-eixos / grains / background_like / valor: 0,950
-eixos / grains / depth / brief_mention / D: 40
+eixos / grains / background_like / valor: 0,927
+eixos / grains / depth / brief_mention / D: 41
 eixos / grains / depth / brief_mention / n: 24
-eixos / grains / depth / brief_mention / valor: 0,600
-eixos / grains / depth / drive_by / D: 40
+eixos / grains / depth / brief_mention / valor: 0,585
+eixos / grains / depth / drive_by / D: 41
 eixos / grains / depth / drive_by / n: 10
-eixos / grains / depth / drive_by / valor: 0,250
-eixos / grains / depth / foundational / D: 40
+eixos / grains / depth / drive_by / valor: 0,244
+eixos / grains / depth / foundational / D: 41
 eixos / grains / depth / foundational / n: 0
 eixos / grains / depth / foundational / valor: 0,000
-eixos / grains / depth / real_mention / D: 40
+eixos / grains / depth / real_mention / D: 41
 eixos / grains / depth / real_mention / n: 4
-eixos / grains / depth / real_mention / valor: 0,100
-eixos / grains / depth / supporting / D: 40
-eixos / grains / depth / supporting / n: 2
-eixos / grains / depth / supporting / valor: 0,050
-eixos / grains / distortion / dead_end / D: 40
-eixos / grains / distortion / dead_end / n: 7
-eixos / grains / distortion / dead_end / valor: 0,175
-eixos / grains / distortion / diversion / D: 40
+eixos / grains / depth / real_mention / valor: 0,098
+eixos / grains / depth / supporting / D: 41
+eixos / grains / depth / supporting / n: 3
+eixos / grains / depth / supporting / valor: 0,073
+eixos / grains / distortion / dead_end / D: 41
+eixos / grains / distortion / dead_end / n: 8
+eixos / grains / distortion / dead_end / valor: 0,195
+eixos / grains / distortion / diversion / D: 41
 eixos / grains / distortion / diversion / n: 10
-eixos / grains / distortion / diversion / valor: 0,250
-eixos / grains / distortion / relayed_attribution / D: 40
+eixos / grains / distortion / diversion / valor: 0,244
+eixos / grains / distortion / relayed_attribution / D: 41
 eixos / grains / distortion / relayed_attribution / n: 3
-eixos / grains / distortion / relayed_attribution / valor: 0,075
-eixos / grains / distortion / transmutation / D: 40
+eixos / grains / distortion / relayed_attribution / valor: 0,073
+eixos / grains / distortion / transmutation / D: 41
 eixos / grains / distortion / transmutation / n: 0
 eixos / grains / distortion / transmutation / valor: 0,000
-eixos / grains / highlight / best / D: 40
+eixos / grains / highlight / best / D: 41
 eixos / grains / highlight / best / n: 0
 eixos / grains / highlight / best / valor: 0,000
-eixos / grains / highlight / good / D: 40
+eixos / grains / highlight / good / D: 41
 eixos / grains / highlight / good / n: 5
-eixos / grains / highlight / good / valor: 0,125
-eixos / grains / highlight / none / D: 40
-eixos / grains / highlight / none / n: 35
-eixos / grains / highlight / none / valor: 0,875
-eixos / grains / perfunctorio / D: 40
+eixos / grains / highlight / good / valor: 0,122
+eixos / grains / highlight / none / D: 41
+eixos / grains / highlight / none / n: 36
+eixos / grains / highlight / none / valor: 0,878
+eixos / grains / perfunctorio / D: 41
 eixos / grains / perfunctorio / n: 34
-eixos / grains / perfunctorio / valor: 0,850
-eixos / grains / presence / in_text / D: 48
-eixos / grains / presence / in_text / n: 40
-eixos / grains / presence / in_text / valor: 0,833
-eixos / grains / presence / not_cited / D: 48
+eixos / grains / perfunctorio / valor: 0,829
+eixos / grains / presence / in_text / D: 49
+eixos / grains / presence / in_text / n: 41
+eixos / grains / presence / in_text / valor: 0,837
+eixos / grains / presence / not_cited / D: 49
 eixos / grains / presence / not_cited / n: 0
 eixos / grains / presence / not_cited / valor: 0,000
-eixos / grains / presence / reference_list_only / D: 48
+eixos / grains / presence / reference_list_only / D: 49
 eixos / grains / presence / reference_list_only / n: 8
-eixos / grains / presence / reference_list_only / valor: 0,167
-eixos / grains / record_flags / duplicate_publication / D: 48
+eixos / grains / presence / reference_list_only / valor: 0,163
+eixos / grains / record_flags / duplicate_publication / D: 49
 eixos / grains / record_flags / duplicate_publication / n: 3
-eixos / grains / record_flags / duplicate_publication / valor: 0,063
-eixos / grains / relation / coauthor / D: 48
+eixos / grains / record_flags / duplicate_publication / valor: 0,061
+eixos / grains / relation / coauthor / D: 49
 eixos / grains / relation / coauthor / n: 0
 eixos / grains / relation / coauthor / valor: 0,000
-eixos / grains / relation / independent / D: 48
-eixos / grains / relation / independent / n: 48
+eixos / grains / relation / independent / D: 49
+eixos / grains / relation / independent / n: 49
 eixos / grains / relation / independent / valor: 1,000
-eixos / grains / relation / self / D: 48
+eixos / grains / relation / self / D: 49
 eixos / grains / relation / self / n: 0
 eixos / grains / relation / self / valor: 0,000
-eixos / grains / reuse / benchmarking / D: 40
+eixos / grains / reuse / benchmarking / D: 41
 eixos / grains / reuse / benchmarking / n: 0
 eixos / grains / reuse / benchmarking / valor: 0,000
-eixos / grains / reuse / dataset_reuse / D: 40
+eixos / grains / reuse / dataset_reuse / D: 41
 eixos / grains / reuse / dataset_reuse / n: 0
 eixos / grains / reuse / dataset_reuse / valor: 0,000
-eixos / grains / reuse / method_adoption / D: 40
+eixos / grains / reuse / method_adoption / D: 41
 eixos / grains / reuse / method_adoption / n: 2
-eixos / grains / reuse / method_adoption / valor: 0,050
-eixos / grains / reuse / result_validated / D: 40
+eixos / grains / reuse / method_adoption / valor: 0,049
+eixos / grains / reuse / result_validated / D: 41
 eixos / grains / reuse / result_validated / n: 0
 eixos / grains / reuse / result_validated / valor: 0,000
-eixos / grains / reuse / work_extended / D: 40
+eixos / grains / reuse / work_extended / D: 41
 eixos / grains / reuse / work_extended / n: 0
 eixos / grains / reuse / work_extended / valor: 0,000
-eixos / grains / reuse_externo / D_ind: 40
+eixos / grains / reuse_externo / D_ind: 41
 eixos / grains / reuse_externo / n: 2
-eixos / grains / reuse_externo / pct: 5% (2/40)
-eixos / grains / stance / contradictory / D: 40
+eixos / grains / reuse_externo / pct: 5% (2/41)
+eixos / grains / stance / contradictory / D: 41
 eixos / grains / stance / contradictory / n: 1
-eixos / grains / stance / contradictory / valor: 0,025
-eixos / grains / stance / none / D: 40
+eixos / grains / stance / contradictory / valor: 0,024
+eixos / grains / stance / none / D: 41
 eixos / grains / stance / none / n: 6
-eixos / grains / stance / none / valor: 0,150
-eixos / grains / stance / supporting / D: 40
-eixos / grains / stance / supporting / n: 33
-eixos / grains / stance / supporting / valor: 0,825
-eixos / grains / substantivo / D: 40
-eixos / grains / substantivo / n: 2
-eixos / grains / substantivo / valor: 0,050
-eixos / pooled / accuracy / accurate / D: 92
+eixos / grains / stance / none / valor: 0,146
+eixos / grains / stance / supporting / D: 41
+eixos / grains / stance / supporting / n: 34
+eixos / grains / stance / supporting / valor: 0,829
+eixos / grains / substantivo / D: 41
+eixos / grains / substantivo / n: 3
+eixos / grains / substantivo / valor: 0,073
+eixos / pooled / accuracy / accurate / D: 93
 eixos / pooled / accuracy / accurate / n: 57
-eixos / pooled / accuracy / accurate / valor: 0,620
-eixos / pooled / accuracy / imprecise / D: 92
+eixos / pooled / accuracy / accurate / valor: 0,613
+eixos / pooled / accuracy / imprecise / D: 93
 eixos / pooled / accuracy / imprecise / n: 19
-eixos / pooled / accuracy / imprecise / valor: 0,207
-eixos / pooled / accuracy / misrepresented / D: 92
-eixos / pooled / accuracy / misrepresented / n: 16
-eixos / pooled / accuracy / misrepresented / valor: 0,174
-eixos / pooled / background_like / D: 92
+eixos / pooled / accuracy / imprecise / valor: 0,204
+eixos / pooled / accuracy / misrepresented / D: 93
+eixos / pooled / accuracy / misrepresented / n: 17
+eixos / pooled / accuracy / misrepresented / valor: 0,183
+eixos / pooled / background_like / D: 93
 eixos / pooled / background_like / n: 83
-eixos / pooled / background_like / valor: 0,902
-eixos / pooled / depth / brief_mention / D: 92
+eixos / pooled / background_like / valor: 0,893
+eixos / pooled / depth / brief_mention / D: 93
 eixos / pooled / depth / brief_mention / n: 53
-eixos / pooled / depth / brief_mention / valor: 0,576
-eixos / pooled / depth / drive_by / D: 92
+eixos / pooled / depth / brief_mention / valor: 0,570
+eixos / pooled / depth / drive_by / D: 93
 eixos / pooled / depth / drive_by / n: 15
-eixos / pooled / depth / drive_by / valor: 0,163
-eixos / pooled / depth / foundational / D: 92
+eixos / pooled / depth / drive_by / valor: 0,161
+eixos / pooled / depth / foundational / D: 93
 eixos / pooled / depth / foundational / n: 4
-eixos / pooled / depth / foundational / valor: 0,044
-eixos / pooled / depth / real_mention / D: 92
+eixos / pooled / depth / foundational / valor: 0,043
+eixos / pooled / depth / real_mention / D: 93
 eixos / pooled / depth / real_mention / n: 15
-eixos / pooled / depth / real_mention / valor: 0,163
-eixos / pooled / depth / supporting / D: 92
-eixos / pooled / depth / supporting / n: 5
-eixos / pooled / depth / supporting / valor: 0,054
-eixos / pooled / distortion / dead_end / D: 92
-eixos / pooled / distortion / dead_end / n: 11
-eixos / pooled / distortion / dead_end / valor: 0,120
-eixos / pooled / distortion / diversion / D: 92
+eixos / pooled / depth / real_mention / valor: 0,161
+eixos / pooled / depth / supporting / D: 93
+eixos / pooled / depth / supporting / n: 6
+eixos / pooled / depth / supporting / valor: 0,065
+eixos / pooled / distortion / dead_end / D: 93
+eixos / pooled / distortion / dead_end / n: 12
+eixos / pooled / distortion / dead_end / valor: 0,129
+eixos / pooled / distortion / diversion / D: 93
 eixos / pooled / distortion / diversion / n: 16
-eixos / pooled / distortion / diversion / valor: 0,174
-eixos / pooled / distortion / relayed_attribution / D: 92
+eixos / pooled / distortion / diversion / valor: 0,172
+eixos / pooled / distortion / relayed_attribution / D: 93
 eixos / pooled / distortion / relayed_attribution / n: 5
 eixos / pooled / distortion / relayed_attribution / valor: 0,054
-eixos / pooled / distortion / transmutation / D: 92
+eixos / pooled / distortion / transmutation / D: 93
 eixos / pooled / distortion / transmutation / n: 3
-eixos / pooled / distortion / transmutation / valor: 0,033
-eixos / pooled / highlight / best / D: 92
+eixos / pooled / distortion / transmutation / valor: 0,032
+eixos / pooled / highlight / best / D: 93
 eixos / pooled / highlight / best / n: 2
 eixos / pooled / highlight / best / valor: 0,022
-eixos / pooled / highlight / good / D: 92
+eixos / pooled / highlight / good / D: 93
 eixos / pooled / highlight / good / n: 15
-eixos / pooled / highlight / good / valor: 0,163
-eixos / pooled / highlight / none / D: 92
-eixos / pooled / highlight / none / n: 75
-eixos / pooled / highlight / none / valor: 0,815
-eixos / pooled / perfunctorio / D: 92
+eixos / pooled / highlight / good / valor: 0,161
+eixos / pooled / highlight / none / D: 93
+eixos / pooled / highlight / none / n: 76
+eixos / pooled / highlight / none / valor: 0,817
+eixos / pooled / perfunctorio / D: 93
 eixos / pooled / perfunctorio / n: 68
-eixos / pooled / perfunctorio / valor: 0,739
-eixos / pooled / presence / in_text / D: 104
-eixos / pooled / presence / in_text / n: 92
-eixos / pooled / presence / in_text / valor: 0,885
-eixos / pooled / presence / not_cited / D: 104
+eixos / pooled / perfunctorio / valor: 0,731
+eixos / pooled / presence / in_text / D: 105
+eixos / pooled / presence / in_text / n: 93
+eixos / pooled / presence / in_text / valor: 0,886
+eixos / pooled / presence / not_cited / D: 105
 eixos / pooled / presence / not_cited / n: 0
 eixos / pooled / presence / not_cited / valor: 0,000
-eixos / pooled / presence / reference_list_only / D: 104
+eixos / pooled / presence / reference_list_only / D: 105
 eixos / pooled / presence / reference_list_only / n: 12
-eixos / pooled / presence / reference_list_only / valor: 0,115
-eixos / pooled / record_flags / duplicate_publication / D: 104
+eixos / pooled / presence / reference_list_only / valor: 0,114
+eixos / pooled / record_flags / duplicate_publication / D: 105
 eixos / pooled / record_flags / duplicate_publication / n: 3
 eixos / pooled / record_flags / duplicate_publication / valor: 0,029
-eixos / pooled / relation / coauthor / D: 104
+eixos / pooled / relation / coauthor / D: 105
 eixos / pooled / relation / coauthor / n: 3
 eixos / pooled / relation / coauthor / valor: 0,029
-eixos / pooled / relation / independent / D: 104
-eixos / pooled / relation / independent / n: 100
+eixos / pooled / relation / independent / D: 105
+eixos / pooled / relation / independent / n: 101
 eixos / pooled / relation / independent / valor: 0,962
-eixos / pooled / relation / self / D: 104
+eixos / pooled / relation / self / D: 105
 eixos / pooled / relation / self / n: 1
 eixos / pooled / relation / self / valor: 0,010
-eixos / pooled / reuse / benchmarking / D: 92
+eixos / pooled / reuse / benchmarking / D: 93
 eixos / pooled / reuse / benchmarking / n: 0
 eixos / pooled / reuse / benchmarking / valor: 0,000
-eixos / pooled / reuse / dataset_reuse / D: 92
+eixos / pooled / reuse / dataset_reuse / D: 93
 eixos / pooled / reuse / dataset_reuse / n: 0
 eixos / pooled / reuse / dataset_reuse / valor: 0,000
-eixos / pooled / reuse / method_adoption / D: 92
+eixos / pooled / reuse / method_adoption / D: 93
 eixos / pooled / reuse / method_adoption / n: 5
 eixos / pooled / reuse / method_adoption / valor: 0,054
-eixos / pooled / reuse / result_validated / D: 92
+eixos / pooled / reuse / result_validated / D: 93
 eixos / pooled / reuse / result_validated / n: 0
 eixos / pooled / reuse / result_validated / valor: 0,000
-eixos / pooled / reuse / work_extended / D: 92
+eixos / pooled / reuse / work_extended / D: 93
 eixos / pooled / reuse / work_extended / n: 0
 eixos / pooled / reuse / work_extended / valor: 0,000
-eixos / pooled / reuse_externo / D_ind: 88
+eixos / pooled / reuse_externo / D_ind: 89
 eixos / pooled / reuse_externo / n: 5
-eixos / pooled / reuse_externo / pct: 6% (5/88)
-eixos / pooled / stance / contradictory / D: 92
+eixos / pooled / reuse_externo / pct: 6% (5/89)
+eixos / pooled / stance / contradictory / D: 93
 eixos / pooled / stance / contradictory / n: 2
 eixos / pooled / stance / contradictory / valor: 0,022
-eixos / pooled / stance / none / D: 92
+eixos / pooled / stance / none / D: 93
 eixos / pooled / stance / none / n: 9
-eixos / pooled / stance / none / valor: 0,098
-eixos / pooled / stance / supporting / D: 92
-eixos / pooled / stance / supporting / n: 81
-eixos / pooled / stance / supporting / valor: 0,880
-eixos / pooled / substantivo / D: 92
-eixos / pooled / substantivo / n: 9
-eixos / pooled / substantivo / valor: 0,098
+eixos / pooled / stance / none / valor: 0,097
+eixos / pooled / stance / supporting / D: 93
+eixos / pooled / stance / supporting / n: 82
+eixos / pooled / stance / supporting / valor: 0,882
+eixos / pooled / substantivo / D: 93
+eixos / pooled / substantivo / n: 10
+eixos / pooled / substantivo / valor: 0,108
 
 == audit_70 §papel-quartil ==
 papel_quartil / airline / fantasma_por_quartil / Q1: 3
@@ -1147,7 +2076,7 @@ papel_quartil / grains / fantasma_por_quartil / sem_metrica: 4
 papel_quartil / grains / matriz / Q1 / brief_mention: 8
 papel_quartil / grains / matriz / Q1 / drive_by: 4
 papel_quartil / grains / matriz / Q1 / foundational: 0
-papel_quartil / grains / matriz / Q1 / misrepresented: 5
+papel_quartil / grains / matriz / Q1 / misrepresented: 6
 papel_quartil / grains / matriz / Q1 / real_mention: 2
 papel_quartil / grains / matriz / Q1 / reference_list_only: 2
 papel_quartil / grains / matriz / Q1 / supporting: 1
@@ -1188,7 +2117,7 @@ papel_quartil / pooled / fantasma_por_quartil / sem_metrica: 4
 papel_quartil / pooled / matriz / Q1 / brief_mention: 29
 papel_quartil / pooled / matriz / Q1 / drive_by: 7
 papel_quartil / pooled / matriz / Q1 / foundational: 3
-papel_quartil / pooled / matriz / Q1 / misrepresented: 7
+papel_quartil / pooled / matriz / Q1 / misrepresented: 8
 papel_quartil / pooled / matriz / Q1 / real_mention: 8
 papel_quartil / pooled / matriz / Q1 / reference_list_only: 5
 papel_quartil / pooled / matriz / Q1 / supporting: 4
@@ -1297,7 +2226,7 @@ linha_do_tempo / grains / 2025 / fundo: 0
 linha_do_tempo / grains / 2025 / passagem: 8
 linha_do_tempo / grains / 2026 / conteudo: 0
 linha_do_tempo / grains / 2026 / fantasma: 1
-linha_do_tempo / grains / 2026 / fundo: 0
+linha_do_tempo / grains / 2026 / fundo: 1
 linha_do_tempo / grains / 2026 / passagem: 3
 
 == audit_70 §alegacoes ==
@@ -1589,13 +2518,13 @@ alegacoes / total: 63
 
 == audit_70 §anomalias ==
 anomalias / por_artigo / airline: 24
-anomalias / por_artigo / grains: 32
+anomalias / por_artigo / grains: 33
 anomalias / por_tipo / aresta_falsa: 2
 anomalias / por_tipo / coauthor: 3
 anomalias / por_tipo / duplicate_publication: 3
 anomalias / por_tipo / fantasma: 12
 anomalias / por_tipo / imprecise: 19
-anomalias / por_tipo / misrepresented: 16
+anomalias / por_tipo / misrepresented: 17
 anomalias / por_tipo / self: 1
 
 == audit_70 §irr ==
@@ -4219,132 +5148,289 @@ irr / pre / n_items: 97
 irr / pre / seed: 20.260.904
 
 == audit_70 §cd ==
-cd / airline / cd_index / windows / 1 / CD: -0,003
-cd / airline / cd_index / windows / 1 / CD_nok: -0,333
-cd / airline / cd_index / windows / 1 / DI2 / n_i: 1
+cd / airline / cd_index / checks_global / cited_by_count: 53
+cd / airline / cd_index / checks_global / n_p_citers_all_time: 48
+cd / airline / cd_index / checks_global / s2_citation_count: 49
+cd / airline / cd_index / crosstab / fisher_substantive / p_two_sided: 0,290
+cd / airline / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 0: 0
+cd / airline / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 1: 5
+cd / airline / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 0: 5
+cd / airline / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 1: 12
+cd / airline / cd_index / crosstab / n_classified / i: 5
+cd / airline / cd_index / crosstab / n_classified / j: 17
+cd / airline / cd_index / crosstab / role / i / brief_mention: 4
+cd / airline / cd_index / crosstab / role / i / drive_by: 1
+cd / airline / cd_index / crosstab / role / j / brief_mention: 10
+cd / airline / cd_index / crosstab / role / j / foundational: 3
+cd / airline / cd_index / crosstab / role / j / real_mention: 2
+cd / airline / cd_index / crosstab / role / j / supporting: 2
+cd / airline / cd_index / crosstab / stance / i / supporting: 5
+cd / airline / cd_index / crosstab / stance / j / contradictory: 1
+cd / airline / cd_index / crosstab / stance / j / supporting: 16
+cd / airline / cd_index / crosstab_t5 / fisher_substantive / p_two_sided: 0,290
+cd / airline / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 0: 0
+cd / airline / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 1: 5
+cd / airline / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 0: 5
+cd / airline / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 1: 12
+cd / airline / cd_index / crosstab_t5 / n_classified / i: 5
+cd / airline / cd_index / crosstab_t5 / n_classified / j: 17
+cd / airline / cd_index / crosstab_t5 / role / i / brief_mention: 4
+cd / airline / cd_index / crosstab_t5 / role / i / drive_by: 1
+cd / airline / cd_index / crosstab_t5 / role / j / brief_mention: 10
+cd / airline / cd_index / crosstab_t5 / role / j / foundational: 3
+cd / airline / cd_index / crosstab_t5 / role / j / real_mention: 2
+cd / airline / cd_index / crosstab_t5 / role / j / supporting: 2
+cd / airline / cd_index / crosstab_t5 / stance / i / supporting: 5
+cd / airline / cd_index / crosstab_t5 / stance / j / contradictory: 1
+cd / airline / cd_index / crosstab_t5 / stance / j / supporting: 16
+cd / airline / cd_index / fisher_p: 0,290
+cd / airline / cd_index / id_mapping / n_mapped: 20
+cd / airline / cd_index / id_mapping / n_r_valid_openalex: 26
+cd / airline / cd_index / id_mapping / n_unmapped: 6
+cd / airline / cd_index / id_mapping / unmapped / 0 / pdf_n: 20
+cd / airline / cd_index / id_mapping / unmapped / 0 / year: 2.008
+cd / airline / cd_index / id_mapping / unmapped / 1 / pdf_n: 10
+cd / airline / cd_index / id_mapping / unmapped / 1 / year: 2.007
+cd / airline / cd_index / id_mapping / unmapped / 2 / pdf_n: 23
+cd / airline / cd_index / id_mapping / unmapped / 2 / year: 2.009
+cd / airline / cd_index / id_mapping / unmapped / 3 / pdf_n: 22
+cd / airline / cd_index / id_mapping / unmapped / 3 / year: 2.006
+cd / airline / cd_index / id_mapping / unmapped / 4 / pdf_n: 7
+cd / airline / cd_index / id_mapping / unmapped / 4 / year: 2.015
+cd / airline / cd_index / id_mapping / unmapped / 5 / pdf_n: 3
+cd / airline / cd_index / id_mapping / unmapped / 5 / year: 2.014
+cd / airline / cd_index / loo / all / 0 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 0 / delta: 0,000
+cd / airline / cd_index / loo / all / 1 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 1 / delta: 0,000
+cd / airline / cd_index / loo / all / 2 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 2 / delta: 0,001
+cd / airline / cd_index / loo / all / 3 / cd5_without_r: -0,015
+cd / airline / cd_index / loo / all / 3 / delta: 0,003
+cd / airline / cd_index / loo / all / 4 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 4 / delta: 0,000
+cd / airline / cd_index / loo / all / 5 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 5 / delta: 0,000
+cd / airline / cd_index / loo / all / 6 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 6 / delta: 0,000
+cd / airline / cd_index / loo / all / 7 / cd5_without_r: -0,008
+cd / airline / cd_index / loo / all / 7 / delta: -0,004
+cd / airline / cd_index / loo / all / 8 / cd5_without_r: -0,010
+cd / airline / cd_index / loo / all / 8 / delta: -0,002
+cd / airline / cd_index / loo / all / 9 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 9 / delta: 0,000
+cd / airline / cd_index / loo / all / 10 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 10 / delta: 0,000
+cd / airline / cd_index / loo / all / 11 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 11 / delta: 0,000
+cd / airline / cd_index / loo / all / 12 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 12 / delta: 0,001
+cd / airline / cd_index / loo / all / 13 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 13 / delta: 0,000
+cd / airline / cd_index / loo / all / 14 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 14 / delta: 0,000
+cd / airline / cd_index / loo / all / 15 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 15 / delta: 0,000
+cd / airline / cd_index / loo / all / 16 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 16 / delta: 0,000
+cd / airline / cd_index / loo / all / 17 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 17 / delta: 0,000
+cd / airline / cd_index / loo / all / 18 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / all / 18 / delta: 0,000
+cd / airline / cd_index / loo / all / 19 / cd5_without_r: -0,016
+cd / airline / cd_index / loo / all / 19 / delta: 0,005
+cd / airline / cd_index / loo / cd5_full: -0,012
+cd / airline / cd_index / loo / top5_abs_delta / 0 / cd5_without_r: -0,016
+cd / airline / cd_index / loo / top5_abs_delta / 0 / delta: 0,005
+cd / airline / cd_index / loo / top5_abs_delta / 1 / cd5_without_r: -0,008
+cd / airline / cd_index / loo / top5_abs_delta / 1 / delta: -0,004
+cd / airline / cd_index / loo / top5_abs_delta / 2 / cd5_without_r: -0,015
+cd / airline / cd_index / loo / top5_abs_delta / 2 / delta: 0,003
+cd / airline / cd_index / loo / top5_abs_delta / 3 / cd5_without_r: -0,010
+cd / airline / cd_index / loo / top5_abs_delta / 3 / delta: -0,002
+cd / airline / cd_index / loo / top5_abs_delta / 4 / cd5_without_r: -0,012
+cd / airline / cd_index / loo / top5_abs_delta / 4 / delta: 0,001
+cd / airline / cd_index / loo_cd5 / all / 0 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 0 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 1 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 1 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 2 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 2 / delta: 0,001
+cd / airline / cd_index / loo_cd5 / all / 3 / cd5_without_r: -0,015
+cd / airline / cd_index / loo_cd5 / all / 3 / delta: 0,003
+cd / airline / cd_index / loo_cd5 / all / 4 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 4 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 5 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 5 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 6 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 6 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 7 / cd5_without_r: -0,008
+cd / airline / cd_index / loo_cd5 / all / 7 / delta: -0,004
+cd / airline / cd_index / loo_cd5 / all / 8 / cd5_without_r: -0,010
+cd / airline / cd_index / loo_cd5 / all / 8 / delta: -0,002
+cd / airline / cd_index / loo_cd5 / all / 9 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 9 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 10 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 10 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 11 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 11 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 12 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 12 / delta: 0,001
+cd / airline / cd_index / loo_cd5 / all / 13 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 13 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 14 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 14 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 15 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 15 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 16 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 16 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 17 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 17 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 18 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / all / 18 / delta: 0,000
+cd / airline / cd_index / loo_cd5 / all / 19 / cd5_without_r: -0,016
+cd / airline / cd_index / loo_cd5 / all / 19 / delta: 0,005
+cd / airline / cd_index / loo_cd5 / cd5_full: -0,012
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 0 / cd5_without_r: -0,016
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 0 / delta: 0,005
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 1 / cd5_without_r: -0,008
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 1 / delta: -0,004
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 2 / cd5_without_r: -0,015
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 2 / delta: 0,003
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 3 / cd5_without_r: -0,010
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 3 / delta: -0,002
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 4 / cd5_without_r: -0,012
+cd / airline / cd_index / loo_cd5 / top5_abs_delta / 4 / delta: 0,001
+cd / airline / cd_index / requests / cache_hits: 0
+cd / airline / cd_index / requests / network: 70
+cd / airline / cd_index / requests / none_responses: 0
+cd / airline / cd_index / requests / total: 70
+cd / airline / cd_index / windows / 1 / CD: -0,006
+cd / airline / cd_index / windows / 1 / CD_nok: -1,000
+cd / airline / cd_index / windows / 1 / DI2 / n_i: 0
 cd / airline / cd_index / windows / 1 / DI2 / n_j: 2
 cd / airline / cd_index / windows / 1 / DI2 / n_k: 60
-cd / airline / cd_index / windows / 1 / DI2 / value: -0,016
-cd / airline / cd_index / windows / 1 / DI5 / n_i: 3
+cd / airline / cd_index / windows / 1 / DI2 / value: -0,032
+cd / airline / cd_index / windows / 1 / DI5 / n_i: 2
 cd / airline / cd_index / windows / 1 / DI5 / n_j: 0
 cd / airline / cd_index / windows / 1 / DI5 / n_k: 2
-cd / airline / cd_index / windows / 1 / DI5 / value: 0,600
-cd / airline / cd_index / windows / 1 / checks / ni_plus_nj: 3
-cd / airline / cd_index / windows / 1 / checks / p_citers_in_window: 3
-cd / airline / cd_index / windows / 1 / ci_95 / CD / 0: -0,011
-cd / airline / cd_index / windows / 1 / ci_95 / CD / 1: 0,006
+cd / airline / cd_index / windows / 1 / DI5 / value: 0,500
+cd / airline / cd_index / windows / 1 / checks / ni_plus_nj: 2
+cd / airline / cd_index / windows / 1 / checks / p_citers_in_window: 2
+cd / airline / cd_index / windows / 1 / ci_95 / CD / 0: -0,014
+cd / airline / cd_index / windows / 1 / ci_95 / CD / 1: 0,000
 cd / airline / cd_index / windows / 1 / ci_95 / CD_nok / 0: -1,000
-cd / airline / cd_index / windows / 1 / ci_95 / CD_nok / 1: 1,000
-cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 0: -0,069
-cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 1: 0,036
+cd / airline / cd_index / windows / 1 / ci_95 / CD_nok / 1: -1,000
+cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 0: -0,083
+cd / airline / cd_index / windows / 1 / ci_95 / DI2 / 1: 0,000
 cd / airline / cd_index / windows / 1 / ci_95 / DI5 / 0: 0,000
 cd / airline / cd_index / windows / 1 / ci_95 / DI5 / 1: 1,000
-cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 0: -0,011
-cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 1: 0,006
-cd / airline / cd_index / windows / 1 / holst / CD: -0,003
-cd / airline / cd_index / windows / 1 / holst / n_i: 1
+cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 0: -0,014
+cd / airline / cd_index / windows / 1 / ci_95 / holst_CD / 1: 0,000
+cd / airline / cd_index / windows / 1 / holst / CD: -0,006
+cd / airline / cd_index / windows / 1 / holst / n_i: 0
 cd / airline / cd_index / windows / 1 / holst / n_j: 2
 cd / airline / cd_index / windows / 1 / holst / n_k: 351
-cd / airline / cd_index / windows / 1 / n_i: 1
+cd / airline / cd_index / windows / 1 / n_i: 0
 cd / airline / cd_index / windows / 1 / n_j: 2
 cd / airline / cd_index / windows / 1 / n_k: 351
-cd / airline / cd_index / windows / 1 / n_window: 354
+cd / airline / cd_index / windows / 1 / n_window: 353
 cd / airline / cd_index / windows / 1 / t: 1
 cd / airline / cd_index / windows / 1 / t_nominal: 1
 cd / airline / cd_index / windows / 10 / CD: -0,012
-cd / airline / cd_index / windows / 10 / CD_nok: -0,347
-cd / airline / cd_index / windows / 10 / DI2 / n_i: 23
+cd / airline / cd_index / windows / 10 / CD_nok: -0,375
+cd / airline / cd_index / windows / 10 / DI2 / n_i: 22
 cd / airline / cd_index / windows / 10 / DI2 / n_j: 26
 cd / airline / cd_index / windows / 10 / DI2 / n_k: 220
-cd / airline / cd_index / windows / 10 / DI2 / value: -0,011
-cd / airline / cd_index / windows / 10 / DI5 / n_i: 45
+cd / airline / cd_index / windows / 10 / DI2 / value: -0,015
+cd / airline / cd_index / windows / 10 / DI5 / n_i: 44
 cd / airline / cd_index / windows / 10 / DI5 / n_j: 4
 cd / airline / cd_index / windows / 10 / DI5 / n_k: 13
-cd / airline / cd_index / windows / 10 / DI5 / value: 0,661
-cd / airline / cd_index / windows / 10 / checks / ni_plus_nj: 49
-cd / airline / cd_index / windows / 10 / checks / p_citers_in_window: 49
-cd / airline / cd_index / windows / 10 / ci_95 / CD / 0: -0,021
-cd / airline / cd_index / windows / 10 / ci_95 / CD / 1: -0,002
-cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,600
-cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 1: -0,070
-cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 0: -0,061
-cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,040
-cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,509
-cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,804
-cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 0: -0,021
-cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 1: -0,002
+cd / airline / cd_index / windows / 10 / DI5 / value: 0,656
+cd / airline / cd_index / windows / 10 / checks / ni_plus_nj: 48
+cd / airline / cd_index / windows / 10 / checks / p_citers_in_window: 48
+cd / airline / cd_index / windows / 10 / ci_95 / CD / 0: -0,022
+cd / airline / cd_index / windows / 10 / ci_95 / CD / 1: -0,003
+cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,636
+cd / airline / cd_index / windows / 10 / ci_95 / CD_nok / 1: -0,087
+cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 0: -0,065
+cd / airline / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,038
+cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,500
+cd / airline / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,800
+cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 0: -0,022
+cd / airline / cd_index / windows / 10 / ci_95 / holst_CD / 1: -0,003
 cd / airline / cd_index / windows / 10 / holst / CD: -0,012
-cd / airline / cd_index / windows / 10 / holst / n_i: 16
+cd / airline / cd_index / windows / 10 / holst / n_i: 15
 cd / airline / cd_index / windows / 10 / holst / n_j: 33
-cd / airline / cd_index / windows / 10 / holst / n_k: 1.410
-cd / airline / cd_index / windows / 10 / n_i: 16
+cd / airline / cd_index / windows / 10 / holst / n_k: 1.416
+cd / airline / cd_index / windows / 10 / n_i: 15
 cd / airline / cd_index / windows / 10 / n_j: 33
-cd / airline / cd_index / windows / 10 / n_k: 1.410
-cd / airline / cd_index / windows / 10 / n_window: 1.459
+cd / airline / cd_index / windows / 10 / n_k: 1.416
+cd / airline / cd_index / windows / 10 / n_window: 1.464
 cd / airline / cd_index / windows / 10 / t: 10
 cd / airline / cd_index / windows / 10 / t_nominal: 10
-cd / airline / cd_index / windows / 3 / CD: -0,007
-cd / airline / cd_index / windows / 3 / CD_nok: -0,333
-cd / airline / cd_index / windows / 3 / DI2 / n_i: 7
+cd / airline / cd_index / windows / 3 / CD: -0,008
+cd / airline / cd_index / windows / 3 / CD_nok: -0,429
+cd / airline / cd_index / windows / 3 / DI2 / n_i: 6
 cd / airline / cd_index / windows / 3 / DI2 / n_j: 8
 cd / airline / cd_index / windows / 3 / DI2 / n_k: 101
-cd / airline / cd_index / windows / 3 / DI2 / value: -0,009
-cd / airline / cd_index / windows / 3 / DI5 / n_i: 14
+cd / airline / cd_index / windows / 3 / DI2 / value: -0,017
+cd / airline / cd_index / windows / 3 / DI5 / n_i: 13
 cd / airline / cd_index / windows / 3 / DI5 / n_j: 1
 cd / airline / cd_index / windows / 3 / DI5 / n_k: 8
-cd / airline / cd_index / windows / 3 / DI5 / value: 0,565
-cd / airline / cd_index / windows / 3 / checks / ni_plus_nj: 15
-cd / airline / cd_index / windows / 3 / checks / p_citers_in_window: 15
-cd / airline / cd_index / windows / 3 / ci_95 / CD / 0: -0,017
-cd / airline / cd_index / windows / 3 / ci_95 / CD / 1: 0,003
-cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,800
-cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,177
-cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 0: -0,076
-cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 1: 0,058
-cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,320
-cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,789
-cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 0: -0,017
-cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 1: 0,003
-cd / airline / cd_index / windows / 3 / holst / CD: -0,007
-cd / airline / cd_index / windows / 3 / holst / n_i: 5
+cd / airline / cd_index / windows / 3 / DI5 / value: 0,545
+cd / airline / cd_index / windows / 3 / checks / ni_plus_nj: 14
+cd / airline / cd_index / windows / 3 / checks / p_citers_in_window: 14
+cd / airline / cd_index / windows / 3 / ci_95 / CD / 0: -0,019
+cd / airline / cd_index / windows / 3 / ci_95 / CD / 1: 0,001
+cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,882
+cd / airline / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,067
+cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 0: -0,080
+cd / airline / cd_index / windows / 3 / ci_95 / DI2 / 1: 0,046
+cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,300
+cd / airline / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,786
+cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 0: -0,019
+cd / airline / cd_index / windows / 3 / ci_95 / holst_CD / 1: 0,001
+cd / airline / cd_index / windows / 3 / holst / CD: -0,008
+cd / airline / cd_index / windows / 3 / holst / n_i: 4
 cd / airline / cd_index / windows / 3 / holst / n_j: 10
-cd / airline / cd_index / windows / 3 / holst / n_k: 734
-cd / airline / cd_index / windows / 3 / n_i: 5
+cd / airline / cd_index / windows / 3 / holst / n_k: 733
+cd / airline / cd_index / windows / 3 / n_i: 4
 cd / airline / cd_index / windows / 3 / n_j: 10
-cd / airline / cd_index / windows / 3 / n_k: 734
-cd / airline / cd_index / windows / 3 / n_window: 749
+cd / airline / cd_index / windows / 3 / n_k: 733
+cd / airline / cd_index / windows / 3 / n_window: 747
 cd / airline / cd_index / windows / 3 / t: 3
 cd / airline / cd_index / windows / 3 / t_nominal: 3
-cd / airline / cd_index / windows / 5 / CD: -0,011
-cd / airline / cd_index / windows / 5 / CD_nok: -0,440
-cd / airline / cd_index / windows / 5 / DI2 / n_i: 10
+cd / airline / cd_index / windows / 5 / CD: -0,012
+cd / airline / cd_index / windows / 5 / CD_nok: -0,500
+cd / airline / cd_index / windows / 5 / DI2 / n_i: 9
 cd / airline / cd_index / windows / 5 / DI2 / n_j: 15
 cd / airline / cd_index / windows / 5 / DI2 / n_k: 153
-cd / airline / cd_index / windows / 5 / DI2 / value: -0,028
-cd / airline / cd_index / windows / 5 / DI5 / n_i: 23
+cd / airline / cd_index / windows / 5 / DI2 / value: -0,034
+cd / airline / cd_index / windows / 5 / DI5 / n_i: 22
 cd / airline / cd_index / windows / 5 / DI5 / n_j: 2
 cd / airline / cd_index / windows / 5 / DI5 / n_k: 10
-cd / airline / cd_index / windows / 5 / DI5 / value: 0,600
-cd / airline / cd_index / windows / 5 / checks / ni_plus_nj: 25
-cd / airline / cd_index / windows / 5 / checks / p_citers_in_window: 25
-cd / airline / cd_index / windows / 5 / ci_95 / CD / 0: -0,020
-cd / airline / cd_index / windows / 5 / ci_95 / CD / 1: -0,001
-cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,769
-cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 1: -0,066
-cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 0: -0,083
-cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 1: 0,025
-cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,395
-cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,781
-cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 0: -0,020
-cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 1: -0,001
-cd / airline / cd_index / windows / 5 / holst / CD: -0,011
-cd / airline / cd_index / windows / 5 / holst / n_i: 7
+cd / airline / cd_index / windows / 5 / DI5 / value: 0,588
+cd / airline / cd_index / windows / 5 / checks / ni_plus_nj: 24
+cd / airline / cd_index / windows / 5 / checks / p_citers_in_window: 24
+cd / airline / cd_index / windows / 5 / ci_95 / CD / 0: -0,021
+cd / airline / cd_index / windows / 5 / ci_95 / CD / 1: -0,003
+cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,833
+cd / airline / cd_index / windows / 5 / ci_95 / CD_nok / 1: -0,111
+cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 0: -0,087
+cd / airline / cd_index / windows / 5 / ci_95 / DI2 / 1: 0,022
+cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,382
+cd / airline / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,786
+cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 0: -0,021
+cd / airline / cd_index / windows / 5 / ci_95 / holst_CD / 1: -0,003
+cd / airline / cd_index / windows / 5 / holst / CD: -0,012
+cd / airline / cd_index / windows / 5 / holst / n_i: 6
 cd / airline / cd_index / windows / 5 / holst / n_j: 18
-cd / airline / cd_index / windows / 5 / holst / n_k: 1.016
-cd / airline / cd_index / windows / 5 / n_i: 7
+cd / airline / cd_index / windows / 5 / holst / n_k: 1.015
+cd / airline / cd_index / windows / 5 / n_i: 6
 cd / airline / cd_index / windows / 5 / n_j: 18
-cd / airline / cd_index / windows / 5 / n_k: 1.016
-cd / airline / cd_index / windows / 5 / n_window: 1.041
+cd / airline / cd_index / windows / 5 / n_k: 1.015
+cd / airline / cd_index / windows / 5 / n_window: 1.039
 cd / airline / cd_index / windows / 5 / t: 5
 cd / airline / cd_index / windows / 5 / t_nominal: 5
 cd / airline / refs_audit / n_false_references: 0
@@ -4352,16 +5438,221 @@ cd / airline / refs_audit / n_openalex_raw: 30
 cd / airline / refs_audit / n_pdf: 26
 cd / airline / refs_audit / n_unresolvable: 0
 cd / airline / refs_audit / n_valid: 26
+cd / grains / cd_index / checks_global / cited_by_count: 60
+cd / grains / cd_index / checks_global / n_p_citers_all_time: 54
+cd / grains / cd_index / checks_global / s2_citation_count: 54
+cd / grains / cd_index / crosstab / fisher_substantive / p_two_sided: 1,000
+cd / grains / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 0: 1
+cd / grains / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 1: 12
+cd / grains / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 0: 0
+cd / grains / cd_index / crosstab / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 1: 12
+cd / grains / cd_index / crosstab / n_classified / i: 13
+cd / grains / cd_index / crosstab / n_classified / j: 12
+cd / grains / cd_index / crosstab / role / i / brief_mention: 7
+cd / grains / cd_index / crosstab / role / i / drive_by: 2
+cd / grains / cd_index / crosstab / role / i / real_mention: 2
+cd / grains / cd_index / crosstab / role / i / sem_depth_role: 1
+cd / grains / cd_index / crosstab / role / i / supporting: 1
+cd / grains / cd_index / crosstab / role / j / brief_mention: 9
+cd / grains / cd_index / crosstab / role / j / drive_by: 1
+cd / grains / cd_index / crosstab / role / j / real_mention: 1
+cd / grains / cd_index / crosstab / role / j / sem_depth_role: 1
+cd / grains / cd_index / crosstab / stance / i / none: 3
+cd / grains / cd_index / crosstab / stance / i / supporting: 10
+cd / grains / cd_index / crosstab / stance / j / contradictory: 1
+cd / grains / cd_index / crosstab / stance / j / none: 2
+cd / grains / cd_index / crosstab / stance / j / supporting: 9
+cd / grains / cd_index / crosstab_t5 / fisher_substantive / p_two_sided: 1,000
+cd / grains / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 0: 1
+cd / grains / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 0 / 1: 12
+cd / grains / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 0: 0
+cd / grains / cd_index / crosstab_t5 / fisher_substantive / table_rows_i_j__cols_substantive_other / 1 / 1: 12
+cd / grains / cd_index / crosstab_t5 / n_classified / i: 13
+cd / grains / cd_index / crosstab_t5 / n_classified / j: 12
+cd / grains / cd_index / crosstab_t5 / role / i / brief_mention: 7
+cd / grains / cd_index / crosstab_t5 / role / i / drive_by: 2
+cd / grains / cd_index / crosstab_t5 / role / i / real_mention: 2
+cd / grains / cd_index / crosstab_t5 / role / i / sem_depth_role: 1
+cd / grains / cd_index / crosstab_t5 / role / i / supporting: 1
+cd / grains / cd_index / crosstab_t5 / role / j / brief_mention: 9
+cd / grains / cd_index / crosstab_t5 / role / j / drive_by: 1
+cd / grains / cd_index / crosstab_t5 / role / j / real_mention: 1
+cd / grains / cd_index / crosstab_t5 / role / j / sem_depth_role: 1
+cd / grains / cd_index / crosstab_t5 / stance / i / none: 3
+cd / grains / cd_index / crosstab_t5 / stance / i / supporting: 10
+cd / grains / cd_index / crosstab_t5 / stance / j / contradictory: 1
+cd / grains / cd_index / crosstab_t5 / stance / j / none: 2
+cd / grains / cd_index / crosstab_t5 / stance / j / supporting: 9
+cd / grains / cd_index / fisher_p: 1,000
+cd / grains / cd_index / id_mapping / n_mapped: 30
+cd / grains / cd_index / id_mapping / n_r_valid_openalex: 35
+cd / grains / cd_index / id_mapping / n_unmapped: 5
+cd / grains / cd_index / id_mapping / unmapped / 0 / pdf_n: 18
+cd / grains / cd_index / id_mapping / unmapped / 0 / year: 2.013
+cd / grains / cd_index / id_mapping / unmapped / 1 / pdf_n: 34
+cd / grains / cd_index / id_mapping / unmapped / 1 / year: 2.016
+cd / grains / cd_index / id_mapping / unmapped / 2 / pdf_n: 29
+cd / grains / cd_index / id_mapping / unmapped / 2 / year: 2.015
+cd / grains / cd_index / id_mapping / unmapped / 3 / pdf_n: 26
+cd / grains / cd_index / id_mapping / unmapped / 3 / year: 2.012
+cd / grains / cd_index / id_mapping / unmapped / 4 / pdf_n: 32
+cd / grains / cd_index / id_mapping / unmapped / 4 / year: 2.016
+cd / grains / cd_index / loo / all / 0 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 0 / delta: 0,000
+cd / grains / cd_index / loo / all / 1 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 1 / delta: 0,000
+cd / grains / cd_index / loo / all / 2 / cd5_without_r: 0,002
+cd / grains / cd_index / loo / all / 2 / delta: -0,001
+cd / grains / cd_index / loo / all / 3 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 3 / delta: -0,001
+cd / grains / cd_index / loo / all / 4 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 4 / delta: 0,000
+cd / grains / cd_index / loo / all / 5 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 5 / delta: 0,000
+cd / grains / cd_index / loo / all / 6 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 6 / delta: 0,000
+cd / grains / cd_index / loo / all / 7 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 7 / delta: 0,000
+cd / grains / cd_index / loo / all / 8 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 8 / delta: 0,000
+cd / grains / cd_index / loo / all / 9 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 9 / delta: 0,000
+cd / grains / cd_index / loo / all / 10 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 10 / delta: 0,000
+cd / grains / cd_index / loo / all / 11 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 11 / delta: 0,000
+cd / grains / cd_index / loo / all / 12 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 12 / delta: 0,000
+cd / grains / cd_index / loo / all / 13 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 13 / delta: 0,000
+cd / grains / cd_index / loo / all / 14 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 14 / delta: 0,000
+cd / grains / cd_index / loo / all / 15 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 15 / delta: 0,000
+cd / grains / cd_index / loo / all / 16 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 16 / delta: 0,000
+cd / grains / cd_index / loo / all / 17 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 17 / delta: 0,000
+cd / grains / cd_index / loo / all / 18 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 18 / delta: 0,000
+cd / grains / cd_index / loo / all / 19 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 19 / delta: 0,000
+cd / grains / cd_index / loo / all / 20 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 20 / delta: 0,000
+cd / grains / cd_index / loo / all / 21 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 21 / delta: 0,000
+cd / grains / cd_index / loo / all / 22 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 22 / delta: 0,000
+cd / grains / cd_index / loo / all / 23 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 23 / delta: 0,000
+cd / grains / cd_index / loo / all / 24 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 24 / delta: 0,000
+cd / grains / cd_index / loo / all / 25 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 25 / delta: 0,000
+cd / grains / cd_index / loo / all / 26 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 26 / delta: 0,000
+cd / grains / cd_index / loo / all / 27 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 27 / delta: 0,000
+cd / grains / cd_index / loo / all / 28 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 28 / delta: 0,000
+cd / grains / cd_index / loo / all / 29 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / all / 29 / delta: 0,000
+cd / grains / cd_index / loo / cd5_full: 0,001
+cd / grains / cd_index / loo / top5_abs_delta / 0 / cd5_without_r: 0,002
+cd / grains / cd_index / loo / top5_abs_delta / 0 / delta: -0,001
+cd / grains / cd_index / loo / top5_abs_delta / 1 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / top5_abs_delta / 1 / delta: -0,001
+cd / grains / cd_index / loo / top5_abs_delta / 2 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / top5_abs_delta / 2 / delta: 0,000
+cd / grains / cd_index / loo / top5_abs_delta / 3 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / top5_abs_delta / 3 / delta: 0,000
+cd / grains / cd_index / loo / top5_abs_delta / 4 / cd5_without_r: 0,001
+cd / grains / cd_index / loo / top5_abs_delta / 4 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 0 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 0 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 1 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 1 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 2 / cd5_without_r: 0,002
+cd / grains / cd_index / loo_cd5 / all / 2 / delta: -0,001
+cd / grains / cd_index / loo_cd5 / all / 3 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 3 / delta: -0,001
+cd / grains / cd_index / loo_cd5 / all / 4 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 4 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 5 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 5 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 6 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 6 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 7 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 7 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 8 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 8 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 9 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 9 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 10 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 10 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 11 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 11 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 12 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 12 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 13 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 13 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 14 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 14 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 15 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 15 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 16 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 16 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 17 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 17 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 18 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 18 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 19 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 19 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 20 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 20 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 21 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 21 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 22 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 22 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 23 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 23 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 24 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 24 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 25 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 25 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 26 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 26 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 27 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 27 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 28 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 28 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / all / 29 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / all / 29 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / cd5_full: 0,001
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 0 / cd5_without_r: 0,002
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 0 / delta: -0,001
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 1 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 1 / delta: -0,001
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 2 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 2 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 3 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 3 / delta: 0,000
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 4 / cd5_without_r: 0,001
+cd / grains / cd_index / loo_cd5 / top5_abs_delta / 4 / delta: 0,000
+cd / grains / cd_index / requests / cache_hits: 0
+cd / grains / cd_index / requests / network: 95
+cd / grains / cd_index / requests / none_responses: 0
+cd / grains / cd_index / requests / total: 95
 cd / grains / cd_index / windows / 1 / CD: 0,001
 cd / grains / cd_index / windows / 1 / CD_nok: 1,000
 cd / grains / cd_index / windows / 1 / DI2 / n_i: 3
 cd / grains / cd_index / windows / 1 / DI2 / n_j: 0
-cd / grains / cd_index / windows / 1 / DI2 / n_k: 519
+cd / grains / cd_index / windows / 1 / DI2 / n_k: 518
 cd / grains / cd_index / windows / 1 / DI2 / value: 0,006
 cd / grains / cd_index / windows / 1 / DI5 / n_i: 3
 cd / grains / cd_index / windows / 1 / DI5 / n_j: 0
-cd / grains / cd_index / windows / 1 / DI5 / n_k: 28
-cd / grains / cd_index / windows / 1 / DI5 / value: 0,097
+cd / grains / cd_index / windows / 1 / DI5 / n_k: 27
+cd / grains / cd_index / windows / 1 / DI5 / value: 0,100
 cd / grains / cd_index / windows / 1 / checks / ni_plus_nj: 3
 cd / grains / cd_index / windows / 1 / checks / p_citers_in_window: 3
 cd / grains / cd_index / windows / 1 / ci_95 / CD / 0: 0,000
@@ -4371,24 +5662,24 @@ cd / grains / cd_index / windows / 1 / ci_95 / CD_nok / 1: 1,000
 cd / grains / cd_index / windows / 1 / ci_95 / DI2 / 0: 0,000
 cd / grains / cd_index / windows / 1 / ci_95 / DI2 / 1: 0,013
 cd / grains / cd_index / windows / 1 / ci_95 / DI5 / 0: 0,000
-cd / grains / cd_index / windows / 1 / ci_95 / DI5 / 1: 0,217
+cd / grains / cd_index / windows / 1 / ci_95 / DI5 / 1: 0,222
 cd / grains / cd_index / windows / 1 / ci_95 / holst_CD / 0: 0,000
 cd / grains / cd_index / windows / 1 / ci_95 / holst_CD / 1: 0,002
 cd / grains / cd_index / windows / 1 / holst / CD: 0,001
 cd / grains / cd_index / windows / 1 / holst / n_i: 3
 cd / grains / cd_index / windows / 1 / holst / n_j: 0
-cd / grains / cd_index / windows / 1 / holst / n_k: 2.863
+cd / grains / cd_index / windows / 1 / holst / n_k: 2.877
 cd / grains / cd_index / windows / 1 / n_i: 3
 cd / grains / cd_index / windows / 1 / n_j: 0
-cd / grains / cd_index / windows / 1 / n_k: 2.863
-cd / grains / cd_index / windows / 1 / n_window: 2.866
+cd / grains / cd_index / windows / 1 / n_k: 2.877
+cd / grains / cd_index / windows / 1 / n_window: 2.880
 cd / grains / cd_index / windows / 1 / t: 1
 cd / grains / cd_index / windows / 1 / t_nominal: 1
 cd / grains / cd_index / windows / 10 / CD: 0,001
 cd / grains / cd_index / windows / 10 / CD_nok: 0,132
 cd / grains / cd_index / windows / 10 / DI2 / n_i: 39
 cd / grains / cd_index / windows / 10 / DI2 / n_j: 14
-cd / grains / cd_index / windows / 10 / DI2 / n_k: 1.306
+cd / grains / cd_index / windows / 10 / DI2 / n_k: 1.326
 cd / grains / cd_index / windows / 10 / DI2 / value: 0,018
 cd / grains / cd_index / windows / 10 / DI5 / n_i: 50
 cd / grains / cd_index / windows / 10 / DI5 / n_j: 3
@@ -4398,61 +5689,61 @@ cd / grains / cd_index / windows / 10 / checks / ni_plus_nj: 53
 cd / grains / cd_index / windows / 10 / checks / p_citers_in_window: 53
 cd / grains / cd_index / windows / 10 / ci_95 / CD / 0: -0,001
 cd / grains / cd_index / windows / 10 / ci_95 / CD / 1: 0,002
-cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,121
-cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 1: 0,404
-cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 0: 0,009
-cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,029
-cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,302
-cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,495
+cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 0: -0,148
+cd / grains / cd_index / windows / 10 / ci_95 / CD_nok / 1: 0,393
+cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 0: 0,008
+cd / grains / cd_index / windows / 10 / ci_95 / DI2 / 1: 0,028
+cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 0: 0,304
+cd / grains / cd_index / windows / 10 / ci_95 / DI5 / 1: 0,504
 cd / grains / cd_index / windows / 10 / ci_95 / holst_CD / 0: -0,001
 cd / grains / cd_index / windows / 10 / ci_95 / holst_CD / 1: 0,002
 cd / grains / cd_index / windows / 10 / holst / CD: 0,001
 cd / grains / cd_index / windows / 10 / holst / n_i: 30
 cd / grains / cd_index / windows / 10 / holst / n_j: 23
-cd / grains / cd_index / windows / 10 / holst / n_k: 8.482
+cd / grains / cd_index / windows / 10 / holst / n_k: 8.649
 cd / grains / cd_index / windows / 10 / n_i: 30
 cd / grains / cd_index / windows / 10 / n_j: 23
-cd / grains / cd_index / windows / 10 / n_k: 8.482
-cd / grains / cd_index / windows / 10 / n_window: 8.535
+cd / grains / cd_index / windows / 10 / n_k: 8.649
+cd / grains / cd_index / windows / 10 / n_window: 8.702
 cd / grains / cd_index / windows / 10 / t: 7
 cd / grains / cd_index / windows / 10 / t_nominal: 10
 cd / grains / cd_index / windows / 3 / CD: 0,000
 cd / grains / cd_index / windows / 3 / CD_nok: -0,091
 cd / grains / cd_index / windows / 3 / DI2 / n_i: 13
 cd / grains / cd_index / windows / 3 / DI2 / n_j: 9
-cd / grains / cd_index / windows / 3 / DI2 / n_k: 904
+cd / grains / cd_index / windows / 3 / DI2 / n_k: 905
 cd / grains / cd_index / windows / 3 / DI2 / value: 0,004
 cd / grains / cd_index / windows / 3 / DI5 / n_i: 20
 cd / grains / cd_index / windows / 3 / DI5 / n_j: 2
-cd / grains / cd_index / windows / 3 / DI5 / n_k: 48
-cd / grains / cd_index / windows / 3 / DI5 / value: 0,257
+cd / grains / cd_index / windows / 3 / DI5 / n_k: 47
+cd / grains / cd_index / windows / 3 / DI5 / value: 0,261
 cd / grains / cd_index / windows / 3 / checks / ni_plus_nj: 22
 cd / grains / cd_index / windows / 3 / checks / p_citers_in_window: 22
 cd / grains / cd_index / windows / 3 / ci_95 / CD / 0: -0,002
 cd / grains / cd_index / windows / 3 / ci_95 / CD / 1: 0,001
-cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,500
-cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,333
+cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 0: -0,524
+cd / grains / cd_index / windows / 3 / ci_95 / CD_nok / 1: 0,360
 cd / grains / cd_index / windows / 3 / ci_95 / DI2 / 0: -0,005
 cd / grains / cd_index / windows / 3 / ci_95 / DI2 / 1: 0,014
-cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,145
-cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,378
+cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 0: 0,143
+cd / grains / cd_index / windows / 3 / ci_95 / DI5 / 1: 0,384
 cd / grains / cd_index / windows / 3 / ci_95 / holst_CD / 0: -0,002
 cd / grains / cd_index / windows / 3 / ci_95 / holst_CD / 1: 0,001
 cd / grains / cd_index / windows / 3 / holst / CD: 0,000
 cd / grains / cd_index / windows / 3 / holst / n_i: 10
 cd / grains / cd_index / windows / 3 / holst / n_j: 12
-cd / grains / cd_index / windows / 3 / holst / n_k: 5.345
+cd / grains / cd_index / windows / 3 / holst / n_k: 5.369
 cd / grains / cd_index / windows / 3 / n_i: 10
 cd / grains / cd_index / windows / 3 / n_j: 12
-cd / grains / cd_index / windows / 3 / n_k: 5.345
-cd / grains / cd_index / windows / 3 / n_window: 5.367
+cd / grains / cd_index / windows / 3 / n_k: 5.369
+cd / grains / cd_index / windows / 3 / n_window: 5.391
 cd / grains / cd_index / windows / 3 / t: 3
 cd / grains / cd_index / windows / 3 / t_nominal: 3
 cd / grains / cd_index / windows / 5 / CD: 0,001
 cd / grains / cd_index / windows / 5 / CD_nok: 0,167
 cd / grains / cd_index / windows / 5 / DI2 / n_i: 25
 cd / grains / cd_index / windows / 5 / DI2 / n_j: 11
-cd / grains / cd_index / windows / 5 / DI2 / n_k: 1.139
+cd / grains / cd_index / windows / 5 / DI2 / n_k: 1.143
 cd / grains / cd_index / windows / 5 / DI2 / value: 0,012
 cd / grains / cd_index / windows / 5 / DI5 / n_i: 33
 cd / grains / cd_index / windows / 5 / DI5 / n_j: 3
@@ -4462,22 +5753,22 @@ cd / grains / cd_index / windows / 5 / checks / ni_plus_nj: 36
 cd / grains / cd_index / windows / 5 / checks / p_citers_in_window: 36
 cd / grains / cd_index / windows / 5 / ci_95 / CD / 0: -0,001
 cd / grains / cd_index / windows / 5 / ci_95 / CD / 1: 0,003
-cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,167
-cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 1: 0,471
+cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 0: -0,177
+cd / grains / cd_index / windows / 5 / ci_95 / CD_nok / 1: 0,500
 cd / grains / cd_index / windows / 5 / ci_95 / DI2 / 0: 0,002
 cd / grains / cd_index / windows / 5 / ci_95 / DI2 / 1: 0,022
-cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,207
-cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,412
+cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 0: 0,202
+cd / grains / cd_index / windows / 5 / ci_95 / DI5 / 1: 0,411
 cd / grains / cd_index / windows / 5 / ci_95 / holst_CD / 0: -0,001
 cd / grains / cd_index / windows / 5 / ci_95 / holst_CD / 1: 0,003
 cd / grains / cd_index / windows / 5 / holst / CD: 0,001
 cd / grains / cd_index / windows / 5 / holst / n_i: 21
 cd / grains / cd_index / windows / 5 / holst / n_j: 15
-cd / grains / cd_index / windows / 5 / holst / n_k: 7.114
+cd / grains / cd_index / windows / 5 / holst / n_k: 7.154
 cd / grains / cd_index / windows / 5 / n_i: 21
 cd / grains / cd_index / windows / 5 / n_j: 15
-cd / grains / cd_index / windows / 5 / n_k: 7.114
-cd / grains / cd_index / windows / 5 / n_window: 7.150
+cd / grains / cd_index / windows / 5 / n_k: 7.154
+cd / grains / cd_index / windows / 5 / n_window: 7.190
 cd / grains / cd_index / windows / 5 / t: 5
 cd / grains / cd_index / windows / 5 / t_nominal: 5
 cd / grains / refs_audit / false_references / 0 / ano: 2.009
@@ -4518,30 +5809,30 @@ cocitacao / brokerage / A_only / k_cites_focal: 8
 cocitacao / brokerage / A_only / n: 247
 cocitacao / brokerage / A_only / rate: 0,032
 cocitacao / brokerage / B_only / k_cites_focal: 10
-cocitacao / brokerage / B_only / n: 270
+cocitacao / brokerage / B_only / n: 271
 cocitacao / brokerage / B_only / rate: 0,037
 cocitacao / brokerage / binom_test_AB_vs_single_p0 / k: 14
 cocitacao / brokerage / binom_test_AB_vs_single_p0 / n: 48
 cocitacao / brokerage / binom_test_AB_vs_single_p0 / p0: 0,035
 cocitacao / brokerage / binom_test_AB_vs_single_p0 / p_two_sided: 0,000
 cocitacao / brokerage / brokerage_share: 0,292
-cocitacao / brokerage / n_focal_citers_in_window: 49
+cocitacao / brokerage / n_focal_citers_in_window: 48
 cocitacao / brokerage / odds_ratio_AB_vs_A_only: 12,301
-cocitacao / brokerage / odds_ratio_AB_vs_B_only: 10,706
-cocitacao / brokerage / odds_ratio_AB_vs_single: 11,415
+cocitacao / brokerage / odds_ratio_AB_vs_B_only: 10,747
+cocitacao / brokerage / odds_ratio_AB_vs_single: 11,438
 cocitacao / brokerage / post_window / 0: 2.016
 cocitacao / brokerage / post_window / 1: 2.026
 cocitacao / brokerage / single_strand / k_cites_focal: 18
-cocitacao / brokerage / single_strand / n: 517
+cocitacao / brokerage / single_strand / n: 518
 cocitacao / brokerage / single_strand / rate: 0,035
 cocitacao / passage_confirmation / n_hits: 2
-cocitacao / periods / main / delta_share_AB: 0,032
+cocitacao / periods / main / delta_share_AB: 0,031
 cocitacao / periods / main / post / N_A: 295
 cocitacao / periods / main / post / N_AB: 48
-cocitacao / periods / main / post / N_B: 318
-cocitacao / periods / main / post / N_union: 565
+cocitacao / periods / main / post / N_B: 319
+cocitacao / periods / main / post / N_union: 566
 cocitacao / periods / main / post / jaccard: 0,085
-cocitacao / periods / main / post / salton_cosine: 0,157
+cocitacao / periods / main / post / salton_cosine: 0,156
 cocitacao / periods / main / post / share_AB: 0,085
 cocitacao / periods / main / post_range / 0: 2.016
 cocitacao / periods / main / post_range / 1: 2.026
@@ -4566,27 +5857,27 @@ cocitacao / periods / placebo_2011 / post_range / 0: 2.011
 cocitacao / periods / placebo_2011 / post_range / 1: 2.026
 cocitacao / periods / placebo_2011 / pre / N_A: 187
 cocitacao / periods / placebo_2011 / pre / N_AB: 18
-cocitacao / periods / placebo_2011 / pre / N_B: 86
-cocitacao / periods / placebo_2011 / pre / N_union: 255
-cocitacao / periods / placebo_2011 / pre / jaccard: 0,071
-cocitacao / periods / placebo_2011 / pre / salton_cosine: 0,142
-cocitacao / periods / placebo_2011 / pre / share_AB: 0,071
+cocitacao / periods / placebo_2011 / pre / N_B: 87
+cocitacao / periods / placebo_2011 / pre / N_union: 256
+cocitacao / periods / placebo_2011 / pre / jaccard: 0,070
+cocitacao / periods / placebo_2011 / pre / salton_cosine: 0,141
+cocitacao / periods / placebo_2011 / pre / share_AB: 0,070
 cocitacao / periods / placebo_2011 / pre_range / 0: 2.003
 cocitacao / periods / placebo_2011 / pre_range / 1: 2.010
 cocitacao / periods / placebo_2020 / delta_share_AB: 0,011
 cocitacao / periods / placebo_2020 / post / N_A: 168
 cocitacao / periods / placebo_2020 / post / N_AB: 25
-cocitacao / periods / placebo_2020 / post / N_B: 180
-cocitacao / periods / placebo_2020 / post / N_union: 323
+cocitacao / periods / placebo_2020 / post / N_B: 182
+cocitacao / periods / placebo_2020 / post / N_union: 325
 cocitacao / periods / placebo_2020 / post / jaccard: 0,077
-cocitacao / periods / placebo_2020 / post / salton_cosine: 0,144
+cocitacao / periods / placebo_2020 / post / salton_cosine: 0,143
 cocitacao / periods / placebo_2020 / post / share_AB: 0,077
 cocitacao / periods / placebo_2020 / post_range / 0: 2.020
 cocitacao / periods / placebo_2020 / post_range / 1: 2.026
 cocitacao / periods / placebo_2020 / pre / N_A: 481
 cocitacao / periods / placebo_2020 / pre / N_AB: 52
-cocitacao / periods / placebo_2020 / pre / N_B: 356
-cocitacao / periods / placebo_2020 / pre / N_union: 785
+cocitacao / periods / placebo_2020 / pre / N_B: 355
+cocitacao / periods / placebo_2020 / pre / N_union: 784
 cocitacao / periods / placebo_2020 / pre / jaccard: 0,066
 cocitacao / periods / placebo_2020 / pre / salton_cosine: 0,126
 cocitacao / periods / placebo_2020 / pre / share_AB: 0,066
@@ -4595,11 +5886,11 @@ cocitacao / periods / placebo_2020 / pre_range / 1: 2.019
 cocitacao / periods / sensitivity / delta_share_AB: 0,029
 cocitacao / periods / sensitivity / post / N_A: 272
 cocitacao / periods / sensitivity / post / N_AB: 43
-cocitacao / periods / sensitivity / post / N_B: 292
-cocitacao / periods / sensitivity / post / N_union: 521
-cocitacao / periods / sensitivity / post / jaccard: 0,083
-cocitacao / periods / sensitivity / post / salton_cosine: 0,153
-cocitacao / periods / sensitivity / post / share_AB: 0,083
+cocitacao / periods / sensitivity / post / N_B: 293
+cocitacao / periods / sensitivity / post / N_union: 522
+cocitacao / periods / sensitivity / post / jaccard: 0,082
+cocitacao / periods / sensitivity / post / salton_cosine: 0,152
+cocitacao / periods / sensitivity / post / share_AB: 0,082
 cocitacao / periods / sensitivity / post_range / 0: 2.017
 cocitacao / periods / sensitivity / post_range / 1: 2.026
 cocitacao / periods / sensitivity / pre / N_A: 354
@@ -4611,35 +5902,39 @@ cocitacao / periods / sensitivity / pre / salton_cosine: 0,104
 cocitacao / periods / sensitivity / pre / share_AB: 0,053
 cocitacao / periods / sensitivity / pre_range / 0: 2.003
 cocitacao / periods / sensitivity / pre_range / 1: 2.015
+cocitacao / requests / cache_hits: 0
+cocitacao / requests / network: 61
+cocitacao / requests / none_responses: 0
+cocitacao / requests / total: 61
 cocitacao / tests / fisher_period_x_cocites_both / p_two_sided: 0,044
 cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 0 / 0: 29
 cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 0 / 1: 514
 cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 1 / 0: 48
-cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 1 / 1: 517
-cocitacao / tests / permutation_delta_share_AB_main / delta_observed: 0,032
+cocitacao / tests / fisher_period_x_cocites_both / table_rows_pre_post__cols_AB_single / 1 / 1: 518
+cocitacao / tests / permutation_delta_share_AB_main / delta_observed: 0,031
 cocitacao / tests / permutation_delta_share_AB_main / n_perm: 10.000
 cocitacao / tests / permutation_delta_share_AB_main / p_value: 0,043
 cocitacao / tests / permutation_delta_share_AB_main / share_post_observed: 0,085
 cocitacao / tests / permutation_delta_share_AB_main / share_pre_observed: 0,053
 
 == audit_70 §taxa-base ==
-taxa_base / denominators / D_ind: 88
-taxa_base / denominators / D_pop: 74
-taxa_base / denominators / D_read: 104
-taxa_base / denominators / D_text: 92
+taxa_base / denominators / D_ind: 89
+taxa_base / denominators / D_pop: 75
+taxa_base / denominators / D_read: 105
+taxa_base / denominators / D_text: 93
 taxa_base / reconciliation_counts / n_background_like: 83
-taxa_base / reconciliation_counts / n_classify_entries: 104
+taxa_base / reconciliation_counts / n_classify_entries: 105
 taxa_base / reconciliation_counts / n_contradictory: 2
 taxa_base / reconciliation_counts / n_duplicate_publication: 3
 taxa_base / reconciliation_counts / n_ghost_genuine_per_audit_67: 1
-taxa_base / reconciliation_counts / n_important_supporting_or_foundational: 9
-taxa_base / reconciliation_counts / n_in_text: 92
-taxa_base / reconciliation_counts / n_in_text_independent: 88
+taxa_base / reconciliation_counts / n_important_supporting_or_foundational: 10
+taxa_base / reconciliation_counts / n_in_text: 93
+taxa_base / reconciliation_counts / n_in_text_independent: 89
 taxa_base / reconciliation_counts / n_method_reuse_any_tag: 5
-taxa_base / reconciliation_counts / n_misrepresented: 16
-taxa_base / reconciliation_counts / n_misrepresented_or_imprecise: 35
+taxa_base / reconciliation_counts / n_misrepresented: 17
+taxa_base / reconciliation_counts / n_misrepresented_or_imprecise: 36
 taxa_base / reconciliation_counts / n_perfunctory_drive_by_or_brief_mention: 68
-taxa_base / reconciliation_counts / n_population_87_intersect_classified: 74
+taxa_base / reconciliation_counts / n_population_87_intersect_classified: 75
 taxa_base / reconciliation_counts / n_reference_list_only: 12
 taxa_base / reconciliation_counts / n_self_or_coauthor: 4
 taxa_base / rows / 0 / results / airline / ci95_wilson / 0: 0,000
@@ -4648,13 +5943,13 @@ taxa_base / rows / 0 / results / airline / denominator: 56
 taxa_base / rows / 0 / results / airline / numerator: 0
 taxa_base / rows / 0 / results / airline / rate: 0,000
 taxa_base / rows / 0 / results / grains / ci95_wilson / 0: 0,004
-taxa_base / rows / 0 / results / grains / ci95_wilson / 1: 0,109
-taxa_base / rows / 0 / results / grains / denominator: 48
+taxa_base / rows / 0 / results / grains / ci95_wilson / 1: 0,107
+taxa_base / rows / 0 / results / grains / denominator: 49
 taxa_base / rows / 0 / results / grains / numerator: 1
-taxa_base / rows / 0 / results / grains / rate: 0,021
+taxa_base / rows / 0 / results / grains / rate: 0,020
 taxa_base / rows / 0 / results / pooled / ci95_wilson / 0: 0,002
 taxa_base / rows / 0 / results / pooled / ci95_wilson / 1: 0,052
-taxa_base / rows / 0 / results / pooled / denominator: 104
+taxa_base / rows / 0 / results / pooled / denominator: 105
 taxa_base / rows / 0 / results / pooled / numerator: 1
 taxa_base / rows / 0 / results / pooled / rate: 0,010
 taxa_base / rows / 1 / results / airline / ci95_wilson / 0: 0,000
@@ -4691,32 +5986,32 @@ taxa_base / rows / 3 / results / airline / ci95_wilson / 1: 0,253
 taxa_base / rows / 3 / results / airline / denominator: 52
 taxa_base / rows / 3 / results / airline / numerator: 7
 taxa_base / rows / 3 / results / airline / rate: 0,135
-taxa_base / rows / 3 / results / grains / ci95_wilson / 0: 0,123
-taxa_base / rows / 3 / results / grains / ci95_wilson / 1: 0,375
-taxa_base / rows / 3 / results / grains / denominator: 40
-taxa_base / rows / 3 / results / grains / numerator: 9
-taxa_base / rows / 3 / results / grains / rate: 0,225
-taxa_base / rows / 3 / results / pooled / ci95_wilson / 0: 0,110
-taxa_base / rows / 3 / results / pooled / ci95_wilson / 1: 0,264
-taxa_base / rows / 3 / results / pooled / denominator: 92
-taxa_base / rows / 3 / results / pooled / numerator: 16
-taxa_base / rows / 3 / results / pooled / rate: 0,174
+taxa_base / rows / 3 / results / grains / ci95_wilson / 0: 0,138
+taxa_base / rows / 3 / results / grains / ci95_wilson / 1: 0,393
+taxa_base / rows / 3 / results / grains / denominator: 41
+taxa_base / rows / 3 / results / grains / numerator: 10
+taxa_base / rows / 3 / results / grains / rate: 0,244
+taxa_base / rows / 3 / results / pooled / ci95_wilson / 0: 0,117
+taxa_base / rows / 3 / results / pooled / ci95_wilson / 1: 0,273
+taxa_base / rows / 3 / results / pooled / denominator: 93
+taxa_base / rows / 3 / results / pooled / numerator: 17
+taxa_base / rows / 3 / results / pooled / rate: 0,183
 taxa_base / rows / 4 / n_published: 2.648
 taxa_base / rows / 4 / results / airline / ci95_wilson / 0: 0,183
 taxa_base / rows / 4 / results / airline / ci95_wilson / 1: 0,423
 taxa_base / rows / 4 / results / airline / denominator: 52
 taxa_base / rows / 4 / results / airline / numerator: 15
 taxa_base / rows / 4 / results / airline / rate: 0,288
-taxa_base / rows / 4 / results / grains / ci95_wilson / 0: 0,352
-taxa_base / rows / 4 / results / grains / ci95_wilson / 1: 0,648
-taxa_base / rows / 4 / results / grains / denominator: 40
-taxa_base / rows / 4 / results / grains / numerator: 20
-taxa_base / rows / 4 / results / grains / rate: 0,500
-taxa_base / rows / 4 / results / pooled / ci95_wilson / 0: 0,288
-taxa_base / rows / 4 / results / pooled / ci95_wilson / 1: 0,483
-taxa_base / rows / 4 / results / pooled / denominator: 92
-taxa_base / rows / 4 / results / pooled / numerator: 35
-taxa_base / rows / 4 / results / pooled / rate: 0,380
+taxa_base / rows / 4 / results / grains / ci95_wilson / 0: 0,365
+taxa_base / rows / 4 / results / grains / ci95_wilson / 1: 0,657
+taxa_base / rows / 4 / results / grains / denominator: 41
+taxa_base / rows / 4 / results / grains / numerator: 21
+taxa_base / rows / 4 / results / grains / rate: 0,512
+taxa_base / rows / 4 / results / pooled / ci95_wilson / 0: 0,294
+taxa_base / rows / 4 / results / pooled / ci95_wilson / 1: 0,489
+taxa_base / rows / 4 / results / pooled / denominator: 93
+taxa_base / rows / 4 / results / pooled / numerator: 36
+taxa_base / rows / 4 / results / pooled / rate: 0,387
 taxa_base / rows / 5 / n_published: 15.000
 taxa_base / rows / 5 / results / airline / ci95_wilson / 0: 0,003
 taxa_base / rows / 5 / results / airline / ci95_wilson / 1: 0,101
@@ -4724,13 +6019,13 @@ taxa_base / rows / 5 / results / airline / denominator: 52
 taxa_base / rows / 5 / results / airline / numerator: 1
 taxa_base / rows / 5 / results / airline / rate: 0,019
 taxa_base / rows / 5 / results / grains / ci95_wilson / 0: 0,004
-taxa_base / rows / 5 / results / grains / ci95_wilson / 1: 0,129
-taxa_base / rows / 5 / results / grains / denominator: 40
+taxa_base / rows / 5 / results / grains / ci95_wilson / 1: 0,126
+taxa_base / rows / 5 / results / grains / denominator: 41
 taxa_base / rows / 5 / results / grains / numerator: 1
-taxa_base / rows / 5 / results / grains / rate: 0,025
+taxa_base / rows / 5 / results / grains / rate: 0,024
 taxa_base / rows / 5 / results / pooled / ci95_wilson / 0: 0,006
-taxa_base / rows / 5 / results / pooled / ci95_wilson / 1: 0,076
-taxa_base / rows / 5 / results / pooled / denominator: 92
+taxa_base / rows / 5 / results / pooled / ci95_wilson / 1: 0,075
+taxa_base / rows / 5 / results / pooled / denominator: 93
 taxa_base / rows / 5 / results / pooled / numerator: 2
 taxa_base / rows / 5 / results / pooled / rate: 0,022
 taxa_base / rows / 6 / results / airline / ci95_wilson / 0: 0,518
@@ -4738,76 +6033,76 @@ taxa_base / rows / 6 / results / airline / ci95_wilson / 1: 0,768
 taxa_base / rows / 6 / results / airline / denominator: 52
 taxa_base / rows / 6 / results / airline / numerator: 34
 taxa_base / rows / 6 / results / airline / rate: 0,654
-taxa_base / rows / 6 / results / grains / ci95_wilson / 0: 0,709
-taxa_base / rows / 6 / results / grains / ci95_wilson / 1: 0,929
-taxa_base / rows / 6 / results / grains / denominator: 40
+taxa_base / rows / 6 / results / grains / ci95_wilson / 0: 0,687
+taxa_base / rows / 6 / results / grains / ci95_wilson / 1: 0,915
+taxa_base / rows / 6 / results / grains / denominator: 41
 taxa_base / rows / 6 / results / grains / numerator: 34
-taxa_base / rows / 6 / results / grains / rate: 0,850
-taxa_base / rows / 6 / results / pooled / ci95_wilson / 0: 0,641
-taxa_base / rows / 6 / results / pooled / ci95_wilson / 1: 0,818
-taxa_base / rows / 6 / results / pooled / denominator: 92
+taxa_base / rows / 6 / results / grains / rate: 0,829
+taxa_base / rows / 6 / results / pooled / ci95_wilson / 0: 0,633
+taxa_base / rows / 6 / results / pooled / ci95_wilson / 1: 0,811
+taxa_base / rows / 6 / results / pooled / denominator: 93
 taxa_base / rows / 6 / results / pooled / numerator: 68
-taxa_base / rows / 6 / results / pooled / rate: 0,739
+taxa_base / rows / 6 / results / pooled / rate: 0,731
 taxa_base / rows / 7 / n_published: 465
 taxa_base / rows / 7 / results / airline / ci95_wilson / 0: 0,067
 taxa_base / rows / 7 / results / airline / ci95_wilson / 1: 0,253
 taxa_base / rows / 7 / results / airline / denominator: 52
 taxa_base / rows / 7 / results / airline / numerator: 7
 taxa_base / rows / 7 / results / airline / rate: 0,135
-taxa_base / rows / 7 / results / grains / ci95_wilson / 0: 0,014
-taxa_base / rows / 7 / results / grains / ci95_wilson / 1: 0,165
-taxa_base / rows / 7 / results / grains / denominator: 40
-taxa_base / rows / 7 / results / grains / numerator: 2
-taxa_base / rows / 7 / results / grains / rate: 0,050
-taxa_base / rows / 7 / results / pooled / ci95_wilson / 0: 0,052
-taxa_base / rows / 7 / results / pooled / ci95_wilson / 1: 0,176
-taxa_base / rows / 7 / results / pooled / denominator: 92
-taxa_base / rows / 7 / results / pooled / numerator: 9
-taxa_base / rows / 7 / results / pooled / rate: 0,098
+taxa_base / rows / 7 / results / grains / ci95_wilson / 0: 0,025
+taxa_base / rows / 7 / results / grains / ci95_wilson / 1: 0,194
+taxa_base / rows / 7 / results / grains / denominator: 41
+taxa_base / rows / 7 / results / grains / numerator: 3
+taxa_base / rows / 7 / results / grains / rate: 0,073
+taxa_base / rows / 7 / results / pooled / ci95_wilson / 0: 0,059
+taxa_base / rows / 7 / results / pooled / ci95_wilson / 1: 0,187
+taxa_base / rows / 7 / results / pooled / denominator: 93
+taxa_base / rows / 7 / results / pooled / numerator: 10
+taxa_base / rows / 7 / results / pooled / rate: 0,108
 taxa_base / rows / 8 / n_published: 11.020
 taxa_base / rows / 8 / results / airline / ci95_wilson / 0: 0,747
 taxa_base / rows / 8 / results / airline / ci95_wilson / 1: 0,933
 taxa_base / rows / 8 / results / airline / denominator: 52
 taxa_base / rows / 8 / results / airline / numerator: 45
 taxa_base / rows / 8 / results / airline / rate: 0,865
-taxa_base / rows / 8 / results / grains / ci95_wilson / 0: 0,835
-taxa_base / rows / 8 / results / grains / ci95_wilson / 1: 0,986
-taxa_base / rows / 8 / results / grains / denominator: 40
+taxa_base / rows / 8 / results / grains / ci95_wilson / 0: 0,806
+taxa_base / rows / 8 / results / grains / ci95_wilson / 1: 0,975
+taxa_base / rows / 8 / results / grains / denominator: 41
 taxa_base / rows / 8 / results / grains / numerator: 38
-taxa_base / rows / 8 / results / grains / rate: 0,950
-taxa_base / rows / 8 / results / pooled / ci95_wilson / 0: 0,824
-taxa_base / rows / 8 / results / pooled / ci95_wilson / 1: 0,948
-taxa_base / rows / 8 / results / pooled / denominator: 92
+taxa_base / rows / 8 / results / grains / rate: 0,927
+taxa_base / rows / 8 / results / pooled / ci95_wilson / 0: 0,813
+taxa_base / rows / 8 / results / pooled / ci95_wilson / 1: 0,941
+taxa_base / rows / 8 / results / pooled / denominator: 93
 taxa_base / rows / 8 / results / pooled / numerator: 83
-taxa_base / rows / 8 / results / pooled / rate: 0,902
+taxa_base / rows / 8 / results / pooled / rate: 0,892
 taxa_base / rows / 9 / results / airline / ci95_wilson / 0: 0,021
 taxa_base / rows / 9 / results / airline / ci95_wilson / 1: 0,168
 taxa_base / rows / 9 / results / airline / denominator: 48
 taxa_base / rows / 9 / results / airline / numerator: 3
 taxa_base / rows / 9 / results / airline / rate: 0,063
-taxa_base / rows / 9 / results / grains / ci95_wilson / 0: 0,014
-taxa_base / rows / 9 / results / grains / ci95_wilson / 1: 0,165
-taxa_base / rows / 9 / results / grains / denominator: 40
+taxa_base / rows / 9 / results / grains / ci95_wilson / 0: 0,013
+taxa_base / rows / 9 / results / grains / ci95_wilson / 1: 0,161
+taxa_base / rows / 9 / results / grains / denominator: 41
 taxa_base / rows / 9 / results / grains / numerator: 2
-taxa_base / rows / 9 / results / grains / rate: 0,050
-taxa_base / rows / 9 / results / pooled / ci95_wilson / 0: 0,025
-taxa_base / rows / 9 / results / pooled / ci95_wilson / 1: 0,126
-taxa_base / rows / 9 / results / pooled / denominator: 88
+taxa_base / rows / 9 / results / grains / rate: 0,049
+taxa_base / rows / 9 / results / pooled / ci95_wilson / 0: 0,024
+taxa_base / rows / 9 / results / pooled / ci95_wilson / 1: 0,125
+taxa_base / rows / 9 / results / pooled / denominator: 89
 taxa_base / rows / 9 / results / pooled / numerator: 5
-taxa_base / rows / 9 / results / pooled / rate: 0,057
+taxa_base / rows / 9 / results / pooled / rate: 0,056
 taxa_base / rows / 10 / results / airline / ci95_wilson / 0: 0,028
 taxa_base / rows / 10 / results / airline / ci95_wilson / 1: 0,170
 taxa_base / rows / 10 / results / airline / denominator: 56
 taxa_base / rows / 10 / results / airline / numerator: 4
 taxa_base / rows / 10 / results / airline / rate: 0,071
 taxa_base / rows / 10 / results / grains / ci95_wilson / 0: 0,000
-taxa_base / rows / 10 / results / grains / ci95_wilson / 1: 0,074
-taxa_base / rows / 10 / results / grains / denominator: 48
+taxa_base / rows / 10 / results / grains / ci95_wilson / 1: 0,073
+taxa_base / rows / 10 / results / grains / denominator: 49
 taxa_base / rows / 10 / results / grains / numerator: 0
 taxa_base / rows / 10 / results / grains / rate: 0,000
 taxa_base / rows / 10 / results / pooled / ci95_wilson / 0: 0,015
-taxa_base / rows / 10 / results / pooled / ci95_wilson / 1: 0,095
-taxa_base / rows / 10 / results / pooled / denominator: 104
+taxa_base / rows / 10 / results / pooled / ci95_wilson / 1: 0,094
+taxa_base / rows / 10 / results / pooled / denominator: 105
 taxa_base / rows / 10 / results / pooled / numerator: 4
 taxa_base / rows / 10 / results / pooled / rate: 0,038
 taxa_base / rows / 11 / results / airline / ci95_wilson / 0: 0,000
@@ -4816,13 +6111,13 @@ taxa_base / rows / 11 / results / airline / denominator: 56
 taxa_base / rows / 11 / results / airline / numerator: 0
 taxa_base / rows / 11 / results / airline / rate: 0,000
 taxa_base / rows / 11 / results / grains / ci95_wilson / 0: 0,021
-taxa_base / rows / 11 / results / grains / ci95_wilson / 1: 0,168
-taxa_base / rows / 11 / results / grains / denominator: 48
+taxa_base / rows / 11 / results / grains / ci95_wilson / 1: 0,165
+taxa_base / rows / 11 / results / grains / denominator: 49
 taxa_base / rows / 11 / results / grains / numerator: 3
-taxa_base / rows / 11 / results / grains / rate: 0,063
+taxa_base / rows / 11 / results / grains / rate: 0,061
 taxa_base / rows / 11 / results / pooled / ci95_wilson / 0: 0,010
 taxa_base / rows / 11 / results / pooled / ci95_wilson / 1: 0,081
-taxa_base / rows / 11 / results / pooled / denominator: 104
+taxa_base / rows / 11 / results / pooled / denominator: 105
 taxa_base / rows / 11 / results / pooled / numerator: 3
 taxa_base / rows / 11 / results / pooled / rate: 0,029
 
@@ -4891,11 +6186,11 @@ fantasmas_auditados / summary / ghost_rate / D_pop / numerator: 0
 fantasmas_auditados / summary / ghost_rate / D_pop / rate: 0,000
 fantasmas_auditados / summary / ghost_rate / D_read / ci95_wilson / 0: 0,002
 fantasmas_auditados / summary / ghost_rate / D_read / ci95_wilson / 1: 0,052
-fantasmas_auditados / summary / ghost_rate / D_read / denominator: 104
+fantasmas_auditados / summary / ghost_rate / D_read / denominator: 105
 fantasmas_auditados / summary / ghost_rate / D_read / numerator: 1
 fantasmas_auditados / summary / ghost_rate / D_read / rate: 0,010
 fantasmas_auditados / summary / n_ghost_entries: 12
-fantasmas_auditados / summary / n_read_all_classified: 104
+fantasmas_auditados / summary / n_read_all_classified: 105
 
 == audit_70 §constantes ==
 constantes / B: 2.000
@@ -4917,4 +6212,5 @@ constantes / landis_koch / razoavel / max: 0,400
 constantes / landis_koch / razoavel / min: 0,200
 constantes / landis_koch / substancial / max: 0,800
 constantes / landis_koch / substancial / min: 0,600
+constantes / readme_mobile_breakpoint_px: 600
 constantes / seed: 20.260.904

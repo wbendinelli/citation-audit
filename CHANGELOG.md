@@ -5,6 +5,19 @@ Mudanças notáveis no repositório. Entradas citam a mensagem do commit pelo
 para tirar `text/`/`pdf/` das rodadas antigas) antes da publicação, e um hash
 citado aqui ficaria órfão no dia seguinte.
 
+## 2026-10-24 — atualização da análise e design VITA
+
+- Coleta multi-fonte repetida, com log versionado, DOIs alternativos e preservação de IDs, evidências, vereditos terminais e decisões de arquivamento. Falha de fonte deixa de parecer resposta vazia.
+- Triagem não renumera registros; periódicos conhecidos e metadados Scimago sobrevivem à atualização. IDs Scholar não colidem e o cruzamento é idempotente.
+- Resolução Scholar rejeita títulos vazios e preserva o título consultado; um resultado de projeto sem título deixou de ser aceito como DOI de tese.
+- Leitura adicional de `grains_007` na tabela da página integral da editora, confrontada com o artigo-fonte; passagem e proveniência preservadas, ainda sem segunda leitura independente. Coorte original da IRR permanece separada.
+- Auditorias de fantasmas, taxas-base, disrupção e co-citação refeitas; números e saídas regenerados. Rótulos de denominador passam a usar o tamanho real da coorte.
+- Corrigida exportação dos blocos de sensibilidade e cruzamento do CD; data de relatório acompanha o snapshot, evitando deriva diária no CI.
+- Figuras de medida, diagramas do README, painel HTML e composição do PDF atualizados para os tokens neutros do design global VITA. Fontes OFL locais preservam a reprodução aberta.
+- README reescrito integralmente com capa editorial VITA, navegação para entregas, método em tabela e reprodução organizada; capa e medidas são geradas por script.
+- Casamento Scimago passa a priorizar ISSN-L e ordenar os demais ISSNs, eliminando oscilação de quartil causada pela ordem aleatória de um conjunto.
+- Prosa corrente corrigida, valores anteriores preservados em snapshot e revisão gerada por `audit_83_review.py`; testes de regressão e checagem da revisão incorporados ao fluxo de qualidade.
+
 ## 2026-09-04 — taxonomia v2 e confiabilidade entre codificadores
 
 - **Codebook v2: três eixos ortogonais substituem `role`+`flag`.**

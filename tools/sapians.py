@@ -1,47 +1,14 @@
 #!/usr/bin/env python3
-"""A identidade visual do curso: uma cor, um significado; um número, um idioma.
+"""Tema das figuras de citation-audit, alinhado ao design global VITA.
 
-Módulo repo-wide, sem número de fase: os scripts `srag_NN_*.py` são etapas
-de um pipeline, este aqui é usado por TODOS os cadernos e por nenhuma etapa.
-Nos notebooks entra como duas linhas na célula de setup:
-
-    import sapians as SP
-    SP.aplicar()
-
-O que ele carrega:
-
-* **Os tokens**, copiados VERBATIM de `sapians-latex` @ `4c10f27` —
-  `packages/typst/src/tokens.typ` (as cores da marca),
-  `packages/python/sapians.mplstyle` (o estilo) e
-  `packages/python/sapians_plots/theme.py` (as paletas). A fonte da
-  identidade é aquele repositório; aqui só se copia. Mudança de marca
-  nasce lá.
-* **As convenções de figura** de `examples/lime-lecture/make_figures.py`
-  do mesmo repositório: título de achado com `fig.text` (não
-  `set_title`), a banda reservada acima dos eixos, `savefig` sem
-  `bbox_inches` — e o pecado que essas três regras corrigem, que é a
-  figura seguinte não se parecer com a anterior.
-* **A semântica**: cada constante de cor abaixo carrega UM significado no
-  curso inteiro. Um aluno que aprendeu "terracota = óbito" nos módulos 01
-  e 02 vai ler a barra terracota do módulo 05 do mesmo jeito, e ele está
-  certo em ler assim.
-* **O português dos números**: `pt`, `pt_int`, `pct`, `pt_sig` e `tabela`.
-  O material é estudado em português; `0.373` impresso no meio de uma
-  frase em português é um erro de idioma, não uma escolha de formato.
-
-Três desvios deliberados do `.mplstyle` da marca, marcados como "DELTA" em
-`tools/sapians.mplstyle`: `figure.dpi: 100` (o PNG inline vai em base64
-dentro do `.ipynb` commitado), `savefig.dpi: 150` (o PNG promovido para
-`modules/NN-slug/figures/` é impresso e projetado) e
-`figure.autolayout: False` (conflita com o `tight_layout(rect=...)` que
-`salvar` usa para reservar a banda do título).
-
-Smoke test:
-    python3 tools/sapians.py
+Cores canônicas em tools/vita_tokens.json; Inter e JetBrains Mono são
+alternativas OFL para a publicação aberta. Optimistic VF não é redistribuída.
+As funções de formatação e dimensões preservam o contrato dos geradores.
 """
 
 from __future__ import annotations
 
+import json
 import math
 import pathlib
 
@@ -70,41 +37,31 @@ FONTES = [
 ]
 
 # ---------------------------------------------------------------------------
-# CORES — uma cor, um significado, no curso inteiro.
-#
-# A paleta da marca permite azul/terracota como par divergente e terracota
-# como acento de intervenção. A armadilha é reusar esse par para uma
-# variável diferente a cada figura: quem aprendeu "terracota = óbito" nos
-# seis gráficos de mecanismo vai ler toda barra terracota depois do mesmo
-# jeito. Então a classe fica com o par divergente, e toda comparação que
-# NÃO é sobre classe usa outro braço (âmbar).
+# Tokens neutros do design global VITA, fotografados em vita_tokens.json.
+# Os nomes antigos são mantidos para compatibilidade com as figuras;
+# não representam mais cores cromáticas. Rótulos e marcadores carregam categoria.
 # ---------------------------------------------------------------------------
-PAPEL = "#FFFFFF"  # o papel: fundo da figura e dos eixos, sempre
-ESCURO = "#161311"  # o objeto do modelo: fronteira p=0,5, ✕ do paciente, média/PDP
-CARTAO = "#F8F8FA"  # preenchimento de caixa/painel destacado sobre o papel
-TERRACOTA = "#C96F3F"  # o polo adverso e o acento: óbito · φ>0 · impossível ·
-# fabricado · a anotação apontada · o kicker
-AZUL = "#315B86"  # sobrevida · φ<0 · classe 0 · a série primária
-AMBAR = "#D9822B"  # o segundo braço de comparações que não são sobre classe
-# (logística de referência, interventional, rodada ingênua)
-SAGE = "#4E8752"  # possível · válido · acionável
-CINZA = "#6D675F"  # nosso construto: anel do kernel, anotações, eixos
-CINZA_CLARO = "#A9A498"  # sintético sem classe · neutro/desconhecido
-LINHA = "#E5E0D8"  # fio de contorno: spines, moldura de legenda, divisórias
-GRADE = "#EBE7E1"  # a grade tracejada em y, e nada além dela
-CODIGO = "#F6F5F2"  # fundo de bloco de código/monoespaçado
-
-# ---------------------------------------------------------------------------
-# PALETAS — verbatim de sapians_plots/theme.py (PALETTES).
-# ---------------------------------------------------------------------------
-CATEGORICA = ["#315B86", "#C96F3F", "#D9822B", "#4E8752", "#161311"]
-BINARIA = ["#315B86", "#C96F3F"]
-SEQ_AZUL = ["#E1EDF7", "#A4C6E5", "#6297CA", "#315B86", "#173453"]
-SEQ_TERRACOTA = ["#FBF0E9", "#F2CDBC", "#E39A74", "#C96F3F", "#783B19"]
-DIVERGENTE = ["#C96F3F", "#E39A74", "#F5F4F0", "#6297CA", "#315B86"]
-
-CMAP_INTENSIDADE = LinearSegmentedColormap.from_list("sapians_intensidade", SEQ_AZUL)
-CMAP_DIVERGENTE = LinearSegmentedColormap.from_list("sapians_divergente", DIVERGENTE)
+VITA = json.loads((AQUI / "vita_tokens.json").read_text(encoding="utf-8"))
+P = VITA["palette"]
+PAPEL = P["canvas"]
+ESCURO = P["ink"]
+CARTAO = P["composition"]
+TERRACOTA = P["ink"]  # destaque de dado é neutro; terracota só em ações reais
+AZUL = "#454545"
+AMBAR = P["control"]
+SAGE = "#909090"
+CINZA = P["muted"]
+CINZA_CLARO = "#B8B8B8"
+LINHA = P["line"]
+GRADE = P["composition"]
+CODIGO = P["subtle"]
+CATEGORICA = [ESCURO, CINZA, AMBAR, CINZA_CLARO, P["selected"]]
+BINARIA = [CINZA, ESCURO]
+SEQ_AZUL = VITA["data_series"]
+SEQ_TERRACOTA = SEQ_AZUL
+DIVERGENTE = [ESCURO, CINZA_CLARO, PAPEL, CINZA_CLARO, ESCURO]
+CMAP_INTENSIDADE = LinearSegmentedColormap.from_list("vita_intensidade", SEQ_AZUL)
+CMAP_DIVERGENTE = LinearSegmentedColormap.from_list("vita_divergente", DIVERGENTE)
 
 
 def rampa(n: int, lo: float = 0.35, cmap=CMAP_INTENSIDADE) -> list[str]:

@@ -441,21 +441,20 @@ def main():
     ghost_pop_dois = {d for d in ghost_dois_all if ghost_entries[d]["in_population_87"]}
 
     for label, den_set, extra_note in (
-        ("ghost_D_read", D_read, "D_read = todas as 104 classificadas."),
+        ("ghost_D_read", D_read, f"D_read = todas as {len(D_read)} classificadas."),
         (
             "ghost_D_body",
             body_real_dois,
-            "D_body = só as 13 reference_list_only com corpo real comprovado em disco (ver audit_67_ghost_audit.py); n pequeno, IC largo por desenho.",
+            f"D_body = as {len(body_real_dois)} reference_list_only com corpo real comprovado em disco, entre {len(ghost_dois_all)} candidatas (ver audit_67_ghost_audit.py); IC largo por desenho.",
         ),
         (
             "ghost_D_pop",
             ghost_pop_dois,
             (
-                "D_pop aqui É A INTERSEÇÃO ESPECÍFICA 'população 87 ∩ os 13 fantasma candidatos' (7 entradas), NÃO o D_pop geral "
-                f"deste script (população ∩ todas as 104 = {len(D_pop)}). Terceira linha de taxa-fantasma acrescentada por "
-                "decisão do agente: a tarefa definiu D_pop como denominador disponível mas não o atribuiu explicitamente a "
-                "nenhuma linha da lista de indicadores -- replicar aqui o terceiro denominador que audit_67 já calcula "
-                "pareceu a leitura mais defensável, em vez de deixar D_pop sem uso. Ver relatório final do agente."
+                f"D_pop desta linha = população do estudo ∩ candidatas a fantasma ({len(ghost_pop_dois)} entradas), "
+                f"entre {len(ghost_dois_all)} candidatas. Não é o D_pop geral deste script "
+                f"(população ∩ todas as classificadas = {len(D_pop)}). "
+                "Mantém o denominador específico da auditoria de fantasmas, separado da população classificada."
             ),
         ),
     ):

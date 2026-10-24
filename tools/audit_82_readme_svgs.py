@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Etapa 82: os quatro diagramas SVG didáticos do README.
+"""Etapa 82: capa editorial VITA e diagramas SVG didáticos do README.
 
-Gera, à mão (string templating, sem biblioteca de desenho), quatro SVGs
+Gera, por string templating sem biblioteca de desenho, uma capa e diagramas
 conceituais que explicam a auditoria a quem abre o README pela primeira vez:
 
+  docs/assets/00-capa.svg       -- capa editorial e resumo do snapshot
   docs/assets/01-pipeline.svg   -- as fases dos scripts tools/audit_NN_*.py
   docs/assets/02-funil.svg      -- o funil de população dos dois artigos
   docs/assets/03-taxonomia.svg  -- os eixos ortogonais da taxonomia v2
   docs/assets/04-portoes.svg    -- os três portões de integridade + aresta_falsa
 
-Só o funil (02) tem número -- e todo número dele vem de
+A capa e o funil têm medidas -- e todo número deles vem de
 `reports/01-impacto/dados.json` (blocos `funil` e `populacao`), gerado por
 `audit_70_numbers.py`. Os outros três são conceituais: descrevem a forma do
 pipeline, da taxonomia e dos portões, não uma medição, então não têm
@@ -19,7 +20,7 @@ prosa" no sentido da regra do CLAUDE.md: são identificadores fixos do
 repositório, não uma contagem derivada dos dados).
 
 Uso:
-  python3 tools/audit_82_readme_svgs.py                  grava os quatro SVGs
+  python3 tools/audit_82_readme_svgs.py                  grava os SVGs
   python3 tools/audit_82_readme_svgs.py --check            renderiza em memória
                                                              e compara byte a
                                                              byte com os
@@ -38,6 +39,7 @@ convenção de `tools/audit_70_numbers.py` (ver o cabeçalho de lá).
 """
 
 import argparse
+import json
 import sys
 import textwrap
 from pathlib import Path
@@ -50,24 +52,34 @@ SCRIPT_ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = SCRIPT_ROOT / "docs" / "assets"
 DADOS_REL = Path("reports") / "01-impacto" / "dados.json"
 
-OUT_FILES = ("01-pipeline.svg", "02-funil.svg", "03-taxonomia.svg", "04-portoes.svg")
+OUT_FILES = (
+    "00-capa.svg",
+    "00-capa-mobile.svg",
+    "01-pipeline.svg",
+    "02-funil.svg",
+    "03-taxonomia.svg",
+    "04-portoes.svg",
+)
 
 # --------------------------------------------------------------------------
 # Paleta SAPIANS e tipografia (dialeto compartilhado com outros repositórios
 # SAPIANS -- ver docs/assets/*.svg de sapians-xreset e sapians-engram)
 # --------------------------------------------------------------------------
 
-BG = "#FBF9F6"
-INK = "#161311"
-GRAY = "#6D675F"
-BLUE = "#315B86"  # via principal / o que fica
-TERRACOTTA = "#C96F3F"  # anomalia ou destaque único
-AMBER = "#D9822B"  # atenção / literatura
-SAGE = "#4E8752"  # o que passou / foi aproveitado
-CARD = "#FFFFFF"
-BORDER = "#E4DFD7"
-GRAY_SOFT = "#EDE9E2"  # preenchimento neutro leve (barras "resto" do funil)
-
+VITA = json.loads(
+    (Path(__file__).parent / "vita_tokens.json").read_text(encoding="utf-8")
+)
+PALETTE = VITA["palette"]
+BG = PALETTE["composition"]
+INK = PALETTE["ink"]
+GRAY = PALETTE["muted"]
+BLUE = INK
+TERRACOTTA = INK
+AMBER = GRAY
+SAGE = GRAY
+CARD = PALETTE["canvas"]
+BORDER = PALETTE["line"]
+GRAY_SOFT = PALETTE["selected"]
 SANS = "Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "'JetBrains Mono', SFMono-Regular, Menlo, monospace"
 
@@ -155,7 +167,7 @@ def rect(x, y, w, h, fill, stroke=None, rx=20, sw=1.5, extra=""):
 
 
 def card(x, y, w, h, fill=CARD, stroke=BORDER, rx=20, shadow=True):
-    f = ' filter="url(#cardShadow)"' if shadow else ""
+    f = " " if shadow else ""
     return f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{rx}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"{f}/>'
 
 
@@ -188,9 +200,6 @@ DEFS = f"""<defs>
   <marker id="arrowSage" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
     <path d="M0,0 L10,5 L0,10 Z" fill="{SAGE}"/>
   </marker>
-  <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
-    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="{INK}" flood-opacity="0.10"/>
-  </filter>
 </defs>"""
 
 
@@ -344,10 +353,9 @@ PHASE_60_SHIPPED = [
     ("audit_68_base_rates.py", None),
 ]
 PHASE_60_RESERVED = [
-    ("audit_63_claim_map.py", "reservado"),
-    ("audit_64_refs_audit.py", "reservado"),
-    ("audit_65_cd_index.py", "reservado"),
-    ("audit_66_cocitation.py", "reservado"),
+    ("audit_64_refs_audit.py", None),
+    ("audit_65_cd_index.py", None),
+    ("audit_66_cocitation.py", None),
 ]
 
 PHASE_70 = {
@@ -364,8 +372,9 @@ PHASE_80 = {
     "gloss": "Relatório HTML, figuras, SVGs, Typst",
     "scripts": [
         ("audit_80_report_html.py", None),
-        ("audit_81_figures.py", "reservado"),
-        ("audit_82_readme_svgs.py", "este script"),
+        ("audit_81_figures.py", None),
+        ("audit_82_readme_svgs.py", None),
+        ("audit_83_review.py", None),
     ],
     "nota": "+ typst compile → relatorio-impacto.pdf",
 }
@@ -451,7 +460,7 @@ def build_phase_card_60(x, y, w, h):
         x + pad, y + 40, w - 2 * pad, "60", "ANÁLISES"
     )
     out.append(title_svg)
-    gloss = "Taxonomia, confiabilidade, fantasmas, taxas-base"
+    gloss = "Taxonomia, confiabilidade, fantasmas e grafos"
     gloss_lines = wrap_words(gloss, 20, w - 2 * pad)
     gy = y + 68 + (34 if title_lines > 1 else 0)
     out.append(multi(x + pad, gy, gloss_lines, size=20, weight=400, fill=GRAY, lh=25))
@@ -474,7 +483,7 @@ def build_phase_card_60(x, y, w, h):
         T(
             col2_x,
             top - 12,
-            "RESERVADOS · ROADMAP.md",
+            "GRAFOS · IMPLEMENTADOS",
             size=12.5,
             weight=700,
             fill=GRAY,
@@ -493,8 +502,7 @@ def build_pipeline_svg():
     desc = (
         "Oito fases de scripts tools/audit_NN_*.py, da colheita do grafo de "
         "citações às saídas finais. Cada nome de script mostrado existe de "
-        "fato no repositório; os marcados 'reservado' têm nome reservado no "
-        "ROADMAP.md mas o arquivo ainda não foi escrito."
+        "fato no repositório. Coleta, análises e saídas estão implementadas."
     )
     out = [svg_open(title, desc)]
     out.append(
@@ -609,11 +617,7 @@ def build_pipeline_svg():
         legend_row(
             [
                 (INK, "script commitado, em uso"),
-                (
-                    GRAY,
-                    "reservado — nome existe no ROADMAP.md, arquivo ainda não escrito",
-                ),
-                (BLUE, "este script (audit_82), gerando os quatro SVGs agora"),
+                (GRAY, "saídas reproduzíveis por --check"),
             ],
             MARGIN,
             legend_y,
@@ -1548,8 +1552,114 @@ def build_portoes_svg():
 # ==========================================================================
 
 
+def build_capa_svg(dados):
+    """Capa editorial VITA: hierarquia neutra e números apenas de dados.json."""
+    out = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740" role="img" aria-labelledby="title desc">',
+        '<title id="title">Quem citou, e como — auditoria de citações</title>',
+        '<desc id="desc">Leitura da qualidade das citações, com contagens do snapshot atual, em uma composição neutra do design VITA.</desc>',
+        rect(0, 0, 1600, 740, BG, rx=28),
+        T(64, 74, "SAPIANS / PESQUISA", size=21, weight=500, spacing="2.5"),
+        T(1536, 74, dados["meta"]["gerado_em"], size=19, fill=GRAY, anchor="end"),
+        T(64, 212, "Quem citou,", size=106, weight=500, spacing="-4"),
+        T(64, 324, "e como.", size=106, weight=500, spacing="-4"),
+        T(
+            68,
+            397,
+            "Uma leitura da qualidade das citações recebidas.",
+            size=29,
+            fill=GRAY,
+        ),
+        T(
+            68,
+            439,
+            "Passagens verificáveis. Critérios explícitos. Resultados reproduzíveis.",
+            size=25,
+            fill=GRAY,
+        ),
+    ]
+    # Geometria editorial: não codifica estatística nem imita um gráfico de dados.
+    for i, (label, fill) in enumerate(
+        (("CITAÇÃO", "#E5E5E5"), ("EVIDÊNCIA", "#B8B8B8"), ("LEITURA", INK))
+    ):
+        x = 1140 + i * 125
+        out.extend(
+            [
+                rect(x, 162, 98, 190, fill, rx=18),
+                T(x + 49, 385, label, size=13, fill=GRAY, anchor="middle", spacing="1"),
+            ]
+        )
+    metrics = (
+        (dados["inventario"]["total"], "registros mapeados"),
+        (dados["meta"]["n_classificados"], "leituras com passagem"),
+        (dados["populacao"]["total"], "citações na população"),
+    )
+    for i, (value, label) in enumerate(metrics):
+        x = 64 + i * 500
+        out.extend(
+            [
+                rect(x, 520, 472, 146, CARD, rx=20),
+                T(x + 26, 589, str(value), size=53, weight=500),
+                T(x + 26, 632, label, size=22, fill=GRAY),
+            ]
+        )
+    out.append(
+        T(
+            68,
+            709,
+            "Fonte: dados.json · audit_70 · valores e denominadores detalhados no relatório",
+            size=15,
+            fill=GRAY,
+        )
+    )
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+def build_capa_mobile_svg(dados):
+    out = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900" role="img" aria-labelledby="title desc">',
+        '<title id="title">Quem citou, e como</title>',
+        '<desc id="desc">Resumo do inventário e das leituras com passagem no snapshot atual.</desc>',
+        rect(0, 0, 640, 900, BG, rx=26),
+        T(40, 62, "SAPIANS / PESQUISA", size=20, weight=500, spacing="2"),
+        T(40, 184, "Quem citou,", size=84, weight=500, spacing="-3"),
+        T(40, 276, "e como.", size=84, weight=500, spacing="-3"),
+        T(42, 340, "Uma leitura da qualidade", size=28, fill=GRAY),
+        T(42, 378, "das citações recebidas.", size=28, fill=GRAY),
+    ]
+    for i, (value, label) in enumerate(
+        (
+            (dados["inventario"]["total"], "registros mapeados"),
+            (dados["meta"]["n_classificados"], "leituras com passagem"),
+            (dados["populacao"]["total"], "citações na população"),
+        )
+    ):
+        y = 436 + i * 128
+        out.extend(
+            [
+                rect(40, y, 560, 108, CARD, rx=18),
+                T(64, y + 69, str(value), size=50, weight=500),
+                T(196, y + 65, label, size=24, fill=GRAY),
+            ]
+        )
+    out.append(
+        T(
+            42,
+            862,
+            f"Snapshot {dados['meta']['gerado_em']} · audit_70",
+            size=19,
+            fill=GRAY,
+        )
+    )
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def render_all(dados):
     return {
+        "00-capa.svg": build_capa_svg(dados),
+        "00-capa-mobile.svg": build_capa_mobile_svg(dados),
         "01-pipeline.svg": build_pipeline_svg(),
         "02-funil.svg": build_funil_svg(dados),
         "03-taxonomia.svg": build_taxonomia_svg(),
@@ -1605,7 +1715,7 @@ def main(argv=None):
             for d in drift:
                 print(f"DRIFT: {d}")
             return 1
-        print("ok --check: os quatro SVGs idênticos ao gerado")
+        print(f"ok --check: {len(rendered)} SVGs idênticos ao gerado")
         return 0
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)

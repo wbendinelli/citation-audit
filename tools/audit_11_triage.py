@@ -1,5 +1,6 @@
 """Etapa 11: enriquece metadados faltantes e classifica o acesso de cada citante."""
 
+import argparse
 import collections
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -69,14 +70,20 @@ def triage(rec):
     return "fechado"
 
 
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--only-new", action="store_true", help="só registros sem status")
+args = parser.parse_args()
 master = auditlib.load_master()
 for key, blk in master["papers"].items():
     recs = blk["citing"]
     print(f"\n=== {key}: enriquecendo {len(recs)} registros ===")
+    todo = [r for r in recs if not args.only_new or not r.get("status")]
     with ThreadPoolExecutor(max_workers=6) as ex:
-        list(as_completed([ex.submit(enrich, r) for r in recs]))
-    for i, r in enumerate(recs, 1):
-        r["id"] = f"{key}_{i:03d}"
+        for f in as_completed([ex.submit(enrich, r) for r in todo]):
+            f.result()
+    for r in todo:
+        if r.get("status") == "aresta_falsa":
+            continue
         # registro que já tem arquivo de texto validado em disco mantém
         # 'tem_texto' — a triagem só classifica quem ainda não tem texto.
         if (
