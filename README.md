@@ -64,7 +64,11 @@ uma contagem agregada não responde:
 | Exatidão | O que foi atribuído corresponde ao artigo original? |
 | Reuso | Há adoção verificável de método, dado ou resultado? |
 
-![Taxonomia da leitura: presença, profundidade, postura, exatidão e reuso são avaliados separadamente.](docs/assets/03-taxonomia.svg)
+<!-- Layout: audit_70 §constantes, readme_mobile_breakpoint_px. -->
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/03-taxonomia-mobile.svg">
+  <img src="docs/assets/03-taxonomia.svg" alt="Taxonomia da leitura: presença, profundidade, postura, exatidão e reuso são avaliados separadamente.">
+</picture>
 
 Cada classificação preserva uma passagem literal, sua origem e a identificação
 de quem codificou. O [registro de afirmações](data/claims/README.md) distingue os
@@ -77,11 +81,21 @@ de outro artigo, página de rosto tratada como corpo e diagnóstico de citação
 somente na bibliografia sem corpo comprovado. Ausência de acesso não vira
 julgamento de qualidade.
 
-![Portões de integridade do texto e da passagem citante; a aresta falsa é um veredito manual terminal.](docs/assets/04-portoes.svg)
+<!-- Layout: audit_70 §constantes, readme_mobile_breakpoint_px. -->
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/04-portoes-mobile.svg">
+  <img src="docs/assets/04-portoes.svg" alt="Portões de integridade do texto e da passagem citante; a aresta falsa é um veredito manual terminal.">
+</picture>
 
-O funil mostra o alcance de cada critério e quanto da população chegou à leitura:
+O funil começa no inventário reunido: as APIs e as listas do Scholar têm
+coberturas diferentes. A partir dele, cada corte produz um subconjunto, até
+chegar à população e à leitura com evidência:
 
-![Funil de população por artigo, das listas do Scholar à evidência recuperada.](docs/assets/02-funil.svg)
+<!-- Layout: audit_70 §constantes, readme_mobile_breakpoint_px. -->
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/02-funil-mobile.svg">
+  <img src="docs/assets/02-funil.svg" alt="Funil de população por artigo, das listas do Scholar à evidência recuperada.">
+</picture>
 
 As definições, os casos de fronteira e os limites de interpretação estão em
 [METHOD.md](METHOD.md). A [revisão de literatura](docs/revisao-literatura.md)
@@ -109,7 +123,11 @@ a reprodução aberta. A adaptação está documentada em
 A cadeia de geração é explícita. Uma mudança nos dados percorre as mesmas fases
 até chegar à figura e ao número impresso.
 
-![Pipeline implementado: coleta, texto, integridade, periódicos, pendências, análises, números e saídas.](docs/assets/01-pipeline.svg)
+<!-- Layout: audit_70 §constantes, readme_mobile_breakpoint_px. -->
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/01-pipeline-mobile.svg">
+  <img src="docs/assets/01-pipeline.svg" alt="Pipeline implementado: coleta, texto, integridade, periódicos, pendências, análises, números e saídas.">
+</picture>
 
 ### Preparar o ambiente
 

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1180" viewBox="0 0 640 1180" role="img" aria-labelledby="title desc">
+<title id="title">Do inventário à leitura</title><desc id="desc">O inventário reúne fontes diferentes. Os cortes aninhados começam no inventário, não na lista do Scholar. A população é DOI, editora estabelecida e artigo de periódico.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#606060" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="640" height="1180" rx="28" fill="#F2F3F3"/>
+<text x="40" y="56" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#606060" text-anchor="start" letter-spacing="2">O ALCANCE DE CADA CORTE</text>
+<text x="40" y="111" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">O que foi mapeado</text>
+<text x="40" y="155" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">e o que pôde ser lido</text>
+<text x="40" y="211" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Origem: APIs + listas locais do Scholar.</text>
+<text x="40" y="242" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Os cortes começam no inventário.</text>
+<text x="40" y="304" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start" letter-spacing="1">AVIAÇÃO</text>
+<text x="342" y="304" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#606060" text-anchor="start" letter-spacing="1">GRÃOS</text>
+<text x="40" y="343" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Inventário reunido</text>
+<rect x="40" y="365" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="40" y="365" width="258.0" height="13" rx="5" fill="#808080"/>
+<text x="298" y="411" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">94</text>
+<rect x="342" y="365" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="342" y="365" width="258.0" height="13" rx="5" fill="#808080"/>
+<text x="600" y="411" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">83</text>
+<text x="40" y="473" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Com DOI</text>
+<rect x="40" y="495" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="40" y="495" width="203.10638297872342" height="13" rx="5" fill="#808080"/>
+<text x="298" y="541" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">74</text>
+<rect x="342" y="495" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="342" y="495" width="226.9156626506024" height="13" rx="5" fill="#808080"/>
+<text x="600" y="541" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">73</text>
+<text x="40" y="603" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Editora estabelecida</text>
+<rect x="40" y="625" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="40" y="625" width="139.9787234042553" height="13" rx="5" fill="#808080"/>
+<text x="298" y="671" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">51</text>
+<rect x="342" y="625" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="342" y="625" width="130.55421686746988" height="13" rx="5" fill="#808080"/>
+<text x="600" y="671" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">42</text>
+<text x="40" y="733" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Artigo de periódico · população</text>
+<rect x="40" y="755" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="40" y="755" width="134.48936170212767" height="13" rx="5" fill="#212322"/>
+<text x="298" y="801" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">49</text>
+<rect x="342" y="755" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="342" y="755" width="118.12048192771084" height="13" rx="5" fill="#212322"/>
+<text x="600" y="801" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">38</text>
+<text x="40" y="863" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Com classificação</text>
+<rect x="40" y="885" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="40" y="885" width="123.51063829787235" height="13" rx="5" fill="#212322"/>
+<text x="298" y="931" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">45</text>
+<rect x="342" y="885" width="258" height="13" rx="5" fill="#E5E5E5"/>
+<rect x="342" y="885" width="93.25301204819277" height="13" rx="5" fill="#212322"/>
+<text x="600" y="931" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="end">30</text>
+<text x="40" y="1043" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">População: DOI + editora estabelecida</text>
+<text x="40" y="1075" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">+ artigo de periódico.</text>
+<text x="40" y="1107" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Leitura é o subconjunto com evidência.</text>
+<text x="40" y="1139" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Barras: fração de cada inventário.</text>
+</svg>

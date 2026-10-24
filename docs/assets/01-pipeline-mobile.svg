@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1120" viewBox="0 0 640 1120" role="img" aria-labelledby="title desc">
+<title id="title">Da citação ao resultado verificável</title><desc id="desc">Reunir registros, conferir evidência, ler a passagem e gerar resultados. Texto indisponível permanece pendente.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#606060" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="640" height="1120" rx="28" fill="#F2F3F3"/>
+<text x="40" y="56" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#606060" text-anchor="start" letter-spacing="2">COMO A ANÁLISE ACONTECE</text>
+<text x="40" y="111" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">Da citação ao</text>
+<text x="40" y="155" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">resultado verificável</text>
+<rect x="40" y="230" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="275" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Reunir registros</text>
+<text x="62" y="317" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Cruzar bases e listas.</text>
+<text x="62" y="349" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Deduplicar as obras.</text>
+<path d="M320.0,374 L320.0,392" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="398" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="443" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Conferir a evidência</text>
+<text x="62" y="485" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Confirmar o documento</text>
+<text x="62" y="517" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">e conferir o corpo.</text>
+<path d="M320.0,542 L320.0,560" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="566" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="611" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Ler a passagem</text>
+<text x="62" y="653" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Confrontar a passagem</text>
+<text x="62" y="685" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">com o artigo original.</text>
+<path d="M320.0,710 L320.0,728" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="734" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="779" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Gerar resultados</text>
+<text x="62" y="821" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Derivar os números</text>
+<text x="62" y="853" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">e gerar as figuras.</text>
+<rect x="40" y="950" width="560" height="112" rx="20" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="1.5"/>
+<text x="62" y="987" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Sem texto suficiente?</text>
+<text x="62" y="1021" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Registrar pendência e buscar evidência.</text>
+</svg>

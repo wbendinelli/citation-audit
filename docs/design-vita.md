@@ -23,3 +23,15 @@ README, o painel HTML e `reports/01-impacto/vita.typ`. O PDF usa hierarquia sans
 legendas alinhadas à esquerda, superfícies planas e cabeçalho/rodapé discreto.
 As figuras foram regeneradas a partir de `dados.json`; diagrama não recebe
 estatística digitada à mão. O painel usa fontes locais e tem layout responsivo.
+
+## Figuras para leitura, detalhes para consulta
+
+O pipeline ensina o percurso da evidência; os nomes de scripts ficam no guia
+operacional. O funil começa no inventário reunido, sem apresentar a lista do
+Scholar como se fosse um conjunto que contém todas as APIs. A taxonomia explica
+as perguntas em português e mantém os campos auxiliares fora dos eixos de função.
+Os portões distinguem pendência, classificação e ausência confirmada manualmente.
+
+Cada diagrama tem uma composição própria para celular, com fluxo vertical,
+texto legível e a mesma informação essencial da versão ampla. A simplificação
+é de apresentação; definições e critérios continuam em METHOD.md.
