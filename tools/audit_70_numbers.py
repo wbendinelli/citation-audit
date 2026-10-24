@@ -524,6 +524,7 @@ def build_meta(ctx, hoje):
         cd_backend[paper] = cd.get("backend") if (cd and "windows" in cd) else None
     return {
         "gerado_em": hoje,
+        "coleta": read_optional_json(ctx.root / "data" / "harvest_latest.json"),
         "fontes": ctx.master["meta"].get("fontes"),
         "scholar": ctx.master["meta"].get("scholar"),
         "n_registros": len(ctx.citing()),
@@ -1328,9 +1329,17 @@ def build_cd(ctx):
         if cd is not None and "windows" in cd:
             block["cd_index"] = {
                 "windows": cd.get("windows"),
-                "loo": cd.get("loo"),
-                "crosstab": cd.get("crosstab"),
-                "fisher_p": cd.get("fisher_p"),
+                "loo": cd.get("loo_cd5"),
+                "loo_cd5": cd.get("loo_cd5"),
+                "crosstab": cd.get("crosstab_t5"),
+                "crosstab_t5": cd.get("crosstab_t5"),
+                "checks_global": cd.get("checks_global"),
+                "id_mapping": cd.get("id_mapping"),
+                "snapshot_date": cd.get("snapshot_date"),
+                "requests": cd.get("requests"),
+                "fisher_p": (cd.get("crosstab_t5") or {})
+                .get("fisher_substantive", {})
+                .get("p_two_sided"),
                 "backend": cd.get("backend"),
             }
         elif cd is not None:
@@ -1354,6 +1363,9 @@ def build_cocitacao(ctx):
             "data/cocit/cocit_airline.json não existe (só data/cocit/seeds_airline.json, que é insumo, não resultado)"
         )
     return {
+        "snapshot_date": data.get("snapshot_date"),
+        "backend": data.get("backend"),
+        "requests": data.get("requests"),
         "periods": data.get("periods"),
         "brokerage": data.get("brokerage"),
         "tests": data.get("tests"),
@@ -1544,6 +1556,9 @@ def build_constantes(ctx):
         "landis_koch": LANDIS_KOCH,
         "krippendorff_cutoffs": KRIPPENDORFF_CUTOFFS,
         "scimago_edition": ctx.config.get("scimago", {}).get("edition"),
+        "readme_mobile_breakpoint_px": (
+            read_optional_json(ctx.root / "tools" / "vita_tokens.json") or {}
+        ).get("readme_mobile_breakpoint_px"),
     }
 
 
@@ -1552,6 +1567,7 @@ def build_constantes(ctx):
 # ==========================================================================
 
 SECOES_NUMEROS = [
+    ("atualizacao", ["atualizacao"]),
     ("inventario", ["inventario"]),
     ("funil", ["funil"]),
     ("populacao", ["populacao"]),
@@ -1767,6 +1783,12 @@ def build_dados(ctx, hoje):
     funil, funil_valores = build_funil(ctx)
     dados = {
         "meta": build_meta(ctx, hoje),
+        "atualizacao": {
+            "anterior": read_optional_json(
+                ctx.root / "data" / "baselines" / "2026-09-04.json"
+            ),
+            "coleta": read_optional_json(ctx.root / "data" / "harvest_latest.json"),
+        },
         "artigos": build_artigos(ctx),
         "inventario": build_inventario(ctx),
         "funil": funil,
@@ -1825,8 +1847,15 @@ def main(argv=None):
 
     args = parse_args(argv)
     root = args.root.resolve()
+    # A data pertence ao snapshot dos dados, não ao relógio de quem verifica.
+    # Sem coleta nova, o --check de amanhã precisa reproduzir o mesmo relatório.
+    harvest = read_optional_json(root / "data" / "harvest_latest.json") or {}
+    committed = read_optional_json(OUT_DADOS) or {}
     hoje = (
-        args.date or datetime.datetime.now(tz=datetime.timezone.utc).date().isoformat()
+        args.date
+        or harvest.get("collected_at", "")[:10]
+        or committed.get("meta", {}).get("gerado_em")
+        or datetime.datetime.now(tz=datetime.timezone.utc).date().isoformat()
     )
 
     ctx = Ctx(root, args.classify.resolve() if args.classify else None)

@@ -82,10 +82,8 @@ checagem:
   método, não uma correção de bug.
 - **Adicionar dependência Python ao pipeline.** Fases 10–50 e 70–80: só
   stdlib + `pdftotext`, de propósito — ver `tools/README.md`. Fase 60
-  (análises) pode usar `numpy` — `audit_62_irr_stats.py` é a exceção
-  deliberada (estatística de concordância entre codificadores). As duas pins
-  em `requirements.txt` servem à fase 60 e à fase 81 (figuras, reservada e
-  ainda não escrita).
+  (análises) pode usar `numpy` — estatísticas de concordância e análises de rede (estatística de concordância entre codificadores). As duas pins
+  em `requirements.txt` servem à fase 60 e à fase 81 (figuras, já implementada).
 - **Rodar os scripts de coleta (fase 10–22) sem necessidade.** Tocam rede
   (OpenAlex, Semantic Scholar, OpenCitations, Europe PMC, Unpaywall,
   Crossref) e podem mudar `data/master.json` sob você — prefira o bloco B

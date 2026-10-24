@@ -1,0 +1,37 @@
+{
+  "source": "sapians-design-vita/src/content/design-system.json",
+  "snapshot": "2026-10-24",
+  "palette": {
+    "canvas": "#FFFFFF",
+    "composition": "#F2F3F3",
+    "subtle": "#F5F5F5",
+    "selected": "#E5E5E5",
+    "ink": "#212322",
+    "muted": "#606060",
+    "line": "#DDDDDD",
+    "control": "#808080",
+    "primary": "#9E5330",
+    "onPrimary": "#FFFFFF",
+    "primaryHover": "#8B492A",
+    "primaryPressed": "#784024",
+    "onDark": "#FFFFFF"
+  },
+  "typography": {
+    "preferred": "Optimistic VF",
+    "portable": "Inter",
+    "reason": "Optimistic VF não é redistribuída neste repositório aberto; Inter OFL permanece vendorizada."
+  },
+  "data_series": [
+    "#E5E5E5",
+    "#B8B8B8",
+    "#909090",
+    "#606060",
+    "#212322"
+  ],
+  "rules": {
+    "accent": "Terracota only on button backgrounds and their borders; white foreground. Neutral links, tables, badges, numbers, focus and decorative icons. Character copper is an independent material palette.",
+    "material": "Flat surfaces, no glow or glossy controls.",
+    "hierarchy": "One principal title per page; section titles, content headings, body, labels and metadata consume shared roles."
+  },
+  "readme_mobile_breakpoint_px": 600
+}

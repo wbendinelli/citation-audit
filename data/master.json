@@ -46,7 +46,7 @@
      "issn_l": "0191-2615",
      "landing": "https://doi.org/10.1016/j.trb.2026.103567",
      "oa_status": "closed",
-     "pdf": null,
+     "pdf": "https://doi.org/10.1016/j.trb.2026.103567",
      "pmcid": null,
      "publisher": "Elsevier BV",
      "source_id": "https://openalex.org/S96305778",
@@ -57,6 +57,7 @@
      ],
      "status": "fechado",
      "title": "Day-ahead Flight Retiming and Aircraft Rerouting Considering Airport Congestion",
+     "type": "JournalArticle",
      "venue": "Transportation Research Part B Methodological",
      "work_type": "article",
      "year": 2026
@@ -83,6 +84,7 @@
      ],
      "status": "fechado",
      "title": "The Breeze Effect: Evidence on Demand Stimulation and Fare Impacts of An Emerging Low-Cost Carrier",
+     "type": "JournalArticle",
      "venue": "Journal of the Air Transport Research Society",
      "work_type": "article",
      "year": 2026
@@ -116,6 +118,7 @@
      "text_path": "text/airline_003.txt",
      "text_source": "pdf:https://arxiv.org/pdf/2511.00932",
      "title": "Low-Cost Carriers in Aviation: Significance and Developments",
+     "type": "JournalArticle",
      "venue": "arXiv (Cornell University)",
      "work_type": "preprint",
      "year": 2025
@@ -130,17 +133,20 @@
      "issn_l": "2210-5395",
      "landing": "https://doi.org/10.1016/j.rtbm.2025.101458",
      "oa_status": "closed",
+     "openalex": "https://openalex.org/W4413143312",
      "pdf": null,
      "pmcid": null,
      "publisher": "Elsevier BV",
      "source_id": "https://openalex.org/S2764779785",
      "source_type": "journal",
      "src": [
+      "openalex",
       "s2",
       "scholar"
      ],
      "status": "fechado",
      "title": "Market shares on the rise, academic attention on the decline? A comprehensive review on low-cost airlines and their research challenges",
+     "type": "article",
      "venue": "Research in Transportation Business & Management",
      "work_type": "article",
      "year": 2025
@@ -171,6 +177,7 @@
      ],
      "status": "fechado",
      "title": "Application of structural topic modeling in a literature review of air transport",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2025
@@ -201,6 +208,7 @@
      ],
      "status": "fechado",
      "title": "Incumbents’ marketing deterrence strategies and potential entrants’ time-to-entry: evidence from the US airline industry",
+     "type": "article",
      "venue": "European Journal of Marketing",
      "work_type": "article",
      "year": 2024
@@ -215,17 +223,20 @@
      "issn_l": "2941-198X",
      "landing": "https://doi.org/10.1016/j.jatrs.2024.100013",
      "oa_status": "hybrid",
+     "openalex": "https://openalex.org/W4398181244",
      "pdf": "https://doi.org/10.1016/j.jatrs.2024.100013",
      "pmcid": null,
      "publisher": null,
      "source_id": "https://openalex.org/S4387289958",
      "source_type": "journal",
      "src": [
+      "openalex",
       "s2",
       "scholar"
      ],
      "status": "fechado",
      "title": "Airline competition: A comprehensive review of recent research",
+     "type": "article",
      "venue": "Journal of the Air Transport Research Society",
      "work_type": "article",
      "year": 2024
@@ -381,6 +392,7 @@
      ],
      "status": "fechado",
      "title": "Aircraft routing clusters and their impact on airline delays",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2024
@@ -410,6 +422,7 @@
      ],
      "status": "fechado",
      "title": "Credible vs. deceptive threat of market entry: Empirical evidence from the US airline industry",
+     "type": "article",
      "venue": "Industrial Marketing Management",
      "work_type": "article",
      "year": 2023
@@ -448,6 +461,7 @@
      "text_path": "text/airline_014.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "An econometric analysis for the determinants of flight speed in the air transport of passengers",
+     "type": "article",
      "venue": "Scientific Reports",
      "work_type": "article",
      "year": 2023
@@ -478,6 +492,7 @@
      ],
      "status": "fechado",
      "title": "Financial conditions and incumbent quality responses to entry: Evidence from airlines' on-time performance",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2023
@@ -492,17 +507,20 @@
      "issn_l": "1366-5545",
      "landing": "https://doi.org/10.1016/j.tre.2022.103000",
      "oa_status": "hybrid",
+     "openalex": "https://openalex.org/W4313460249",
      "pdf": "https://doi.org/10.1016/j.tre.2022.103000",
      "pmcid": null,
      "publisher": "Elsevier BV",
      "source_id": "https://openalex.org/S173966628",
      "source_type": "journal",
      "src": [
+      "openalex",
       "s2",
       "scholar"
      ],
      "status": "oa_bloqueado",
      "title": "Airport dominance, route network design and flight delays",
+     "type": "article",
      "venue": "Transportation Research Part E Logistics and Transportation Review",
      "work_type": "article",
      "year": 2023
@@ -533,6 +551,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Impact of Aircraft Delays on Population Noise Exposure in Airport’s Surroundings",
+     "type": "article",
      "venue": "International Journal of Environmental Research and Public Health",
      "work_type": "article",
      "year": 2022
@@ -562,6 +581,7 @@
      ],
      "status": "fechado",
      "title": "How incumbents’ response strategy impacts rivals’ market exit timing?",
+     "type": "article",
      "venue": "Journal of Business Research",
      "work_type": "article",
      "year": 2022
@@ -576,17 +596,20 @@
      "issn_l": "2212-0122",
      "landing": "https://doi.org/10.1016/j.ecotra.2022.100252",
      "oa_status": "closed",
+     "openalex": "https://openalex.org/W4221016314",
      "pdf": null,
      "pmcid": null,
      "publisher": "Elsevier BV",
      "source_id": "https://openalex.org/S2898237991",
      "source_type": "journal",
      "src": [
+      "openalex",
       "s2",
       "scholar"
      ],
      "status": "fechado",
      "title": "Spillover delay effects of damaging wildlife strike events at U.S. airports",
+     "type": "article",
      "venue": "Economics of Transportation",
      "work_type": "article",
      "year": 2022
@@ -625,6 +648,7 @@
      "text_path": "text/airline_020.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "An empirical analysis of the determinants of network construction for Azul Airlines",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2022
@@ -655,6 +679,7 @@
      ],
      "status": "fechado",
      "title": "Incumbent defense strategies and new entrants market exit: the moderating role of relational market-based assets",
+     "type": "article",
      "venue": "European Journal of Marketing",
      "work_type": "article",
      "year": 2022
@@ -687,6 +712,7 @@
      ],
      "status": "fechado",
      "title": "Price reactions to a rival’s market exit: evidence from the U.S. airline industry",
+     "type": "article",
      "venue": "The Journal of Marketing Theory and Practice",
      "work_type": "article",
      "year": 2022
@@ -717,6 +743,7 @@
      ],
      "status": "fechado",
      "title": "An econometric study of the effects of airport privatization on airfares in Brazil",
+     "type": "article",
      "venue": "Transport Policy",
      "work_type": "article",
      "year": 2021
@@ -747,6 +774,7 @@
      ],
      "status": "fechado",
      "title": "Determinants of flight delays at East Asian airports from an airport, route and network perspective",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2021
@@ -777,6 +805,7 @@
      ],
      "status": "oa_antibot",
      "title": "An overview of air delay: A case study of the Brazilian scenario",
+     "type": "article",
      "venue": "Transportation Research Interdisciplinary Perspectives",
      "work_type": "article",
      "year": 2020
@@ -810,6 +839,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Network development and excess travel time",
+     "type": "article",
      "venue": "Transport Policy",
      "work_type": "article",
      "year": 2020
@@ -839,6 +869,7 @@
      ],
      "status": "fechado",
      "title": "Airline baggage fees and airport congestion",
+     "type": "article",
      "venue": "Transportation Research Part C Emerging Technologies",
      "work_type": "article",
      "year": 2020
@@ -879,6 +910,7 @@
      "text_path": "text/airline_028.txt",
      "text_source": "PDF fornecido pelo autor (10.1007:s40305-020-00306-9.pdf)",
      "title": "Flight-Based Congestion Pricing Considering Equilibrium Flights in Airport Airside",
+     "type": "article",
      "venue": "Journal of the Operations Research Society of China",
      "work_type": "article",
      "year": 2020
@@ -914,6 +946,7 @@
      "text_path": "text/airline_029.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s13762-020-02710-3?error=cookies_not_supported&code=f735b538-92d8-4f45-a81d-19fd1dab60b2",
      "title": "The impact of dust on Kuwait International Airport operations: a case study",
+     "type": "article",
      "venue": "International Journal of Environmental Science and Technology",
      "work_type": "article",
      "year": 2020
@@ -952,6 +985,7 @@
      "text_path": "text/airline_030.txt",
      "text_source": "PDF fornecido pelo autor (10.1080:03081060.2020.1701706)",
      "title": "Airport airside congestion pricing considering price discrimination between aircraft type under a Stackelberg game",
+     "type": "article",
      "venue": "Transportation Planning and Technology",
      "work_type": "article",
      "year": 2020
@@ -982,6 +1016,7 @@
      ],
      "status": "fechado",
      "title": "Multi-airport privatization in a Japanese region with trip-chain formation",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2019
@@ -1012,6 +1047,7 @@
      ],
      "status": "fechado",
      "title": "Airline schedule padding and consumer choice behavior",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2019
@@ -1044,6 +1080,7 @@
      ],
      "status": "oa_antibot",
      "title": "Bad weather and flight delays: The impact of sudden and slow onset weather events",
+     "type": "article",
      "venue": "Economics of Transportation",
      "work_type": "article",
      "year": 2019
@@ -1074,6 +1111,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Convergence in airline operations: The case of ground times",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2019
@@ -1104,6 +1142,7 @@
      ],
      "status": "fechado",
      "title": "The blurring lines between full-service network carriers and low-cost carriers: A financial perspective on business model convergence",
+     "type": "article",
      "venue": "Transport Policy",
      "work_type": "article",
      "year": 2019
@@ -1135,6 +1174,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Schedule creep – In search of an uncongested baseline block time by examining scheduled flight block times worldwide 1986–2016",
+     "type": "article",
      "venue": "Transportation Research Part A Policy and Practice",
      "work_type": "article",
      "year": 2019
@@ -1164,6 +1204,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Does cargo matter? The impact of air cargo operations on departure on-time performance for combination carriers",
+     "type": "article",
      "venue": "Transportation Research Part A Policy and Practice",
      "work_type": "article",
      "year": 2019
@@ -1199,6 +1240,7 @@
      "text_path": "text/airline_038.txt",
      "text_source": "nova tentativa dirigida: http://www.scielo.br/j/jatm/a/8B9fSXxbstXNgHHnQGdgtPS/?lang=en",
      "title": "The Impact of Delays on Customers’ Satisfaction: an Empirical Analysis of the British Airways On-Time Performance at Heathrow Airport",
+     "type": "Review",
      "venue": "Journal of Aerospace Technology and Management",
      "work_type": "article",
      "year": 2018
@@ -1234,6 +1276,7 @@
      "text_path": "text/airline_039.txt",
      "text_source": "html:https://ira.lib.polyu.edu.hk/handle/10397/98293",
      "title": "Can airfares tell? An alternative empirical strategy for airport congestion internalization",
+     "type": "article",
      "venue": "Transportation Research Part A Policy and Practice",
      "work_type": "article",
      "year": 2018
@@ -1269,6 +1312,7 @@
      ],
      "status": "texto_incorreto",
      "title": "Modelo de identificação do impacto futuro de chuvas extremas nos atrasos/cancelamentos de voos",
+     "type": "article",
      "venue": "Transportes",
      "work_type": "article",
      "year": 2018
@@ -1320,6 +1364,7 @@
      ],
      "status": "fechado",
      "title": "An empirical analysis of delays in the Turkish Airlines network",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2017
@@ -1355,6 +1400,7 @@
      "text_path": "text/airline_043.txt",
      "text_source": "html:https://orbilu.uni.lu/handle/10993/36903",
      "title": "Robust Scheduling: An Empirical Study of Its Impact on Air Traffic Delays",
+     "type": "article",
      "venue": "Transportation Research Part E Logistics and Transportation Review",
      "work_type": "article",
      "year": 2017
@@ -1390,6 +1436,7 @@
      "text_path": "text/airline_044.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Determinants of entry on airline markets",
+     "type": "article",
      "venue": "Lomonosov Economics Journal",
      "work_type": "article",
      "year": 2024
@@ -1420,6 +1467,7 @@
      ],
      "status": "fechado",
      "title": "Aircraft routes of domestic cargo transport based on the Indonesian National Logistics System",
+     "type": "conference-paper",
      "venue": "AIP conference proceedings",
      "work_type": "conference-paper",
      "year": 2023
@@ -1449,6 +1497,7 @@
      ],
      "status": "fechado",
      "title": "Are on-time performance statistics worthless? An empirical study of the flight scheduling strategies of Brazilian airlines",
+     "type": "article",
      "venue": "Transportation Research Part E Logistics and Transportation Review",
      "work_type": "article",
      "year": 2021
@@ -1498,6 +1547,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "The evaluation of the Balkan countries results relative to establishing effective market competition",
+     "type": "article",
      "venue": "Naucne publikacije Drzavnog univerziteta u Novom Pazaru Serija B Drustvene & humanisticke nauke",
      "work_type": "article",
      "year": 2018
@@ -1546,6 +1596,7 @@
      "text_path": "text/airline_050.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "An early assessment of the impact of COVID-19 on air transport: Just another crisis or the end of aviation as we know it?",
+     "type": "article",
      "venue": "Journal of Transport Geography",
      "work_type": "article",
      "year": 2020
@@ -1570,6 +1621,7 @@
      ],
      "status": "fechado",
      "title": "Dynamic pricing and market segmentation responses to low-cost carrier entry",
+     "type": "article",
      "venue": "Transportation Research Part E Logistics and Transportation Review",
      "work_type": "article",
      "year": 2017
@@ -1593,6 +1645,7 @@
      ],
      "status": "fechado",
      "title": "Does competition increase quality? Evidence from the US airline industry",
+     "type": "article",
      "venue": "International Journal of Industrial Organization",
      "work_type": "article",
      "year": 2021
@@ -1617,6 +1670,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "An Attention-Based Deep Convolution Network for Mining Airport Delay Propagation Causality",
+     "type": "article",
      "venue": "Applied Sciences",
      "work_type": "article",
      "year": 2022
@@ -1641,6 +1695,7 @@
      ],
      "status": "oa_antibot",
      "title": "The uneven geography of US air traffic delays: Quantifying the impact of connecting passengers on delay propagation",
+     "type": "article",
      "venue": "Journal of Transport Geography",
      "work_type": "article",
      "year": 2021
@@ -1664,11 +1719,15 @@
      ],
      "status": "fechado",
      "title": "Airport slots and the internalization of congestion by airlines: An empirical model of integrated flight disruption management in Brazil",
+     "type": "article",
      "venue": "Transportation Research Part A Policy and Practice",
      "work_type": "article",
      "year": 2018
     },
     {
+     "alternate_dois": [
+      "10.2139/ssrn.2849439"
+     ],
      "doi": "10.1016/j.tranpol.2017.12.021",
      "has_fulltext": false,
      "id": "airline_056",
@@ -1688,6 +1747,7 @@
      ],
      "status": "fechado",
      "title": "What drives effective competition in the airline industry? An empirical model of city-pair market concentration",
+     "type": "article",
      "venue": "Transport Policy",
      "work_type": "article",
      "year": 2018
@@ -1722,6 +1782,7 @@
      "text_path": "text/airline_057.txt",
      "text_source": "PDF fornecido pelo autor (10.1111:jbfa.12351)",
      "title": "Causal language intensity in performance commentary and financial analyst behaviour",
+     "type": "article",
      "venue": "Journal of Business Finance &amp Accounting",
      "work_type": "article",
      "year": 2018
@@ -1746,6 +1807,7 @@
      ],
      "status": "fechado",
      "title": "Domestic code-sharing agreements and on-time performance: Evidence from the US airline industry",
+     "type": "article",
      "venue": "Transport Policy",
      "work_type": "article",
      "year": 2018
@@ -1781,7 +1843,8 @@
      "text_path": "text/airline_059.txt",
      "text_source": "PDF fornecido pelo autor (10.1108:s2212-160920170000006014.pdf)",
      "title": "Low-Cost Carriers and Airports: A Complex Relationship",
-     "venue": null,
+     "type": "book-chapter",
+     "venue": "Emerald Group Publishing Limited eBooks",
      "work_type": "book-chapter",
      "year": 2017
     },
@@ -1805,6 +1868,7 @@
      ],
      "status": "fechado",
      "title": "Competition and Schedule Padding in the US Airline Industry",
+     "type": "article",
      "venue": "Review of Network Economics",
      "work_type": "article",
      "year": 2021
@@ -1829,6 +1893,7 @@
      ],
      "status": "oa_antibot",
      "title": "Financial distress, survival network design strategies, and airline pricing: An event study of a merger between a bankrupt FSC and an LCC in Brazil",
+     "type": "article",
      "venue": "Journal of Air Transport Management",
      "work_type": "article",
      "year": 2021
@@ -1847,6 +1912,7 @@
      ],
      "status": "sem_doi",
      "title": "Waits and Delays in Road Freight Transport",
+     "type": "preprint",
      "venue": "RePEc: Research Papers in Economics",
      "year": 2021
     },
@@ -1870,6 +1936,7 @@
      ],
      "status": "fechado",
      "title": "Econometric Analysis of Flight Times and the Effects of Performance Based Navigation",
+     "type": "conference-paper",
      "venue": "AIAA AVIATION 2020 FORUM",
      "work_type": "conference-paper",
      "year": 2020
@@ -1921,6 +1988,7 @@
      ],
      "status": "texto_incorreto",
      "title": "Antecipação de mudança de regime na fatia diária de voos atrasados e cancelados no aeroporto internacional de São Paulo/Guarulhos",
+     "type": "article",
      "venue": "Transportes",
      "work_type": "article",
      "year": 2021
@@ -1954,6 +2022,7 @@
      "text_path": "text/airline_066.txt",
      "text_source": "html:https://link.springer.com/chapter/10.1007/978-3-030-71704-9_45?error=cookies_not_supported&code=f25bdcb5-7fd2-4b03-a279-1973c267e590",
      "title": "An Analysis of Flight Delays at Taoyuan Airport",
+     "type": "book-chapter",
      "venue": "Transactions on computational science and computational intelligence",
      "work_type": "book-chapter",
      "year": 2021
@@ -1985,6 +2054,7 @@
      "text_path": "text/airline_067.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Como as empresas aéreas respondem à saída de um competidor potencial: o caso da Avianca Brasil",
+     "type": "dissertation",
      "venue": null,
      "work_type": "dissertation",
      "year": 2021
@@ -2015,6 +2085,7 @@
      "text_path": "text/airline_068.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Impact of COVID-19 on Airlines’ Financial Performance and Innovation Strategy",
+     "type": "article",
      "venue": "Hong Kong Journal of Social Sciences",
      "work_type": "article",
      "year": 2023
@@ -2438,6 +2509,21 @@
      "title": "Airline financial distress and its impacts on airfares: an econometric model",
      "venue": null,
      "year": 2019
+    },
+    {
+     "doi": null,
+     "id": "airline_s025",
+     "is_oa": null,
+     "nota_integridade": "título truncado pelo Scholar; sem DOI conhecido",
+     "oa_status": null,
+     "resolved_by": null,
+     "src": [
+      "scholar"
+     ],
+     "status": "so_scholar_sem_doi",
+     "title": "Provlepsi kathysterisis ptiseon me technikes michanikis mathisis",
+     "venue": null,
+     "year": "2021"
     }
    ],
    "target": {
@@ -2474,6 +2560,7 @@
      "text_path": "text/grains_001.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s00217-026-05237-y?error=cookies_not_supported&code=f6a04ab1-736c-47a3-ab4b-ce80543d3c1f",
      "title": "Use of Artificial Intelligence in post-harvest losses management: a current insight",
+     "type": "JournalArticle",
      "venue": "European Food Research and Technology",
      "work_type": "article",
      "year": 2026
@@ -2509,6 +2596,7 @@
      "text_path": "text/grains_002.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s41348-026-01320-4?error=cookies_not_supported&code=1d2f022e-915a-40cc-873f-46c48bbf4077",
      "title": "Imaging technologies for non-invasive detection of insect pest infestations in stored food grains: a review",
+     "type": "review",
      "venue": "Journal of Plant Diseases and Protection",
      "work_type": "article",
      "year": 2026
@@ -2538,6 +2626,7 @@
      ],
      "status": "fechado",
      "title": "A decoupled methodology for process-aware post-harvest loss prediction",
+     "type": "article",
      "venue": "Data Technologies and Applications",
      "work_type": "article",
      "year": 2026
@@ -2567,6 +2656,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Understanding the nexus of postharvest losses and food insecurity: Empirical evidence from Nigeria",
+     "type": "article",
      "venue": "Cleaner Food Systems",
      "work_type": "article",
      "year": 2026
@@ -2598,6 +2688,7 @@
      ],
      "status": "texto_incorreto",
      "title": "Adoption Dynamics of Hermetic Storage Technology and Post Harvest Quality Outcomes in Maize Production",
+     "type": "article",
      "venue": "Journal of Smart and Sustainable Farming",
      "work_type": "article",
      "year": 2026
@@ -2628,6 +2719,7 @@
      ],
      "status": "oa_antibot",
      "title": "Participatory Sustainability Indicators Reveal Systemic Weaknesses in Basic Grains Production in Central America",
+     "type": "article",
      "venue": "Advances in Agriculture",
      "work_type": "article",
      "year": 2026
@@ -2657,6 +2749,7 @@
      ],
      "status": "oa_antibot",
      "title": "Reducing Postharvest Losses in the Global South: A Meta‐Analytical Framework for Food Policy Intervention",
+     "type": "article",
      "venue": "Advances in Agriculture",
      "work_type": "article",
      "year": 2026
@@ -2690,6 +2783,7 @@
      "text_path": "text/grains_008.txt",
      "text_source": "pdf:https://arccarticles.s3.amazonaws.com/OnlinePublish/Final-article-attachemnt-with-doi-D-6397-6089603e9087340b9bdcbbb1.pdf",
      "title": "Pest and Disease Related Post-Harvest Losses in Rice: A Review",
+     "type": "JournalArticle",
      "venue": "Agricultural Science Digest - A Research Journal",
      "work_type": "article",
      "year": 2025
@@ -2728,6 +2822,7 @@
      "text_path": "text/grains_009.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Mechanism and simulation analysis of cross-regional vegetable production and marketing docking in big cities based on evolutionary game",
+     "type": "article",
      "venue": "Frontiers in Sustainable Food Systems",
      "work_type": "article",
      "year": 2025
@@ -2752,6 +2847,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Association between Household Socio-Demographic Factors and Postharvest Management Technologies Use for Grains in Dodoma Region, Tanzania",
+     "type": "JournalArticle",
      "venue": "International Journal of Humanity and Social Sciences",
      "work_type": "article",
      "year": 2025
@@ -2788,6 +2884,7 @@
      "text_path": "text/grains_011.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s42690-025-01511-w?error=cookies_not_supported&code=abfaa708-fadf-4c3f-9334-70e5122b2808",
      "title": "Optimizing modified ecological compositions enables eco-friendly control of Tribolium castaneum in grain storage",
+     "type": "article",
      "venue": "International Journal of Tropical Insect Science",
      "work_type": "article",
      "year": 2025
@@ -2818,6 +2915,7 @@
      ],
      "status": "fechado",
      "title": "Losses in agricultural produce: A review of causes and solutions, with a specific focus on grain crops",
+     "type": "article",
      "venue": "Journal of Stored Products Research",
      "work_type": "article",
      "year": 2025
@@ -2848,6 +2946,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Sustainable farming with machine learning solutions for minimizing food waste",
+     "type": "article",
      "venue": "Journal of Stored Products Research",
      "work_type": "article",
      "year": 2025
@@ -2878,6 +2977,7 @@
      ],
      "status": "oa_antibot",
      "title": "Losses in Agricultural Produce: Causes and Effects on Food Security",
+     "type": "article",
      "venue": "Food and Energy Security",
      "work_type": "article",
      "year": 2025
@@ -2915,6 +3015,7 @@
      "text_path": "text/grains_015.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Ensuring food security: Strategies for insect pest detection in storage - A review",
+     "type": "review",
      "venue": "International Food Research Journal",
      "work_type": "article",
      "year": 2025
@@ -2945,6 +3046,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Grain Trade: A Literature Review and Research Outlook",
+     "type": "article",
      "venue": "Review of Economic Assessment",
      "work_type": "article",
      "year": 2024
@@ -2981,6 +3083,7 @@
      "text_path": "text/grains_017.txt",
      "text_source": "html:https://pubmed.ncbi.nlm.nih.gov/39752738/",
      "title": "Lipoxygenases (LOXs): Will turning off this genetic switch help safeguard the flavor and nutritional quality of stored lipid-rich staple foods?",
+     "type": "article",
      "venue": "Food Chemistry",
      "work_type": "article",
      "year": 2024
@@ -3011,6 +3114,7 @@
      ],
      "status": "fechado",
      "title": "Post-harvest Management Strategies for Quality Preservation in Crops",
+     "type": "article",
      "venue": "International Journal of Vegetable Science",
      "work_type": "article",
      "year": 2024
@@ -3043,6 +3147,7 @@
      "text_path": "text/grains_019.txt",
      "text_source": "pdf:https://www.plantarchives.org/article/29%20TESTING-THE-EFFECT-OF-HERBAL-POWDERS-ON-GRAIN-PARAMETERS-IN-STORED-WHEAT-IN-THE-PRESENCE-OF-SITOPHILUS-ORYZAE-UNDER-FREE-CHOICE.pdf",
      "title": "TESTING THE EFFECT OF HERBAL POWDERS ON GRAIN PARAMETERS IN STORED WHEAT IN THE PRESENCE OF SITOPHILUS ORYZAE UNDER FREE CHOICE",
+     "type": "JournalArticle",
      "venue": "PLANT ARCHIVES",
      "work_type": "article",
      "year": 2024
@@ -3079,6 +3184,7 @@
      "text_path": "text/grains_020.txt",
      "text_source": "nova tentativa dirigida: http://agricecon.agriculturejournals.cz/artkey/age-202405-0002_subsidy-policies-for-the-grain-supply-chain-considering-postharvest-loss-of-grain-and-agricultural-pollutant-em.php",
      "title": "Subsidy policies for the grain supply chain considering postharvest loss of grain and agricultural pollutant emission in China",
+     "type": "article",
      "venue": "Agricultural Economics (Zemědělská ekonomika)",
      "work_type": "article",
      "year": 2024
@@ -3109,6 +3215,7 @@
      ],
      "status": "fechado",
      "title": "Occupational hazards at grain pre-processing and storage facilities: A review",
+     "type": "article",
      "venue": "Journal of Stored Products Research",
      "work_type": "article",
      "year": 2024
@@ -3147,6 +3254,7 @@
      "text_path": "text/grains_022.txt",
      "text_source": "PDF fornecido pelo autor (10.1080:15325008.2024.2316257)",
      "title": "Modeling and Control of an Indirect Solar Dryer in Forced Convection Mode Using System Identification and Model Predictive Control",
+     "type": "article",
      "venue": "Electric Power Components and Systems",
      "work_type": "article",
      "year": 2024
@@ -3179,6 +3287,7 @@
      ],
      "status": "oa_antibot",
      "title": "Assessing gendered impacts of post-harvest technologies in Northern Ghana: gender equity and food security",
+     "type": "article",
      "venue": "Gender Technology and Development",
      "work_type": "article",
      "year": 2023
@@ -3214,6 +3323,7 @@
      "text_path": "text/grains_024.txt",
      "text_source": "reverificacao:https://www.nature.com/articles/s43247-023-01062-3.pdf?error=cookies_not_supported&code=db9ad687-86a3-4c09-babf-1aa7984d8bc1",
      "title": "Nearly half of the world is suitable for diversified farming for sustainable intensification",
+     "type": "article",
      "venue": "Communications Earth & Environment",
      "work_type": "article",
      "year": 2023
@@ -3246,6 +3356,7 @@
      ],
      "status": "oa_antibot",
      "title": "Subsidy strategies of grain supply chain considering stakeholder efforts on post-harvest loss reduction and pollution emission reduction",
+     "type": "article",
      "venue": "Cogent Food & Agriculture",
      "work_type": "article",
      "year": 2023
@@ -3282,6 +3393,7 @@
      "text_path": "text/grains_026.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Toxicity and chemical compounds of Piper aduncum fruit extract against storage pest Sitophilus oryzae and Callosobruchus maculatus",
+     "type": "conference-paper",
      "venue": "IOP Conference Series Earth and Environmental Science",
      "work_type": "conference-paper",
      "year": 2023
@@ -3312,6 +3424,7 @@
      ],
      "status": "fechado",
      "title": "Postharvest engineering: Effects of drying and storage operations on the quality of processed soybeans",
+     "type": "article",
      "venue": "Journal of Food Process Engineering",
      "work_type": "article",
      "year": 2023
@@ -3343,6 +3456,7 @@
      ],
      "status": "fechado",
      "title": "Analysis of the Factors Influencing the Stability of Stored Grains: Implications for Agricultural Sustainability and Food Security",
+     "type": "article",
      "venue": "Sustainable Operations and Computers",
      "work_type": "article",
      "year": 2023
@@ -3372,6 +3486,7 @@
      ],
      "status": "oa_antibot",
      "title": "Comprehensive analysis of thermophysical properties of a binary stearyl alcohol and benzamide eutectic phase change material and determination of thermal performance of a solar dryer integrated with phase change material",
+     "type": "article",
      "venue": "Energy Storage",
      "work_type": "article",
      "year": 2023
@@ -3402,6 +3517,7 @@
      ],
      "status": "fechado",
      "title": "Financial inclusion and post-harvest losses in West African economic and Monetary Union",
+     "type": "article",
      "venue": "Agricultural Finance Review",
      "work_type": "article",
      "year": 2022
@@ -3434,11 +3550,16 @@
      ],
      "status": "oa_bloqueado",
      "title": "Containerized Grain Logistics Processes for Implementing Sustainable Identity Preservation",
+     "type": "article",
      "venue": "Sustainability",
      "work_type": "article",
      "year": 2022
     },
     {
+     "alternate_dois": [
+      "10.1016/j.jafr.2022.100431",
+      "10.2139/ssrn.4193379"
+     ],
      "arxiv": null,
      "corpusid": 251695620,
      "doi": "10.2139/ssrn.4193379",
@@ -3462,6 +3583,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Food Loss and Waste from Farm to Gate in Brazilian Soybean Production",
+     "type": "article",
      "venue": "SSRN Electronic Journal",
      "work_type": "preprint",
      "year": 2022
@@ -3501,6 +3623,7 @@
      "text_path": "text/grains_033.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Estratégias para reduzir o desperdício de frutas e hortaliças: a busca por sistemas atacadistas sustentáveis",
+     "type": "article",
      "venue": "Horticultura Brasileira",
      "work_type": "article",
      "year": 2022
@@ -3531,6 +3654,7 @@
      ],
      "status": "fechado",
      "title": "Modeling the key factors leading to post-harvest loss and waste of fruits and vegetables in the agri-fresh produce supply chain",
+     "type": "article",
      "venue": "Computers and Electronics in Agriculture",
      "work_type": "article",
      "year": 2022
@@ -3561,6 +3685,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Revealing a Significant Latent Loss of Dry Matter in Rice Based on Accurate Measurement of Grain Growth Curve",
+     "type": "article",
      "venue": "Agriculture",
      "work_type": "article",
      "year": 2022
@@ -3591,6 +3716,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Gendering post-harvest loss research: responsibilities of women and men to manage maize after harvest in southwestern Ethiopia",
+     "type": "article",
      "venue": "Food Security",
      "work_type": "article",
      "year": 2022
@@ -3629,6 +3755,7 @@
      "text_path": "text/grains_037.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s42853-022-00130-4?error=cookies_not_supported&code=83a593d1-16ac-485b-b8b4-747a90fd6733",
      "title": "Grain Hermetic Storage and Post-Harvest Loss Reduction in Sub-Saharan Africa: Effects on Grain Damage, Weight Loss, Germination, Insect Infestation, and Mold and Mycotoxin Contamination",
+     "type": "article",
      "venue": "Journal of Biosystems Engineering",
      "work_type": "article",
      "year": 2022
@@ -3659,6 +3786,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Finite Element and Applied Models of the Stem with Spike Deformation",
+     "type": "article",
      "venue": "Agriculture",
      "work_type": "article",
      "year": 2021
@@ -3689,6 +3817,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Hazard Analysis of Traditional Post-Harvest Operation Methods and the Loss Reduction Effect Based on Five Time (5T) Management: The Case of Rice in Jilin Province, China",
+     "type": "article",
      "venue": "Agriculture",
      "work_type": "article",
      "year": 2021
@@ -3719,6 +3848,7 @@
      ],
      "status": "fechado",
      "title": "Causes and Mitigation Strategies of Food Loss and Waste: A Systematic Literature Review and Framework Development",
+     "type": "review",
      "venue": "Sustainable Production and Consumption",
      "work_type": "review",
      "year": 2021
@@ -3749,6 +3879,7 @@
      ],
      "status": "fechado",
      "title": "Bacillus subtilis L1-21 as a biocontrol agent for postharvest gray mold of tomato caused by Botrytis cinerea",
+     "type": "article",
      "venue": "Biological Control",
      "work_type": "article",
      "year": 2021
@@ -3778,6 +3909,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Quality Deterioration of Postharvest Fruits and Vegetables in Developing Country Pakistan: A Mini Overview",
+     "type": "article",
      "venue": "Asian Journal of Agriculture and Food Sciences",
      "work_type": "article",
      "year": 2021
@@ -3814,6 +3946,7 @@
      "text_path": "text/grains_043.txt",
      "text_source": "html:https://link.springer.com/article/10.1007/s10668-021-01314-2?error=cookies_not_supported&code=e1694804-6ec6-4f53-b98d-715c83e52654",
      "title": "Assessing drivers of post-harvest losses: tangible and intangible resources’ perspective",
+     "type": "article",
      "venue": "Environment Development and Sustainability",
      "work_type": "article",
      "year": 2021
@@ -3848,6 +3981,7 @@
      "text_path": "text/grains_044.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Interaction of vehicles with the grain pre-treatment point",
+     "type": "article",
      "venue": "Siberian Herald of Agricultural Science",
      "work_type": "article",
      "year": 2020
@@ -3877,11 +4011,15 @@
      ],
      "status": "oa_bloqueado",
      "title": "Performance analysis of the process of combine harvesting of grain crops",
+     "type": "conference-paper",
      "venue": "E3S Web of Conferences",
      "work_type": "conference-paper",
      "year": 2020
     },
     {
+     "alternate_dois": [
+      "10.1051/shsconf/202521601037"
+     ],
      "arxiv": null,
      "corpusid": 278861284,
      "doi": "10.1051/shsconf/202521601068",
@@ -3907,6 +4045,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Optimizing Supply Chain Management to Reduce Food Waste and Loss in Agriculture",
+     "type": "conference-paper",
      "venue": "SHS Web of Conferences",
      "work_type": "conference-paper",
      "year": 2025
@@ -3946,6 +4085,7 @@
      "text_path": "text/grains_047.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Grain Hermetic Storage Adoption in Northern Uganda: Awareness, Use, and the Constraints to Technology Adoption",
+     "type": "article",
      "venue": "Agricultural Sciences",
      "work_type": "article",
      "year": 2022
@@ -3993,6 +4133,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "An integrated intelligent system for managing the efficiency of the production processes",
+     "type": "conference-paper",
      "venue": "E3S Web of Conferences",
      "work_type": "conference-paper",
      "year": 2021
@@ -4029,6 +4170,7 @@
      "text_path": "text/grains_050.txt",
      "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-16-3791-9_8?error=cookies_not_supported&code=e7a26918-8153-4822-b4c4-7723651acaa9",
      "title": "Modeling the Causes of Post-harvest Loss in the Agri-Food Supply Chain to Achieve Sustainable Development Goals: An ISM Approach",
+     "type": "book-chapter",
      "venue": "Environmental footprints and eco-design of products and processes",
      "work_type": "book-chapter",
      "year": 2021
@@ -4067,6 +4209,7 @@
      "text_path": "text/grains_051.txt",
      "text_source": "html:https://inmateh.eu/volumes/volume-62--no3--2020/62-14-dumitru-oana-food-losses-in-primary-cereal-production-a-review/",
      "title": "FOOD LOSSES IN PRIMARY CEREAL PRODUCTION. A REVIEW",
+     "type": "article",
      "venue": "INMATEH Agricultural Engineering",
      "work_type": "article",
      "year": 2020
@@ -4097,6 +4240,7 @@
      ],
      "status": "oa_bloqueado",
      "title": "Institutional quality and green economic growth in West African economic and monetary union",
+     "type": "article",
      "venue": "Innovation and Green Development",
      "work_type": "article",
      "year": 2023
@@ -4121,6 +4265,7 @@
      ],
      "status": "fechado",
      "title": "An overview of agriculture 4.0 development: Systematic review of descriptions, technologies, barriers, advantages, and disadvantages",
+     "type": "review",
      "venue": "Computers and Electronics in Agriculture",
      "work_type": "review",
      "year": 2021
@@ -4153,6 +4298,7 @@
      "text_path": "text/grains_054.txt",
      "text_source": "PDF fornecido pelo autor (10.1002:bse.3191)",
      "title": "Circular economy adoption challenges in the food supply chain for sustainable development",
+     "type": "article",
      "venue": "Business Strategy and the Environment",
      "work_type": "article",
      "year": 2022
@@ -4177,6 +4323,7 @@
      ],
      "status": "fechado",
      "title": "Food Waste: Farms, distributors, retailers, and households",
+     "type": "book-chapter",
      "venue": "Handbook of agricultural economics",
      "work_type": "book-chapter",
      "year": 2022
@@ -4207,7 +4354,8 @@
      "text_path": "text/grains_056.txt",
      "text_source": "html:https://link.springer.com/chapter/10.1007/978-981-97-2795-7_12?error=cookies_not_supported&code=f40ab68e-d086-40b3-a2a8-b15a8f47c45a",
      "title": "Enhancing Food Security, Safety, and Sustainability via the Application of Radiation Technology",
-     "venue": null,
+     "type": "book-chapter",
+     "venue": "Springer eBooks",
      "work_type": "book-chapter",
      "year": 2024
     },
@@ -4231,6 +4379,7 @@
      ],
      "status": "fechado",
      "title": "Control of Sitophilus oryzae (Coleoptera: Curculionidae) in bags of wheat using solar radiation",
+     "type": "article",
      "venue": "Journal of Stored Products Research",
      "work_type": "article",
      "year": 2022
@@ -4258,11 +4407,16 @@
      "text_path": "text/grains_058.txt",
      "text_source": "rodada-1 (re-arquivado por DOI)",
      "title": "Sustentabilidade e segurança alimentar e nutricional",
+     "type": "article",
      "venue": "Revista Verde de Agroecologia e Desenvolvimento Sustentável",
      "work_type": "article",
      "year": 2023
     },
     {
+     "alternate_dois": [
+      "10.1007/978-3-030-98067-2_172-2",
+      "10.1007/978-3-031-34967-6_172"
+     ],
      "citation_status_auto": "bibliography_only",
      "doi": "10.1007/978-3-030-98067-2_172-1",
      "has_fulltext": false,
@@ -4287,7 +4441,8 @@
      "text_path": "text/grains_059.txt",
      "text_source": "html:https://link.springer.com/rwe/10.1007/978-3-030-98067-2_172-1?error=cookies_not_supported&code=6e5ce4e0-28e3-42a9-8731-447ad7689648",
      "title": "The Role of Biotechnology in Climate Change Adaptation and Postharvest Loss Mitigation in Blueberries",
-     "venue": null,
+     "type": "book-chapter",
+     "venue": "Springer eBooks",
      "work_type": "book-chapter",
      "year": 2025
     },
@@ -4316,7 +4471,8 @@
      "text_path": "text/grains_060.txt",
      "text_source": "html:https://link.springer.com/chapter/10.1007/978-3-031-06562-0_11?error=cookies_not_supported&code=46bea422-bd11-463e-94ab-e45c9aa7f329",
      "title": "Food Waste Biorefineries: Developments, Current Advances and Future Outlook",
-     "venue": null,
+     "type": "book-chapter",
+     "venue": "Springer eBooks",
      "work_type": "book-chapter",
      "year": 2022
     },
@@ -4343,6 +4499,7 @@
      "text_path": "text/grains_061.txt",
      "text_source": "reverificacao:https://restpublisher.com/wp-content/uploads/2023/01/5-Post-harvest-losses-in-Indian-maize-amid-increasing-food-insecurity-Analysis-using-TOPSIS-method.pdf",
      "title": "Post-harvest losses in Indian maize amid increasing food insecurity Analysis using TOPSIS method",
+     "type": "article",
      "venue": null,
      "work_type": "article",
      "year": 2021
@@ -4372,6 +4529,7 @@
      "text_path": "text/grains_062.txt",
      "text_source": "html:https://mcitjournal.org.ua/index.php/MCIT/en/article/view/459",
      "title": "Convective-thermal drying simulation to reduce the damage of the grain in convective plants",
+     "type": "article",
      "venue": "Modeling Control and Information Technologies",
      "work_type": "article",
      "year": 2024

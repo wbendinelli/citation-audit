@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1170" viewBox="0 0 640 1170" role="img" aria-labelledby="title desc">
+<title id="title">Uma citação, perguntas separadas</title><desc id="desc">Presença, profundidade, postura, exatidão e reuso são julgados independentemente. Apoio não garante exatidão.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#606060" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="640" height="1170" rx="28" fill="#F2F3F3"/>
+<text x="40" y="56" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#606060" text-anchor="start" letter-spacing="2">COMO CADA CITAÇÃO É LIDA</text>
+<text x="40" y="111" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">Uma citação,</text>
+<text x="40" y="155" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">perguntas separadas</text>
+<rect x="40" y="224" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="256" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#606060" text-anchor="start">Presença</text>
+<text x="62" y="296" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">Onde aparece?</text>
+<text x="62" y="335" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">No corpo, nas referências ou ausente.</text>
+<rect x="40" y="382" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="414" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#606060" text-anchor="start">Profundidade</text>
+<text x="62" y="454" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">Quanto foi usado?</text>
+<text x="62" y="493" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Da menção ao apoio do argumento.</text>
+<rect x="40" y="540" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="572" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#606060" text-anchor="start">Postura</text>
+<text x="62" y="612" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">Qual é a posição?</text>
+<text x="62" y="651" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Apoia, contrapõe ou só menciona.</text>
+<rect x="40" y="698" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="730" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#606060" text-anchor="start">Exatidão</text>
+<text x="62" y="770" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">O original diz isso?</text>
+<text x="62" y="809" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Confronto com o artigo-fonte.</text>
+<rect x="40" y="856" width="560" height="140" rx="20" fill="#FFFFFF"/>
+<text x="62" y="888" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#606060" text-anchor="start">Reuso</text>
+<text x="62" y="928" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="500" fill="#212322" text-anchor="start">O que foi adotado?</text>
+<text x="62" y="967" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Método, dado ou resultado verificável.</text>
+<text x="40" y="1074" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Cada eixo tem sua própria resposta.</text>
+<text x="40" y="1108" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">O veredito combina as evidências.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1230" viewBox="0 0 640 1230" role="img" aria-labelledby="title desc">
+<title id="title">Quando a evidência permite classificar</title><desc id="desc">Texto correto, corpo disponível e presença verificada são conferidos antes do julgamento. Falta de corpo é pendência. Ausência confirmada manualmente é aresta falsa.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#606060" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="640" height="1230" rx="28" fill="#F2F3F3"/>
+<text x="40" y="56" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#606060" text-anchor="start" letter-spacing="2">OS PORTÕES DA EVIDÊNCIA</text>
+<text x="40" y="111" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">Quando é possível</text>
+<text x="40" y="155" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#212322" text-anchor="start">classificar uma citação</text>
+<rect x="40" y="225" width="560" height="134" rx="20" fill="#FFFFFF"/>
+<text x="62" y="267" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="start">Texto correto</text>
+<text x="62" y="307" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Confere com o título</text>
+<text x="62" y="339" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">do documento citante.</text>
+<path d="M320.0,361 L320.0,378" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="383" width="560" height="134" rx="20" fill="#FFFFFF"/>
+<text x="62" y="425" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="start">Corpo disponível</text>
+<text x="62" y="465" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Página de rosto</text>
+<text x="62" y="497" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">não comprova o corpo.</text>
+<path d="M320.0,519 L320.0,536" fill="none" stroke="#606060" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="541" width="560" height="134" rx="20" fill="#FFFFFF"/>
+<text x="62" y="583" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#212322" text-anchor="start">Presença verificada</text>
+<text x="62" y="623" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">Busca no corpo</text>
+<text x="62" y="655" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#606060" text-anchor="start">e nas referências.</text>
+<rect x="40" y="730" width="560" height="94" rx="20" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="1.5"/>
+<text x="62" y="765" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Evidência recuperada</text>
+<text x="62" y="802" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Classificar e preservar a passagem.</text>
+<rect x="40" y="842" width="560" height="94" rx="20" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="1.5"/>
+<text x="62" y="877" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Corpo indisponível</text>
+<text x="62" y="914" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Registrar pendência; obter o texto.</text>
+<rect x="40" y="954" width="560" height="94" rx="20" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="1.5"/>
+<text x="62" y="989" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#212322" text-anchor="start">Ausência confirmada</text>
+<text x="62" y="1026" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Veredito manual: aresta falsa.</text>
+<text x="40" y="1125" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">Só nas referências? O corpo completo</text>
+<text x="40" y="1157" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#606060" text-anchor="start">é necessário para confirmar fantasma.</text>
+</svg>

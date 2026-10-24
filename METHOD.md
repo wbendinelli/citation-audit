@@ -7,9 +7,16 @@ Avaliar **a qualidade de cada citação recebida**, não a contagem. A pergunta 
 "quantos me citaram", é "quem me usou de verdade, quem me citou de passagem, e quem
 me citou errado".
 
-As seções abaixo são numeradas `§1`…`§17`, em ordem fixa. **O número de uma seção é
+As seções abaixo mantêm identificadores estáveis, em ordem fixa. **O número de uma seção é
 contrato** — README.md e outros documentos apontam para ele — e nunca muda depois de
 publicado; renomear o título de uma seção é livre, renumerar não é.
+
+**Atualização da análise.** As medições numéricas desta primeira rodada permanecem
+abaixo como **histórico corrigido**, não como resultado corrente. A
+[revisão da atualização](reports/01-impacto/revisao-atualizacao.md) e os achados do
+[README](README.md#2--os-achados) trazem os valores atuais, derivados dos scripts.
+O snapshot anterior é preservado em `data/baselines/` e impresso em `audit_70 §atualizacao`.
+O escopo da população e os critérios de classificação não foram alterados.
 
 ## §1 — Taxonomia
 
@@ -687,3 +694,22 @@ Adjudicação: 20 decisões do colegiado em 19 itens (acurácia 8, profundidade 
 presença 1; `IRR-81e6` recebeu decisão em três eixos, por isso 20 decisões em 19 itens — a versão anterior deste parágrafo dizia 19/19, distorção 5, 91 em-texto, 18% e imprecisão 18, corrigidos por `audit_63`/`audit_70`); todo o resto por unanimidade, maioria ou derivação. Efeito nos totais: má
 atribuição de 4 para 16 em 92 em-texto (4% → 17%), imprecisão de 7 para 19, `foundational`
 de 7 para 4, `supporting` de 11 para 5, `method_adoption` de 9 para 5.
+
+## §19 — Atualização incremental e coortes
+
+A nova colheita une as respostas das bases antes de cruzá-las com o inventário.
+Nenhum registro histórico é apagado só porque uma fonte deixou de devolvê-lo.
+IDs, passagens, classificações e vereditos terminais são preservados; DOIs
+alternativos do mesmo título ficam documentados, e decisões explícitas de
+arquivamento prevalecem sobre a redescoberta automática.
+
+O log da coleta distingue resposta vazia de falha de acesso. A lista local do
+Scholar continua sendo entrada manual: reprocessá-la não significa ter feito uma
+consulta nova ao serviço. Datas de coleta e de grafos são registradas separadamente.
+
+Leituras adicionais carregam passagem, origem, hash e identificação do codificador.
+Elas podem atualizar as distribuições correntes, mas não alteram retroativamente
+a coorte do teste cego. Coeficientes de concordância desse pacote não validam
+uma classificação externa ao pacote. A leitura adicional de `grains_007` foi
+feita na tabela da página integral da editora, confrontada com o artigo-fonte;
+permanece sujeita a revisão independente.

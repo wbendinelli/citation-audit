@@ -55,7 +55,7 @@ repos:
         name: reports/01-impacto/index.html bate com dados.json+master+classify
         entry: python3 tools/audit_80_report_html.py --check
         language: system
-        files: ^(tools/(audit_80_report_html|auditlib)\.py|data/(master|classify)\.json|reports/01-impacto/(dados\.json|index\.html))$
+        files: ^(tools/(audit_80_report_html|auditlib)\.py|tools/vita_tokens\.json|data/(master|classify)\.json|reports/01-impacto/(dados\.json|index\.html))$
         pass_filenames: false
       - id: tier-rule
         name: journals.json satisfaz a regra de tier (audit_41_scimago)
@@ -67,13 +67,13 @@ repos:
         name: reports/01-impacto/{dados.json,numeros.txt} batem com data/ (audit_70)
         entry: python3 tools/audit_70_numbers.py --check
         language: system
-        files: ^(tools/audit_70_numbers\.py|config\.json|data/.*\.json|reports/01-impacto/(dados\.json|numeros\.txt))$
+        files: ^(tools/audit_70_numbers\.py|tools/vita_tokens\.json|config\.json|data/.*\.json|reports/01-impacto/(dados\.json|numeros\.txt))$
         pass_filenames: false
       - id: svgs-generated
         name: docs/assets/*.svg batem com dados.json e tools/README.md (audit_82)
         entry: python3 tools/audit_82_readme_svgs.py --check
         language: system
-        files: ^(tools/(audit_82_readme_svgs\.py|README\.md)|ROADMAP\.md|reports/01-impacto/dados\.json|docs/assets/.*\.svg)$
+        files: ^(tools/(audit_82_readme_svgs\.py|vita_tokens\.json|README\.md)|ROADMAP\.md|reports/01-impacto/dados\.json|docs/assets/.*\.svg)$
         pass_filenames: false
       - id: report-numbers
         name: todo número da prosa do relatório aponta para numeros.txt (check_numbers)
@@ -86,4 +86,16 @@ repos:
         entry: python3 tools/check_numbers.py --prose README.md --exempt reports/01-impacto/check_numbers_exempt.txt
         language: system
         files: ^(tools/check_numbers\.py|README\.md|reports/01-impacto/numeros\.txt)$
+        pass_filenames: false
+      - id: review-generated
+        name: revisão da atualização e achados do README batem com dados.json
+        entry: python3 tools/audit_83_review.py --check
+        language: system
+        files: ^(tools/audit_83_review\.py|README\.md|data/.*\.json|reports/01-impacto/(dados\.json|revisao-atualizacao\.md))$
+        pass_filenames: false
+      - id: harvest-regressions
+        name: coleta preserva identidade, evidência e decisões anteriores
+        entry: python3 -m unittest discover -s tests
+        language: system
+        files: ^(tools/(audit_10_harvest|audit_13_resolve_scholar|auditlib)\.py|tests/.*\.py)$
         pass_filenames: false

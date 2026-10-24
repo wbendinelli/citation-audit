@@ -9,7 +9,7 @@
 // os números vivem na prosa (reports/01-impacto/numeros.typ), onde a
 // nota de rodapé os alcança.
 
-#import "@preview/sapians:0.3.2": *
+#import "vita.typ": *
 
 #let _caixa(titulo, corpo, destaque: false) = block(
   width: 100%,

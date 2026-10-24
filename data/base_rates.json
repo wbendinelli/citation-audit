@@ -1,9 +1,9 @@
 {
  "denominators": {
-  "D_ind": 88,
-  "D_pop": 74,
-  "D_read": 104,
-  "D_text": 92
+  "D_ind": 89,
+  "D_pop": 75,
+  "D_read": 105,
+  "D_text": 93
  },
  "meta": {
   "classify_source": {
@@ -17,18 +17,18 @@
  },
  "reconciliation_counts": {
   "n_background_like": 83,
-  "n_classify_entries": 104,
+  "n_classify_entries": 105,
   "n_contradictory": 2,
   "n_duplicate_publication": 3,
   "n_ghost_genuine_per_audit_67": 1,
-  "n_important_supporting_or_foundational": 9,
-  "n_in_text": 92,
-  "n_in_text_independent": 88,
+  "n_important_supporting_or_foundational": 10,
+  "n_in_text": 93,
+  "n_in_text_independent": 89,
   "n_method_reuse_any_tag": 5,
-  "n_misrepresented": 16,
-  "n_misrepresented_or_imprecise": 35,
+  "n_misrepresented": 17,
+  "n_misrepresented_or_imprecise": 36,
   "n_perfunctory_drive_by_or_brief_mention": 68,
-  "n_population_87_intersect_classified": 74,
+  "n_population_87_intersect_classified": 75,
   "n_reference_list_only": 12,
   "n_self_or_coauthor": 4
  },
@@ -36,7 +36,7 @@
   {
    "comparability_note": "descompasso de unidade: Boyack mede % de REFERÊNCIAS não mencionadas no corpo, sobre XML estruturado do publisher com casamento referência<->marcador confiável; aqui o numerador é 'genuine' (presence==reference_list_only sobrevivendo à decomposição de audit_67) sobre entradas classificadas (D_read), sobre o subconjunto com corpo real comprovado em disco (D_body), ou sobre a população METHOD.md (D_pop) -- populações e método de deteção diferentes. docs/revisao-literatura.md nota que nossa taxa bruta 13/104=12,5% é ~9x a de Boyack e recomenda reportar separadamente genuine/extraction_failure/body_unavailable antes de comparar -- exatamente o que audit_67_ghost_audit.py faz.",
    "denominator_label": "D_read",
-   "denominator_note": "D_read = todas as 104 classificadas.",
+   "denominator_note": "D_read = todas as 105 classificadas.",
    "description": "citação 'fantasma' (só na lista de referências) -- numerador = categoria 'genuine' de audit_67_ghost_audit.py.",
    "field": "multidisciplinar (corpus PMC-OA + Elsevier de texto completo)",
    "indicator": "ghost_D_read",
@@ -54,21 +54,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.003687,
-      0.108992
+      0.003612,
+      0.106935
      ],
-     "denominator": 48,
+     "denominator": 49,
      "numerator": 1,
-     "rate": 0.020833
+     "rate": 0.020408
     },
     "pooled": {
      "ci95_wilson": [
-      0.001699,
-      0.052468
+      0.001683,
+      0.051986
      ],
-     "denominator": 104,
+     "denominator": 105,
      "numerator": 1,
-     "rate": 0.009615
+     "rate": 0.009524
     }
    },
    "review_flag": "não verificado: número vem de um único trecho de busca, não do texto completo do preprint arXiv:1710.03094; também checar se referências não casadas foram excluídas a montante em vez de contadas.",
@@ -79,7 +79,7 @@
   {
    "comparability_note": "descompasso de unidade: Boyack mede % de REFERÊNCIAS não mencionadas no corpo, sobre XML estruturado do publisher com casamento referência<->marcador confiável; aqui o numerador é 'genuine' (presence==reference_list_only sobrevivendo à decomposição de audit_67) sobre entradas classificadas (D_read), sobre o subconjunto com corpo real comprovado em disco (D_body), ou sobre a população METHOD.md (D_pop) -- populações e método de deteção diferentes. docs/revisao-literatura.md nota que nossa taxa bruta 13/104=12,5% é ~9x a de Boyack e recomenda reportar separadamente genuine/extraction_failure/body_unavailable antes de comparar -- exatamente o que audit_67_ghost_audit.py faz.",
    "denominator_label": "D_body",
-   "denominator_note": "D_body = só as 13 reference_list_only com corpo real comprovado em disco (ver audit_67_ghost_audit.py); n pequeno, IC largo por desenho.",
+   "denominator_note": "D_body = as 1 reference_list_only com corpo real comprovado em disco, entre 12 candidatas (ver audit_67_ghost_audit.py); IC largo por desenho.",
    "description": "citação 'fantasma' (só na lista de referências) -- numerador = categoria 'genuine' de audit_67_ghost_audit.py.",
    "field": "multidisciplinar (corpus PMC-OA + Elsevier de texto completo)",
    "indicator": "ghost_D_body",
@@ -122,7 +122,7 @@
   {
    "comparability_note": "descompasso de unidade: Boyack mede % de REFERÊNCIAS não mencionadas no corpo, sobre XML estruturado do publisher com casamento referência<->marcador confiável; aqui o numerador é 'genuine' (presence==reference_list_only sobrevivendo à decomposição de audit_67) sobre entradas classificadas (D_read), sobre o subconjunto com corpo real comprovado em disco (D_body), ou sobre a população METHOD.md (D_pop) -- populações e método de deteção diferentes. docs/revisao-literatura.md nota que nossa taxa bruta 13/104=12,5% é ~9x a de Boyack e recomenda reportar separadamente genuine/extraction_failure/body_unavailable antes de comparar -- exatamente o que audit_67_ghost_audit.py faz.",
    "denominator_label": "D_pop",
-   "denominator_note": "D_pop aqui É A INTERSEÇÃO ESPECÍFICA 'população 87 ∩ os 13 fantasma candidatos' (7 entradas), NÃO o D_pop geral deste script (população ∩ todas as 104 = 74). Terceira linha de taxa-fantasma acrescentada por decisão do agente: a tarefa definiu D_pop como denominador disponível mas não o atribuiu explicitamente a nenhuma linha da lista de indicadores -- replicar aqui o terceiro denominador que audit_67 já calcula pareceu a leitura mais defensável, em vez de deixar D_pop sem uso. Ver relatório final do agente.",
+   "denominator_note": "D_pop desta linha = população do estudo ∩ candidatas a fantasma (6 entradas), entre 12 candidatas. Não é o D_pop geral deste script (população ∩ todas as classificadas = 75). Mantém o denominador específico da auditoria de fantasmas, separado da população classificada.",
    "description": "citação 'fantasma' (só na lista de referências) -- numerador = categoria 'genuine' de audit_67_ghost_audit.py.",
    "field": "multidisciplinar (corpus PMC-OA + Elsevier de texto completo)",
    "indicator": "ghost_D_pop",
@@ -182,21 +182,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.123161,
-      0.375031
+      0.13825,
+      0.393433
      ],
-     "denominator": 40,
-     "numerator": 9,
-     "rate": 0.225
+     "denominator": 41,
+     "numerator": 10,
+     "rate": 0.243902
     },
     "pooled": {
      "ci95_wilson": [
-      0.109982,
-      0.263984
+      0.117379,
+      0.273378
      ],
-     "denominator": 92,
-     "numerator": 16,
-     "rate": 0.173913
+     "denominator": 93,
+     "numerator": 17,
+     "rate": 0.182796
     }
    },
    "review_flag": "taxa de erro maior de Jergas & Baethge não confirmada -- só total 25,4% e menor 8,5% o são; não inferir por subtração (ver docs/revisao-literatura.md §6).",
@@ -224,21 +224,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.351995,
-      0.648005
+      0.364845,
+      0.657456
      ],
-     "denominator": 40,
-     "numerator": 20,
-     "rate": 0.5
+     "denominator": 41,
+     "numerator": 21,
+     "rate": 0.512195
     },
     "pooled": {
      "ci95_wilson": [
-      0.287912,
-      0.482543
+      0.294461,
+      0.48869
      ],
-     "denominator": 92,
-     "numerator": 35,
-     "rate": 0.380435
+     "denominator": 93,
+     "numerator": 36,
+     "rate": 0.387097
     }
    },
    "review_flag": null,
@@ -266,21 +266,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.004427,
-      0.128814
+      0.004319,
+      0.125951
      ],
-     "denominator": 40,
+     "denominator": 41,
      "numerator": 1,
-     "rate": 0.025
+     "rate": 0.02439
     },
     "pooled": {
      "ci95_wilson": [
-      0.005982,
-      0.075835
+      0.005917,
+      0.075055
      ],
-     "denominator": 92,
+     "denominator": 93,
      "numerator": 2,
-     "rate": 0.021739
+     "rate": 0.021505
     }
    },
    "review_flag": null,
@@ -308,21 +308,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.709277,
-      0.929388
+      0.687374,
+      0.914747
      ],
-     "denominator": 40,
+     "denominator": 41,
      "numerator": 34,
-     "rate": 0.85
+     "rate": 0.829268
     },
     "pooled": {
      "ci95_wilson": [
-      0.641114,
-      0.817978
+      0.633238,
+      0.810787
      ],
-     "denominator": 92,
+     "denominator": 93,
      "numerator": 68,
-     "rate": 0.73913
+     "rate": 0.731183
     }
    },
    "review_flag": "verificado só via fontes secundárias (Teufel et al. 2006 e a literatura de citation-function); o original de 1975 é pago e não foi lido diretamente (ver docs/revisao-literatura.md §6).",
@@ -350,21 +350,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.013821,
-      0.165039
+      0.025198,
+      0.194274
      ],
-     "denominator": 40,
-     "numerator": 2,
-     "rate": 0.05
+     "denominator": 41,
+     "numerator": 3,
+     "rate": 0.073171
     },
     "pooled": {
      "ci95_wilson": [
-      0.052324,
-      0.175568
+      0.059463,
+      0.186728
      ],
-     "denominator": 92,
-     "numerator": 9,
-     "rate": 0.097826
+     "denominator": 93,
+     "numerator": 10,
+     "rate": 0.107527
     }
    },
    "review_flag": "o valor 14,6% e o n=465 pares estão confirmados; só os RÓTULOS dos quatro níveis ordinais de importância não estão confirmados (ver docs/revisao-literatura.md §6).",
@@ -392,21 +392,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.834961,
-      0.986179
+      0.805726,
+      0.974802
      ],
-     "denominator": 40,
+     "denominator": 41,
      "numerator": 38,
-     "rate": 0.95
+     "rate": 0.926829
     },
     "pooled": {
      "ci95_wilson": [
-      0.824432,
-      0.947676
+      0.813272,
+      0.940537
      ],
-     "denominator": 92,
+     "denominator": 93,
      "numerator": 83,
-     "rate": 0.902174
+     "rate": 0.892473
     }
    },
    "review_flag": "SciCite: tamanho (11.020) e distribuição 58/29/13% vêm de fonte secundária, não verificados diretamente. Teufel: tamanho do corpus além de '116 documentos' e a cifra '2.829 citações' não confirmados; kappa=0,72 e '>60% Neut' vêm de fontes secundárias; o PDF original retornou binário na tentativa de extração (ver docs/revisao-literatura.md §6).",
@@ -434,21 +434,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.013821,
-      0.165039
+      0.013481,
+      0.16139
      ],
-     "denominator": 40,
+     "denominator": 41,
      "numerator": 2,
-     "rate": 0.05
+     "rate": 0.04878
     },
     "pooled": {
      "ci95_wilson": [
-      0.024511,
-      0.126199
+      0.024233,
+      0.124854
      ],
-     "denominator": 88,
+     "denominator": 89,
      "numerator": 5,
-     "rate": 0.056818
+     "rate": 0.05618
     }
    },
    "review_flag": null,
@@ -477,20 +477,20 @@
     "grains": {
      "ci95_wilson": [
       0.0,
-      0.0741
+      0.072698
      ],
-     "denominator": 48,
+     "denominator": 49,
      "numerator": 0,
      "rate": 0.0
     },
     "pooled": {
      "ci95_wilson": [
-      0.015057,
-      0.094748
+      0.014912,
+      0.093883
      ],
-     "denominator": 104,
+     "denominator": 105,
      "numerator": 4,
-     "rate": 0.038462
+     "rate": 0.038095
     }
    },
    "review_flag": null,
@@ -518,21 +518,21 @@
     },
     "grains": {
      "ci95_wilson": [
-      0.021483,
-      0.168354
+      0.02104,
+      0.165205
      ],
-     "denominator": 48,
+     "denominator": 49,
      "numerator": 3,
-     "rate": 0.0625
+     "rate": 0.061224
     },
     "pooled": {
      "ci95_wilson": [
-      0.009858,
-      0.0814
+      0.009764,
+      0.080656
      ],
-     "denominator": 104,
+     "denominator": 105,
      "numerator": 3,
-     "rate": 0.028846
+     "rate": 0.028571
     }
    },
    "review_flag": null,

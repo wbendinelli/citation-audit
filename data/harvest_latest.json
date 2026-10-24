@@ -1,0 +1,56 @@
+{
+ "collected_at": "2026-10-24T05:38:44.645759+00:00",
+ "papers": {
+  "airline": {
+   "added_ids": [],
+   "after": 93,
+   "before": 93,
+   "excluded_archived_dois": [],
+   "sources": {
+    "europepmc": {
+     "records": 0,
+     "status": "ok"
+    },
+    "openalex": {
+     "records": 57,
+     "status": "ok"
+    },
+    "opencitations": {
+     "records": 39,
+     "status": "ok"
+    },
+    "s2": {
+     "records": 48,
+     "status": "ok"
+    }
+   }
+  },
+  "grains": {
+   "added_ids": [],
+   "after": 83,
+   "before": 83,
+   "excluded_archived_dois": [
+    "10.1051/shsconf/202521601037"
+   ],
+   "sources": {
+    "europepmc": {
+     "records": 0,
+     "status": "ok"
+    },
+    "openalex": {
+     "records": 60,
+     "status": "ok"
+    },
+    "opencitations": {
+     "records": 50,
+     "status": "ok"
+    },
+    "s2": {
+     "records": 54,
+     "status": "ok"
+    }
+   }
+  }
+ },
+ "script": "audit_10_harvest.py"
+}

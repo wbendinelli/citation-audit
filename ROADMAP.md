@@ -33,6 +33,15 @@ deliverable final (prosa + `.bib` + PDF compilado), ao lado de
 e do dashboard HTML que `audit_80_report_html.py` já gera em
 `reports/01-impacto/index.html`.
 
+## Atualização corrente
+
+A [revisão gerada](reports/01-impacto/revisao-atualizacao.md) registra a coleta
+repetida, a leitura adicional, os valores corrigidos e os snapshots dos grafos.
+A coleta incremental, a alocação estável de IDs Scholar e a exportação dos
+blocos de sensibilidade do CD estão implementadas. Os pendentes abaixo são
+registro histórico da rodada inicial; para a fila corrente, consulte
+[`data/derived/pendencias.csv`](data/derived/pendencias.csv).
+
 ## Em aberto
 
 - **17 citações pendentes por editora** (lista `cobertura_quartil.pendentes`

@@ -2225,6 +2225,53 @@
    "tipo": "journal",
    "works": 1434
   },
+  "https://openalex.org/S4210201734": {
+   "areas": [
+    "Food and Agricultural Sciences",
+    "Agricultural Science and Fertilization",
+    "Phytochemicals and Antioxidant Activities"
+   ],
+   "citedness_2a": 5.524813895781637,
+   "editora": "Elsevier BV",
+   "h_index": 77,
+   "i10": 1005,
+   "id": "https://openalex.org/S4210201734",
+   "in_doaj": true,
+   "is_oa": true,
+   "issn": [
+    "2666-1543"
+   ],
+   "issn_l": "2666-1543",
+   "nome": "Journal of Agriculture and Food Research",
+   "pais": "NL",
+   "scimago": {
+    "areas": "Agricultural and Biological Sciences",
+    "categorias": "Agricultural and Biological Sciences (miscellaneous) (Q1); Agronomy and Crop Science (Q1); Food Science (Q1)",
+    "citacoes_doc_2a": 8.99,
+    "cobertura": "2019-2026",
+    "editora": "Elsevier B.V.",
+    "h_index": 66.0,
+    "open_access": "Yes",
+    "overton": 6.0,
+    "pais": "Netherlands",
+    "quartil": "Q1",
+    "quartis_por_area": {
+     " ": "Q1",
+     " Agronomy and Crop Science": "Q1",
+     " Food Science": "Q1"
+    },
+    "rank": 3804.0,
+    "regiao": "Western Europe",
+    "sjr": 1.167,
+    "tipo": "journal",
+    "titulo": "Journal of Agriculture and Food Research"
+   },
+   "tier": "Q1",
+   "tier_base": "Scimago SJR Best Quartile",
+   "tier_proxy": "T2",
+   "tipo": "journal",
+   "works": 3358
+  },
   "https://openalex.org/S4210202585": {
    "areas": [
     "Smart Agriculture and AI",
@@ -2818,6 +2865,78 @@
    "tier_proxy": "T4",
    "tipo": "repository",
    "works": 25411
+  },
+  "https://openalex.org/S4306463075": {
+   "areas": [
+    "Geotechnical Engineering and Soil Mechanics",
+    "Geotechnical Engineering and Analysis",
+    "Civil and Structural Engineering Research"
+   ],
+   "citedness_2a": 0.800520910604487,
+   "editora": "CRC Press",
+   "h_index": 598,
+   "i10": 40473,
+   "id": "https://openalex.org/S4306463075",
+   "in_doaj": false,
+   "is_oa": false,
+   "issn": null,
+   "issn_l": null,
+   "nome": "CRC Press eBooks",
+   "pais": null,
+   "scimago": null,
+   "tier": "T4",
+   "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+   "tier_proxy": "T4",
+   "tipo": "ebook platform",
+   "works": 702149
+  },
+  "https://openalex.org/S4306463236": {
+   "areas": [
+    "Teacher Education and Leadership Studies",
+    "Critical Race Theory in Education",
+    "Higher Education Research Studies"
+   ],
+   "citedness_2a": 0.4360011990407674,
+   "editora": "Emerald Publishing Limited",
+   "h_index": 148,
+   "i10": 5143,
+   "id": "https://openalex.org/S4306463236",
+   "in_doaj": false,
+   "is_oa": false,
+   "issn": null,
+   "issn_l": null,
+   "nome": "Emerald Group Publishing Limited eBooks",
+   "pais": null,
+   "scimago": null,
+   "tier": "T4",
+   "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+   "tier_proxy": "T4",
+   "tipo": "ebook platform",
+   "works": 98312
+  },
+  "https://openalex.org/S4306463937": {
+   "areas": [
+    "Stellar, planetary, and galactic studies",
+    "History of Science and Medicine",
+    "Geotechnical Engineering and Soil Mechanics"
+   ],
+   "citedness_2a": 0.46852659551421844,
+   "editora": "Springer Nature",
+   "h_index": 1156,
+   "i10": 293579,
+   "id": "https://openalex.org/S4306463937",
+   "in_doaj": false,
+   "is_oa": false,
+   "issn": null,
+   "issn_l": null,
+   "nome": "Springer eBooks",
+   "pais": null,
+   "scimago": null,
+   "tier": "T4",
+   "tier_base": "proxy OpenAlex (sem correspondência no Scimago)",
+   "tier_proxy": "T4",
+   "tipo": "ebook platform",
+   "works": 3438825
   },
   "https://openalex.org/S4306501120": {
    "areas": [

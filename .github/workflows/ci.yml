@@ -85,7 +85,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install --require-hashes -r requirements.lock
+      - run: python3 -m unittest discover -s tests
       - run: python3 tools/audit_70_numbers.py --check
+      - run: python3 tools/audit_83_review.py --check
       - run: python3 tools/audit_82_readme_svgs.py --check
       - name: Figuras regeneram com as mesmas dimensões e regras da casa
         # Byte-igualdade só vale dentro do venv pinado da máquina que gerou

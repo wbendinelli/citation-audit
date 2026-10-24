@@ -722,7 +722,7 @@ def main():
 
     ghost_rate = {
         "D_read": dict(
-            denominator_label="D_read (todas as 104 classificadas)",
+            denominator_label=f"D_read (todas as {len(entries)} classificadas)",
             **rate_block(len(genuine_dois), n_read_all),
         ),
         "D_body": dict(

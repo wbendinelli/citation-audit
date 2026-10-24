@@ -11,9 +11,9 @@
 // slot de abstract) e o wrapper de tabela numerada.
 //
 // Uso em main.typ:
-//   #import "@preview/sapians:0.3.2": *
+//   #import "vita.typ": *
 //   #import "numeros.typ": *
-//   #show: sapians-report.with(title: ..., author: ..., date: ..., lang: "pt")
+//   #show: vita-report.with(title: ..., author: ..., date: ..., lang: "pt")
 //   #show: estilo-numeros
 //   #resumo[...]
 //   #tabela([legenda], "tab-funil", columns: (auto, 1fr), [a], [b], fonte: [...])
@@ -26,7 +26,7 @@
 // função que main.typ aplica com #show: — o mesmo padrão de
 // sapians-report.with(...), não um efeito colateral de import.
 
-#import "@preview/sapians:0.3.2": *
+#import "vita.typ": *
 
 // Caminho repo-root-absoluto: resolve com `typst compile --root .` a
 // partir da raiz do repositório (o mesmo padrão de
@@ -69,7 +69,7 @@
 // estilo-numeros — as duas show-rules de reports/01-metodos-locais/main.typ,
 // linhas ~53-73: legenda no padrão de periódico (menor que o corpo,
 // alinhada à esquerda, rótulo em negrito) e a hierarquia de títulos (H1
-// nunca menor que o corpo, H2 marcado em terracota). Empacotadas numa
+// nunca menor que o corpo, H2 em preto, conforme a hierarquia VITA). Empacotadas numa
 // função — não soltas no módulo — porque #show de módulo importado não
 // alcança quem importa (ver nota no topo do arquivo).
 // ---------------------------------------------------------------------------
@@ -77,7 +77,7 @@
 #let estilo-numeros(body) = {
   show figure.caption: it => block(width: 100%, above: 1.8mm)[
     #set text(size: 7.6pt, fill: sapians-muted-dark)
-    #set par(justify: true, leading: 0.56em)
+    #set par(justify: false, leading: 0.56em)
     #align(left)[
       #text(weight: "bold", fill: sapians-text-dark)[#it.supplement #context it.counter.display(it.numbering).]
       #h(0.5mm)#it.body
@@ -97,7 +97,7 @@
 // resumo — o cartão de abstract que sapians-report não tem (o layout
 // report.typ vai direto de kicker+título para o corpo; ver
 // packages/preview/sapians/0.3.2/src/layouts/report.typ, sem parâmetro
-// abstract). Um bloco só, logo depois do #show: sapians-report.with(...).
+// abstract). Um bloco só, logo depois do #show: vita-report.with(...).
 // ---------------------------------------------------------------------------
 
 #let resumo(body) = block(

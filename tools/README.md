@@ -22,7 +22,7 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | 30 | integridade | valida que o texto baixado é do artigo certo e localiza a passagem citante |
 | 40 | periódicos | metadados de cada veículo citante e o tier (proxy OpenAlex / quartil Scimago) |
 | 50 | pendências | deriva CSVs de trabalho a partir do estado atual (o que falta, por quê) |
-| 60 | análises | taxonomia v2 (`audit_60`), pacote cego e estatísticas de confiabilidade entre codificadores (`audit_61`/`audit_62`); demais análises de ROADMAP.md ainda reservadas |
+| 60 | análises | taxonomia v2 (`audit_60`), pacote cego e estatísticas de confiabilidade entre codificadores (`audit_61`/`audit_62`); disrupção, co-citação, fantasmas e taxas-base |
 | 70 | números | fonte única de todo número do relatório (`audit_70_numbers.py`) |
 | 80 | saídas | gera `reports/01-impacto/index.html` a partir de `dados.json` |
 
@@ -54,7 +54,8 @@ A numeração do script é `NN_nome`, onde `NN` é a fase:
 | `audit_70_numbers.py` | 70 | `config.json`, `data/*.json` — única fonte de todo número que o relatório pode citar | `reports/01-impacto/dados.json`, `numeros.txt` (seções `== audit_70 §chave ==`) | sim⁴ |
 | `audit_80_report_html.py` | 80 | `data/master.json`, `data/classify.json`, `reports/01-impacto/dados.json` | `reports/01-impacto/index.html` | sim⁵ |
 | `audit_81_figures.py` | 81 | Catorze figuras de medida em `reports/01-impacto/figuras/` lendo só `dados.json`, via `sapians.mplstyle` e fontes vendorizadas; `--check` compara bytes e afirma regras da casa (barras do zero, sem `twinx`, ≤5 cores). Roda no venv pinado (`.venv/bin/python`) |
-| `audit_82_readme_svgs.py` | 82 | Quatro SVGs didáticos em `docs/assets/` (pipeline, funil, taxonomia, portões); só o funil lê números, do `dados.json`; `--check` compara bytes |
+| `audit_83_review.py` | 83 | `dados.json` e snapshots de grafo | revisão da atualização + achados do README | sim |
+| `audit_82_readme_svgs.py` | 82 | Capa VITA e capa VITA e diagramas didáticos em `docs/assets/` (pipeline, funil, taxonomia, portões); só o funil lê números, do `dados.json`; `--check` compara bytes |
 
 `--check` nunca escreve: renderiza/computa em memória e compara com o que já
 está commitado, saindo com código 1 se houver diferença.
@@ -130,6 +131,24 @@ python3 tools/audit_50_pending.py
 python3 tools/audit_70_numbers.py
 python3 tools/audit_80_report_html.py
 ```
+
+Na nova coleta, `audit_10` preserva o inventário anterior e grava o log
+`data/harvest_latest.json`; metadados faltantes são completados sem renumerar IDs.
+As opções `audit_11 --only-new` e `audit_40 --only-new` reduzem chamadas de rede.
+DOIs alternativos do mesmo título são documentados sem mudar o escopo do estudo;
+registros deliberadamente arquivados não reaparecem como novos.
+
+Após alterar classificações ou textos, rode também `audit_67_ghost_audit.py` e
+`audit_68_base_rates.py` no venv antes do bloco de números. Para renovar o grafo,
+rode `audit_65_cd_index.py --backend s2 --no-cache` e
+`audit_66_cocitation.py --backend s2 --no-cache`; sem `--no-cache`, uma execução
+pode reaproveitar dados antigos. Os snapshots registram falhas e cobertura.
+
+Finalize as saídas com `audit_70_numbers.py`, `audit_80_report_html.py`,
+`audit_81_figures.py` (venv), `audit_82_readme_svgs.py` e `audit_83_review.py`.
+A data do relatório acompanha o snapshot da coleta. O modo `--check` não avança
+a data só porque a checagem rodou depois. A identidade visual é descrita em
+[`docs/design-vita.md`](../docs/design-vita.md).
 
 Depois de A ou B, valide os dados com `python3 tools/check_data.py` (e
 `--local` se `text/` também mudou).

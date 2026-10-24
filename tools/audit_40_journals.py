@@ -1,6 +1,7 @@
 """Etapa 40: banco de periódicos. Enriquece cada veículo com metadados do OpenAlex
 (ISSN, editora, país, h-index, citedness de 2 anos) para permitir atribuição de tier."""
 
+import argparse
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -8,6 +9,11 @@ import auditlib
 
 CFG = auditlib.load_config()
 MAIL = CFG.get("mailto") or CFG.get("contact_email")
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument(
+    "--only-new", action="store_true", help="só veículos ainda sem metadados"
+)
+args = parser.parse_args()
 master = auditlib.load_master()
 
 
@@ -39,7 +45,11 @@ def source_de(doi):
     }
 
 
-alvos = {r["id"]: r for k, r in auditlib.iter_records(master) if r.get("doi")}
+alvos = {
+    r["id"]: r
+    for k, r in auditlib.iter_records(master)
+    if r.get("doi") and (not args.only_new or not r.get("source_id"))
+}
 
 print(f"resolvendo source de {len(alvos)} citantes com DOI...")
 with ThreadPoolExecutor(max_workers=6) as ex:
@@ -88,17 +98,19 @@ def meta(sid):
     }
 
 
-JR = {}
-with ThreadPoolExecutor(max_workers=6) as ex:
-    for f in as_completed([ex.submit(meta, i) for i in ids]):
-        sid, m = f.result()
-        if m:
-            JR[sid] = m
-
 try:
     journals = auditlib.load_journals()
 except FileNotFoundError:
     journals = {"meta": {"schema": 1}, "sources": {}}
+JR = journals["sources"]
+if args.only_new:
+    ids = [sid for sid in ids if sid not in JR]
+with ThreadPoolExecutor(max_workers=6) as ex:
+    for f in as_completed([ex.submit(meta, i) for i in ids]):
+        sid, m = f.result()
+        if m:
+            JR[sid] = {**JR.get(sid, {}), **m}
+
 journals["sources"] = JR
 auditlib.save_journals(journals)
 auditlib.save_master(master)

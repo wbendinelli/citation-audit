@@ -1,0 +1,2120 @@
+{
+ "cd": {
+  "airline": {
+   "cd_index": {
+    "backend": "semanticscholar",
+    "crosstab": null,
+    "fisher_p": null,
+    "loo": null,
+    "windows": {
+     "1": {
+      "CD": -0.002824858757062147,
+      "CD_nok": -0.3333333333333333,
+      "DI2": {
+       "n_i": 1,
+       "n_j": 2,
+       "n_k": 60,
+       "value": -0.015873015873015872
+      },
+      "DI5": {
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 2,
+       "value": 0.6
+      },
+      "checks": {
+       "ni_plus_nj": 3,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 3
+      },
+      "ci_95": {
+       "CD": [
+        -0.011299435028248588,
+        0.005649717514124294
+       ],
+       "CD_nok": [
+        -1.0,
+        1.0
+       ],
+       "DI2": [
+        -0.06899576527525711,
+        0.03636363636363636
+       ],
+       "DI5": [
+        0.0,
+        1.0
+       ],
+       "holst_CD": [
+        -0.011299435028248588,
+        0.005649717514124294
+       ]
+      },
+      "holst": {
+       "CD": -0.002824858757062147,
+       "n_i": 1,
+       "n_j": 2,
+       "n_k": 351
+      },
+      "n_i": 1,
+      "n_j": 2,
+      "n_k": 351,
+      "n_window": 354,
+      "t": 1,
+      "t_nominal": 1,
+      "truncated": false
+     },
+     "10": {
+      "CD": -0.011651816312542838,
+      "CD_nok": -0.3469387755102041,
+      "DI2": {
+       "n_i": 23,
+       "n_j": 26,
+       "n_k": 220,
+       "value": -0.011152416356877323
+      },
+      "DI5": {
+       "n_i": 45,
+       "n_j": 4,
+       "n_k": 13,
+       "value": 0.6612903225806451
+      },
+      "checks": {
+       "ni_plus_nj": 49,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 49
+      },
+      "ci_95": {
+       "CD": [
+        -0.021247429746401644,
+        -0.00205620287868403
+       ],
+       "CD_nok": [
+        -0.6,
+        -0.06976744186046512
+       ],
+       "DI2": [
+        -0.06072314612868048,
+        0.039870431893687684
+       ],
+       "DI5": [
+        0.5087719298245614,
+        0.8035801820728291
+       ],
+       "holst_CD": [
+        -0.021247429746401644,
+        -0.00205620287868403
+       ]
+      },
+      "holst": {
+       "CD": -0.011651816312542838,
+       "n_i": 16,
+       "n_j": 33,
+       "n_k": 1410
+      },
+      "n_i": 16,
+      "n_j": 33,
+      "n_k": 1410,
+      "n_window": 1459,
+      "t": 10,
+      "t_nominal": 10,
+      "truncated": false
+     },
+     "3": {
+      "CD": -0.006675567423230975,
+      "CD_nok": -0.3333333333333333,
+      "DI2": {
+       "n_i": 7,
+       "n_j": 8,
+       "n_k": 101,
+       "value": -0.008620689655172414
+      },
+      "DI5": {
+       "n_i": 14,
+       "n_j": 1,
+       "n_k": 8,
+       "value": 0.5652173913043478
+      },
+      "checks": {
+       "ni_plus_nj": 15,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 15
+      },
+      "ci_95": {
+       "CD": [
+        -0.017356475300400534,
+        0.0026702269692923898
+       ],
+       "CD_nok": [
+        -0.8004545454545454,
+        0.17705882352940858
+       ],
+       "DI2": [
+        -0.07620879120879122,
+        0.05834558823529405
+       ],
+       "DI5": [
+        0.31995454545454544,
+        0.7894736842105263
+       ],
+       "holst_CD": [
+        -0.017356475300400534,
+        0.0026702269692923898
+       ]
+      },
+      "holst": {
+       "CD": -0.006675567423230975,
+       "n_i": 5,
+       "n_j": 10,
+       "n_k": 734
+      },
+      "n_i": 5,
+      "n_j": 10,
+      "n_k": 734,
+      "n_window": 749,
+      "t": 3,
+      "t_nominal": 3,
+      "truncated": false
+     },
+     "5": {
+      "CD": -0.010566762728146013,
+      "CD_nok": -0.44,
+      "DI2": {
+       "n_i": 10,
+       "n_j": 15,
+       "n_k": 153,
+       "value": -0.028089887640449437
+      },
+      "DI5": {
+       "n_i": 23,
+       "n_j": 2,
+       "n_k": 10,
+       "value": 0.6
+      },
+      "checks": {
+       "ni_plus_nj": 25,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 25
+      },
+      "ci_95": {
+       "CD": [
+        -0.020172910662824207,
+        -0.0009606147934678194
+       ],
+       "CD_nok": [
+        -0.7692857142857144,
+        -0.06647058823529518
+       ],
+       "DI2": [
+        -0.08333333333333333,
+        0.024845493031735725
+       ],
+       "DI5": [
+        0.3947169059011164,
+        0.78125
+       ],
+       "holst_CD": [
+        -0.020172910662824207,
+        -0.0009606147934678194
+       ]
+      },
+      "holst": {
+       "CD": -0.010566762728146013,
+       "n_i": 7,
+       "n_j": 18,
+       "n_k": 1016
+      },
+      "n_i": 7,
+      "n_j": 18,
+      "n_k": 1016,
+      "n_window": 1041,
+      "t": 5,
+      "t_nominal": 5,
+      "truncated": false
+     }
+    }
+   },
+   "refs_audit": {
+    "false_references": [],
+    "n_false_references": 0,
+    "n_openalex_raw": 30,
+    "n_pdf": 26,
+    "n_unresolvable": 0,
+    "n_valid": 26,
+    "unresolvable": []
+   }
+  },
+  "grains": {
+   "cd_index": {
+    "backend": "semanticscholar",
+    "crosstab": null,
+    "fisher_p": null,
+    "loo": null,
+    "windows": {
+     "1": {
+      "CD": 0.00104675505931612,
+      "CD_nok": 1.0,
+      "DI2": {
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 519,
+       "value": 0.005747126436781609
+      },
+      "DI5": {
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 28,
+       "value": 0.0967741935483871
+      },
+      "checks": {
+       "ni_plus_nj": 3,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 3
+      },
+      "ci_95": {
+       "CD": [
+        0.0,
+        0.0024424284717376133
+       ],
+       "CD_nok": [
+        1.0,
+        1.0
+       ],
+       "DI2": [
+        0.0,
+        0.013060924311029117
+       ],
+       "DI5": [
+        0.0,
+        0.21742527173913023
+       ],
+       "holst_CD": [
+        0.0,
+        0.0024424284717376133
+       ]
+      },
+      "holst": {
+       "CD": 0.00104675505931612,
+       "n_i": 3,
+       "n_j": 0,
+       "n_k": 2863
+      },
+      "n_i": 3,
+      "n_j": 0,
+      "n_k": 2863,
+      "n_window": 2866,
+      "t": 1,
+      "t_nominal": 1,
+      "truncated": false
+     },
+     "10": {
+      "CD": 0.0008201523140011716,
+      "CD_nok": 0.1320754716981132,
+      "DI2": {
+       "n_i": 39,
+       "n_j": 14,
+       "n_k": 1306,
+       "value": 0.01839587932303164
+      },
+      "DI5": {
+       "n_i": 50,
+       "n_j": 3,
+       "n_k": 64,
+       "value": 0.4017094017094017
+      },
+      "checks": {
+       "ni_plus_nj": 53,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 53
+      },
+      "ci_95": {
+       "CD": [
+        -0.0008201523140011716,
+        0.002460456942003515
+       ],
+       "CD_nok": [
+        -0.12121212121212122,
+        0.4043762088974848
+       ],
+       "DI2": [
+        0.00866087304580758,
+        0.02850925799631725
+       ],
+       "DI5": [
+        0.30172071702244113,
+        0.49549941245593415
+       ],
+       "holst_CD": [
+        -0.0008201523140011716,
+        0.002460456942003515
+       ]
+      },
+      "holst": {
+       "CD": 0.0008201523140011716,
+       "n_i": 30,
+       "n_j": 23,
+       "n_k": 8482
+      },
+      "n_i": 30,
+      "n_j": 23,
+      "n_k": 8482,
+      "n_window": 8535,
+      "t": 7,
+      "t_nominal": 10,
+      "truncated": true
+     },
+     "3": {
+      "CD": -0.0003726476616359232,
+      "CD_nok": -0.09090909090909091,
+      "DI2": {
+       "n_i": 13,
+       "n_j": 9,
+       "n_k": 904,
+       "value": 0.004319654427645789
+      },
+      "DI5": {
+       "n_i": 20,
+       "n_j": 2,
+       "n_k": 48,
+       "value": 0.2571428571428571
+      },
+      "checks": {
+       "ni_plus_nj": 22,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 22
+      },
+      "ci_95": {
+       "CD": [
+        -0.0020495621389975778,
+        0.0013042668157257314
+       ],
+       "CD_nok": [
+        -0.5004310344827586,
+        0.3333333333333333
+       ],
+       "DI2": [
+        -0.00535920055752591,
+        0.014444530443756449
+       ],
+       "DI5": [
+        0.14492276887871855,
+        0.37808031959629923
+       ],
+       "holst_CD": [
+        -0.0020495621389975778,
+        0.0013042668157257314
+       ]
+      },
+      "holst": {
+       "CD": -0.0003726476616359232,
+       "n_i": 10,
+       "n_j": 12,
+       "n_k": 5345
+      },
+      "n_i": 10,
+      "n_j": 12,
+      "n_k": 5345,
+      "n_window": 5367,
+      "t": 3,
+      "t_nominal": 3,
+      "truncated": false
+     },
+     "5": {
+      "CD": 0.0008391608391608392,
+      "CD_nok": 0.16666666666666666,
+      "DI2": {
+       "n_i": 25,
+       "n_j": 11,
+       "n_k": 1139,
+       "value": 0.011914893617021277
+      },
+      "DI5": {
+       "n_i": 33,
+       "n_j": 3,
+       "n_k": 62,
+       "value": 0.30612244897959184
+      },
+      "checks": {
+       "ni_plus_nj": 36,
+       "ni_plus_nj_eq_p_citers_in_window": true,
+       "ni_plus_nj_le_cited_by_count": true,
+       "ni_plus_nj_le_s2_citation_count": true,
+       "p_citers_in_window": 36
+      },
+      "ci_95": {
+       "CD": [
+        -0.0007027972027972025,
+        0.0025174825174825175
+       ],
+       "CD_nok": [
+        -0.1668103448275862,
+        0.4706656346749222
+       ],
+       "DI2": [
+        0.0017270784623156464,
+        0.022103788161606103
+       ],
+       "DI5": [
+        0.20688718140929535,
+        0.41178308823529397
+       ],
+       "holst_CD": [
+        -0.0007027972027972025,
+        0.0025174825174825175
+       ]
+      },
+      "holst": {
+       "CD": 0.0008391608391608392,
+       "n_i": 21,
+       "n_j": 15,
+       "n_k": 7114
+      },
+      "n_i": 21,
+      "n_j": 15,
+      "n_k": 7114,
+      "n_window": 7150,
+      "t": 5,
+      "t_nominal": 5,
+      "truncated": false
+     }
+    }
+   },
+   "refs_audit": {
+    "false_references": [
+     {
+      "ano": 2009,
+      "openalex_id": "W1988530576",
+      "titulo": "A NEUROSURGEON'S GUIDE TO STEM CELLS, CANCER STEM CELLS, AND BRAIN TUMOR STEM CELLS"
+     },
+     {
+      "ano": 1982,
+      "openalex_id": "W2154236522",
+      "titulo": "FAO Plant Production and Protection Paper, Pesticide Residues in Food; Evaluations 1979, 560 Seiten. Food and Agriculture Organization of the United Nations, Rome 1980."
+     },
+     {
+      "ano": 2015,
+      "openalex_id": "W2220779474",
+      "titulo": "Comparative Influences of Precipitation and River Stage on Groundwater Levels in Near-River Areas"
+     },
+     {
+      "ano": 2014,
+      "openalex_id": "W3127473765",
+      "titulo": "Background paper on the economics of food loss and waste"
+     }
+    ],
+    "n_false_references": 4,
+    "n_openalex_raw": 45,
+    "n_pdf": 45,
+    "n_unresolvable": 10,
+    "n_valid": 35,
+    "unresolvable": [
+     {
+      "ano": 2012,
+      "n_no_pdf": 2,
+      "titulo": "Urbanization: a major driver of infrastructure spending"
+     },
+     {
+      "ano": 2018,
+      "n_no_pdf": 3,
+      "titulo": "AMIS - Agricultural Market Information System [WWW Document]"
+     },
+     {
+      "ano": 2001,
+      "n_no_pdf": 11,
+      "titulo": "Food balance sheets - A handbook"
+     },
+     {
+      "ano": 2018,
+      "n_no_pdf": 13,
+      "titulo": "INPhO - Information on post-harvest operations [WWW Document]"
+     },
+     {
+      "ano": 2017,
+      "n_no_pdf": 14,
+      "titulo": "FAO database for food and agriculture [WWW Document]"
+     },
+     {
+      "ano": 2000,
+      "n_no_pdf": 17,
+      "titulo": "Econometric Analysis"
+     },
+     {
+      "ano": 2014,
+      "n_no_pdf": 21,
+      "titulo": "Food losses and waste in the context of sustainable food systems, A report by the High Level Panel of Experts on Food Security and Nutrition of the Committee on World Food Security"
+     },
+     {
+      "ano": 2014,
+      "n_no_pdf": 36,
+      "titulo": "Background paper on the economics of food loss and waste (unedited working paper)"
+     },
+     {
+      "ano": 2017,
+      "n_no_pdf": 41,
+      "titulo": "UNESCO Institute for Statistics data base"
+     },
+     {
+      "ano": 2017,
+      "n_no_pdf": 44,
+      "titulo": "World Bank Open Data"
+     }
+    ]
+   }
+  }
+ },
+ "cobertura_quartil": {
+  "Q1": {
+   "aresta_falsa": 0,
+   "fantasma": 5,
+   "pct_evidencia": {
+    "pct": "91%",
+    "ratio": "63/69",
+    "valor": 0.913
+   },
+   "pct_trecho": {
+    "pct": "84%",
+    "ratio": "58/69",
+    "valor": 0.8406
+   },
+   "pendente": 6,
+   "total": 69,
+   "trecho": 58
+  },
+  "Q2": {
+   "aresta_falsa": 1,
+   "fantasma": 0,
+   "pct_evidencia": {
+    "pct": "63%",
+    "ratio": "10/16",
+    "valor": 0.625
+   },
+   "pct_trecho": {
+    "pct": "63%",
+    "ratio": "10/16",
+    "valor": 0.625
+   },
+   "pendente": 5,
+   "total": 16,
+   "trecho": 10
+  },
+  "Q3": {
+   "aresta_falsa": 0,
+   "fantasma": 1,
+   "pct_evidencia": {
+    "pct": "75%",
+    "ratio": "6/8",
+    "valor": 0.75
+   },
+   "pct_trecho": {
+    "pct": "63%",
+    "ratio": "5/8",
+    "valor": 0.625
+   },
+   "pendente": 2,
+   "total": 8,
+   "trecho": 5
+  },
+  "Q4": {
+   "aresta_falsa": 0,
+   "fantasma": 0,
+   "pct_evidencia": {
+    "pct": "20%",
+    "ratio": "1/5",
+    "valor": 0.2
+   },
+   "pct_trecho": {
+    "pct": "20%",
+    "ratio": "1/5",
+    "valor": 0.2
+   },
+   "pendente": 4,
+   "total": 5,
+   "trecho": 1
+  },
+  "pendentes": [
+   {
+    "doi": "10.1108/ejm-01-2023-0014",
+    "editora": "Emerald Publishing Limited",
+    "id": "airline_006",
+    "quartil": "Q1",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1108/ejm-02-2021-0087",
+    "editora": "Emerald Publishing Limited",
+    "id": "airline_021",
+    "quartil": "Q1",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1515/rne-2021-0016",
+    "editora": "De Gruyter",
+    "id": "airline_060",
+    "quartil": "Q4",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1504/ijsa.2016.080244",
+    "editora": "Inderscience Publishers",
+    "id": "airline_s004",
+    "quartil": "Q3",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1108/dta-08-2024-0806",
+    "editora": "Emerald Publishing Limited",
+    "id": "grains_003",
+    "quartil": "Q2",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1155/aia/5730172",
+    "editora": "Hindawi Publishing Corporation",
+    "id": "grains_006",
+    "quartil": "Q1",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.1155/aia/3910210",
+    "editora": "Hindawi Publishing Corporation",
+    "id": "grains_007",
+    "quartil": "Q1",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.1002/fes3.70086",
+    "editora": "Wiley",
+    "id": "grains_014",
+    "quartil": "Q1",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.17221/221/2023-agricecon",
+    "editora": "Czech Academy of Agricultural Sciences",
+    "id": "grains_020",
+    "quartil": "Q2",
+    "status": "tem_texto"
+   },
+   {
+    "doi": "10.1111/jfpe.14456",
+    "editora": "Wiley",
+    "id": "grains_027",
+    "quartil": "Q2",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1002/est2.461",
+    "editora": "Wiley",
+    "id": "grains_029",
+    "quartil": "Q2",
+    "status": "oa_antibot"
+   },
+   {
+    "doi": "10.1108/afr-06-2022-0076",
+    "editora": "Emerald Publishing Limited",
+    "id": "grains_030",
+    "quartil": "Q2",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1007/978-981-16-3791-9_8",
+    "editora": "Springer Nature",
+    "id": "grains_050",
+    "quartil": "Q4",
+    "status": "evidencia_insuficiente"
+   },
+   {
+    "doi": "10.1007/s43621-026-04167-9",
+    "editora": "Springer Nature",
+    "id": "grains_s003",
+    "quartil": "Q1",
+    "status": "texto_parcial"
+   },
+   {
+    "doi": "10.1504/ijvcm.2023.10053852",
+    "editora": "Inderscience Publishers",
+    "id": "grains_s006",
+    "quartil": "Q4",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.1504/ijpti.2025.10075141",
+    "editora": "Inderscience Publishers",
+    "id": "grains_s010",
+    "quartil": "Q4",
+    "status": "fechado"
+   },
+   {
+    "doi": "10.13031/aea.16468",
+    "editora": "American Society of Agricultural and Biological Engineers",
+    "id": "grains_s011",
+    "quartil": "Q3",
+    "status": "fechado"
+   }
+  ],
+  "por_artigo": {
+   "airline": {
+    "Q1": {
+     "aresta_falsa": 0,
+     "fantasma": 3,
+     "pct_evidencia": {
+      "pct": "95%",
+      "ratio": "41/43",
+      "valor": 0.9535
+     },
+     "pct_trecho": {
+      "pct": "88%",
+      "ratio": "38/43",
+      "valor": 0.8837
+     },
+     "pendente": 2,
+     "total": 43,
+     "trecho": 38
+    },
+    "Q2": {
+     "aresta_falsa": 0,
+     "fantasma": 0,
+     "pct_evidencia": {
+      "pct": "100%",
+      "ratio": "4/4",
+      "valor": 1.0
+     },
+     "pct_trecho": {
+      "pct": "100%",
+      "ratio": "4/4",
+      "valor": 1.0
+     },
+     "pendente": 0,
+     "total": 4,
+     "trecho": 4
+    },
+    "Q3": {
+     "aresta_falsa": 0,
+     "fantasma": 0,
+     "pct_evidencia": {
+      "pct": "0%",
+      "ratio": "0/1",
+      "valor": 0.0
+     },
+     "pct_trecho": {
+      "pct": "0%",
+      "ratio": "0/1",
+      "valor": 0.0
+     },
+     "pendente": 1,
+     "total": 1,
+     "trecho": 0
+    },
+    "Q4": {
+     "aresta_falsa": 0,
+     "fantasma": 0,
+     "pct_evidencia": {
+      "pct": "50%",
+      "ratio": "1/2",
+      "valor": 0.5
+     },
+     "pct_trecho": {
+      "pct": "50%",
+      "ratio": "1/2",
+      "valor": 0.5
+     },
+     "pendente": 1,
+     "total": 2,
+     "trecho": 1
+    },
+    "total": {
+     "aresta_falsa": 0,
+     "fantasma": 3,
+     "pct_evidencia": {
+      "pct": "92%",
+      "ratio": "46/50",
+      "valor": 0.92
+     },
+     "pct_trecho": {
+      "pct": "86%",
+      "ratio": "43/50",
+      "valor": 0.86
+     },
+     "pendente": 4,
+     "total": 50,
+     "trecho": 43
+    }
+   },
+   "grains": {
+    "Q1": {
+     "aresta_falsa": 0,
+     "fantasma": 2,
+     "pct_evidencia": {
+      "pct": "85%",
+      "ratio": "22/26",
+      "valor": 0.8462
+     },
+     "pct_trecho": {
+      "pct": "77%",
+      "ratio": "20/26",
+      "valor": 0.7692
+     },
+     "pendente": 4,
+     "total": 26,
+     "trecho": 20
+    },
+    "Q2": {
+     "aresta_falsa": 1,
+     "fantasma": 0,
+     "pct_evidencia": {
+      "pct": "50%",
+      "ratio": "6/12",
+      "valor": 0.5
+     },
+     "pct_trecho": {
+      "pct": "50%",
+      "ratio": "6/12",
+      "valor": 0.5
+     },
+     "pendente": 5,
+     "total": 12,
+     "trecho": 6
+    },
+    "Q3": {
+     "aresta_falsa": 0,
+     "fantasma": 1,
+     "pct_evidencia": {
+      "pct": "86%",
+      "ratio": "6/7",
+      "valor": 0.8571
+     },
+     "pct_trecho": {
+      "pct": "71%",
+      "ratio": "5/7",
+      "valor": 0.7143
+     },
+     "pendente": 1,
+     "total": 7,
+     "trecho": 5
+    },
+    "Q4": {
+     "aresta_falsa": 0,
+     "fantasma": 0,
+     "pct_evidencia": {
+      "pct": "0%",
+      "ratio": "0/3",
+      "valor": 0.0
+     },
+     "pct_trecho": {
+      "pct": "0%",
+      "ratio": "0/3",
+      "valor": 0.0
+     },
+     "pendente": 3,
+     "total": 3,
+     "trecho": 0
+    },
+    "total": {
+     "aresta_falsa": 1,
+     "fantasma": 3,
+     "pct_evidencia": {
+      "pct": "71%",
+      "ratio": "34/48",
+      "valor": 0.7083
+     },
+     "pct_trecho": {
+      "pct": "65%",
+      "ratio": "31/48",
+      "valor": 0.6458
+     },
+     "pendente": 13,
+     "total": 48,
+     "trecho": 31
+    }
+   }
+  },
+  "total": {
+   "aresta_falsa": 1,
+   "fantasma": 6,
+   "pct_evidencia": {
+    "pct": "82%",
+    "ratio": "80/98",
+    "valor": 0.8163
+   },
+   "pct_trecho": {
+    "pct": "76%",
+    "ratio": "74/98",
+    "valor": 0.7551
+   },
+   "pendente": 17,
+   "total": 98,
+   "trecho": 74
+  }
+ },
+ "cocitacao": {
+  "brokerage": {
+   "AB": {
+    "k_cites_focal": 14,
+    "n": 48,
+    "rate": 0.2916666666666667
+   },
+   "A_only": {
+    "k_cites_focal": 8,
+    "n": 247,
+    "rate": 0.032388663967611336
+   },
+   "B_only": {
+    "k_cites_focal": 10,
+    "n": 270,
+    "rate": 0.037037037037037035
+   },
+   "binom_test_AB_vs_single_p0": {
+    "k": 14,
+    "n": 48,
+    "p0": 0.03481624758220503,
+    "p_two_sided": 6.05015889941978e-10
+   },
+   "brokerage_share": 0.2916666666666667,
+   "checks": {
+    "k_ab_le_focal_citers_in_window": true
+   },
+   "n_focal_citers_in_window": 49,
+   "odds_ratio_AB_vs_A_only": 12.301470588235297,
+   "odds_ratio_AB_vs_B_only": 10.705882352941181,
+   "odds_ratio_AB_vs_single": 11.415032679738564,
+   "post_window": [
+    2016,
+    2026
+   ],
+   "single_strand": {
+    "k_cites_focal": 18,
+    "n": 517,
+    "rate": 0.03481624758220503
+   }
+  },
+  "passage_confirmation": {
+   "hits": [
+    {
+     "doi": "10.1016/j.tra.2018.10.012",
+     "note": "Transportation Research Part A. Explica o mecanismo do artigo com precisão: separar concentração de mercado e de aeroporto, atribuindo internalização de congestionamento à concentração aeroportuária e efeito qualidade à concentração de mercado.",
+     "role": "foundational",
+     "stance": "supporting"
+    },
+    {
+     "doi": "10.1016/j.tre.2022.103000",
+     "note": "Transportation Research Part E. A descrição mais precisa que qualquer citante fez do artigo: identifica que ele concilia duas vertentes da literatura num único modelo econométrico, testando efeito de internalização e efeito concorrência-qualidade.",
+     "role": "real_mention",
+     "stance": "supporting"
+    }
+   ],
+   "keywords": [
+    "strand",
+    "conciliat",
+    "reconcil",
+    "two strands",
+    "duas vertentes"
+   ],
+   "n_hits": 2
+  },
+  "periods": {
+   "main": {
+    "delta_share_AB": 0.03154875405401,
+    "post": {
+     "N_A": 295,
+     "N_AB": 48,
+     "N_B": 318,
+     "N_union": 565,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.08495575221238938,
+     "salton_cosine": 0.15671720205481998,
+     "share_AB": 0.08495575221238938
+    },
+    "post_range": [
+     2016,
+     2026
+    ],
+    "pre": {
+     "N_A": 354,
+     "N_AB": 29,
+     "N_B": 218,
+     "N_union": 543,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.053406998158379376,
+     "salton_cosine": 0.10439221680646156,
+     "share_AB": 0.053406998158379376
+    },
+    "pre_range": [
+     2003,
+     2015
+    ]
+   },
+   "placebo_2011": {
+    "delta_share_AB": -0.0014205916833321813,
+    "post": {
+     "N_A": 462,
+     "N_AB": 59,
+     "N_B": 450,
+     "N_union": 853,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.06916764361078546,
+     "salton_cosine": 0.12939716667542123,
+     "share_AB": 0.06916764361078546
+    },
+    "post_range": [
+     2011,
+     2026
+    ],
+    "pre": {
+     "N_A": 187,
+     "N_AB": 18,
+     "N_B": 86,
+     "N_union": 255,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.07058823529411765,
+     "salton_cosine": 0.1419392402294931,
+     "share_AB": 0.07058823529411765
+    },
+    "pre_range": [
+     2003,
+     2010
+    ]
+   },
+   "placebo_2020": {
+    "delta_share_AB": 0.011157342588393057,
+    "post": {
+     "N_A": 168,
+     "N_AB": 25,
+     "N_B": 180,
+     "N_union": 323,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.07739938080495357,
+     "salton_cosine": 0.1437636581963238,
+     "share_AB": 0.07739938080495357
+    },
+    "post_range": [
+     2020,
+     2026
+    ],
+    "pre": {
+     "N_A": 481,
+     "N_AB": 52,
+     "N_B": 356,
+     "N_union": 785,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.06624203821656051,
+     "salton_cosine": 0.12566253208831682,
+     "share_AB": 0.06624203821656051
+    },
+    "pre_range": [
+     2003,
+     2019
+    ]
+   },
+   "sensitivity": {
+    "delta_share_AB": 0.029126591093060164,
+    "post": {
+     "N_A": 272,
+     "N_AB": 43,
+     "N_B": 292,
+     "N_union": 521,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.08253358925143954,
+     "salton_cosine": 0.15257823187223352,
+     "share_AB": 0.08253358925143954
+    },
+    "post_range": [
+     2017,
+     2026
+    ],
+    "pre": {
+     "N_A": 354,
+     "N_AB": 29,
+     "N_B": 218,
+     "N_union": 543,
+     "checks": {
+      "N_AB_le_min_NA_NB": true
+     },
+     "jaccard": 0.053406998158379376,
+     "salton_cosine": 0.10439221680646156,
+     "share_AB": 0.053406998158379376
+    },
+    "pre_range": [
+     2003,
+     2015
+    ]
+   }
+  },
+  "tests": {
+   "fisher_period_x_cocites_both": {
+    "p_two_sided": 0.04436030730478797,
+    "table_rows_pre_post__cols_AB_single": [
+     [
+      29,
+      514
+     ],
+     [
+      48,
+      517
+     ]
+    ]
+   },
+   "permutation_delta_share_AB_main": {
+    "delta_observed": 0.03154875405401,
+    "n_perm": 10000,
+    "p_value": 0.043495650434956505,
+    "share_post_observed": 0.08495575221238938,
+    "share_pre_observed": 0.053406998158379376
+   }
+  }
+ },
+ "eixos": {
+  "airline": {
+   "accuracy": {
+    "accurate": {
+     "D": 52,
+     "n": 37,
+     "pct": "71%",
+     "ratio": "37/52",
+     "valor": 0.7115
+    },
+    "imprecise": {
+     "D": 52,
+     "n": 8,
+     "pct": "15%",
+     "ratio": "8/52",
+     "valor": 0.1538
+    },
+    "misrepresented": {
+     "D": 52,
+     "n": 7,
+     "pct": "13%",
+     "ratio": "7/52",
+     "valor": 0.1346
+    }
+   },
+   "background_like": {
+    "D": 52,
+    "definicao": "drive_by + brief_mention + real_mention com reuse vazio",
+    "n": 45,
+    "pct": "87%",
+    "ratio": "45/52",
+    "valor": 0.8654
+   },
+   "depth": {
+    "brief_mention": {
+     "D": 52,
+     "n": 29,
+     "pct": "56%",
+     "ratio": "29/52",
+     "valor": 0.5577
+    },
+    "drive_by": {
+     "D": 52,
+     "n": 5,
+     "pct": "10%",
+     "ratio": "5/52",
+     "valor": 0.0962
+    },
+    "foundational": {
+     "D": 52,
+     "n": 4,
+     "pct": "8%",
+     "ratio": "4/52",
+     "valor": 0.0769
+    },
+    "real_mention": {
+     "D": 52,
+     "n": 11,
+     "pct": "21%",
+     "ratio": "11/52",
+     "valor": 0.2115
+    },
+    "supporting": {
+     "D": 52,
+     "n": 3,
+     "pct": "6%",
+     "ratio": "3/52",
+     "valor": 0.0577
+    }
+   },
+   "distortion": {
+    "dead_end": {
+     "D": 52,
+     "n": 4,
+     "pct": "8%",
+     "ratio": "4/52",
+     "valor": 0.0769
+    },
+    "diversion": {
+     "D": 52,
+     "n": 6,
+     "pct": "12%",
+     "ratio": "6/52",
+     "valor": 0.1154
+    },
+    "relayed_attribution": {
+     "D": 52,
+     "n": 2,
+     "pct": "4%",
+     "ratio": "2/52",
+     "valor": 0.0385
+    },
+    "transmutation": {
+     "D": 52,
+     "n": 3,
+     "pct": "6%",
+     "ratio": "3/52",
+     "valor": 0.0577
+    }
+   },
+   "highlight": {
+    "best": {
+     "D": 52,
+     "n": 2,
+     "pct": "4%",
+     "ratio": "2/52",
+     "valor": 0.0385
+    },
+    "good": {
+     "D": 52,
+     "n": 10,
+     "pct": "19%",
+     "ratio": "10/52",
+     "valor": 0.1923
+    },
+    "none": {
+     "D": 52,
+     "n": 40,
+     "pct": "77%",
+     "ratio": "40/52",
+     "valor": 0.7692
+    }
+   },
+   "perfunctorio": {
+    "D": 52,
+    "definicao": "drive_by + brief_mention",
+    "n": 34,
+    "pct": "65%",
+    "ratio": "34/52",
+    "valor": 0.6538
+   },
+   "presence": {
+    "in_text": {
+     "D": 56,
+     "n": 52,
+     "pct": "93%",
+     "ratio": "52/56",
+     "valor": 0.9286
+    },
+    "not_cited": {
+     "D": 56,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/56",
+     "valor": 0.0
+    },
+    "reference_list_only": {
+     "D": 56,
+     "n": 4,
+     "pct": "7%",
+     "ratio": "4/56",
+     "valor": 0.0714
+    }
+   },
+   "record_flags": {
+    "duplicate_publication": {
+     "D": 56,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/56",
+     "valor": 0.0
+    }
+   },
+   "relation": {
+    "coauthor": {
+     "D": 56,
+     "n": 3,
+     "pct": "5%",
+     "ratio": "3/56",
+     "valor": 0.0536
+    },
+    "independent": {
+     "D": 56,
+     "n": 52,
+     "pct": "93%",
+     "ratio": "52/56",
+     "valor": 0.9286
+    },
+    "self": {
+     "D": 56,
+     "n": 1,
+     "pct": "2%",
+     "ratio": "1/56",
+     "valor": 0.0179
+    }
+   },
+   "reuse": {
+    "benchmarking": {
+     "D": 52,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/52",
+     "valor": 0.0
+    },
+    "dataset_reuse": {
+     "D": 52,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/52",
+     "valor": 0.0
+    },
+    "method_adoption": {
+     "D": 52,
+     "n": 3,
+     "pct": "6%",
+     "ratio": "3/52",
+     "valor": 0.0577
+    },
+    "result_validated": {
+     "D": 52,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/52",
+     "valor": 0.0
+    },
+    "work_extended": {
+     "D": 52,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/52",
+     "valor": 0.0
+    }
+   },
+   "reuse_externo": {
+    "D_ind": 48,
+    "n": 3,
+    "pct": {
+     "pct": "6%",
+     "ratio": "3/48",
+     "valor": 0.0625
+    }
+   },
+   "stance": {
+    "contradictory": {
+     "D": 52,
+     "n": 1,
+     "pct": "2%",
+     "ratio": "1/52",
+     "valor": 0.0192
+    },
+    "none": {
+     "D": 52,
+     "n": 3,
+     "pct": "6%",
+     "ratio": "3/52",
+     "valor": 0.0577
+    },
+    "supporting": {
+     "D": 52,
+     "n": 48,
+     "pct": "92%",
+     "ratio": "48/52",
+     "valor": 0.9231
+    }
+   },
+   "substantivo": {
+    "D": 52,
+    "definicao": "supporting + foundational",
+    "n": 7,
+    "pct": "13%",
+    "ratio": "7/52",
+    "valor": 0.1346
+   }
+  },
+  "grains": {
+   "accuracy": {
+    "accurate": {
+     "D": 40,
+     "n": 20,
+     "pct": "50%",
+     "ratio": "20/40",
+     "valor": 0.5
+    },
+    "imprecise": {
+     "D": 40,
+     "n": 11,
+     "pct": "28%",
+     "ratio": "11/40",
+     "valor": 0.275
+    },
+    "misrepresented": {
+     "D": 40,
+     "n": 9,
+     "pct": "23%",
+     "ratio": "9/40",
+     "valor": 0.225
+    }
+   },
+   "background_like": {
+    "D": 40,
+    "definicao": "drive_by + brief_mention + real_mention com reuse vazio",
+    "n": 38,
+    "pct": "95%",
+    "ratio": "38/40",
+    "valor": 0.95
+   },
+   "depth": {
+    "brief_mention": {
+     "D": 40,
+     "n": 24,
+     "pct": "60%",
+     "ratio": "24/40",
+     "valor": 0.6
+    },
+    "drive_by": {
+     "D": 40,
+     "n": 10,
+     "pct": "25%",
+     "ratio": "10/40",
+     "valor": 0.25
+    },
+    "foundational": {
+     "D": 40,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/40",
+     "valor": 0.0
+    },
+    "real_mention": {
+     "D": 40,
+     "n": 4,
+     "pct": "10%",
+     "ratio": "4/40",
+     "valor": 0.1
+    },
+    "supporting": {
+     "D": 40,
+     "n": 2,
+     "pct": "5%",
+     "ratio": "2/40",
+     "valor": 0.05
+    }
+   },
+   "distortion": {
+    "dead_end": {
+     "D": 40,
+     "n": 7,
+     "pct": "18%",
+     "ratio": "7/40",
+     "valor": 0.175
+    },
+    "diversion": {
+     "D": 40,
+     "n": 10,
+     "pct": "25%",
+     "ratio": "10/40",
+     "valor": 0.25
+    },
+    "relayed_attribution": {
+     "D": 40,
+     "n": 3,
+     "pct": "8%",
+     "ratio": "3/40",
+     "valor": 0.075
+    },
+    "transmutation": {
+     "D": 40,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/40",
+     "valor": 0.0
+    }
+   },
+   "highlight": {
+    "best": {
+     "D": 40,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/40",
+     "valor": 0.0
+    },
+    "good": {
+     "D": 40,
+     "n": 5,
+     "pct": "13%",
+     "ratio": "5/40",
+     "valor": 0.125
+    },
+    "none": {
+     "D": 40,
+     "n": 35,
+     "pct": "88%",
+     "ratio": "35/40",
+     "valor": 0.875
+    }
+   },
+   "perfunctorio": {
+    "D": 40,
+    "definicao": "drive_by + brief_mention",
+    "n": 34,
+    "pct": "85%",
+    "ratio": "34/40",
+    "valor": 0.85
+   },
+   "presence": {
+    "in_text": {
+     "D": 48,
+     "n": 40,
+     "pct": "83%",
+     "ratio": "40/48",
+     "valor": 0.8333
+    },
+    "not_cited": {
+     "D": 48,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/48",
+     "valor": 0.0
+    },
+    "reference_list_only": {
+     "D": 48,
+     "n": 8,
+     "pct": "17%",
+     "ratio": "8/48",
+     "valor": 0.1667
+    }
+   },
+   "record_flags": {
+    "duplicate_publication": {
+     "D": 48,
+     "n": 3,
+     "pct": "6%",
+     "ratio": "3/48",
+     "valor": 0.0625
+    }
+   },
+   "relation": {
+    "coauthor": {
+     "D": 48,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/48",
+     "valor": 0.0
+    },
+    "independent": {
+     "D": 48,
+     "n": 48,
+     "pct": "100%",
+     "ratio": "48/48",
+     "valor": 1.0
+    },
+    "self": {
+     "D": 48,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/48",
+     "valor": 0.0
+    }
+   },
+   "reuse": {
+    "benchmarking": {
+     "D": 40,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/40",
+     "valor": 0.0
+    },
+    "dataset_reuse": {
+     "D": 40,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/40",
+     "valor": 0.0
+    },
+    "method_adoption": {
+     "D": 40,
+     "n": 2,
+     "pct": "5%",
+     "ratio": "2/40",
+     "valor": 0.05
+    },
+    "result_validated": {
+     "D": 40,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/40",
+     "valor": 0.0
+    },
+    "work_extended": {
+     "D": 40,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/40",
+     "valor": 0.0
+    }
+   },
+   "reuse_externo": {
+    "D_ind": 40,
+    "n": 2,
+    "pct": {
+     "pct": "5%",
+     "ratio": "2/40",
+     "valor": 0.05
+    }
+   },
+   "stance": {
+    "contradictory": {
+     "D": 40,
+     "n": 1,
+     "pct": "3%",
+     "ratio": "1/40",
+     "valor": 0.025
+    },
+    "none": {
+     "D": 40,
+     "n": 6,
+     "pct": "15%",
+     "ratio": "6/40",
+     "valor": 0.15
+    },
+    "supporting": {
+     "D": 40,
+     "n": 33,
+     "pct": "83%",
+     "ratio": "33/40",
+     "valor": 0.825
+    }
+   },
+   "substantivo": {
+    "D": 40,
+    "definicao": "supporting + foundational",
+    "n": 2,
+    "pct": "5%",
+    "ratio": "2/40",
+    "valor": 0.05
+   }
+  },
+  "pooled": {
+   "accuracy": {
+    "accurate": {
+     "D": 92,
+     "n": 57,
+     "pct": "62%",
+     "ratio": "57/92",
+     "valor": 0.6196
+    },
+    "imprecise": {
+     "D": 92,
+     "n": 19,
+     "pct": "21%",
+     "ratio": "19/92",
+     "valor": 0.2065
+    },
+    "misrepresented": {
+     "D": 92,
+     "n": 16,
+     "pct": "17%",
+     "ratio": "16/92",
+     "valor": 0.1739
+    }
+   },
+   "background_like": {
+    "D": 92,
+    "definicao": "drive_by + brief_mention + real_mention com reuse vazio",
+    "n": 83,
+    "pct": "90%",
+    "ratio": "83/92",
+    "valor": 0.9022
+   },
+   "depth": {
+    "brief_mention": {
+     "D": 92,
+     "n": 53,
+     "pct": "58%",
+     "ratio": "53/92",
+     "valor": 0.5761
+    },
+    "drive_by": {
+     "D": 92,
+     "n": 15,
+     "pct": "16%",
+     "ratio": "15/92",
+     "valor": 0.163
+    },
+    "foundational": {
+     "D": 92,
+     "n": 4,
+     "pct": "4%",
+     "ratio": "4/92",
+     "valor": 0.0435
+    },
+    "real_mention": {
+     "D": 92,
+     "n": 15,
+     "pct": "16%",
+     "ratio": "15/92",
+     "valor": 0.163
+    },
+    "supporting": {
+     "D": 92,
+     "n": 5,
+     "pct": "5%",
+     "ratio": "5/92",
+     "valor": 0.0543
+    }
+   },
+   "distortion": {
+    "dead_end": {
+     "D": 92,
+     "n": 11,
+     "pct": "12%",
+     "ratio": "11/92",
+     "valor": 0.1196
+    },
+    "diversion": {
+     "D": 92,
+     "n": 16,
+     "pct": "17%",
+     "ratio": "16/92",
+     "valor": 0.1739
+    },
+    "relayed_attribution": {
+     "D": 92,
+     "n": 5,
+     "pct": "5%",
+     "ratio": "5/92",
+     "valor": 0.0543
+    },
+    "transmutation": {
+     "D": 92,
+     "n": 3,
+     "pct": "3%",
+     "ratio": "3/92",
+     "valor": 0.0326
+    }
+   },
+   "highlight": {
+    "best": {
+     "D": 92,
+     "n": 2,
+     "pct": "2%",
+     "ratio": "2/92",
+     "valor": 0.0217
+    },
+    "good": {
+     "D": 92,
+     "n": 15,
+     "pct": "16%",
+     "ratio": "15/92",
+     "valor": 0.163
+    },
+    "none": {
+     "D": 92,
+     "n": 75,
+     "pct": "82%",
+     "ratio": "75/92",
+     "valor": 0.8152
+    }
+   },
+   "perfunctorio": {
+    "D": 92,
+    "definicao": "drive_by + brief_mention",
+    "n": 68,
+    "pct": "74%",
+    "ratio": "68/92",
+    "valor": 0.7391
+   },
+   "presence": {
+    "in_text": {
+     "D": 104,
+     "n": 92,
+     "pct": "88%",
+     "ratio": "92/104",
+     "valor": 0.8846
+    },
+    "not_cited": {
+     "D": 104,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/104",
+     "valor": 0.0
+    },
+    "reference_list_only": {
+     "D": 104,
+     "n": 12,
+     "pct": "12%",
+     "ratio": "12/104",
+     "valor": 0.1154
+    }
+   },
+   "record_flags": {
+    "duplicate_publication": {
+     "D": 104,
+     "n": 3,
+     "pct": "3%",
+     "ratio": "3/104",
+     "valor": 0.0288
+    }
+   },
+   "relation": {
+    "coauthor": {
+     "D": 104,
+     "n": 3,
+     "pct": "3%",
+     "ratio": "3/104",
+     "valor": 0.0288
+    },
+    "independent": {
+     "D": 104,
+     "n": 100,
+     "pct": "96%",
+     "ratio": "100/104",
+     "valor": 0.9615
+    },
+    "self": {
+     "D": 104,
+     "n": 1,
+     "pct": "1%",
+     "ratio": "1/104",
+     "valor": 0.0096
+    }
+   },
+   "reuse": {
+    "benchmarking": {
+     "D": 92,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/92",
+     "valor": 0.0
+    },
+    "dataset_reuse": {
+     "D": 92,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/92",
+     "valor": 0.0
+    },
+    "method_adoption": {
+     "D": 92,
+     "n": 5,
+     "pct": "5%",
+     "ratio": "5/92",
+     "valor": 0.0543
+    },
+    "result_validated": {
+     "D": 92,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/92",
+     "valor": 0.0
+    },
+    "work_extended": {
+     "D": 92,
+     "n": 0,
+     "pct": "0%",
+     "ratio": "0/92",
+     "valor": 0.0
+    }
+   },
+   "reuse_externo": {
+    "D_ind": 88,
+    "n": 5,
+    "pct": {
+     "pct": "6%",
+     "ratio": "5/88",
+     "valor": 0.0568
+    }
+   },
+   "stance": {
+    "contradictory": {
+     "D": 92,
+     "n": 2,
+     "pct": "2%",
+     "ratio": "2/92",
+     "valor": 0.0217
+    },
+    "none": {
+     "D": 92,
+     "n": 9,
+     "pct": "10%",
+     "ratio": "9/92",
+     "valor": 0.0978
+    },
+    "supporting": {
+     "D": 92,
+     "n": 81,
+     "pct": "88%",
+     "ratio": "81/92",
+     "valor": 0.8804
+    }
+   },
+   "substantivo": {
+    "D": 92,
+    "definicao": "supporting + foundational",
+    "n": 9,
+    "pct": "10%",
+    "ratio": "9/92",
+    "valor": 0.0978
+   }
+  }
+ },
+ "inventario": {
+  "classificados": 104,
+  "com_doi": {
+   "airline": 74,
+   "grains": 73,
+   "total": 147
+  },
+  "por_artigo": {
+   "airline": 93,
+   "grains": 83
+  },
+  "por_status": {
+   "aresta_falsa": 2,
+   "evidencia_insuficiente": 7,
+   "fechado": 53,
+   "oa_antibot": 10,
+   "oa_bloqueado": 25,
+   "sem_doi": 5,
+   "so_scholar_sem_doi": 24,
+   "tem_texto": 34,
+   "texto_incorreto": 5,
+   "texto_parcial": 11
+  },
+  "por_status_por_artigo": {
+   "airline": {
+    "aresta_falsa": 1,
+    "evidencia_insuficiente": 1,
+    "fechado": 34,
+    "oa_antibot": 4,
+    "oa_bloqueado": 10,
+    "sem_doi": 4,
+    "so_scholar_sem_doi": 15,
+    "tem_texto": 14,
+    "texto_incorreto": 4,
+    "texto_parcial": 6
+   },
+   "grains": {
+    "aresta_falsa": 1,
+    "evidencia_insuficiente": 6,
+    "fechado": 19,
+    "oa_antibot": 6,
+    "oa_bloqueado": 15,
+    "sem_doi": 1,
+    "so_scholar_sem_doi": 9,
+    "tem_texto": 20,
+    "texto_incorreto": 1,
+    "texto_parcial": 5
+   }
+  },
+  "por_work_type": {
+   "article": 112,
+   "book": 1,
+   "book-chapter": 11,
+   "conference-paper": 6,
+   "dissertation": 4,
+   "preprint": 10,
+   "review": 2,
+   "sem_valor": 30
+  },
+  "por_work_type_por_artigo": {
+   "airline": {
+    "article": 55,
+    "book": 1,
+    "book-chapter": 4,
+    "conference-paper": 2,
+    "dissertation": 2,
+    "preprint": 9,
+    "sem_valor": 20
+   },
+   "grains": {
+    "article": 57,
+    "book-chapter": 7,
+    "conference-paper": 4,
+    "dissertation": 2,
+    "preprint": 1,
+    "review": 2,
+    "sem_valor": 10
+   }
+  },
+  "sem_doi": {
+   "airline": 19,
+   "grains": 10,
+   "total": 29
+  },
+  "total": 176
+ },
+ "meta": {
+  "backend_cd": {
+   "airline": "semanticscholar",
+   "grains": "semanticscholar"
+  },
+  "codebook": "METHOD.md@v2.1",
+  "fontes": {
+   "airline": {
+    "europepmc": 0,
+    "openalex": 53,
+    "opencitations": 39,
+    "s2": 49,
+    "uniao": 69
+   },
+   "grains": {
+    "europepmc": 0,
+    "openalex": 60,
+    "opencitations": 50,
+    "s2": 54,
+    "uniao": 62
+   }
+  },
+  "gerado_em": "2026-09-04",
+  "n_classificados": 104,
+  "n_registros": 176,
+  "scholar": {
+   "airline": {
+    "casados": 66,
+    "listadas": 95,
+    "novos": 24,
+    "ruido": 5
+   },
+   "grains": {
+    "casados": 52,
+    "listadas": 76,
+    "novos": 21,
+    "ruido": 3
+   }
+  },
+  "usou_projecao_classify_v1": false
+ },
+ "populacao": {
+  "airline": 49,
+  "classificados_dentro_da_populacao": {
+   "airline": 45,
+   "grains": 29,
+   "total": 74
+  },
+  "grains": 38,
+  "total": 87
+ }
+}

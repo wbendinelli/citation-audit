@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900" role="img" aria-labelledby="title desc">
+<title id="title">Quem citou, e como</title>
+<desc id="desc">Resumo do inventário e das leituras com passagem no snapshot atual.</desc>
+<rect x="0" y="0" width="640" height="900" rx="26" fill="#F2F3F3"/>
+<text x="40" y="62" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#212322" text-anchor="start" letter-spacing="2">SAPIANS / PESQUISA</text>
+<text x="40" y="184" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="84" font-weight="500" fill="#212322" text-anchor="start" letter-spacing="-3">Quem citou,</text>
+<text x="40" y="276" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="84" font-weight="500" fill="#212322" text-anchor="start" letter-spacing="-3">e como.</text>
+<text x="42" y="340" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#606060" text-anchor="start">Uma leitura da qualidade</text>
+<text x="42" y="378" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#606060" text-anchor="start">das citações recebidas.</text>
+<rect x="40" y="436" width="560" height="108" rx="18" fill="#FFFFFF"/>
+<text x="64" y="505" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="500" fill="#212322" text-anchor="start">177</text>
+<text x="196" y="501" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#606060" text-anchor="start">registros mapeados</text>
+<rect x="40" y="564" width="560" height="108" rx="18" fill="#FFFFFF"/>
+<text x="64" y="633" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="500" fill="#212322" text-anchor="start">105</text>
+<text x="196" y="629" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#606060" text-anchor="start">leituras com passagem</text>
+<rect x="40" y="692" width="560" height="108" rx="18" fill="#FFFFFF"/>
+<text x="64" y="761" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="500" fill="#212322" text-anchor="start">87</text>
+<text x="196" y="757" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#606060" text-anchor="start">citações na população</text>
+<text x="42" y="862" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#606060" text-anchor="start">Snapshot 2026-10-24 · audit_70</text>
+</svg>
